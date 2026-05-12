@@ -1,0 +1,31 @@
+{
+  "model": "gpt-5.4",
+  "datasets": [
+    {
+      "model": "gpt-5.4",
+      "dataset": "dataset1",
+      "total": 100,
+      "correct": 97,
+      "accuracy": 0.97
+    },
+    {
+      "model": "gpt-5.4",
+      "dataset": "dataset2",
+      "total": 100,
+      "correct": 94,
+      "accuracy": 0.94
+    },
+    {
+      "model": "gpt-5.4",
+      "dataset": "dataset3",
+      "total": 100,
+      "correct": 82,
+      "accuracy": 0.82
+    }
+  ],
+  "overall": {
+    "total": 300,
+    "correct": 273,
+    "accuracy": 0.91
+  }
+}

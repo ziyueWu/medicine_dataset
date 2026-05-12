@@ -1,0 +1,610 @@
+[
+  {
+    "id": 1,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较干姜附子汤与乌头赤石脂丸的区别，说明草乌头、花椒、赤石脂的作用以及增加草乌头、花椒、赤石脂后方剂主治病症有何变化",
+    "base_formula_name": "干姜附子汤",
+    "modified_formula_name": "乌头赤石脂丸",
+    "diff_component": [
+      "草乌头",
+      "花椒",
+      "赤石脂"
+    ],
+    "diff_component_text": "草乌头、花椒、赤石脂"
+  },
+  {
+    "id": 2,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝去芍药汤与越婢加半夏汤的区别，说明麻黄、石膏、半夏的作用以及增加麻黄、石膏、半夏后方剂主治病症有何变化",
+    "base_formula_name": "桂枝去芍药汤",
+    "modified_formula_name": "越婢加半夏汤",
+    "diff_component": [
+      "麻黄",
+      "石膏",
+      "半夏"
+    ],
+    "diff_component_text": "麻黄、石膏、半夏"
+  },
+  {
+    "id": 3,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝甘草龙骨牡蛎汤与桂枝去芍药加蜀漆牡蛎龙骨救逆汤的区别，说明生姜、大枣、蜀漆的作用以及增加生姜、大枣、蜀漆后方剂主治病症有何变化",
+    "base_formula_name": "桂枝甘草龙骨牡蛎汤",
+    "modified_formula_name": "桂枝去芍药加蜀漆牡蛎龙骨救逆汤",
+    "diff_component": [
+      "生姜",
+      "大枣",
+      "蜀漆"
+    ],
+    "diff_component_text": "生姜、大枣、蜀漆"
+  },
+  {
+    "id": 4,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝加桂汤与葛根加半夏汤的区别，说明葛根、麻黄、半夏的作用以及增加葛根、麻黄、半夏后方剂主治病症有何变化",
+    "base_formula_name": "桂枝加桂汤",
+    "modified_formula_name": "葛根加半夏汤",
+    "diff_component": [
+      "葛根",
+      "麻黄",
+      "半夏"
+    ],
+    "diff_component_text": "葛根、麻黄、半夏"
+  },
+  {
+    "id": 5,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较白术附子汤与桂枝加附子汤的区别，说明肉桂的作用以及增加肉桂后方剂主治病症有何变化",
+    "base_formula_name": "白术附子汤",
+    "modified_formula_name": "桂枝加附子汤",
+    "diff_component": [
+      "肉桂"
+    ],
+    "diff_component_text": "肉桂"
+  },
+  {
+    "id": 6,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝甘草汤与桂枝附子汤的区别，说明附子、生姜、大枣的作用以及增加附子、生姜、大枣后方剂主治病症有何变化",
+    "base_formula_name": "桂枝甘草汤",
+    "modified_formula_name": "桂枝附子汤",
+    "diff_component": [
+      "附子",
+      "生姜",
+      "大枣"
+    ],
+    "diff_component_text": "附子、生姜、大枣"
+  },
+  {
+    "id": 7,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝汤与黄芪建中汤的区别，说明黄芪、饴糖的作用以及增加黄芪、饴糖后方剂主治病症有何变化",
+    "base_formula_name": "桂枝汤",
+    "modified_formula_name": "黄芪建中汤",
+    "diff_component": [
+      "黄芪",
+      "饴糖"
+    ],
+    "diff_component_text": "黄芪、饴糖"
+  },
+  {
+    "id": 8,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较枳术丸与曲蘗枳术丸的区别，说明神曲、麦曲的作用以及增加神曲、麦曲后方剂主治病症有何变化",
+    "base_formula_name": "枳术丸",
+    "modified_formula_name": "曲蘗枳术丸",
+    "diff_component": [
+      "神曲",
+      "麦曲"
+    ],
+    "diff_component_text": "神曲、麦曲"
+  },
+  {
+    "id": 9,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较小建中汤与黄芪建中汤的区别，说明黄芪的作用以及增加黄芪后方剂主治病症有何变化",
+    "base_formula_name": "小建中汤",
+    "modified_formula_name": "黄芪建中汤",
+    "diff_component": [
+      "黄芪"
+    ],
+    "diff_component_text": "黄芪"
+  },
+  {
+    "id": 10,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝甘草汤与桂枝加桂汤的区别，说明芍药、生姜、大枣的作用以及增加芍药、生姜、大枣后方剂主治病症有何变化",
+    "base_formula_name": "桂枝甘草汤",
+    "modified_formula_name": "桂枝加桂汤",
+    "diff_component": [
+      "芍药",
+      "生姜",
+      "大枣"
+    ],
+    "diff_component_text": "芍药、生姜、大枣"
+  },
+  {
+    "id": 11,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较干姜附子汤与四逆汤的区别，说明甘草的作用以及增加甘草后方剂主治病症有何变化",
+    "base_formula_name": "干姜附子汤",
+    "modified_formula_name": "四逆汤",
+    "diff_component": [
+      "甘草"
+    ],
+    "diff_component_text": "甘草"
+  },
+  {
+    "id": 12,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较黄芩汤与黄芩加半夏生姜汤的区别，说明生姜、半夏的作用以及增加生姜、半夏后方剂主治病症有何变化",
+    "base_formula_name": "黄芩汤",
+    "modified_formula_name": "黄芩加半夏生姜汤",
+    "diff_component": [
+      "生姜",
+      "半夏"
+    ],
+    "diff_component_text": "生姜、半夏"
+  },
+  {
+    "id": 13,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较白头翁汤与白头翁加甘草阿胶汤的区别，说明甘草、阿胶的作用以及增加甘草、阿胶后方剂主治病症有何变化",
+    "base_formula_name": "白头翁汤",
+    "modified_formula_name": "白头翁加甘草阿胶汤",
+    "diff_component": [
+      "甘草",
+      "阿胶"
+    ],
+    "diff_component_text": "甘草、阿胶"
+  },
+  {
+    "id": 14,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较半夏泻心汤与生姜泻心汤的区别，说明生姜的作用以及增加生姜后方剂主治病症有何变化",
+    "base_formula_name": "半夏泻心汤",
+    "modified_formula_name": "生姜泻心汤",
+    "diff_component": [
+      "生姜"
+    ],
+    "diff_component_text": "生姜"
+  },
+  {
+    "id": 15,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较理中丸与桂枝人参汤的区别，说明桂枝的作用以及增加桂枝后方剂主治病症有何变化",
+    "base_formula_name": "理中丸",
+    "modified_formula_name": "桂枝人参汤",
+    "diff_component": [
+      "桂枝"
+    ],
+    "diff_component_text": "桂枝"
+  },
+  {
+    "id": 16,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝去芍药汤与桂枝加大黄汤的区别，说明桂枝、大黄、芍药的作用以及增加桂枝、大黄、芍药后方剂主治病症有何变化",
+    "base_formula_name": "桂枝去芍药汤",
+    "modified_formula_name": "桂枝加大黄汤",
+    "diff_component": [
+      "桂枝",
+      "大黄",
+      "芍药"
+    ],
+    "diff_component_text": "桂枝、大黄、芍药"
+  },
+  {
+    "id": 17,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝甘草汤与桂枝甘草龙骨牡蛎汤的区别，说明牡蛎、龙骨的作用以及增加牡蛎、龙骨后方剂主治病症有何变化",
+    "base_formula_name": "桂枝甘草汤",
+    "modified_formula_name": "桂枝甘草龙骨牡蛎汤",
+    "diff_component": [
+      "牡蛎",
+      "龙骨"
+    ],
+    "diff_component_text": "牡蛎、龙骨"
+  },
+  {
+    "id": 18,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较芍药甘草汤与乌头汤的区别，说明麻黄、黄芪、草乌头的作用以及增加麻黄、黄芪、草乌头后方剂主治病症有何变化",
+    "base_formula_name": "芍药甘草汤",
+    "modified_formula_name": "乌头汤",
+    "diff_component": [
+      "麻黄",
+      "黄芪",
+      "草乌头"
+    ],
+    "diff_component_text": "麻黄、黄芪、草乌头"
+  },
+  {
+    "id": 19,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝甘草汤与桃核承气汤的区别，说明桃仁、大黄、芒硝的作用以及增加桃仁、大黄、芒硝后方剂主治病症有何变化",
+    "base_formula_name": "桂枝甘草汤",
+    "modified_formula_name": "桃核承气汤",
+    "diff_component": [
+      "桃仁",
+      "大黄",
+      "芒硝"
+    ],
+    "diff_component_text": "桃仁、大黄、芒硝"
+  },
+  {
+    "id": 20,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较通脉四逆汤与温脾汤的区别，说明大黄、人参的作用以及增加大黄、人参后方剂主治病症有何变化",
+    "base_formula_name": "通脉四逆汤",
+    "modified_formula_name": "温脾汤",
+    "diff_component": [
+      "大黄",
+      "人参"
+    ],
+    "diff_component_text": "大黄、人参"
+  },
+  {
+    "id": 21,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝加桂汤与桂枝麻黄各半汤的区别，说明麻黄、苦杏仁的作用以及增加麻黄、苦杏仁后方剂主治病症有何变化",
+    "base_formula_name": "桂枝加桂汤",
+    "modified_formula_name": "桂枝麻黄各半汤",
+    "diff_component": [
+      "麻黄",
+      "苦杏仁"
+    ],
+    "diff_component_text": "麻黄、苦杏仁"
+  },
+  {
+    "id": 22,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝汤与桂枝麻黄各半汤的区别，说明麻黄、苦杏仁的作用以及增加麻黄、苦杏仁后方剂主治病症有何变化",
+    "base_formula_name": "桂枝汤",
+    "modified_formula_name": "桂枝麻黄各半汤",
+    "diff_component": [
+      "麻黄",
+      "苦杏仁"
+    ],
+    "diff_component_text": "麻黄、苦杏仁"
+  },
+  {
+    "id": 23,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝汤与小建中汤的区别，说明饴糖的作用以及增加饴糖后方剂主治病症有何变化",
+    "base_formula_name": "桂枝汤",
+    "modified_formula_name": "小建中汤",
+    "diff_component": [
+      "饴糖"
+    ],
+    "diff_component_text": "饴糖"
+  },
+  {
+    "id": 24,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较四君子汤与异功散的区别，说明陈皮的作用以及增加陈皮后方剂主治病症有何变化",
+    "base_formula_name": "四君子汤",
+    "modified_formula_name": "异功散",
+    "diff_component": [
+      "陈皮"
+    ],
+    "diff_component_text": "陈皮"
+  },
+  {
+    "id": 25,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝去芍药汤与枣肉平胃散的区别，说明陈皮、厚朴、苍术的作用以及增加陈皮、厚朴、苍术后方剂主治病症有何变化",
+    "base_formula_name": "桂枝去芍药汤",
+    "modified_formula_name": "枣肉平胃散",
+    "diff_component": [
+      "陈皮",
+      "厚朴",
+      "苍术"
+    ],
+    "diff_component_text": "陈皮、厚朴、苍术"
+  },
+  {
+    "id": 26,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较干姜附子汤与温脾汤的区别，说明大黄、人参、甘草的作用以及增加大黄、人参、甘草后方剂主治病症有何变化",
+    "base_formula_name": "干姜附子汤",
+    "modified_formula_name": "温脾汤",
+    "diff_component": [
+      "大黄",
+      "人参",
+      "甘草"
+    ],
+    "diff_component_text": "大黄、人参、甘草"
+  },
+  {
+    "id": 27,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝汤与桂枝二麻黄一汤的区别，说明苦杏仁、麻黄的作用以及增加苦杏仁、麻黄后方剂主治病症有何变化",
+    "base_formula_name": "桂枝汤",
+    "modified_formula_name": "桂枝二麻黄一汤",
+    "diff_component": [
+      "苦杏仁",
+      "麻黄"
+    ],
+    "diff_component_text": "苦杏仁、麻黄"
+  },
+  {
+    "id": 28,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较麻黄汤与麻黄加术汤的区别，说明白术的作用以及增加白术后方剂主治病症有何变化",
+    "base_formula_name": "麻黄汤",
+    "modified_formula_name": "麻黄加术汤",
+    "diff_component": [
+      "白术"
+    ],
+    "diff_component_text": "白术"
+  },
+  {
+    "id": 29,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝甘草汤与麻黄汤的区别，说明麻黄、苦杏仁的作用以及增加麻黄、苦杏仁后方剂主治病症有何变化",
+    "base_formula_name": "桂枝甘草汤",
+    "modified_formula_name": "麻黄汤",
+    "diff_component": [
+      "麻黄",
+      "苦杏仁"
+    ],
+    "diff_component_text": "麻黄、苦杏仁"
+  },
+  {
+    "id": 30,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝汤与葛根汤的区别，说明葛根、麻黄的作用以及增加葛根、麻黄后方剂主治病症有何变化",
+    "base_formula_name": "桂枝汤",
+    "modified_formula_name": "葛根汤",
+    "diff_component": [
+      "葛根",
+      "麻黄"
+    ],
+    "diff_component_text": "葛根、麻黄"
+  },
+  {
+    "id": 31,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较抵当汤与蟅虫散的区别，说明土鳖虫、桂心的作用以及增加土鳖虫、桂心后方剂主治病症有何变化",
+    "base_formula_name": "抵当汤",
+    "modified_formula_name": "蟅虫散",
+    "diff_component": [
+      "土鳖虫",
+      "桂心"
+    ],
+    "diff_component_text": "土鳖虫、桂心"
+  },
+  {
+    "id": 32,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较小承气汤与麻子仁丸的区别，说明火麻仁、芍药、苦杏仁的作用以及增加火麻仁、芍药、苦杏仁后方剂主治病症有何变化",
+    "base_formula_name": "小承气汤",
+    "modified_formula_name": "麻子仁丸",
+    "diff_component": [
+      "火麻仁",
+      "芍药",
+      "苦杏仁"
+    ],
+    "diff_component_text": "火麻仁、芍药、苦杏仁"
+  },
+  {
+    "id": 33,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝去芍药汤与黄芩加半夏生姜汤的区别，说明黄芩、芍药、半夏的作用以及增加黄芩、芍药、半夏后方剂主治病症有何变化",
+    "base_formula_name": "桂枝去芍药汤",
+    "modified_formula_name": "黄芩加半夏生姜汤",
+    "diff_component": [
+      "黄芩",
+      "芍药",
+      "半夏"
+    ],
+    "diff_component_text": "黄芩、芍药、半夏"
+  },
+  {
+    "id": 34,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝去芍药汤与桂枝加附子汤的区别，说明白术、附子、肉桂的作用以及增加白术、附子、肉桂后方剂主治病症有何变化",
+    "base_formula_name": "桂枝去芍药汤",
+    "modified_formula_name": "桂枝加附子汤",
+    "diff_component": [
+      "白术",
+      "附子",
+      "肉桂"
+    ],
+    "diff_component_text": "白术、附子、肉桂"
+  },
+  {
+    "id": 35,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝去芍药汤与桂枝新加汤的区别，说明桂枝、芍药、人参的作用以及增加桂枝、芍药、人参后方剂主治病症有何变化",
+    "base_formula_name": "桂枝去芍药汤",
+    "modified_formula_name": "桂枝新加汤",
+    "diff_component": [
+      "桂枝",
+      "芍药",
+      "人参"
+    ],
+    "diff_component_text": "桂枝、芍药、人参"
+  },
+  {
+    "id": 36,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较枳术丸与橘半枳术丸的区别，说明陈皮、半夏的作用以及增加陈皮、半夏后方剂主治病症有何变化",
+    "base_formula_name": "枳术丸",
+    "modified_formula_name": "橘半枳术丸",
+    "diff_component": [
+      "陈皮",
+      "半夏"
+    ],
+    "diff_component_text": "陈皮、半夏"
+  },
+  {
+    "id": 37,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝去芍药汤与小建中汤的区别，说明桂枝、芍药、饴糖的作用以及增加桂枝、芍药、饴糖后方剂主治病症有何变化",
+    "base_formula_name": "桂枝去芍药汤",
+    "modified_formula_name": "小建中汤",
+    "diff_component": [
+      "桂枝",
+      "芍药",
+      "饴糖"
+    ],
+    "diff_component_text": "桂枝、芍药、饴糖"
+  },
+  {
+    "id": 38,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较麻黄汤与大青龙汤的区别，说明生姜、大枣、石膏的作用以及增加生姜、大枣、石膏后方剂主治病症有何变化",
+    "base_formula_name": "麻黄汤",
+    "modified_formula_name": "大青龙汤",
+    "diff_component": [
+      "生姜",
+      "大枣",
+      "石膏"
+    ],
+    "diff_component_text": "生姜、大枣、石膏"
+  },
+  {
+    "id": 39,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较左金丸与香连丸的区别，说明木香的作用以及增加木香后方剂主治病症有何变化",
+    "base_formula_name": "左金丸",
+    "modified_formula_name": "香连丸",
+    "diff_component": [
+      "木香"
+    ],
+    "diff_component_text": "木香"
+  },
+  {
+    "id": 40,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较越婢汤与大青龙汤的区别，说明桂枝、苦杏仁的作用以及增加桂枝、苦杏仁后方剂主治病症有何变化",
+    "base_formula_name": "越婢汤",
+    "modified_formula_name": "大青龙汤",
+    "diff_component": [
+      "桂枝",
+      "苦杏仁"
+    ],
+    "diff_component_text": "桂枝、苦杏仁"
+  },
+  {
+    "id": 41,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝甘草汤与茯苓甘草汤的区别，说明茯苓、生姜的作用以及增加茯苓、生姜后方剂主治病症有何变化",
+    "base_formula_name": "桂枝甘草汤",
+    "modified_formula_name": "茯苓甘草汤",
+    "diff_component": [
+      "茯苓",
+      "生姜"
+    ],
+    "diff_component_text": "茯苓、生姜"
+  },
+  {
+    "id": 42,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较桂枝去芍药汤与乌头桂枝汤的区别，说明草乌头、桂枝、芍药的作用以及增加草乌头、桂枝、芍药后方剂主治病症有何变化",
+    "base_formula_name": "桂枝去芍药汤",
+    "modified_formula_name": "乌头桂枝汤",
+    "diff_component": [
+      "草乌头",
+      "桂枝",
+      "芍药"
+    ],
+    "diff_component_text": "草乌头、桂枝、芍药"
+  },
+  {
+    "id": 43,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较三拗汤与麻黄汤的区别，说明桂枝的作用以及增加桂枝后方剂主治病症有何变化",
+    "base_formula_name": "三拗汤",
+    "modified_formula_name": "麻黄汤",
+    "diff_component": [
+      "桂枝"
+    ],
+    "diff_component_text": "桂枝"
+  },
+  {
+    "id": 44,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较四逆汤与温脾汤的区别，说明大黄、人参的作用以及增加大黄、人参后方剂主治病症有何变化",
+    "base_formula_name": "四逆汤",
+    "modified_formula_name": "温脾汤",
+    "diff_component": [
+      "大黄",
+      "人参"
+    ],
+    "diff_component_text": "大黄、人参"
+  },
+  {
+    "id": 45,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较四君子汤与理中化痰丸的区别，说明干姜、半夏的作用以及增加干姜、半夏后方剂主治病症有何变化",
+    "base_formula_name": "四君子汤",
+    "modified_formula_name": "理中化痰丸",
+    "diff_component": [
+      "干姜",
+      "半夏"
+    ],
+    "diff_component_text": "干姜、半夏"
+  },
+  {
+    "id": 46,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较黄连解毒汤与石膏汤的区别，说明石膏、淡豆豉、麻黄的作用以及增加石膏、淡豆豉、麻黄后方剂主治病症有何变化",
+    "base_formula_name": "黄连解毒汤",
+    "modified_formula_name": "石膏汤",
+    "diff_component": [
+      "石膏",
+      "淡豆豉",
+      "麻黄"
+    ],
+    "diff_component_text": "石膏、淡豆豉、麻黄"
+  },
+  {
+    "id": 47,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较芍药甘草汤与四逆散的区别，说明柴胡、枳实的作用以及增加柴胡、枳实后方剂主治病症有何变化",
+    "base_formula_name": "芍药甘草汤",
+    "modified_formula_name": "四逆散",
+    "diff_component": [
+      "柴胡",
+      "枳实"
+    ],
+    "diff_component_text": "柴胡、枳实"
+  },
+  {
+    "id": 48,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较三拗汤与麻黄加术汤的区别，说明桂枝、白术的作用以及增加桂枝、白术后方剂主治病症有何变化",
+    "base_formula_name": "三拗汤",
+    "modified_formula_name": "麻黄加术汤",
+    "diff_component": [
+      "桂枝",
+      "白术"
+    ],
+    "diff_component_text": "桂枝、白术"
+  },
+  {
+    "id": 49,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较当归补血汤与神效托里散的区别，说明忍冬藤、甘草的作用以及增加忍冬藤、甘草后方剂主治病症有何变化",
+    "base_formula_name": "当归补血汤",
+    "modified_formula_name": "神效托里散",
+    "diff_component": [
+      "忍冬藤",
+      "甘草"
+    ],
+    "diff_component_text": "忍冬藤、甘草"
+  },
+  {
+    "id": 50,
+    "type": "方剂加味比较主观题",
+    "question": "用一段话比较四逆加人参汤与茯苓四逆汤的区别，说明茯苓的作用以及增加茯苓后方剂主治病症有何变化",
+    "base_formula_name": "四逆加人参汤",
+    "modified_formula_name": "茯苓四逆汤",
+    "diff_component": [
+      "茯苓"
+    ],
+    "diff_component_text": "茯苓"
+  }
+]

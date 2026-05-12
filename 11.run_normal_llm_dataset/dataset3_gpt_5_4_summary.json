@@ -1,0 +1,7 @@
+{
+  "model": "gpt-5.4",
+  "dataset": "dataset3",
+  "total": 100,
+  "correct": 82,
+  "accuracy": 0.82
+}

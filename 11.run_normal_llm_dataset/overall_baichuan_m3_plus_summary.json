@@ -1,0 +1,31 @@
+{
+  "model": "baichuan-m3-plus",
+  "datasets": [
+    {
+      "model": "baichuan-m3-plus",
+      "dataset": "dataset1",
+      "total": 100,
+      "correct": 98,
+      "accuracy": 0.98
+    },
+    {
+      "model": "baichuan-m3-plus",
+      "dataset": "dataset2",
+      "total": 100,
+      "correct": 98,
+      "accuracy": 0.98
+    },
+    {
+      "model": "baichuan-m3-plus",
+      "dataset": "dataset3",
+      "total": 100,
+      "correct": 78,
+      "accuracy": 0.78
+    }
+  ],
+  "overall": {
+    "total": 300,
+    "correct": 274,
+    "accuracy": 0.9133333333333333
+  }
+}

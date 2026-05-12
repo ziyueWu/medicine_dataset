@@ -1,0 +1,7 @@
+{
+  "model": "deepseek-v3.2",
+  "dataset": "dataset1",
+  "total": 100,
+  "correct": 94,
+  "accuracy": 0.94
+}

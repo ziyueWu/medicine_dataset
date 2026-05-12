@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "answer": "D",
+    "answer_text": "白术",
+    "formula_name": "苓桂术甘汤",
+    "masked_index": 2
+  },
+  {
+    "id": 2,
+    "answer": "D",
+    "answer_text": "丹参",
+    "formula_name": "丹参饮",
+    "masked_index": 0
+  },
+  {
+    "id": 3,
+    "answer": "B",
+    "answer_text": "瓜蒌子",
+    "formula_name": "咳血方",
+    "masked_index": 1
+  },
+  {
+    "id": 4,
+    "answer": "B",
+    "answer_text": "人参",
+    "formula_name": "定志丸",
+    "masked_index": 3
+  },
+  {
+    "id": 5,
+    "answer": "C",
+    "answer_text": "石膏",
+    "formula_name": "大青龙汤",
+    "masked_index": 6
+  },
+  {
+    "id": 6,
+    "answer": "C",
+    "answer_text": "枳实",
+    "formula_name": "枳术丸",
+    "masked_index": 0
+  },
+  {
+    "id": 7,
+    "answer": "D",
+    "answer_text": "茯苓",
+    "formula_name": "散聚汤",
+    "masked_index": 6
+  },
+  {
+    "id": 8,
+    "answer": "D",
+    "answer_text": "芍药",
+    "formula_name": "温经汤",
+    "masked_index": 2
+  },
+  {
+    "id": 9,
+    "answer": "B",
+    "answer_text": "槟榔",
+    "formula_name": "疏凿饮子",
+    "masked_index": 1
+  },
+  {
+    "id": 10,
+    "answer": "C",
+    "answer_text": "白芍",
+    "formula_name": "小续命汤",
+    "masked_index": 6
+  },
+  {
+    "id": 11,
+    "answer": "B",
+    "answer_text": "瞿麦",
+    "formula_name": "鳖甲煎丸",
+    "masked_index": 13
+  },
+  {
+    "id": 12,
+    "answer": "A",
+    "answer_text": "羌活",
+    "formula_name": "身痛逐瘀汤",
+    "masked_index": 10
+  },
+  {
+    "id": 13,
+    "answer": "D",
+    "answer_text": "黄芩",
+    "formula_name": "柴胡桂枝干姜汤",
+    "masked_index": 4
+  },
+  {
+    "id": 14,
+    "answer": "B",
+    "answer_text": "茯苓皮",
+    "formula_name": "五皮散",
+    "masked_index": 3
+  },
+  {
+    "id": 15,
+    "answer": "C",
+    "answer_text": "白术",
+    "formula_name": "甘草附子汤",
+    "masked_index": 2
+  },
+  {
+    "id": 16,
+    "answer": "A",
+    "answer_text": "半夏",
+    "formula_name": "半夏泻心汤",
+    "masked_index": 0
+  },
+  {
+    "id": 17,
+    "answer": "A",
+    "answer_text": "青皮",
+    "formula_name": "香棱丸",
+    "masked_index": 5
+  },
+  {
+    "id": 18,
+    "answer": "B",
+    "answer_text": "粳米",
+    "formula_name": "竹叶石膏汤",
+    "masked_index": 6
+  },
+  {
+    "id": 19,
+    "answer": "A",
+    "answer_text": "陈皮",
+    "formula_name": "枣肉平胃散",
+    "masked_index": 0
+  },
+  {
+    "id": 20,
+    "answer": "C",
+    "answer_text": "小麦",
+    "formula_name": "甘麦大枣汤",
+    "masked_index": 1
+  },
+  {
+    "id": 21,
+    "answer": "C",
+    "answer_text": "水蛭",
+    "formula_name": "抵当汤",
+    "masked_index": 0
+  },
+  {
+    "id": 22,
+    "answer": "A",
+    "answer_text": "五灵脂",
+    "formula_name": "手拈散",
+    "masked_index": 2
+  },
+  {
+    "id": 23,
+    "answer": "D",
+    "answer_text": "桂枝",
+    "formula_name": "乌梅丸",
+    "masked_index": 5
+  },
+  {
+    "id": 24,
+    "answer": "D",
+    "answer_text": "醋",
+    "formula_name": "苦酒汤",
+    "masked_index": 2
+  },
+  {
+    "id": 25,
+    "answer": "D",
+    "answer_text": "桔梗",
+    "formula_name": "天王补心丹",
+    "masked_index": 10
+  },
+  {
+    "id": 26,
+    "answer": "B",
+    "answer_text": "甘草",
+    "formula_name": "麻黄汤",
+    "masked_index": 2
+  },
+  {
+    "id": 27,
+    "answer": "A",
+    "answer_text": "牡丹皮",
+    "formula_name": "桂枝茯苓丸",
+    "masked_index": 2
+  },
+  {
+    "id": 28,
+    "answer": "C",
+    "answer_text": "瓜蒌子",
+    "formula_name": "柴胡陷胸汤",
+    "masked_index": 5
+  },
+  {
+    "id": 29,
+    "answer": "B",
+    "answer_text": "麦冬",
+    "formula_name": "清燥救肺汤",
+    "masked_index": 7
+  },
+  {
+    "id": 30,
+    "answer": "B",
+    "answer_text": "生姜",
+    "formula_name": "吴茱萸汤",
+    "masked_index": 2
+  },
+  {
+    "id": 31,
+    "answer": "C",
+    "answer_text": "党参",
+    "formula_name": "泰山磐石散",
+    "masked_index": 0
+  },
+  {
+    "id": 32,
+    "answer": "C",
+    "answer_text": "人参",
+    "formula_name": "葛花解酒汤",
+    "masked_index": 3
+  },
+  {
+    "id": 33,
+    "answer": "C",
+    "answer_text": "防己",
+    "formula_name": "清肺汤",
+    "masked_index": 1
+  },
+  {
+    "id": 34,
+    "answer": "B",
+    "answer_text": "芒硝",
+    "formula_name": "调胃承气汤",
+    "masked_index": 0
+  },
+  {
+    "id": 35,
+    "answer": "C",
+    "answer_text": "羌活",
+    "formula_name": "羌活胜湿汤",
+    "masked_index": 0
+  },
+  {
+    "id": 36,
+    "answer": "C",
+    "answer_text": "阿胶",
+    "formula_name": "黄连阿胶汤",
+    "masked_index": 4
+  },
+  {
+    "id": 37,
+    "answer": "A",
+    "answer_text": "栀子",
+    "formula_name": "栀子豉汤",
+    "masked_index": 0
+  },
+  {
+    "id": 38,
+    "answer": "C",
+    "answer_text": "西红花",
+    "formula_name": "三圣散",
+    "masked_index": 2
+  },
+  {
+    "id": 39,
+    "answer": "D",
+    "answer_text": "大枣",
+    "formula_name": "桂枝附子汤",
+    "masked_index": 3
+  },
+  {
+    "id": 40,
+    "answer": "B",
+    "answer_text": "地黄",
+    "formula_name": "朱砂安神丸",
+    "masked_index": 2
+  },
+  {
+    "id": 41,
+    "answer": "B",
+    "answer_text": "甘草",
+    "formula_name": "白头翁加甘草阿胶汤",
+    "masked_index": 4
+  },
+  {
+    "id": 42,
+    "answer": "B",
+    "answer_text": "甘草",
+    "formula_name": "白虎加桂枝汤",
+    "masked_index": 1
+  },
+  {
+    "id": 43,
+    "answer": "A",
+    "answer_text": "防风",
+    "formula_name": "增损当归丸",
+    "masked_index": 1
+  },
+  {
+    "id": 44,
+    "answer": "D",
+    "answer_text": "五味子",
+    "formula_name": "人参养荣汤",
+    "masked_index": 10
+  },
+  {
+    "id": 45,
+    "answer": "D",
+    "answer_text": "五灵脂",
+    "formula_name": "失笑散",
+    "masked_index": 1
+  },
+  {
+    "id": 46,
+    "answer": "D",
+    "answer_text": "人参",
+    "formula_name": "参附汤",
+    "masked_index": 0
+  },
+  {
+    "id": 47,
+    "answer": "D",
+    "answer_text": "人参",
+    "formula_name": "茯苓四逆汤",
+    "masked_index": 1
+  },
+  {
+    "id": 48,
+    "answer": "D",
+    "answer_text": "干姜",
+    "formula_name": "增损四物汤",
+    "masked_index": 3
+  },
+  {
+    "id": 49,
+    "answer": "C",
+    "answer_text": "黄芪",
+    "formula_name": "防己黄芪汤",
+    "masked_index": 3
+  },
+  {
+    "id": 50,
+    "answer": "D",
+    "answer_text": "黄柏",
+    "formula_name": "固经丸",
+    "masked_index": 1
+  },
+  {
+    "id": 51,
+    "answer": "B",
+    "answer_text": "葶苈子",
+    "formula_name": "己椒苈黄丸",
+    "masked_index": 2
+  },
+  {
+    "id": 52,
+    "answer": "D",
+    "answer_text": "茯苓",
+    "formula_name": "二陈汤",
+    "masked_index": 2
+  },
+  {
+    "id": 53,
+    "answer": "D",
+    "answer_text": "附子",
+    "formula_name": "通脉四逆汤",
+    "masked_index": 2
+  },
+  {
+    "id": 54,
+    "answer": "A",
+    "answer_text": "黄芩",
+    "formula_name": "柴胡桂枝汤",
+    "masked_index": 3
+  },
+  {
+    "id": 55,
+    "answer": "B",
+    "answer_text": "川楝子",
+    "formula_name": "金铃子散",
+    "masked_index": 0
+  },
+  {
+    "id": 56,
+    "answer": "A",
+    "answer_text": "苍术",
+    "formula_name": "薏苡仁汤",
+    "masked_index": 6
+  },
+  {
+    "id": 57,
+    "answer": "A",
+    "answer_text": "牡蛎",
+    "formula_name": "桂枝去芍药加蜀漆牡蛎龙骨救逆汤",
+    "masked_index": 3
+  },
+  {
+    "id": 58,
+    "answer": "D",
+    "answer_text": "神曲",
+    "formula_name": "健脾丸",
+    "masked_index": 6
+  },
+  {
+    "id": 59,
+    "answer": "C",
+    "answer_text": "茯苓",
+    "formula_name": "赤丸",
+    "masked_index": 1
+  },
+  {
+    "id": 60,
+    "answer": "A",
+    "answer_text": "京大戟",
+    "formula_name": "控涎丹",
+    "masked_index": 1
+  },
+  {
+    "id": 61,
+    "answer": "D",
+    "answer_text": "麻黄",
+    "formula_name": "金沸草散",
+    "masked_index": 6
+  },
+  {
+    "id": 62,
+    "answer": "A",
+    "answer_text": "干姜",
+    "formula_name": "虎潜丸",
+    "masked_index": 10
+  },
+  {
+    "id": 63,
+    "answer": "C",
+    "answer_text": "茯苓",
+    "formula_name": "逍遥散",
+    "masked_index": 4
+  },
+  {
+    "id": 64,
+    "answer": "A",
+    "answer_text": "木通",
+    "formula_name": "泽泻散",
+    "masked_index": 2
+  },
+  {
+    "id": 65,
+    "answer": "D",
+    "answer_text": "厚朴",
+    "formula_name": "栀子厚朴汤",
+    "masked_index": 1
+  },
+  {
+    "id": 66,
+    "answer": "D",
+    "answer_text": "磁石",
+    "formula_name": "磁朱丸",
+    "masked_index": 0
+  },
+  {
+    "id": 67,
+    "answer": "B",
+    "answer_text": "生姜",
+    "formula_name": "射干麻黄汤",
+    "masked_index": 2
+  },
+  {
+    "id": 68,
+    "answer": "C",
+    "answer_text": "苦杏仁",
+    "formula_name": "麻黄杏仁薏苡甘草汤",
+    "masked_index": 3
+  },
+  {
+    "id": 69,
+    "answer": "D",
+    "answer_text": "大枣",
+    "formula_name": "越婢汤",
+    "masked_index": 3
+  },
+  {
+    "id": 70,
+    "answer": "D",
+    "answer_text": "川贝母",
+    "formula_name": "三物白散",
+    "masked_index": 2
+  },
+  {
+    "id": 71,
+    "answer": "C",
+    "answer_text": "牡丹皮",
+    "formula_name": "清胃散",
+    "masked_index": 1
+  },
+  {
+    "id": 72,
+    "answer": "D",
+    "answer_text": "芍药",
+    "formula_name": "葛根汤",
+    "masked_index": 3
+  },
+  {
+    "id": 73,
+    "answer": "A",
+    "answer_text": "鹿角",
+    "formula_name": "二至丸",
+    "masked_index": 0
+  },
+  {
+    "id": 74,
+    "answer": "D",
+    "answer_text": "甘草",
+    "formula_name": "三拗汤",
+    "masked_index": 2
+  },
+  {
+    "id": 75,
+    "answer": "A",
+    "answer_text": "葱白",
+    "formula_name": "白通加猪胆汁汤",
+    "masked_index": 0
+  },
+  {
+    "id": 76,
+    "answer": "C",
+    "answer_text": "半夏",
+    "formula_name": "小陷胸汤",
+    "masked_index": 0
+  },
+  {
+    "id": 77,
+    "answer": "C",
+    "answer_text": "生地",
+    "formula_name": "延胡索汤",
+    "masked_index": 5
+  },
+  {
+    "id": 78,
+    "answer": "B",
+    "answer_text": "黄柏",
+    "formula_name": "栀子柏皮汤",
+    "masked_index": 2
+  },
+  {
+    "id": 79,
+    "answer": "D",
+    "answer_text": "吴茱萸",
+    "formula_name": "左金丸",
+    "masked_index": 1
+  },
+  {
+    "id": 80,
+    "answer": "C",
+    "answer_text": "白芍",
+    "formula_name": "真人养脏汤",
+    "masked_index": 2
+  },
+  {
+    "id": 81,
+    "answer": "C",
+    "answer_text": "陈皮",
+    "formula_name": "橘皮竹茹汤",
+    "masked_index": 0
+  },
+  {
+    "id": 82,
+    "answer": "D",
+    "answer_text": "胡黄连",
+    "formula_name": "清骨散",
+    "masked_index": 1
+  },
+  {
+    "id": 83,
+    "answer": "D",
+    "answer_text": "莪术",
+    "formula_name": "三棱煎",
+    "masked_index": 1
+  },
+  {
+    "id": 84,
+    "answer": "C",
+    "answer_text": "广藿香",
+    "formula_name": "六和汤",
+    "masked_index": 6
+  },
+  {
+    "id": 85,
+    "answer": "D",
+    "answer_text": "陈皮",
+    "formula_name": "普济消毒饮",
+    "masked_index": 2
+  },
+  {
+    "id": 86,
+    "answer": "C",
+    "answer_text": "泽泻",
+    "formula_name": "五苓散",
+    "masked_index": 3
+  },
+  {
+    "id": 87,
+    "answer": "C",
+    "answer_text": "诃子",
+    "formula_name": "燥肠丸",
+    "masked_index": 5
+  },
+  {
+    "id": 88,
+    "answer": "D",
+    "answer_text": "款冬花",
+    "formula_name": "定喘汤",
+    "masked_index": 3
+  },
+  {
+    "id": 89,
+    "answer": "D",
+    "answer_text": "甘草",
+    "formula_name": "藿香正气散",
+    "masked_index": 10
+  },
+  {
+    "id": 90,
+    "answer": "D",
+    "answer_text": "附子",
+    "formula_name": "茵陈四逆汤",
+    "masked_index": 0
+  },
+  {
+    "id": 91,
+    "answer": "A",
+    "answer_text": "人参",
+    "formula_name": "白虎汤",
+    "masked_index": 4
+  },
+  {
+    "id": 92,
+    "answer": "D",
+    "answer_text": "白僵蚕",
+    "formula_name": "针头丸",
+    "masked_index": 1
+  },
+  {
+    "id": 93,
+    "answer": "B",
+    "answer_text": "苦楝皮",
+    "formula_name": "化虫丸",
+    "masked_index": 2
+  },
+  {
+    "id": 94,
+    "answer": "D",
+    "answer_text": "茯苓",
+    "formula_name": "清气化痰丸",
+    "masked_index": 5
+  },
+  {
+    "id": 95,
+    "answer": "B",
+    "answer_text": "牡蛎",
+    "formula_name": "栝楼牡蛎散",
+    "masked_index": 1
+  },
+  {
+    "id": 96,
+    "answer": "D",
+    "answer_text": "葶苈子",
+    "formula_name": "葶苈大枣泻肺汤",
+    "masked_index": 0
+  },
+  {
+    "id": 97,
+    "answer": "B",
+    "answer_text": "陈皮",
+    "formula_name": "异功散",
+    "masked_index": 4
+  },
+  {
+    "id": 98,
+    "answer": "C",
+    "answer_text": "附子",
+    "formula_name": "白通汤",
+    "masked_index": 2
+  },
+  {
+    "id": 99,
+    "answer": "C",
+    "answer_text": "吴茱萸",
+    "formula_name": "鸡鸣散",
+    "masked_index": 3
+  },
+  {
+    "id": 100,
+    "answer": "C",
+    "answer_text": "麻黄",
+    "formula_name": "小青龙汤",
+    "masked_index": 0
+  }
+]

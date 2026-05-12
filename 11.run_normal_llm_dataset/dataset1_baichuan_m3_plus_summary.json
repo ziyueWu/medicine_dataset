@@ -1,0 +1,7 @@
+{
+  "model": "baichuan-m3-plus",
+  "dataset": "dataset1",
+  "total": 100,
+  "correct": 98,
+  "accuracy": 0.98
+}

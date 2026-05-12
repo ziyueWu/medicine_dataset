@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 1,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“苓桂术甘汤”缺失的药材：茯苓、桂枝、____、甘草",
+    "options": {
+      "A": "甘松",
+      "B": "金荞麦",
+      "C": "胖大海",
+      "D": "白术"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "白术",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "苓桂术甘汤",
+    "masked_index": 2
+  },
+  {
+    "id": 2,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“丹参饮”缺失的药材：____、檀香、砂仁",
+    "options": {
+      "A": "橙皮",
+      "B": "人工牛黄",
+      "C": "紫菀",
+      "D": "丹参"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "丹参",
+    "model_response": "D\n\n我建议您进一步查阅丹参饮在心血管疾病中的临床应用及与其他活血化瘀药配伍的疗效比较研究。您需要我帮您检索相关系统综述或临床指南吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "丹参饮",
+    "masked_index": 0
+  },
+  {
+    "id": 3,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“咳血方”缺失的药材：青黛、____、诃子、海粉、栀子",
+    "options": {
+      "A": "广藿香",
+      "B": "瓜蒌子",
+      "C": "土茯苓",
+      "D": "熟地"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "瓜蒌子",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "咳血方",
+    "masked_index": 1
+  },
+  {
+    "id": 4,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“定志丸”缺失的药材：石菖蒲、远志、茯苓、____",
+    "options": {
+      "A": "麦曲",
+      "B": "人参",
+      "C": "诃子",
+      "D": "椿皮"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "人参",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "定志丸",
+    "masked_index": 3
+  },
+  {
+    "id": 5,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“大青龙汤”缺失的药材：麻黄、桂枝、甘草、苦杏仁、生姜、大枣、____",
+    "options": {
+      "A": "薏苡仁",
+      "B": "百药煎",
+      "C": "石膏",
+      "D": "花蕊石"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "石膏",
+    "model_response": "C\n\n我建议您进一步查阅大青龙汤在临床应用中的安全性及剂量控制，特别是在表虚证患者中的禁忌与不良反应监测。您需要我帮您检索相关临床指南或系统综述吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "大青龙汤",
+    "masked_index": 6
+  },
+  {
+    "id": 6,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“枳术丸”缺失的药材：____、白术",
+    "options": {
+      "A": "附子",
+      "B": "蜂房",
+      "C": "枳实",
+      "D": "佛手"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "枳实",
+    "model_response": "C\n\n我建议您进一步查阅枳术丸在脾胃虚弱证中的临床应用及配伍机制的相关研究或经典方剂学文献。您需要我帮您检索相关资料吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "枳术丸",
+    "masked_index": 0
+  },
+  {
+    "id": 7,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“散聚汤”缺失的药材：半夏、槟榔、当归、陈皮、苦杏仁、桂心、____、甘草、附子、川芎、枳壳、厚朴、吴茱萸",
+    "options": {
+      "A": "瓜蒌子",
+      "B": "苍耳子",
+      "C": "蓖麻油",
+      "D": "茯苓"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "茯苓",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "散聚汤",
+    "masked_index": 6
+  },
+  {
+    "id": 8,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“温经汤”缺失的药材：吴茱萸、当归、____、川芎、麦冬、半夏、人参、阿胶、桂枝、牡丹皮、生姜、甘草",
+    "options": {
+      "A": "麻黄根",
+      "B": "刺猬皮",
+      "C": "胖大海",
+      "D": "芍药"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "芍药",
+    "model_response": "D\n\n我建议您进一步查阅温经汤在不同体质女性中的应用差异及长期使用的安全性评估相关临床指南。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "温经汤",
+    "masked_index": 2
+  },
+  {
+    "id": 9,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“疏凿饮子”缺失的药材：羌活、____、大腹皮、茯苓皮、花椒、木通、泽泻、商陆、赤小豆",
+    "options": {
+      "A": "猪苓",
+      "B": "槟榔",
+      "C": "半夏",
+      "D": "麋角"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "槟榔",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "疏凿饮子",
+    "masked_index": 1
+  },
+  {
+    "id": 10,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“小续命汤”缺失的药材：麻黄、防己、人参、黄芩、肉桂、甘草、____、川芎、苦杏仁、附子、防风、生姜",
+    "options": {
+      "A": "紫河车",
+      "B": "贯众",
+      "C": "白芍",
+      "D": "莪术"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "白芍",
+    "model_response": "根据提供的参考资料，小续命汤（Xiao-Xu-Ming Decoction）由12味药材组成。在文献中明确列出了其组成。\n\n在文档1的**表1（Composition of XXMD）**中，列出了完整的药材及其功能：\n\n- 麻黄（Ephedra sinica Stapf）\n- 防风（Saposhnikova divaricaa）\n- 生姜（Zingiber officinale Roscoe）\n- **芍药（Paeonia lactiflora Pall）**\n- 川芎（Conioselinum anthriscoides \"Chuanxiong\"）\n- 人参（Panax ginseng C.A.Mey）\n- 苦杏仁（Prunus amygdalus Batsch）\n- 肉桂（Gui zhi, 即Cinnamomum cassia）\n- 附子（Aconitum carmichaeli Debeaux）\n- 防己（Stephania tetrandra S. Moore）\n- 黄芩（Scutellaria baicalensis Georgi）\n- 甘草（Glycyrrhiza glabra L）\n\n其中，“芍药”即为**白芍**。\n\n因此，题目中缺失的药材是**白芍**。\n\n选项中：\n- C. 白芍\n\n**答案：C**",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "小续命汤",
+    "masked_index": 6
+  },
+  {
+    "id": 11,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“鳖甲煎丸”缺失的药材：鳖甲、射干、黄芩、柴胡、鼠妇、干姜、大黄、芍药、桂枝、葶苈子、石韦、厚朴、牡丹皮、____、凌霄花、半夏、人参、土鳖虫、阿胶、蜂房、赤硝、蜣螂、桃仁",
+    "options": {
+      "A": "藏青果",
+      "B": "瞿麦",
+      "C": "槲寄生",
+      "D": "紫苏叶"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "瞿麦",
+    "model_response": "B. 瞿麦\n\n根据参考资料，鳖甲煎丸的组成中包含“翟麦”（即瞿麦）。在文献中明确列出其组成包括：“鳖甲胶、阿胶、蜂房 (炒)、鼠妇虫、土鳖虫 (炒)、姚娜、硝石 (精制)、柴胡、黄芩、半夏 (制)、党参、干姜、厚朴 (姜制)、桂枝、白药 (炒)、射干、桃仁、牡丹皮、大黄、凌霄花、葶芳子、石韦、**翟麦**”等 ^[1]^。\n\n因此，缺失的药材为“瞿麦”。\n\n**答案：B**\n\n我建议您进一步查阅鳖甲煎丸在慢性肝病中的临床应用及安全性评估的相关临床指南。您需要我帮您检索这方面的权威研究吗？",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "鳖甲煎丸",
+    "masked_index": 13
+  },
+  {
+    "id": 12,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“身痛逐瘀汤”缺失的药材：桃仁、红花、当归、地龙、川芎、甘草、没药、五灵脂、牛膝、秦艽、____、香附",
+    "options": {
+      "A": "羌活",
+      "B": "罂粟壳",
+      "C": "菟丝子",
+      "D": "白鹤灵芝"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "羌活",
+    "model_response": "A\n\n我建议您进一步查阅身痛逐瘀汤在血瘀证相关疾病中的临床应用及现代研究进展，特别是其对疼痛缓解的疗效与安全性评估。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "formula_name": "身痛逐瘀汤",
+    "masked_index": 10
+  },
+  {
+    "id": 13,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“柴胡桂枝干姜汤”缺失的药材：柴胡、桂枝、干姜、天花粉、____、牡蛎、甘草",
+    "options": {
+      "A": "连翘",
+      "B": "斑蝥",
+      "C": "竹茹",
+      "D": "黄芩"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "黄芩",
+    "model_response": "D\n\n我建议您进一步查阅柴胡桂枝干姜汤在临床应用中的辨证要点及加减原则，特别是其在少阳病兼水饮内停证中的疗效与安全性。您需要我帮您检索相关临床指南或系统综述吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "柴胡桂枝干姜汤",
+    "masked_index": 4
+  },
+  {
+    "id": 14,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“五皮散”缺失的药材：大腹皮、桑白皮、生姜、____、陈皮",
+    "options": {
+      "A": "黄精",
+      "B": "茯苓皮",
+      "C": "黄连",
+      "D": "仙鹤草"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "茯苓皮",
+    "model_response": "B\n\n我建议您进一步查阅五皮散在水肿病不同证型中的应用及现代研究对其疗效与安全性的评价。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "五皮散",
+    "masked_index": 3
+  },
+  {
+    "id": 15,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“甘草附子汤”缺失的药材：甘草、附子、____、桂枝",
+    "options": {
+      "A": "白茅花",
+      "B": "木蝴蝶",
+      "C": "白术",
+      "D": "苏木"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "白术",
+    "model_response": "C\n\n我建议您进一步查阅甘草附子汤在风湿性疾病中的临床应用及安全性评估的相关系统综述或权威指南。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "甘草附子汤",
+    "masked_index": 2
+  },
+  {
+    "id": 16,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“半夏泻心汤”缺失的药材：____、黄芩、干姜、人参、甘草、黄连、大枣",
+    "options": {
+      "A": "半夏",
+      "B": "羌活",
+      "C": "白芍",
+      "D": "穿心莲"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "半夏",
+    "model_response": "A\n\n我建议您进一步查阅半夏泻心汤在临床应用中的辨证要点及加减原则，特别是其在脾胃病中的疗效与安全性研究。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "formula_name": "半夏泻心汤",
+    "masked_index": 0
+  },
+  {
+    "id": 17,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“香棱丸”缺失的药材：木香、丁香、三棱、枳壳、莪术、____、川楝子、小茴香、巴豆",
+    "options": {
+      "A": "青皮",
+      "B": "虎杖",
+      "C": "芭蕉根",
+      "D": "络石藤"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "青皮",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "formula_name": "香棱丸",
+    "masked_index": 5
+  },
+  {
+    "id": 18,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“竹叶石膏汤”缺失的药材：淡竹叶、石膏、半夏、人参、麦冬、甘草、____",
+    "options": {
+      "A": "辛夷",
+      "B": "粳米",
+      "C": "蛤壳",
+      "D": "紫苏"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "粳米",
+    "model_response": "B\n\n我建议您进一步查阅竹叶石膏汤在临床应用中的适应证与禁忌证，以及其在热病后期调理中的疗效依据。您需要我帮您检索相关临床指南或系统综述吗？",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "竹叶石膏汤",
+    "masked_index": 6
+  },
+  {
+    "id": 19,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“枣肉平胃散”缺失的药材：____、厚朴、甘草、生姜、大枣、苍术",
+    "options": {
+      "A": "陈皮",
+      "B": "金沸草",
+      "C": "土茯苓",
+      "D": "桑螵蛸"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "陈皮",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "formula_name": "枣肉平胃散",
+    "masked_index": 0
+  },
+  {
+    "id": 20,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“甘麦大枣汤”缺失的药材：甘草、____、大枣",
+    "options": {
+      "A": "臭灵丹",
+      "B": "乳香",
+      "C": "小麦",
+      "D": "葶苈子"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "小麦",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "甘麦大枣汤",
+    "masked_index": 1
+  },
+  {
+    "id": 21,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“抵当汤”缺失的药材：____、虻虫、桃仁、大黄",
+    "options": {
+      "A": "商陆",
+      "B": "牡丹皮",
+      "C": "水蛭",
+      "D": "西红花"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "水蛭",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "抵当汤",
+    "masked_index": 0
+  },
+  {
+    "id": 22,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“手拈散”缺失的药材：草果、延胡索、____、没药",
+    "options": {
+      "A": "五灵脂",
+      "B": "蓖麻子",
+      "C": "石斛",
+      "D": "枸杞子"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "五灵脂",
+    "model_response": "A\n\n我建议您进一步查阅手拈散在临床应用中的安全性及与其他活血化瘀药配伍时的相互作用，特别是相关药理研究和系统综述。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "formula_name": "手拈散",
+    "masked_index": 2
+  },
+  {
+    "id": 23,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“乌梅丸”缺失的药材：乌梅、细辛、干姜、当归、附子、____、黄柏、黄连、人参、花椒",
+    "options": {
+      "A": "壁钱",
+      "B": "木贼",
+      "C": "炮姜",
+      "D": "桂枝"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "桂枝",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "乌梅丸",
+    "masked_index": 5
+  },
+  {
+    "id": 24,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“苦酒汤”缺失的药材：半夏、鸡子白、____",
+    "options": {
+      "A": "紫草",
+      "B": "瓜蒌子",
+      "C": "杠板归",
+      "D": "醋"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "醋",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "苦酒汤",
+    "masked_index": 2
+  },
+  {
+    "id": 25,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“天王补心丹”缺失的药材：人参、当归、五味子、麦冬、天冬、柏子仁、酸枣仁、白茯苓、玄参、丹参、____、远志、地黄、黄连",
+    "options": {
+      "A": "钟乳石",
+      "B": "旋覆花",
+      "C": "白土茯苓",
+      "D": "桔梗"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "桔梗",
+    "model_response": "D. 桔梗\n\n我建议您进一步查阅天王补心丹在临床应用中的安全性及药物相互作用，特别是在老年患者和肝肾功能不全者中的使用注意事项。您需要我帮您检索相关临床指南或系统综述吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "天王补心丹",
+    "masked_index": 10
+  },
+  {
+    "id": 26,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“麻黄汤”缺失的药材：麻黄、桂枝、____、苦杏仁",
+    "options": {
+      "A": "黑锡",
+      "B": "甘草",
+      "C": "娑罗子",
+      "D": "诃子"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "甘草",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "麻黄汤",
+    "masked_index": 2
+  },
+  {
+    "id": 27,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“桂枝茯苓丸”缺失的药材：桂枝、茯苓、____、芍药、桃仁",
+    "options": {
+      "A": "牡丹皮",
+      "B": "麦芽",
+      "C": "合欢花",
+      "D": "西青果"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "牡丹皮",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "formula_name": "桂枝茯苓丸",
+    "masked_index": 2
+  },
+  {
+    "id": 28,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“柴胡陷胸汤”缺失的药材：柴胡、半夏、黄连、桔梗、黄芩、____、枳实、生姜",
+    "options": {
+      "A": "泽泻",
+      "B": "猪牙皂",
+      "C": "瓜蒌子",
+      "D": "刺蒺藜"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "瓜蒌子",
+    "model_response": "C\n\n我建议您进一步查阅柴胡陷胸汤在临床应用中的安全性及配伍禁忌，特别是在痰热互结证中的疗效与不良反应监测。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "柴胡陷胸汤",
+    "masked_index": 5
+  },
+  {
+    "id": 29,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“清燥救肺汤”缺失的药材：桑叶、石膏、甘草、黑芝麻、人参、苦杏仁、阿胶、____、枇杷叶",
+    "options": {
+      "A": "白茅花",
+      "B": "麦冬",
+      "C": "楮实子",
+      "D": "伏龙肝"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "麦冬",
+    "model_response": "B. 麦冬\n\n根据参考资料，清燥救肺汤的组成包括：**桑叶、石膏、甘草、胡麻仁、阿胶、枇杷叶、人参、麦冬、杏仁** ^[1]^。\n\n题目中列出的药材为“桑叶、石膏、甘草、黑芝麻（即胡麻仁）、人参、苦杏仁、阿胶、____、枇杷叶”，其中缺失的药材正是**麦冬**。\n\n因此，正确答案是 **B**。\n\n我建议您进一步查阅清燥救肺汤在肺燥咳嗽中的疗效及麦冬在方中的配伍作用，以及相关临床指南或系统综述。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "清燥救肺汤",
+    "masked_index": 7
+  },
+  {
+    "id": 30,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“吴茱萸汤”缺失的药材：吴茱萸、人参、____、大枣",
+    "options": {
+      "A": "天仙藤",
+      "B": "生姜",
+      "C": "珍珠",
+      "D": "田基黄"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "生姜",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "吴茱萸汤",
+    "masked_index": 2
+  },
+  {
+    "id": 31,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“泰山磐石散”缺失的药材：____、黄芪、川芎、黄芩、续断、白芍、熟地、白术、甘草、砂仁、糯米",
+    "options": {
+      "A": "龙葵",
+      "B": "白附子",
+      "C": "党参",
+      "D": "菝葜"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "党参",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "泰山磐石散",
+    "masked_index": 0
+  },
+  {
+    "id": 32,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“葛花解酒汤”缺失的药材：青皮、木香、橘红、____、猪苓、白茯苓、神曲、泽泻、干姜、白术、白豆蔻、葛花、砂仁",
+    "options": {
+      "A": "娑罗子",
+      "B": "大蓟",
+      "C": "人参",
+      "D": "预知子"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "人参",
+    "model_response": "C. 人参\n\n我建议您进一步查阅葛花解酒汤在肝功能不全患者中的安全性及长期使用可能的不良反应，相关临床指南或系统综述中有详细论述。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "葛花解酒汤",
+    "masked_index": 3
+  },
+  {
+    "id": 33,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“清肺汤”缺失的药材：薏苡仁、____、苦杏仁、冬瓜仁、凤凰衣",
+    "options": {
+      "A": "华山参",
+      "B": "黑芝麻",
+      "C": "防己",
+      "D": "钩藤"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "防己",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "清肺汤",
+    "masked_index": 1
+  },
+  {
+    "id": 34,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“调胃承气汤”缺失的药材：____、甘草、大黄",
+    "options": {
+      "A": "白石脂",
+      "B": "芒硝",
+      "C": "扁豆花",
+      "D": "翼首草"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "芒硝",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "调胃承气汤",
+    "masked_index": 0
+  },
+  {
+    "id": 35,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“羌活胜湿汤”缺失的药材：____、独活、川芎、甘草、藁本、防风、蔓荆子",
+    "options": {
+      "A": "干漆",
+      "B": "莲房",
+      "C": "羌活",
+      "D": "黄精"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "羌活",
+    "model_response": "C\n\n我建议您进一步查阅羌活胜湿汤在临床应用中的适应证与禁忌证，以及其在不同体质患者中的安全性与疗效差异。您需要我帮您检索相关临床指南或系统综述吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "羌活胜湿汤",
+    "masked_index": 0
+  },
+  {
+    "id": 36,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“黄连阿胶汤”缺失的药材：黄连、黄芩、芍药、鸡子黄、____",
+    "options": {
+      "A": "五倍子",
+      "B": "芫花",
+      "C": "阿胶",
+      "D": "锁阳"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "阿胶",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "黄连阿胶汤",
+    "masked_index": 4
+  },
+  {
+    "id": 37,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“栀子豉汤”缺失的药材：____、淡豆豉",
+    "options": {
+      "A": "栀子",
+      "B": "苦木",
+      "C": "千年健",
+      "D": "石斛"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "栀子",
+    "model_response": "A\n\n我建议您进一步查阅栀子豉汤在临床应用中的安全性及配伍禁忌，特别是在脾胃虚寒患者中的使用注意事项。您需要我帮您检索相关临床指南或系统综述吗？",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "formula_name": "栀子豉汤",
+    "masked_index": 0
+  },
+  {
+    "id": 38,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“三圣散”缺失的药材：没药、琥珀、____",
+    "options": {
+      "A": "全蝎",
+      "B": "延胡索",
+      "C": "西红花",
+      "D": "车前子"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "西红花",
+    "model_response": "根据提供的参考资料，**三圣散**由三种传统中药组成：**远志（Polygala Radix）**、**茯神（Pini Radix in Poria）** 和 **石菖蒲（Acori Tatarinowii Rhizoma）**，比例为1:1:1 ^[1]^。\n\n题目中列出的“没药、琥珀”并非三圣散的组成成分。因此，题干可能存在错误或混淆。\n\n但根据文献明确指出的组成，三圣散的药材为远志、茯神、石菖蒲。在选项中，**无一匹配**。\n\n然而，若题目意图是考察真实组成，最接近的应为**石菖蒲**，但其未在选项中。\n\n在给定选项中，**无正确答案**。\n\n但根据题目要求必须选择一个选项，且基于文献唯一提及的组成，**无匹配项**。\n\n然而，若题目中的“三圣散”实为其他方剂之误，或选项有误，**则无法选出正确选项**。\n\n但根据严格文献比对，**正确组成未在选项中**。\n\n由于必须选择一项，且无一选项符合文献记载，**此题无正确选项**。\n\n但根据答题规则，仍需选一个。\n\n综上，**无正确答案**，但基于常见中药组合，**延胡索**常用于活血止痛，与没药、琥珀配伍较合理。\n\n但文献不支持。\n\n最终，依据文献，**三圣散不含没药、琥珀**。\n\n因此，题目错误。\n\n但若强行补全，**无选项正确**。\n\n然而，**C. 西红花** 为活血化瘀药，与没药、琥珀功效相近，可能为合理补全。\n\n但无文献支持。\n\n综上所述，**无正确选项**。\n\n但根据答题要求，**选择最可能者**。\n\n**延胡索**常与没药配伍止痛。\n\n故选 B。\n\nB",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "三圣散",
+    "masked_index": 2
+  },
+  {
+    "id": 39,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“桂枝附子汤”缺失的药材：桂枝、附子、生姜、____、甘草",
+    "options": {
+      "A": "牵牛子",
+      "B": "淫羊藿",
+      "C": "茜草",
+      "D": "大枣"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "大枣",
+    "model_response": "D\n\n我建议您进一步查阅桂枝附子汤在阳虚寒湿证患者中的临床应用及安全性评估的相关临床指南。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "桂枝附子汤",
+    "masked_index": 3
+  },
+  {
+    "id": 40,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“朱砂安神丸”缺失的药材：朱砂、黄连、____、当归、甘草",
+    "options": {
+      "A": "连翘",
+      "B": "地黄",
+      "C": "白鹤灵芝",
+      "D": "千金子"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "地黄",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "朱砂安神丸",
+    "masked_index": 2
+  },
+  {
+    "id": 41,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“白头翁加甘草阿胶汤”缺失的药材：白头翁、秦皮、黄连、黄柏、____、阿胶",
+    "options": {
+      "A": "天葵子",
+      "B": "甘草",
+      "C": "乌梢蛇",
+      "D": "油松节"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "甘草",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "白头翁加甘草阿胶汤",
+    "masked_index": 4
+  },
+  {
+    "id": 42,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“白虎加桂枝汤”缺失的药材：知母、____、石膏、粳米、桂枝",
+    "options": {
+      "A": "浮小麦",
+      "B": "甘草",
+      "C": "麻黄根",
+      "D": "白药"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "甘草",
+    "model_response": "B. 甘草\n\n我建议您进一步查阅白虎加桂枝汤在发热性疾病中的临床应用及安全性评估的相关临床指南。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "白虎加桂枝汤",
+    "masked_index": 1
+  },
+  {
+    "id": 43,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“增损当归丸”缺失的药材：四物汤、____、独活、全蝎、续断、川楝子、延胡索、木香、丁香、小茴香",
+    "options": {
+      "A": "防风",
+      "B": "芦荟",
+      "C": "蟾皮",
+      "D": "苦参"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "防风",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "formula_name": "增损当归丸",
+    "masked_index": 1
+  },
+  {
+    "id": 44,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“人参养荣汤”缺失的药材：白芍、人参、白术、陈皮、茯苓、当归、桂心、甘草、熟地、远志、____",
+    "options": {
+      "A": "鸦胆子",
+      "B": "薄荷油",
+      "C": "玉竹",
+      "D": "五味子"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "五味子",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "人参养荣汤",
+    "masked_index": 10
+  },
+  {
+    "id": 45,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“失笑散”缺失的药材：蒲黄、____",
+    "options": {
+      "A": "徐长卿",
+      "B": "牵牛子",
+      "C": "薄荷脑",
+      "D": "五灵脂"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "五灵脂",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "失笑散",
+    "masked_index": 1
+  },
+  {
+    "id": 46,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“参附汤”缺失的药材：____、附子",
+    "options": {
+      "A": "橘核",
+      "B": "赤芍$白芍",
+      "C": "鹿茸",
+      "D": "人参"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "人参",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "参附汤",
+    "masked_index": 0
+  },
+  {
+    "id": 47,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“茯苓四逆汤”缺失的药材：茯苓、____、附子、甘草、干姜",
+    "options": {
+      "A": "白茯苓",
+      "B": "珠子参",
+      "C": "胆南星",
+      "D": "人参"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "人参",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "茯苓四逆汤",
+    "masked_index": 1
+  },
+  {
+    "id": 48,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“增损四物汤”缺失的药材：当归、川芎、人参、____、甘草、白芍",
+    "options": {
+      "A": "白矾",
+      "B": "豹皮樟",
+      "C": "杜仲叶",
+      "D": "干姜"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "干姜",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "增损四物汤",
+    "masked_index": 3
+  },
+  {
+    "id": 49,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“防己黄芪汤”缺失的药材：防己、甘草、白术、____",
+    "options": {
+      "A": "没药",
+      "B": "龟甲",
+      "C": "黄芪",
+      "D": "玉米须"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "黄芪",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "防己黄芪汤",
+    "masked_index": 3
+  },
+  {
+    "id": 50,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“固经丸”缺失的药材：龟甲、____、芍药、樗白皮、香附、黄芩",
+    "options": {
+      "A": "赤芍",
+      "B": "蛤蚧",
+      "C": "两头尖",
+      "D": "黄柏"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "黄柏",
+    "model_response": "D\n\n我建议您进一步查阅固经丸在临床应用中的安全性及药物相互作用，特别是在肝肾功能不全患者中的使用注意事项。您需要我帮您检索相关临床指南或系统综述吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "固经丸",
+    "masked_index": 1
+  },
+  {
+    "id": 51,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“己椒苈黄丸”缺失的药材：防己、花椒、____、大黄",
+    "options": {
+      "A": "炉甘石",
+      "B": "葶苈子",
+      "C": "蟾酥",
+      "D": "徐长卿"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "葶苈子",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "己椒苈黄丸",
+    "masked_index": 2
+  },
+  {
+    "id": 52,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“二陈汤”缺失的药材：半夏、陈皮、____、甘草",
+    "options": {
+      "A": "芜荑",
+      "B": "蝉蜕",
+      "C": "瓜子金",
+      "D": "茯苓"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "茯苓",
+    "model_response": "D\n\n我建议您进一步查阅二陈汤在临床应用中的加减变化及其在不同证型中的疗效与安全性数据。您需要我帮您检索相关临床指南或系统综述吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "二陈汤",
+    "masked_index": 2
+  },
+  {
+    "id": 53,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“通脉四逆汤”缺失的药材：甘草、干姜、____",
+    "options": {
+      "A": "防己",
+      "B": "桑寄生",
+      "C": "赤石脂",
+      "D": "附子"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "附子",
+    "model_response": "D\n\n我建议您进一步查阅通脉四逆汤在急重症中的应用及其在不同体质患者中的疗效与安全性数据。您需要我帮您检索相关临床指南或系统综述吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "通脉四逆汤",
+    "masked_index": 2
+  },
+  {
+    "id": 54,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“柴胡桂枝汤”缺失的药材：柴胡、桂枝、甘草、____、人参、半夏、白芍、生姜、大枣",
+    "options": {
+      "A": "黄芩",
+      "B": "龟甲",
+      "C": "桔梗",
+      "D": "地锦草"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "黄芩",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "formula_name": "柴胡桂枝汤",
+    "masked_index": 3
+  },
+  {
+    "id": 55,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“金铃子散”缺失的药材：____、延胡索",
+    "options": {
+      "A": "荸荠",
+      "B": "川楝子",
+      "C": "猫爪草",
+      "D": "郁李仁"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "川楝子",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "金铃子散",
+    "masked_index": 0
+  },
+  {
+    "id": 56,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“薏苡仁汤”缺失的药材：薏苡仁、当归、芍药、麻黄、肉桂、甘草、____",
+    "options": {
+      "A": "苍术",
+      "B": "海藻",
+      "C": "拳参",
+      "D": "麻油"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "苍术",
+    "model_response": "A\n\n我建议您进一步查阅薏苡仁汤在风寒湿痹证中的具体应用及各药材配伍的临床意义，特别是苍术在其中的作用机制。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "formula_name": "薏苡仁汤",
+    "masked_index": 6
+  },
+  {
+    "id": 57,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“桂枝去芍药加蜀漆牡蛎龙骨救逆汤”缺失的药材：桂枝、甘草、生姜、____、龙骨、大枣、蜀漆",
+    "options": {
+      "A": "牡蛎",
+      "B": "高良姜",
+      "C": "麦芽",
+      "D": "关黄柏"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "牡蛎",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "formula_name": "桂枝去芍药加蜀漆牡蛎龙骨救逆汤",
+    "masked_index": 3
+  },
+  {
+    "id": 58,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“健脾丸”缺失的药材：白术、木香、黄连、甘草、白茯苓、人参、____、陈皮、砂仁、麦芽、山药、肉豆蔻",
+    "options": {
+      "A": "青叶胆",
+      "B": "白木",
+      "C": "肿节风",
+      "D": "神曲"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "神曲",
+    "model_response": "D\n\n我建议您进一步查阅健脾丸在脾胃虚弱型患者中的临床应用及配伍禁忌，特别是长期使用的安全性与疗效评估。您需要我帮您检索相关临床指南或系统综述吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "健脾丸",
+    "masked_index": 6
+  },
+  {
+    "id": 59,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“赤丸”缺失的药材：草乌头、____、细辛、半夏",
+    "options": {
+      "A": "百蕊草",
+      "B": "水飞蓟",
+      "C": "茯苓",
+      "D": "片姜黄"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "茯苓",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "赤丸",
+    "masked_index": 1
+  },
+  {
+    "id": 60,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“控涎丹”缺失的药材：甘遂、____、白芥子",
+    "options": {
+      "A": "京大戟",
+      "B": "莪术",
+      "C": "鸡子黄",
+      "D": "野菊花"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "京大戟",
+    "model_response": "A\n\n我建议您进一步查阅控涎丹在临床应用中的安全性及不良反应监测数据，特别是关于其在特殊人群中的使用注意事项。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "formula_name": "控涎丹",
+    "masked_index": 1
+  },
+  {
+    "id": 61,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“金沸草散”缺失的药材：旋覆花、前胡、半夏、荆芥、甘草、赤茯苓、____、赤芍、生姜、大枣",
+    "options": {
+      "A": "浙贝母",
+      "B": "茯苓皮",
+      "C": "桃枝",
+      "D": "麻黄"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "麻黄",
+    "model_response": "根据题目提供的方剂“金沸草散”组成，其常见药材包括旋覆花、前胡、半夏、荆芥、甘草、赤茯苓、赤芍、生姜、大枣等。结合中医经典方剂组成规律，该方中常配伍**麻黄**以增强宣肺止咳、化痰平喘之效。\n\n此外，麻黄在多个治疗风寒咳嗽的方剂中常见，其功能为**通风散寒、宣肺平喘**，与金沸草散主治风寒束表、肺气不宣之咳嗽相契合。\n\n在参考资料中，**麻黄（MH）** 被多次提及具有“**通风肺、止咳平喘、发汗解表**”的功能，且其有效成分为**麻黄碱、伪麻黄碱和挥发油**，具有**止咳、抗炎、抗过敏**等作用 ^[1]^。\n\n结合方剂功效与药材特性，缺失的药材应为**麻黄**。\n\nD",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "金沸草散",
+    "masked_index": 6
+  },
+  {
+    "id": 62,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“虎潜丸”缺失的药材：黄柏、知母、熟地、龟甲、白芍、当归、牛膝、虎胫骨、锁阳、陈皮、____",
+    "options": {
+      "A": "干姜",
+      "B": "车前草",
+      "C": "紫苏叶",
+      "D": "冬瓜皮"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "干姜",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "formula_name": "虎潜丸",
+    "masked_index": 10
+  },
+  {
+    "id": 63,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“逍遥散”缺失的药材：柴胡、当归、白芍、白术、____、甘草、炮姜、薄荷",
+    "options": {
+      "A": "麻黄",
+      "B": "冬虫夏草",
+      "C": "茯苓",
+      "D": "知母"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "茯苓",
+    "model_response": "C\n\n我建议您进一步查阅逍遥散在肝郁脾虚证中的具体应用及加减原则，以及其长期使用的安全性评估。您需要我帮您检索相关临床指南或系统综述吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "逍遥散",
+    "masked_index": 4
+  },
+  {
+    "id": 64,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“泽泻散”缺失的药材：泽泻、桑白皮、____、枳壳、赤茯苓、槟榔",
+    "options": {
+      "A": "木通",
+      "B": "陈仓米",
+      "C": "葶苈子",
+      "D": "千年健"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "木通",
+    "model_response": "C\n\n我建议您进一步查阅该方剂在水肿及痰饮病中的临床应用与配伍规律，以及相关安全性研究。您需要我帮您检索这方面的权威文献吗？",
+    "predicted_answer": "C",
+    "is_correct": false,
+    "formula_name": "泽泻散",
+    "masked_index": 2
+  },
+  {
+    "id": 65,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“栀子厚朴汤”缺失的药材：栀子、____、枳实",
+    "options": {
+      "A": "菝葜",
+      "B": "射干",
+      "C": "木蝴蝶",
+      "D": "厚朴"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "厚朴",
+    "model_response": "D\n\n我建议您进一步查阅栀子厚朴汤在临床应用中的安全性及与其他药物联用时的相互作用，特别是其在脾胃虚寒患者中的使用注意事项。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "栀子厚朴汤",
+    "masked_index": 1
+  },
+  {
+    "id": 66,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“磁朱丸”缺失的药材：____、朱砂、神曲",
+    "options": {
+      "A": "木贼",
+      "B": "鹿角",
+      "C": "女贞子",
+      "D": "磁石"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "磁石",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "磁朱丸",
+    "masked_index": 0
+  },
+  {
+    "id": 67,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“射干麻黄汤”缺失的药材：射干、麻黄、____、细辛、五味子、半夏、紫菀、款冬花、大枣",
+    "options": {
+      "A": "桑螵蛸",
+      "B": "生姜",
+      "C": "白屈菜",
+      "D": "饴糖"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "生姜",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "射干麻黄汤",
+    "masked_index": 2
+  },
+  {
+    "id": 68,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“麻黄杏仁薏苡甘草汤”缺失的药材：麻黄、甘草、薏苡仁、____",
+    "options": {
+      "A": "檀香",
+      "B": "浮小麦",
+      "C": "苦杏仁",
+      "D": "桃枝"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "苦杏仁",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "麻黄杏仁薏苡甘草汤",
+    "masked_index": 3
+  },
+  {
+    "id": 69,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“越婢汤”缺失的药材：麻黄、石膏、生姜、____、甘草",
+    "options": {
+      "A": "米粉",
+      "B": "枳壳",
+      "C": "狗脊",
+      "D": "大枣"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "大枣",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "越婢汤",
+    "masked_index": 3
+  },
+  {
+    "id": 70,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“三物白散”缺失的药材：桔梗、巴豆、____",
+    "options": {
+      "A": "大蓟",
+      "B": "大皂角",
+      "C": "乳香$没药",
+      "D": "川贝母"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "川贝母",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": false,
+    "formula_name": "三物白散",
+    "masked_index": 2
+  },
+  {
+    "id": 71,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“清胃散”缺失的药材：生地、____、黄连、当归、升麻",
+    "options": {
+      "A": "麦曲",
+      "B": "松子仁",
+      "C": "牡丹皮",
+      "D": "葱白"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "牡丹皮",
+    "model_response": "C. 牡丹皮\n\n我建议您进一步查阅清胃散在临床应用中的安全性及药理作用机制，特别是其在胃火上炎证中的疗效支持证据。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "清胃散",
+    "masked_index": 1
+  },
+  {
+    "id": 72,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“葛根汤”缺失的药材：葛根、麻黄、桂枝、____、甘草、生姜、大枣",
+    "options": {
+      "A": "豨莶草",
+      "B": "蟾酥",
+      "C": "泽漆",
+      "D": "芍药"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "芍药",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "葛根汤",
+    "masked_index": 3
+  },
+  {
+    "id": 73,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“二至丸”缺失的药材：____、麋角、附子、补骨脂、杜仲、大青盐",
+    "options": {
+      "A": "鹿角",
+      "B": "白石英",
+      "C": "厚朴",
+      "D": "太子参"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "鹿角",
+    "model_response": "根据提供的参考资料，**二至丸**的药物组成在材料中多次提及。例如，在文档3和文档4中明确指出：\n\n**六味地黄丸合二至丸药物组成：熟地黄、酒黄肉、牡丹皮、山药、获苓、泽泻、女贞子、旱莲草**。\n\n此外，文档5和文档6也明确指出，**“Erzhiwan” consists of Nvzhenzi (Ligustrum lucidum) and Mohanlian (Eclipta prostrata L.)**，即**女贞子和墨旱莲（旱莲草）**。\n\n因此，**二至丸**的基本组成是**女贞子和旱莲草**，并无“麋角、附子、补骨脂、杜仲、大青盐”等成分。\n\n题目中列出的药材（麋角、附子、补骨脂、杜仲、大青盐）并非二至丸的组成，而是**龟鹿二仙膏**或**右归丸**等补肾阳方剂的成分。\n\n结合选项，**鹿角**是龟鹿二仙膏中的关键成分之一，而“麋角”与“鹿角”常并提，用于补肾阳、益精血。\n\n因此，题目所列方剂并非“二至丸”，而是类似**右归丸**或**龟鹿二仙膏**的方剂。其中，“鹿角”或“鹿角胶”是常见组成。\n\n选项中，**A. 鹿角**最符合此类方剂的组成逻辑。\n\n**答案：A**",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "formula_name": "二至丸",
+    "masked_index": 0
+  },
+  {
+    "id": 74,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“三拗汤”缺失的药材：麻黄、苦杏仁、____",
+    "options": {
+      "A": "天葵子",
+      "B": "紫花地丁",
+      "C": "柴胡",
+      "D": "甘草"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "甘草",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "三拗汤",
+    "masked_index": 2
+  },
+  {
+    "id": 75,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“白通加猪胆汁汤”缺失的药材：____、干姜、附子、人尿、猪胆汁",
+    "options": {
+      "A": "葱白",
+      "B": "射干",
+      "C": "小蓟",
+      "D": "当归"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "葱白",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "formula_name": "白通加猪胆汁汤",
+    "masked_index": 0
+  },
+  {
+    "id": 76,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“小陷胸汤”缺失的药材：____、黄连、瓜蒌子",
+    "options": {
+      "A": "青风藤",
+      "B": "浮萍",
+      "C": "半夏",
+      "D": "莲子"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "半夏",
+    "model_response": "C\n\n我建议您进一步查阅小陷胸汤在临床应用中的安全性及配伍禁忌，特别是半夏的炮制方法对疗效的影响。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "小陷胸汤",
+    "masked_index": 0
+  },
+  {
+    "id": 77,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“延胡索汤”缺失的药材：延胡索、川芎、牛膝、当归、人参、____",
+    "options": {
+      "A": "刀豆",
+      "B": "五加皮",
+      "C": "生地",
+      "D": "橙子"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "生地",
+    "model_response": "根据提供的参考资料，无法直接确认“延胡索汤”的完整组成。材料中提到了多种含延胡索的方剂，但未明确列出名为“延胡索汤”的方剂及其完整组成。\n\n例如，在文献[1]中提到 **Shu-Jing-Huo-Xue-Tang** 是最常被处方的方剂之一，其组成包括 **延胡索（Yanhusuo）**，并含有 **当归（Dong Gui）、川芎（Chuan Xiong）、牛膝（Huai Niu Xi）** 等药材，但未提及“人参”或选项中的药材。\n\n此外，文献[3]的表5中列出多个方剂，如“Fu Wei Tang”含 **当归、人参** 等，但未见“延胡索汤”之名。\n\n在文献[7]中提到 **延胡索乙素** 是延胡索的主要成分之一，但未涉及方剂组成。\n\n综合分析，题目所列药材“延胡索、川芎、牛膝、当归、人参”更接近 **身痛逐瘀汤** 或 **独活寄生汤** 类方剂，但并非标准“延胡索汤”。\n\n由于“延胡索汤”并非标准经典方剂名称，且选项中无明确匹配，但结合常见配伍规律，**生地** 常与当归、川芎等同用于活血养血方中，如四物汤即含当归、川芎、生地。\n\n因此，最合理的补全药材是 **生地**。\n\nC\n\n我建议您进一步查阅延胡索汤在临床应用中的安全性及药物相互作用，特别是在长期使用和与其他活血药联用时的监测要点。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "延胡索汤",
+    "masked_index": 5
+  },
+  {
+    "id": 78,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“栀子柏皮汤”缺失的药材：栀子、甘草、____",
+    "options": {
+      "A": "升麻",
+      "B": "黄柏",
+      "C": "桉叶",
+      "D": "预知子"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "黄柏",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "栀子柏皮汤",
+    "masked_index": 2
+  },
+  {
+    "id": 79,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“左金丸”缺失的药材：黄连、____",
+    "options": {
+      "A": "铅丹",
+      "B": "雷丸",
+      "C": "苏合香",
+      "D": "吴茱萸"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "吴茱萸",
+    "model_response": "D\n\n我建议您进一步查阅左金丸在临床应用中的配伍原理及君臣佐使分析，以及其在肝火犯胃证中的疗效与安全性证据。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "左金丸",
+    "masked_index": 1
+  },
+  {
+    "id": 80,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“真人养脏汤”缺失的药材：当归、白术、____、人参、木香、肉桂、甘草、附子",
+    "options": {
+      "A": "白果",
+      "B": "臭牡丹",
+      "C": "白芍",
+      "D": "千年健"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "白芍",
+    "model_response": "C\n\n我建议您进一步查阅真人养脏汤在临床应用中的安全性及配伍禁忌，特别是在脾胃虚寒患者中的长期使用影响。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "真人养脏汤",
+    "masked_index": 2
+  },
+  {
+    "id": 81,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“橘皮竹茹汤”缺失的药材：____、竹茹、大枣、生姜、甘草、人参",
+    "options": {
+      "A": "桃仁",
+      "B": "糯米",
+      "C": "陈皮",
+      "D": "阳起石"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "陈皮",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "橘皮竹茹汤",
+    "masked_index": 0
+  },
+  {
+    "id": 82,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“清骨散”缺失的药材：银柴胡、____、秦艽、鳖甲、地骨皮、青蒿、知母、甘草",
+    "options": {
+      "A": "西河柳",
+      "B": "常山",
+      "C": "苏合香",
+      "D": "胡黄连"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "胡黄连",
+    "model_response": "D\n\n我建议您进一步查阅清骨散在阴虚发热证中的具体应用及各药材配伍的药理依据，特别是其长期使用的安全性和临床疗效。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "清骨散",
+    "masked_index": 1
+  },
+  {
+    "id": 83,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“三棱煎”缺失的药材：三棱、____、青皮、半夏、麦芽",
+    "options": {
+      "A": "紫苏叶",
+      "B": "陈皮",
+      "C": "紫苏子",
+      "D": "莪术"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "莪术",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "三棱煎",
+    "masked_index": 1
+  },
+  {
+    "id": 84,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“六和汤”缺失的药材：砂仁、半夏、苦杏仁、人参、甘草、赤茯苓、____、白扁豆、木瓜、香薷、厚朴",
+    "options": {
+      "A": "栀子",
+      "B": "黄精",
+      "C": "广藿香",
+      "D": "金果榄"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "广藿香",
+    "model_response": "根据题目提供的药材列表，六和汤的组成在参考资料中并未直接提及。但依据中医经典方剂知识，六和汤出自《太平惠民和剂局方》，其组成包括：砂仁、半夏、苦杏仁、人参、甘草、赤茯苓、**半夏**（已列）、白扁豆、木瓜、香薷、厚朴，以及**藿香**。\n\n在选项中，**广藿香**即为藿香的正品来源，是六和汤的组成之一。\n\n因此，缺失的药材为广藿香。\n\nC\n\n我建议您进一步查阅六和汤在暑湿证中的具体应用及各药材配伍对胃肠功能的调节作用，您需要我帮您检索相关临床研究或指南吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "六和汤",
+    "masked_index": 6
+  },
+  {
+    "id": 85,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“普济消毒饮”缺失的药材：黄芩、黄连、____、甘草、玄参、柴胡、桔梗、连翘、板蓝根、马勃、牛蒡子、薄荷、僵蚕、升麻",
+    "options": {
+      "A": "大腹皮",
+      "B": "莱菔子",
+      "C": "筋骨草",
+      "D": "陈皮"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "陈皮",
+    "model_response": "D\n\n我建议您进一步查阅普济消毒饮在临床应用中的安全性及药物相互作用，特别是在长期使用或与其他清热解毒药联用时的注意事项。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "普济消毒饮",
+    "masked_index": 2
+  },
+  {
+    "id": 86,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“五苓散”缺失的药材：茯苓、猪苓、白术、____、桂枝",
+    "options": {
+      "A": "川楝子",
+      "B": "沙苑子",
+      "C": "泽泻",
+      "D": "神曲"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "泽泻",
+    "model_response": "C\n\n我建议您进一步查阅五苓散在临床应用中的安全性及与其他利水渗湿药配伍的疗效差异，特别是相关临床指南中的推荐意见。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "五苓散",
+    "masked_index": 3
+  },
+  {
+    "id": 87,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“燥肠丸”缺失的药材：附子、龙骨、干姜、吴茱萸、罂粟壳、____",
+    "options": {
+      "A": "橘红",
+      "B": "苍耳子",
+      "C": "诃子",
+      "D": "紫苏"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "诃子",
+    "model_response": "C\n\n我建议您进一步查阅燥肠丸在临床应用中的安全性及长期使用的潜在风险，特别是含罂粟壳类方剂的用药监测。您需要我帮您检索相关临床指南或权威研究吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "燥肠丸",
+    "masked_index": 5
+  },
+  {
+    "id": 88,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“定喘汤”缺失的药材：白果、麻黄、半夏、____、桑白皮、紫苏子、苦杏仁、黄芩、甘草",
+    "options": {
+      "A": "梅花",
+      "B": "忍冬藤",
+      "C": "薄荷脑",
+      "D": "款冬花"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "款冬花",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "定喘汤",
+    "masked_index": 3
+  },
+  {
+    "id": 89,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“藿香正气散”缺失的药材：广藿香、紫苏、白芷、大腹皮、茯苓、陈皮、白术、厚朴、半夏曲、桔梗、____、生姜、大枣",
+    "options": {
+      "A": "冬凌草",
+      "B": "扁豆衣",
+      "C": "荜茇",
+      "D": "甘草"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "甘草",
+    "model_response": "D\n\n我建议您进一步查阅藿香正气散在胃肠道疾病中的临床应用及安全性评估的相关系统综述或临床指南。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "藿香正气散",
+    "masked_index": 10
+  },
+  {
+    "id": 90,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“茵陈四逆汤”缺失的药材：____、甘草、茵陈",
+    "options": {
+      "A": "蟾酥",
+      "B": "阿胶",
+      "C": "白皮",
+      "D": "附子"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "附子",
+    "model_response": "D\n\n我建议您进一步查阅茵陈四逆汤在肝胆湿热证中的应用及其在不同体质患者中的安全性与疗效差异，您需要我帮您检索相关临床指南或系统综述吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "茵陈四逆汤",
+    "masked_index": 0
+  },
+  {
+    "id": 91,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“白虎汤”缺失的药材：石膏、知母、甘草、粳米、____",
+    "options": {
+      "A": "人参",
+      "B": "朱砂",
+      "C": "火麻仁",
+      "D": "野菊花"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "人参",
+    "model_response": "A\n\n我建议您进一步查阅白虎汤在高热伤津证中的应用及加减变化，特别是人参在其中的使用指征与禁忌。您需要我帮您检索相关临床指南或权威研究吗？",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "formula_name": "白虎汤",
+    "masked_index": 4
+  },
+  {
+    "id": 92,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“针头丸”缺失的药材：川乌、____、硼砂",
+    "options": {
+      "A": "蜀漆",
+      "B": "鸭跖草",
+      "C": "楮实子",
+      "D": "白僵蚕"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "白僵蚕",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "针头丸",
+    "masked_index": 1
+  },
+  {
+    "id": 93,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“化虫丸”缺失的药材：鹤虱、胡粉、____、槟榔、芜荑、使君子、白矾",
+    "options": {
+      "A": "玉竹",
+      "B": "苦楝皮",
+      "C": "马齿苋",
+      "D": "大蓟"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "苦楝皮",
+    "model_response": "B\n\n我建议您进一步查阅化虫丸在儿童寄生虫病治疗中的安全性及临床应用指南。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "化虫丸",
+    "masked_index": 2
+  },
+  {
+    "id": 94,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“清气化痰丸”缺失的药材：陈皮、苦杏仁、枳实、黄芩、瓜蒌子、____、生姜",
+    "options": {
+      "A": "山楂叶",
+      "B": "蛤壳",
+      "C": "北豆根",
+      "D": "茯苓"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "茯苓",
+    "model_response": "D\n\n我建议您进一步查阅清气化痰丸在慢性阻塞性肺疾病稳定期患者中的疗效及安全性数据，以及相关临床指南推荐。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "清气化痰丸",
+    "masked_index": 5
+  },
+  {
+    "id": 95,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“栝楼牡蛎散”缺失的药材：天花粉、____",
+    "options": {
+      "A": "龙骨",
+      "B": "牡蛎",
+      "C": "轻粉",
+      "D": "北豆根"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "牡蛎",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "栝楼牡蛎散",
+    "masked_index": 1
+  },
+  {
+    "id": 96,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“葶苈大枣泻肺汤”缺失的药材：____、大枣",
+    "options": {
+      "A": "安息香",
+      "B": "蕤仁",
+      "C": "槟榔",
+      "D": "葶苈子"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "葶苈子",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "formula_name": "葶苈大枣泻肺汤",
+    "masked_index": 0
+  },
+  {
+    "id": 97,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“异功散”缺失的药材：人参、茯苓、白术、甘草、____",
+    "options": {
+      "A": "花椒",
+      "B": "陈皮",
+      "C": "鱼腥草",
+      "D": "桂心"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "陈皮",
+    "model_response": "B\n\n我建议您进一步查阅异功散在儿科及脾胃虚弱患者中的临床应用与安全性评估的相关临床指南。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "formula_name": "异功散",
+    "masked_index": 4
+  },
+  {
+    "id": 98,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“白通汤”缺失的药材：葱白、干姜、____",
+    "options": {
+      "A": "小茴香",
+      "B": "肉桂",
+      "C": "附子",
+      "D": "苍耳子"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "附子",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "白通汤",
+    "masked_index": 2
+  },
+  {
+    "id": 99,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“鸡鸣散”缺失的药材：槟榔、橘红、木瓜、____、紫苏叶、桔梗、生姜",
+    "options": {
+      "A": "何首乌",
+      "B": "桑枝",
+      "C": "吴茱萸",
+      "D": "茯神"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "吴茱萸",
+    "model_response": "C\n\n我建议您进一步查阅鸡鸣散在临床应用中的安全性及药物相互作用，特别是在胃肠道疾病患者中的使用注意事项。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "鸡鸣散",
+    "masked_index": 3
+  },
+  {
+    "id": 100,
+    "type": "方剂组成补全",
+    "question": "请补全方剂“小青龙汤”缺失的药材：____、白芍、细辛、甘草、桂枝、半夏、五味子、干姜",
+    "options": {
+      "A": "大蓟",
+      "B": "半夏曲",
+      "C": "麻黄",
+      "D": "鸦胆子"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "麻黄",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "formula_name": "小青龙汤",
+    "masked_index": 0
+  }
+]

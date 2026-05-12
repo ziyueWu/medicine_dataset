@@ -1,0 +1,1 @@
+{"llm1": null, "llm2": "备选0中的sentence_context包含目标json的name“三子养亲汤”和component“紫苏子 白芥子 萝卜子”，因此备选0符合正确选项的标准。返回备选0的序号：0。"}

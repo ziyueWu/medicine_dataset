@@ -1,0 +1,7 @@
+{
+  "model": "claude-sonnet-4-6",
+  "dataset": "dataset2",
+  "total": 100,
+  "correct": 97,
+  "accuracy": 0.97
+}

@@ -1,0 +1,299 @@
+nohup: ignoring input
+nohup: ignoring input
+/home/ziyueU/miniconda3/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py:786: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/ziyueU/miniconda3/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py:961: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/ziyueU/miniconda3/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py:469: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Some weights of XLMRobertaForMaskedLM were not initialized from the model checkpoint at model/bge-m3 and are newly initialized: ['lm_head.bias', 'lm_head.decoder.bias', 'lm_head.dense.bias', 'lm_head.dense.weight', 'lm_head.layer_norm.bias', 'lm_head.layer_norm.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/ziyueU/miniconda3/lib/python3.12/site-packages/transformers/models/auto/tokenization_auto.py:786: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/ziyueU/miniconda3/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py:961: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+/home/ziyueU/miniconda3/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py:469: FutureWarning: The `use_auth_token` argument is deprecated and will be removed in v5 of Transformers. Please use `token` instead.
+  warnings.warn(
+Some weights of XLMRobertaForMaskedLM were not initialized from the model checkpoint at model/bge-m3 and are newly initialized: ['lm_head.bias', 'lm_head.decoder.bias', 'lm_head.dense.bias', 'lm_head.dense.weight', 'lm_head.layer_norm.bias', 'lm_head.layer_norm.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/ziyueU/bge/simi_rerank_bge.py", line 435, in <module>
+Traceback (most recent call last):
+  File "/home/ziyueU/bge/3.simi_rerank_bge.py", line 435, in <module>
+  File "/home/ziyueU/bge/3.simi_rerank_bge.py", line 428, in demo_lmppl
+  File "/home/ziyueU/miniconda3/lib/python3.12/site-packages/lmppl/ppl_mlm.py", line 157, in get_perplexity
+    demo_lmppl()
+  File "/home/ziyueU/bge/simi_rerank_bge.py", line 428, in demo_lmppl
+    ppl = scorer.get_perplexity(text_list)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ziyueU/miniconda3/lib/python3.12/site-packages/lmppl/ppl_mlm.py", line 157, in get_perplexity
+    _encode = {k: torch.cat([o[k] for o in _encode], dim=0).to(self.device) for k in _encode[0].keys()}
+     _encode = {k: torch.cat([o[k] for o in _encode], dim=0).to(self.device) for k in _encode[0].keys()} 
+                ^^^^^^^^^^^^^^^^^^^^^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^^^^^^
+^^RuntimeError^: ^Sizes of tensors must match except in dimension 0. Expected size 55 but got size 54 for tensor number 3 in the list.^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Sizes of tensors must match except in dimension 0. Expected size 55 but got size 54 for tensor number 3 in the list.
+nohup: ignoring input
+initial target device:   0%|          | 0/2 [00:00<?, ?it/s]initial target device:  50%|█████     | 1/2 [00:06<00:06,  6.50s/it]initial target device: 100%|██████████| 2/2 [00:12<00:00,  6.32s/it]initial target device: 100%|██████████| 2/2 [00:12<00:00,  6.35s/it]
+Chunks:   0%|          | 0/2 [00:00<?, ?it/s]You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+You're using a XLMRobertaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+Chunks:  50%|█████     | 1/2 [00:01<00:01,  1.99s/it]Chunks: 100%|██████████| 2/2 [00:01<00:00,  1.01it/s]
+计算每个文本的向量范数
+复杂度: 1.0000 | 文本: 1、一般冬季使用；
+2、青壮年多用；
+3、北方多用；
+4、有咽痛者不能使用麻黄汤。咽痛则表明有热，热证复用热药，则必然加重病情，故如此。
+复杂度: 1.0000 | 文本: 解表剂-辛温解表
+复杂度: 1.0000 | 文本: 麻黄9克、桂枝6克、杏仁6克、炙甘草3克。
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 《伤寒论：辨太阳病脉证并治中》
+复杂度: 1.0000 | 文本: 发汗解表，宣肺平喘。
+复杂度: 1.0000 | 文本: 麻黄汤
+复杂度: 1.0000 | 文本: 上四味，以水九升，先煮麻黄，减二升，去上沫，内诸药，煮取二升半，去滓，温服八合。覆取微似汗，不须啜粥，余如桂枝法将息（现代用法：水煎服，温覆取微汗）。
+复杂度: 0.9995 | 文本: 外感风寒，恶寒发热，头痛身疼，无汗而喘，舌苔薄白，脉浮紧。（本方常用于感冒、流行性感冒、急性支气管炎、支气管哮喘等属风寒表实证者。） 【辨证要点】 恶寒发热，无汗而喘，脉浮紧。
+复杂度: 0.9995 | 文本: https://zhongyibaike.com/wiki/麻黄汤
+计算向量的标准差
+复杂度: 0.0312 | 文本: 解表剂-辛温解表
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 《伤寒论：辨太阳病脉证并治中》
+复杂度: 0.0312 | 文本: 麻黄汤
+复杂度: 0.0312 | 文本: 1、一般冬季使用；
+2、青壮年多用；
+3、北方多用；
+4、有咽痛者不能使用麻黄汤。咽痛则表明有热，热证复用热药，则必然加重病情，故如此。
+复杂度: 0.0312 | 文本: 麻黄9克、桂枝6克、杏仁6克、炙甘草3克。
+复杂度: 0.0312 | 文本: 外感风寒，恶寒发热，头痛身疼，无汗而喘，舌苔薄白，脉浮紧。（本方常用于感冒、流行性感冒、急性支气管炎、支气管哮喘等属风寒表实证者。） 【辨证要点】 恶寒发热，无汗而喘，脉浮紧。
+复杂度: 0.0312 | 文本: 发汗解表，宣肺平喘。
+复杂度: 0.0312 | 文本: https://zhongyibaike.com/wiki/麻黄汤
+复杂度: 0.0312 | 文本: 上四味，以水九升，先煮麻黄，减二升，去上沫，内诸药，煮取二升半，去滓，温服八合。覆取微似汗，不须啜粥，余如桂枝法将息（现代用法：水煎服，温覆取微汗）。
+======================
+Chunks:   0%|          | 0/2 [00:00<?, ?it/s]Chunks: 100%|██████████| 2/2 [00:00<00:00, 16.88it/s]Chunks: 100%|██████████| 2/2 [00:00<00:00, 16.84it/s]
+计算每个文本的向量范数
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 葛根12克 麻黄9克（去节）桂枝6克（去皮）生姜9克（切）甘草6克（炙）芍药6克 大枣12枚（擘）
+复杂度: 1.0000 | 文本: 发汗解毒，升津舒筋。治外感风寒表实，恶寒发热，头痛，项背强几，身痛无汗，腹微痛，或下利，或干呕，或微喘，舌淡苔白，脉浮紧者。现用于感冒、流行性感冒、麻疹、痢疾以及关节痛等病证见上述症状者。
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 上七味，以水1升，先煮麻黄、葛根，减至800毫升，去上沫，纳诸药，再煮取300毫升，去滓，每次温服150毫升，覆取微似汗。
+复杂度: 0.9995 | 文本: 《伤寒论》
+复杂度: 0.9995 | 文本: https://zhongyibaike.com/wiki/葛根汤
+复杂度: 0.9995 | 文本: 葛根汤
+计算向量的标准差
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 葛根12克 麻黄9克（去节）桂枝6克（去皮）生姜9克（切）甘草6克（炙）芍药6克 大枣12枚（擘）
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 上七味，以水1升，先煮麻黄、葛根，减至800毫升，去上沫，纳诸药，再煮取300毫升，去滓，每次温服150毫升，覆取微似汗。
+复杂度: 0.0312 | 文本: 发汗解毒，升津舒筋。治外感风寒表实，恶寒发热，头痛，项背强几，身痛无汗，腹微痛，或下利，或干呕，或微喘，舌淡苔白，脉浮紧者。现用于感冒、流行性感冒、麻疹、痢疾以及关节痛等病证见上述症状者。
+复杂度: 0.0312 | 文本: 《伤寒论》
+复杂度: 0.0312 | 文本: https://zhongyibaike.com/wiki/葛根汤
+复杂度: 0.0312 | 文本: 葛根汤
+======================
+Chunks:   0%|          | 0/2 [00:00<?, ?it/s]Chunks: 100%|██████████| 2/2 [00:00<00:00, 24.38it/s]
+计算每个文本的向量范数
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 葛根12克 麻黄9克(去节) 甘草6克(炙) 芍药6克 桂枝6克(去皮) 生姜6克(切) 半夏9克(洗) 大枣12枚(擘)
+复杂度: 1.0000 | 文本: 外感风寒，头痛，项背强直拘急，无汗，口不渴，呕逆，苔白，脉浮者。
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 《伤寒论》。
+复杂度: 1.0000 | 文本: 发汗解表，舒筋止呕。
+复杂度: 1.0000 | 文本: https://zhongyibaike.com/wiki/葛根加半夏汤
+复杂度: 1.0000 | 文本: 葛根加半夏汤
+复杂度: 1.0000 | 文本: 上八味，以水1升，先煮葛根、麻黄，减至800毫升，去白沫，纳诸药，煮取300毫升，去滓，温服100毫升，覆取微似汗。
+计算向量的标准差
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 葛根12克 麻黄9克(去节) 甘草6克(炙) 芍药6克 桂枝6克(去皮) 生姜6克(切) 半夏9克(洗) 大枣12枚(擘)
+复杂度: 0.0312 | 文本: 外感风寒，头痛，项背强直拘急，无汗，口不渴，呕逆，苔白，脉浮者。
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 发汗解表，舒筋止呕。
+复杂度: 0.0312 | 文本: https://zhongyibaike.com/wiki/葛根加半夏汤
+复杂度: 0.0312 | 文本: 上八味，以水1升，先煮葛根、麻黄，减至800毫升，去白沫，纳诸药，煮取300毫升，去滓，温服100毫升，覆取微似汗。
+复杂度: 0.0312 | 文本: 《伤寒论》。
+复杂度: 0.0312 | 文本: 葛根加半夏汤
+======================
+Chunks:   0%|          | 0/2 [00:00<?, ?it/s]Chunks: 100%|██████████| 2/2 [00:00<00:00, 42.01it/s]
+计算每个文本的向量范数
+复杂度: 1.0000 | 文本: 本方中的白术可以用苍术代替。东汉时期，苍术和白术是不分的。
+复杂度: 1.0000 | 文本: 《金匮要略》卷上。
+复杂度: 1.0000 | 文本: 麻黄加术汤
+复杂度: 0.9995 | 文本: 
+复杂度: 0.9995 | 文本: 麻黄汤原方加白术12g。
+复杂度: 0.9995 | 文本: 风寒湿痹，身体烦疼，无汗等。（即风寒表实证挾湿）
+复杂度: 0.9995 | 文本: 
+复杂度: 0.9995 | 文本: 发汗解表，散寒祛湿。
+复杂度: 0.9995 | 文本: https://zhongyibaike.com/wiki/麻黄加术汤
+复杂度: 0.9995 | 文本: 
+计算向量的标准差
+复杂度: 0.0312 | 文本: 本方中的白术可以用苍术代替。东汉时期，苍术和白术是不分的。
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 麻黄汤原方加白术12g。
+复杂度: 0.0312 | 文本: 风寒湿痹，身体烦疼，无汗等。（即风寒表实证挾湿）
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 《金匮要略》卷上。
+复杂度: 0.0312 | 文本: 发汗解表，散寒祛湿。
+复杂度: 0.0312 | 文本: https://zhongyibaike.com/wiki/麻黄加术汤
+复杂度: 0.0312 | 文本: 麻黄加术汤
+复杂度: 0.0312 | 文本: 
+======================
+Chunks:   0%|          | 0/2 [00:00<?, ?it/s]Chunks: 100%|██████████| 2/2 [00:00<00:00, 41.86it/s]
+计算每个文本的向量范数
+复杂度: 1.0000 | 文本: 桂枝12克，炙甘草6g
+复杂度: 1.0000 | 文本: 治发汗过多，其人叉手自冒，心下悸，欲得按者。
+复杂度: 1.0000 | 文本: 《伤寒论》
+复杂度: 1.0000 | 文本: 补心气，温心阳
+复杂度: 1.0000 | 文本: https://zhongyibaike.com/wiki/桂枝甘草汤
+复杂度: 1.0000 | 文本: 桂枝甘草汤
+复杂度: 1.0000 | 文本: 水煎分三次温服 (成人常用剂量: 10剂)
+复杂度: 0.9995 | 文本: 
+复杂度: 0.9995 | 文本: 
+复杂度: 0.9995 | 文本: 
+计算向量的标准差
+复杂度: 0.0312 | 文本: 治发汗过多，其人叉手自冒，心下悸，欲得按者。
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 桂枝12克，炙甘草6g
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 《伤寒论》
+复杂度: 0.0312 | 文本: 补心气，温心阳
+复杂度: 0.0312 | 文本: https://zhongyibaike.com/wiki/桂枝甘草汤
+复杂度: 0.0312 | 文本: 桂枝甘草汤
+复杂度: 0.0312 | 文本: 水煎分三次温服 (成人常用剂量: 10剂)
+======================
+Chunks:   0%|          | 0/2 [00:00<?, ?it/s]Chunks: 100%|██████████| 2/2 [00:00<00:00, 24.01it/s]
+计算每个文本的向量范数
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 调和营卫，固表扶阳。用于太阳病发汗太过致汗出不止，恶风小便少而不畅，四肢微急，难以屈伸者。用于治疗表虚漏汗，顽固性盗汗，窦性心动过缓，小儿虚脱，乙型肝炎等。
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 《伤寒论》。
+复杂度: 1.0000 | 文本: 
+复杂度: 0.9995 | 文本: 桂枝9克(去皮) 芍药9克 甘草9克(炙) 生姜9克(切) 大枣3枚(擘) 附子6克(炮)
+复杂度: 0.9995 | 文本: https://zhongyibaike.com/wiki/桂枝加附子汤
+复杂度: 0.9995 | 文本: 桂枝加附子汤
+复杂度: 0.9995 | 文本: 上六味，以水700毫升，煮取300毫升，去滓，每次，100毫升，温服。调养如桂枝汤法。
+计算向量的标准差
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 调和营卫，固表扶阳。用于太阳病发汗太过致汗出不止，恶风小便少而不畅，四肢微急，难以屈伸者。用于治疗表虚漏汗，顽固性盗汗，窦性心动过缓，小儿虚脱，乙型肝炎等。
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 桂枝9克(去皮) 芍药9克 甘草9克(炙) 生姜9克(切) 大枣3枚(擘) 附子6克(炮)
+复杂度: 0.0312 | 文本: 《伤寒论》。
+复杂度: 0.0312 | 文本: https://zhongyibaike.com/wiki/桂枝加附子汤
+复杂度: 0.0312 | 文本: 桂枝加附子汤
+复杂度: 0.0312 | 文本: 上六味，以水700毫升，煮取300毫升，去滓，每次，100毫升，温服。调养如桂枝汤法。
+======================
+Chunks:   0%|          | 0/2 [00:00<?, ?it/s]Chunks: 100%|██████████| 2/2 [00:00<00:00,  9.71it/s]Chunks: 100%|██████████| 2/2 [00:00<00:00,  9.70it/s]
+计算每个文本的向量范数
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 桂枝（去皮）9 g　芍药12 g　甘草（炙）6 g　生姜（切）12 g　大枣（擘）十二枚　人参9 g
+复杂度: 1.0000 | 文本: 解肌祛风，通营补津液而调和营卫。用于发汗后，身疼痛，脉沉迟者。脉沉迟，或痹，或四肢拘挛、心下痞塞者。 【歌诀】 新加汤增芍姜量，更添人参使胃强。汗出身痛表里虚，扶正袪邪效能彰。 【按】 本方证辨证要点为桂枝汤证身痛明显，胃气虚、脉沉迟者。本方证常见于急性商病后期，或各种慢性病中，当有表证和胃气虚症状时，可进一步细审是否有本方证。表证未解而有里虚之候，治疗必须扶里之虚，才解外之邪。假如另有厥逆、下利等证，本方则不能再用，应按先救其里后救其表的定法治之。
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: https://zhongyibaike.com/wiki/桂枝新加汤
+复杂度: 1.0000 | 文本: 桂枝新加汤
+复杂度: 1.0000 | 文本: 上六味，以水一斗二升，煮取三升，去滓，温服一升。本云桂枝汤，今加芍药、生姜、人参。
+计算向量的标准差
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 上六味，以水一斗二升，煮取三升，去滓，温服一升。本云桂枝汤，今加芍药、生姜、人参。
+复杂度: 0.0312 | 文本: 桂枝（去皮）9 g　芍药12 g　甘草（炙）6 g　生姜（切）12 g　大枣（擘）十二枚　人参9 g
+复杂度: 0.0312 | 文本: 解肌祛风，通营补津液而调和营卫。用于发汗后，身疼痛，脉沉迟者。脉沉迟，或痹，或四肢拘挛、心下痞塞者。 【歌诀】 新加汤增芍姜量，更添人参使胃强。汗出身痛表里虚，扶正袪邪效能彰。 【按】 本方证辨证要点为桂枝汤证身痛明显，胃气虚、脉沉迟者。本方证常见于急性商病后期，或各种慢性病中，当有表证和胃气虚症状时，可进一步细审是否有本方证。表证未解而有里虚之候，治疗必须扶里之虚，才解外之邪。假如另有厥逆、下利等证，本方则不能再用，应按先救其里后救其表的定法治之。
+复杂度: 0.0312 | 文本: https://zhongyibaike.com/wiki/桂枝新加汤
+复杂度: 0.0312 | 文本: 桂枝新加汤
+======================
+Chunks:   0%|          | 0/2 [00:00<?, ?it/s]Chunks: 100%|██████████| 2/2 [00:00<00:00, 17.12it/s]Chunks: 100%|██████████| 2/2 [00:00<00:00, 17.08it/s]
+计算每个文本的向量范数
+复杂度: 1.0000 | 文本: 本方即《伤寒论》桂枝汤加栝楼根而成，所治之证，为痉病中之柔痉。是外有表邪，经络受阻，经脉拘急不舒，复因表虚汗出，津液不得濡润而成。方中用桂枝汤外解风寒，加入栝楼根甘寒润燥而通津液，并且善通经络。配合成方，可收解表生津并重之效，表证解，津液通，经脉濡，而痉亦自愈。
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 栝楼根6克 桂枝9克 芍药9克 甘草6克 生姜9克 大枣12枚
+复杂度: 1.0000 | 文本: 解肌发表，生津舒筋。用于外感风寒，发热恶风，头痛汗出，身体强，几几然，脉沉迟而有力者。
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 
+复杂度: 0.9995 | 文本: https://zhongyibaike.com/wiki/栝楼桂枝汤
+复杂度: 0.9995 | 文本: 栝楼桂枝汤
+复杂度: 0.9995 | 文本: 上六味，以水900毫升，煮取300毫升，分三次温服，取微汗。汗不出，服顷啜热粥发之。
+计算向量的标准差
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 栝楼根6克 桂枝9克 芍药9克 甘草6克 生姜9克 大枣12枚
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 本方即《伤寒论》桂枝汤加栝楼根而成，所治之证，为痉病中之柔痉。是外有表邪，经络受阻，经脉拘急不舒，复因表虚汗出，津液不得濡润而成。方中用桂枝汤外解风寒，加入栝楼根甘寒润燥而通津液，并且善通经络。配合成方，可收解表生津并重之效，表证解，津液通，经脉濡，而痉亦自愈。
+复杂度: 0.0312 | 文本: 解肌发表，生津舒筋。用于外感风寒，发热恶风，头痛汗出，身体强，几几然，脉沉迟而有力者。
+复杂度: 0.0312 | 文本: https://zhongyibaike.com/wiki/栝楼桂枝汤
+复杂度: 0.0312 | 文本: 栝楼桂枝汤
+复杂度: 0.0312 | 文本: 上六味，以水900毫升，煮取300毫升，分三次温服，取微汗。汗不出，服顷啜热粥发之。
+======================
+Chunks:   0%|          | 0/2 [00:00<?, ?it/s]Chunks: 100%|██████████| 2/2 [00:00<00:00, 17.62it/s]Chunks: 100%|██████████| 2/2 [00:00<00:00, 17.58it/s]
+计算每个文本的向量范数
+复杂度: 1.0000 | 文本: ①《尚论篇》：用桂枝之辛甘，以亟散太阳之邪；其去芍药之意，酸收二字不足尽之，以误下故不敢用，恐其复领阳邪下入腹中也。
+②《伤寒贯珠集》：邪气仍在阳分，故桂、甘、姜、枣甘辛温药，从阳引而去之；去芍药者，恐酸寒气味，足以留胸中之邪，且夺桂枝之性也。
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 太阳病，下之后，脉促胸满者。
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 发汗解肌祛风，去阴通阳。
+复杂度: 1.0000 | 文本: 桂枝去芍药汤
+复杂度: 1.0000 | 文本: 以水7升，煮取3升，去滓，温服1升。
+复杂度: 0.9995 | 文本: 《伤寒论》。 桂枝3两（去皮），甘草2两（炙），生姜3两（切），大枣12枚（擘）。
+复杂度: 0.9995 | 文本: 
+复杂度: 0.9995 | 文本: https://zhongyibaike.com/wiki/桂枝去芍药汤
+计算向量的标准差
+复杂度: 0.0312 | 文本: ①《尚论篇》：用桂枝之辛甘，以亟散太阳之邪；其去芍药之意，酸收二字不足尽之，以误下故不敢用，恐其复领阳邪下入腹中也。
+②《伤寒贯珠集》：邪气仍在阳分，故桂、甘、姜、枣甘辛温药，从阳引而去之；去芍药者，恐酸寒气味，足以留胸中之邪，且夺桂枝之性也。
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 发汗解肌祛风，去阴通阳。
+复杂度: 0.0312 | 文本: 桂枝去芍药汤
+复杂度: 0.0312 | 文本: 《伤寒论》。 桂枝3两（去皮），甘草2两（炙），生姜3两（切），大枣12枚（擘）。
+复杂度: 0.0312 | 文本: 太阳病，下之后，脉促胸满者。
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: https://zhongyibaike.com/wiki/桂枝去芍药汤
+复杂度: 0.0312 | 文本: 以水7升，煮取3升，去滓，温服1升。
+======================
+Chunks:   0%|          | 0/2 [00:00<?, ?it/s]Chunks: 100%|██████████| 2/2 [00:00<00:00, 30.64it/s]
+计算每个文本的向量范数
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 桂枝9克(去皮) 甘草6克(炙) 大枣12枚(擘) 生姜9克(切) 附子5克(炮)
+复杂度: 1.0000 | 文本: 解肌祛风，温补阳气而生津液。用于太阳病，误用下法后，脉促胸满，微恶寒者。
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: 《伤寒论》。
+复杂度: 1.0000 | 文本: 
+复杂度: 1.0000 | 文本: https://zhongyibaike.com/wiki/桂枝去芍药加附子汤
+复杂度: 1.0000 | 文本: 桂枝去芍药加附子汤
+复杂度: 1.0000 | 文本: 上五味，以水700毫升，煮取300毫升，去滓，温服100毫升。调养如桂枝汤法。
+计算向量的标准差
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 解肌祛风，温补阳气而生津液。用于太阳病，误用下法后，脉促胸满，微恶寒者。
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 
+复杂度: 0.0312 | 文本: 上五味，以水700毫升，煮取300毫升，去滓，温服100毫升。调养如桂枝汤法。
+复杂度: 0.0312 | 文本: 桂枝9克(去皮) 甘草6克(炙) 大枣12枚(擘) 生姜9克(切) 附子5克(炮)
+复杂度: 0.0312 | 文本: 《伤寒论》。
+复杂度: 0.0312 | 文本: https://zhongyibaike.com/wiki/桂枝去芍药加附子汤
+复杂度: 0.0312 | 文本: 桂枝去芍药加附子汤
+======================
+Exception ignored in: <function AbsEmbedder.__del__ at 0x7ff8d49b0e00>
+Traceback (most recent call last):
+  File "/home/ziyueU/miniconda3/lib/python3.12/site-packages/FlagEmbedding/abc/inference/AbsEmbedder.py", line 270, in __del__
+  File "/home/ziyueU/miniconda3/lib/python3.12/site-packages/FlagEmbedding/abc/inference/AbsEmbedder.py", line 82, in stop_self_pool
+  File "/home/ziyueU/miniconda3/lib/python3.12/site-packages/FlagEmbedding/abc/inference/AbsEmbedder.py", line 362, in stop_multi_process_pool
+  File "/home/ziyueU/miniconda3/lib/python3.12/multiprocessing/process.py", line 133, in terminate
+  File "/home/ziyueU/miniconda3/lib/python3.12/multiprocessing/popen_fork.py", line 57, in terminate
+AttributeError: 'NoneType' object has no attribute 'SIGTERM'
+/home/ziyueU/miniconda3/lib/python3.12/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 2 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

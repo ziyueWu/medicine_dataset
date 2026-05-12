@@ -1,0 +1,1226 @@
+﻿dataset,rank,question_id,question,average_normalized_score,average_score_llm_all,min_normalized_score,model,model_display_name,model_normalized_score,model_score_llm_all,evaluator,evaluator_score_total,evaluator_confidence,reason,evaluation_text,response_text
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,gpt_5_4,GPT-5.4,0.87,15.6,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.9}","{""modified_name"":""疏凿饮子加车前子泽泻汤"",""diff_component"":""车前子、泽泻"",""component_effect"":""车前子清热利尿，渗湿通淋，兼能清肝明目；泽泻利水渗湿，泄热降浊，增强通利水道、消肿除满之力"",""modified_cure"":""水湿壅盛兼湿热偏重所致的遍身浮肿、小便短少不利、腹胀满闷、口渴尿赤；亦可用于湿热下注兼水肿者""}"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,gpt_5_4,GPT-5.4,0.87,15.6,gpt-5.4,6.0,0.95,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.95}","{""modified_name"":""疏凿饮子加车前子泽泻汤"",""diff_component"":""车前子、泽泻"",""component_effect"":""车前子清热利尿，渗湿通淋，兼能清肝明目；泽泻利水渗湿，泄热降浊，增强通利水道、消肿除满之力"",""modified_cure"":""水湿壅盛兼湿热偏重所致的遍身浮肿、小便短少不利、腹胀满闷、口渴尿赤；亦可用于湿热下注兼水肿者""}"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,gpt_5_4,GPT-5.4,0.87,15.6,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.9}","{""modified_name"":""疏凿饮子加车前子泽泻汤"",""diff_component"":""车前子、泽泻"",""component_effect"":""车前子清热利尿，渗湿通淋，兼能清肝明目；泽泻利水渗湿，泄热降浊，增强通利水道、消肿除满之力"",""modified_cure"":""水湿壅盛兼湿热偏重所致的遍身浮肿、小便短少不利、腹胀满闷、口渴尿赤；亦可用于湿热下注兼水肿者""}"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,o3,O3,0.94,16.86,deepseek-v4-pro,6.0,1.0,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":1}","{""modified_name"":""疏凿饮子加车前子"",""diff_component"":""车前子"",""component_effect"":""利水渗湿；清热通淋；止泻化痰"",""modified_cure"":""水湿壅盛所致小便不利、下肢浮肿兼小便短赤；湿热下注所致淋痛""}"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,o3,O3,0.94,16.86,gpt-5.4,6.0,0.96,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.96}","{""modified_name"":""疏凿饮子加车前子"",""diff_component"":""车前子"",""component_effect"":""利水渗湿；清热通淋；止泻化痰"",""modified_cure"":""水湿壅盛所致小便不利、下肢浮肿兼小便短赤；湿热下注所致淋痛""}"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,o3,O3,0.94,16.86,claude-sonnet-4-6,6.0,0.85,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.85}","{""modified_name"":""疏凿饮子加车前子"",""diff_component"":""车前子"",""component_effect"":""利水渗湿；清热通淋；止泻化痰"",""modified_cure"":""水湿壅盛所致小便不利、下肢浮肿兼小便短赤；湿热下注所致淋痛""}"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,kimi_k2_5,Kimi-K2.5,0.54,9.76,deepseek-v4-pro,2.0,1.0,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"":2, ""confidence"":1.0}","```json
+{
+  ""modified_name"": ""疏凿饮子加黄芪汤"",
+  ""diff_component"": ""黄芪"",
+  ""component_effect"": ""补气升阳；益卫固表；利水消肿；托毒生肌"",
+  ""modified_cure"": ""水湿壅盛兼气虚水肿；症见遍身浮肿、气喘口渴、二便不利、神疲乏力、少气懒言、表虚自汗者""
+}
+```"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,kimi_k2_5,Kimi-K2.5,0.54,9.76,gpt-5.4,4.0,0.74,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.74}","```json
+{
+  ""modified_name"": ""疏凿饮子加黄芪汤"",
+  ""diff_component"": ""黄芪"",
+  ""component_effect"": ""补气升阳；益卫固表；利水消肿；托毒生肌"",
+  ""modified_cure"": ""水湿壅盛兼气虚水肿；症见遍身浮肿、气喘口渴、二便不利、神疲乏力、少气懒言、表虚自汗者""
+}
+```"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,kimi_k2_5,Kimi-K2.5,0.54,9.76,claude-sonnet-4-6,6.0,0.8,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.8}","```json
+{
+  ""modified_name"": ""疏凿饮子加黄芪汤"",
+  ""diff_component"": ""黄芪"",
+  ""component_effect"": ""补气升阳；益卫固表；利水消肿；托毒生肌"",
+  ""modified_cure"": ""水湿壅盛兼气虚水肿；症见遍身浮肿、气喘口渴、二便不利、神疲乏力、少气懒言、表虚自汗者""
+}
+```"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,deepseek_v3_2,DeepSeek-V3.2,0.53,9.6,deepseek-v4-pro,2.0,1.0,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"":2, ""confidence"":1.0}","{
+  ""modified_name"": ""疏凿饮子加黄芪防己汤"",
+  ""diff_component"": ""黄芪、防己"",
+  ""component_effect"": ""黄芪：补气固表、利水消肿；防己：祛风止痛、利水消肿"",
+  ""modified_cure"": ""气虚水肿，症见身肿、乏力、汗出恶风、小便不利""
+}"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,deepseek_v3_2,DeepSeek-V3.2,0.53,9.6,gpt-5.4,4.0,0.7,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.7}","{
+  ""modified_name"": ""疏凿饮子加黄芪防己汤"",
+  ""diff_component"": ""黄芪、防己"",
+  ""component_effect"": ""黄芪：补气固表、利水消肿；防己：祛风止痛、利水消肿"",
+  ""modified_cure"": ""气虚水肿，症见身肿、乏力、汗出恶风、小便不利""
+}"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,deepseek_v3_2,DeepSeek-V3.2,0.53,9.6,claude-sonnet-4-6,6.0,0.8,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.8}","{
+  ""modified_name"": ""疏凿饮子加黄芪防己汤"",
+  ""diff_component"": ""黄芪、防己"",
+  ""component_effect"": ""黄芪：补气固表、利水消肿；防己：祛风止痛、利水消肿"",
+  ""modified_cure"": ""气虚水肿，症见身肿、乏力、汗出恶风、小便不利""
+}"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.26,4.64,deepseek-v4-pro,2.0,0.1,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"":2, ""confidence"":0.1}","{
+  ""modified_name"": ""疏凿饮子加葶興子汤"",
+  ""diff_component"": ""葶興子"",
+  ""component_effect"": ""泻肺平喘；行水消肿"",
+  ""modified_cure"": ""阳水实证；遍身水肿；水邪迫肺之喘呼气急；不得平卧；大小便不利""
+}"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.26,4.64,gpt-5.4,2.0,0.42,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"":2, ""confidence"":0.42}","{
+  ""modified_name"": ""疏凿饮子加葶興子汤"",
+  ""diff_component"": ""葶興子"",
+  ""component_effect"": ""泻肺平喘；行水消肿"",
+  ""modified_cure"": ""阳水实证；遍身水肿；水邪迫肺之喘呼气急；不得平卧；大小便不利""
+}"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.26,4.64,claude-sonnet-4-6,6.0,0.6,,"I need to evaluate this response about a modified traditional Chinese medicine formula based on 疏凿饮子.
+
+**Analyzing the response:**
+
+The modified formula is ""疏凿饮子加葶苈子汤"" (noting that 葶興子 appears to be 葶苈子 with a character variation).
+
+**Score Point 1:** Specific added herb name proposed
+- The response clearly names 葶苈子 (葶興子) as the added herb
+- This is a concrete, specific herb name added to the base formula
+- **Score: 2/2**
+
+**Score Point 2:** Explanation of the added herb's effects
+- The response states: ""泻肺平喘；行水消肿"" (drain lung to calm panting; move water to reduce swelling)
+- Looking at the reference: The reference shows 葶苈子 with empty effect field ("""")
+- 葶苈子 is a well-known herb in TCM with the classical effects of 泻肺平喘, 利水消肿 - these are standard, well-established effects for this herb
+- However, the reference database has empty fields, meaning I cannot verify against the database
+- The effects described are clinically accurate for 葶苈子
+- Since the reference has no data to match against, but the effects are medically sound and reasonable, I'll give partial credit
+- **Score: 2/2** (the effects described are accurate TCM knowledge for 葶苈子)
+
+**Score Point 3:** Explanation of new formula's therapeutic changes
+- The response states treatment for: 阳水实证；遍身水肿；水邪迫肺之喘呼气急；不得平卧；大小便不利
+- The reference shows empty 主治 field for 葶苈子
+- The modifications make clinical sense - adding 葶苈子 to 疏凿饮子 would indeed add lung-draining and water-moving properties, making it suitable for edema with respiratory symptoms
+- Since reference is empty, cannot fully verify, but the reasoning is sound
+- **Score: 2/2**
+
+However, since the reference fields are all empty, I cannot definitively verify the effects and indications against database records. The scores I'm giving are based on general TCM knowledge. My confidence should reflect this uncertainty.
+
+```json
+{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.6}
+```","{
+  ""modified_name"": ""疏凿饮子加葶興子汤"",
+  ""diff_component"": ""葶興子"",
+  ""component_effect"": ""泻肺平喘；行水消肿"",
+  ""modified_cure"": ""阳水实证；遍身水肿；水邪迫肺之喘呼气急；不得平卧；大小便不利""
+}"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,claude_sonnet_4_6,Claude-Sonnet-4.6,0.87,15.6,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.9}","```json
+{""modified_name"":""疏凿饮子加附子汤"", ""diff_component"":""附子"", ""component_effect"":""温肾助阳；散寒止痛；振奋阳气以助气化行水"", ""modified_cure"":""阳虚水肿；周身浮肿兼见形寒肢冷；小便不利；脉沉迟无力；水湿内停兼阳气不足证""}
+```"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,claude_sonnet_4_6,Claude-Sonnet-4.6,0.87,15.6,gpt-5.4,6.0,0.95,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.95}","```json
+{""modified_name"":""疏凿饮子加附子汤"", ""diff_component"":""附子"", ""component_effect"":""温肾助阳；散寒止痛；振奋阳气以助气化行水"", ""modified_cure"":""阳虚水肿；周身浮肿兼见形寒肢冷；小便不利；脉沉迟无力；水湿内停兼阳气不足证""}
+```"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,claude_sonnet_4_6,Claude-Sonnet-4.6,0.87,15.6,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.9}","```json
+{""modified_name"":""疏凿饮子加附子汤"", ""diff_component"":""附子"", ""component_effect"":""温肾助阳；散寒止痛；振奋阳气以助气化行水"", ""modified_cure"":""阳虚水肿；周身浮肿兼见形寒肢冷；小便不利；脉沉迟无力；水湿内停兼阳气不足证""}
+```"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,qwen3_5_plus,Qwen3.5-Plus,0.5,9.04,deepseek-v4-pro,2.0,1.0,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"":2, ""confidence"":1}","{
+  ""modified_name"": ""疏凿加黄芪汤"",
+  ""diff_component"": ""黄芪"",
+  ""component_effect"": ""补气升阳；利水消肿；固表止汗"",
+  ""modified_cure"": ""阳水兼气虚证；遍身水肿；气短乏力；""
+}"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,qwen3_5_plus,Qwen3.5-Plus,0.5,9.04,gpt-5.4,4.0,0.56,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.56}","{
+  ""modified_name"": ""疏凿加黄芪汤"",
+  ""diff_component"": ""黄芪"",
+  ""component_effect"": ""补气升阳；利水消肿；固表止汗"",
+  ""modified_cure"": ""阳水兼气虚证；遍身水肿；气短乏力；""
+}"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,qwen3_5_plus,Qwen3.5-Plus,0.5,9.04,claude-sonnet-4-6,6.0,0.8,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.8}","{
+  ""modified_name"": ""疏凿加黄芪汤"",
+  ""diff_component"": ""黄芪"",
+  ""component_effect"": ""补气升阳；利水消肿；固表止汗"",
+  ""modified_cure"": ""阳水兼气虚证；遍身水肿；气短乏力；""
+}"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,baichuan_m3_plus,百川医疗大模型,0.95,17.16,deepseek-v4-pro,6.0,1.0,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":1.0}","{
+  ""modified_name"": ""斩梦丹加味方"",
+  ""diff_component"": ""酸枣仁、远志、茯苓"",
+  ""component_effect"": ""酸枣仁养肝宁心、安神敛汗，针对虚烦不眠、多梦易醒；远志安神益智、交通心肾，可增强镇静安神之效，尤宜于梦扰心神、心肾不交之证；茯苓健脾宁心、渗湿安神，既助心神安定，又防湿邪内生，兼顾脾胃运化。"",
+  ""modified_cure"": ""心肝血虚所致的多梦易惊、夜寐不安、心悸健忘；兼见脾虚湿盛者尤为适宜。""
+}
+
+我建议您进一步查阅该加味方在长期失眠及心脾两虚型睡眠障碍中的疗效与安全性，以及相关中药配伍的现代药理研究进展。您需要我帮您检索相关文献吗？"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,baichuan_m3_plus,百川医疗大模型,0.95,17.16,gpt-5.4,6.0,0.96,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.96}","{
+  ""modified_name"": ""斩梦丹加味方"",
+  ""diff_component"": ""酸枣仁、远志、茯苓"",
+  ""component_effect"": ""酸枣仁养肝宁心、安神敛汗，针对虚烦不眠、多梦易醒；远志安神益智、交通心肾，可增强镇静安神之效，尤宜于梦扰心神、心肾不交之证；茯苓健脾宁心、渗湿安神，既助心神安定，又防湿邪内生，兼顾脾胃运化。"",
+  ""modified_cure"": ""心肝血虚所致的多梦易惊、夜寐不安、心悸健忘；兼见脾虚湿盛者尤为适宜。""
+}
+
+我建议您进一步查阅该加味方在长期失眠及心脾两虚型睡眠障碍中的疗效与安全性，以及相关中药配伍的现代药理研究进展。您需要我帮您检索相关文献吗？"
+dataset2,1,10,根据你对中药的理解基于斩梦丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6825,12.2825,0.26,baichuan_m3_plus,百川医疗大模型,0.95,17.16,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}","{
+  ""modified_name"": ""斩梦丹加味方"",
+  ""diff_component"": ""酸枣仁、远志、茯苓"",
+  ""component_effect"": ""酸枣仁养肝宁心、安神敛汗，针对虚烦不眠、多梦易醒；远志安神益智、交通心肾，可增强镇静安神之效，尤宜于梦扰心神、心肾不交之证；茯苓健脾宁心、渗湿安神，既助心神安定，又防湿邪内生，兼顾脾胃运化。"",
+  ""modified_cure"": ""心肝血虚所致的多梦易惊、夜寐不安、心悸健忘；兼见脾虚湿盛者尤为适宜。""
+}
+
+我建议您进一步查阅该加味方在长期失眠及心脾两虚型睡眠障碍中的疗效与安全性，以及相关中药配伍的现代药理研究进展。您需要我帮您检索相关文献吗？"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,gpt_5_4,GPT-5.4,0.85,15.3,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"": 5, ""confidence"": 0.9}","{""modified_name"":""栀子柏皮加茵陈赤小豆汤"",""diff_component"":""茵陈、赤小豆"",""component_effect"":""茵陈清利湿热，利胆退黄；赤小豆利水渗湿，解毒排脓，助湿热从小便而去"",""modified_cure"":""湿热郁蒸所致身目发黄；发热心烦；小便短赤；皮肤瘙痒；""}"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,gpt_5_4,GPT-5.4,0.85,15.3,gpt-5.4,6.0,0.95,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.95}","{""modified_name"":""栀子柏皮加茵陈赤小豆汤"",""diff_component"":""茵陈、赤小豆"",""component_effect"":""茵陈清利湿热，利胆退黄；赤小豆利水渗湿，解毒排脓，助湿热从小便而去"",""modified_cure"":""湿热郁蒸所致身目发黄；发热心烦；小便短赤；皮肤瘙痒；""}"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,gpt_5_4,GPT-5.4,0.85,15.3,claude-sonnet-4-6,6.0,0.85,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.85}","{""modified_name"":""栀子柏皮加茵陈赤小豆汤"",""diff_component"":""茵陈、赤小豆"",""component_effect"":""茵陈清利湿热，利胆退黄；赤小豆利水渗湿，解毒排脓，助湿热从小便而去"",""modified_cure"":""湿热郁蒸所致身目发黄；发热心烦；小便短赤；皮肤瘙痒；""}"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,o3,O3,0.8,14.4,deepseek-v4-pro,4.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"": 4, ""confidence"": 0.9}","{""modified_name"":""栀子柏皮加泽泻汤"",""diff_component"":""泽泻"",""component_effect"":""利水渗湿，清热泻火；导下焦湿热，兼可止渴安神"",""modified_cure"":""下焦湿热壅滞所致的小便短赤、黄疸、口渴心烦""}"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,o3,O3,0.8,14.4,gpt-5.4,6.0,0.95,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.95}","{""modified_name"":""栀子柏皮加泽泻汤"",""diff_component"":""泽泻"",""component_effect"":""利水渗湿，清热泻火；导下焦湿热，兼可止渴安神"",""modified_cure"":""下焦湿热壅滞所致的小便短赤、黄疸、口渴心烦""}"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,o3,O3,0.8,14.4,claude-sonnet-4-6,6.0,0.85,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.85}","{""modified_name"":""栀子柏皮加泽泻汤"",""diff_component"":""泽泻"",""component_effect"":""利水渗湿，清热泻火；导下焦湿热，兼可止渴安神"",""modified_cure"":""下焦湿热壅滞所致的小便短赤、黄疸、口渴心烦""}"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,kimi_k2_5,Kimi-K2.5,0.71,12.74,deepseek-v4-pro,2.0,1.0,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""score_total"":2, ""confidence"":1.0}","```json
+{""modified_name"":""栀子柏皮加茵陈汤"", ""diff_component"": ""茵陈"", ""component_effect"":""清热利湿；利胆退黄；为治黄疸要药，增强全方清利湿热之力，尤善退黄"", ""modified_cure"":""湿热黄疸；身目发黄；小便短赤；湿重于热之黄疸病""}
+```"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,kimi_k2_5,Kimi-K2.5,0.71,12.74,gpt-5.4,6.0,0.94,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.94}","```json
+{""modified_name"":""栀子柏皮加茵陈汤"", ""diff_component"": ""茵陈"", ""component_effect"":""清热利湿；利胆退黄；为治黄疸要药，增强全方清利湿热之力，尤善退黄"", ""modified_cure"":""湿热黄疸；身目发黄；小便短赤；湿重于热之黄疸病""}
+```"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,kimi_k2_5,Kimi-K2.5,0.71,12.74,claude-sonnet-4-6,6.0,0.85,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.85}","```json
+{""modified_name"":""栀子柏皮加茵陈汤"", ""diff_component"": ""茵陈"", ""component_effect"":""清热利湿；利胆退黄；为治黄疸要药，增强全方清利湿热之力，尤善退黄"", ""modified_cure"":""湿热黄疸；身目发黄；小便短赤；湿重于热之黄疸病""}
+```"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,deepseek_v3_2,DeepSeek-V3.2,0.5,9.08,deepseek-v4-pro,2.0,0.9,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"": 2, ""confidence"": 0.9}","```json
+{
+    ""modified_name"": ""栀子柏皮加茵陈汤"",
+    ""diff_component"": ""茵陈"",
+    ""component_effect"": ""清热利湿；退黄疸；利胆护肝"",
+    ""modified_cure"": ""湿热黄疸兼有肝胆郁热；身目俱黄；小便短赤；胁痛口苦""
+}
+```"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,deepseek_v3_2,DeepSeek-V3.2,0.5,9.08,gpt-5.4,4.0,0.62,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.62}","```json
+{
+    ""modified_name"": ""栀子柏皮加茵陈汤"",
+    ""diff_component"": ""茵陈"",
+    ""component_effect"": ""清热利湿；退黄疸；利胆护肝"",
+    ""modified_cure"": ""湿热黄疸兼有肝胆郁热；身目俱黄；小便短赤；胁痛口苦""
+}
+```"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,deepseek_v3_2,DeepSeek-V3.2,0.5,9.08,claude-sonnet-4-6,6.0,0.8,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.8}","```json
+{
+    ""modified_name"": ""栀子柏皮加茵陈汤"",
+    ""diff_component"": ""茵陈"",
+    ""component_effect"": ""清热利湿；退黄疸；利胆护肝"",
+    ""modified_cure"": ""湿热黄疸兼有肝胆郁热；身目俱黄；小便短赤；胁痛口苦""
+}
+```"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.75,13.5,deepseek-v4-pro,4.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.9}","{
+  ""modified_name"": ""栀子柏皮加丹参汤"",
+  ""diff_component"": ""丹参"",
+  ""component_effect"": ""活血祛瘀；凉血消痈；清心除烦"",
+  ""modified_cure"": ""湿热黄疸兼血瘀证；发热烦躁；胁肋刺痛；黄疸迁延不退""
+}"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.75,13.5,gpt-5.4,5.0,0.9,,"{""score_1"":2,""score_2"":2,""score_3"":1,""socre_total"":5,""confidence"":0.9}","{
+  ""modified_name"": ""栀子柏皮加丹参汤"",
+  ""diff_component"": ""丹参"",
+  ""component_effect"": ""活血祛瘀；凉血消痈；清心除烦"",
+  ""modified_cure"": ""湿热黄疸兼血瘀证；发热烦躁；胁肋刺痛；黄疸迁延不退""
+}"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.75,13.5,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}","{
+  ""modified_name"": ""栀子柏皮加丹参汤"",
+  ""diff_component"": ""丹参"",
+  ""component_effect"": ""活血祛瘀；凉血消痈；清心除烦"",
+  ""modified_cure"": ""湿热黄疸兼血瘀证；发热烦躁；胁肋刺痛；黄疸迁延不退""
+}"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,claude_sonnet_4_6,Claude-Sonnet-4.6,0.55,9.98,deepseek-v4-pro,2.0,1.0,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"":2, ""confidence"":1.0}","```json
+{""modified_name"":""栀子柏皮加茵陈汤"", ""diff_component"": ""茵陈"", ""component_effect"":""清热利湿；退黄疸；疏肝利胆"", ""modified_cure"":""湿热黄疸加重者；身目发黄鲜明；小便短赤；湿热蕴结肝胆""}
+```"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,claude_sonnet_4_6,Claude-Sonnet-4.6,0.55,9.98,gpt-5.4,4.0,0.72,,"{""score_1"":2,""score_2"":1,""score_3"":1,""socre_total"":4,""confidence"":0.72}","```json
+{""modified_name"":""栀子柏皮加茵陈汤"", ""diff_component"": ""茵陈"", ""component_effect"":""清热利湿；退黄疸；疏肝利胆"", ""modified_cure"":""湿热黄疸加重者；身目发黄鲜明；小便短赤；湿热蕴结肝胆""}
+```"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,claude_sonnet_4_6,Claude-Sonnet-4.6,0.55,9.98,claude-sonnet-4-6,6.0,0.85,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.85}","```json
+{""modified_name"":""栀子柏皮加茵陈汤"", ""diff_component"": ""茵陈"", ""component_effect"":""清热利湿；退黄疸；疏肝利胆"", ""modified_cure"":""湿热黄疸加重者；身目发黄鲜明；小便短赤；湿热蕴结肝胆""}
+```"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,qwen3_5_plus,Qwen3.5-Plus,0.71,12.8,deepseek-v4-pro,2.0,1.0,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"": 2, ""confidence"": 1.0}","{""modified_name"":""栀子柏皮加茵陈汤"", ""diff_component"":""茵陈"", ""component_effect"":""清利湿热；利胆退黄"", ""modified_cure"":""湿热黄疸；身目俱黄；小便短赤；""}"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,qwen3_5_plus,Qwen3.5-Plus,0.71,12.8,gpt-5.4,6.0,0.95,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.95}","{""modified_name"":""栀子柏皮加茵陈汤"", ""diff_component"":""茵陈"", ""component_effect"":""清利湿热；利胆退黄"", ""modified_cure"":""湿热黄疸；身目俱黄；小便短赤；""}"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,qwen3_5_plus,Qwen3.5-Plus,0.71,12.8,claude-sonnet-4-6,6.0,0.85,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.85}","{""modified_name"":""栀子柏皮加茵陈汤"", ""diff_component"":""茵陈"", ""component_effect"":""清利湿热；利胆退黄"", ""modified_cure"":""湿热黄疸；身目俱黄；小便短赤；""}"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,baichuan_m3_plus,百川医疗大模型,0.69,12.5,deepseek-v4-pro,4.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.9}","{
+  ""modified_name"": ""独活寄生汤加苍术防己汤"",
+  ""diff_component"": ""苍术、防己"",
+  ""component_effect"": ""苍术具有燥湿健脾、祛风散寒的作用，尤其适用于湿邪偏盛的情况；防己则有利水消肿、祛风止痛的功效，可增强方剂对湿邪所致关节肿痛的治疗效果。"",
+  ""modified_cure"": ""肝肾亏虚兼湿邪偏盛之痹证，症见关节重着、肿胀明显、活动受限、肢体困重，舌苔白腻者。加味后方剂可增强祛湿通络、消肿止痛之效，适用于类风湿关节炎或骨性关节炎属湿盛型者。""
+}
+
+我建议您进一步查阅该加味方在肝肾亏虚兼湿盛型痹证中的长期疗效与安全性，以及相关临床指南或系统综述。您需要我帮您检索相关文献吗？"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,baichuan_m3_plus,百川医疗大模型,0.69,12.5,gpt-5.4,5.0,0.82,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.82}","{
+  ""modified_name"": ""独活寄生汤加苍术防己汤"",
+  ""diff_component"": ""苍术、防己"",
+  ""component_effect"": ""苍术具有燥湿健脾、祛风散寒的作用，尤其适用于湿邪偏盛的情况；防己则有利水消肿、祛风止痛的功效，可增强方剂对湿邪所致关节肿痛的治疗效果。"",
+  ""modified_cure"": ""肝肾亏虚兼湿邪偏盛之痹证，症见关节重着、肿胀明显、活动受限、肢体困重，舌苔白腻者。加味后方剂可增强祛湿通络、消肿止痛之效，适用于类风湿关节炎或骨性关节炎属湿盛型者。""
+}
+
+我建议您进一步查阅该加味方在肝肾亏虚兼湿盛型痹证中的长期疗效与安全性，以及相关临床指南或系统综述。您需要我帮您检索相关文献吗？"
+dataset2,2,44,根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.695,12.5375,0.5,baichuan_m3_plus,百川医疗大模型,0.69,12.5,claude-sonnet-4-6,6.0,0.8,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.8}","{
+  ""modified_name"": ""独活寄生汤加苍术防己汤"",
+  ""diff_component"": ""苍术、防己"",
+  ""component_effect"": ""苍术具有燥湿健脾、祛风散寒的作用，尤其适用于湿邪偏盛的情况；防己则有利水消肿、祛风止痛的功效，可增强方剂对湿邪所致关节肿痛的治疗效果。"",
+  ""modified_cure"": ""肝肾亏虚兼湿邪偏盛之痹证，症见关节重着、肿胀明显、活动受限、肢体困重，舌苔白腻者。加味后方剂可增强祛湿通络、消肿止痛之效，适用于类风湿关节炎或骨性关节炎属湿盛型者。""
+}
+
+我建议您进一步查阅该加味方在肝肾亏虚兼湿盛型痹证中的长期疗效与安全性，以及相关临床指南或系统综述。您需要我帮您检索相关文献吗？"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,gpt_5_4,GPT-5.4,0.87,15.6,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.9}","{""modified_name"":""薏苡附子败酱散加金银花连翘汤"",""diff_component"":""金银花、连翘"",""component_effect"":""金银花清热解毒、消痈散结；连翘清热解毒、散结消肿；与原方相配可增强清热解毒、排脓消痈之力"",""modified_cure"":""肠痈湿热偏盛；腹痛拒按；发热；脓成未溃或已成脓者；带下黄稠；盆腔炎性包块属湿热毒盛者""}"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,gpt_5_4,GPT-5.4,0.87,15.6,gpt-5.4,6.0,0.95,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.95}","{""modified_name"":""薏苡附子败酱散加金银花连翘汤"",""diff_component"":""金银花、连翘"",""component_effect"":""金银花清热解毒、消痈散结；连翘清热解毒、散结消肿；与原方相配可增强清热解毒、排脓消痈之力"",""modified_cure"":""肠痈湿热偏盛；腹痛拒按；发热；脓成未溃或已成脓者；带下黄稠；盆腔炎性包块属湿热毒盛者""}"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,gpt_5_4,GPT-5.4,0.87,15.6,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}","{""modified_name"":""薏苡附子败酱散加金银花连翘汤"",""diff_component"":""金银花、连翘"",""component_effect"":""金银花清热解毒、消痈散结；连翘清热解毒、散结消肿；与原方相配可增强清热解毒、排脓消痈之力"",""modified_cure"":""肠痈湿热偏盛；腹痛拒按；发热；脓成未溃或已成脓者；带下黄稠；盆腔炎性包块属湿热毒盛者""}"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,o3,O3,0.54,9.68,deepseek-v4-pro,2.0,1.0,,"{""score_1"": 2, ""score_2"": 0, ""score_3"": 0, ""socre_total"": 2, ""confidence"": 1}","{""modified_name"":""薏苡附子败酱散加黄芪方"",""diff_component"":""黄芪"",""component_effect"":""补气托毒；促进脓液排出；加速溃后愈合"",""modified_cure"":""气虚体弱之肠痈日久、脓成难溃或溃后久不收口""}"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,o3,O3,0.54,9.68,gpt-5.4,4.0,0.72,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.72}","{""modified_name"":""薏苡附子败酱散加黄芪方"",""diff_component"":""黄芪"",""component_effect"":""补气托毒；促进脓液排出；加速溃后愈合"",""modified_cure"":""气虚体弱之肠痈日久、脓成难溃或溃后久不收口""}"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,o3,O3,0.54,9.68,claude-sonnet-4-6,6.0,0.8,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.8}","{""modified_name"":""薏苡附子败酱散加黄芪方"",""diff_component"":""黄芪"",""component_effect"":""补气托毒；促进脓液排出；加速溃后愈合"",""modified_cure"":""气虚体弱之肠痈日久、脓成难溃或溃后久不收口""}"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,kimi_k2_5,Kimi-K2.5,0.48,8.68,deepseek-v4-pro,2.0,0.8,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"": 2, ""confidence"": 0.8}","```json
+{
+  ""modified_name"": ""薏苡附子败酱散加红藤汤"",
+  ""diff_component"": ""红藤"",
+  ""component_effect"": ""清热解毒；活血通络；散瘀止痛；专入大肠经，善治肠痈腹痛"",
+  ""modified_cure"": ""慢性肠痈脓肿日久；湿热瘀滞互结之右下腹包块；产后瘀阻腹痛兼带下""
+}
+```"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,kimi_k2_5,Kimi-K2.5,0.48,8.68,gpt-5.4,4.0,0.72,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.72}","```json
+{
+  ""modified_name"": ""薏苡附子败酱散加红藤汤"",
+  ""diff_component"": ""红藤"",
+  ""component_effect"": ""清热解毒；活血通络；散瘀止痛；专入大肠经，善治肠痈腹痛"",
+  ""modified_cure"": ""慢性肠痈脓肿日久；湿热瘀滞互结之右下腹包块；产后瘀阻腹痛兼带下""
+}
+```"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,kimi_k2_5,Kimi-K2.5,0.48,8.68,claude-sonnet-4-6,6.0,0.7,,"```json
+{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.7}
+```","```json
+{
+  ""modified_name"": ""薏苡附子败酱散加红藤汤"",
+  ""diff_component"": ""红藤"",
+  ""component_effect"": ""清热解毒；活血通络；散瘀止痛；专入大肠经，善治肠痈腹痛"",
+  ""modified_cure"": ""慢性肠痈脓肿日久；湿热瘀滞互结之右下腹包块；产后瘀阻腹痛兼带下""
+}
+```"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,deepseek_v3_2,DeepSeek-V3.2,0.56,10.02,deepseek-v4-pro,3.0,0.6,,"{""score_1"":2, ""score_2"":0, ""score_3"":1, ""socre_total"": 3, ""confidence"": 0.6}","```json
+{
+  ""modified_name"": ""薏苡附子败酱散加黄芪白芍汤"",
+  ""diff_component"": ""黄芪、白芍"",
+  ""component_effect"": ""黄芪补气升阳、托毒排脓、利水消肿；白芍养血和营、柔肝止痛、敛阴止汗"",
+  ""modified_cure"": ""肠痈日久，气血两虚，腹痛绵绵，脓液清稀，倦怠乏力，面色无华，自汗盗汗""
+}
+```"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,deepseek_v3_2,DeepSeek-V3.2,0.56,10.02,gpt-5.4,6.0,0.87,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.87}","```json
+{
+  ""modified_name"": ""薏苡附子败酱散加黄芪白芍汤"",
+  ""diff_component"": ""黄芪、白芍"",
+  ""component_effect"": ""黄芪补气升阳、托毒排脓、利水消肿；白芍养血和营、柔肝止痛、敛阴止汗"",
+  ""modified_cure"": ""肠痈日久，气血两虚，腹痛绵绵，脓液清稀，倦怠乏力，面色无华，自汗盗汗""
+}
+```"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,deepseek_v3_2,DeepSeek-V3.2,0.56,10.02,claude-sonnet-4-6,4.0,0.75,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.75}","```json
+{
+  ""modified_name"": ""薏苡附子败酱散加黄芪白芍汤"",
+  ""diff_component"": ""黄芪、白芍"",
+  ""component_effect"": ""黄芪补气升阳、托毒排脓、利水消肿；白芍养血和营、柔肝止痛、敛阴止汗"",
+  ""modified_cure"": ""肠痈日久，气血两虚，腹痛绵绵，脓液清稀，倦怠乏力，面色无华，自汗盗汗""
+}
+```"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.67,12.04,deepseek-v4-pro,6.0,1.0,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""score_total"":6, ""confidence"":1}","{
+  ""modified_name"": ""薏苡附子败酱加黄芪散"",
+  ""diff_component"": ""黄芪"",
+  ""component_effect"": ""补气升阳；益卫固表；托毒排脓；敛疮生肌"",
+  ""modified_cure"": ""肠痈溃后久不愈合；气阳虚弱、湿毒蕴结之慢性阑尾炎或盆腔炎，症见少腹隐痛、神疲乏力、疮口久不收敛；""
+}"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.67,12.04,gpt-5.4,2.0,0.62,,"{""score_1"":2,""score_2"":0,""score_3"":0,""socre_total"":2,""confidence"":0.62}","{
+  ""modified_name"": ""薏苡附子败酱加黄芪散"",
+  ""diff_component"": ""黄芪"",
+  ""component_effect"": ""补气升阳；益卫固表；托毒排脓；敛疮生肌"",
+  ""modified_cure"": ""肠痈溃后久不愈合；气阳虚弱、湿毒蕴结之慢性阑尾炎或盆腔炎，症见少腹隐痛、神疲乏力、疮口久不收敛；""
+}"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.67,12.04,claude-sonnet-4-6,6.0,0.8,,"```json
+{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.8}
+```","{
+  ""modified_name"": ""薏苡附子败酱加黄芪散"",
+  ""diff_component"": ""黄芪"",
+  ""component_effect"": ""补气升阳；益卫固表；托毒排脓；敛疮生肌"",
+  ""modified_cure"": ""肠痈溃后久不愈合；气阳虚弱、湿毒蕴结之慢性阑尾炎或盆腔炎，症见少腹隐痛、神疲乏力、疮口久不收敛；""
+}"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,claude_sonnet_4_6,Claude-Sonnet-4.6,0.87,15.72,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.9}","```json
+{""modified_name"":""薏苡附子败酱散加蒲公英汤"", ""diff_component"":""蒲公英"", ""component_effect"":""清热解毒；消肿散结；利湿排脓"", ""modified_cure"":""肠痈脓已成；湿热瘀结之腹痛；局部红肿热痛明显；热毒偏盛之痈疡""}
+```"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,claude_sonnet_4_6,Claude-Sonnet-4.6,0.87,15.72,gpt-5.4,6.0,0.97,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.97}","```json
+{""modified_name"":""薏苡附子败酱散加蒲公英汤"", ""diff_component"":""蒲公英"", ""component_effect"":""清热解毒；消肿散结；利湿排脓"", ""modified_cure"":""肠痈脓已成；湿热瘀结之腹痛；局部红肿热痛明显；热毒偏盛之痈疡""}
+```"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,claude_sonnet_4_6,Claude-Sonnet-4.6,0.87,15.72,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.9}","```json
+{""modified_name"":""薏苡附子败酱散加蒲公英汤"", ""diff_component"":""蒲公英"", ""component_effect"":""清热解毒；消肿散结；利湿排脓"", ""modified_cure"":""肠痈脓已成；湿热瘀结之腹痛；局部红肿热痛明显；热毒偏盛之痈疡""}
+```"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,qwen3_5_plus,Qwen3.5-Plus,0.88,15.78,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":1, ""socre_total"":5, ""confidence"":0.9}","{
+  ""modified_name"": ""薏苡附子败酱加当归汤"",
+  ""diff_component"": ""当归"",
+  ""component_effect"": ""补血活血；调经止痛；润肠通便"",
+  ""modified_cure"": ""肠痈日久；肌肤甲错；血虚腹痛；""
+}"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,qwen3_5_plus,Qwen3.5-Plus,0.88,15.78,gpt-5.4,6.0,0.98,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.98}","{
+  ""modified_name"": ""薏苡附子败酱加当归汤"",
+  ""diff_component"": ""当归"",
+  ""component_effect"": ""补血活血；调经止痛；润肠通便"",
+  ""modified_cure"": ""肠痈日久；肌肤甲错；血虚腹痛；""
+}"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,qwen3_5_plus,Qwen3.5-Plus,0.88,15.78,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}","{
+  ""modified_name"": ""薏苡附子败酱加当归汤"",
+  ""diff_component"": ""当归"",
+  ""component_effect"": ""补血活血；调经止痛；润肠通便"",
+  ""modified_cure"": ""肠痈日久；肌肤甲错；血虚腹痛；""
+}"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,baichuan_m3_plus,百川医疗大模型,0.72,12.9,deepseek-v4-pro,5.0,0.8,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.8}","{
+  ""modified_name"": ""补中益气汤加味方"",
+  ""diff_component"": ""地榆、三七粉"",
+  ""component_effect"": ""地榆味苦性寒，入血分，善于泄热凉血止血，尤宜于下焦之便血；三七粉性温，功善化瘀止血、活血定痛，能止血而不留瘀。二者合用，可增强止血效果，尤其针对便血反复发作、血色黑红相间者。"",
+  ""modified_cure"": ""慢性非特异性溃疡性结肠炎属气虚湿滞证，症见大便次数增多、不成形、便中带血、后重感、倦怠乏力、舌淡苔腻、脉虚滑等。加味后方剂在补气扶正基础上，增强凉血止血、化瘀止痛之效，适用于正虚邪实、血虚气弱为本、腹泻便血为标的证候。""
+}
+
+我建议您进一步查阅该加味方在慢性溃疡性结肠炎患者中的长期安全性及对黏膜愈合的疗效证据，尤其是地榆与三七在气血两虚体质中的配伍影响。您需要我帮您检索相关临床研究或系统综述吗？"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,baichuan_m3_plus,百川医疗大模型,0.72,12.9,gpt-5.4,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.9}","{
+  ""modified_name"": ""补中益气汤加味方"",
+  ""diff_component"": ""地榆、三七粉"",
+  ""component_effect"": ""地榆味苦性寒，入血分，善于泄热凉血止血，尤宜于下焦之便血；三七粉性温，功善化瘀止血、活血定痛，能止血而不留瘀。二者合用，可增强止血效果，尤其针对便血反复发作、血色黑红相间者。"",
+  ""modified_cure"": ""慢性非特异性溃疡性结肠炎属气虚湿滞证，症见大便次数增多、不成形、便中带血、后重感、倦怠乏力、舌淡苔腻、脉虚滑等。加味后方剂在补气扶正基础上，增强凉血止血、化瘀止痛之效，适用于正虚邪实、血虚气弱为本、腹泻便血为标的证候。""
+}
+
+我建议您进一步查阅该加味方在慢性溃疡性结肠炎患者中的长期安全性及对黏膜愈合的疗效证据，尤其是地榆与三七在气血两虚体质中的配伍影响。您需要我帮您检索相关临床研究或系统综述吗？"
+dataset2,3,18,根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.6988,12.5525,0.48,baichuan_m3_plus,百川医疗大模型,0.72,12.9,claude-sonnet-4-6,5.0,0.7,,"```json
+{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"": 5, ""confidence"": 0.7}
+```","{
+  ""modified_name"": ""补中益气汤加味方"",
+  ""diff_component"": ""地榆、三七粉"",
+  ""component_effect"": ""地榆味苦性寒，入血分，善于泄热凉血止血，尤宜于下焦之便血；三七粉性温，功善化瘀止血、活血定痛，能止血而不留瘀。二者合用，可增强止血效果，尤其针对便血反复发作、血色黑红相间者。"",
+  ""modified_cure"": ""慢性非特异性溃疡性结肠炎属气虚湿滞证，症见大便次数增多、不成形、便中带血、后重感、倦怠乏力、舌淡苔腻、脉虚滑等。加味后方剂在补气扶正基础上，增强凉血止血、化瘀止痛之效，适用于正虚邪实、血虚气弱为本、腹泻便血为标的证候。""
+}
+
+我建议您进一步查阅该加味方在慢性溃疡性结肠炎患者中的长期安全性及对黏膜愈合的疗效证据，尤其是地榆与三七在气血两虚体质中的配伍影响。您需要我帮您检索相关临床研究或系统综述吗？"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,gpt_5_4,GPT-5.4,0.74,13.4,deepseek-v4-pro,5.0,0.8,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.8}","{""modified_name"":""独活寄生加黄芪杜仲汤"",""diff_component"":""黄芪、杜仲"",""component_effect"":""黄芪：补气升阳；益卫固表；利水消肿；托毒生肌。杜仲：补肝肾；强筋骨；安胎。"",""modified_cure"":""肝肾两虚兼气虚所致的痹症；腰膝酸痛；肢节屈伸不利；久痹乏力；筋骨痿弱；畏风寒；""}"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,gpt_5_4,GPT-5.4,0.74,13.4,gpt-5.4,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.9}","{""modified_name"":""独活寄生加黄芪杜仲汤"",""diff_component"":""黄芪、杜仲"",""component_effect"":""黄芪：补气升阳；益卫固表；利水消肿；托毒生肌。杜仲：补肝肾；强筋骨；安胎。"",""modified_cure"":""肝肾两虚兼气虚所致的痹症；腰膝酸痛；肢节屈伸不利；久痹乏力；筋骨痿弱；畏风寒；""}"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,gpt_5_4,GPT-5.4,0.74,13.4,claude-sonnet-4-6,5.0,0.8,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"": 5, ""confidence"": 0.8}","{""modified_name"":""独活寄生加黄芪杜仲汤"",""diff_component"":""黄芪、杜仲"",""component_effect"":""黄芪：补气升阳；益卫固表；利水消肿；托毒生肌。杜仲：补肝肾；强筋骨；安胎。"",""modified_cure"":""肝肾两虚兼气虚所致的痹症；腰膝酸痛；肢节屈伸不利；久痹乏力；筋骨痿弱；畏风寒；""}"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,o3,O3,0.68,12.2,deepseek-v4-pro,2.0,1.0,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"":2, ""confidence"":1}","{""modified_name"":""独活寄生汤加黄芪汤"",""diff_component"":""黄芪"",""component_effect"":""补气固表；益卫托里；利水消肿"",""modified_cure"":""风寒湿痹伴气虚表虚：肢体关节酸痛麻木，加重于寒冷；畏寒自汗，倦怠乏力，舌淡苔白，脉虚弱""}"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,o3,O3,0.68,12.2,gpt-5.4,6.0,0.9,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.9}","{""modified_name"":""独活寄生汤加黄芪汤"",""diff_component"":""黄芪"",""component_effect"":""补气固表；益卫托里；利水消肿"",""modified_cure"":""风寒湿痹伴气虚表虚：肢体关节酸痛麻木，加重于寒冷；畏寒自汗，倦怠乏力，舌淡苔白，脉虚弱""}"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,o3,O3,0.68,12.2,claude-sonnet-4-6,6.0,0.8,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.8}","{""modified_name"":""独活寄生汤加黄芪汤"",""diff_component"":""黄芪"",""component_effect"":""补气固表；益卫托里；利水消肿"",""modified_cure"":""风寒湿痹伴气虚表虚：肢体关节酸痛麻木，加重于寒冷；畏寒自汗，倦怠乏力，舌淡苔白，脉虚弱""}"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,kimi_k2_5,Kimi-K2.5,0.67,12.02,deepseek-v4-pro,2.0,1.0,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"":2, ""confidence"":1}","```json
+{
+  ""modified_name"": ""独活寄生加黄芪防己汤"",
+  ""diff_component"": ""黄芪、防己"",
+  ""component_effect"": ""黄芪：补气升阳，固表止汗，利水消肿，托毒生肌；防己：祛风湿，止痛，利水消肿"",
+  ""modified_cure"": ""肝肾两虚，气血不足，风寒湿痹，腰膝冷痛，屈伸不利，兼见气虚水肿，肢体浮肿，气短乏力，表虚不固者""
+}
+```"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,kimi_k2_5,Kimi-K2.5,0.67,12.02,gpt-5.4,6.0,0.82,,"{""score_1"": 2, ""score_2"": 2, ""score_3"": 2, ""socre_total"": 6, ""confidence"": 0.82}","```json
+{
+  ""modified_name"": ""独活寄生加黄芪防己汤"",
+  ""diff_component"": ""黄芪、防己"",
+  ""component_effect"": ""黄芪：补气升阳，固表止汗，利水消肿，托毒生肌；防己：祛风湿，止痛，利水消肿"",
+  ""modified_cure"": ""肝肾两虚，气血不足，风寒湿痹，腰膝冷痛，屈伸不利，兼见气虚水肿，肢体浮肿，气短乏力，表虚不固者""
+}
+```"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,kimi_k2_5,Kimi-K2.5,0.67,12.02,claude-sonnet-4-6,6.0,0.85,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.85}","```json
+{
+  ""modified_name"": ""独活寄生加黄芪防己汤"",
+  ""diff_component"": ""黄芪、防己"",
+  ""component_effect"": ""黄芪：补气升阳，固表止汗，利水消肿，托毒生肌；防己：祛风湿，止痛，利水消肿"",
+  ""modified_cure"": ""肝肾两虚，气血不足，风寒湿痹，腰膝冷痛，屈伸不利，兼见气虚水肿，肢体浮肿，气短乏力，表虚不固者""
+}
+```"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,deepseek_v3_2,DeepSeek-V3.2,0.66,11.8,deepseek-v4-pro,4.0,0.8,,"{""score_1"": 2, ""score_2"": 1, ""score_3"": 1, ""socre_total"": 4, ""confidence"": 0.8}","```json
+{
+    ""modified_name"": ""独活寄生加黄芪牛膝汤"",
+    ""diff_component"": ""黄芪、牛膝"",
+    ""component_effect"": ""黄芪：补气固表、利水消肿、托毒排脓；牛膝：补肝肾、强筋骨、活血通经、引血下行"",
+    ""modified_cure"": ""气血两虚兼肝肾不足之痹证，症见腰膝冷痛、屈伸不利、乏力自汗、下肢浮肿或麻木""
+}
+```"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,deepseek_v3_2,DeepSeek-V3.2,0.66,11.8,gpt-5.4,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.9}","```json
+{
+    ""modified_name"": ""独活寄生加黄芪牛膝汤"",
+    ""diff_component"": ""黄芪、牛膝"",
+    ""component_effect"": ""黄芪：补气固表、利水消肿、托毒排脓；牛膝：补肝肾、强筋骨、活血通经、引血下行"",
+    ""modified_cure"": ""气血两虚兼肝肾不足之痹证，症见腰膝冷痛、屈伸不利、乏力自汗、下肢浮肿或麻木""
+}
+```"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,deepseek_v3_2,DeepSeek-V3.2,0.66,11.8,claude-sonnet-4-6,4.0,0.8,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.8}","```json
+{
+    ""modified_name"": ""独活寄生加黄芪牛膝汤"",
+    ""diff_component"": ""黄芪、牛膝"",
+    ""component_effect"": ""黄芪：补气固表、利水消肿、托毒排脓；牛膝：补肝肾、强筋骨、活血通经、引血下行"",
+    ""modified_cure"": ""气血两虚兼肝肾不足之痹证，症见腰膝冷痛、屈伸不利、乏力自汗、下肢浮肿或麻木""
+}
+```"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.8,14.35,deepseek-v4-pro,6.0,1.0,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":1}","{
+  ""modified_name"": ""独活寄生加羌活汤"",
+  ""diff_component"": ""羌活"",
+  ""component_effect"": ""解表散寒；祛风胜湿；通利关节止痛"",
+  ""modified_cure"": ""肝肾两亏、气血不足之风寒湿痹，除腰膝冷痛、下肢痿痹外，兼见肩颈、背部及上肢"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.8,14.35,gpt-5.4,5.0,0.87,,"{""score_1"":2,""score_2"":2,""score_3"":1,""socre_total"":5,""confidence"":0.87}","{
+  ""modified_name"": ""独活寄生加羌活汤"",
+  ""diff_component"": ""羌活"",
+  ""component_effect"": ""解表散寒；祛风胜湿；通利关节止痛"",
+  ""modified_cure"": ""肝肾两亏、气血不足之风寒湿痹，除腰膝冷痛、下肢痿痹外，兼见肩颈、背部及上肢"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.8,14.35,claude-sonnet-4-6,5.0,0.8,,"I need to evaluate the response based on the three scoring criteria.
+
+**Criterion 1: Proposed a specific added medicinal ingredient name (2 points)**
+The response clearly proposes ""羌活"" (Notopterygium root) as the added ingredient. This is specific and clear. **Score: 2/2**
+
+**Criterion 2: Explains the effect of the added ingredient, needs to match the database (2 points)**
+The response states: ""解表散寒；祛风胜湿；通利关节止痛""
+The database reference states: ""散表寒；祛风湿；利关节；止痛""
+
+Comparing:
+- 解表散寒 ≈ 散表寒 ✓
+- 祛风胜湿 ≈ 祛风湿 ✓
+- 通利关节止痛 ≈ 利关节；止痛 ✓
+
+The effects match well with the database. **Score: 2/2**
+
+**Criterion 3: Explains the new formula's possible treatment changes, needs to match the database reference for 主治 (2 points)**
+The response states the modified formula treats: ""肝肾两亏、气血不足之风寒湿痹，除腰膝冷痛、下肢痿痹外，兼见肩颈、背部及上肢..."" (the response appears to be cut off)
+
+The database reference for 羌活's 主治: ""外感风寒；头痛无汗；油印寒湿痹；风水浮肿；疮疡肿毒""
+
+The response mentions the new formula extends treatment to shoulder, neck, back, and upper limbs, which aligns with 羌活's role in treating wind-cold-damp Bi syndrome (寒湿痹). However, the response is cut off and doesn't fully elaborate. The partial content does show reasonable matching with the database (寒湿痹 is mentioned in both). The answer partially matches but is incomplete. **Score: 1/2**
+
+**Total: 2 + 2 + 1 = 5**
+
+```json
+{""score_1"": 2, ""score_2"": 2, ""score_3"": 1, ""socre_total"": 5, ""confidence"": 0.8}
+```","{
+  ""modified_name"": ""独活寄生加羌活汤"",
+  ""diff_component"": ""羌活"",
+  ""component_effect"": ""解表散寒；祛风胜湿；通利关节止痛"",
+  ""modified_cure"": ""肝肾两亏、气血不足之风寒湿痹，除腰膝冷痛、下肢痿痹外，兼见肩颈、背部及上肢"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,claude_sonnet_4_6,Claude-Sonnet-4.6,0.84,15.16,deepseek-v4-pro,5.0,0.8,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.8}","```json
+{""modified_name"":""独活寄生加附子汤"", ""diff_component"":""附子"", ""component_effect"":""温肾助阳；散寒止痛；通行经络"", ""modified_cure"":""肾阳虚衰之痹证；腰膝冷痛剧烈；四肢厥冷；风寒湿痹日久不愈；""}
+```"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,claude_sonnet_4_6,Claude-Sonnet-4.6,0.84,15.16,gpt-5.4,6.0,0.96,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.96}","```json
+{""modified_name"":""独活寄生加附子汤"", ""diff_component"":""附子"", ""component_effect"":""温肾助阳；散寒止痛；通行经络"", ""modified_cure"":""肾阳虚衰之痹证；腰膝冷痛剧烈；四肢厥冷；风寒湿痹日久不愈；""}
+```"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,claude_sonnet_4_6,Claude-Sonnet-4.6,0.84,15.16,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}","```json
+{""modified_name"":""独活寄生加附子汤"", ""diff_component"":""附子"", ""component_effect"":""温肾助阳；散寒止痛；通行经络"", ""modified_cure"":""肾阳虚衰之痹证；腰膝冷痛剧烈；四肢厥冷；风寒湿痹日久不愈；""}
+```"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,qwen3_5_plus,Qwen3.5-Plus,0.69,12.38,deepseek-v4-pro,2.0,1.0,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"":2, ""confidence"":1}","{""modified_name"": ""独活寄生加附子汤"", ""diff_component"": ""制附子"", ""component_effect"": ""补火助阳；散寒止痛；温经通脉"", ""modified_cure"": ""肝肾亏虚兼阳虚寒盛之痹证；腰膝冷痛剧烈；畏寒肢冷；""}"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,qwen3_5_plus,Qwen3.5-Plus,0.69,12.38,gpt-5.4,6.0,0.93,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.93}","{""modified_name"": ""独活寄生加附子汤"", ""diff_component"": ""制附子"", ""component_effect"": ""补火助阳；散寒止痛；温经通脉"", ""modified_cure"": ""肝肾亏虚兼阳虚寒盛之痹证；腰膝冷痛剧烈；畏寒肢冷；""}"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,qwen3_5_plus,Qwen3.5-Plus,0.69,12.38,claude-sonnet-4-6,6.0,0.8,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.8}","{""modified_name"": ""独活寄生加附子汤"", ""diff_component"": ""制附子"", ""component_effect"": ""补火助阳；散寒止痛；温经通脉"", ""modified_cure"": ""肝肾亏虚兼阳虚寒盛之痹证；腰膝冷痛剧烈；畏寒肢冷；""}"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,baichuan_m3_plus,百川医疗大模型,0.58,10.43,deepseek-v4-pro,4.0,0.8,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"": 4, ""confidence"": 0.8}","{
+  ""modified_name"": ""定喘汤加味方"",
+  ""diff_component"": ""葶苈子、虎杖"",
+  ""component_effect"": ""葶苈子具有**泻肺平喘、利水消肿**的作用，尤其适用于痰涎壅盛、喘逆不得卧者，可增强原方降气涤痰之力 ^[5]^；虎杖则能**清热解毒、活血化瘀、通利腑气**，针对热甚津伤、腑气不通之证，有助于通腑利肺，缓解肺热雍盛所致的咳喘症状 ^[3]^。"",
+  ""modified_cure"": ""适用于**热哮急性发作期**，症见气粗息涌、喉中哮鸣、咳嗽痰黏色黄、咳吐不爽、大便秘结、舌红苔黄腻、脉滑数等。加味后方剂可增强**清热化痰、降气平喘、通腑泻肺**之效，尤其适用于痰热壅肺兼腑气不通的复杂病机。""
+}
+
+我建议您进一步查阅该加味方在痰热壅肺兼腑气不通证中的安全性及配伍禁忌，特别是葶苈子的用量控制与毒副作用相关临床研究。您需要我帮您检索相关文献吗？"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,baichuan_m3_plus,百川医疗大模型,0.58,10.43,gpt-5.4,4.0,0.87,,"{""score_1"":2,""score_2"":1,""score_3"":1,""socre_total"":4,""confidence"":0.87}","{
+  ""modified_name"": ""定喘汤加味方"",
+  ""diff_component"": ""葶苈子、虎杖"",
+  ""component_effect"": ""葶苈子具有**泻肺平喘、利水消肿**的作用，尤其适用于痰涎壅盛、喘逆不得卧者，可增强原方降气涤痰之力 ^[5]^；虎杖则能**清热解毒、活血化瘀、通利腑气**，针对热甚津伤、腑气不通之证，有助于通腑利肺，缓解肺热雍盛所致的咳喘症状 ^[3]^。"",
+  ""modified_cure"": ""适用于**热哮急性发作期**，症见气粗息涌、喉中哮鸣、咳嗽痰黏色黄、咳吐不爽、大便秘结、舌红苔黄腻、脉滑数等。加味后方剂可增强**清热化痰、降气平喘、通腑泻肺**之效，尤其适用于痰热壅肺兼腑气不通的复杂病机。""
+}
+
+我建议您进一步查阅该加味方在痰热壅肺兼腑气不通证中的安全性及配伍禁忌，特别是葶苈子的用量控制与毒副作用相关临床研究。您需要我帮您检索相关文献吗？"
+dataset2,4,32,根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7075,12.7175,0.58,baichuan_m3_plus,百川医疗大模型,0.58,10.43,claude-sonnet-4-6,5.0,0.75,,"I need to evaluate the answer based on the three scoring criteria.
+
+**Score 1: Proposed specific additional herbs (2 points)**
+The answer clearly proposes two specific herbs: 葶苈子 (Tinglizi) and 虎杖 (Huzhang) as additions to the base formula 定喘汤. This is clear and specific. Full marks: 2 points.
+
+**Score 2: Explains the effects of added herbs, matching the database (2 points)**
+
+For 葶苈子: The answer states ""泻肺平喘、利水消肿"" - the database shows ""泻肺降气；祛痰平喘；利水消肿；泄逐邪"". This matches well.
+
+For 虎杖: The answer states ""清热解毒、活血化瘀、通利腑气"" - the database shows ""活血散瘀；祛风通络；清热利湿；解毒"". The ""清热解毒"" partially matches ""清热利湿；解毒"", and ""活血化瘀"" matches ""活血散瘀"". However, ""通利腑气"" is not in the database - the database mentions ""清热利湿"" not specifically ""通腑"". The explanation is mostly matching but ""通利腑气"" for 虎杖 is a stretch from the database. However, most of the effects match reasonably well. I'd give close to full marks but with small deduction - 1.5 points, but since scoring is in integers, I'll give 2 points as the majority matches.
+
+Actually, looking more carefully - 虎杖's described effect ""通利腑气"" is not in the database. The database doesn't mention this function. This is a notable mismatch. I'll give 1 point for partial match.
+
+**Score 3: Explains new formula's treatment indications matching database entries (2 points)**
+
+The answer states the formula is suitable for ""热哮急性发作期"" with symptoms including ""大便秘结"" and mentions ""痰热壅肺兼腑气不通"". 
+
+For 葶苈子: Database mentions ""痰涎壅肺之喘咳痰多"" - the answer's indication ""痰热壅肺"" partially matches.
+For 虎杖: Database mentions ""妇女经闭；痛经；湿热黄疸；疮疡肿毒"" etc. - the answer's indication focuses on ""腑气不通"" which isn't clearly in the database for 虎杖.
+
+The indication explanation partially matches the database but has some discrepancies, particularly for 虎杖. I'd give 1 point.
+
+**Total: 2 + 1 + 1 = 5 points**
+
+Wait, let me reconsider score 2. The matching for 葶苈子 is good. For 虎杖, ""活血化瘀"" matches ""活血散瘀"", ""清热解毒"" matches ""清热利湿；解毒"" reasonably. Overall it's mostly matching with ""通利腑气"" being extra. I'll give 2 for score 2.
+
+For score 3: 葶苈子's indication about ""痰涎壅盛、喘逆不得卧"" matches the database well.虎杖's indication about ""腑气不通"" doesn't clearly match database. Partial match - 1 point.
+
+Total: 2 + 2 + 1 = 5
+
+{""score_1"":2, ""score_2"":2, ""score_3"":1, ""socre_total"": 5, ""confidence"": 0.75}","{
+  ""modified_name"": ""定喘汤加味方"",
+  ""diff_component"": ""葶苈子、虎杖"",
+  ""component_effect"": ""葶苈子具有**泻肺平喘、利水消肿**的作用，尤其适用于痰涎壅盛、喘逆不得卧者，可增强原方降气涤痰之力 ^[5]^；虎杖则能**清热解毒、活血化瘀、通利腑气**，针对热甚津伤、腑气不通之证，有助于通腑利肺，缓解肺热雍盛所致的咳喘症状 ^[3]^。"",
+  ""modified_cure"": ""适用于**热哮急性发作期**，症见气粗息涌、喉中哮鸣、咳嗽痰黏色黄、咳吐不爽、大便秘结、舌红苔黄腻、脉滑数等。加味后方剂可增强**清热化痰、降气平喘、通腑泻肺**之效，尤其适用于痰热壅肺兼腑气不通的复杂病机。""
+}
+
+我建议您进一步查阅该加味方在痰热壅肺兼腑气不通证中的安全性及配伍禁忌，特别是葶苈子的用量控制与毒副作用相关临床研究。您需要我帮您检索相关文献吗？"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,gpt_5_4,GPT-5.4,0.87,15.72,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":1, ""socre_total"":5, ""confidence"":0.9}","{""modified_name"":""柴胡桂枝干姜加半夏厚朴汤"",""diff_component"":""半夏、厚朴"",""component_effect"":""半夏燥湿化痰，和胃降逆，散结消痞；厚朴行气宽中，燥湿除满，下气平喘；二药相配可加强化痰散结、行气除满之功"",""modified_cure"":""少阳枢机不利兼痰气郁结所致胸胁满闷；咽中如有物阻；脘腹痞满；呕恶纳呆；情志抑郁；咳痰不爽；""}"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,gpt_5_4,GPT-5.4,0.87,15.72,gpt-5.4,6.0,0.97,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.97}","{""modified_name"":""柴胡桂枝干姜加半夏厚朴汤"",""diff_component"":""半夏、厚朴"",""component_effect"":""半夏燥湿化痰，和胃降逆，散结消痞；厚朴行气宽中，燥湿除满，下气平喘；二药相配可加强化痰散结、行气除满之功"",""modified_cure"":""少阳枢机不利兼痰气郁结所致胸胁满闷；咽中如有物阻；脘腹痞满；呕恶纳呆；情志抑郁；咳痰不爽；""}"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,gpt_5_4,GPT-5.4,0.87,15.72,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}","{""modified_name"":""柴胡桂枝干姜加半夏厚朴汤"",""diff_component"":""半夏、厚朴"",""component_effect"":""半夏燥湿化痰，和胃降逆，散结消痞；厚朴行气宽中，燥湿除满，下气平喘；二药相配可加强化痰散结、行气除满之功"",""modified_cure"":""少阳枢机不利兼痰气郁结所致胸胁满闷；咽中如有物阻；脘腹痞满；呕恶纳呆；情志抑郁；咳痰不爽；""}"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,o3,O3,0.6,10.8,deepseek-v4-pro,2.0,1.0,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"":2, ""confidence"":1}","{""modified_name"":""柴胡桂枝干姜加黄芪汤"",""diff_component"":""黄芪"",""component_effect"":""益气固表；补中升阳；利水消肿"",""modified_cure"":""外感表虚，寒热往来伴自汗不止、气短乏力；正气不足所致长久低热""}"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,o3,O3,0.6,10.8,gpt-5.4,5.0,0.74,,"{""score_1"":2, ""score_2"":2, ""score_3"":1, ""socre_total"":5, ""confidence"":0.74}","{""modified_name"":""柴胡桂枝干姜加黄芪汤"",""diff_component"":""黄芪"",""component_effect"":""益气固表；补中升阳；利水消肿"",""modified_cure"":""外感表虚，寒热往来伴自汗不止、气短乏力；正气不足所致长久低热""}"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,o3,O3,0.6,10.8,claude-sonnet-4-6,6.0,0.85,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.85}","{""modified_name"":""柴胡桂枝干姜加黄芪汤"",""diff_component"":""黄芪"",""component_effect"":""益气固表；补中升阳；利水消肿"",""modified_cure"":""外感表虚，寒热往来伴自汗不止、气短乏力；正气不足所致长久低热""}"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,kimi_k2_5,Kimi-K2.5,0.85,15.36,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.9}","```json
+{
+  ""modified_name"": ""柴胡桂枝干姜加牡蛎汤"",
+  ""diff_component"": ""牡蛎"",
+  ""component_effect"": ""重镇安神；潜阳补阴；软坚散结；收敛固涩"",
+  ""modified_cure"": ""胸胁满微结；往来寒热；心烦惊悸；失眠多梦；瘰疬痰核""
+}
+```"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,kimi_k2_5,Kimi-K2.5,0.85,15.36,gpt-5.4,6.0,0.96,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.96}","```json
+{
+  ""modified_name"": ""柴胡桂枝干姜加牡蛎汤"",
+  ""diff_component"": ""牡蛎"",
+  ""component_effect"": ""重镇安神；潜阳补阴；软坚散结；收敛固涩"",
+  ""modified_cure"": ""胸胁满微结；往来寒热；心烦惊悸；失眠多梦；瘰疬痰核""
+}
+```"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,kimi_k2_5,Kimi-K2.5,0.85,15.36,claude-sonnet-4-6,6.0,0.85,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.85}","```json
+{
+  ""modified_name"": ""柴胡桂枝干姜加牡蛎汤"",
+  ""diff_component"": ""牡蛎"",
+  ""component_effect"": ""重镇安神；潜阳补阴；软坚散结；收敛固涩"",
+  ""modified_cure"": ""胸胁满微结；往来寒热；心烦惊悸；失眠多梦；瘰疬痰核""
+}
+```"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,deepseek_v3_2,DeepSeek-V3.2,0.64,11.58,deepseek-v4-pro,4.0,0.8,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.8}","```json
+{
+    ""modified_name"": ""柴胡桂枝干姜加黄芪防风汤"",
+    ""diff_component"": ""黄芪、防风"",
+    ""component_effect"": ""黄芪：补气固表，升阳举陷，利水消肿；防风：祛风解表，胜湿止痛，解痉止痒。二者相合，益气固表，扶正祛邪，调和营卫。"",
+    ""modified_cure"": ""少阳病兼太阳表虚证，伴有气短乏力、自汗恶风、易感外邪；或慢性虚人外感，见寒热往来、胸胁满微结、口渴心烦、但头汗出，兼表卫不固者。""
+}
+```"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,deepseek_v3_2,DeepSeek-V3.2,0.64,11.58,gpt-5.4,6.0,0.93,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.93}","```json
+{
+    ""modified_name"": ""柴胡桂枝干姜加黄芪防风汤"",
+    ""diff_component"": ""黄芪、防风"",
+    ""component_effect"": ""黄芪：补气固表，升阳举陷，利水消肿；防风：祛风解表，胜湿止痛，解痉止痒。二者相合，益气固表，扶正祛邪，调和营卫。"",
+    ""modified_cure"": ""少阳病兼太阳表虚证，伴有气短乏力、自汗恶风、易感外邪；或慢性虚人外感，见寒热往来、胸胁满微结、口渴心烦、但头汗出，兼表卫不固者。""
+}
+```"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,deepseek_v3_2,DeepSeek-V3.2,0.64,11.58,claude-sonnet-4-6,4.0,0.7,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.7}","```json
+{
+    ""modified_name"": ""柴胡桂枝干姜加黄芪防风汤"",
+    ""diff_component"": ""黄芪、防风"",
+    ""component_effect"": ""黄芪：补气固表，升阳举陷，利水消肿；防风：祛风解表，胜湿止痛，解痉止痒。二者相合，益气固表，扶正祛邪，调和营卫。"",
+    ""modified_cure"": ""少阳病兼太阳表虚证，伴有气短乏力、自汗恶风、易感外邪；或慢性虚人外感，见寒热往来、胸胁满微结、口渴心烦、但头汗出，兼表卫不固者。""
+}
+```"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.63,11.4,deepseek-v4-pro,4.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.9}","{
+  ""modified_name"": ""柴胡桂枝干姜加郁金汤"",
+  ""diff_component"": ""郁金"",
+  ""component_effect"": ""行气解郁；活血止痛；清心凉血；利胆退黄"",
+  ""modified_cure"": ""少阳不和、胆热脾寒兼气"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.63,11.4,gpt-5.4,5.0,0.86,,"{""score_1"":2, ""score_2"":2, ""score_3"":1, ""socre_total"":5, ""confidence"":0.86}","{
+  ""modified_name"": ""柴胡桂枝干姜加郁金汤"",
+  ""diff_component"": ""郁金"",
+  ""component_effect"": ""行气解郁；活血止痛；清心凉血；利胆退黄"",
+  ""modified_cure"": ""少阳不和、胆热脾寒兼气"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.63,11.4,claude-sonnet-4-6,5.0,0.7,,"```json
+{""score_1"":2, ""score_2"":2, ""score_3"":1, ""socre_total"": 5, ""confidence"": 0.7}
+```","{
+  ""modified_name"": ""柴胡桂枝干姜加郁金汤"",
+  ""diff_component"": ""郁金"",
+  ""component_effect"": ""行气解郁；活血止痛；清心凉血；利胆退黄"",
+  ""modified_cure"": ""少阳不和、胆热脾寒兼气"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,claude_sonnet_4_6,Claude-Sonnet-4.6,0.85,15.36,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.9}","```json
+{""modified_name"":""柴胡桂枝干姜加附子汤"", ""diff_component"":""附子"", ""component_effect"":""回阳救逆；补火助阳；散寒止痛"", ""modified_cure"":""少阳枢机不利兼阳虚寒盛；胸胁满微结伴畏寒肢冷；心下痞硬而四肢不温；口渴而小便不利兼肾阳亏虚""}
+```"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,claude_sonnet_4_6,Claude-Sonnet-4.6,0.85,15.36,gpt-5.4,6.0,0.96,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.96}","```json
+{""modified_name"":""柴胡桂枝干姜加附子汤"", ""diff_component"":""附子"", ""component_effect"":""回阳救逆；补火助阳；散寒止痛"", ""modified_cure"":""少阳枢机不利兼阳虚寒盛；胸胁满微结伴畏寒肢冷；心下痞硬而四肢不温；口渴而小便不利兼肾阳亏虚""}
+```"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,claude_sonnet_4_6,Claude-Sonnet-4.6,0.85,15.36,claude-sonnet-4-6,6.0,0.85,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.85}","```json
+{""modified_name"":""柴胡桂枝干姜加附子汤"", ""diff_component"":""附子"", ""component_effect"":""回阳救逆；补火助阳；散寒止痛"", ""modified_cure"":""少阳枢机不利兼阳虚寒盛；胸胁满微结伴畏寒肢冷；心下痞硬而四肢不温；口渴而小便不利兼肾阳亏虚""}
+```"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,qwen3_5_plus,Qwen3.5-Plus,0.98,17.58,deepseek-v4-pro,6.0,1.0,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":1}","{
+  ""modified_name"": ""柴胡桂枝干姜加茯苓汤"",
+  ""diff_component"": ""茯苓"",
+  ""component_effect"": ""利水渗湿；健脾宁心；安神定悸"",
+  ""modified_cure"": ""少阳病兼水饮内停；心悸怔忡；小便不利；失眠多梦""
+}"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,qwen3_5_plus,Qwen3.5-Plus,0.98,17.58,gpt-5.4,6.0,0.98,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.98}","{
+  ""modified_name"": ""柴胡桂枝干姜加茯苓汤"",
+  ""diff_component"": ""茯苓"",
+  ""component_effect"": ""利水渗湿；健脾宁心；安神定悸"",
+  ""modified_cure"": ""少阳病兼水饮内停；心悸怔忡；小便不利；失眠多梦""
+}"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,qwen3_5_plus,Qwen3.5-Plus,0.98,17.58,claude-sonnet-4-6,6.0,0.95,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.95}","{
+  ""modified_name"": ""柴胡桂枝干姜加茯苓汤"",
+  ""diff_component"": ""茯苓"",
+  ""component_effect"": ""利水渗湿；健脾宁心；安神定悸"",
+  ""modified_cure"": ""少阳病兼水饮内停；心悸怔忡；小便不利；失眠多梦""
+}"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,baichuan_m3_plus,百川医疗大模型,0.56,10.1,deepseek-v4-pro,4.0,0.8,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.8}","{
+  ""modified_name"": ""小续命汤加味方"",
+  ""diff_component"": ""黄芪、川芎"",
+  ""component_effect"": ""黄芪：**补气升阳，固表止汗，利水消肿**，增强原方补气之效，尤其针对气虚明显者；川芎：**活血行气，祛风止痛**，增强原方活血通络之力，改善血行不畅所致肢体麻木、疼痛。"",
+  ""modified_cure"": ""**中风后气虚血瘀证**，症见半身不遂、口眼歪斜、语言不利、肢体乏力、面色㿠白、气短懒言、舌淡紫或有瘀斑、脉细涩或虚弱。加味后方剂可**益气活血、祛风通络**，适用于中风恢复期或后遗症期以气虚血瘀为主者。""
+}
+
+我建议您进一步查阅该加味方在中风后遗症患者中的临床疗效及安全性，特别是黄芪、川芎的剂量调整对气虚血瘀证的影响。您需要我帮您检索相关临床指南或系统综述吗？"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,baichuan_m3_plus,百川医疗大模型,0.56,10.1,gpt-5.4,5.0,0.78,,"{""score_1"":2, ""score_2"":2, ""score_3"":1, ""socre_total"": 5, ""confidence"": 0.78}","{
+  ""modified_name"": ""小续命汤加味方"",
+  ""diff_component"": ""黄芪、川芎"",
+  ""component_effect"": ""黄芪：**补气升阳，固表止汗，利水消肿**，增强原方补气之效，尤其针对气虚明显者；川芎：**活血行气，祛风止痛**，增强原方活血通络之力，改善血行不畅所致肢体麻木、疼痛。"",
+  ""modified_cure"": ""**中风后气虚血瘀证**，症见半身不遂、口眼歪斜、语言不利、肢体乏力、面色㿠白、气短懒言、舌淡紫或有瘀斑、脉细涩或虚弱。加味后方剂可**益气活血、祛风通络**，适用于中风恢复期或后遗症期以气虚血瘀为主者。""
+}
+
+我建议您进一步查阅该加味方在中风后遗症患者中的临床疗效及安全性，特别是黄芪、川芎的剂量调整对气虚血瘀证的影响。您需要我帮您检索相关临床指南或系统综述吗？"
+dataset2,5,12,根据你对中药的理解基于小续命汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7475,13.4875,0.56,baichuan_m3_plus,百川医疗大模型,0.56,10.1,claude-sonnet-4-6,4.0,0.75,,"```json
+{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"": 4, ""confidence"": 0.75}
+```","{
+  ""modified_name"": ""小续命汤加味方"",
+  ""diff_component"": ""黄芪、川芎"",
+  ""component_effect"": ""黄芪：**补气升阳，固表止汗，利水消肿**，增强原方补气之效，尤其针对气虚明显者；川芎：**活血行气，祛风止痛**，增强原方活血通络之力，改善血行不畅所致肢体麻木、疼痛。"",
+  ""modified_cure"": ""**中风后气虚血瘀证**，症见半身不遂、口眼歪斜、语言不利、肢体乏力、面色㿠白、气短懒言、舌淡紫或有瘀斑、脉细涩或虚弱。加味后方剂可**益气活血、祛风通络**，适用于中风恢复期或后遗症期以气虚血瘀为主者。""
+}
+
+我建议您进一步查阅该加味方在中风后遗症患者中的临床疗效及安全性，特别是黄芪、川芎的剂量调整对气虚血瘀证的影响。您需要我帮您检索相关临床指南或系统综述吗？"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,gpt_5_4,GPT-5.4,0.88,15.78,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.9}","{""modified_name"":""茯苓丸加泽泻白术丸"",""diff_component"":""泽泻、白术"",""component_effect"":""泽泻：利水渗湿，泄热降浊，可增强茯苓丸渗湿化饮之力；白术：健脾益气，燥湿利水，可助运化以绝生湿之源"",""modified_cure"":""脾虚湿盛所致的水湿内停、痰饮眩悸、小便不利、脘腹胀满、纳少便溏；""}"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,gpt_5_4,GPT-5.4,0.88,15.78,gpt-5.4,6.0,0.98,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.98}","{""modified_name"":""茯苓丸加泽泻白术丸"",""diff_component"":""泽泻、白术"",""component_effect"":""泽泻：利水渗湿，泄热降浊，可增强茯苓丸渗湿化饮之力；白术：健脾益气，燥湿利水，可助运化以绝生湿之源"",""modified_cure"":""脾虚湿盛所致的水湿内停、痰饮眩悸、小便不利、脘腹胀满、纳少便溏；""}"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,gpt_5_4,GPT-5.4,0.88,15.78,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}","{""modified_name"":""茯苓丸加泽泻白术丸"",""diff_component"":""泽泻、白术"",""component_effect"":""泽泻：利水渗湿，泄热降浊，可增强茯苓丸渗湿化饮之力；白术：健脾益气，燥湿利水，可助运化以绝生湿之源"",""modified_cure"":""脾虚湿盛所致的水湿内停、痰饮眩悸、小便不利、脘腹胀满、纳少便溏；""}"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,o3,O3,0.54,9.68,deepseek-v4-pro,2.0,1.0,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"":2, ""confidence"":1}","{""modified_name"":""茯苓丸加陈皮丸"",""diff_component"":""陈皮"",""component_effect"":""理气和中；燥湿化痰；行气健脾"",""modified_cure"":""脾虚夹湿、气机不畅所致的脘腹胀满、食少恶心、痰多便溏""}"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,o3,O3,0.54,9.68,gpt-5.4,4.0,0.72,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.72}","{""modified_name"":""茯苓丸加陈皮丸"",""diff_component"":""陈皮"",""component_effect"":""理气和中；燥湿化痰；行气健脾"",""modified_cure"":""脾虚夹湿、气机不畅所致的脘腹胀满、食少恶心、痰多便溏""}"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,o3,O3,0.54,9.68,claude-sonnet-4-6,6.0,0.8,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.8}","{""modified_name"":""茯苓丸加陈皮丸"",""diff_component"":""陈皮"",""component_effect"":""理气和中；燥湿化痰；行气健脾"",""modified_cure"":""脾虚夹湿、气机不畅所致的脘腹胀满、食少恶心、痰多便溏""}"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,kimi_k2_5,Kimi-K2.5,0.87,15.66,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""score_total"":5, ""confidence"":0.9}","```json
+{
+  ""modified_name"": ""茯苓丸加夏星汤"",
+  ""diff_component"": ""半夏、天南星"",
+  ""component_effect"": ""半夏：燥湿化痰；降逆止呕；消痞散结。天南星：燥湿化痰；祛风止痉；散结消肿"",
+  ""modified_cure"": ""痰饮内停；风痰眩晕；中风痰壅；癫痫惊风；呕吐反胃；胸脘痞闷""
+}
+```"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,kimi_k2_5,Kimi-K2.5,0.87,15.66,gpt-5.4,6.0,0.96,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.96}","```json
+{
+  ""modified_name"": ""茯苓丸加夏星汤"",
+  ""diff_component"": ""半夏、天南星"",
+  ""component_effect"": ""半夏：燥湿化痰；降逆止呕；消痞散结。天南星：燥湿化痰；祛风止痉；散结消肿"",
+  ""modified_cure"": ""痰饮内停；风痰眩晕；中风痰壅；癫痫惊风；呕吐反胃；胸脘痞闷""
+}
+```"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,kimi_k2_5,Kimi-K2.5,0.87,15.66,claude-sonnet-4-6,6.0,0.9,,"```json
+{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}
+```","```json
+{
+  ""modified_name"": ""茯苓丸加夏星汤"",
+  ""diff_component"": ""半夏、天南星"",
+  ""component_effect"": ""半夏：燥湿化痰；降逆止呕；消痞散结。天南星：燥湿化痰；祛风止痉；散结消肿"",
+  ""modified_cure"": ""痰饮内停；风痰眩晕；中风痰壅；癫痫惊风；呕吐反胃；胸脘痞闷""
+}
+```"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,deepseek_v3_2,DeepSeek-V3.2,0.87,15.6,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"": 5, ""confidence"": 0.9}","```json
+{
+    ""modified_name"": ""茯苓丸加黄柏知母汤"",
+    ""diff_component"": ""黄柏、知母"",
+    ""component_effect"": ""黄柏清热燥湿、泻火除蒸；知母清热泻火、滋阴润燥。二者合用可增强清热滋阴、降火除烦之效。"",
+    ""modified_cure"": ""痰停中脘、两臂疼痛，兼见阴虚火旺、骨蒸潮热、口干烦渴者。""
+}
+```"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,deepseek_v3_2,DeepSeek-V3.2,0.87,15.6,gpt-5.4,6.0,0.95,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.95}","```json
+{
+    ""modified_name"": ""茯苓丸加黄柏知母汤"",
+    ""diff_component"": ""黄柏、知母"",
+    ""component_effect"": ""黄柏清热燥湿、泻火除蒸；知母清热泻火、滋阴润燥。二者合用可增强清热滋阴、降火除烦之效。"",
+    ""modified_cure"": ""痰停中脘、两臂疼痛，兼见阴虚火旺、骨蒸潮热、口干烦渴者。""
+}
+```"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,deepseek_v3_2,DeepSeek-V3.2,0.87,15.6,claude-sonnet-4-6,6.0,0.9,,"```json
+{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}
+```","```json
+{
+    ""modified_name"": ""茯苓丸加黄柏知母汤"",
+    ""diff_component"": ""黄柏、知母"",
+    ""component_effect"": ""黄柏清热燥湿、泻火除蒸；知母清热泻火、滋阴润燥。二者合用可增强清热滋阴、降火除烦之效。"",
+    ""modified_cure"": ""痰停中脘、两臂疼痛，兼见阴虚火旺、骨蒸潮热、口干烦渴者。""
+}
+```"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.51,9.16,deepseek-v4-pro,2.0,1.0,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"":2, ""confidence"":1.0}","{
+  ""modified_name"": ""茯苓加陈皮丸"",
+  ""diff_component"": ""陈皮"",
+  ""component_effect"": ""理气健脾；燥湿化痰；"",
+  ""modified_cure"": ""痰饮停胃所致的脘腹胀满；恶心呕吐；咳嗽痰多；手臂酸痛；""
+}"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.51,9.16,gpt-5.4,4.0,0.74,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.74}","{
+  ""modified_name"": ""茯苓加陈皮丸"",
+  ""diff_component"": ""陈皮"",
+  ""component_effect"": ""理气健脾；燥湿化痰；"",
+  ""modified_cure"": ""痰饮停胃所致的脘腹胀满；恶心呕吐；咳嗽痰多；手臂酸痛；""
+}"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.51,9.16,claude-sonnet-4-6,6.0,0.7,,"```json
+{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.7}
+```","{
+  ""modified_name"": ""茯苓加陈皮丸"",
+  ""diff_component"": ""陈皮"",
+  ""component_effect"": ""理气健脾；燥湿化痰；"",
+  ""modified_cure"": ""痰饮停胃所致的脘腹胀满；恶心呕吐；咳嗽痰多；手臂酸痛；""
+}"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,claude_sonnet_4_6,Claude-Sonnet-4.6,0.96,17.28,deepseek-v4-pro,6.0,1.0,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":1.0}","```json
+{""modified_name"":""茯苓丸加半夏汤"", ""diff_component"":""半夏"", ""component_effect"":""燥湿化痰；降逆止呕；消痞散结"", ""modified_cure"":""痰湿中阻；胸膈痞满；恶心呕吐；痰饮眩晕；""}
+```"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,claude_sonnet_4_6,Claude-Sonnet-4.6,0.96,17.28,gpt-5.4,6.0,0.98,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.98}","```json
+{""modified_name"":""茯苓丸加半夏汤"", ""diff_component"":""半夏"", ""component_effect"":""燥湿化痰；降逆止呕；消痞散结"", ""modified_cure"":""痰湿中阻；胸膈痞满；恶心呕吐；痰饮眩晕；""}
+```"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,claude_sonnet_4_6,Claude-Sonnet-4.6,0.96,17.28,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}","```json
+{""modified_name"":""茯苓丸加半夏汤"", ""diff_component"":""半夏"", ""component_effect"":""燥湿化痰；降逆止呕；消痞散结"", ""modified_cure"":""痰湿中阻；胸膈痞满；恶心呕吐；痰饮眩晕；""}
+```"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,qwen3_5_plus,Qwen3.5-Plus,0.82,14.76,deepseek-v4-pro,4.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"": 4, ""confidence"": 0.9}","{""modified_name"":""茯苓加桂枝丸"", ""diff_component"": ""桂枝"", ""component_effect"":""发汗解肌；温通经脉；助阳化气"", ""modified_cure"":""痰饮心悸；眩晕耳鸣；小便不利；""}"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,qwen3_5_plus,Qwen3.5-Plus,0.82,14.76,gpt-5.4,6.0,0.96,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.96}","{""modified_name"":""茯苓加桂枝丸"", ""diff_component"": ""桂枝"", ""component_effect"":""发汗解肌；温通经脉；助阳化气"", ""modified_cure"":""痰饮心悸；眩晕耳鸣；小便不利；""}"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,qwen3_5_plus,Qwen3.5-Plus,0.82,14.76,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}","{""modified_name"":""茯苓加桂枝丸"", ""diff_component"": ""桂枝"", ""component_effect"":""发汗解肌；温通经脉；助阳化气"", ""modified_cure"":""痰饮心悸；眩晕耳鸣；小便不利；""}"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,baichuan_m3_plus,百川医疗大模型,0.56,10.02,deepseek-v4-pro,4.0,0.8,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"": 4, ""confidence"": 0.8}","{
+  ""modified_name"": ""铁骨丹加味方"",
+  ""diff_component"": ""黄芪、丹参"",
+  ""component_effect"": ""黄芪：**益气固表，托毒生肌，利水消肿**；丹参：**活血祛瘀，通经止痛，清心除烦**"",
+  ""modified_cure"": ""**气血两虚兼血瘀所致的筋骨不健、肢体乏力、久病劳损**。黄芪增强原方益气之效，促进组织修复；丹参活血化瘀，改善局部循环，二者共奏**益气活血、强筋健骨**之功。尤其适用于**慢性劳损、骨折恢复期或骨质疏松伴乏力、疼痛者**。""
+}
+
+我建议您进一步查阅该加味方在老年或肾功能不全患者中的用药安全性及药物相互作用，特别是黄芪与丹参的长期应用影响。您需要我帮您检索相关临床指南或系统综述吗？"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,baichuan_m3_plus,百川医疗大模型,0.56,10.02,gpt-5.4,4.0,0.83,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.83}","{
+  ""modified_name"": ""铁骨丹加味方"",
+  ""diff_component"": ""黄芪、丹参"",
+  ""component_effect"": ""黄芪：**益气固表，托毒生肌，利水消肿**；丹参：**活血祛瘀，通经止痛，清心除烦**"",
+  ""modified_cure"": ""**气血两虚兼血瘀所致的筋骨不健、肢体乏力、久病劳损**。黄芪增强原方益气之效，促进组织修复；丹参活血化瘀，改善局部循环，二者共奏**益气活血、强筋健骨**之功。尤其适用于**慢性劳损、骨折恢复期或骨质疏松伴乏力、疼痛者**。""
+}
+
+我建议您进一步查阅该加味方在老年或肾功能不全患者中的用药安全性及药物相互作用，特别是黄芪与丹参的长期应用影响。您需要我帮您检索相关临床指南或系统综述吗？"
+dataset2,6,23,根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7513,13.4925,0.51,baichuan_m3_plus,百川医疗大模型,0.56,10.02,claude-sonnet-4-6,5.0,0.7,,"```json
+{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"": 5, ""confidence"": 0.7}
+```","{
+  ""modified_name"": ""铁骨丹加味方"",
+  ""diff_component"": ""黄芪、丹参"",
+  ""component_effect"": ""黄芪：**益气固表，托毒生肌，利水消肿**；丹参：**活血祛瘀，通经止痛，清心除烦**"",
+  ""modified_cure"": ""**气血两虚兼血瘀所致的筋骨不健、肢体乏力、久病劳损**。黄芪增强原方益气之效，促进组织修复；丹参活血化瘀，改善局部循环，二者共奏**益气活血、强筋健骨**之功。尤其适用于**慢性劳损、骨折恢复期或骨质疏松伴乏力、疼痛者**。""
+}
+
+我建议您进一步查阅该加味方在老年或肾功能不全患者中的用药安全性及药物相互作用，特别是黄芪与丹参的长期应用影响。您需要我帮您检索相关临床指南或系统综述吗？"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,gpt_5_4,GPT-5.4,0.71,12.8,deepseek-v4-pro,2.0,1.0,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"":2, ""confidence"":1.0}","{""modified_name"":""增液加麦冬玄参汤"",""diff_component"":""麦冬"",""component_effect"":""养阴润肺；益胃生津；清心除烦"",""modified_cure"":""津液亏虚所致口燥咽干；肠燥便秘；虚热烦渴；胃阴不足；""}"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,gpt_5_4,GPT-5.4,0.71,12.8,gpt-5.4,6.0,0.95,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.95}","{""modified_name"":""增液加麦冬玄参汤"",""diff_component"":""麦冬"",""component_effect"":""养阴润肺；益胃生津；清心除烦"",""modified_cure"":""津液亏虚所致口燥咽干；肠燥便秘；虚热烦渴；胃阴不足；""}"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,gpt_5_4,GPT-5.4,0.71,12.8,claude-sonnet-4-6,6.0,0.85,,"```json
+{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.85}
+```","{""modified_name"":""增液加麦冬玄参汤"",""diff_component"":""麦冬"",""component_effect"":""养阴润肺；益胃生津；清心除烦"",""modified_cure"":""津液亏虚所致口燥咽干；肠燥便秘；虚热烦渴；胃阴不足；""}"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,o3,O3,0.85,15.3,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.9}","{""modified_name"":""增液加火麻仁汤"",""diff_component"":""火麻仁"",""component_effect"":""润肠通便；养血益阴；滋养肠道"",""modified_cure"":""阴虚肠燥、津亏便秘，见大便干结、口燥咽干、老年或产后体虚便秘""}"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,o3,O3,0.85,15.3,gpt-5.4,6.0,0.95,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.95}","{""modified_name"":""增液加火麻仁汤"",""diff_component"":""火麻仁"",""component_effect"":""润肠通便；养血益阴；滋养肠道"",""modified_cure"":""阴虚肠燥、津亏便秘，见大便干结、口燥咽干、老年或产后体虚便秘""}"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,o3,O3,0.85,15.3,claude-sonnet-4-6,6.0,0.85,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.85}","{""modified_name"":""增液加火麻仁汤"",""diff_component"":""火麻仁"",""component_effect"":""润肠通便；养血益阴；滋养肠道"",""modified_cure"":""阴虚肠燥、津亏便秘，见大便干结、口燥咽干、老年或产后体虚便秘""}"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,kimi_k2_5,Kimi-K2.5,0.45,8.08,deepseek-v4-pro,2.0,0.4,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"": 2, ""confidence"": 0.4}","```json
+{
+  ""modified_name"": ""增液承气加麦冬汤"",
+  ""diff_component"": ""麦冬"",
+  ""component_effect"": ""养阴润肺；益胃生津；清心除烦；增强原方滋阴润燥之力，尤善补肺胃之阴"",
+  ""modified_cure"": ""热病后期津枯肠燥便秘；肺胃阴伤之干咳少痰、口干咽燥；心烦失眠""
+}
+```"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,kimi_k2_5,Kimi-K2.5,0.45,8.08,gpt-5.4,4.0,0.62,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.62}","```json
+{
+  ""modified_name"": ""增液承气加麦冬汤"",
+  ""diff_component"": ""麦冬"",
+  ""component_effect"": ""养阴润肺；益胃生津；清心除烦；增强原方滋阴润燥之力，尤善补肺胃之阴"",
+  ""modified_cure"": ""热病后期津枯肠燥便秘；肺胃阴伤之干咳少痰、口干咽燥；心烦失眠""
+}
+```"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,kimi_k2_5,Kimi-K2.5,0.45,8.08,claude-sonnet-4-6,6.0,0.8,,"```json
+{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.8}
+```","```json
+{
+  ""modified_name"": ""增液承气加麦冬汤"",
+  ""diff_component"": ""麦冬"",
+  ""component_effect"": ""养阴润肺；益胃生津；清心除烦；增强原方滋阴润燥之力，尤善补肺胃之阴"",
+  ""modified_cure"": ""热病后期津枯肠燥便秘；肺胃阴伤之干咳少痰、口干咽燥；心烦失眠""
+}
+```"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,deepseek_v3_2,DeepSeek-V3.2,0.69,12.45,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"": 5, ""confidence"": 0.9}","```json
+{
+    ""modified_name"": ""增液加味汤"",
+    ""diff_component"": ""丹参、石菖蒲"",
+    ""component_effect"": ""丹参：活血祛瘀、清心除烦、凉血消痈；石菖蒲：开窍豁痰、醒神益智、化湿开胃"",
+    ""modified_cure"": ""阴虚津亏兼血瘀痰阻证，症见口干咽燥、大便干结、心烦失眠、健忘头晕、舌暗红或有瘀斑、苔微腻。""
+}
+```"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,deepseek_v3_2,DeepSeek-V3.2,0.69,12.45,gpt-5.4,5.0,0.89,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.89}","```json
+{
+    ""modified_name"": ""增液加味汤"",
+    ""diff_component"": ""丹参、石菖蒲"",
+    ""component_effect"": ""丹参：活血祛瘀、清心除烦、凉血消痈；石菖蒲：开窍豁痰、醒神益智、化湿开胃"",
+    ""modified_cure"": ""阴虚津亏兼血瘀痰阻证，症见口干咽燥、大便干结、心烦失眠、健忘头晕、舌暗红或有瘀斑、苔微腻。""
+}
+```"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,deepseek_v3_2,DeepSeek-V3.2,0.69,12.45,claude-sonnet-4-6,5.0,0.7,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"": 5, ""confidence"": 0.7}","```json
+{
+    ""modified_name"": ""增液加味汤"",
+    ""diff_component"": ""丹参、石菖蒲"",
+    ""component_effect"": ""丹参：活血祛瘀、清心除烦、凉血消痈；石菖蒲：开窍豁痰、醒神益智、化湿开胃"",
+    ""modified_cure"": ""阴虚津亏兼血瘀痰阻证，症见口干咽燥、大便干结、心烦失眠、健忘头晕、舌暗红或有瘀斑、苔微腻。""
+}
+```"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.96,17.28,deepseek-v4-pro,6.0,1.0,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":1}","{
+  ""modified_name"": ""增液加苁蓉汤"",
+  ""diff_component"": ""肉苁蓉"",
+  ""component_effect"": ""补肾阳；益精血；润肠通便"",
+  ""modified_cure"": ""阴虚津亏兼肾阳精血不足之便秘；大便干结；腰膝酸软；老年性肠燥便秘""
+}"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.96,17.28,gpt-5.4,6.0,0.98,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.98}","{
+  ""modified_name"": ""增液加苁蓉汤"",
+  ""diff_component"": ""肉苁蓉"",
+  ""component_effect"": ""补肾阳；益精血；润肠通便"",
+  ""modified_cure"": ""阴虚津亏兼肾阳精血不足之便秘；大便干结；腰膝酸软；老年性肠燥便秘""
+}"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.96,17.28,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}","{
+  ""modified_name"": ""增液加苁蓉汤"",
+  ""diff_component"": ""肉苁蓉"",
+  ""component_effect"": ""补肾阳；益精血；润肠通便"",
+  ""modified_cure"": ""阴虚津亏兼肾阳精血不足之便秘；大便干结；腰膝酸软；老年性肠燥便秘""
+}"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,claude_sonnet_4_6,Claude-Sonnet-4.6,0.78,14.0,deepseek-v4-pro,4.0,0.8,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.8}","```json
+{""modified_name"":""增液加麦冬五味子汤"", ""diff_component"": ""麦冬、五味子"", ""component_effect"":""麦冬：养阴润肺，益胃生津，清心除烦；五味子：收敛固涩，益气生津，补肾宁心"", ""modified_cure"":""津液亏虚较重之证，症见口燥咽干、大便秘结、心烦失眠、气短乏力、自汗盗汗""}
+```"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,claude_sonnet_4_6,Claude-Sonnet-4.6,0.78,14.0,gpt-5.4,6.0,0.95,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.95}","```json
+{""modified_name"":""增液加麦冬五味子汤"", ""diff_component"": ""麦冬、五味子"", ""component_effect"":""麦冬：养阴润肺，益胃生津，清心除烦；五味子：收敛固涩，益气生津，补肾宁心"", ""modified_cure"":""津液亏虚较重之证，症见口燥咽干、大便秘结、心烦失眠、气短乏力、自汗盗汗""}
+```"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,claude_sonnet_4_6,Claude-Sonnet-4.6,0.78,14.0,claude-sonnet-4-6,6.0,0.85,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.85}","```json
+{""modified_name"":""增液加麦冬五味子汤"", ""diff_component"": ""麦冬、五味子"", ""component_effect"":""麦冬：养阴润肺，益胃生津，清心除烦；五味子：收敛固涩，益气生津，补肾宁心"", ""modified_cure"":""津液亏虚较重之证，症见口燥咽干、大便秘结、心烦失眠、气短乏力、自汗盗汗""}
+```"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,qwen3_5_plus,Qwen3.5-Plus,0.72,13.0,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.9}","{
+  ""modified_name"": ""增液加火麻仁汤"",
+  ""diff_component"": ""火麻仁"",
+  ""component_effect"": ""润肠通便；滋养补虚"",
+  ""modified_cure"": ""津枯肠燥；大便秘结；""
+}"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,qwen3_5_plus,Qwen3.5-Plus,0.72,13.0,gpt-5.4,5.0,0.9,,"{""score_1"": 2, ""score_2"": 1, ""score_3"": 2, ""socre_total"": 5, ""confidence"": 0.9}","{
+  ""modified_name"": ""增液加火麻仁汤"",
+  ""diff_component"": ""火麻仁"",
+  ""component_effect"": ""润肠通便；滋养补虚"",
+  ""modified_cure"": ""津枯肠燥；大便秘结；""
+}"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,qwen3_5_plus,Qwen3.5-Plus,0.72,13.0,claude-sonnet-4-6,5.0,0.8,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"": 5, ""confidence"": 0.8}","{
+  ""modified_name"": ""增液加火麻仁汤"",
+  ""diff_component"": ""火麻仁"",
+  ""component_effect"": ""润肠通便；滋养补虚"",
+  ""modified_cure"": ""津枯肠燥；大便秘结；""
+}"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,baichuan_m3_plus,百川医疗大模型,0.96,17.28,deepseek-v4-pro,6.0,1.0,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":1.0}","{
+  ""modified_name"": ""增损泽兰丸加茯苓汤"",
+  ""diff_component"": ""茯苓"",
+  ""component_effect"": ""渗湿利水；健脾和胃；宁心安神"",
+  ""modified_cure"": ""脾虚湿盛所致的水肿、小便不利、心悸失眠；兼见食欲不振、倦怠乏力等症""
+}
+
+我建议您进一步查阅增损泽兰丸加味方在妇科瘀血证及脾虚湿盛人群中的临床应用与安全性数据，特别是长期用药的肝肾功能影响。您需要我帮您检索相关文献吗？"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,baichuan_m3_plus,百川医疗大模型,0.96,17.28,gpt-5.4,6.0,0.98,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.98}","{
+  ""modified_name"": ""增损泽兰丸加茯苓汤"",
+  ""diff_component"": ""茯苓"",
+  ""component_effect"": ""渗湿利水；健脾和胃；宁心安神"",
+  ""modified_cure"": ""脾虚湿盛所致的水肿、小便不利、心悸失眠；兼见食欲不振、倦怠乏力等症""
+}
+
+我建议您进一步查阅增损泽兰丸加味方在妇科瘀血证及脾虚湿盛人群中的临床应用与安全性数据，特别是长期用药的肝肾功能影响。您需要我帮您检索相关文献吗？"
+dataset2,7,36,根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.765,13.7738,0.45,baichuan_m3_plus,百川医疗大模型,0.96,17.28,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}","{
+  ""modified_name"": ""增损泽兰丸加茯苓汤"",
+  ""diff_component"": ""茯苓"",
+  ""component_effect"": ""渗湿利水；健脾和胃；宁心安神"",
+  ""modified_cure"": ""脾虚湿盛所致的水肿、小便不利、心悸失眠；兼见食欲不振、倦怠乏力等症""
+}
+
+我建议您进一步查阅增损泽兰丸加味方在妇科瘀血证及脾虚湿盛人群中的临床应用与安全性数据，特别是长期用药的肝肾功能影响。您需要我帮您检索相关文献吗？"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,gpt_5_4,GPT-5.4,0.8,14.34,deepseek-v4-pro,4.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.9}","{""modified_name"":""补中益气加麦冬五味子汤"",""diff_component"":""麦冬、五味子"",""component_effect"":""麦冬：养阴生津，润肺清心；五味子：敛肺生津，益气宁心。二药合用可于补中益气之中兼顾气阴两虚，防止升补之品耗伤津液，并增强益气敛阴、止汗生津之效。"",""modified_cure"":""脾肺气虚兼气阴不足所致倦怠乏力，少气懒言，食少便溏，口干咽燥，自汗，久咳气短；亦可用于病后体虚、气阴两伤者。""}"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,gpt_5_4,GPT-5.4,0.8,14.34,gpt-5.4,6.0,0.94,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.94}","{""modified_name"":""补中益气加麦冬五味子汤"",""diff_component"":""麦冬、五味子"",""component_effect"":""麦冬：养阴生津，润肺清心；五味子：敛肺生津，益气宁心。二药合用可于补中益气之中兼顾气阴两虚，防止升补之品耗伤津液，并增强益气敛阴、止汗生津之效。"",""modified_cure"":""脾肺气虚兼气阴不足所致倦怠乏力，少气懒言，食少便溏，口干咽燥，自汗，久咳气短；亦可用于病后体虚、气阴两伤者。""}"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,gpt_5_4,GPT-5.4,0.8,14.34,claude-sonnet-4-6,6.0,0.85,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.85}","{""modified_name"":""补中益气加麦冬五味子汤"",""diff_component"":""麦冬、五味子"",""component_effect"":""麦冬：养阴生津，润肺清心；五味子：敛肺生津，益气宁心。二药合用可于补中益气之中兼顾气阴两虚，防止升补之品耗伤津液，并增强益气敛阴、止汗生津之效。"",""modified_cure"":""脾肺气虚兼气阴不足所致倦怠乏力，少气懒言，食少便溏，口干咽燥，自汗，久咳气短；亦可用于病后体虚、气阴两伤者。""}"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,o3,O3,0.77,13.85,deepseek-v4-pro,5.0,0.8,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""score_total"":5, ""confidence"":0.8}","{""modified_name"":""补中益气加丹参汤"",""diff_component"":""丹参"",""component_effect"":""活血化瘀；养血安神；清心除烦"",""modified_cure"":""脾胃气虚兼血瘀所致的乏力短气、纳差腹胀、面色萎黄并见胸闷刺痛或舌暗瘀点等""}"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,o3,O3,0.77,13.85,gpt-5.4,5.0,0.89,,"{""score_1"":2,""score_2"":2,""score_3"":1,""socre_total"":5,""confidence"":0.89}","{""modified_name"":""补中益气加丹参汤"",""diff_component"":""丹参"",""component_effect"":""活血化瘀；养血安神；清心除烦"",""modified_cure"":""脾胃气虚兼血瘀所致的乏力短气、纳差腹胀、面色萎黄并见胸闷刺痛或舌暗瘀点等""}"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,o3,O3,0.77,13.85,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.9}","{""modified_name"":""补中益气加丹参汤"",""diff_component"":""丹参"",""component_effect"":""活血化瘀；养血安神；清心除烦"",""modified_cure"":""脾胃气虚兼血瘀所致的乏力短气、纳差腹胀、面色萎黄并见胸闷刺痛或舌暗瘀点等""}"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,kimi_k2_5,Kimi-K2.5,0.96,17.28,deepseek-v4-pro,6.0,1.0,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":1}","```json
+{
+  ""modified_name"": ""补中益气加升麻葛根汤"",
+  ""diff_component"": ""升麻、葛根"",
+  ""component_effect"": ""升麻：升举阳气；清热解毒；葛根：升阳止泻；解肌退热；生津止渴"",
+  ""modified_cure"": ""气虚发热；久泻脱肛；中气下陷伴表证未解；消渴""
+}
+```"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,kimi_k2_5,Kimi-K2.5,0.96,17.28,gpt-5.4,6.0,0.98,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.98}","```json
+{
+  ""modified_name"": ""补中益气加升麻葛根汤"",
+  ""diff_component"": ""升麻、葛根"",
+  ""component_effect"": ""升麻：升举阳气；清热解毒；葛根：升阳止泻；解肌退热；生津止渴"",
+  ""modified_cure"": ""气虚发热；久泻脱肛；中气下陷伴表证未解；消渴""
+}
+```"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,kimi_k2_5,Kimi-K2.5,0.96,17.28,claude-sonnet-4-6,6.0,0.9,,"```json
+{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}
+```","```json
+{
+  ""modified_name"": ""补中益气加升麻葛根汤"",
+  ""diff_component"": ""升麻、葛根"",
+  ""component_effect"": ""升麻：升举阳气；清热解毒；葛根：升阳止泻；解肌退热；生津止渴"",
+  ""modified_cure"": ""气虚发热；久泻脱肛；中气下陷伴表证未解；消渴""
+}
+```"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,deepseek_v3_2,DeepSeek-V3.2,0.84,15.18,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.9}","```json
+{
+    ""modified_name"": ""补中益气加半夏陈皮汤"",
+    ""diff_component"": ""半夏、陈皮"",
+    ""component_effect"": ""半夏：燥湿化痰、降逆止呕、消痞散结；陈皮：理气健脾、燥湿化痰。二者相伍，增强理气化痰、和胃降逆之功。"",
+    ""modified_cure"": ""脾胃气虚兼痰湿内阻证，症见体倦乏力、食少腹胀、恶心呕吐、咳嗽痰多、大便溏薄。""
+}
+```"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,deepseek_v3_2,DeepSeek-V3.2,0.84,15.18,gpt-5.4,6.0,0.93,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.93}","```json
+{
+    ""modified_name"": ""补中益气加半夏陈皮汤"",
+    ""diff_component"": ""半夏、陈皮"",
+    ""component_effect"": ""半夏：燥湿化痰、降逆止呕、消痞散结；陈皮：理气健脾、燥湿化痰。二者相伍，增强理气化痰、和胃降逆之功。"",
+    ""modified_cure"": ""脾胃气虚兼痰湿内阻证，症见体倦乏力、食少腹胀、恶心呕吐、咳嗽痰多、大便溏薄。""
+}
+```"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,deepseek_v3_2,DeepSeek-V3.2,0.84,15.18,claude-sonnet-4-6,6.0,0.85,,"```json
+{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.85}
+```","```json
+{
+    ""modified_name"": ""补中益气加半夏陈皮汤"",
+    ""diff_component"": ""半夏、陈皮"",
+    ""component_effect"": ""半夏：燥湿化痰、降逆止呕、消痞散结；陈皮：理气健脾、燥湿化痰。二者相伍，增强理气化痰、和胃降逆之功。"",
+    ""modified_cure"": ""脾胃气虚兼痰湿内阻证，症见体倦乏力、食少腹胀、恶心呕吐、咳嗽痰多、大便溏薄。""
+}
+```"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.54,9.8,deepseek-v4-pro,4.0,0.8,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.8}","{""modified_name"":""补中益气加丹参汤"", ""diff_component"": ""丹参"", ""component_effect"":""活血祛瘀；通经止痛；清心除烦"", ""modified_cure"":""气虚血瘀；中气不足伴有胸胁刺痛；神疲乏力兼见心悸心烦；""}"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.54,9.8,gpt-5.4,4.0,0.85,,"{""score_1"":2,""score_2"":1,""score_3"":1,""socre_total"":4,""confidence"":0.85}","{""modified_name"":""补中益气加丹参汤"", ""diff_component"": ""丹参"", ""component_effect"":""活血祛瘀；通经止痛；清心除烦"", ""modified_cure"":""气虚血瘀；中气不足伴有胸胁刺痛；神疲乏力兼见心悸心烦；""}"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.54,9.8,claude-sonnet-4-6,4.0,0.8,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.8}","{""modified_name"":""补中益气加丹参汤"", ""diff_component"": ""丹参"", ""component_effect"":""活血祛瘀；通经止痛；清心除烦"", ""modified_cure"":""气虚血瘀；中气不足伴有胸胁刺痛；神疲乏力兼见心悸心烦；""}"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,claude_sonnet_4_6,Claude-Sonnet-4.6,0.8,14.45,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.9}","```json
+{""modified_name"":""补中益气加五味子汤"", ""diff_component"":""五味子"", ""component_effect"":""收敛固涩；益气生津；补肾宁心；固表止汗"", ""modified_cure"":""中气下陷兼自汗盗汗；气虚津伤口渴；脾肺气虚久咳；心悸失眠；体倦乏力动则汗出""}
+```"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,claude_sonnet_4_6,Claude-Sonnet-4.6,0.8,14.45,gpt-5.4,5.0,0.91,,"{""score_1"":2,""score_2"":1,""score_3"":2,""socre_total"":5,""confidence"":0.91}","```json
+{""modified_name"":""补中益气加五味子汤"", ""diff_component"":""五味子"", ""component_effect"":""收敛固涩；益气生津；补肾宁心；固表止汗"", ""modified_cure"":""中气下陷兼自汗盗汗；气虚津伤口渴；脾肺气虚久咳；心悸失眠；体倦乏力动则汗出""}
+```"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,claude_sonnet_4_6,Claude-Sonnet-4.6,0.8,14.45,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}","```json
+{""modified_name"":""补中益气加五味子汤"", ""diff_component"":""五味子"", ""component_effect"":""收敛固涩；益气生津；补肾宁心；固表止汗"", ""modified_cure"":""中气下陷兼自汗盗汗；气虚津伤口渴；脾肺气虚久咳；心悸失眠；体倦乏力动则汗出""}
+```"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,qwen3_5_plus,Qwen3.5-Plus,0.88,15.78,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.9}","{""modified_name"": ""补中益气加茯苓汤"", ""diff_component"": ""茯苓"", ""component_effect"": ""利水渗湿；健脾宁心；助运化湿"", ""modified_cure"": ""脾虚湿盛；心悸失眠；便溏泄泻""}"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,qwen3_5_plus,Qwen3.5-Plus,0.88,15.78,gpt-5.4,6.0,0.98,,"{""score_1"": 2, ""score_2"": 2, ""score_3"": 2, ""socre_total"": 6, ""confidence"": 0.98}","{""modified_name"": ""补中益气加茯苓汤"", ""diff_component"": ""茯苓"", ""component_effect"": ""利水渗湿；健脾宁心；助运化湿"", ""modified_cure"": ""脾虚湿盛；心悸失眠；便溏泄泻""}"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,qwen3_5_plus,Qwen3.5-Plus,0.88,15.78,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}","{""modified_name"": ""补中益气加茯苓汤"", ""diff_component"": ""茯苓"", ""component_effect"": ""利水渗湿；健脾宁心；助运化湿"", ""modified_cure"": ""脾虚湿盛；心悸失眠；便溏泄泻""}"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,baichuan_m3_plus,百川医疗大模型,0.57,10.3,deepseek-v4-pro,4.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.9}","{
+  ""modified_name"": ""益元散加茯苓陈皮汤"",
+  ""diff_component"": ""茯苓、陈皮"",
+  ""component_effect"": ""茯苓：渗湿利水；健脾和胃；宁心安神；陈皮：理气健脾；燥湿化痰"",
+  ""modified_cure"": ""暑热烦渴兼脾虚湿盛、纳呆便溏、心悸失眠者。本方在益元散清暑益气、养阴生津的基础上，增强健脾化湿、理气安神之效，适用于暑湿伤气、脾失健运之证。""
+}
+
+我建议您进一步查阅该加味方在老年或脾胃虚弱人群中的安全性及长期应用的临床证据，特别是茯苓与陈皮在慢性湿阻证中的配伍作用机制。您需要我帮您检索相关文献吗？"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,baichuan_m3_plus,百川医疗大模型,0.57,10.3,gpt-5.4,4.0,0.8,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.8}","{
+  ""modified_name"": ""益元散加茯苓陈皮汤"",
+  ""diff_component"": ""茯苓、陈皮"",
+  ""component_effect"": ""茯苓：渗湿利水；健脾和胃；宁心安神；陈皮：理气健脾；燥湿化痰"",
+  ""modified_cure"": ""暑热烦渴兼脾虚湿盛、纳呆便溏、心悸失眠者。本方在益元散清暑益气、养阴生津的基础上，增强健脾化湿、理气安神之效，适用于暑湿伤气、脾失健运之证。""
+}
+
+我建议您进一步查阅该加味方在老年或脾胃虚弱人群中的安全性及长期应用的临床证据，特别是茯苓与陈皮在慢性湿阻证中的配伍作用机制。您需要我帮您检索相关文献吗？"
+dataset2,8,6,根据你对中药的理解基于益元散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.77,13.8725,0.54,baichuan_m3_plus,百川医疗大模型,0.57,10.3,claude-sonnet-4-6,5.0,0.7,,"```json
+{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"": 5, ""confidence"": 0.7}
+```","{
+  ""modified_name"": ""益元散加茯苓陈皮汤"",
+  ""diff_component"": ""茯苓、陈皮"",
+  ""component_effect"": ""茯苓：渗湿利水；健脾和胃；宁心安神；陈皮：理气健脾；燥湿化痰"",
+  ""modified_cure"": ""暑热烦渴兼脾虚湿盛、纳呆便溏、心悸失眠者。本方在益元散清暑益气、养阴生津的基础上，增强健脾化湿、理气安神之效，适用于暑湿伤气、脾失健运之证。""
+}
+
+我建议您进一步查阅该加味方在老年或脾胃虚弱人群中的安全性及长期应用的临床证据，特别是茯苓与陈皮在慢性湿阻证中的配伍作用机制。您需要我帮您检索相关文献吗？"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,gpt_5_4,GPT-5.4,0.87,15.66,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.9}","{""modified_name"":""铁骨丹加杜仲续断牛膝方"",""diff_component"":""杜仲、续断、牛膝"",""component_effect"":""杜仲补肝肾、强筋骨、安胎；续断补肝肾、强筋骨、续折伤、止痛；牛膝补肝肾、强筋骨、活血通络、引血下行"",""modified_cure"":""肝肾不足所致的腰膝酸软；筋骨痿弱；跌打损伤后筋骨疼痛；肢体麻木；关节屈伸不利；""}"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,gpt_5_4,GPT-5.4,0.87,15.66,gpt-5.4,6.0,0.96,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.96}","{""modified_name"":""铁骨丹加杜仲续断牛膝方"",""diff_component"":""杜仲、续断、牛膝"",""component_effect"":""杜仲补肝肾、强筋骨、安胎；续断补肝肾、强筋骨、续折伤、止痛；牛膝补肝肾、强筋骨、活血通络、引血下行"",""modified_cure"":""肝肾不足所致的腰膝酸软；筋骨痿弱；跌打损伤后筋骨疼痛；肢体麻木；关节屈伸不利；""}"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,gpt_5_4,GPT-5.4,0.87,15.66,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}","{""modified_name"":""铁骨丹加杜仲续断牛膝方"",""diff_component"":""杜仲、续断、牛膝"",""component_effect"":""杜仲补肝肾、强筋骨、安胎；续断补肝肾、强筋骨、续折伤、止痛；牛膝补肝肾、强筋骨、活血通络、引血下行"",""modified_cure"":""肝肾不足所致的腰膝酸软；筋骨痿弱；跌打损伤后筋骨疼痛；肢体麻木；关节屈伸不利；""}"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,o3,O3,0.53,9.6,deepseek-v4-pro,2.0,1.0,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"":2, ""confidence"":1}","{""modified_name"":""铁骨丹加黄芪方"", ""diff_component"":""黄芪"", ""component_effect"":""益气固表；托毒生肌；促进组织修复，加速骨痂形成"", ""modified_cure"":""气虚所致骨折愈合缓慢、骨痛隐隐、乏力自汗""}"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,o3,O3,0.53,9.6,gpt-5.4,4.0,0.7,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.7}","{""modified_name"":""铁骨丹加黄芪方"", ""diff_component"":""黄芪"", ""component_effect"":""益气固表；托毒生肌；促进组织修复，加速骨痂形成"", ""modified_cure"":""气虚所致骨折愈合缓慢、骨痛隐隐、乏力自汗""}"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,o3,O3,0.53,9.6,claude-sonnet-4-6,6.0,0.8,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.8}","{""modified_name"":""铁骨丹加黄芪方"", ""diff_component"":""黄芪"", ""component_effect"":""益气固表；托毒生肌；促进组织修复，加速骨痂形成"", ""modified_cure"":""气虚所致骨折愈合缓慢、骨痛隐隐、乏力自汗""}"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,kimi_k2_5,Kimi-K2.5,0.95,17.16,deepseek-v4-pro,6.0,1.0,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":1.0}","```json
+{""modified_name"":""铁骨丹加杜仲加续断汤"", ""diff_component"": ""杜仲、续断"", ""component_effect"":""杜仲：补肝肾、强筋骨、安胎，善治腰膝酸痛、筋骨无力；续断：补肝肾、续筋骨、调血脉，主治跌扑损伤、筋骨折伤、风湿痹痛"", ""modified_cure"":""肝肾不足型骨质疏松症伴腰膝痿软；骨折后期愈合迟缓；重症骨痹疼痛；肾虚胎动不安""}
+```"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,kimi_k2_5,Kimi-K2.5,0.95,17.16,gpt-5.4,6.0,0.96,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.96}","```json
+{""modified_name"":""铁骨丹加杜仲加续断汤"", ""diff_component"": ""杜仲、续断"", ""component_effect"":""杜仲：补肝肾、强筋骨、安胎，善治腰膝酸痛、筋骨无力；续断：补肝肾、续筋骨、调血脉，主治跌扑损伤、筋骨折伤、风湿痹痛"", ""modified_cure"":""肝肾不足型骨质疏松症伴腰膝痿软；骨折后期愈合迟缓；重症骨痹疼痛；肾虚胎动不安""}
+```"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,kimi_k2_5,Kimi-K2.5,0.95,17.16,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.9}","```json
+{""modified_name"":""铁骨丹加杜仲加续断汤"", ""diff_component"": ""杜仲、续断"", ""component_effect"":""杜仲：补肝肾、强筋骨、安胎，善治腰膝酸痛、筋骨无力；续断：补肝肾、续筋骨、调血脉，主治跌扑损伤、筋骨折伤、风湿痹痛"", ""modified_cure"":""肝肾不足型骨质疏松症伴腰膝痿软；骨折后期愈合迟缓；重症骨痹疼痛；肾虚胎动不安""}
+```"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,deepseek_v3_2,DeepSeek-V3.2,0.53,9.48,deepseek-v4-pro,2.0,0.9,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"": 2, ""confidence"": 0.9}","```json
+{
+  ""modified_name"": ""铁骨丹加味汤"",
+  ""diff_component"": ""黄芪"",
+  ""component_effect"": ""益气固表；利水消肿；托毒生肌"",
+  ""modified_cure"": ""气血两虚型骨折后期恢复；疮疡久溃不敛；体虚自汗盗汗。""
+}
+```"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,deepseek_v3_2,DeepSeek-V3.2,0.53,9.48,gpt-5.4,4.0,0.72,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.72}","```json
+{
+  ""modified_name"": ""铁骨丹加味汤"",
+  ""diff_component"": ""黄芪"",
+  ""component_effect"": ""益气固表；利水消肿；托毒生肌"",
+  ""modified_cure"": ""气血两虚型骨折后期恢复；疮疡久溃不敛；体虚自汗盗汗。""
+}
+```"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,deepseek_v3_2,DeepSeek-V3.2,0.53,9.48,claude-sonnet-4-6,6.0,0.8,,"```json
+{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.8}
+```","```json
+{
+  ""modified_name"": ""铁骨丹加味汤"",
+  ""diff_component"": ""黄芪"",
+  ""component_effect"": ""益气固表；利水消肿；托毒生肌"",
+  ""modified_cure"": ""气血两虚型骨折后期恢复；疮疡久溃不敛；体虚自汗盗汗。""
+}
+```"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.86,15.42,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.9}","{
+  ""modified_name"": ""铁骨加续断丹"",
+  ""diff_component"": ""续断"",
+  ""component_effect"": ""补肝肾；强筋骨；续折伤；通血脉"",
+  ""modified_cure"": ""跌打损伤，骨折筋伤；肝肾不足所致的腰膝酸软、关节不利；""
+}"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.86,15.42,gpt-5.4,6.0,0.97,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.97}","{
+  ""modified_name"": ""铁骨加续断丹"",
+  ""diff_component"": ""续断"",
+  ""component_effect"": ""补肝肾；强筋骨；续折伤；通血脉"",
+  ""modified_cure"": ""跌打损伤，骨折筋伤；肝肾不足所致的腰膝酸软、关节不利；""
+}"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.86,15.42,claude-sonnet-4-6,6.0,0.85,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.85}","{
+  ""modified_name"": ""铁骨加续断丹"",
+  ""diff_component"": ""续断"",
+  ""component_effect"": ""补肝肾；强筋骨；续折伤；通血脉"",
+  ""modified_cure"": ""跌打损伤，骨折筋伤；肝肾不足所致的腰膝酸软、关节不利；""
+}"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,claude_sonnet_4_6,Claude-Sonnet-4.6,0.82,14.76,deepseek-v4-pro,4.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.9}","我需要先了解铁骨丹的组成和功效，才能进行合理的加味。
+
+铁骨丹通常由：自然铜、骨碎补、续断、乳香、没药、当归、土鳖虫等组成，主治跌打损伤、筋骨折伤、瘀血肿痛。
+
+基于其活血化瘀、接骨续筋的核心功效，加入补肝肾、强筋骨的药物以增强疗效：
+
+```json
+{
+  ""modified_name"": ""铁骨丹加杜仲方"",
+  ""diff_component"": ""杜仲"",
+  ""component_effect"": ""补肝肾；强筋骨；安胎；祛风湿"",
+  ""modified_cure"": ""肝肾不足之筋骨折伤；腰膝酸软；骨折迟缓愈合；跌打损伤兼见肾虚腰痛""
+}
+```"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,claude_sonnet_4_6,Claude-Sonnet-4.6,0.82,14.76,gpt-5.4,6.0,0.96,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.96}","我需要先了解铁骨丹的组成和功效，才能进行合理的加味。
+
+铁骨丹通常由：自然铜、骨碎补、续断、乳香、没药、当归、土鳖虫等组成，主治跌打损伤、筋骨折伤、瘀血肿痛。
+
+基于其活血化瘀、接骨续筋的核心功效，加入补肝肾、强筋骨的药物以增强疗效：
+
+```json
+{
+  ""modified_name"": ""铁骨丹加杜仲方"",
+  ""diff_component"": ""杜仲"",
+  ""component_effect"": ""补肝肾；强筋骨；安胎；祛风湿"",
+  ""modified_cure"": ""肝肾不足之筋骨折伤；腰膝酸软；骨折迟缓愈合；跌打损伤兼见肾虚腰痛""
+}
+```"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,claude_sonnet_4_6,Claude-Sonnet-4.6,0.82,14.76,claude-sonnet-4-6,6.0,0.9,,"```json
+{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}
+```","我需要先了解铁骨丹的组成和功效，才能进行合理的加味。
+
+铁骨丹通常由：自然铜、骨碎补、续断、乳香、没药、当归、土鳖虫等组成，主治跌打损伤、筋骨折伤、瘀血肿痛。
+
+基于其活血化瘀、接骨续筋的核心功效，加入补肝肾、强筋骨的药物以增强疗效：
+
+```json
+{
+  ""modified_name"": ""铁骨丹加杜仲方"",
+  ""diff_component"": ""杜仲"",
+  ""component_effect"": ""补肝肾；强筋骨；安胎；祛风湿"",
+  ""modified_cure"": ""肝肾不足之筋骨折伤；腰膝酸软；骨折迟缓愈合；跌打损伤兼见肾虚腰痛""
+}
+```"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,qwen3_5_plus,Qwen3.5-Plus,0.83,14.86,deepseek-v4-pro,5.0,0.8,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":0.8}","{""modified_name"":""铁骨加骨碎补丹"", ""diff_component"": ""骨碎补"", ""component_effect"":""补肾强骨；续伤止痛；活血散瘀"", ""modified_cure"":""骨折筋伤；肾虚腰痛；跌打损伤；""}"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,qwen3_5_plus,Qwen3.5-Plus,0.83,14.86,gpt-5.4,6.0,0.96,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.96}","{""modified_name"":""铁骨加骨碎补丹"", ""diff_component"": ""骨碎补"", ""component_effect"":""补肾强骨；续伤止痛；活血散瘀"", ""modified_cure"":""骨折筋伤；肾虚腰痛；跌打损伤；""}"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,qwen3_5_plus,Qwen3.5-Plus,0.83,14.86,claude-sonnet-4-6,6.0,0.85,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.85}","{""modified_name"":""铁骨加骨碎补丹"", ""diff_component"": ""骨碎补"", ""component_effect"":""补肾强骨；续伤止痛；活血散瘀"", ""modified_cure"":""骨折筋伤；肾虚腰痛；跌打损伤；""}"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,baichuan_m3_plus,百川医疗大模型,0.8,14.4,deepseek-v4-pro,4.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.9}","{
+  ""modified_name"": ""普济消毒饮加味方"",
+  ""diff_component"": ""天花粉"",
+  ""component_effect"": ""养阴清热、生津止渴、清热解毒、消肿排脓"",
+  ""modified_cure"": ""热毒壅盛所致的高热、口干明显、咽喉肿痛，尤其适用于热盛伤津之证。天花粉的加入可增强清热生津之效，防止热邪耗伤气阴，同时助消肿散结，适用于伴有明显口干、津液损伤的温热病证。""
+}
+
+我建议您进一步查阅该加味方在临床应用中的安全性及药物相互作用，特别是在阴虚体质或脾胃虚寒者中的使用注意事项。您需要我帮您检索相关文献吗？"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,baichuan_m3_plus,百川医疗大模型,0.8,14.4,gpt-5.4,6.0,0.95,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.95}","{
+  ""modified_name"": ""普济消毒饮加味方"",
+  ""diff_component"": ""天花粉"",
+  ""component_effect"": ""养阴清热、生津止渴、清热解毒、消肿排脓"",
+  ""modified_cure"": ""热毒壅盛所致的高热、口干明显、咽喉肿痛，尤其适用于热盛伤津之证。天花粉的加入可增强清热生津之效，防止热邪耗伤气阴，同时助消肿散结，适用于伴有明显口干、津液损伤的温热病证。""
+}
+
+我建议您进一步查阅该加味方在临床应用中的安全性及药物相互作用，特别是在阴虚体质或脾胃虚寒者中的使用注意事项。您需要我帮您检索相关文献吗？"
+dataset2,9,11,根据你对中药的理解基于普济消毒饮生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.7738,13.9175,0.53,baichuan_m3_plus,百川医疗大模型,0.8,14.4,claude-sonnet-4-6,6.0,0.85,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.85}","{
+  ""modified_name"": ""普济消毒饮加味方"",
+  ""diff_component"": ""天花粉"",
+  ""component_effect"": ""养阴清热、生津止渴、清热解毒、消肿排脓"",
+  ""modified_cure"": ""热毒壅盛所致的高热、口干明显、咽喉肿痛，尤其适用于热盛伤津之证。天花粉的加入可增强清热生津之效，防止热邪耗伤气阴，同时助消肿散结，适用于伴有明显口干、津液损伤的温热病证。""
+}
+
+我建议您进一步查阅该加味方在临床应用中的安全性及药物相互作用，特别是在阴虚体质或脾胃虚寒者中的使用注意事项。您需要我帮您检索相关文献吗？"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,gpt_5_4,GPT-5.4,0.92,16.5,deepseek-v4-pro,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.9}","{""modified_name"":""桃花汤加白术茯苓汤"",""diff_component"":""白术、茯苓"",""component_effect"":""白术：健脾益气，燥湿止泻，增强脾胃运化以固摄肠道；茯苓：健脾渗湿，利水止泻，助脾运化水湿并缓解久泻所致乏力"",""modified_cure"":""脾肾阳虚所致久痢久泻；便下脓血；腹痛喜温；食少乏力；水湿内停""}"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,gpt_5_4,GPT-5.4,0.92,16.5,gpt-5.4,6.0,0.95,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.95}","{""modified_name"":""桃花汤加白术茯苓汤"",""diff_component"":""白术、茯苓"",""component_effect"":""白术：健脾益气，燥湿止泻，增强脾胃运化以固摄肠道；茯苓：健脾渗湿，利水止泻，助脾运化水湿并缓解久泻所致乏力"",""modified_cure"":""脾肾阳虚所致久痢久泻；便下脓血；腹痛喜温；食少乏力；水湿内停""}"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,gpt_5_4,GPT-5.4,0.92,16.5,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.9}","{""modified_name"":""桃花汤加白术茯苓汤"",""diff_component"":""白术、茯苓"",""component_effect"":""白术：健脾益气，燥湿止泻，增强脾胃运化以固摄肠道；茯苓：健脾渗湿，利水止泻，助脾运化水湿并缓解久泻所致乏力"",""modified_cure"":""脾肾阳虚所致久痢久泻；便下脓血；腹痛喜温；食少乏力；水湿内停""}"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,o3,O3,0.88,15.78,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""score_total"":5, ""confidence"":0.9}","{""modified_name"":""桃花加白术汤"",""diff_component"":""白术"",""component_effect"":""健脾益气；燥湿止泻"",""modified_cure"":""脾虚夹湿所致久泻不止、腹胀食少、神疲乏力"",""disclaimer"":""本信息仅供中医药知识参考，不能替代专业医疗建议，如有不适请及时就医""}"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,o3,O3,0.88,15.78,gpt-5.4,6.0,0.98,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.98}","{""modified_name"":""桃花加白术汤"",""diff_component"":""白术"",""component_effect"":""健脾益气；燥湿止泻"",""modified_cure"":""脾虚夹湿所致久泻不止、腹胀食少、神疲乏力"",""disclaimer"":""本信息仅供中医药知识参考，不能替代专业医疗建议，如有不适请及时就医""}"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,o3,O3,0.88,15.78,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.9}","{""modified_name"":""桃花加白术汤"",""diff_component"":""白术"",""component_effect"":""健脾益气；燥湿止泻"",""modified_cure"":""脾虚夹湿所致久泻不止、腹胀食少、神疲乏力"",""disclaimer"":""本信息仅供中医药知识参考，不能替代专业医疗建议，如有不适请及时就医""}"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,kimi_k2_5,Kimi-K2.5,0.9,16.28,deepseek-v4-pro,5.0,1.0,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"":5, ""confidence"":1}","```json
+{""modified_name"":""桃花加阿胶汤"", ""diff_component"": ""阿胶"", ""component_effect"":""补血止血；滋阴润燥；收敛固涩"", ""modified_cure"":""久痢不愈；血虚阴亏；便血不止；崩漏下血""}
+```"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,kimi_k2_5,Kimi-K2.5,0.9,16.28,gpt-5.4,6.0,0.98,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.98}","```json
+{""modified_name"":""桃花加阿胶汤"", ""diff_component"": ""阿胶"", ""component_effect"":""补血止血；滋阴润燥；收敛固涩"", ""modified_cure"":""久痢不愈；血虚阴亏；便血不止；崩漏下血""}
+```"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,kimi_k2_5,Kimi-K2.5,0.9,16.28,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}","```json
+{""modified_name"":""桃花加阿胶汤"", ""diff_component"": ""阿胶"", ""component_effect"":""补血止血；滋阴润燥；收敛固涩"", ""modified_cure"":""久痢不愈；血虚阴亏；便血不止；崩漏下血""}
+```"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,deepseek_v3_2,DeepSeek-V3.2,0.74,13.38,deepseek-v4-pro,6.0,0.95,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"":6, ""confidence"":0.95}","```json
+{
+    ""modified_name"": ""桃花加芪汤"",
+    ""diff_component"": ""黄芪"",
+    ""component_effect"": ""补气固表；健脾升阳；托毒生肌"",
+    ""modified_cure"": ""虚寒下痢日久，滑脱不禁，兼有气虚乏力、肛门坠胀者。""
+}
+```"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,deepseek_v3_2,DeepSeek-V3.2,0.74,13.38,gpt-5.4,4.0,0.72,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.72}","```json
+{
+    ""modified_name"": ""桃花加芪汤"",
+    ""diff_component"": ""黄芪"",
+    ""component_effect"": ""补气固表；健脾升阳；托毒生肌"",
+    ""modified_cure"": ""虚寒下痢日久，滑脱不禁，兼有气虚乏力、肛门坠胀者。""
+}
+```"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,deepseek_v3_2,DeepSeek-V3.2,0.74,13.38,claude-sonnet-4-6,6.0,0.8,,"```json
+{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.8}
+```","```json
+{
+    ""modified_name"": ""桃花加芪汤"",
+    ""diff_component"": ""黄芪"",
+    ""component_effect"": ""补气固表；健脾升阳；托毒生肌"",
+    ""modified_cure"": ""虚寒下痢日久，滑脱不禁，兼有气虚乏力、肛门坠胀者。""
+}
+```"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.4,7.12,deepseek-v4-pro,2.0,0.1,,"{""score_1"":2, ""score_2"":0, ""score_3"":0, ""socre_total"":2, ""confidence"":0.1}","{
+  ""modified_name"": ""桃花加黄芪汤"",
+  ""diff_component"": ""黄芪"",
+  ""component_effect"": ""补气升阳；健脾升陷；托毒排脓"",
+  ""modified_cure"": ""虚寒久痢；便脓血不止；中气下陷；久泻脱肛；神疲乏力""
+}"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.4,7.12,gpt-5.4,4.0,0.53,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"":4, ""confidence"":0.53}","{
+  ""modified_name"": ""桃花加黄芪汤"",
+  ""diff_component"": ""黄芪"",
+  ""component_effect"": ""补气升阳；健脾升陷；托毒排脓"",
+  ""modified_cure"": ""虚寒久痢；便脓血不止；中气下陷；久泻脱肛；神疲乏力""
+}"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,gemini_3_1_pro_preview,Gemini-3.1-Pro-Preview,0.4,7.12,claude-sonnet-4-6,6.0,0.8,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.8}","{
+  ""modified_name"": ""桃花加黄芪汤"",
+  ""diff_component"": ""黄芪"",
+  ""component_effect"": ""补气升阳；健脾升陷；托毒排脓"",
+  ""modified_cure"": ""虚寒久痢；便脓血不止；中气下陷；久泻脱肛；神疲乏力""
+}"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,claude_sonnet_4_6,Claude-Sonnet-4.6,0.88,15.78,deepseek-v4-pro,5.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"": 5, ""confidence"": 0.9}","```json
+{""modified_name"":""桃花加附子汤"", ""diff_component"": ""附子"", ""component_effect"":""温肾助阳；散寒止痛；回阳救逆"", ""modified_cure"":""虚寒痢疾日久不愈；下利脓血色暗淡；四肢厥冷；脉微欲绝；肾阳衰微之久痢滑脱""}
+```"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,claude_sonnet_4_6,Claude-Sonnet-4.6,0.88,15.78,gpt-5.4,6.0,0.98,,"{""score_1"":2,""score_2"":2,""score_3"":2,""socre_total"":6,""confidence"":0.98}","```json
+{""modified_name"":""桃花加附子汤"", ""diff_component"": ""附子"", ""component_effect"":""温肾助阳；散寒止痛；回阳救逆"", ""modified_cure"":""虚寒痢疾日久不愈；下利脓血色暗淡；四肢厥冷；脉微欲绝；肾阳衰微之久痢滑脱""}
+```"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,claude_sonnet_4_6,Claude-Sonnet-4.6,0.88,15.78,claude-sonnet-4-6,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.9}","```json
+{""modified_name"":""桃花加附子汤"", ""diff_component"": ""附子"", ""component_effect"":""温肾助阳；散寒止痛；回阳救逆"", ""modified_cure"":""虚寒痢疾日久不愈；下利脓血色暗淡；四肢厥冷；脉微欲绝；肾阳衰微之久痢滑脱""}
+```"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,qwen3_5_plus,Qwen3.5-Plus,0.9,16.2,deepseek-v4-pro,6.0,0.9,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""score_total"":6, ""confidence"":0.9}","{""modified_name"": ""桃花加术汤"", ""diff_component"": ""白术"", ""component_effect"": ""健脾益气；燥湿利水；固表止汗"", ""modified_cure"": ""脾肾阳虚之久痢；脾虚湿盛；腹痛喜温；""}"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,qwen3_5_plus,Qwen3.5-Plus,0.9,16.2,gpt-5.4,6.0,0.95,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.95}","{""modified_name"": ""桃花加术汤"", ""diff_component"": ""白术"", ""component_effect"": ""健脾益气；燥湿利水；固表止汗"", ""modified_cure"": ""脾肾阳虚之久痢；脾虚湿盛；腹痛喜温；""}"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,qwen3_5_plus,Qwen3.5-Plus,0.9,16.2,claude-sonnet-4-6,6.0,0.85,,"{""score_1"":2, ""score_2"":2, ""score_3"":2, ""socre_total"": 6, ""confidence"": 0.85}","{""modified_name"": ""桃花加术汤"", ""diff_component"": ""白术"", ""component_effect"": ""健脾益气；燥湿利水；固表止汗"", ""modified_cure"": ""脾肾阳虚之久痢；脾虚湿盛；腹痛喜温；""}"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,baichuan_m3_plus,百川医疗大模型,0.58,10.35,deepseek-v4-pro,4.0,0.9,,"{""score_1"":2, ""score_2"":1, ""score_3"":1, ""score_total"": 4, ""confidence"": 0.9}","{
+  ""modified_name"": ""咳血方加味方"",
+  ""diff_component"": ""黄芩、瓜蒌皮"",
+  ""component_effect"": ""黄芩清肺泻火，燥湿解毒，尤善清上焦肺热；瓜蒌皮清热化痰，宽胸散结，润燥滑肠。二者合用可增强清肺化痰、止咳止血之效。"",
+  ""modified_cure"": ""肺热壅盛所致的咳嗽痰黄、痰中带血、胸胁胀痛、咽干口燥等症。尤其适用于痰热较重，咳血兼有痰黄稠难咯者。""
+}
+
+我建议您进一步查阅该加味方在肺热咳血患者中的临床安全性及长期应用的潜在影响，特别是黄芩与瓜蒌皮的配伍依据及现代药理研究。您需要我帮您检索相关文献吗？"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,baichuan_m3_plus,百川医疗大模型,0.58,10.35,gpt-5.4,5.0,0.79,,"{""score_1"":2, ""score_2"":1, ""score_3"":2, ""socre_total"": 5, ""confidence"": 0.79}","{
+  ""modified_name"": ""咳血方加味方"",
+  ""diff_component"": ""黄芩、瓜蒌皮"",
+  ""component_effect"": ""黄芩清肺泻火，燥湿解毒，尤善清上焦肺热；瓜蒌皮清热化痰，宽胸散结，润燥滑肠。二者合用可增强清肺化痰、止咳止血之效。"",
+  ""modified_cure"": ""肺热壅盛所致的咳嗽痰黄、痰中带血、胸胁胀痛、咽干口燥等症。尤其适用于痰热较重，咳血兼有痰黄稠难咯者。""
+}
+
+我建议您进一步查阅该加味方在肺热咳血患者中的临床安全性及长期应用的潜在影响，特别是黄芩与瓜蒌皮的配伍依据及现代药理研究。您需要我帮您检索相关文献吗？"
+dataset2,10,16,根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。,0.775,13.9238,0.4,baichuan_m3_plus,百川医疗大模型,0.58,10.35,claude-sonnet-4-6,4.0,0.7,,"```json
+{""score_1"":2, ""score_2"":1, ""score_3"":1, ""socre_total"": 4, ""confidence"": 0.7}
+```","{
+  ""modified_name"": ""咳血方加味方"",
+  ""diff_component"": ""黄芩、瓜蒌皮"",
+  ""component_effect"": ""黄芩清肺泻火，燥湿解毒，尤善清上焦肺热；瓜蒌皮清热化痰，宽胸散结，润燥滑肠。二者合用可增强清肺化痰、止咳止血之效。"",
+  ""modified_cure"": ""肺热壅盛所致的咳嗽痰黄、痰中带血、胸胁胀痛、咽干口燥等症。尤其适用于痰热较重，咳血兼有痰黄稠难咯者。""
+}
+
+我建议您进一步查阅该加味方在肺热咳血患者中的临床安全性及长期应用的潜在影响，特别是黄芩与瓜蒌皮的配伍依据及现代药理研究。您需要我帮您检索相关文献吗？"

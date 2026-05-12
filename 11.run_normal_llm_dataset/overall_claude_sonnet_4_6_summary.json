@@ -1,0 +1,31 @@
+{
+  "model": "claude-sonnet-4-6",
+  "datasets": [
+    {
+      "model": "claude-sonnet-4-6",
+      "dataset": "dataset1",
+      "total": 100,
+      "correct": 96,
+      "accuracy": 0.96
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "dataset": "dataset2",
+      "total": 100,
+      "correct": 97,
+      "accuracy": 0.97
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "dataset": "dataset3",
+      "total": 100,
+      "correct": 91,
+      "accuracy": 0.91
+    }
+  ],
+  "overall": {
+    "total": 300,
+    "correct": 284,
+    "accuracy": 0.9466666666666667
+  }
+}

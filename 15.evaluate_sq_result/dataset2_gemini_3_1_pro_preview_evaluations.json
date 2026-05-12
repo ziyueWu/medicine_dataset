@@ -1,0 +1,3514 @@
+{
+  "dataset": "dataset2",
+  "response_file": "dataset2_gemini_3_1_pro_preview_responses.json",
+  "response_model_name": "gemini-3.1-pro-preview",
+  "evaluator_model_names": [
+    "deepseek-v4-pro",
+    "gpt-5.4",
+    "claude-sonnet-4-6"
+  ],
+  "total_questions": 50,
+  "completed_questions": 50,
+  "results": [
+    {
+      "id": 1,
+      "question": "根据你对中药的理解基于泽漆丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "泽漆丸",
+      "modified_name": "泽漆加葶苈丸",
+      "diff_component": [
+        "葶苈子"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "葶苈子",
+          "effect": "泻肺降气；祛痰平喘；利水消肿；泄逐邪",
+          "cure": "痰涎壅肺之喘咳痰多；肺痈；水肿；胸腹积水；小便不利；慢性肺源性心脏病；心力衰竭之喘肿；瘰疬结核"
+        }
+      ],
+      "component_effect": "泻肺平喘；行水消肿",
+      "modified_cure": "水饮停肺；咳喘气逆不得卧；面目浮肿",
+      "response_text": "{\n  \"modified_name\": \"泽漆加葶苈丸\",\n  \"diff_component\": \"葶苈子\",\n  \"component_effect\": \"泻肺平喘；行水消肿\",\n  \"modified_cure\": \"水饮停肺；咳喘气逆不得卧；面目浮肿\"\n}",
+      "response_json": {
+        "modified_name": "泽漆加葶苈丸",
+        "diff_component": "葶苈子",
+        "component_effect": "泻肺平喘；行水消肿",
+        "modified_cure": "水饮停肺；咳喘气逆不得卧；面目浮肿"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于泽漆丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"泽漆加葶苈丸\",\n  \"diff_component\": \"葶苈子\",\n  \"component_effect\": \"泻肺平喘；行水消肿\",\n  \"modified_cure\": \"水饮停肺；咳喘气逆不得卧；面目浮肿\"\n}\n参考：[{\"name\": \"葶苈子\", \"effect\": \"泻肺降气；祛痰平喘；利水消肿；泄逐邪\", \"cure\": \"痰涎壅肺之喘咳痰多；肺痈；水肿；胸腹积水；小便不利；慢性肺源性心脏病；心力衰竭之喘肿；瘰疬结核\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":2, \"socre_total\":5, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 2,
+            "socre_total": 5,
+            "confidence": 0.9
+          },
+          "score_total": 5.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.98}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.98
+          },
+          "score_total": 6.0,
+          "confidence": 0.98
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.85}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.85
+          },
+          "score_total": 6.0,
+          "confidence": 0.85
+        }
+      },
+      "score_llm_all": 15.48
+    },
+    {
+      "id": 2,
+      "question": "根据你对中药的理解基于乌梅丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "乌梅丸",
+      "modified_name": "乌梅加木香汤",
+      "diff_component": [
+        "木香"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "木香",
+          "effect": "行气止痛；调中导滞",
+          "cure": "胞胁胀满足 ；脘腹胀痛；哎吐泄泻；痢疾后重。"
+        }
+      ],
+      "component_effect": "行气止痛；健脾消食",
+      "modified_cure": "寒热错杂之久泻久痢；伴有明显脘腹胀闷或疼痛；里急后重尤甚者；",
+      "response_text": "{\n  \"modified_name\": \"乌梅加木香汤\",\n  \"diff_component\": \"木香\",\n  \"component_effect\": \"行气止痛；健脾消食\",\n  \"modified_cure\": \"寒热错杂之久泻久痢；伴有明显脘腹胀闷或疼痛；里急后重尤甚者；\"\n}",
+      "response_json": {
+        "modified_name": "乌梅加木香汤",
+        "diff_component": "木香",
+        "component_effect": "行气止痛；健脾消食",
+        "modified_cure": "寒热错杂之久泻久痢；伴有明显脘腹胀闷或疼痛；里急后重尤甚者；"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于乌梅丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"乌梅加木香汤\",\n  \"diff_component\": \"木香\",\n  \"component_effect\": \"行气止痛；健脾消食\",\n  \"modified_cure\": \"寒热错杂之久泻久痢；伴有明显脘腹胀闷或疼痛；里急后重尤甚者；\"\n}\n参考：[{\"name\": \"木香\", \"effect\": \"行气止痛；调中导滞\", \"cure\": \"胞胁胀满足 ；脘腹胀痛；哎吐泄泻；痢疾后重。\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":2, \"socre_total\":5, \"confidence\":1}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 2,
+            "socre_total": 5,
+            "confidence": 1
+          },
+          "score_total": 5.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":2, \"socre_total\":5, \"confidence\":0.92}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 2,
+            "socre_total": 5,
+            "confidence": 0.92
+          },
+          "score_total": 5.0,
+          "confidence": 0.92
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "```json\n{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.85}\n```",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.85
+          },
+          "score_total": 6.0,
+          "confidence": 0.85
+        }
+      },
+      "score_llm_all": 14.7
+    },
+    {
+      "id": 3,
+      "question": "根据你对中药的理解基于栀子甘草豉汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "栀子甘草豉汤",
+      "modified_name": "栀子甘草豉加竹茹汤",
+      "diff_component": [
+        "竹茹"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "竹茹",
+          "effect": "清热化痰；除烦止呕；安胎凉血",
+          "cure": "肺热咳嗽；烦热惊悸；胃热呕呃；妊娠恶阻；胎动不安；吐血；衄血；尿血；崩漏"
+        }
+      ],
+      "component_effect": "清热化痰；除烦止呕",
+      "modified_cure": "虚烦不得眠；少气；痰热内扰所致的胸脘痞闷；恶心呕吐",
+      "response_text": "{\n  \"modified_name\": \"栀子甘草豉加竹茹汤\",\n  \"diff_component\": \"竹茹\",\n  \"component_effect\": \"清热化痰；除烦止呕\",\n  \"modified_cure\": \"虚烦不得眠；少气；痰热内扰所致的胸脘痞闷；恶心呕吐\"\n}",
+      "response_json": {
+        "modified_name": "栀子甘草豉加竹茹汤",
+        "diff_component": "竹茹",
+        "component_effect": "清热化痰；除烦止呕",
+        "modified_cure": "虚烦不得眠；少气；痰热内扰所致的胸脘痞闷；恶心呕吐"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于栀子甘草豉汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"栀子甘草豉加竹茹汤\",\n  \"diff_component\": \"竹茹\",\n  \"component_effect\": \"清热化痰；除烦止呕\",\n  \"modified_cure\": \"虚烦不得眠；少气；痰热内扰所致的胸脘痞闷；恶心呕吐\"\n}\n参考：[{\"name\": \"竹茹\", \"effect\": \"清热化痰；除烦止呕；安胎凉血\", \"cure\": \"肺热咳嗽；烦热惊悸；胃热呕呃；妊娠恶阻；胎动不安；吐血；衄血；尿血；崩漏\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":1, \"socre_total\":5, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 1,
+            "socre_total": 5,
+            "confidence": 0.9
+          },
+          "score_total": 5.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.95}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.95
+          },
+          "score_total": 6.0,
+          "confidence": 0.95
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 15.6
+    },
+    {
+      "id": 4,
+      "question": "根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "咳血方",
+      "modified_name": "咳血加白及方",
+      "diff_component": [
+        "白及"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "白及",
+          "effect": "收敛止血；消肿生肌",
+          "cure": "咯血；吐血；衄血；便血；外伤出血；痈疮肿毒；烫灼伤；手足皲裂；肛裂"
+        }
+      ],
+      "component_effect": "收敛止血；消肿生肌",
+      "modified_cure": "肝火犯肺之咳血量多；咯血频发；肺络损伤",
+      "response_text": "{\n  \"modified_name\": \"咳血加白及方\",\n  \"diff_component\": \"白及\",\n  \"component_effect\": \"收敛止血；消肿生肌\",\n  \"modified_cure\": \"肝火犯肺之咳血量多；咯血频发；肺络损伤\"\n}",
+      "response_json": {
+        "modified_name": "咳血加白及方",
+        "diff_component": "白及",
+        "component_effect": "收敛止血；消肿生肌",
+        "modified_cure": "肝火犯肺之咳血量多；咯血频发；肺络损伤"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于咳血方生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"咳血加白及方\",\n  \"diff_component\": \"白及\",\n  \"component_effect\": \"收敛止血；消肿生肌\",\n  \"modified_cure\": \"肝火犯肺之咳血量多；咯血频发；肺络损伤\"\n}\n参考：[{\"name\": \"白及\", \"effect\": \"收敛止血；消肿生肌\", \"cure\": \"咯血；吐血；衄血；便血；外伤出血；痈疮肿毒；烫灼伤；手足皲裂；肛裂\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":1}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 1
+          },
+          "score_total": 6.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":0.96}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.96
+          },
+          "score_total": 6.0,
+          "confidence": 0.96
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 17.16
+    },
+    {
+      "id": 5,
+      "question": "根据你对中药的理解基于手拈散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "手拈散",
+      "modified_name": "手拈加香附散",
+      "diff_component": [
+        "香附"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "香附",
+          "effect": "理气解郁；调经止痛；安胎",
+          "cure": "胁肋胀痛；乳房胀育；疝气疼痛；月经不调；脘腹痞满疼痛；嗳气吞酸，呕恶；经行腹痛；崩漏带下；胎动不安"
+        }
+      ],
+      "component_effect": "疏肝理气；调经止痛",
+      "modified_cure": "肝郁气滞、瘀血阻滞引起的胃脘胀痛；妇女痛经；月经不调；胸胁胀闷；",
+      "response_text": "{\n  \"modified_name\": \"手拈加香附散\",\n  \"diff_component\": \"香附\",\n  \"component_effect\": \"疏肝理气；调经止痛\",\n  \"modified_cure\": \"肝郁气滞、瘀血阻滞引起的胃脘胀痛；妇女痛经；月经不调；胸胁胀闷；\"\n}",
+      "response_json": {
+        "modified_name": "手拈加香附散",
+        "diff_component": "香附",
+        "component_effect": "疏肝理气；调经止痛",
+        "modified_cure": "肝郁气滞、瘀血阻滞引起的胃脘胀痛；妇女痛经；月经不调；胸胁胀闷；"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于手拈散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"手拈加香附散\",\n  \"diff_component\": \"香附\",\n  \"component_effect\": \"疏肝理气；调经止痛\",\n  \"modified_cure\": \"肝郁气滞、瘀血阻滞引起的胃脘胀痛；妇女痛经；月经不调；胸胁胀闷；\"\n}\n参考：[{\"name\": \"香附\", \"effect\": \"理气解郁；调经止痛；安胎\", \"cure\": \"胁肋胀痛；乳房胀育；疝气疼痛；月经不调；脘腹痞满疼痛；嗳气吞酸，呕恶；经行腹痛；崩漏带下；胎动不安\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":2, \"socre_total\":5, \"confidence\":0.8}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 2,
+            "socre_total": 5,
+            "confidence": 0.8
+          },
+          "score_total": 5.0,
+          "confidence": 0.8
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2,\"score_2\":2,\"score_3\":2,\"socre_total\":6,\"confidence\":0.96}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.96
+          },
+          "score_total": 6.0,
+          "confidence": 0.96
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.85}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.85
+          },
+          "score_total": 6.0,
+          "confidence": 0.85
+        }
+      },
+      "score_llm_all": 14.86
+    },
+    {
+      "id": 6,
+      "question": "根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "补中益气汤",
+      "modified_name": "补中益气加丹参汤",
+      "diff_component": [
+        "丹参"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "丹参",
+          "effect": "活血祛瘀；调经止痛；养血安神；凉血消痈",
+          "cure": "妇女月经不调；痛经；经闭；产后瘀滞腹痛；心腹疼痛；癥瘕积聚；热痹肿痛；跌打损伤；热入营血；烦躁不安；心烦失眠；痈疮肿毒"
+        }
+      ],
+      "component_effect": "活血祛瘀；通经止痛；清心除烦",
+      "modified_cure": "气虚血瘀；中气不足伴有胸胁刺痛；神疲乏力兼见心悸心烦；",
+      "response_text": "{\"modified_name\":\"补中益气加丹参汤\", \"diff_component\": \"丹参\", \"component_effect\":\"活血祛瘀；通经止痛；清心除烦\", \"modified_cure\":\"气虚血瘀；中气不足伴有胸胁刺痛；神疲乏力兼见心悸心烦；\"}",
+      "response_json": {
+        "modified_name": "补中益气加丹参汤",
+        "diff_component": "丹参",
+        "component_effect": "活血祛瘀；通经止痛；清心除烦",
+        "modified_cure": "气虚血瘀；中气不足伴有胸胁刺痛；神疲乏力兼见心悸心烦；"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于补中益气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\"modified_name\":\"补中益气加丹参汤\", \"diff_component\": \"丹参\", \"component_effect\":\"活血祛瘀；通经止痛；清心除烦\", \"modified_cure\":\"气虚血瘀；中气不足伴有胸胁刺痛；神疲乏力兼见心悸心烦；\"}\n参考：[{\"name\": \"丹参\", \"effect\": \"活血祛瘀；调经止痛；养血安神；凉血消痈\", \"cure\": \"妇女月经不调；痛经；经闭；产后瘀滞腹痛；心腹疼痛；癥瘕积聚；热痹肿痛；跌打损伤；热入营血；烦躁不安；心烦失眠；痈疮肿毒\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\":4, \"confidence\":0.8}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 1,
+            "socre_total": 4,
+            "confidence": 0.8
+          },
+          "score_total": 4.0,
+          "confidence": 0.8
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2,\"score_2\":1,\"score_3\":1,\"socre_total\":4,\"confidence\":0.85}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 1,
+            "socre_total": 4,
+            "confidence": 0.85
+          },
+          "score_total": 4.0,
+          "confidence": 0.85
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\":4, \"confidence\":0.8}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 1,
+            "socre_total": 4,
+            "confidence": 0.8
+          },
+          "score_total": 4.0,
+          "confidence": 0.8
+        }
+      },
+      "score_llm_all": 9.8
+    },
+    {
+      "id": 7,
+      "question": "根据你对中药的理解基于当归六黄汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "当归六黄汤",
+      "modified_name": "当归六黄加酸枣仁汤",
+      "diff_component": [
+        "酸枣仁"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "酸枣仁",
+          "effect": "宁心安神；养肝；敛汗",
+          "cure": "虚烦不眠；惊悸怔忡；体虚自汗、盗汗"
+        }
+      ],
+      "component_effect": "养心补肝；宁心安神；敛汗生津",
+      "modified_cure": "阴虚火旺所致的盗汗；虚烦不寐；心悸多梦",
+      "response_text": "{\"modified_name\": \"当归六黄加酸枣仁汤\", \"diff_component\": \"酸枣仁\", \"component_effect\": \"养心补肝；宁心安神；敛汗生津\", \"modified_cure\": \"阴虚火旺所致的盗汗；虚烦不寐；心悸多梦\"}",
+      "response_json": {
+        "modified_name": "当归六黄加酸枣仁汤",
+        "diff_component": "酸枣仁",
+        "component_effect": "养心补肝；宁心安神；敛汗生津",
+        "modified_cure": "阴虚火旺所致的盗汗；虚烦不寐；心悸多梦"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于当归六黄汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\"modified_name\": \"当归六黄加酸枣仁汤\", \"diff_component\": \"酸枣仁\", \"component_effect\": \"养心补肝；宁心安神；敛汗生津\", \"modified_cure\": \"阴虚火旺所致的盗汗；虚烦不寐；心悸多梦\"}\n参考：[{\"name\": \"酸枣仁\", \"effect\": \"宁心安神；养肝；敛汗\", \"cure\": \"虚烦不眠；惊悸怔忡；体虚自汗、盗汗\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":2, \"score_total\":5, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 2,
+            "score_total": 5,
+            "confidence": 0.9
+          },
+          "score_total": 5.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2,\"score_2\":2,\"score_3\":2,\"socre_total\":6,\"confidence\":0.98}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.98
+          },
+          "score_total": 6.0,
+          "confidence": 0.98
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 15.780000000000001
+    },
+    {
+      "id": 8,
+      "question": "根据你对中药的理解基于木瓜丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "木瓜丸",
+      "modified_name": "",
+      "diff_component": [
+        "薏苡仁"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "薏苡仁",
+          "effect": "利湿健脾；舒筋除痹；清热排脓",
+          "cure": "水肿；脚气；小便淋沥；湿温病；泄泻带下；风湿痹痛；筋脉拘挛；肺痈；肠痈；扁平疣"
+        }
+      ],
+      "component_effect": "",
+      "modified_cure": "",
+      "response_text": "{\n  \"modified_name\": \"木瓜加薏苡仁丸\",\n  \"diff_component\": \"薏苡仁\",\n  \"component_effect\": \"利水渗湿；健脾止泻；除痹排脓；\",\n  \"modified_cure\": \"风寒湿痹；筋脉拘挛；关节肿痛；肢体沉重；",
+      "response_json": null,
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于木瓜丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"木瓜加薏苡仁丸\",\n  \"diff_component\": \"薏苡仁\",\n  \"component_effect\": \"利水渗湿；健脾止泻；除痹排脓；\",\n  \"modified_cure\": \"风寒湿痹；筋脉拘挛；关节肿痛；肢体沉重；\n参考：[{\"name\": \"薏苡仁\", \"effect\": \"利湿健脾；舒筋除痹；清热排脓\", \"cure\": \"水肿；脚气；小便淋沥；湿温病；泄泻带下；风湿痹痛；筋脉拘挛；肺痈；肠痈；扁平疣\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":1.0}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 1.0
+          },
+          "score_total": 6.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.95}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.95
+          },
+          "score_total": 6.0,
+          "confidence": 0.95
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 17.1
+    },
+    {
+      "id": 9,
+      "question": "根据你对中药的理解基于华盖散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "华盖散",
+      "modified_name": "华盖加半夏散",
+      "diff_component": [
+        "半夏"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "半夏",
+          "effect": "燥湿化痰；降逆止呕；消痞散结",
+          "cure": "咳喘痰多；呕吐反胃；胸脘痞满头痛眩晕；夜卧不安；瘿瘤痰核；痈疽肿毒"
+        }
+      ],
+      "component_effect": "燥湿化痰；降逆平喘；消痞散结",
+      "modified_cure": "风寒客肺；痰湿内阻；咳嗽喘急；痰多白滑；胸膈满闷",
+      "response_text": "{\n  \"modified_name\": \"华盖加半夏散\",\n  \"diff_component\": \"半夏\",\n  \"component_effect\": \"燥湿化痰；降逆平喘；消痞散结\",\n  \"modified_cure\": \"风寒客肺；痰湿内阻；咳嗽喘急；痰多白滑；胸膈满闷\"\n}",
+      "response_json": {
+        "modified_name": "华盖加半夏散",
+        "diff_component": "半夏",
+        "component_effect": "燥湿化痰；降逆平喘；消痞散结",
+        "modified_cure": "风寒客肺；痰湿内阻；咳嗽喘急；痰多白滑；胸膈满闷"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于华盖散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"华盖加半夏散\",\n  \"diff_component\": \"半夏\",\n  \"component_effect\": \"燥湿化痰；降逆平喘；消痞散结\",\n  \"modified_cure\": \"风寒客肺；痰湿内阻；咳嗽喘急；痰多白滑；胸膈满闷\"\n}\n参考：[{\"name\": \"半夏\", \"effect\": \"燥湿化痰；降逆止呕；消痞散结\", \"cure\": \"咳喘痰多；呕吐反胃；胸脘痞满头痛眩晕；夜卧不安；瘿瘤痰核；痈疽肿毒\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":2, \"socre_total\":5, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 2,
+            "socre_total": 5,
+            "confidence": 0.9
+          },
+          "score_total": 5.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\":4, \"confidence\":0.92}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 1,
+            "socre_total": 4,
+            "confidence": 0.92
+          },
+          "score_total": 4.0,
+          "confidence": 0.92
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "```json\n{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.85}\n```",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.85
+          },
+          "score_total": 6.0,
+          "confidence": 0.85
+        }
+      },
+      "score_llm_all": 13.28
+    },
+    {
+      "id": 10,
+      "question": "根据你对中药的理解基于疏凿饮子生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "疏凿饮子",
+      "modified_name": "疏凿饮子加葶興子汤",
+      "diff_component": [
+        "葶興子"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "葶興子",
+          "effect": "",
+          "cure": ""
+        }
+      ],
+      "component_effect": "泻肺平喘；行水消肿",
+      "modified_cure": "阳水实证；遍身水肿；水邪迫肺之喘呼气急；不得平卧；大小便不利",
+      "response_text": "{\n  \"modified_name\": \"疏凿饮子加葶興子汤\",\n  \"diff_component\": \"葶興子\",\n  \"component_effect\": \"泻肺平喘；行水消肿\",\n  \"modified_cure\": \"阳水实证；遍身水肿；水邪迫肺之喘呼气急；不得平卧；大小便不利\"\n}",
+      "response_json": {
+        "modified_name": "疏凿饮子加葶興子汤",
+        "diff_component": "葶興子",
+        "component_effect": "泻肺平喘；行水消肿",
+        "modified_cure": "阳水实证；遍身水肿；水邪迫肺之喘呼气急；不得平卧；大小便不利"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于疏凿饮子生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"疏凿饮子加葶興子汤\",\n  \"diff_component\": \"葶興子\",\n  \"component_effect\": \"泻肺平喘；行水消肿\",\n  \"modified_cure\": \"阳水实证；遍身水肿；水邪迫肺之喘呼气急；不得平卧；大小便不利\"\n}\n参考：[{\"name\": \"葶興子\", \"effect\": \"\", \"cure\": \"\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":0, \"score_3\":0, \"socre_total\":2, \"confidence\":0.1}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 0,
+            "score_3": 0,
+            "socre_total": 2,
+            "confidence": 0.1
+          },
+          "score_total": 2.0,
+          "confidence": 0.1
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":0, \"score_3\":0, \"socre_total\":2, \"confidence\":0.42}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 0,
+            "score_3": 0,
+            "socre_total": 2,
+            "confidence": 0.42
+          },
+          "score_total": 2.0,
+          "confidence": 0.42
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "I need to evaluate this response about a modified traditional Chinese medicine formula based on 疏凿饮子.\n\n**Analyzing the response:**\n\nThe modified formula is \"疏凿饮子加葶苈子汤\" (noting that 葶興子 appears to be 葶苈子 with a character variation).\n\n**Score Point 1:** Specific added herb name proposed\n- The response clearly names 葶苈子 (葶興子) as the added herb\n- This is a concrete, specific herb name added to the base formula\n- **Score: 2/2**\n\n**Score Point 2:** Explanation of the added herb's effects\n- The response states: \"泻肺平喘；行水消肿\" (drain lung to calm panting; move water to reduce swelling)\n- Looking at the reference: The reference shows 葶苈子 with empty effect field (\"\")\n- 葶苈子 is a well-known herb in TCM with the classical effects of 泻肺平喘, 利水消肿 - these are standard, well-established effects for this herb\n- However, the reference database has empty fields, meaning I cannot verify against the database\n- The effects described are clinically accurate for 葶苈子\n- Since the reference has no data to match against, but the effects are medically sound and reasonable, I'll give partial credit\n- **Score: 2/2** (the effects described are accurate TCM knowledge for 葶苈子)\n\n**Score Point 3:** Explanation of new formula's therapeutic changes\n- The response states treatment for: 阳水实证；遍身水肿；水邪迫肺之喘呼气急；不得平卧；大小便不利\n- The reference shows empty 主治 field for 葶苈子\n- The modifications make clinical sense - adding 葶苈子 to 疏凿饮子 would indeed add lung-draining and water-moving properties, making it suitable for edema with respiratory symptoms\n- Since reference is empty, cannot fully verify, but the reasoning is sound\n- **Score: 2/2**\n\nHowever, since the reference fields are all empty, I cannot definitively verify the effects and indications against database records. The scores I'm giving are based on general TCM knowledge. My confidence should reflect this uncertainty.\n\n```json\n{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.6}\n```",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.6
+          },
+          "score_total": 6.0,
+          "confidence": 0.6
+        }
+      },
+      "score_llm_all": 4.64
+    },
+    {
+      "id": 11,
+      "question": "根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "铁骨丹",
+      "modified_name": "铁骨加续断丹",
+      "diff_component": [
+        "续断"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "续断",
+          "effect": "补肝肾；强筋骨；调血脉；止崩漏",
+          "cure": "腰背酸痛；肢节痿痹；跌扑创伤、损筋折骨、胎动漏红、血崩、遗精、带下、痈疽疮肿"
+        }
+      ],
+      "component_effect": "补肝肾；强筋骨；续折伤；通血脉",
+      "modified_cure": "跌打损伤，骨折筋伤；肝肾不足所致的腰膝酸软、关节不利；",
+      "response_text": "{\n  \"modified_name\": \"铁骨加续断丹\",\n  \"diff_component\": \"续断\",\n  \"component_effect\": \"补肝肾；强筋骨；续折伤；通血脉\",\n  \"modified_cure\": \"跌打损伤，骨折筋伤；肝肾不足所致的腰膝酸软、关节不利；\"\n}",
+      "response_json": {
+        "modified_name": "铁骨加续断丹",
+        "diff_component": "续断",
+        "component_effect": "补肝肾；强筋骨；续折伤；通血脉",
+        "modified_cure": "跌打损伤，骨折筋伤；肝肾不足所致的腰膝酸软、关节不利；"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于铁骨丹生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"铁骨加续断丹\",\n  \"diff_component\": \"续断\",\n  \"component_effect\": \"补肝肾；强筋骨；续折伤；通血脉\",\n  \"modified_cure\": \"跌打损伤，骨折筋伤；肝肾不足所致的腰膝酸软、关节不利；\"\n}\n参考：[{\"name\": \"续断\", \"effect\": \"补肝肾；强筋骨；调血脉；止崩漏\", \"cure\": \"腰背酸痛；肢节痿痹；跌扑创伤、损筋折骨、胎动漏红、血崩、遗精、带下、痈疽疮肿\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":2, \"socre_total\":5, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 2,
+            "socre_total": 5,
+            "confidence": 0.9
+          },
+          "score_total": 5.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":0.97}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.97
+          },
+          "score_total": 6.0,
+          "confidence": 0.97
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.85}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.85
+          },
+          "score_total": 6.0,
+          "confidence": 0.85
+        }
+      },
+      "score_llm_all": 15.42
+    },
+    {
+      "id": 12,
+      "question": "根据你对中药的理解基于柴胡桂枝干姜汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "柴胡桂枝干姜汤",
+      "modified_name": "",
+      "diff_component": [
+        "郁金"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "郁金",
+          "effect": "活血止能；行气解郁；清心凉血；疏肝利胆",
+          "cure": "胸腹胁肋诸痛；妇女痛经；经闭；癥瘕结块；热病神昏；癫狂；惊痫；吐血；衄备；血淋；砂淋；黄疸"
+        }
+      ],
+      "component_effect": "",
+      "modified_cure": "",
+      "response_text": "{\n  \"modified_name\": \"柴胡桂枝干姜加郁金汤\",\n  \"diff_component\": \"郁金\",\n  \"component_effect\": \"行气解郁；活血止痛；清心凉血；利胆退黄\",\n  \"modified_cure\": \"少阳不和、胆热脾寒兼气",
+      "response_json": null,
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于柴胡桂枝干姜汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"柴胡桂枝干姜加郁金汤\",\n  \"diff_component\": \"郁金\",\n  \"component_effect\": \"行气解郁；活血止痛；清心凉血；利胆退黄\",\n  \"modified_cure\": \"少阳不和、胆热脾寒兼气\n参考：[{\"name\": \"郁金\", \"effect\": \"活血止能；行气解郁；清心凉血；疏肝利胆\", \"cure\": \"胸腹胁肋诸痛；妇女痛经；经闭；癥瘕结块；热病神昏；癫狂；惊痫；吐血；衄备；血淋；砂淋；黄疸\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\":4, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 1,
+            "socre_total": 4,
+            "confidence": 0.9
+          },
+          "score_total": 4.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":1, \"socre_total\":5, \"confidence\":0.86}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 1,
+            "socre_total": 5,
+            "confidence": 0.86
+          },
+          "score_total": 5.0,
+          "confidence": 0.86
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "```json\n{\"score_1\":2, \"score_2\":2, \"score_3\":1, \"socre_total\": 5, \"confidence\": 0.7}\n```",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 1,
+            "socre_total": 5,
+            "confidence": 0.7
+          },
+          "score_total": 5.0,
+          "confidence": 0.7
+        }
+      },
+      "score_llm_all": 11.399999999999999
+    },
+    {
+      "id": 13,
+      "question": "根据你对中药的理解基于香薷散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "香薷散",
+      "modified_name": "香薷加藿香散",
+      "diff_component": [
+        "藿香"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "藿香",
+          "effect": "祛暑解表；化湿和胃",
+          "cure": "夏令感冒；寒热头痛；胸脘痞闷；呕吐泄泻；妊娠呕吐；鼻渊；手；足癣"
+        }
+      ],
+      "component_effect": "芳香化浊；和中止呕；发表解暑",
+      "modified_cure": "外感阴暑兼内伤湿浊；恶寒发热；无汗头痛；恶心呕吐较剧；脘腹胀痛",
+      "response_text": "{\n  \"modified_name\": \"香薷加藿香散\",\n  \"diff_component\": \"藿香\",\n  \"component_effect\": \"芳香化浊；和中止呕；发表解暑\",\n  \"modified_cure\": \"外感阴暑兼内伤湿浊；恶寒发热；无汗头痛；恶心呕吐较剧；脘腹胀痛\"\n}",
+      "response_json": {
+        "modified_name": "香薷加藿香散",
+        "diff_component": "藿香",
+        "component_effect": "芳香化浊；和中止呕；发表解暑",
+        "modified_cure": "外感阴暑兼内伤湿浊；恶寒发热；无汗头痛；恶心呕吐较剧；脘腹胀痛"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于香薷散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"香薷加藿香散\",\n  \"diff_component\": \"藿香\",\n  \"component_effect\": \"芳香化浊；和中止呕；发表解暑\",\n  \"modified_cure\": \"外感阴暑兼内伤湿浊；恶寒发热；无汗头痛；恶心呕吐较剧；脘腹胀痛\"\n}\n参考：[{\"name\": \"藿香\", \"effect\": \"祛暑解表；化湿和胃\", \"cure\": \"夏令感冒；寒热头痛；胸脘痞闷；呕吐泄泻；妊娠呕吐；鼻渊；手；足癣\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\": 2, \"score_2\": 2, \"score_3\": 2, \"score_total\": 6, \"confidence\": 1.0}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "score_total": 6,
+            "confidence": 1.0
+          },
+          "score_total": 6.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.93}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.93
+          },
+          "score_total": 6.0,
+          "confidence": 0.93
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.85}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.85
+          },
+          "score_total": 6.0,
+          "confidence": 0.85
+        }
+      },
+      "score_llm_all": 16.68
+    },
+    {
+      "id": 14,
+      "question": "根据你对中药的理解基于酸枣仁汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "酸枣仁汤",
+      "modified_name": "",
+      "diff_component": [
+        "五味子"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "五味子",
+          "effect": "收敛固涩；益气生津；宁心安神",
+          "cure": "咳嗽虚喘；梦遗滑精；尿颇遗尿；久泻不止；自汗盗汗；津伤口渴；心悸失眠"
+        }
+      ],
+      "component_effect": "",
+      "modified_cure": "",
+      "response_text": "{\n  \"modified_name\": \"酸枣仁加五味子汤\",\n  \"diff_component\": \"五味子\",\n  \"component_effect\": \"收敛固涩；益气生津；补肾宁心\",\n  \"modified_cure\": \"肝血不足，虚热内扰之虚烦不眠；心悸多梦；",
+      "response_json": null,
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于酸枣仁汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"酸枣仁加五味子汤\",\n  \"diff_component\": \"五味子\",\n  \"component_effect\": \"收敛固涩；益气生津；补肾宁心\",\n  \"modified_cure\": \"肝血不足，虚热内扰之虚烦不眠；心悸多梦；\n参考：[{\"name\": \"五味子\", \"effect\": \"收敛固涩；益气生津；宁心安神\", \"cure\": \"咳嗽虚喘；梦遗滑精；尿颇遗尿；久泻不止；自汗盗汗；津伤口渴；心悸失眠\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":2, \"socre_total\":5, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 2,
+            "socre_total": 5,
+            "confidence": 0.9
+          },
+          "score_total": 5.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":0.95}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.95
+          },
+          "score_total": 6.0,
+          "confidence": 0.95
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "```json\n{\"score_1\":2, \"score_2\":2, \"score_3\":1, \"socre_total\": 5, \"confidence\": 0.7}\n```",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 1,
+            "socre_total": 5,
+            "confidence": 0.7
+          },
+          "score_total": 5.0,
+          "confidence": 0.7
+        }
+      },
+      "score_llm_all": 13.7
+    },
+    {
+      "id": 15,
+      "question": "根据你对中药的理解基于甘草干姜茯苓白术汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "甘草干姜茯苓白术汤",
+      "modified_name": "",
+      "diff_component": [
+        "附子"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "附子",
+          "effect": "回阳救逆；补火助阳；散寒除湿",
+          "cure": "亡阳欲脱；肢冷脉微；阳痿宫冷；心腹冷痛；虚寒吐泻久痢；阴寒水肿；阳虚外感；风寒湿痹；阴疽疮疡"
+        }
+      ],
+      "component_effect": "",
+      "modified_cure": "",
+      "response_text": "{\n  \"modified_name\": \"甘草干姜茯苓白术加附子汤\",\n  \"diff_component\": \"附子\",\n  \"component_effect\": \"回阳救逆；补火助阳；散寒止痛\",\n  \"modified_cure\": \"脾肾阳虚；寒湿深重；腰膝冷痛沉",
+      "response_json": null,
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于甘草干姜茯苓白术汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"甘草干姜茯苓白术加附子汤\",\n  \"diff_component\": \"附子\",\n  \"component_effect\": \"回阳救逆；补火助阳；散寒止痛\",\n  \"modified_cure\": \"脾肾阳虚；寒湿深重；腰膝冷痛沉\n参考：[{\"name\": \"附子\", \"effect\": \"回阳救逆；补火助阳；散寒除湿\", \"cure\": \"亡阳欲脱；肢冷脉微；阳痿宫冷；心腹冷痛；虚寒吐泻久痢；阴寒水肿；阳虚外感；风寒湿痹；阴疽疮疡\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":2, \"socre_total\":5, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 2,
+            "socre_total": 5,
+            "confidence": 0.9
+          },
+          "score_total": 5.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.95}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.95
+          },
+          "score_total": 6.0,
+          "confidence": 0.95
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "```json\n{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.85}\n```",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.85
+          },
+          "score_total": 6.0,
+          "confidence": 0.85
+        }
+      },
+      "score_llm_all": 15.299999999999999
+    },
+    {
+      "id": 16,
+      "question": "根据你对中药的理解基于桃花汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "桃花汤",
+      "modified_name": "桃花加黄芪汤",
+      "diff_component": [
+        "黄芪"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "黄芪",
+          "effect": "",
+          "cure": ""
+        }
+      ],
+      "component_effect": "补气升阳；健脾升陷；托毒排脓",
+      "modified_cure": "虚寒久痢；便脓血不止；中气下陷；久泻脱肛；神疲乏力",
+      "response_text": "{\n  \"modified_name\": \"桃花加黄芪汤\",\n  \"diff_component\": \"黄芪\",\n  \"component_effect\": \"补气升阳；健脾升陷；托毒排脓\",\n  \"modified_cure\": \"虚寒久痢；便脓血不止；中气下陷；久泻脱肛；神疲乏力\"\n}",
+      "response_json": {
+        "modified_name": "桃花加黄芪汤",
+        "diff_component": "黄芪",
+        "component_effect": "补气升阳；健脾升陷；托毒排脓",
+        "modified_cure": "虚寒久痢；便脓血不止；中气下陷；久泻脱肛；神疲乏力"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于桃花汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"桃花加黄芪汤\",\n  \"diff_component\": \"黄芪\",\n  \"component_effect\": \"补气升阳；健脾升陷；托毒排脓\",\n  \"modified_cure\": \"虚寒久痢；便脓血不止；中气下陷；久泻脱肛；神疲乏力\"\n}\n参考：[{\"name\": \"黄芪\", \"effect\": \"\", \"cure\": \"\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":0, \"score_3\":0, \"socre_total\":2, \"confidence\":0.1}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 0,
+            "score_3": 0,
+            "socre_total": 2,
+            "confidence": 0.1
+          },
+          "score_total": 2.0,
+          "confidence": 0.1
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\":4, \"confidence\":0.53}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 1,
+            "socre_total": 4,
+            "confidence": 0.53
+          },
+          "score_total": 4.0,
+          "confidence": 0.53
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.8}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.8
+          },
+          "score_total": 6.0,
+          "confidence": 0.8
+        }
+      },
+      "score_llm_all": 7.120000000000001
+    },
+    {
+      "id": 17,
+      "question": "根据你对中药的理解基于天台乌药散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "天台乌药散",
+      "modified_name": "天台乌药加橘核散",
+      "diff_component": [
+        "橘核"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "橘核",
+          "effect": "理气；散结；止痛",
+          "cure": "疝气；睾丸肿痛；乳痈；腰痛"
+        }
+      ],
+      "component_effect": "理气散结；消肿止痛",
+      "modified_cure": "寒凝气滞之重度疝气；睾丸肿胀偏坠；痛引少腹",
+      "response_text": "{\n  \"modified_name\": \"天台乌药加橘核散\",\n  \"diff_component\": \"橘核\",\n  \"component_effect\": \"理气散结；消肿止痛\",\n  \"modified_cure\": \"寒凝气滞之重度疝气；睾丸肿胀偏坠；痛引少腹\"\n}",
+      "response_json": {
+        "modified_name": "天台乌药加橘核散",
+        "diff_component": "橘核",
+        "component_effect": "理气散结；消肿止痛",
+        "modified_cure": "寒凝气滞之重度疝气；睾丸肿胀偏坠；痛引少腹"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于天台乌药散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"天台乌药加橘核散\",\n  \"diff_component\": \"橘核\",\n  \"component_effect\": \"理气散结；消肿止痛\",\n  \"modified_cure\": \"寒凝气滞之重度疝气；睾丸肿胀偏坠；痛引少腹\"\n}\n参考：[{\"name\": \"橘核\", \"effect\": \"理气；散结；止痛\", \"cure\": \"疝气；睾丸肿痛；乳痈；腰痛\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":2, \"socre_total\":5, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 2,
+            "socre_total": 5,
+            "confidence": 0.9
+          },
+          "score_total": 5.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.97}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.97
+          },
+          "score_total": 6.0,
+          "confidence": 0.97
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 15.72
+    },
+    {
+      "id": 18,
+      "question": "根据你对中药的理解基于薏苡附子败酱散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "薏苡附子败酱散",
+      "modified_name": "薏苡附子败酱加黄芪散",
+      "diff_component": [
+        "黄芪"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "黄芪",
+          "effect": "",
+          "cure": ""
+        }
+      ],
+      "component_effect": "补气升阳；益卫固表；托毒排脓；敛疮生肌",
+      "modified_cure": "肠痈溃后久不愈合；气阳虚弱、湿毒蕴结之慢性阑尾炎或盆腔炎，症见少腹隐痛、神疲乏力、疮口久不收敛；",
+      "response_text": "{\n  \"modified_name\": \"薏苡附子败酱加黄芪散\",\n  \"diff_component\": \"黄芪\",\n  \"component_effect\": \"补气升阳；益卫固表；托毒排脓；敛疮生肌\",\n  \"modified_cure\": \"肠痈溃后久不愈合；气阳虚弱、湿毒蕴结之慢性阑尾炎或盆腔炎，症见少腹隐痛、神疲乏力、疮口久不收敛；\"\n}",
+      "response_json": {
+        "modified_name": "薏苡附子败酱加黄芪散",
+        "diff_component": "黄芪",
+        "component_effect": "补气升阳；益卫固表；托毒排脓；敛疮生肌",
+        "modified_cure": "肠痈溃后久不愈合；气阳虚弱、湿毒蕴结之慢性阑尾炎或盆腔炎，症见少腹隐痛、神疲乏力、疮口久不收敛；"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于薏苡附子败酱散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"薏苡附子败酱加黄芪散\",\n  \"diff_component\": \"黄芪\",\n  \"component_effect\": \"补气升阳；益卫固表；托毒排脓；敛疮生肌\",\n  \"modified_cure\": \"肠痈溃后久不愈合；气阳虚弱、湿毒蕴结之慢性阑尾炎或盆腔炎，症见少腹隐痛、神疲乏力、疮口久不收敛；\"\n}\n参考：[{\"name\": \"黄芪\", \"effect\": \"\", \"cure\": \"\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"score_total\":6, \"confidence\":1}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "score_total": 6,
+            "confidence": 1
+          },
+          "score_total": 6.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2,\"score_2\":0,\"score_3\":0,\"socre_total\":2,\"confidence\":0.62}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 0,
+            "score_3": 0,
+            "socre_total": 2,
+            "confidence": 0.62
+          },
+          "score_total": 2.0,
+          "confidence": 0.62
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "```json\n{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.8}\n```",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.8
+          },
+          "score_total": 6.0,
+          "confidence": 0.8
+        }
+      },
+      "score_llm_all": 12.040000000000001
+    },
+    {
+      "id": 19,
+      "question": "根据你对中药的理解基于越婢汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "越婢汤",
+      "modified_name": "越婢加葶苈汤",
+      "diff_component": [
+        "葶苈子"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "葶苈子",
+          "effect": "泻肺降气；祛痰平喘；利水消肿；泄逐邪",
+          "cure": "痰涎壅肺之喘咳痰多；肺痈；水肿；胸腹积水；小便不利；慢性肺源性心脏病；心力衰竭之喘肿；瘰疬结核"
+        }
+      ],
+      "component_effect": "泻肺平喘；行水消肿",
+      "modified_cure": "风水兼肺气壅盛证；一身悉肿，恶风，胸闷喘急，咳逆上气，小便不利",
+      "response_text": "{\n  \"modified_name\": \"越婢加葶苈汤\",\n  \"diff_component\": \"葶苈子\",\n  \"component_effect\": \"泻肺平喘；行水消肿\",\n  \"modified_cure\": \"风水兼肺气壅盛证；一身悉肿，恶风，胸闷喘急，咳逆上气，小便不利\"\n}",
+      "response_json": {
+        "modified_name": "越婢加葶苈汤",
+        "diff_component": "葶苈子",
+        "component_effect": "泻肺平喘；行水消肿",
+        "modified_cure": "风水兼肺气壅盛证；一身悉肿，恶风，胸闷喘急，咳逆上气，小便不利"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于越婢汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"越婢加葶苈汤\",\n  \"diff_component\": \"葶苈子\",\n  \"component_effect\": \"泻肺平喘；行水消肿\",\n  \"modified_cure\": \"风水兼肺气壅盛证；一身悉肿，恶风，胸闷喘急，咳逆上气，小便不利\"\n}\n参考：[{\"name\": \"葶苈子\", \"effect\": \"泻肺降气；祛痰平喘；利水消肿；泄逐邪\", \"cure\": \"痰涎壅肺之喘咳痰多；肺痈；水肿；胸腹积水；小便不利；慢性肺源性心脏病；心力衰竭之喘肿；瘰疬结核\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":1}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 1
+          },
+          "score_total": 6.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2,\"score_2\":2,\"score_3\":2,\"socre_total\":6,\"confidence\":0.96}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.96
+          },
+          "score_total": 6.0,
+          "confidence": 0.96
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 17.16
+    },
+    {
+      "id": 20,
+      "question": "根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "定喘汤",
+      "modified_name": "定喘加地龙汤",
+      "diff_component": [
+        "地龙"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "地龙",
+          "effect": "清势止痉；平肝熄风；通经活络；平喘利尿",
+          "cure": "热病发热狂燥；惊痫抽搐；肝阳头痛；中风偏瘫；风湿痹痛；肺热喘咳；小便不通"
+        }
+      ],
+      "component_effect": "清热息风；通络平喘；清热利尿",
+      "modified_cure": "外感风寒，内蕴痰热之哮喘；兼见喉间哮鸣音重，喘息急促剧烈者；",
+      "response_text": "{\n  \"modified_name\": \"定喘加地龙汤\",\n  \"diff_component\": \"地龙\",\n  \"component_effect\": \"清热息风；通络平喘；清热利尿\",\n  \"modified_cure\": \"外感风寒，内蕴痰热之哮喘；兼见喉间哮鸣音重，喘息急促剧烈者；\"\n}",
+      "response_json": {
+        "modified_name": "定喘加地龙汤",
+        "diff_component": "地龙",
+        "component_effect": "清热息风；通络平喘；清热利尿",
+        "modified_cure": "外感风寒，内蕴痰热之哮喘；兼见喉间哮鸣音重，喘息急促剧烈者；"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于定喘汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"定喘加地龙汤\",\n  \"diff_component\": \"地龙\",\n  \"component_effect\": \"清热息风；通络平喘；清热利尿\",\n  \"modified_cure\": \"外感风寒，内蕴痰热之哮喘；兼见喉间哮鸣音重，喘息急促剧烈者；\"\n}\n参考：[{\"name\": \"地龙\", \"effect\": \"清势止痉；平肝熄风；通经活络；平喘利尿\", \"cure\": \"热病发热狂燥；惊痫抽搐；肝阳头痛；中风偏瘫；风湿痹痛；肺热喘咳；小便不通\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":1}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 1
+          },
+          "score_total": 6.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":2, \"socre_total\":5, \"confidence\":0.87}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 2,
+            "socre_total": 5,
+            "confidence": 0.87
+          },
+          "score_total": 5.0,
+          "confidence": 0.87
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.85}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.85
+          },
+          "score_total": 6.0,
+          "confidence": 0.85
+        }
+      },
+      "score_llm_all": 15.45
+    },
+    {
+      "id": 21,
+      "question": "根据你对中药的理解基于厚朴麻黄汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "厚朴麻黄汤",
+      "modified_name": "厚朴麻黄加射干汤",
+      "diff_component": [
+        "射干"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "射干",
+          "effect": "清热解毒；祛痰利咽；消瘀散结",
+          "cure": "咽喉肿痛；咳壅咳喘；瘰疬结核；疟母癓瘕；痈肿疮毒"
+        }
+      ],
+      "component_effect": "降气祛痰；清热利咽",
+      "modified_cure": "外寒内饮兼热，咳喘胸满；喉中痰鸣；咽喉肿痛；",
+      "response_text": "{\n  \"modified_name\": \"厚朴麻黄加射干汤\",\n  \"diff_component\": \"射干\",\n  \"component_effect\": \"降气祛痰；清热利咽\",\n  \"modified_cure\": \"外寒内饮兼热，咳喘胸满；喉中痰鸣；咽喉肿痛；\"\n}",
+      "response_json": {
+        "modified_name": "厚朴麻黄加射干汤",
+        "diff_component": "射干",
+        "component_effect": "降气祛痰；清热利咽",
+        "modified_cure": "外寒内饮兼热，咳喘胸满；喉中痰鸣；咽喉肿痛；"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于厚朴麻黄汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"厚朴麻黄加射干汤\",\n  \"diff_component\": \"射干\",\n  \"component_effect\": \"降气祛痰；清热利咽\",\n  \"modified_cure\": \"外寒内饮兼热，咳喘胸满；喉中痰鸣；咽喉肿痛；\"\n}\n参考：[{\"name\": \"射干\", \"effect\": \"清热解毒；祛痰利咽；消瘀散结\", \"cure\": \"咽喉肿痛；咳壅咳喘；瘰疬结核；疟母癓瘕；痈肿疮毒\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":2, \"socre_total\":5, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 2,
+            "socre_total": 5,
+            "confidence": 0.9
+          },
+          "score_total": 5.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2,\"score_2\":2,\"score_3\":2,\"socre_total\":6,\"confidence\":0.96}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.96
+          },
+          "score_total": 6.0,
+          "confidence": 0.96
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.85}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.85
+          },
+          "score_total": 6.0,
+          "confidence": 0.85
+        }
+      },
+      "score_llm_all": 15.36
+    },
+    {
+      "id": 22,
+      "question": "根据你对中药的理解基于保元汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "保元汤",
+      "modified_name": "保元加丹参汤",
+      "diff_component": [
+        "丹参"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "丹参",
+          "effect": "活血祛瘀；调经止痛；养血安神；凉血消痈",
+          "cure": "妇女月经不调；痛经；经闭；产后瘀滞腹痛；心腹疼痛；癥瘕积聚；热痹肿痛；跌打损伤；热入营血；烦躁不安；心烦失眠；痈疮肿毒"
+        }
+      ],
+      "component_effect": "活血调经；祛瘀止痛；凉血消痈；除烦安神",
+      "modified_cure": "气阳两虚兼血瘀之胸痹；心悸气短；胸闷心痛；畏寒倦怠",
+      "response_text": "{\n  \"modified_name\": \"保元加丹参汤\",\n  \"diff_component\": \"丹参\",\n  \"component_effect\": \"活血调经；祛瘀止痛；凉血消痈；除烦安神\",\n  \"modified_cure\": \"气阳两虚兼血瘀之胸痹；心悸气短；胸闷心痛；畏寒倦怠\"\n}",
+      "response_json": {
+        "modified_name": "保元加丹参汤",
+        "diff_component": "丹参",
+        "component_effect": "活血调经；祛瘀止痛；凉血消痈；除烦安神",
+        "modified_cure": "气阳两虚兼血瘀之胸痹；心悸气短；胸闷心痛；畏寒倦怠"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于保元汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"保元加丹参汤\",\n  \"diff_component\": \"丹参\",\n  \"component_effect\": \"活血调经；祛瘀止痛；凉血消痈；除烦安神\",\n  \"modified_cure\": \"气阳两虚兼血瘀之胸痹；心悸气短；胸闷心痛；畏寒倦怠\"\n}\n参考：[{\"name\": \"丹参\", \"effect\": \"活血祛瘀；调经止痛；养血安神；凉血消痈\", \"cure\": \"妇女月经不调；痛经；经闭；产后瘀滞腹痛；心腹疼痛；癥瘕积聚；热痹肿痛；跌打损伤；热入营血；烦躁不安；心烦失眠；痈疮肿毒\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":1.0}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 1.0
+          },
+          "score_total": 6.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":1, \"socre_total\":5, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 1,
+            "socre_total": 5,
+            "confidence": 0.9
+          },
+          "score_total": 5.0,
+          "confidence": 0.9
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "```json\n{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.85}\n```",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.85
+          },
+          "score_total": 6.0,
+          "confidence": 0.85
+        }
+      },
+      "score_llm_all": 15.6
+    },
+    {
+      "id": 23,
+      "question": "根据你对中药的理解基于茯苓丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "茯苓丸",
+      "modified_name": "茯苓加陈皮丸",
+      "diff_component": [
+        "陈皮"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "陈皮",
+          "effect": "",
+          "cure": ""
+        }
+      ],
+      "component_effect": "理气健脾；燥湿化痰；",
+      "modified_cure": "痰饮停胃所致的脘腹胀满；恶心呕吐；咳嗽痰多；手臂酸痛；",
+      "response_text": "{\n  \"modified_name\": \"茯苓加陈皮丸\",\n  \"diff_component\": \"陈皮\",\n  \"component_effect\": \"理气健脾；燥湿化痰；\",\n  \"modified_cure\": \"痰饮停胃所致的脘腹胀满；恶心呕吐；咳嗽痰多；手臂酸痛；\"\n}",
+      "response_json": {
+        "modified_name": "茯苓加陈皮丸",
+        "diff_component": "陈皮",
+        "component_effect": "理气健脾；燥湿化痰；",
+        "modified_cure": "痰饮停胃所致的脘腹胀满；恶心呕吐；咳嗽痰多；手臂酸痛；"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于茯苓丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"茯苓加陈皮丸\",\n  \"diff_component\": \"陈皮\",\n  \"component_effect\": \"理气健脾；燥湿化痰；\",\n  \"modified_cure\": \"痰饮停胃所致的脘腹胀满；恶心呕吐；咳嗽痰多；手臂酸痛；\"\n}\n参考：[{\"name\": \"陈皮\", \"effect\": \"\", \"cure\": \"\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":0, \"score_3\":0, \"socre_total\":2, \"confidence\":1.0}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 0,
+            "score_3": 0,
+            "socre_total": 2,
+            "confidence": 1.0
+          },
+          "score_total": 2.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\":4, \"confidence\":0.74}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 1,
+            "socre_total": 4,
+            "confidence": 0.74
+          },
+          "score_total": 4.0,
+          "confidence": 0.74
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "```json\n{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.7}\n```",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.7
+          },
+          "score_total": 6.0,
+          "confidence": 0.7
+        }
+      },
+      "score_llm_all": 9.16
+    },
+    {
+      "id": 24,
+      "question": "根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "增损泽兰丸",
+      "modified_name": "增损泽兰加延胡索丸",
+      "diff_component": [
+        "延胡索"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "延胡索",
+          "effect": "活血；散瘀；理气；止痛",
+          "cure": "心腹腰膝诸痛；月经不调；症瘕；崩中；产后血晕；恶露不尽；跌打损伤"
+        }
+      ],
+      "component_effect": "活血；行气；止痛",
+      "modified_cure": "气滞血瘀所致的痛经；产后瘀阻腹痛；月经不调伴明显刺痛",
+      "response_text": "{\n  \"modified_name\": \"增损泽兰加延胡索丸\",\n  \"diff_component\": \"延胡索\",\n  \"component_effect\": \"活血；行气；止痛\",\n  \"modified_cure\": \"气滞血瘀所致的痛经；产后瘀阻腹痛；月经不调伴明显刺痛\"\n}",
+      "response_json": {
+        "modified_name": "增损泽兰加延胡索丸",
+        "diff_component": "延胡索",
+        "component_effect": "活血；行气；止痛",
+        "modified_cure": "气滞血瘀所致的痛经；产后瘀阻腹痛；月经不调伴明显刺痛"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于增损泽兰丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"增损泽兰加延胡索丸\",\n  \"diff_component\": \"延胡索\",\n  \"component_effect\": \"活血；行气；止痛\",\n  \"modified_cure\": \"气滞血瘀所致的痛经；产后瘀阻腹痛；月经不调伴明显刺痛\"\n}\n参考：[{\"name\": \"延胡索\", \"effect\": \"活血；散瘀；理气；止痛\", \"cure\": \"心腹腰膝诸痛；月经不调；症瘕；崩中；产后血晕；恶露不尽；跌打损伤\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":2, \"socre_total\":5, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 2,
+            "socre_total": 5,
+            "confidence": 0.9
+          },
+          "score_total": 5.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2,\"score_2\":2,\"score_3\":2,\"socre_total\":6,\"confidence\":0.96}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.96
+          },
+          "score_total": 6.0,
+          "confidence": 0.96
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 15.66
+    },
+    {
+      "id": 25,
+      "question": "根据你对中药的理解基于桃核承气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "桃核承气汤",
+      "modified_name": "桃核承气加延胡索汤",
+      "diff_component": [
+        "延胡索"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "延胡索",
+          "effect": "活血；散瘀；理气；止痛",
+          "cure": "心腹腰膝诸痛；月经不调；症瘕；崩中；产后血晕；恶露不尽；跌打损伤"
+        }
+      ],
+      "component_effect": "活血行气；止痛",
+      "modified_cure": "下焦蓄血兼气滞证；少腹剧痛拒按；重度痛经；血瘀经闭；",
+      "response_text": "{\"modified_name\":\"桃核承气加延胡索汤\", \"diff_component\": \"延胡索\", \"component_effect\":\"活血行气；止痛\", \"modified_cure\":\"下焦蓄血兼气滞证；少腹剧痛拒按；重度痛经；血瘀经闭；\"}",
+      "response_json": {
+        "modified_name": "桃核承气加延胡索汤",
+        "diff_component": "延胡索",
+        "component_effect": "活血行气；止痛",
+        "modified_cure": "下焦蓄血兼气滞证；少腹剧痛拒按；重度痛经；血瘀经闭；"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于桃核承气汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\"modified_name\":\"桃核承气加延胡索汤\", \"diff_component\": \"延胡索\", \"component_effect\":\"活血行气；止痛\", \"modified_cure\":\"下焦蓄血兼气滞证；少腹剧痛拒按；重度痛经；血瘀经闭；\"}\n参考：[{\"name\": \"延胡索\", \"effect\": \"活血；散瘀；理气；止痛\", \"cure\": \"心腹腰膝诸痛；月经不调；症瘕；崩中；产后血晕；恶露不尽；跌打损伤\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":1.0}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 1.0
+          },
+          "score_total": 6.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":0.97}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.97
+          },
+          "score_total": 6.0,
+          "confidence": 0.97
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 17.22
+    },
+    {
+      "id": 26,
+      "question": "根据你对中药的理解基于泰山磐石散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "泰山磐石散",
+      "modified_name": "泰山磐石加杜仲散",
+      "diff_component": [
+        "杜仲"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "杜仲",
+          "effect": "补肝肾；强筋骨；安胎",
+          "cure": "腰脊酸疼；阳痿；尿频；小便余沥；风湿痹痛；胎动不安；习惯性流产。"
+        }
+      ],
+      "component_effect": "补益肝肾；强健筋骨；固冲安胎",
+      "modified_cure": "气血两虚兼肝肾不足之胎动不安；腰膝酸软疼痛；习惯性流产",
+      "response_text": "{\n  \"modified_name\": \"泰山磐石加杜仲散\",\n  \"diff_component\": \"杜仲\",\n  \"component_effect\": \"补益肝肾；强健筋骨；固冲安胎\",\n  \"modified_cure\": \"气血两虚兼肝肾不足之胎动不安；腰膝酸软疼痛；习惯性流产\"\n}",
+      "response_json": {
+        "modified_name": "泰山磐石加杜仲散",
+        "diff_component": "杜仲",
+        "component_effect": "补益肝肾；强健筋骨；固冲安胎",
+        "modified_cure": "气血两虚兼肝肾不足之胎动不安；腰膝酸软疼痛；习惯性流产"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于泰山磐石散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"泰山磐石加杜仲散\",\n  \"diff_component\": \"杜仲\",\n  \"component_effect\": \"补益肝肾；强健筋骨；固冲安胎\",\n  \"modified_cure\": \"气血两虚兼肝肾不足之胎动不安；腰膝酸软疼痛；习惯性流产\"\n}\n参考：[{\"name\": \"杜仲\", \"effect\": \"补肝肾；强筋骨；安胎\", \"cure\": \"腰脊酸疼；阳痿；尿频；小便余沥；风湿痹痛；胎动不安；习惯性流产。\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":1}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 1
+          },
+          "score_total": 6.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.97}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.97
+          },
+          "score_total": 6.0,
+          "confidence": 0.97
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.95}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.95
+          },
+          "score_total": 6.0,
+          "confidence": 0.95
+        }
+      },
+      "score_llm_all": 17.52
+    },
+    {
+      "id": 27,
+      "question": "根据你对中药的理解基于荆防败毒散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "荆防败毒散",
+      "modified_name": "",
+      "diff_component": [
+        "蝉蜕"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "蝉蜕",
+          "effect": "宣散风热；透疹利咽；退翳明目；祛风止痉",
+          "cure": "风热感冒；咽喉肿痛；咳嗽音哑；单板机疹不透；风疹瘙痒；目赤翳障；惊痫抽搐；破伤风"
+        }
+      ],
+      "component_effect": "",
+      "modified_cure": "",
+      "response_text": "```json\n{\n  \"modified_name\": \"荆防败毒加蝉蜕散\",\n  \"diff_component\": \"蝉蜕\",\n  \"component_effect\": \"疏散风热；透疹止痒；息风止痉\",\n  \"modified_cure\": \"风寒湿邪郁滞肌表之荨麻疹；风疹皮肤瘙",
+      "response_json": null,
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于荆防败毒散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：```json\n{\n  \"modified_name\": \"荆防败毒加蝉蜕散\",\n  \"diff_component\": \"蝉蜕\",\n  \"component_effect\": \"疏散风热；透疹止痒；息风止痉\",\n  \"modified_cure\": \"风寒湿邪郁滞肌表之荨麻疹；风疹皮肤瘙\n参考：[{\"name\": \"蝉蜕\", \"effect\": \"宣散风热；透疹利咽；退翳明目；祛风止痉\", \"cure\": \"风热感冒；咽喉肿痛；咳嗽音哑；单板机疹不透；风疹瘙痒；目赤翳障；惊痫抽搐；破伤风\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":1}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 1
+          },
+          "score_total": 6.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":1, \"socre_total\":5, \"confidence\":0.85}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 1,
+            "socre_total": 5,
+            "confidence": 0.85
+          },
+          "score_total": 5.0,
+          "confidence": 0.85
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "```json\n{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.85}\n```",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.85
+          },
+          "score_total": 6.0,
+          "confidence": 0.85
+        }
+      },
+      "score_llm_all": 15.35
+    },
+    {
+      "id": 28,
+      "question": "根据你对中药的理解基于泻心汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "泻心汤",
+      "modified_name": "泻心加丹皮汤",
+      "diff_component": [
+        "牡丹皮"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "牡丹皮",
+          "effect": "清热；活血散瘀",
+          "cure": "温热病热入血分；发斑；吐衄；热泪盈眶病菌后期热伏阴分发热；阴虚骨蒸潮热；血滞经闭；痛经；痈肿疮毒；跌扑伤痛；风湿热痹"
+        }
+      ],
+      "component_effect": "清热凉血；活血化瘀",
+      "modified_cure": "火毒炽盛迫血妄行之吐血衄血；血热瘀滞之烦躁不安；疮疡肿毒兼有瘀滞者；",
+      "response_text": "{\n  \"modified_name\": \"泻心加丹皮汤\",\n  \"diff_component\": \"牡丹皮\",\n  \"component_effect\": \"清热凉血；活血化瘀\",\n  \"modified_cure\": \"火毒炽盛迫血妄行之吐血衄血；血热瘀滞之烦躁不安；疮疡肿毒兼有瘀滞者；\"\n}",
+      "response_json": {
+        "modified_name": "泻心加丹皮汤",
+        "diff_component": "牡丹皮",
+        "component_effect": "清热凉血；活血化瘀",
+        "modified_cure": "火毒炽盛迫血妄行之吐血衄血；血热瘀滞之烦躁不安；疮疡肿毒兼有瘀滞者；"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于泻心汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"泻心加丹皮汤\",\n  \"diff_component\": \"牡丹皮\",\n  \"component_effect\": \"清热凉血；活血化瘀\",\n  \"modified_cure\": \"火毒炽盛迫血妄行之吐血衄血；血热瘀滞之烦躁不安；疮疡肿毒兼有瘀滞者；\"\n}\n参考：[{\"name\": \"牡丹皮\", \"effect\": \"清热；活血散瘀\", \"cure\": \"温热病热入血分；发斑；吐衄；热泪盈眶病菌后期热伏阴分发热；阴虚骨蒸潮热；血滞经闭；痛经；痈肿疮毒；跌扑伤痛；风湿热痹\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":1.0}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 1.0
+          },
+          "score_total": 6.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":0.98}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.98
+          },
+          "score_total": 6.0,
+          "confidence": 0.98
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.85}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.85
+          },
+          "score_total": 6.0,
+          "confidence": 0.85
+        }
+      },
+      "score_llm_all": 16.98
+    },
+    {
+      "id": 29,
+      "question": "根据你对中药的理解基于滑石代赭汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "滑石代赭汤",
+      "modified_name": "",
+      "diff_component": [
+        "竹茹"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "竹茹",
+          "effect": "清热化痰；除烦止呕；安胎凉血",
+          "cure": "肺热咳嗽；烦热惊悸；胃热呕呃；妊娠恶阻；胎动不安；吐血；衄血；尿血；崩漏"
+        }
+      ],
+      "component_effect": "",
+      "modified_cure": "",
+      "response_text": "{\n  \"modified_name\": \"滑石代赭加竹茹汤\",\n  \"diff_component\": \"竹茹\",\n  \"component_effect\": \"清热化痰；除烦止呕\",\n  \"modified_cure\": \"湿热蕴结中焦，胃失和降之频繁呕吐；胸脘痞闷；心烦不",
+      "response_json": null,
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于滑石代赭汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"滑石代赭加竹茹汤\",\n  \"diff_component\": \"竹茹\",\n  \"component_effect\": \"清热化痰；除烦止呕\",\n  \"modified_cure\": \"湿热蕴结中焦，胃失和降之频繁呕吐；胸脘痞闷；心烦不\n参考：[{\"name\": \"竹茹\", \"effect\": \"清热化痰；除烦止呕；安胎凉血\", \"cure\": \"肺热咳嗽；烦热惊悸；胃热呕呃；妊娠恶阻；胎动不安；吐血；衄血；尿血；崩漏\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":1, \"socre_total\":5, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 1,
+            "socre_total": 5,
+            "confidence": 0.9
+          },
+          "score_total": 5.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.95}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.95
+          },
+          "score_total": 6.0,
+          "confidence": 0.95
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.85}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.85
+          },
+          "score_total": 6.0,
+          "confidence": 0.85
+        }
+      },
+      "score_llm_all": 15.299999999999999
+    },
+    {
+      "id": 30,
+      "question": "根据你对中药的理解基于泽漆汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "泽漆汤",
+      "modified_name": "泽漆加葶苈子汤",
+      "diff_component": [
+        "葶苈子"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "葶苈子",
+          "effect": "泻肺降气；祛痰平喘；利水消肿；泄逐邪",
+          "cure": "痰涎壅肺之喘咳痰多；肺痈；水肿；胸腹积水；小便不利；慢性肺源性心脏病；心力衰竭之喘肿；瘰疬结核"
+        }
+      ],
+      "component_effect": "泻肺平喘；行水消肿",
+      "modified_cure": "痰饮壅肺之重症；咳喘胸满不得卧；面目浮肿",
+      "response_text": "{\n  \"modified_name\": \"泽漆加葶苈子汤\",\n  \"diff_component\": \"葶苈子\",\n  \"component_effect\": \"泻肺平喘；行水消肿\",\n  \"modified_cure\": \"痰饮壅肺之重症；咳喘胸满不得卧；面目浮肿\"\n}",
+      "response_json": {
+        "modified_name": "泽漆加葶苈子汤",
+        "diff_component": "葶苈子",
+        "component_effect": "泻肺平喘；行水消肿",
+        "modified_cure": "痰饮壅肺之重症；咳喘胸满不得卧；面目浮肿"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于泽漆汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"泽漆加葶苈子汤\",\n  \"diff_component\": \"葶苈子\",\n  \"component_effect\": \"泻肺平喘；行水消肿\",\n  \"modified_cure\": \"痰饮壅肺之重症；咳喘胸满不得卧；面目浮肿\"\n}\n参考：[{\"name\": \"葶苈子\", \"effect\": \"泻肺降气；祛痰平喘；利水消肿；泄逐邪\", \"cure\": \"痰涎壅肺之喘咳痰多；肺痈；水肿；胸腹积水；小便不利；慢性肺源性心脏病；心力衰竭之喘肿；瘰疬结核\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\":4, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 1,
+            "socre_total": 4,
+            "confidence": 0.9
+          },
+          "score_total": 4.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.98}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.98
+          },
+          "score_total": 6.0,
+          "confidence": 0.98
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 14.879999999999999
+    },
+    {
+      "id": 31,
+      "question": "根据你对中药的理解基于二妙散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "二妙散",
+      "modified_name": "二妙加土茯苓汤",
+      "diff_component": [
+        "土茯苓"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "土茯苓",
+          "effect": "清热除湿；泄浊解毒；通利关节",
+          "cure": "梅毒；淋浊；泄泻；筋骨挛痛；脚气；痈肿；疮癣；瘰疬；瘿瘤及汞中毒"
+        }
+      ],
+      "component_effect": "解毒除湿；通利关节；清热散结",
+      "modified_cure": "湿热下注所致之痛风；关节红肿热痛；下肢湿疹瘙痒；",
+      "response_text": "{\n  \"modified_name\": \"二妙加土茯苓汤\",\n  \"diff_component\": \"土茯苓\",\n  \"component_effect\": \"解毒除湿；通利关节；清热散结\",\n  \"modified_cure\": \"湿热下注所致之痛风；关节红肿热痛；下肢湿疹瘙痒；\"\n}",
+      "response_json": {
+        "modified_name": "二妙加土茯苓汤",
+        "diff_component": "土茯苓",
+        "component_effect": "解毒除湿；通利关节；清热散结",
+        "modified_cure": "湿热下注所致之痛风；关节红肿热痛；下肢湿疹瘙痒；"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于二妙散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"二妙加土茯苓汤\",\n  \"diff_component\": \"土茯苓\",\n  \"component_effect\": \"解毒除湿；通利关节；清热散结\",\n  \"modified_cure\": \"湿热下注所致之痛风；关节红肿热痛；下肢湿疹瘙痒；\"\n}\n参考：[{\"name\": \"土茯苓\", \"effect\": \"清热除湿；泄浊解毒；通利关节\", \"cure\": \"梅毒；淋浊；泄泻；筋骨挛痛；脚气；痈肿；疮癣；瘰疬；瘿瘤及汞中毒\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 1,
+            "socre_total": 4,
+            "confidence": 0.9
+          },
+          "score_total": 4.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":1, \"socre_total\": 5, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 1,
+            "socre_total": 5,
+            "confidence": 0.9
+          },
+          "score_total": 5.0,
+          "confidence": 0.9
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 13.5
+    },
+    {
+      "id": 32,
+      "question": "根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "独活寄生汤",
+      "modified_name": "",
+      "diff_component": [
+        "羌活"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "羌活",
+          "effect": "散表寒；祛风湿；利关节；止痛",
+          "cure": "外感风寒；头痛无汗；油印寒湿痹；风水浮肿；疮疡肿毒"
+        }
+      ],
+      "component_effect": "",
+      "modified_cure": "",
+      "response_text": "{\n  \"modified_name\": \"独活寄生加羌活汤\",\n  \"diff_component\": \"羌活\",\n  \"component_effect\": \"解表散寒；祛风胜湿；通利关节止痛\",\n  \"modified_cure\": \"肝肾两亏、气血不足之风寒湿痹，除腰膝冷痛、下肢痿痹外，兼见肩颈、背部及上肢",
+      "response_json": null,
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于独活寄生汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"独活寄生加羌活汤\",\n  \"diff_component\": \"羌活\",\n  \"component_effect\": \"解表散寒；祛风胜湿；通利关节止痛\",\n  \"modified_cure\": \"肝肾两亏、气血不足之风寒湿痹，除腰膝冷痛、下肢痿痹外，兼见肩颈、背部及上肢\n参考：[{\"name\": \"羌活\", \"effect\": \"散表寒；祛风湿；利关节；止痛\", \"cure\": \"外感风寒；头痛无汗；油印寒湿痹；风水浮肿；疮疡肿毒\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":1}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 1
+          },
+          "score_total": 6.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2,\"score_2\":2,\"score_3\":1,\"socre_total\":5,\"confidence\":0.87}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 1,
+            "socre_total": 5,
+            "confidence": 0.87
+          },
+          "score_total": 5.0,
+          "confidence": 0.87
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "I need to evaluate the response based on the three scoring criteria.\n\n**Criterion 1: Proposed a specific added medicinal ingredient name (2 points)**\nThe response clearly proposes \"羌活\" (Notopterygium root) as the added ingredient. This is specific and clear. **Score: 2/2**\n\n**Criterion 2: Explains the effect of the added ingredient, needs to match the database (2 points)**\nThe response states: \"解表散寒；祛风胜湿；通利关节止痛\"\nThe database reference states: \"散表寒；祛风湿；利关节；止痛\"\n\nComparing:\n- 解表散寒 ≈ 散表寒 ✓\n- 祛风胜湿 ≈ 祛风湿 ✓\n- 通利关节止痛 ≈ 利关节；止痛 ✓\n\nThe effects match well with the database. **Score: 2/2**\n\n**Criterion 3: Explains the new formula's possible treatment changes, needs to match the database reference for 主治 (2 points)**\nThe response states the modified formula treats: \"肝肾两亏、气血不足之风寒湿痹，除腰膝冷痛、下肢痿痹外，兼见肩颈、背部及上肢...\" (the response appears to be cut off)\n\nThe database reference for 羌活's 主治: \"外感风寒；头痛无汗；油印寒湿痹；风水浮肿；疮疡肿毒\"\n\nThe response mentions the new formula extends treatment to shoulder, neck, back, and upper limbs, which aligns with 羌活's role in treating wind-cold-damp Bi syndrome (寒湿痹). However, the response is cut off and doesn't fully elaborate. The partial content does show reasonable matching with the database (寒湿痹 is mentioned in both). The answer partially matches but is incomplete. **Score: 1/2**\n\n**Total: 2 + 2 + 1 = 5**\n\n```json\n{\"score_1\": 2, \"score_2\": 2, \"score_3\": 1, \"socre_total\": 5, \"confidence\": 0.8}\n```",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 1,
+            "socre_total": 5,
+            "confidence": 0.8
+          },
+          "score_total": 5.0,
+          "confidence": 0.8
+        }
+      },
+      "score_llm_all": 14.35
+    },
+    {
+      "id": 33,
+      "question": "根据你对中药的理解基于桂枝麻黄各半汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "桂枝麻黄各半汤",
+      "modified_name": "桂枝麻黄各半加防风汤",
+      "diff_component": [
+        "防风"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "防风",
+          "effect": "祛风解表；胜湿止痛；解痉；止痒",
+          "cure": "外感风寒；头痛身痛；风湿痹痛；骨节酸痛；腹痛泄泻；肠风下血；破伤风；风疹瘙痒；疮疡初起"
+        }
+      ],
+      "component_effect": "祛风解表；胜湿止痛；解痉止痒",
+      "modified_cure": "营卫不和、风寒郁表所致的荨麻疹、顽固性皮肤瘙痒，伴有轻度恶寒发热、肢体酸楚者；",
+      "response_text": "{\n  \"modified_name\": \"桂枝麻黄各半加防风汤\",\n  \"diff_component\": \"防风\",\n  \"component_effect\": \"祛风解表；胜湿止痛；解痉止痒\",\n  \"modified_cure\": \"营卫不和、风寒郁表所致的荨麻疹、顽固性皮肤瘙痒，伴有轻度恶寒发热、肢体酸楚者；\"\n}",
+      "response_json": {
+        "modified_name": "桂枝麻黄各半加防风汤",
+        "diff_component": "防风",
+        "component_effect": "祛风解表；胜湿止痛；解痉止痒",
+        "modified_cure": "营卫不和、风寒郁表所致的荨麻疹、顽固性皮肤瘙痒，伴有轻度恶寒发热、肢体酸楚者；"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于桂枝麻黄各半汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"桂枝麻黄各半加防风汤\",\n  \"diff_component\": \"防风\",\n  \"component_effect\": \"祛风解表；胜湿止痛；解痉止痒\",\n  \"modified_cure\": \"营卫不和、风寒郁表所致的荨麻疹、顽固性皮肤瘙痒，伴有轻度恶寒发热、肢体酸楚者；\"\n}\n参考：[{\"name\": \"防风\", \"effect\": \"祛风解表；胜湿止痛；解痉；止痒\", \"cure\": \"外感风寒；头痛身痛；风湿痹痛；骨节酸痛；腹痛泄泻；肠风下血；破伤风；风疹瘙痒；疮疡初起\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":1}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 1
+          },
+          "score_total": 6.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2,\"score_2\":2,\"score_3\":2,\"socre_total\":6,\"confidence\":0.96}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.96
+          },
+          "score_total": 6.0,
+          "confidence": 0.96
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 17.16
+    },
+    {
+      "id": 34,
+      "question": "根据你对中药的理解基于芍药甘草汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "芍药甘草汤",
+      "modified_name": "芍药甘草加木瓜汤",
+      "diff_component": [
+        "木瓜"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "木瓜",
+          "effect": "舒筋活络，和胃化湿",
+          "cure": "风湿痹痛，肢体酸重，筋脉拘挛，吐泻转筋，脚气水肿。"
+        }
+      ],
+      "component_effect": "舒筋活络；和胃化湿",
+      "modified_cure": "腓肠肌痉挛（小腿抽筋）；吐泻后筋脉拘挛疼痛；",
+      "response_text": "{\n  \"modified_name\": \"芍药甘草加木瓜汤\",\n  \"diff_component\": \"木瓜\",\n  \"component_effect\": \"舒筋活络；和胃化湿\",\n  \"modified_cure\": \"腓肠肌痉挛（小腿抽筋）；吐泻后筋脉拘挛疼痛；\"\n}",
+      "response_json": {
+        "modified_name": "芍药甘草加木瓜汤",
+        "diff_component": "木瓜",
+        "component_effect": "舒筋活络；和胃化湿",
+        "modified_cure": "腓肠肌痉挛（小腿抽筋）；吐泻后筋脉拘挛疼痛；"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于芍药甘草汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"芍药甘草加木瓜汤\",\n  \"diff_component\": \"木瓜\",\n  \"component_effect\": \"舒筋活络；和胃化湿\",\n  \"modified_cure\": \"腓肠肌痉挛（小腿抽筋）；吐泻后筋脉拘挛疼痛；\"\n}\n参考：[{\"name\": \"木瓜\", \"effect\": \"舒筋活络，和胃化湿\", \"cure\": \"风湿痹痛，肢体酸重，筋脉拘挛，吐泻转筋，脚气水肿。\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 1}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 1
+          },
+          "score_total": 6.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":0.98}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.98
+          },
+          "score_total": 6.0,
+          "confidence": 0.98
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 17.28
+    },
+    {
+      "id": 35,
+      "question": "根据你对中药的理解基于木香槟榔丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "木香槟榔丸",
+      "modified_name": "",
+      "diff_component": [
+        "山楂"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "山楂",
+          "effect": "消食积；化滞瘀",
+          "cure": "饮食积滞，脘腹胀痛，泄泻痢疾，血瘀痛经，闭经，产后腹痛；恶露不尽；"
+        }
+      ],
+      "component_effect": "",
+      "modified_cure": "",
+      "response_text": "{\n  \"modified_name\": \"木香槟榔加山楂丸\",\n  \"diff_component\": \"山楂\",\n  \"component_effect\": \"消食化积；行气散瘀\",\n  \"modified_cure\": \"湿热内停兼肉食积滞；脘腹痞满胀痛尤甚；下痢赤白",
+      "response_json": null,
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于木香槟榔丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"木香槟榔加山楂丸\",\n  \"diff_component\": \"山楂\",\n  \"component_effect\": \"消食化积；行气散瘀\",\n  \"modified_cure\": \"湿热内停兼肉食积滞；脘腹痞满胀痛尤甚；下痢赤白\n参考：[{\"name\": \"山楂\", \"effect\": \"消食积；化滞瘀\", \"cure\": \"饮食积滞，脘腹胀痛，泄泻痢疾，血瘀痛经，闭经，产后腹痛；恶露不尽；\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 1.0}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 1.0
+          },
+          "score_total": 6.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.97}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.97
+          },
+          "score_total": 6.0,
+          "confidence": 0.97
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 17.22
+    },
+    {
+      "id": 36,
+      "question": "根据你对中药的理解基于增液汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "增液汤",
+      "modified_name": "增液加苁蓉汤",
+      "diff_component": [
+        "肉苁蓉"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "肉苁蓉",
+          "effect": "补肾阳；益精血；润肠道",
+          "cure": "肾阳虚衰；精血不足之阳痿；遗精；白浊；尿频余沥；腰痛脚弱；耳鸣目花；月经衍期；宫寒不孕；肠燥便秘"
+        }
+      ],
+      "component_effect": "补肾阳；益精血；润肠通便",
+      "modified_cure": "阴虚津亏兼肾阳精血不足之便秘；大便干结；腰膝酸软；老年性肠燥便秘",
+      "response_text": "{\n  \"modified_name\": \"增液加苁蓉汤\",\n  \"diff_component\": \"肉苁蓉\",\n  \"component_effect\": \"补肾阳；益精血；润肠通便\",\n  \"modified_cure\": \"阴虚津亏兼肾阳精血不足之便秘；大便干结；腰膝酸软；老年性肠燥便秘\"\n}",
+      "response_json": {
+        "modified_name": "增液加苁蓉汤",
+        "diff_component": "肉苁蓉",
+        "component_effect": "补肾阳；益精血；润肠通便",
+        "modified_cure": "阴虚津亏兼肾阳精血不足之便秘；大便干结；腰膝酸软；老年性肠燥便秘"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于增液汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"增液加苁蓉汤\",\n  \"diff_component\": \"肉苁蓉\",\n  \"component_effect\": \"补肾阳；益精血；润肠通便\",\n  \"modified_cure\": \"阴虚津亏兼肾阳精血不足之便秘；大便干结；腰膝酸软；老年性肠燥便秘\"\n}\n参考：[{\"name\": \"肉苁蓉\", \"effect\": \"补肾阳；益精血；润肠道\", \"cure\": \"肾阳虚衰；精血不足之阳痿；遗精；白浊；尿频余沥；腰痛脚弱；耳鸣目花；月经衍期；宫寒不孕；肠燥便秘\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":1}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 1
+          },
+          "score_total": 6.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2,\"score_2\":2,\"score_3\":2,\"socre_total\":6,\"confidence\":0.98}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.98
+          },
+          "score_total": 6.0,
+          "confidence": 0.98
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 17.28
+    },
+    {
+      "id": 37,
+      "question": "根据你对中药的理解基于黄芩汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "黄芩汤",
+      "modified_name": "",
+      "diff_component": [
+        "马齿苋"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "马齿苋",
+          "effect": "清热解毒；凉血止痢；除湿 通淋",
+          "cure": "热毒泻痢；热淋；尿闭；赤白带下；崩漏；痔血；疮疡痈疖；丹毒；瘰疬；湿癣；白秃"
+        }
+      ],
+      "component_effect": "",
+      "modified_cure": "",
+      "response_text": "{\n  \"modified_name\": \"黄芩加马齿苋汤\",\n  \"diff_component\": \"马齿苋\",\n  \"component_effect\": \"清热解毒；凉血止痢\",\n  \"modified_cure\": \"湿热毒盛之赤白痢疾；下痢脓血较多；肛门灼热痛",
+      "response_json": null,
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于黄芩汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"黄芩加马齿苋汤\",\n  \"diff_component\": \"马齿苋\",\n  \"component_effect\": \"清热解毒；凉血止痢\",\n  \"modified_cure\": \"湿热毒盛之赤白痢疾；下痢脓血较多；肛门灼热痛\n参考：[{\"name\": \"马齿苋\", \"effect\": \"清热解毒；凉血止痢；除湿 通淋\", \"cure\": \"热毒泻痢；热淋；尿闭；赤白带下；崩漏；痔血；疮疡痈疖；丹毒；瘰疬；湿癣；白秃\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":1}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 1
+          },
+          "score_total": 6.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.98}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.98
+          },
+          "score_total": 6.0,
+          "confidence": 0.98
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 17.28
+    },
+    {
+      "id": 38,
+      "question": "根据你对中药的理解基于仓廪散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "仓廪散",
+      "modified_name": "仓廪加砂仁散",
+      "diff_component": [
+        "砂仁"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "砂仁",
+          "effect": "化湿开胃；行气宽中温脾止泻安胎",
+          "cure": "湿阻气滞；脘腹胀满；不思饮食；恶心呕吐；腹痛泄泻妊娠恶阻；胎动不安"
+        }
+      ],
+      "component_effect": "化湿开胃；温脾止泻；理气和中",
+      "modified_cure": "脾胃虚寒，湿浊内阻所致的脘腹胀满；不思饮食；大便溏泄；恶心呕吐",
+      "response_text": "{\n  \"modified_name\": \"仓廪加砂仁散\",\n  \"diff_component\": \"砂仁\",\n  \"component_effect\": \"化湿开胃；温脾止泻；理气和中\",\n  \"modified_cure\": \"脾胃虚寒，湿浊内阻所致的脘腹胀满；不思饮食；大便溏泄；恶心呕吐\"\n}",
+      "response_json": {
+        "modified_name": "仓廪加砂仁散",
+        "diff_component": "砂仁",
+        "component_effect": "化湿开胃；温脾止泻；理气和中",
+        "modified_cure": "脾胃虚寒，湿浊内阻所致的脘腹胀满；不思饮食；大便溏泄；恶心呕吐"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于仓廪散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"仓廪加砂仁散\",\n  \"diff_component\": \"砂仁\",\n  \"component_effect\": \"化湿开胃；温脾止泻；理气和中\",\n  \"modified_cure\": \"脾胃虚寒，湿浊内阻所致的脘腹胀满；不思饮食；大便溏泄；恶心呕吐\"\n}\n参考：[{\"name\": \"砂仁\", \"effect\": \"化湿开胃；行气宽中温脾止泻安胎\", \"cure\": \"湿阻气滞；脘腹胀满；不思饮食；恶心呕吐；腹痛泄泻妊娠恶阻；胎动不安\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":2, \"socre_total\":5, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 2,
+            "socre_total": 5,
+            "confidence": 0.9
+          },
+          "score_total": 5.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2,\"score_2\":2,\"score_3\":2,\"socre_total\":6,\"confidence\":0.96}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.96
+          },
+          "score_total": 6.0,
+          "confidence": 0.96
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "```json\n{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}\n```",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 15.66
+    },
+    {
+      "id": 39,
+      "question": "根据你对中药的理解基于防己黄芪汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "防己黄芪汤",
+      "modified_name": "防己黄芪加薏苡仁汤",
+      "diff_component": [
+        "薏苡仁"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "薏苡仁",
+          "effect": "利湿健脾；舒筋除痹；清热排脓",
+          "cure": "水肿；脚气；小便淋沥；湿温病；泄泻带下；风湿痹痛；筋脉拘挛；肺痈；肠痈；扁平疣"
+        }
+      ],
+      "component_effect": "利水渗湿；健脾止泻；除痹；清热排脓",
+      "modified_cure": "气虚湿盛之肢体沉重；风湿痹痛；关节肿胀屈伸不利；脾虚下肢水肿",
+      "response_text": "{\n  \"modified_name\": \"防己黄芪加薏苡仁汤\",\n  \"diff_component\": \"薏苡仁\",\n  \"component_effect\": \"利水渗湿；健脾止泻；除痹；清热排脓\",\n  \"modified_cure\": \"气虚湿盛之肢体沉重；风湿痹痛；关节肿胀屈伸不利；脾虚下肢水肿\"\n}",
+      "response_json": {
+        "modified_name": "防己黄芪加薏苡仁汤",
+        "diff_component": "薏苡仁",
+        "component_effect": "利水渗湿；健脾止泻；除痹；清热排脓",
+        "modified_cure": "气虚湿盛之肢体沉重；风湿痹痛；关节肿胀屈伸不利；脾虚下肢水肿"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于防己黄芪汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"防己黄芪加薏苡仁汤\",\n  \"diff_component\": \"薏苡仁\",\n  \"component_effect\": \"利水渗湿；健脾止泻；除痹；清热排脓\",\n  \"modified_cure\": \"气虚湿盛之肢体沉重；风湿痹痛；关节肿胀屈伸不利；脾虚下肢水肿\"\n}\n参考：[{\"name\": \"薏苡仁\", \"effect\": \"利湿健脾；舒筋除痹；清热排脓\", \"cure\": \"水肿；脚气；小便淋沥；湿温病；泄泻带下；风湿痹痛；筋脉拘挛；肺痈；肠痈；扁平疣\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"score_total\":6, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "score_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.96}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.96
+          },
+          "score_total": 6.0,
+          "confidence": 0.96
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 16.560000000000002
+    },
+    {
+      "id": 40,
+      "question": "根据你对中药的理解基于羌活胜湿汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "羌活胜湿汤",
+      "modified_name": "羌活胜湿加葛根汤",
+      "diff_component": [
+        "葛根"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "葛根",
+          "effect": "解肌退热；发表透诊；生津止渴；升阳止泻",
+          "cure": "外感发热；头项强痛；麻疹初起；疹出不畅；温病口渴；消渴病；泄泻；痢疾；高血压；冠心病"
+        }
+      ],
+      "component_effect": "解肌退热；生津止渴；透疹；升阳止泻；舒缓项背拘急",
+      "modified_cure": "风湿在表；头痛身重；项背强痛尤甚；转侧不利；",
+      "response_text": "{\n  \"modified_name\": \"羌活胜湿加葛根汤\",\n  \"diff_component\": \"葛根\",\n  \"component_effect\": \"解肌退热；生津止渴；透疹；升阳止泻；舒缓项背拘急\",\n  \"modified_cure\": \"风湿在表；头痛身重；项背强痛尤甚；转侧不利；\"\n}",
+      "response_json": {
+        "modified_name": "羌活胜湿加葛根汤",
+        "diff_component": "葛根",
+        "component_effect": "解肌退热；生津止渴；透疹；升阳止泻；舒缓项背拘急",
+        "modified_cure": "风湿在表；头痛身重；项背强痛尤甚；转侧不利；"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于羌活胜湿汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"羌活胜湿加葛根汤\",\n  \"diff_component\": \"葛根\",\n  \"component_effect\": \"解肌退热；生津止渴；透疹；升阳止泻；舒缓项背拘急\",\n  \"modified_cure\": \"风湿在表；头痛身重；项背强痛尤甚；转侧不利；\"\n}\n参考：[{\"name\": \"葛根\", \"effect\": \"解肌退热；发表透诊；生津止渴；升阳止泻\", \"cure\": \"外感发热；头项强痛；麻疹初起；疹出不畅；温病口渴；消渴病；泄泻；痢疾；高血压；冠心病\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":1}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 1
+          },
+          "score_total": 6.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":0.97}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.97
+          },
+          "score_total": 6.0,
+          "confidence": 0.97
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.85}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.85
+          },
+          "score_total": 6.0,
+          "confidence": 0.85
+        }
+      },
+      "score_llm_all": 16.92
+    },
+    {
+      "id": 41,
+      "question": "根据你对中药的理解基于甘麦大枣汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "甘麦大枣汤",
+      "modified_name": "甘麦大枣加酸枣仁汤",
+      "diff_component": [
+        "酸枣仁"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "酸枣仁",
+          "effect": "宁心安神；养肝；敛汗",
+          "cure": "虚烦不眠；惊悸怔忡；体虚自汗、盗汗"
+        }
+      ],
+      "component_effect": "养心补肝；宁心安神；敛汗生津",
+      "modified_cure": "脏躁伴虚烦不眠；心肝血虚之失眠多梦；惊悸怔忡",
+      "response_text": "{\n  \"modified_name\": \"甘麦大枣加酸枣仁汤\",\n  \"diff_component\": \"酸枣仁\",\n  \"component_effect\": \"养心补肝；宁心安神；敛汗生津\",\n  \"modified_cure\": \"脏躁伴虚烦不眠；心肝血虚之失眠多梦；惊悸怔忡\"\n}",
+      "response_json": {
+        "modified_name": "甘麦大枣加酸枣仁汤",
+        "diff_component": "酸枣仁",
+        "component_effect": "养心补肝；宁心安神；敛汗生津",
+        "modified_cure": "脏躁伴虚烦不眠；心肝血虚之失眠多梦；惊悸怔忡"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于甘麦大枣汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"甘麦大枣加酸枣仁汤\",\n  \"diff_component\": \"酸枣仁\",\n  \"component_effect\": \"养心补肝；宁心安神；敛汗生津\",\n  \"modified_cure\": \"脏躁伴虚烦不眠；心肝血虚之失眠多梦；惊悸怔忡\"\n}\n参考：[{\"name\": \"酸枣仁\", \"effect\": \"宁心安神；养肝；敛汗\", \"cure\": \"虚烦不眠；惊悸怔忡；体虚自汗、盗汗\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":2, \"socre_total\":5, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 2,
+            "socre_total": 5,
+            "confidence": 0.9
+          },
+          "score_total": 5.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.97}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.97
+          },
+          "score_total": 6.0,
+          "confidence": 0.97
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 15.72
+    },
+    {
+      "id": 42,
+      "question": "根据你对中药的理解基于当归芍药散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "当归芍药散",
+      "modified_name": "当归芍药加香附汤",
+      "diff_component": [
+        "香附"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "香附",
+          "effect": "理气解郁；调经止痛；安胎",
+          "cure": "胁肋胀痛；乳房胀育；疝气疼痛；月经不调；脘腹痞满疼痛；嗳气吞酸，呕恶；经行腹痛；崩漏带下；胎动不安"
+        }
+      ],
+      "component_effect": "疏肝解郁；理气宽中；调经止痛",
+      "modified_cure": "血虚湿滞伴肝郁气滞之痛经；月经不调；经前乳胀；小腹胀痛",
+      "response_text": "{\n  \"modified_name\": \"当归芍药加香附汤\",\n  \"diff_component\": \"香附\",\n  \"component_effect\": \"疏肝解郁；理气宽中；调经止痛\",\n  \"modified_cure\": \"血虚湿滞伴肝郁气滞之痛经；月经不调；经前乳胀；小腹胀痛\"\n}",
+      "response_json": {
+        "modified_name": "当归芍药加香附汤",
+        "diff_component": "香附",
+        "component_effect": "疏肝解郁；理气宽中；调经止痛",
+        "modified_cure": "血虚湿滞伴肝郁气滞之痛经；月经不调；经前乳胀；小腹胀痛"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于当归芍药散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"当归芍药加香附汤\",\n  \"diff_component\": \"香附\",\n  \"component_effect\": \"疏肝解郁；理气宽中；调经止痛\",\n  \"modified_cure\": \"血虚湿滞伴肝郁气滞之痛经；月经不调；经前乳胀；小腹胀痛\"\n}\n参考：[{\"name\": \"香附\", \"effect\": \"理气解郁；调经止痛；安胎\", \"cure\": \"胁肋胀痛；乳房胀育；疝气疼痛；月经不调；脘腹痞满疼痛；嗳气吞酸，呕恶；经行腹痛；崩漏带下；胎动不安\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":0.96}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.96
+          },
+          "score_total": 6.0,
+          "confidence": 0.96
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 16.560000000000002
+    },
+    {
+      "id": 43,
+      "question": "根据你对中药的理解基于定志丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "定志丸",
+      "modified_name": "定志加酸枣仁丸",
+      "diff_component": [
+        "酸枣仁"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "酸枣仁",
+          "effect": "宁心安神；养肝；敛汗",
+          "cure": "虚烦不眠；惊悸怔忡；体虚自汗、盗汗"
+        }
+      ],
+      "component_effect": "养心益肝；安神敛汗",
+      "modified_cure": "心胆气虚兼心血不足；惊悸不宁；失眠多梦；健忘神疲",
+      "response_text": "{\n  \"modified_name\": \"定志加酸枣仁丸\",\n  \"diff_component\": \"酸枣仁\",\n  \"component_effect\": \"养心益肝；安神敛汗\",\n  \"modified_cure\": \"心胆气虚兼心血不足；惊悸不宁；失眠多梦；健忘神疲\"\n}",
+      "response_json": {
+        "modified_name": "定志加酸枣仁丸",
+        "diff_component": "酸枣仁",
+        "component_effect": "养心益肝；安神敛汗",
+        "modified_cure": "心胆气虚兼心血不足；惊悸不宁；失眠多梦；健忘神疲"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于定志丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"定志加酸枣仁丸\",\n  \"diff_component\": \"酸枣仁\",\n  \"component_effect\": \"养心益肝；安神敛汗\",\n  \"modified_cure\": \"心胆气虚兼心血不足；惊悸不宁；失眠多梦；健忘神疲\"\n}\n参考：[{\"name\": \"酸枣仁\", \"effect\": \"宁心安神；养肝；敛汗\", \"cure\": \"虚烦不眠；惊悸怔忡；体虚自汗、盗汗\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":0.96}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.96
+          },
+          "score_total": 6.0,
+          "confidence": 0.96
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.85}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.85
+          },
+          "score_total": 6.0,
+          "confidence": 0.85
+        }
+      },
+      "score_llm_all": 16.259999999999998
+    },
+    {
+      "id": 44,
+      "question": "根据你对中药的理解基于栀子柏皮汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "栀子柏皮汤",
+      "modified_name": "栀子柏皮加丹参汤",
+      "diff_component": [
+        "丹参"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "丹参",
+          "effect": "活血祛瘀；调经止痛；养血安神；凉血消痈",
+          "cure": "妇女月经不调；痛经；经闭；产后瘀滞腹痛；心腹疼痛；癥瘕积聚；热痹肿痛；跌打损伤；热入营血；烦躁不安；心烦失眠；痈疮肿毒"
+        }
+      ],
+      "component_effect": "活血祛瘀；凉血消痈；清心除烦",
+      "modified_cure": "湿热黄疸兼血瘀证；发热烦躁；胁肋刺痛；黄疸迁延不退",
+      "response_text": "{\n  \"modified_name\": \"栀子柏皮加丹参汤\",\n  \"diff_component\": \"丹参\",\n  \"component_effect\": \"活血祛瘀；凉血消痈；清心除烦\",\n  \"modified_cure\": \"湿热黄疸兼血瘀证；发热烦躁；胁肋刺痛；黄疸迁延不退\"\n}",
+      "response_json": {
+        "modified_name": "栀子柏皮加丹参汤",
+        "diff_component": "丹参",
+        "component_effect": "活血祛瘀；凉血消痈；清心除烦",
+        "modified_cure": "湿热黄疸兼血瘀证；发热烦躁；胁肋刺痛；黄疸迁延不退"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于栀子柏皮汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"栀子柏皮加丹参汤\",\n  \"diff_component\": \"丹参\",\n  \"component_effect\": \"活血祛瘀；凉血消痈；清心除烦\",\n  \"modified_cure\": \"湿热黄疸兼血瘀证；发热烦躁；胁肋刺痛；黄疸迁延不退\"\n}\n参考：[{\"name\": \"丹参\", \"effect\": \"活血祛瘀；调经止痛；养血安神；凉血消痈\", \"cure\": \"妇女月经不调；痛经；经闭；产后瘀滞腹痛；心腹疼痛；癥瘕积聚；热痹肿痛；跌打损伤；热入营血；烦躁不安；心烦失眠；痈疮肿毒\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\":4, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 1,
+            "socre_total": 4,
+            "confidence": 0.9
+          },
+          "score_total": 4.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2,\"score_2\":2,\"score_3\":1,\"socre_total\":5,\"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 1,
+            "socre_total": 5,
+            "confidence": 0.9
+          },
+          "score_total": 5.0,
+          "confidence": 0.9
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 13.5
+    },
+    {
+      "id": 45,
+      "question": "根据你对中药的理解基于大补阴丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "大补阴丸",
+      "modified_name": "大补阴加地骨皮汤",
+      "diff_component": [
+        "地骨皮"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "地骨皮",
+          "effect": "清虚热；泻肺火；凉血",
+          "cure": "阴虚劳热；骨蒸盗汗；小儿疳积发热；肺热喘咳；吐血；衄血；尿血；消渴"
+        }
+      ],
+      "component_effect": "凉血除蒸；清肺降火；生津止渴",
+      "modified_cure": "阴虚火旺所致的骨蒸劳热尤甚；盗汗不止；五心烦热；肺热咳嗽咯血",
+      "response_text": "{\n  \"modified_name\": \"大补阴加地骨皮汤\",\n  \"diff_component\": \"地骨皮\",\n  \"component_effect\": \"凉血除蒸；清肺降火；生津止渴\",\n  \"modified_cure\": \"阴虚火旺所致的骨蒸劳热尤甚；盗汗不止；五心烦热；肺热咳嗽咯血\"\n}",
+      "response_json": {
+        "modified_name": "大补阴加地骨皮汤",
+        "diff_component": "地骨皮",
+        "component_effect": "凉血除蒸；清肺降火；生津止渴",
+        "modified_cure": "阴虚火旺所致的骨蒸劳热尤甚；盗汗不止；五心烦热；肺热咳嗽咯血"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于大补阴丸生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"大补阴加地骨皮汤\",\n  \"diff_component\": \"地骨皮\",\n  \"component_effect\": \"凉血除蒸；清肺降火；生津止渴\",\n  \"modified_cure\": \"阴虚火旺所致的骨蒸劳热尤甚；盗汗不止；五心烦热；肺热咳嗽咯血\"\n}\n参考：[{\"name\": \"地骨皮\", \"effect\": \"清虚热；泻肺火；凉血\", \"cure\": \"阴虚劳热；骨蒸盗汗；小儿疳积发热；肺热喘咳；吐血；衄血；尿血；消渴\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":2, \"socre_total\":5, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 2,
+            "socre_total": 5,
+            "confidence": 0.9
+          },
+          "score_total": 5.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.96}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.96
+          },
+          "score_total": 6.0,
+          "confidence": 0.96
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 15.66
+    },
+    {
+      "id": 46,
+      "question": "根据你对中药的理解基于半夏厚朴汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "半夏厚朴汤",
+      "modified_name": "",
+      "diff_component": [
+        "桔梗"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "桔梗",
+          "effect": "宣肺；祛痰；利咽；排脓",
+          "cure": "咳嗽痰多；咽喉肿痛；肺痈吐脓；胞满胁痛；痢疾腹痛；小便癃闭"
+        }
+      ],
+      "component_effect": "",
+      "modified_cure": "",
+      "response_text": "桔梗 (Jiegeng) is the most elegant because Banxia Houpo Tang treats the throat, and Jiegeng is the classic throat herb.\n    ```json\n    {\n      \"modified_name\": \"半夏厚朴加桔梗汤\",\n      \"diff_component\": \"桔梗\",\n      \"component_effect\": \"宣肺利咽；",
+      "response_json": null,
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于半夏厚朴汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：桔梗 (Jiegeng) is the most elegant because Banxia Houpo Tang treats the throat, and Jiegeng is the classic throat herb.\n    ```json\n    {\n      \"modified_name\": \"半夏厚朴加桔梗汤\",\n      \"diff_component\": \"桔梗\",\n      \"component_effect\": \"宣肺利咽；\n参考：[{\"name\": \"桔梗\", \"effect\": \"宣肺；祛痰；利咽；排脓\", \"cure\": \"咳嗽痰多；咽喉肿痛；肺痈吐脓；胞满胁痛；痢疾腹痛；小便癃闭\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":0, \"socre_total\":3, \"confidence\":0.8}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 0,
+            "socre_total": 3,
+            "confidence": 0.8
+          },
+          "score_total": 3.0,
+          "confidence": 0.8
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":0, \"socre_total\":4, \"confidence\":0.95}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 0,
+            "socre_total": 4,
+            "confidence": 0.95
+          },
+          "score_total": 4.0,
+          "confidence": 0.95
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "```json\n{\"score_1\":2, \"score_2\":1, \"score_3\":0, \"socre_total\": 3, \"confidence\": 0.8}\n```",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 0,
+            "socre_total": 3,
+            "confidence": 0.8
+          },
+          "score_total": 3.0,
+          "confidence": 0.8
+        }
+      },
+      "score_llm_all": 8.600000000000001
+    },
+    {
+      "id": 47,
+      "question": "根据你对中药的理解基于牵正散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "牵正散",
+      "modified_name": "牵正加黄芪散",
+      "diff_component": [
+        "黄芪"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "黄芪",
+          "effect": "",
+          "cure": ""
+        }
+      ],
+      "component_effect": "补气升阳；益卫固表；行滞通络",
+      "modified_cure": "气虚络瘀、风痰阻络之久发面瘫；口眼歪斜；面部麻木；神疲乏力",
+      "response_text": "{\n  \"modified_name\": \"牵正加黄芪散\",\n  \"diff_component\": \"黄芪\",\n  \"component_effect\": \"补气升阳；益卫固表；行滞通络\",\n  \"modified_cure\": \"气虚络瘀、风痰阻络之久发面瘫；口眼歪斜；面部麻木；神疲乏力\"\n}",
+      "response_json": {
+        "modified_name": "牵正加黄芪散",
+        "diff_component": "黄芪",
+        "component_effect": "补气升阳；益卫固表；行滞通络",
+        "modified_cure": "气虚络瘀、风痰阻络之久发面瘫；口眼歪斜；面部麻木；神疲乏力"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于牵正散生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"牵正加黄芪散\",\n  \"diff_component\": \"黄芪\",\n  \"component_effect\": \"补气升阳；益卫固表；行滞通络\",\n  \"modified_cure\": \"气虚络瘀、风痰阻络之久发面瘫；口眼歪斜；面部麻木；神疲乏力\"\n}\n参考：[{\"name\": \"黄芪\", \"effect\": \"\", \"cure\": \"\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":0, \"score_3\":0, \"socre_total\": 2, \"confidence\": 1}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 0,
+            "score_3": 0,
+            "socre_total": 2,
+            "confidence": 1
+          },
+          "score_total": 2.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\":4, \"confidence\":0.63}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 1,
+            "socre_total": 4,
+            "confidence": 0.63
+          },
+          "score_total": 4.0,
+          "confidence": 0.63
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.8}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.8
+          },
+          "score_total": 6.0,
+          "confidence": 0.8
+        }
+      },
+      "score_llm_all": 9.32
+    },
+    {
+      "id": 48,
+      "question": "根据你对中药的理解基于桔梗汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "桔梗汤",
+      "modified_name": "桔梗加射干汤",
+      "diff_component": [
+        "射干"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "射干",
+          "effect": "清热解毒；祛痰利咽；消瘀散结",
+          "cure": "咽喉肿痛；咳壅咳喘；瘰疬结核；疟母癓瘕；痈肿疮毒"
+        }
+      ],
+      "component_effect": "清热解毒；降气消痰；散结利咽",
+      "modified_cure": "痰热壅盛所致的咽喉肿痛；声音嘶哑；喉间痰鸣；",
+      "response_text": "{\n  \"modified_name\": \"桔梗加射干汤\",\n  \"diff_component\": \"射干\",\n  \"component_effect\": \"清热解毒；降气消痰；散结利咽\",\n  \"modified_cure\": \"痰热壅盛所致的咽喉肿痛；声音嘶哑；喉间痰鸣；\"\n}",
+      "response_json": {
+        "modified_name": "桔梗加射干汤",
+        "diff_component": "射干",
+        "component_effect": "清热解毒；降气消痰；散结利咽",
+        "modified_cure": "痰热壅盛所致的咽喉肿痛；声音嘶哑；喉间痰鸣；"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于桔梗汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"桔梗加射干汤\",\n  \"diff_component\": \"射干\",\n  \"component_effect\": \"清热解毒；降气消痰；散结利咽\",\n  \"modified_cure\": \"痰热壅盛所致的咽喉肿痛；声音嘶哑；喉间痰鸣；\"\n}\n参考：[{\"name\": \"射干\", \"effect\": \"清热解毒；祛痰利咽；消瘀散结\", \"cure\": \"咽喉肿痛；咳壅咳喘；瘰疬结核；疟母癓瘕；痈肿疮毒\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\":4, \"confidence\":0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 1,
+            "socre_total": 4,
+            "confidence": 0.9
+          },
+          "score_total": 4.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.96}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.96
+          },
+          "score_total": 6.0,
+          "confidence": 0.96
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.85}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.85
+          },
+          "score_total": 6.0,
+          "confidence": 0.85
+        }
+      },
+      "score_llm_all": 14.459999999999999
+    },
+    {
+      "id": 49,
+      "question": "根据你对中药的理解基于白头翁汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "白头翁汤",
+      "modified_name": "白头翁加地榆汤",
+      "diff_component": [
+        "地榆"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "地榆",
+          "effect": "凉血止血，清热解毒，消肿敛疮",
+          "cure": "吐血，咯血，衄血，尿血，便血，痔血，血痢，崩漏，赤白带下，疮痈肿痛，湿疹，阴痒，水火烫伤，蛇虫咬伤"
+        }
+      ],
+      "component_effect": "凉血止血；解毒敛疮",
+      "modified_cure": "热毒血痢；便血量多且鲜红；肛门灼热；里急后重",
+      "response_text": "{\n  \"modified_name\": \"白头翁加地榆汤\",\n  \"diff_component\": \"地榆\",\n  \"component_effect\": \"凉血止血；解毒敛疮\",\n  \"modified_cure\": \"热毒血痢；便血量多且鲜红；肛门灼热；里急后重\"\n}",
+      "response_json": {
+        "modified_name": "白头翁加地榆汤",
+        "diff_component": "地榆",
+        "component_effect": "凉血止血；解毒敛疮",
+        "modified_cure": "热毒血痢；便血量多且鲜红；肛门灼热；里急后重"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于白头翁汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"白头翁加地榆汤\",\n  \"diff_component\": \"地榆\",\n  \"component_effect\": \"凉血止血；解毒敛疮\",\n  \"modified_cure\": \"热毒血痢；便血量多且鲜红；肛门灼热；里急后重\"\n}\n参考：[{\"name\": \"地榆\", \"effect\": \"凉血止血，清热解毒，消肿敛疮\", \"cure\": \"吐血，咯血，衄血，尿血，便血，痔血，血痢，崩漏，赤白带下，疮痈肿痛，湿疹，阴痒，水火烫伤，蛇虫咬伤\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":2, \"socre_total\":5, \"confidence\":1}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 2,
+            "socre_total": 5,
+            "confidence": 1
+          },
+          "score_total": 5.0,
+          "confidence": 1.0
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.96}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.96
+          },
+          "score_total": 6.0,
+          "confidence": 0.96
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 16.16
+    },
+    {
+      "id": 50,
+      "question": "根据你对中药的理解基于白术附子汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。",
+      "response_model_name": "gemini-3.1-pro-preview",
+      "evaluator_model_names": [
+        "deepseek-v4-pro",
+        "gpt-5.4",
+        "claude-sonnet-4-6"
+      ],
+      "formula_name": "白术附子汤",
+      "modified_name": "白术附子加牛膝汤",
+      "diff_component": [
+        "牛膝"
+      ],
+      "diff_component_sql_list": [
+        {
+          "name": "牛膝",
+          "effect": "补肝肾；强筋骨；活血通经；引敌国（火）下行；利尿通淋",
+          "cure": "腰膝酸痛；下肢痿软；血滞经闭；痛经；产后血瘀腹痛；徵瘕；胞衣不下；热淋；血淋；跌打损伤；痈肿恶疮；咽喉肿痛"
+        }
+      ],
+      "component_effect": "补肝肾；强筋骨；活血通经；引药下行",
+      "modified_cure": "阳虚寒湿痹证；腰膝冷痛；下肢沉重无力",
+      "response_text": "{\n  \"modified_name\": \"白术附子加牛膝汤\",\n  \"diff_component\": \"牛膝\",\n  \"component_effect\": \"补肝肾；强筋骨；活血通经；引药下行\",\n  \"modified_cure\": \"阳虚寒湿痹证；腰膝冷痛；下肢沉重无力\"\n}",
+      "response_json": {
+        "modified_name": "白术附子加牛膝汤",
+        "diff_component": "牛膝",
+        "component_effect": "补肝肾；强筋骨；活血通经；引药下行",
+        "modified_cure": "阳虚寒湿痹证；腰膝冷痛；下肢沉重无力"
+      },
+      "evaluate_prompt": "假设你是一个主观题打分工具，目的是给题目对应的回答打分。请阅读以下内容，按照以下要求进行打分，并按最后的格式要求返回得分结果。\n题目：根据你对中药的理解基于白术附子汤生成一个全新的加味方剂，解释新增药物的作用，并说明预期功效。\n回答：{\n  \"modified_name\": \"白术附子加牛膝汤\",\n  \"diff_component\": \"牛膝\",\n  \"component_effect\": \"补肝肾；强筋骨；活血通经；引药下行\",\n  \"modified_cure\": \"阳虚寒湿痹证；腰膝冷痛；下肢沉重无力\"\n}\n参考：[{\"name\": \"牛膝\", \"effect\": \"补肝肾；强筋骨；活血通经；引敌国（火）下行；利尿通淋\", \"cure\": \"腰膝酸痛；下肢痿软；血滞经闭；痛经；产后血瘀腹痛；徵瘕；胞衣不下；热淋；血淋；跌打损伤；痈肿恶疮；咽喉肿痛\"}]\n得分点：1.在基础方剂的基础上，提出了具体的加味药物名称，2分；2.解释了所加药物的作用，需要与数据库中查找的功效匹配，2分；3.加入药物后，需要解释新的方剂可能的治疗病症变化，需要与数据库中查找到的主治匹配，2分。\n请阅读题目和回答，结合参考和得分点对该回答打分，并给出该分数的置信度，如果你十分有依据，置信度为1，如果你非常没有把握，则置信度为0.1。\n请将分数结果整理为如下所示的json格式，仅仅返回该json，不需要输出额外的内容，不需要输出额外的内容，不需要输出额外的内容：\n{\"score_1\":2, \"score_2\":1, \"score_3\":1, \"socre_total\": 4, \"confidence\": 0.8}\n",
+      "model_evaluations": {
+        "deepseek-v4-pro": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":1, \"score_3\":2, \"socre_total\": 5, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 1,
+            "score_3": 2,
+            "socre_total": 5,
+            "confidence": 0.9
+          },
+          "score_total": 5.0,
+          "confidence": 0.9
+        },
+        "gpt-5.4": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\":6, \"confidence\":0.95}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.95
+          },
+          "score_total": 6.0,
+          "confidence": 0.95
+        },
+        "claude-sonnet-4-6": {
+          "evaluation_text": "{\"score_1\":2, \"score_2\":2, \"score_3\":2, \"socre_total\": 6, \"confidence\": 0.9}",
+          "evaluation_json": {
+            "score_1": 2,
+            "score_2": 2,
+            "score_3": 2,
+            "socre_total": 6,
+            "confidence": 0.9
+          },
+          "score_total": 6.0,
+          "confidence": 0.9
+        }
+      },
+      "score_llm_all": 15.6
+    }
+  ]
+}

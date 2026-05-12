@@ -1,0 +1,31 @@
+{
+  "model": "gemini-3.1-pro-preview",
+  "datasets": [
+    {
+      "model": "gemini-3.1-pro-preview",
+      "dataset": "dataset1",
+      "total": 100,
+      "correct": 80,
+      "accuracy": 0.8
+    },
+    {
+      "model": "gemini-3.1-pro-preview",
+      "dataset": "dataset2",
+      "total": 100,
+      "correct": 93,
+      "accuracy": 0.93
+    },
+    {
+      "model": "gemini-3.1-pro-preview",
+      "dataset": "dataset3",
+      "total": 100,
+      "correct": 89,
+      "accuracy": 0.89
+    }
+  ],
+  "overall": {
+    "total": 300,
+    "correct": 262,
+    "accuracy": 0.8733333333333333
+  }
+}

@@ -1,0 +1,2924 @@
+{
+  "dataset": "dataset2",
+  "total_questions": 100,
+  "model_count": 8,
+  "model_error_counts": {
+    "gpt-5.4": 6,
+    "o3": 11,
+    "kimi-k2.5": 2,
+    "deepseek-v3.2": 7,
+    "gemini-3.1-pro-preview": 7,
+    "claude-sonnet-4-6": 3,
+    "qwen3.5-plus": 3,
+    "zhongjing": 44
+  },
+  "top10_error_questions": [
+    {
+      "id": 38,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“三圣散”缺失的药材：没药、琥珀、____",
+      "options": {
+        "A": "全蝎",
+        "B": "延胡索",
+        "C": "西红花",
+        "D": "车前子"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "西红花",
+      "error_count": 7,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "B",
+          "predicted_answer_text": "延胡索",
+          "gold_answer": "C",
+          "gold_answer_text": "西红花",
+          "model_response": "B"
+        },
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "C",
+          "gold_answer_text": "西红花",
+          "model_response": ""
+        },
+        {
+          "model": "kimi-k2.5",
+          "model_display_name": "Kimi-K2.5",
+          "predicted_answer": "A",
+          "predicted_answer_text": "全蝎",
+          "gold_answer": "C",
+          "gold_answer_text": "西红花",
+          "model_response": "A"
+        },
+        {
+          "model": "gemini-3.1-pro-preview",
+          "model_display_name": "Gemini-3.1-Pro-Preview",
+          "predicted_answer": "B",
+          "predicted_answer_text": "延胡索",
+          "gold_answer": "C",
+          "gold_answer_text": "西红花",
+          "model_response": "B"
+        },
+        {
+          "model": "claude-sonnet-4-6",
+          "model_display_name": "Claude-Sonnet-4.6",
+          "predicted_answer": "B",
+          "predicted_answer_text": "延胡索",
+          "gold_answer": "C",
+          "gold_answer_text": "西红花",
+          "model_response": "B"
+        },
+        {
+          "model": "qwen3.5-plus",
+          "model_display_name": "Qwen3.5-Plus",
+          "predicted_answer": "B",
+          "predicted_answer_text": "延胡索",
+          "gold_answer": "C",
+          "gold_answer_text": "西红花",
+          "model_response": "B"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "全蝎",
+          "gold_answer": "C",
+          "gold_answer_text": "西红花",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“疏凿饮子”缺失的药材：羌活、____、大腹皮、茯苓皮、花椒、木通、泽泻、商陆、赤小豆",
+      "options": {
+        "A": "猪苓",
+        "B": "槟榔",
+        "C": "半夏",
+        "D": "麋角"
+      },
+      "gold_answer": "B",
+      "gold_answer_text": "槟榔",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "B",
+          "gold_answer_text": "槟榔",
+          "model_response": ""
+        },
+        {
+          "model": "gemini-3.1-pro-preview",
+          "model_display_name": "Gemini-3.1-Pro-Preview",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "B",
+          "gold_answer_text": "槟榔",
+          "model_response": null
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "猪苓",
+          "gold_answer": "B",
+          "gold_answer_text": "槟榔",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“清肺汤”缺失的药材：薏苡仁、____、苦杏仁、冬瓜仁、凤凰衣",
+      "options": {
+        "A": "华山参",
+        "B": "黑芝麻",
+        "C": "防己",
+        "D": "钩藤"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "防己",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "C",
+          "gold_answer_text": "防己",
+          "model_response": ""
+        },
+        {
+          "model": "qwen3.5-plus",
+          "model_display_name": "Qwen3.5-Plus",
+          "predicted_answer": "A",
+          "predicted_answer_text": "华山参",
+          "gold_answer": "C",
+          "gold_answer_text": "防己",
+          "model_response": "A"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "华山参",
+          "gold_answer": "C",
+          "gold_answer_text": "防己",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“泽泻散”缺失的药材：泽泻、桑白皮、____、枳壳、赤茯苓、槟榔",
+      "options": {
+        "A": "木通",
+        "B": "陈仓米",
+        "C": "葶苈子",
+        "D": "千年健"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "木通",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "C",
+          "predicted_answer_text": "葶苈子",
+          "gold_answer": "A",
+          "gold_answer_text": "木通",
+          "model_response": "C"
+        },
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": "C",
+          "predicted_answer_text": "葶苈子",
+          "gold_answer": "A",
+          "gold_answer_text": "木通",
+          "model_response": "C"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "葶苈子",
+          "gold_answer": "A",
+          "gold_answer_text": "木通",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“三物白散”缺失的药材：桔梗、巴豆、____",
+      "options": {
+        "A": "大蓟",
+        "B": "大皂角",
+        "C": "乳香$没药",
+        "D": "川贝母"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "川贝母",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "B",
+          "predicted_answer_text": "大皂角",
+          "gold_answer": "D",
+          "gold_answer_text": "川贝母",
+          "model_response": "B"
+        },
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": "B",
+          "predicted_answer_text": "大皂角",
+          "gold_answer": "D",
+          "gold_answer_text": "川贝母",
+          "model_response": "B"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "乳香$没药",
+          "gold_answer": "D",
+          "gold_answer_text": "川贝母",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“针头丸”缺失的药材：川乌、____、硼砂",
+      "options": {
+        "A": "蜀漆",
+        "B": "鸭跖草",
+        "C": "楮实子",
+        "D": "白僵蚕"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "白僵蚕",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": "A",
+          "predicted_answer_text": "蜀漆",
+          "gold_answer": "D",
+          "gold_answer_text": "白僵蚕",
+          "model_response": "A"
+        },
+        {
+          "model": "qwen3.5-plus",
+          "model_display_name": "Qwen3.5-Plus",
+          "predicted_answer": "A",
+          "predicted_answer_text": "蜀漆",
+          "gold_answer": "D",
+          "gold_answer_text": "白僵蚕",
+          "model_response": "A"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "蜀漆",
+          "gold_answer": "D",
+          "gold_answer_text": "白僵蚕",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“天王补心丹”缺失的药材：人参、当归、五味子、麦冬、天冬、柏子仁、酸枣仁、白茯苓、玄参、丹参、____、远志、地黄、黄连",
+      "options": {
+        "A": "钟乳石",
+        "B": "旋覆花",
+        "C": "白土茯苓",
+        "D": "桔梗"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "桔梗",
+      "error_count": 2,
+      "error_models": [
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "D",
+          "gold_answer_text": "桔梗",
+          "model_response": null
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "白土茯苓",
+          "gold_answer": "D",
+          "gold_answer_text": "桔梗",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“葛花解酒汤”缺失的药材：青皮、木香、橘红、____、猪苓、白茯苓、神曲、泽泻、干姜、白术、白豆蔻、葛花、砂仁",
+      "options": {
+        "A": "娑罗子",
+        "B": "大蓟",
+        "C": "人参",
+        "D": "预知子"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "人参",
+      "error_count": 2,
+      "error_models": [
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "C",
+          "gold_answer_text": "人参",
+          "model_response": ""
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "娑罗子",
+          "gold_answer": "C",
+          "gold_answer_text": "人参",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“朱砂安神丸”缺失的药材：朱砂、黄连、____、当归、甘草",
+      "options": {
+        "A": "连翘",
+        "B": "地黄",
+        "C": "白鹤灵芝",
+        "D": "千金子"
+      },
+      "gold_answer": "B",
+      "gold_answer_text": "地黄",
+      "error_count": 2,
+      "error_models": [
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "B",
+          "gold_answer_text": "地黄",
+          "model_response": null
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "连翘",
+          "gold_answer": "B",
+          "gold_answer_text": "地黄",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“增损当归丸”缺失的药材：四物汤、____、独活、全蝎、续断、川楝子、延胡索、木香、丁香、小茴香",
+      "options": {
+        "A": "防风",
+        "B": "芦荟",
+        "C": "蟾皮",
+        "D": "苦参"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "防风",
+      "error_count": 2,
+      "error_models": [
+        {
+          "model": "kimi-k2.5",
+          "model_display_name": "Kimi-K2.5",
+          "predicted_answer": "B",
+          "predicted_answer_text": "芦荟",
+          "gold_answer": "A",
+          "gold_answer_text": "防风",
+          "model_response": "B"
+        },
+        {
+          "model": "claude-sonnet-4-6",
+          "model_display_name": "Claude-Sonnet-4.6",
+          "predicted_answer": "B",
+          "predicted_answer_text": "芦荟",
+          "gold_answer": "A",
+          "gold_answer_text": "防风",
+          "model_response": "B"
+        }
+      ]
+    }
+  ],
+  "all_ranked_error_questions": [
+    {
+      "id": 38,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“三圣散”缺失的药材：没药、琥珀、____",
+      "options": {
+        "A": "全蝎",
+        "B": "延胡索",
+        "C": "西红花",
+        "D": "车前子"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "西红花",
+      "error_count": 7,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "B",
+          "predicted_answer_text": "延胡索",
+          "gold_answer": "C",
+          "gold_answer_text": "西红花",
+          "model_response": "B"
+        },
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "C",
+          "gold_answer_text": "西红花",
+          "model_response": ""
+        },
+        {
+          "model": "kimi-k2.5",
+          "model_display_name": "Kimi-K2.5",
+          "predicted_answer": "A",
+          "predicted_answer_text": "全蝎",
+          "gold_answer": "C",
+          "gold_answer_text": "西红花",
+          "model_response": "A"
+        },
+        {
+          "model": "gemini-3.1-pro-preview",
+          "model_display_name": "Gemini-3.1-Pro-Preview",
+          "predicted_answer": "B",
+          "predicted_answer_text": "延胡索",
+          "gold_answer": "C",
+          "gold_answer_text": "西红花",
+          "model_response": "B"
+        },
+        {
+          "model": "claude-sonnet-4-6",
+          "model_display_name": "Claude-Sonnet-4.6",
+          "predicted_answer": "B",
+          "predicted_answer_text": "延胡索",
+          "gold_answer": "C",
+          "gold_answer_text": "西红花",
+          "model_response": "B"
+        },
+        {
+          "model": "qwen3.5-plus",
+          "model_display_name": "Qwen3.5-Plus",
+          "predicted_answer": "B",
+          "predicted_answer_text": "延胡索",
+          "gold_answer": "C",
+          "gold_answer_text": "西红花",
+          "model_response": "B"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "全蝎",
+          "gold_answer": "C",
+          "gold_answer_text": "西红花",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“疏凿饮子”缺失的药材：羌活、____、大腹皮、茯苓皮、花椒、木通、泽泻、商陆、赤小豆",
+      "options": {
+        "A": "猪苓",
+        "B": "槟榔",
+        "C": "半夏",
+        "D": "麋角"
+      },
+      "gold_answer": "B",
+      "gold_answer_text": "槟榔",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "B",
+          "gold_answer_text": "槟榔",
+          "model_response": ""
+        },
+        {
+          "model": "gemini-3.1-pro-preview",
+          "model_display_name": "Gemini-3.1-Pro-Preview",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "B",
+          "gold_answer_text": "槟榔",
+          "model_response": null
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "猪苓",
+          "gold_answer": "B",
+          "gold_answer_text": "槟榔",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“清肺汤”缺失的药材：薏苡仁、____、苦杏仁、冬瓜仁、凤凰衣",
+      "options": {
+        "A": "华山参",
+        "B": "黑芝麻",
+        "C": "防己",
+        "D": "钩藤"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "防己",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "C",
+          "gold_answer_text": "防己",
+          "model_response": ""
+        },
+        {
+          "model": "qwen3.5-plus",
+          "model_display_name": "Qwen3.5-Plus",
+          "predicted_answer": "A",
+          "predicted_answer_text": "华山参",
+          "gold_answer": "C",
+          "gold_answer_text": "防己",
+          "model_response": "A"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "华山参",
+          "gold_answer": "C",
+          "gold_answer_text": "防己",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“泽泻散”缺失的药材：泽泻、桑白皮、____、枳壳、赤茯苓、槟榔",
+      "options": {
+        "A": "木通",
+        "B": "陈仓米",
+        "C": "葶苈子",
+        "D": "千年健"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "木通",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "C",
+          "predicted_answer_text": "葶苈子",
+          "gold_answer": "A",
+          "gold_answer_text": "木通",
+          "model_response": "C"
+        },
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": "C",
+          "predicted_answer_text": "葶苈子",
+          "gold_answer": "A",
+          "gold_answer_text": "木通",
+          "model_response": "C"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "葶苈子",
+          "gold_answer": "A",
+          "gold_answer_text": "木通",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“三物白散”缺失的药材：桔梗、巴豆、____",
+      "options": {
+        "A": "大蓟",
+        "B": "大皂角",
+        "C": "乳香$没药",
+        "D": "川贝母"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "川贝母",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "B",
+          "predicted_answer_text": "大皂角",
+          "gold_answer": "D",
+          "gold_answer_text": "川贝母",
+          "model_response": "B"
+        },
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": "B",
+          "predicted_answer_text": "大皂角",
+          "gold_answer": "D",
+          "gold_answer_text": "川贝母",
+          "model_response": "B"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "乳香$没药",
+          "gold_answer": "D",
+          "gold_answer_text": "川贝母",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“针头丸”缺失的药材：川乌、____、硼砂",
+      "options": {
+        "A": "蜀漆",
+        "B": "鸭跖草",
+        "C": "楮实子",
+        "D": "白僵蚕"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "白僵蚕",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": "A",
+          "predicted_answer_text": "蜀漆",
+          "gold_answer": "D",
+          "gold_answer_text": "白僵蚕",
+          "model_response": "A"
+        },
+        {
+          "model": "qwen3.5-plus",
+          "model_display_name": "Qwen3.5-Plus",
+          "predicted_answer": "A",
+          "predicted_answer_text": "蜀漆",
+          "gold_answer": "D",
+          "gold_answer_text": "白僵蚕",
+          "model_response": "A"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "蜀漆",
+          "gold_answer": "D",
+          "gold_answer_text": "白僵蚕",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“天王补心丹”缺失的药材：人参、当归、五味子、麦冬、天冬、柏子仁、酸枣仁、白茯苓、玄参、丹参、____、远志、地黄、黄连",
+      "options": {
+        "A": "钟乳石",
+        "B": "旋覆花",
+        "C": "白土茯苓",
+        "D": "桔梗"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "桔梗",
+      "error_count": 2,
+      "error_models": [
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "D",
+          "gold_answer_text": "桔梗",
+          "model_response": null
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "白土茯苓",
+          "gold_answer": "D",
+          "gold_answer_text": "桔梗",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“葛花解酒汤”缺失的药材：青皮、木香、橘红、____、猪苓、白茯苓、神曲、泽泻、干姜、白术、白豆蔻、葛花、砂仁",
+      "options": {
+        "A": "娑罗子",
+        "B": "大蓟",
+        "C": "人参",
+        "D": "预知子"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "人参",
+      "error_count": 2,
+      "error_models": [
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "C",
+          "gold_answer_text": "人参",
+          "model_response": ""
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "娑罗子",
+          "gold_answer": "C",
+          "gold_answer_text": "人参",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“朱砂安神丸”缺失的药材：朱砂、黄连、____、当归、甘草",
+      "options": {
+        "A": "连翘",
+        "B": "地黄",
+        "C": "白鹤灵芝",
+        "D": "千金子"
+      },
+      "gold_answer": "B",
+      "gold_answer_text": "地黄",
+      "error_count": 2,
+      "error_models": [
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "B",
+          "gold_answer_text": "地黄",
+          "model_response": null
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "连翘",
+          "gold_answer": "B",
+          "gold_answer_text": "地黄",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“增损当归丸”缺失的药材：四物汤、____、独活、全蝎、续断、川楝子、延胡索、木香、丁香、小茴香",
+      "options": {
+        "A": "防风",
+        "B": "芦荟",
+        "C": "蟾皮",
+        "D": "苦参"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "防风",
+      "error_count": 2,
+      "error_models": [
+        {
+          "model": "kimi-k2.5",
+          "model_display_name": "Kimi-K2.5",
+          "predicted_answer": "B",
+          "predicted_answer_text": "芦荟",
+          "gold_answer": "A",
+          "gold_answer_text": "防风",
+          "model_response": "B"
+        },
+        {
+          "model": "claude-sonnet-4-6",
+          "model_display_name": "Claude-Sonnet-4.6",
+          "predicted_answer": "B",
+          "predicted_answer_text": "芦荟",
+          "gold_answer": "A",
+          "gold_answer_text": "防风",
+          "model_response": "B"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“人参养荣汤”缺失的药材：白芍、人参、白术、陈皮、茯苓、当归、桂心、甘草、熟地、远志、____",
+      "options": {
+        "A": "鸦胆子",
+        "B": "薄荷油",
+        "C": "玉竹",
+        "D": "五味子"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "五味子",
+      "error_count": 2,
+      "error_models": [
+        {
+          "model": "gemini-3.1-pro-preview",
+          "model_display_name": "Gemini-3.1-Pro-Preview",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "D",
+          "gold_answer_text": "五味子",
+          "model_response": null
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "玉竹",
+          "gold_answer": "D",
+          "gold_answer_text": "五味子",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“健脾丸”缺失的药材：白术、木香、黄连、甘草、白茯苓、人参、____、陈皮、砂仁、麦芽、山药、肉豆蔻",
+      "options": {
+        "A": "青叶胆",
+        "B": "白木",
+        "C": "肿节风",
+        "D": "神曲"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "神曲",
+      "error_count": 2,
+      "error_models": [
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "D",
+          "gold_answer_text": "神曲",
+          "model_response": null
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "D",
+          "gold_answer_text": "神曲",
+          "model_response": "本题考查健脾丸的组成。健脾丸由白术、木香、黄连、甘草、白茯苓、人参、陈"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“赤丸”缺失的药材：草乌头、____、细辛、半夏",
+      "options": {
+        "A": "百蕊草",
+        "B": "水飞蓟",
+        "C": "茯苓",
+        "D": "片姜黄"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "茯苓",
+      "error_count": 2,
+      "error_models": [
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": "D",
+          "predicted_answer_text": "片姜黄",
+          "gold_answer": "C",
+          "gold_answer_text": "茯苓",
+          "model_response": "D"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "百蕊草",
+          "gold_answer": "C",
+          "gold_answer_text": "茯苓",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“金沸草散”缺失的药材：旋覆花、前胡、半夏、荆芥、甘草、赤茯苓、____、赤芍、生姜、大枣",
+      "options": {
+        "A": "浙贝母",
+        "B": "茯苓皮",
+        "C": "桃枝",
+        "D": "麻黄"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "麻黄",
+      "error_count": 2,
+      "error_models": [
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": "A",
+          "predicted_answer_text": "浙贝母",
+          "gold_answer": "D",
+          "gold_answer_text": "麻黄",
+          "model_response": "A"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "浙贝母",
+          "gold_answer": "D",
+          "gold_answer_text": "麻黄",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“延胡索汤”缺失的药材：延胡索、川芎、牛膝、当归、人参、____",
+      "options": {
+        "A": "刀豆",
+        "B": "五加皮",
+        "C": "生地",
+        "D": "橙子"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "生地",
+      "error_count": 2,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "B",
+          "predicted_answer_text": "五加皮",
+          "gold_answer": "C",
+          "gold_answer_text": "生地",
+          "model_response": "B"
+        },
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": "B",
+          "predicted_answer_text": "五加皮",
+          "gold_answer": "C",
+          "gold_answer_text": "生地",
+          "model_response": "B"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“白虎汤”缺失的药材：石膏、知母、甘草、粳米、____",
+      "options": {
+        "A": "人参",
+        "B": "朱砂",
+        "C": "火麻仁",
+        "D": "野菊花"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "人参",
+      "error_count": 2,
+      "error_models": [
+        {
+          "model": "claude-sonnet-4-6",
+          "model_display_name": "Claude-Sonnet-4.6",
+          "predicted_answer": "D",
+          "predicted_answer_text": "野菊花",
+          "gold_answer": "A",
+          "gold_answer_text": "人参",
+          "model_response": "D\n\nWait, let me reconsider. 白虎汤 consists of 石膏、知母、甘草、粳米 - that's the complete formula with 4 ingredients. There's no fifth ingredient in the basic 白虎汤.\n\nThe question asks to complete the formula with a missing ingredient, but 白虎汤 only has these 4 ingredients. However, 白虎加人参汤 adds 人参.\n\nA"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "火麻仁",
+          "gold_answer": "A",
+          "gold_answer_text": "人参",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“清气化痰丸”缺失的药材：陈皮、苦杏仁、枳实、黄芩、瓜蒌子、____、生姜",
+      "options": {
+        "A": "山楂叶",
+        "B": "蛤壳",
+        "C": "北豆根",
+        "D": "茯苓"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "茯苓",
+      "error_count": 2,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "B",
+          "predicted_answer_text": "蛤壳",
+          "gold_answer": "D",
+          "gold_answer_text": "茯苓",
+          "model_response": "B"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "B",
+          "predicted_answer_text": "蛤壳",
+          "gold_answer": "D",
+          "gold_answer_text": "茯苓",
+          "model_response": "B"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“鸡鸣散”缺失的药材：槟榔、橘红、木瓜、____、紫苏叶、桔梗、生姜",
+      "options": {
+        "A": "何首乌",
+        "B": "桑枝",
+        "C": "吴茱萸",
+        "D": "茯神"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "吴茱萸",
+      "error_count": 2,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "A",
+          "predicted_answer_text": "何首乌",
+          "gold_answer": "C",
+          "gold_answer_text": "吴茱萸",
+          "model_response": "A"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "B",
+          "predicted_answer_text": "桑枝",
+          "gold_answer": "C",
+          "gold_answer_text": "吴茱萸",
+          "model_response": "B"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“苓桂术甘汤”缺失的药材：茯苓、桂枝、____、甘草",
+      "options": {
+        "A": "甘松",
+        "B": "金荞麦",
+        "C": "胖大海",
+        "D": "白术"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "白术",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "gemini-3.1-pro-preview",
+          "model_display_name": "Gemini-3.1-Pro-Preview",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "D",
+          "gold_answer_text": "白术",
+          "model_response": null
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“枳术丸”缺失的药材：____、白术",
+      "options": {
+        "A": "附子",
+        "B": "蜂房",
+        "C": "枳实",
+        "D": "佛手"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "枳实",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "gemini-3.1-pro-preview",
+          "model_display_name": "Gemini-3.1-Pro-Preview",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "C",
+          "gold_answer_text": "枳实",
+          "model_response": null
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“散聚汤”缺失的药材：半夏、槟榔、当归、陈皮、苦杏仁、桂心、____、甘草、附子、川芎、枳壳、厚朴、吴茱萸",
+      "options": {
+        "A": "瓜蒌子",
+        "B": "苍耳子",
+        "C": "蓖麻油",
+        "D": "茯苓"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "茯苓",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "瓜蒌子",
+          "gold_answer": "D",
+          "gold_answer_text": "茯苓",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“温经汤”缺失的药材：吴茱萸、当归、____、川芎、麦冬、半夏、人参、阿胶、桂枝、牡丹皮、生姜、甘草",
+      "options": {
+        "A": "麻黄根",
+        "B": "刺猬皮",
+        "C": "胖大海",
+        "D": "芍药"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "芍药",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "胖大海",
+          "gold_answer": "D",
+          "gold_answer_text": "芍药",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“小续命汤”缺失的药材：麻黄、防己、人参、黄芩、肉桂、甘草、____、川芎、苦杏仁、附子、防风、生姜",
+      "options": {
+        "A": "紫河车",
+        "B": "贯众",
+        "C": "白芍",
+        "D": "莪术"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "白芍",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "紫河车",
+          "gold_answer": "C",
+          "gold_answer_text": "白芍",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“鳖甲煎丸”缺失的药材：鳖甲、射干、黄芩、柴胡、鼠妇、干姜、大黄、芍药、桂枝、葶苈子、石韦、厚朴、牡丹皮、____、凌霄花、半夏、人参、土鳖虫、阿胶、蜂房、赤硝、蜣螂、桃仁",
+      "options": {
+        "A": "藏青果",
+        "B": "瞿麦",
+        "C": "槲寄生",
+        "D": "紫苏叶"
+      },
+      "gold_answer": "B",
+      "gold_answer_text": "瞿麦",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "B",
+          "gold_answer_text": "瞿麦",
+          "model_response": "本题考查中药方剂的组成。鳖甲煎丸由鳖甲、射干、黄芩、柴胡、鼠妇、干姜、"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“柴胡桂枝干姜汤”缺失的药材：柴胡、桂枝、干姜、天花粉、____、牡蛎、甘草",
+      "options": {
+        "A": "连翘",
+        "B": "斑蝥",
+        "C": "竹茹",
+        "D": "黄芩"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "黄芩",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "连翘",
+          "gold_answer": "D",
+          "gold_answer_text": "黄芩",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“半夏泻心汤”缺失的药材：____、黄芩、干姜、人参、甘草、黄连、大枣",
+      "options": {
+        "A": "半夏",
+        "B": "羌活",
+        "C": "白芍",
+        "D": "穿心莲"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "半夏",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "A",
+          "gold_answer_text": "半夏",
+          "model_response": null
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“竹叶石膏汤”缺失的药材：淡竹叶、石膏、半夏、人参、麦冬、甘草、____",
+      "options": {
+        "A": "辛夷",
+        "B": "粳米",
+        "C": "蛤壳",
+        "D": "紫苏"
+      },
+      "gold_answer": "B",
+      "gold_answer_text": "粳米",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "蛤壳",
+          "gold_answer": "B",
+          "gold_answer_text": "粳米",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“抵当汤”缺失的药材：____、虻虫、桃仁、大黄",
+      "options": {
+        "A": "商陆",
+        "B": "牡丹皮",
+        "C": "水蛭",
+        "D": "西红花"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "水蛭",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "B",
+          "predicted_answer_text": "牡丹皮",
+          "gold_answer": "C",
+          "gold_answer_text": "水蛭",
+          "model_response": "B"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“乌梅丸”缺失的药材：乌梅、细辛、干姜、当归、附子、____、黄柏、黄连、人参、花椒",
+      "options": {
+        "A": "壁钱",
+        "B": "木贼",
+        "C": "炮姜",
+        "D": "桂枝"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "桂枝",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "炮姜",
+          "gold_answer": "D",
+          "gold_answer_text": "桂枝",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“苦酒汤”缺失的药材：半夏、鸡子白、____",
+      "options": {
+        "A": "紫草",
+        "B": "瓜蒌子",
+        "C": "杠板归",
+        "D": "醋"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "醋",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "B",
+          "predicted_answer_text": "瓜蒌子",
+          "gold_answer": "D",
+          "gold_answer_text": "醋",
+          "model_response": "B"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“柴胡陷胸汤”缺失的药材：柴胡、半夏、黄连、桔梗、黄芩、____、枳实、生姜",
+      "options": {
+        "A": "泽泻",
+        "B": "猪牙皂",
+        "C": "瓜蒌子",
+        "D": "刺蒺藜"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "瓜蒌子",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "泽泻",
+          "gold_answer": "C",
+          "gold_answer_text": "瓜蒌子",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“清燥救肺汤”缺失的药材：桑叶、石膏、甘草、黑芝麻、人参、苦杏仁、阿胶、____、枇杷叶",
+      "options": {
+        "A": "白茅花",
+        "B": "麦冬",
+        "C": "楮实子",
+        "D": "伏龙肝"
+      },
+      "gold_answer": "B",
+      "gold_answer_text": "麦冬",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "楮实子",
+          "gold_answer": "B",
+          "gold_answer_text": "麦冬",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“调胃承气汤”缺失的药材：____、甘草、大黄",
+      "options": {
+        "A": "白石脂",
+        "B": "芒硝",
+        "C": "扁豆花",
+        "D": "翼首草"
+      },
+      "gold_answer": "B",
+      "gold_answer_text": "芒硝",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "白石脂",
+          "gold_answer": "B",
+          "gold_answer_text": "芒硝",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“失笑散”缺失的药材：蒲黄、____",
+      "options": {
+        "A": "徐长卿",
+        "B": "牵牛子",
+        "C": "薄荷脑",
+        "D": "五灵脂"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "五灵脂",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "B",
+          "predicted_answer_text": "牵牛子",
+          "gold_answer": "D",
+          "gold_answer_text": "五灵脂",
+          "model_response": "B"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“茯苓四逆汤”缺失的药材：茯苓、____、附子、甘草、干姜",
+      "options": {
+        "A": "白茯苓",
+        "B": "珠子参",
+        "C": "胆南星",
+        "D": "人参"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "人参",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "白茯苓",
+          "gold_answer": "D",
+          "gold_answer_text": "人参",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“增损四物汤”缺失的药材：当归、川芎、人参、____、甘草、白芍",
+      "options": {
+        "A": "白矾",
+        "B": "豹皮樟",
+        "C": "杜仲叶",
+        "D": "干姜"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "干姜",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "B",
+          "predicted_answer_text": "豹皮樟",
+          "gold_answer": "D",
+          "gold_answer_text": "干姜",
+          "model_response": "B"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“防己黄芪汤”缺失的药材：防己、甘草、白术、____",
+      "options": {
+        "A": "没药",
+        "B": "龟甲",
+        "C": "黄芪",
+        "D": "玉米须"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "黄芪",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "gemini-3.1-pro-preview",
+          "model_display_name": "Gemini-3.1-Pro-Preview",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "C",
+          "gold_answer_text": "黄芪",
+          "model_response": null
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“固经丸”缺失的药材：龟甲、____、芍药、樗白皮、香附、黄芩",
+      "options": {
+        "A": "赤芍",
+        "B": "蛤蚧",
+        "C": "两头尖",
+        "D": "黄柏"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "黄柏",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "赤芍",
+          "gold_answer": "D",
+          "gold_answer_text": "黄柏",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“薏苡仁汤”缺失的药材：薏苡仁、当归、芍药、麻黄、肉桂、甘草、____",
+      "options": {
+        "A": "苍术",
+        "B": "海藻",
+        "C": "拳参",
+        "D": "麻油"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "苍术",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "A",
+          "gold_answer_text": "苍术",
+          "model_response": ""
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“控涎丹”缺失的药材：甘遂、____、白芥子",
+      "options": {
+        "A": "京大戟",
+        "B": "莪术",
+        "C": "鸡子黄",
+        "D": "野菊花"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "京大戟",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "A",
+          "gold_answer_text": "京大戟",
+          "model_response": null
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“虎潜丸”缺失的药材：黄柏、知母、熟地、龟甲、白芍、当归、牛膝、虎胫骨、锁阳、陈皮、____",
+      "options": {
+        "A": "干姜",
+        "B": "车前草",
+        "C": "紫苏叶",
+        "D": "冬瓜皮"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "干姜",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "A",
+          "gold_answer_text": "干姜",
+          "model_response": ""
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“逍遥散”缺失的药材：柴胡、当归、白芍、白术、____、甘草、炮姜、薄荷",
+      "options": {
+        "A": "麻黄",
+        "B": "冬虫夏草",
+        "C": "茯苓",
+        "D": "知母"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "茯苓",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "gemini-3.1-pro-preview",
+          "model_display_name": "Gemini-3.1-Pro-Preview",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "C",
+          "gold_answer_text": "茯苓",
+          "model_response": null
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“射干麻黄汤”缺失的药材：射干、麻黄、____、细辛、五味子、半夏、紫菀、款冬花、大枣",
+      "options": {
+        "A": "桑螵蛸",
+        "B": "生姜",
+        "C": "白屈菜",
+        "D": "饴糖"
+      },
+      "gold_answer": "B",
+      "gold_answer_text": "生姜",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "桑螵蛸",
+          "gold_answer": "B",
+          "gold_answer_text": "生姜",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“葛根汤”缺失的药材：葛根、麻黄、桂枝、____、甘草、生姜、大枣",
+      "options": {
+        "A": "豨莶草",
+        "B": "蟾酥",
+        "C": "泽漆",
+        "D": "芍药"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "芍药",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "豨莶草",
+          "gold_answer": "D",
+          "gold_answer_text": "芍药",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“白通加猪胆汁汤”缺失的药材：____、干姜、附子、人尿、猪胆汁",
+      "options": {
+        "A": "葱白",
+        "B": "射干",
+        "C": "小蓟",
+        "D": "当归"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "葱白",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "B",
+          "predicted_answer_text": "射干",
+          "gold_answer": "A",
+          "gold_answer_text": "葱白",
+          "model_response": "B"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“栀子柏皮汤”缺失的药材：栀子、甘草、____",
+      "options": {
+        "A": "升麻",
+        "B": "黄柏",
+        "C": "桉叶",
+        "D": "预知子"
+      },
+      "gold_answer": "B",
+      "gold_answer_text": "黄柏",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "升麻",
+          "gold_answer": "B",
+          "gold_answer_text": "黄柏",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“橘皮竹茹汤”缺失的药材：____、竹茹、大枣、生姜、甘草、人参",
+      "options": {
+        "A": "桃仁",
+        "B": "糯米",
+        "C": "陈皮",
+        "D": "阳起石"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "陈皮",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "C",
+          "gold_answer_text": "陈皮",
+          "model_response": null
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“清骨散”缺失的药材：银柴胡、____、秦艽、鳖甲、地骨皮、青蒿、知母、甘草",
+      "options": {
+        "A": "西河柳",
+        "B": "常山",
+        "C": "苏合香",
+        "D": "胡黄连"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "胡黄连",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "西河柳",
+          "gold_answer": "D",
+          "gold_answer_text": "胡黄连",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“三棱煎”缺失的药材：三棱、____、青皮、半夏、麦芽",
+      "options": {
+        "A": "紫苏叶",
+        "B": "陈皮",
+        "C": "紫苏子",
+        "D": "莪术"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "莪术",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "B",
+          "predicted_answer_text": "陈皮",
+          "gold_answer": "D",
+          "gold_answer_text": "莪术",
+          "model_response": "B"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“普济消毒饮”缺失的药材：黄芩、黄连、____、甘草、玄参、柴胡、桔梗、连翘、板蓝根、马勃、牛蒡子、薄荷、僵蚕、升麻",
+      "options": {
+        "A": "大腹皮",
+        "B": "莱菔子",
+        "C": "筋骨草",
+        "D": "陈皮"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "陈皮",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "大腹皮",
+          "gold_answer": "D",
+          "gold_answer_text": "陈皮",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“燥肠丸”缺失的药材：附子、龙骨、干姜、吴茱萸、罂粟壳、____",
+      "options": {
+        "A": "橘红",
+        "B": "苍耳子",
+        "C": "诃子",
+        "D": "紫苏"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "诃子",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "橘红",
+          "gold_answer": "C",
+          "gold_answer_text": "诃子",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“定喘汤”缺失的药材：白果、麻黄、半夏、____、桑白皮、紫苏子、苦杏仁、黄芩、甘草",
+      "options": {
+        "A": "梅花",
+        "B": "忍冬藤",
+        "C": "薄荷脑",
+        "D": "款冬花"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "款冬花",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "梅花",
+          "gold_answer": "D",
+          "gold_answer_text": "款冬花",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“异功散”缺失的药材：人参、茯苓、白术、甘草、____",
+      "options": {
+        "A": "花椒",
+        "B": "陈皮",
+        "C": "鱼腥草",
+        "D": "桂心"
+      },
+      "gold_answer": "B",
+      "gold_answer_text": "陈皮",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "花椒",
+          "gold_answer": "B",
+          "gold_answer_text": "陈皮",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“白通汤”缺失的药材：葱白、干姜、____",
+      "options": {
+        "A": "小茴香",
+        "B": "肉桂",
+        "C": "附子",
+        "D": "苍耳子"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "附子",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "B",
+          "predicted_answer_text": "肉桂",
+          "gold_answer": "C",
+          "gold_answer_text": "附子",
+          "model_response": "B"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“小青龙汤”缺失的药材：____、白芍、细辛、甘草、桂枝、半夏、五味子、干姜",
+      "options": {
+        "A": "大蓟",
+        "B": "半夏曲",
+        "C": "麻黄",
+        "D": "鸦胆子"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "麻黄",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "B",
+          "predicted_answer_text": "半夏曲",
+          "gold_answer": "C",
+          "gold_answer_text": "麻黄",
+          "model_response": "B"
+        }
+      ]
+    }
+  ],
+  "model_error_breakdown": {
+    "gpt-5.4": [
+      {
+        "id": 38,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“三圣散”缺失的药材：没药、琥珀、____",
+        "gold_answer": "C",
+        "gold_answer_text": "西红花",
+        "predicted_answer": "B",
+        "predicted_answer_text": "延胡索",
+        "model_response": "B"
+      },
+      {
+        "id": 64,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“泽泻散”缺失的药材：泽泻、桑白皮、____、枳壳、赤茯苓、槟榔",
+        "gold_answer": "A",
+        "gold_answer_text": "木通",
+        "predicted_answer": "C",
+        "predicted_answer_text": "葶苈子",
+        "model_response": "C"
+      },
+      {
+        "id": 70,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“三物白散”缺失的药材：桔梗、巴豆、____",
+        "gold_answer": "D",
+        "gold_answer_text": "川贝母",
+        "predicted_answer": "B",
+        "predicted_answer_text": "大皂角",
+        "model_response": "B"
+      },
+      {
+        "id": 77,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“延胡索汤”缺失的药材：延胡索、川芎、牛膝、当归、人参、____",
+        "gold_answer": "C",
+        "gold_answer_text": "生地",
+        "predicted_answer": "B",
+        "predicted_answer_text": "五加皮",
+        "model_response": "B"
+      },
+      {
+        "id": 94,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“清气化痰丸”缺失的药材：陈皮、苦杏仁、枳实、黄芩、瓜蒌子、____、生姜",
+        "gold_answer": "D",
+        "gold_answer_text": "茯苓",
+        "predicted_answer": "B",
+        "predicted_answer_text": "蛤壳",
+        "model_response": "B"
+      },
+      {
+        "id": 99,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“鸡鸣散”缺失的药材：槟榔、橘红、木瓜、____、紫苏叶、桔梗、生姜",
+        "gold_answer": "C",
+        "gold_answer_text": "吴茱萸",
+        "predicted_answer": "A",
+        "predicted_answer_text": "何首乌",
+        "model_response": "A"
+      }
+    ],
+    "o3": [
+      {
+        "id": 9,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“疏凿饮子”缺失的药材：羌活、____、大腹皮、茯苓皮、花椒、木通、泽泻、商陆、赤小豆",
+        "gold_answer": "B",
+        "gold_answer_text": "槟榔",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": ""
+      },
+      {
+        "id": 32,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“葛花解酒汤”缺失的药材：青皮、木香、橘红、____、猪苓、白茯苓、神曲、泽泻、干姜、白术、白豆蔻、葛花、砂仁",
+        "gold_answer": "C",
+        "gold_answer_text": "人参",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": ""
+      },
+      {
+        "id": 33,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“清肺汤”缺失的药材：薏苡仁、____、苦杏仁、冬瓜仁、凤凰衣",
+        "gold_answer": "C",
+        "gold_answer_text": "防己",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": ""
+      },
+      {
+        "id": 38,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“三圣散”缺失的药材：没药、琥珀、____",
+        "gold_answer": "C",
+        "gold_answer_text": "西红花",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": ""
+      },
+      {
+        "id": 56,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“薏苡仁汤”缺失的药材：薏苡仁、当归、芍药、麻黄、肉桂、甘草、____",
+        "gold_answer": "A",
+        "gold_answer_text": "苍术",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": ""
+      },
+      {
+        "id": 59,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“赤丸”缺失的药材：草乌头、____、细辛、半夏",
+        "gold_answer": "C",
+        "gold_answer_text": "茯苓",
+        "predicted_answer": "D",
+        "predicted_answer_text": "片姜黄",
+        "model_response": "D"
+      },
+      {
+        "id": 61,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“金沸草散”缺失的药材：旋覆花、前胡、半夏、荆芥、甘草、赤茯苓、____、赤芍、生姜、大枣",
+        "gold_answer": "D",
+        "gold_answer_text": "麻黄",
+        "predicted_answer": "A",
+        "predicted_answer_text": "浙贝母",
+        "model_response": "A"
+      },
+      {
+        "id": 62,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“虎潜丸”缺失的药材：黄柏、知母、熟地、龟甲、白芍、当归、牛膝、虎胫骨、锁阳、陈皮、____",
+        "gold_answer": "A",
+        "gold_answer_text": "干姜",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": ""
+      },
+      {
+        "id": 64,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“泽泻散”缺失的药材：泽泻、桑白皮、____、枳壳、赤茯苓、槟榔",
+        "gold_answer": "A",
+        "gold_answer_text": "木通",
+        "predicted_answer": "C",
+        "predicted_answer_text": "葶苈子",
+        "model_response": "C"
+      },
+      {
+        "id": 77,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“延胡索汤”缺失的药材：延胡索、川芎、牛膝、当归、人参、____",
+        "gold_answer": "C",
+        "gold_answer_text": "生地",
+        "predicted_answer": "B",
+        "predicted_answer_text": "五加皮",
+        "model_response": "B"
+      },
+      {
+        "id": 92,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“针头丸”缺失的药材：川乌、____、硼砂",
+        "gold_answer": "D",
+        "gold_answer_text": "白僵蚕",
+        "predicted_answer": "A",
+        "predicted_answer_text": "蜀漆",
+        "model_response": "A"
+      }
+    ],
+    "kimi-k2.5": [
+      {
+        "id": 38,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“三圣散”缺失的药材：没药、琥珀、____",
+        "gold_answer": "C",
+        "gold_answer_text": "西红花",
+        "predicted_answer": "A",
+        "predicted_answer_text": "全蝎",
+        "model_response": "A"
+      },
+      {
+        "id": 43,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“增损当归丸”缺失的药材：四物汤、____、独活、全蝎、续断、川楝子、延胡索、木香、丁香、小茴香",
+        "gold_answer": "A",
+        "gold_answer_text": "防风",
+        "predicted_answer": "B",
+        "predicted_answer_text": "芦荟",
+        "model_response": "B"
+      }
+    ],
+    "deepseek-v3.2": [
+      {
+        "id": 16,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“半夏泻心汤”缺失的药材：____、黄芩、干姜、人参、甘草、黄连、大枣",
+        "gold_answer": "A",
+        "gold_answer_text": "半夏",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": null
+      },
+      {
+        "id": 25,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“天王补心丹”缺失的药材：人参、当归、五味子、麦冬、天冬、柏子仁、酸枣仁、白茯苓、玄参、丹参、____、远志、地黄、黄连",
+        "gold_answer": "D",
+        "gold_answer_text": "桔梗",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": null
+      },
+      {
+        "id": 40,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“朱砂安神丸”缺失的药材：朱砂、黄连、____、当归、甘草",
+        "gold_answer": "B",
+        "gold_answer_text": "地黄",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": null
+      },
+      {
+        "id": 58,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“健脾丸”缺失的药材：白术、木香、黄连、甘草、白茯苓、人参、____、陈皮、砂仁、麦芽、山药、肉豆蔻",
+        "gold_answer": "D",
+        "gold_answer_text": "神曲",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": null
+      },
+      {
+        "id": 60,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“控涎丹”缺失的药材：甘遂、____、白芥子",
+        "gold_answer": "A",
+        "gold_answer_text": "京大戟",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": null
+      },
+      {
+        "id": 70,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“三物白散”缺失的药材：桔梗、巴豆、____",
+        "gold_answer": "D",
+        "gold_answer_text": "川贝母",
+        "predicted_answer": "B",
+        "predicted_answer_text": "大皂角",
+        "model_response": "B"
+      },
+      {
+        "id": 81,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“橘皮竹茹汤”缺失的药材：____、竹茹、大枣、生姜、甘草、人参",
+        "gold_answer": "C",
+        "gold_answer_text": "陈皮",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": null
+      }
+    ],
+    "gemini-3.1-pro-preview": [
+      {
+        "id": 1,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“苓桂术甘汤”缺失的药材：茯苓、桂枝、____、甘草",
+        "gold_answer": "D",
+        "gold_answer_text": "白术",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": null
+      },
+      {
+        "id": 6,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“枳术丸”缺失的药材：____、白术",
+        "gold_answer": "C",
+        "gold_answer_text": "枳实",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": null
+      },
+      {
+        "id": 9,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“疏凿饮子”缺失的药材：羌活、____、大腹皮、茯苓皮、花椒、木通、泽泻、商陆、赤小豆",
+        "gold_answer": "B",
+        "gold_answer_text": "槟榔",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": null
+      },
+      {
+        "id": 38,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“三圣散”缺失的药材：没药、琥珀、____",
+        "gold_answer": "C",
+        "gold_answer_text": "西红花",
+        "predicted_answer": "B",
+        "predicted_answer_text": "延胡索",
+        "model_response": "B"
+      },
+      {
+        "id": 44,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“人参养荣汤”缺失的药材：白芍、人参、白术、陈皮、茯苓、当归、桂心、甘草、熟地、远志、____",
+        "gold_answer": "D",
+        "gold_answer_text": "五味子",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": null
+      },
+      {
+        "id": 49,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“防己黄芪汤”缺失的药材：防己、甘草、白术、____",
+        "gold_answer": "C",
+        "gold_answer_text": "黄芪",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": null
+      },
+      {
+        "id": 63,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“逍遥散”缺失的药材：柴胡、当归、白芍、白术、____、甘草、炮姜、薄荷",
+        "gold_answer": "C",
+        "gold_answer_text": "茯苓",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": null
+      }
+    ],
+    "claude-sonnet-4-6": [
+      {
+        "id": 38,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“三圣散”缺失的药材：没药、琥珀、____",
+        "gold_answer": "C",
+        "gold_answer_text": "西红花",
+        "predicted_answer": "B",
+        "predicted_answer_text": "延胡索",
+        "model_response": "B"
+      },
+      {
+        "id": 43,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“增损当归丸”缺失的药材：四物汤、____、独活、全蝎、续断、川楝子、延胡索、木香、丁香、小茴香",
+        "gold_answer": "A",
+        "gold_answer_text": "防风",
+        "predicted_answer": "B",
+        "predicted_answer_text": "芦荟",
+        "model_response": "B"
+      },
+      {
+        "id": 91,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“白虎汤”缺失的药材：石膏、知母、甘草、粳米、____",
+        "gold_answer": "A",
+        "gold_answer_text": "人参",
+        "predicted_answer": "D",
+        "predicted_answer_text": "野菊花",
+        "model_response": "D\n\nWait, let me reconsider. 白虎汤 consists of 石膏、知母、甘草、粳米 - that's the complete formula with 4 ingredients. There's no fifth ingredient in the basic 白虎汤.\n\nThe question asks to complete the formula with a missing ingredient, but 白虎汤 only has these 4 ingredients. However, 白虎加人参汤 adds 人参.\n\nA"
+      }
+    ],
+    "qwen3.5-plus": [
+      {
+        "id": 33,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“清肺汤”缺失的药材：薏苡仁、____、苦杏仁、冬瓜仁、凤凰衣",
+        "gold_answer": "C",
+        "gold_answer_text": "防己",
+        "predicted_answer": "A",
+        "predicted_answer_text": "华山参",
+        "model_response": "A"
+      },
+      {
+        "id": 38,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“三圣散”缺失的药材：没药、琥珀、____",
+        "gold_answer": "C",
+        "gold_answer_text": "西红花",
+        "predicted_answer": "B",
+        "predicted_answer_text": "延胡索",
+        "model_response": "B"
+      },
+      {
+        "id": 92,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“针头丸”缺失的药材：川乌、____、硼砂",
+        "gold_answer": "D",
+        "gold_answer_text": "白僵蚕",
+        "predicted_answer": "A",
+        "predicted_answer_text": "蜀漆",
+        "model_response": "A"
+      }
+    ],
+    "zhongjing": [
+      {
+        "id": 7,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“散聚汤”缺失的药材：半夏、槟榔、当归、陈皮、苦杏仁、桂心、____、甘草、附子、川芎、枳壳、厚朴、吴茱萸",
+        "gold_answer": "D",
+        "gold_answer_text": "茯苓",
+        "predicted_answer": "A",
+        "predicted_answer_text": "瓜蒌子",
+        "model_response": "A"
+      },
+      {
+        "id": 8,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“温经汤”缺失的药材：吴茱萸、当归、____、川芎、麦冬、半夏、人参、阿胶、桂枝、牡丹皮、生姜、甘草",
+        "gold_answer": "D",
+        "gold_answer_text": "芍药",
+        "predicted_answer": "C",
+        "predicted_answer_text": "胖大海",
+        "model_response": "C"
+      },
+      {
+        "id": 9,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“疏凿饮子”缺失的药材：羌活、____、大腹皮、茯苓皮、花椒、木通、泽泻、商陆、赤小豆",
+        "gold_answer": "B",
+        "gold_answer_text": "槟榔",
+        "predicted_answer": "A",
+        "predicted_answer_text": "猪苓",
+        "model_response": "A"
+      },
+      {
+        "id": 10,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“小续命汤”缺失的药材：麻黄、防己、人参、黄芩、肉桂、甘草、____、川芎、苦杏仁、附子、防风、生姜",
+        "gold_answer": "C",
+        "gold_answer_text": "白芍",
+        "predicted_answer": "A",
+        "predicted_answer_text": "紫河车",
+        "model_response": "A"
+      },
+      {
+        "id": 11,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“鳖甲煎丸”缺失的药材：鳖甲、射干、黄芩、柴胡、鼠妇、干姜、大黄、芍药、桂枝、葶苈子、石韦、厚朴、牡丹皮、____、凌霄花、半夏、人参、土鳖虫、阿胶、蜂房、赤硝、蜣螂、桃仁",
+        "gold_answer": "B",
+        "gold_answer_text": "瞿麦",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": "本题考查中药方剂的组成。鳖甲煎丸由鳖甲、射干、黄芩、柴胡、鼠妇、干姜、"
+      },
+      {
+        "id": 13,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“柴胡桂枝干姜汤”缺失的药材：柴胡、桂枝、干姜、天花粉、____、牡蛎、甘草",
+        "gold_answer": "D",
+        "gold_answer_text": "黄芩",
+        "predicted_answer": "A",
+        "predicted_answer_text": "连翘",
+        "model_response": "A"
+      },
+      {
+        "id": 18,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“竹叶石膏汤”缺失的药材：淡竹叶、石膏、半夏、人参、麦冬、甘草、____",
+        "gold_answer": "B",
+        "gold_answer_text": "粳米",
+        "predicted_answer": "C",
+        "predicted_answer_text": "蛤壳",
+        "model_response": "C"
+      },
+      {
+        "id": 21,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“抵当汤”缺失的药材：____、虻虫、桃仁、大黄",
+        "gold_answer": "C",
+        "gold_answer_text": "水蛭",
+        "predicted_answer": "B",
+        "predicted_answer_text": "牡丹皮",
+        "model_response": "B"
+      },
+      {
+        "id": 23,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“乌梅丸”缺失的药材：乌梅、细辛、干姜、当归、附子、____、黄柏、黄连、人参、花椒",
+        "gold_answer": "D",
+        "gold_answer_text": "桂枝",
+        "predicted_answer": "C",
+        "predicted_answer_text": "炮姜",
+        "model_response": "C"
+      },
+      {
+        "id": 24,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“苦酒汤”缺失的药材：半夏、鸡子白、____",
+        "gold_answer": "D",
+        "gold_answer_text": "醋",
+        "predicted_answer": "B",
+        "predicted_answer_text": "瓜蒌子",
+        "model_response": "B"
+      },
+      {
+        "id": 25,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“天王补心丹”缺失的药材：人参、当归、五味子、麦冬、天冬、柏子仁、酸枣仁、白茯苓、玄参、丹参、____、远志、地黄、黄连",
+        "gold_answer": "D",
+        "gold_answer_text": "桔梗",
+        "predicted_answer": "C",
+        "predicted_answer_text": "白土茯苓",
+        "model_response": "C"
+      },
+      {
+        "id": 28,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“柴胡陷胸汤”缺失的药材：柴胡、半夏、黄连、桔梗、黄芩、____、枳实、生姜",
+        "gold_answer": "C",
+        "gold_answer_text": "瓜蒌子",
+        "predicted_answer": "A",
+        "predicted_answer_text": "泽泻",
+        "model_response": "A"
+      },
+      {
+        "id": 29,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“清燥救肺汤”缺失的药材：桑叶、石膏、甘草、黑芝麻、人参、苦杏仁、阿胶、____、枇杷叶",
+        "gold_answer": "B",
+        "gold_answer_text": "麦冬",
+        "predicted_answer": "C",
+        "predicted_answer_text": "楮实子",
+        "model_response": "C"
+      },
+      {
+        "id": 32,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“葛花解酒汤”缺失的药材：青皮、木香、橘红、____、猪苓、白茯苓、神曲、泽泻、干姜、白术、白豆蔻、葛花、砂仁",
+        "gold_answer": "C",
+        "gold_answer_text": "人参",
+        "predicted_answer": "A",
+        "predicted_answer_text": "娑罗子",
+        "model_response": "A"
+      },
+      {
+        "id": 33,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“清肺汤”缺失的药材：薏苡仁、____、苦杏仁、冬瓜仁、凤凰衣",
+        "gold_answer": "C",
+        "gold_answer_text": "防己",
+        "predicted_answer": "A",
+        "predicted_answer_text": "华山参",
+        "model_response": "A"
+      },
+      {
+        "id": 34,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“调胃承气汤”缺失的药材：____、甘草、大黄",
+        "gold_answer": "B",
+        "gold_answer_text": "芒硝",
+        "predicted_answer": "A",
+        "predicted_answer_text": "白石脂",
+        "model_response": "A"
+      },
+      {
+        "id": 38,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“三圣散”缺失的药材：没药、琥珀、____",
+        "gold_answer": "C",
+        "gold_answer_text": "西红花",
+        "predicted_answer": "A",
+        "predicted_answer_text": "全蝎",
+        "model_response": "A"
+      },
+      {
+        "id": 40,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“朱砂安神丸”缺失的药材：朱砂、黄连、____、当归、甘草",
+        "gold_answer": "B",
+        "gold_answer_text": "地黄",
+        "predicted_answer": "A",
+        "predicted_answer_text": "连翘",
+        "model_response": "A"
+      },
+      {
+        "id": 44,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“人参养荣汤”缺失的药材：白芍、人参、白术、陈皮、茯苓、当归、桂心、甘草、熟地、远志、____",
+        "gold_answer": "D",
+        "gold_answer_text": "五味子",
+        "predicted_answer": "C",
+        "predicted_answer_text": "玉竹",
+        "model_response": "C"
+      },
+      {
+        "id": 45,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“失笑散”缺失的药材：蒲黄、____",
+        "gold_answer": "D",
+        "gold_answer_text": "五灵脂",
+        "predicted_answer": "B",
+        "predicted_answer_text": "牵牛子",
+        "model_response": "B"
+      },
+      {
+        "id": 47,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“茯苓四逆汤”缺失的药材：茯苓、____、附子、甘草、干姜",
+        "gold_answer": "D",
+        "gold_answer_text": "人参",
+        "predicted_answer": "A",
+        "predicted_answer_text": "白茯苓",
+        "model_response": "A"
+      },
+      {
+        "id": 48,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“增损四物汤”缺失的药材：当归、川芎、人参、____、甘草、白芍",
+        "gold_answer": "D",
+        "gold_answer_text": "干姜",
+        "predicted_answer": "B",
+        "predicted_answer_text": "豹皮樟",
+        "model_response": "B"
+      },
+      {
+        "id": 50,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“固经丸”缺失的药材：龟甲、____、芍药、樗白皮、香附、黄芩",
+        "gold_answer": "D",
+        "gold_answer_text": "黄柏",
+        "predicted_answer": "A",
+        "predicted_answer_text": "赤芍",
+        "model_response": "A"
+      },
+      {
+        "id": 58,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“健脾丸”缺失的药材：白术、木香、黄连、甘草、白茯苓、人参、____、陈皮、砂仁、麦芽、山药、肉豆蔻",
+        "gold_answer": "D",
+        "gold_answer_text": "神曲",
+        "predicted_answer": null,
+        "predicted_answer_text": "",
+        "model_response": "本题考查健脾丸的组成。健脾丸由白术、木香、黄连、甘草、白茯苓、人参、陈"
+      },
+      {
+        "id": 59,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“赤丸”缺失的药材：草乌头、____、细辛、半夏",
+        "gold_answer": "C",
+        "gold_answer_text": "茯苓",
+        "predicted_answer": "A",
+        "predicted_answer_text": "百蕊草",
+        "model_response": "A"
+      },
+      {
+        "id": 61,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“金沸草散”缺失的药材：旋覆花、前胡、半夏、荆芥、甘草、赤茯苓、____、赤芍、生姜、大枣",
+        "gold_answer": "D",
+        "gold_answer_text": "麻黄",
+        "predicted_answer": "A",
+        "predicted_answer_text": "浙贝母",
+        "model_response": "A"
+      },
+      {
+        "id": 64,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“泽泻散”缺失的药材：泽泻、桑白皮、____、枳壳、赤茯苓、槟榔",
+        "gold_answer": "A",
+        "gold_answer_text": "木通",
+        "predicted_answer": "C",
+        "predicted_answer_text": "葶苈子",
+        "model_response": "C"
+      },
+      {
+        "id": 67,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“射干麻黄汤”缺失的药材：射干、麻黄、____、细辛、五味子、半夏、紫菀、款冬花、大枣",
+        "gold_answer": "B",
+        "gold_answer_text": "生姜",
+        "predicted_answer": "A",
+        "predicted_answer_text": "桑螵蛸",
+        "model_response": "A"
+      },
+      {
+        "id": 70,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“三物白散”缺失的药材：桔梗、巴豆、____",
+        "gold_answer": "D",
+        "gold_answer_text": "川贝母",
+        "predicted_answer": "C",
+        "predicted_answer_text": "乳香$没药",
+        "model_response": "C"
+      },
+      {
+        "id": 72,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“葛根汤”缺失的药材：葛根、麻黄、桂枝、____、甘草、生姜、大枣",
+        "gold_answer": "D",
+        "gold_answer_text": "芍药",
+        "predicted_answer": "A",
+        "predicted_answer_text": "豨莶草",
+        "model_response": "A"
+      },
+      {
+        "id": 75,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“白通加猪胆汁汤”缺失的药材：____、干姜、附子、人尿、猪胆汁",
+        "gold_answer": "A",
+        "gold_answer_text": "葱白",
+        "predicted_answer": "B",
+        "predicted_answer_text": "射干",
+        "model_response": "B"
+      },
+      {
+        "id": 78,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“栀子柏皮汤”缺失的药材：栀子、甘草、____",
+        "gold_answer": "B",
+        "gold_answer_text": "黄柏",
+        "predicted_answer": "A",
+        "predicted_answer_text": "升麻",
+        "model_response": "A"
+      },
+      {
+        "id": 82,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“清骨散”缺失的药材：银柴胡、____、秦艽、鳖甲、地骨皮、青蒿、知母、甘草",
+        "gold_answer": "D",
+        "gold_answer_text": "胡黄连",
+        "predicted_answer": "A",
+        "predicted_answer_text": "西河柳",
+        "model_response": "A"
+      },
+      {
+        "id": 83,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“三棱煎”缺失的药材：三棱、____、青皮、半夏、麦芽",
+        "gold_answer": "D",
+        "gold_answer_text": "莪术",
+        "predicted_answer": "B",
+        "predicted_answer_text": "陈皮",
+        "model_response": "B"
+      },
+      {
+        "id": 85,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“普济消毒饮”缺失的药材：黄芩、黄连、____、甘草、玄参、柴胡、桔梗、连翘、板蓝根、马勃、牛蒡子、薄荷、僵蚕、升麻",
+        "gold_answer": "D",
+        "gold_answer_text": "陈皮",
+        "predicted_answer": "A",
+        "predicted_answer_text": "大腹皮",
+        "model_response": "A"
+      },
+      {
+        "id": 87,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“燥肠丸”缺失的药材：附子、龙骨、干姜、吴茱萸、罂粟壳、____",
+        "gold_answer": "C",
+        "gold_answer_text": "诃子",
+        "predicted_answer": "A",
+        "predicted_answer_text": "橘红",
+        "model_response": "A"
+      },
+      {
+        "id": 88,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“定喘汤”缺失的药材：白果、麻黄、半夏、____、桑白皮、紫苏子、苦杏仁、黄芩、甘草",
+        "gold_answer": "D",
+        "gold_answer_text": "款冬花",
+        "predicted_answer": "A",
+        "predicted_answer_text": "梅花",
+        "model_response": "A"
+      },
+      {
+        "id": 91,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“白虎汤”缺失的药材：石膏、知母、甘草、粳米、____",
+        "gold_answer": "A",
+        "gold_answer_text": "人参",
+        "predicted_answer": "C",
+        "predicted_answer_text": "火麻仁",
+        "model_response": "C"
+      },
+      {
+        "id": 92,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“针头丸”缺失的药材：川乌、____、硼砂",
+        "gold_answer": "D",
+        "gold_answer_text": "白僵蚕",
+        "predicted_answer": "A",
+        "predicted_answer_text": "蜀漆",
+        "model_response": "A"
+      },
+      {
+        "id": 94,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“清气化痰丸”缺失的药材：陈皮、苦杏仁、枳实、黄芩、瓜蒌子、____、生姜",
+        "gold_answer": "D",
+        "gold_answer_text": "茯苓",
+        "predicted_answer": "B",
+        "predicted_answer_text": "蛤壳",
+        "model_response": "B"
+      },
+      {
+        "id": 97,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“异功散”缺失的药材：人参、茯苓、白术、甘草、____",
+        "gold_answer": "B",
+        "gold_answer_text": "陈皮",
+        "predicted_answer": "A",
+        "predicted_answer_text": "花椒",
+        "model_response": "A"
+      },
+      {
+        "id": 98,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“白通汤”缺失的药材：葱白、干姜、____",
+        "gold_answer": "C",
+        "gold_answer_text": "附子",
+        "predicted_answer": "B",
+        "predicted_answer_text": "肉桂",
+        "model_response": "B"
+      },
+      {
+        "id": 99,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“鸡鸣散”缺失的药材：槟榔、橘红、木瓜、____、紫苏叶、桔梗、生姜",
+        "gold_answer": "C",
+        "gold_answer_text": "吴茱萸",
+        "predicted_answer": "B",
+        "predicted_answer_text": "桑枝",
+        "model_response": "B"
+      },
+      {
+        "id": 100,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“小青龙汤”缺失的药材：____、白芍、细辛、甘草、桂枝、半夏、五味子、干姜",
+        "gold_answer": "C",
+        "gold_answer_text": "麻黄",
+        "predicted_answer": "B",
+        "predicted_answer_text": "半夏曲",
+        "model_response": "B"
+      }
+    ]
+  }
+}

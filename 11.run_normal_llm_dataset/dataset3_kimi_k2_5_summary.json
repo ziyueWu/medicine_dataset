@@ -1,0 +1,7 @@
+{
+  "model": "kimi-k2.5",
+  "dataset": "dataset3",
+  "total": 100,
+  "correct": 90,
+  "accuracy": 0.9
+}

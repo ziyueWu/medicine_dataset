@@ -1,0 +1,1 @@
+{"llm1": null, "llm2": "备选0中的sentence_context包含了目标json的name“石膏汤”和完整的component“石膏 黄连 黄柏 黄芩 香豉 栀子 麻黄”，因此符合正确选项的标准。返回备选0的序号：0。"}

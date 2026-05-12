@@ -1,0 +1,7 @@
+{
+  "model": "o3",
+  "dataset": "dataset3",
+  "total": 100,
+  "correct": 69,
+  "accuracy": 0.69
+}

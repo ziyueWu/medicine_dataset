@@ -1,0 +1,125 @@
+{
+  "datasets": [
+    {
+      "dataset": "dataset1",
+      "top10_question_ids": [
+        5,
+        31,
+        34,
+        41,
+        80,
+        81,
+        82,
+        91,
+        38,
+        40
+      ],
+      "top10_error_counts": [
+        5,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ],
+      "model_error_counts": {
+        "gpt-5.4": 3,
+        "o3": 11,
+        "kimi-k2.5": 0,
+        "deepseek-v3.2": 6,
+        "gemini-3.1-pro-preview": 20,
+        "claude-sonnet-4-6": 4,
+        "qwen3.5-plus": 1,
+        "zhongjing": 63
+      }
+    },
+    {
+      "dataset": "dataset2",
+      "top10_question_ids": [
+        38,
+        9,
+        33,
+        64,
+        70,
+        92,
+        25,
+        32,
+        40,
+        43
+      ],
+      "top10_error_counts": [
+        7,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "model_error_counts": {
+        "gpt-5.4": 6,
+        "o3": 11,
+        "kimi-k2.5": 2,
+        "deepseek-v3.2": 7,
+        "gemini-3.1-pro-preview": 7,
+        "claude-sonnet-4-6": 3,
+        "qwen3.5-plus": 3,
+        "zhongjing": 44
+      }
+    },
+    {
+      "dataset": "dataset3",
+      "top10_question_ids": [
+        30,
+        4,
+        64,
+        10,
+        63,
+        73,
+        85,
+        96,
+        2,
+        22
+      ],
+      "top10_error_counts": [
+        8,
+        7,
+        7,
+        6,
+        6,
+        6,
+        6,
+        6,
+        4,
+        4
+      ],
+      "model_error_counts": {
+        "gpt-5.4": 18,
+        "o3": 31,
+        "kimi-k2.5": 10,
+        "deepseek-v3.2": 13,
+        "gemini-3.1-pro-preview": 11,
+        "claude-sonnet-4-6": 9,
+        "qwen3.5-plus": 14,
+        "zhongjing": 51
+      }
+    }
+  ],
+  "model_total_errors": {
+    "gpt-5.4": 27,
+    "o3": 53,
+    "kimi-k2.5": 12,
+    "deepseek-v3.2": 26,
+    "gemini-3.1-pro-preview": 38,
+    "claude-sonnet-4-6": 16,
+    "qwen3.5-plus": 18,
+    "zhongjing": 158
+  }
+}

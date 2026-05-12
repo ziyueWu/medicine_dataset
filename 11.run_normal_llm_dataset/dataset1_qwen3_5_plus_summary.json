@@ -1,0 +1,7 @@
+{
+  "model": "qwen3.5-plus",
+  "dataset": "dataset1",
+  "total": 100,
+  "correct": 99,
+  "accuracy": 0.99
+}

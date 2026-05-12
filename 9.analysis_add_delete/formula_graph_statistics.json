@@ -1,0 +1,5008 @@
+{
+  "formula_count": 276,
+  "herb_count": 259,
+  "herb_freq": [
+    {
+      "name": "甘草",
+      "degree_centrality": 0.3707865168539326,
+      "degree": 198,
+      "in_degree": 198,
+      "out_degree": 0
+    },
+    {
+      "name": "人参",
+      "degree_centrality": 0.1310861423220974,
+      "degree": 70,
+      "in_degree": 70,
+      "out_degree": 0
+    },
+    {
+      "name": "生姜",
+      "degree_centrality": 0.09925093632958802,
+      "degree": 53,
+      "in_degree": 53,
+      "out_degree": 0
+    },
+    {
+      "name": "白术",
+      "degree_centrality": 0.09550561797752809,
+      "degree": 51,
+      "in_degree": 51,
+      "out_degree": 0
+    },
+    {
+      "name": "大枣",
+      "degree_centrality": 0.09363295880149813,
+      "degree": 50,
+      "in_degree": 50,
+      "out_degree": 0
+    },
+    {
+      "name": "当归",
+      "degree_centrality": 0.09176029962546817,
+      "degree": 49,
+      "in_degree": 49,
+      "out_degree": 0
+    },
+    {
+      "name": "桂枝",
+      "degree_centrality": 0.08801498127340825,
+      "degree": 47,
+      "in_degree": 47,
+      "out_degree": 0
+    },
+    {
+      "name": "半夏",
+      "degree_centrality": 0.08426966292134831,
+      "degree": 45,
+      "in_degree": 45,
+      "out_degree": 0
+    },
+    {
+      "name": "茯苓",
+      "degree_centrality": 0.08052434456928839,
+      "degree": 43,
+      "in_degree": 43,
+      "out_degree": 0
+    },
+    {
+      "name": "芍药",
+      "degree_centrality": 0.0749063670411985,
+      "degree": 40,
+      "in_degree": 40,
+      "out_degree": 0
+    },
+    {
+      "name": "黄芩",
+      "degree_centrality": 0.06741573033707865,
+      "degree": 36,
+      "in_degree": 36,
+      "out_degree": 0
+    },
+    {
+      "name": "干姜",
+      "degree_centrality": 0.0655430711610487,
+      "degree": 35,
+      "in_degree": 35,
+      "out_degree": 0
+    },
+    {
+      "name": "川芎",
+      "degree_centrality": 0.06179775280898876,
+      "degree": 33,
+      "in_degree": 33,
+      "out_degree": 0
+    },
+    {
+      "name": "附子",
+      "degree_centrality": 0.06179775280898876,
+      "degree": 33,
+      "in_degree": 33,
+      "out_degree": 0
+    },
+    {
+      "name": "黄连",
+      "degree_centrality": 0.05805243445692884,
+      "degree": 31,
+      "in_degree": 31,
+      "out_degree": 0
+    },
+    {
+      "name": "陈皮",
+      "degree_centrality": 0.054307116104868915,
+      "degree": 29,
+      "in_degree": 29,
+      "out_degree": 0
+    },
+    {
+      "name": "麻黄",
+      "degree_centrality": 0.052434456928838954,
+      "degree": 28,
+      "in_degree": 28,
+      "out_degree": 0
+    },
+    {
+      "name": "厚朴",
+      "degree_centrality": 0.0449438202247191,
+      "degree": 24,
+      "in_degree": 24,
+      "out_degree": 0
+    },
+    {
+      "name": "大黄",
+      "degree_centrality": 0.0449438202247191,
+      "degree": 24,
+      "in_degree": 24,
+      "out_degree": 0
+    },
+    {
+      "name": "苦杏仁",
+      "degree_centrality": 0.0449438202247191,
+      "degree": 24,
+      "in_degree": 24,
+      "out_degree": 0
+    },
+    {
+      "name": "防风",
+      "degree_centrality": 0.0449438202247191,
+      "degree": 24,
+      "in_degree": 24,
+      "out_degree": 0
+    },
+    {
+      "name": "枳实",
+      "degree_centrality": 0.04119850187265918,
+      "degree": 22,
+      "in_degree": 22,
+      "out_degree": 0
+    },
+    {
+      "name": "柴胡",
+      "degree_centrality": 0.03745318352059925,
+      "degree": 20,
+      "in_degree": 20,
+      "out_degree": 0
+    },
+    {
+      "name": "白芍",
+      "degree_centrality": 0.03745318352059925,
+      "degree": 20,
+      "in_degree": 20,
+      "out_degree": 0
+    },
+    {
+      "name": "石膏",
+      "degree_centrality": 0.03745318352059925,
+      "degree": 20,
+      "in_degree": 20,
+      "out_degree": 0
+    },
+    {
+      "name": "黄芪",
+      "degree_centrality": 0.03745318352059925,
+      "degree": 20,
+      "in_degree": 20,
+      "out_degree": 0
+    },
+    {
+      "name": "麦冬",
+      "degree_centrality": 0.031835205992509365,
+      "degree": 17,
+      "in_degree": 17,
+      "out_degree": 0
+    },
+    {
+      "name": "栀子",
+      "degree_centrality": 0.0299625468164794,
+      "degree": 16,
+      "in_degree": 16,
+      "out_degree": 0
+    },
+    {
+      "name": "桔梗",
+      "degree_centrality": 0.0299625468164794,
+      "degree": 16,
+      "in_degree": 16,
+      "out_degree": 0
+    },
+    {
+      "name": "肉桂",
+      "degree_centrality": 0.028089887640449437,
+      "degree": 15,
+      "in_degree": 15,
+      "out_degree": 0
+    },
+    {
+      "name": "木香",
+      "degree_centrality": 0.026217228464419477,
+      "degree": 14,
+      "in_degree": 14,
+      "out_degree": 0
+    },
+    {
+      "name": "知母",
+      "degree_centrality": 0.026217228464419477,
+      "degree": 14,
+      "in_degree": 14,
+      "out_degree": 0
+    },
+    {
+      "name": "苍术",
+      "degree_centrality": 0.026217228464419477,
+      "degree": 14,
+      "in_degree": 14,
+      "out_degree": 0
+    },
+    {
+      "name": "生地",
+      "degree_centrality": 0.024344569288389514,
+      "degree": 13,
+      "in_degree": 13,
+      "out_degree": 0
+    },
+    {
+      "name": "羌活",
+      "degree_centrality": 0.024344569288389514,
+      "degree": 13,
+      "in_degree": 13,
+      "out_degree": 0
+    },
+    {
+      "name": "泽泻",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 12,
+      "out_degree": 0
+    },
+    {
+      "name": "黄柏",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 12,
+      "out_degree": 0
+    },
+    {
+      "name": "细辛",
+      "degree_centrality": 0.02059925093632959,
+      "degree": 11,
+      "in_degree": 11,
+      "out_degree": 0
+    },
+    {
+      "name": "五味子",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 10,
+      "out_degree": 0
+    },
+    {
+      "name": "枳壳",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 10,
+      "out_degree": 0
+    },
+    {
+      "name": "滑石",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 10,
+      "out_degree": 0
+    },
+    {
+      "name": "熟地",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 10,
+      "out_degree": 0
+    },
+    {
+      "name": "白芷",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 10,
+      "out_degree": 0
+    },
+    {
+      "name": "薄荷",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 10,
+      "out_degree": 0
+    },
+    {
+      "name": "桃仁",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 9,
+      "out_degree": 0
+    },
+    {
+      "name": "独活",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 9,
+      "out_degree": 0
+    },
+    {
+      "name": "赤茯苓",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 9,
+      "out_degree": 0
+    },
+    {
+      "name": "地黄",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 8,
+      "out_degree": 0
+    },
+    {
+      "name": "桂心",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 8,
+      "out_degree": 0
+    },
+    {
+      "name": "白茯苓",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 8,
+      "out_degree": 0
+    },
+    {
+      "name": "葛根",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 8,
+      "out_degree": 0
+    },
+    {
+      "name": "远志",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 8,
+      "out_degree": 0
+    },
+    {
+      "name": "吴茱萸",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 7,
+      "out_degree": 0
+    },
+    {
+      "name": "橘红",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 7,
+      "out_degree": 0
+    },
+    {
+      "name": "砂仁",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 7,
+      "out_degree": 0
+    },
+    {
+      "name": "粳米",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 7,
+      "out_degree": 0
+    },
+    {
+      "name": "芒硝",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 7,
+      "out_degree": 0
+    },
+    {
+      "name": "阿胶",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 7,
+      "out_degree": 0
+    },
+    {
+      "name": "升麻",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 6,
+      "out_degree": 0
+    },
+    {
+      "name": "天花粉",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 6,
+      "out_degree": 0
+    },
+    {
+      "name": "广藿香",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 6,
+      "out_degree": 0
+    },
+    {
+      "name": "玄参",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 6,
+      "out_degree": 0
+    },
+    {
+      "name": "百合",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 6,
+      "out_degree": 0
+    },
+    {
+      "name": "神曲",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 6,
+      "out_degree": 0
+    },
+    {
+      "name": "荆芥",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 6,
+      "out_degree": 0
+    },
+    {
+      "name": "龙骨",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 6,
+      "out_degree": 0
+    },
+    {
+      "name": "前胡",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 5,
+      "out_degree": 0
+    },
+    {
+      "name": "大皂角",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 5,
+      "out_degree": 0
+    },
+    {
+      "name": "木通",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 5,
+      "out_degree": 0
+    },
+    {
+      "name": "淡豆豉",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 5,
+      "out_degree": 0
+    },
+    {
+      "name": "牡蛎",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 5,
+      "out_degree": 0
+    },
+    {
+      "name": "薏苡仁",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 5,
+      "out_degree": 0
+    },
+    {
+      "name": "防己",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 5,
+      "out_degree": 0
+    },
+    {
+      "name": "骨碎补",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 5,
+      "out_degree": 0
+    },
+    {
+      "name": "地骨皮",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "山药",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "川贝母",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "柏子仁",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "桑白皮",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "淡竹叶",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "牛膝",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "猪苓",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "瓜蒌子",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "白扁豆",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "石菖蒲",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "竹茹",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "花椒",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "草乌头",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "赤石脂",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "赤芍",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "酸枣仁",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "青皮",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "香附",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 4,
+      "out_degree": 0
+    },
+    {
+      "name": "党参",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "半夏曲",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "川楝子",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "延胡索",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "朱砂",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "槟榔",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "水蛭",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "没药",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "炮姜",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "牛蒡子",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "牡丹皮",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "秦艽",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "穿山甲",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "紫苏子",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "胆南星",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "菊花",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "葱白",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "蒺藜",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "虻虫",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "蝉蜕",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "赭石",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "连翘",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "通草",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "麦芽",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 3,
+      "out_degree": 0
+    },
+    {
+      "name": "乌梅",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "乳香",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "五灵脂",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "全蝎",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "土鳖虫",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "天冬",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "天南星",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "慈姑",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "旋覆花",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "松子仁",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "桑叶",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "桑螵蛸",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "泽兰",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "火麻仁",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "瓜蒂",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "白头翁",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "白矾",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "白附子",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "石斛",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "禹余粮",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "秦皮",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "粉葛",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "糯米",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "紫石英",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "紫苏",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "红花",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "续断",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "羚羊角",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "苦参",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "茵陈",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "草果",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "莲子",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "菟丝子",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "蔓荆子",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "薤白",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "藁本",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "车前子",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "郁李仁",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "酒",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "金银花",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "青黛",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "饴糖",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "香薷",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "鸡内金",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "麝香",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "龟甲",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 2,
+      "out_degree": 0
+    },
+    {
+      "name": "丁香",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "丹参",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "人尿",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "伏龙肝",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "僵蚕",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "卷柏",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "四物汤",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "土木香",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "地榆",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "地龙",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "大腹皮",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "大蓟",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "天麻",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "密蒙花",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "密陀僧",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "小茴香",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "小蓟",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "小麦",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "山楂",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "川乌",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "巴戟天",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "常山",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "干漆",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "忍冬藤",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "昆布",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "木瓜",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "木贼",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "杜仲",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "板蓝根",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "枇杷叶",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "枸杞子",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "桑寄生",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "橘核",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "款冬花",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "水",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "泽漆",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "海藻",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "灯心草",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "炙甘草",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "片姜黄",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "犀角",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "猪胆汁",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "玉竹",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "白前",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "白果",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "白石脂",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "白蔻",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "白薇",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "白豆蔻",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "白鲜皮",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "皂角刺",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "紫草",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "紫菀",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "罂粟壳",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "肉苁蓉",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "肉豆蔻",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "肾",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "胆汁",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "胡黄连",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "自然铜",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "艾叶",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "芜荑",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "芡实",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "芦荟",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "茯苓皮",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "茺蔚子",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "草豆蔻",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "葛花",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "蒲黄",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "蛇蜕",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "蛤粉",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "蛤蚧",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "蛴螬",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "蜀漆",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "蜂蜜",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "蜂蜡",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "血竭",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "诃子",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "赤小豆",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "轻粉",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "钩藤",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "银柴胡",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "陈仓米",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "青葙子",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "青蒿",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "马兜铃",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "马勃",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "鳖甲",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "鸡子黄",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "鹿角胶",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "麦曲",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "麻油",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "黑芝麻",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "黑豆",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "龙眼肉",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "name": "龙胆",
+      "degree_centrality": 0.0018726591760299626,
+      "degree": 1,
+      "in_degree": 1,
+      "out_degree": 0
+    }
+  ],
+  "formula_freq": [
+    {
+      "name": "甘草汤",
+      "degree_centrality": 0.3707865168539326,
+      "degree": 198,
+      "in_degree": 0,
+      "out_degree": 198
+    },
+    {
+      "name": "桂枝甘草汤",
+      "degree_centrality": 0.08614232209737828,
+      "degree": 46,
+      "in_degree": 1,
+      "out_degree": 45
+    },
+    {
+      "name": "桂枝去芍药汤",
+      "degree_centrality": 0.0749063670411985,
+      "degree": 40,
+      "in_degree": 1,
+      "out_degree": 39
+    },
+    {
+      "name": "芍药甘草汤",
+      "degree_centrality": 0.06928838951310862,
+      "degree": 37,
+      "in_degree": 1,
+      "out_degree": 36
+    },
+    {
+      "name": "增损泽兰丸",
+      "degree_centrality": 0.05056179775280899,
+      "degree": 27,
+      "in_degree": 7,
+      "out_degree": 20
+    },
+    {
+      "name": "石斛夜光丸",
+      "degree_centrality": 0.04868913857677903,
+      "degree": 26,
+      "in_degree": 2,
+      "out_degree": 24
+    },
+    {
+      "name": "回阳救急汤",
+      "degree_centrality": 0.04681647940074907,
+      "degree": 25,
+      "in_degree": 13,
+      "out_degree": 12
+    },
+    {
+      "name": "升阳益胃汤",
+      "degree_centrality": 0.0449438202247191,
+      "degree": 24,
+      "in_degree": 8,
+      "out_degree": 16
+    },
+    {
+      "name": "桂枝加桂汤",
+      "degree_centrality": 0.04307116104868914,
+      "degree": 23,
+      "in_degree": 4,
+      "out_degree": 19
+    },
+    {
+      "name": "桂枝汤",
+      "degree_centrality": 0.04307116104868914,
+      "degree": 23,
+      "in_degree": 4,
+      "out_degree": 19
+    },
+    {
+      "name": "清暑益气汤",
+      "degree_centrality": 0.03932584269662921,
+      "degree": 21,
+      "in_degree": 4,
+      "out_degree": 17
+    },
+    {
+      "name": "资生丸",
+      "degree_centrality": 0.03932584269662921,
+      "degree": 21,
+      "in_degree": 3,
+      "out_degree": 18
+    },
+    {
+      "name": "防风通圣散",
+      "degree_centrality": 0.03932584269662921,
+      "degree": 21,
+      "in_degree": 4,
+      "out_degree": 17
+    },
+    {
+      "name": "拨云退翳丸",
+      "degree_centrality": 0.03745318352059925,
+      "degree": 20,
+      "in_degree": 1,
+      "out_degree": 19
+    },
+    {
+      "name": "五积散",
+      "degree_centrality": 0.03558052434456929,
+      "degree": 19,
+      "in_degree": 4,
+      "out_degree": 15
+    },
+    {
+      "name": "增损肾沥汤",
+      "degree_centrality": 0.03558052434456929,
+      "degree": 19,
+      "in_degree": 2,
+      "out_degree": 17
+    },
+    {
+      "name": "独活寄生汤",
+      "degree_centrality": 0.033707865168539325,
+      "degree": 18,
+      "in_degree": 3,
+      "out_degree": 15
+    },
+    {
+      "name": "十全大补汤",
+      "degree_centrality": 0.031835205992509365,
+      "degree": 17,
+      "in_degree": 7,
+      "out_degree": 10
+    },
+    {
+      "name": "大黄蛰虫丸",
+      "degree_centrality": 0.031835205992509365,
+      "degree": 17,
+      "in_degree": 4,
+      "out_degree": 13
+    },
+    {
+      "name": "拈痛汤",
+      "degree_centrality": 0.031835205992509365,
+      "degree": 17,
+      "in_degree": 2,
+      "out_degree": 15
+    },
+    {
+      "name": "黄龙汤",
+      "degree_centrality": 0.031835205992509365,
+      "degree": 17,
+      "in_degree": 6,
+      "out_degree": 11
+    },
+    {
+      "name": "三拗汤",
+      "degree_centrality": 0.0299625468164794,
+      "degree": 16,
+      "in_degree": 1,
+      "out_degree": 15
+    },
+    {
+      "name": "再造散",
+      "degree_centrality": 0.0299625468164794,
+      "degree": 16,
+      "in_degree": 4,
+      "out_degree": 12
+    },
+    {
+      "name": "小续命汤",
+      "degree_centrality": 0.0299625468164794,
+      "degree": 16,
+      "in_degree": 4,
+      "out_degree": 12
+    },
+    {
+      "name": "干姜附子汤",
+      "degree_centrality": 0.0299625468164794,
+      "degree": 16,
+      "in_degree": 0,
+      "out_degree": 16
+    },
+    {
+      "name": "普济消毒饮",
+      "degree_centrality": 0.0299625468164794,
+      "degree": 16,
+      "in_degree": 2,
+      "out_degree": 14
+    },
+    {
+      "name": "桔梗汤",
+      "degree_centrality": 0.0299625468164794,
+      "degree": 16,
+      "in_degree": 1,
+      "out_degree": 15
+    },
+    {
+      "name": "葛根加半夏汤",
+      "degree_centrality": 0.0299625468164794,
+      "degree": 16,
+      "in_degree": 8,
+      "out_degree": 8
+    },
+    {
+      "name": "藿香正气散",
+      "degree_centrality": 0.0299625468164794,
+      "degree": 16,
+      "in_degree": 3,
+      "out_degree": 13
+    },
+    {
+      "name": "除湿胃苓汤",
+      "degree_centrality": 0.0299625468164794,
+      "degree": 16,
+      "in_degree": 3,
+      "out_degree": 13
+    },
+    {
+      "name": "人参养荣汤",
+      "degree_centrality": 0.028089887640449437,
+      "degree": 15,
+      "in_degree": 4,
+      "out_degree": 11
+    },
+    {
+      "name": "仓廪散",
+      "degree_centrality": 0.028089887640449437,
+      "degree": 15,
+      "in_degree": 2,
+      "out_degree": 13
+    },
+    {
+      "name": "仙方活命饮",
+      "degree_centrality": 0.028089887640449437,
+      "degree": 15,
+      "in_degree": 2,
+      "out_degree": 13
+    },
+    {
+      "name": "四君子汤",
+      "degree_centrality": 0.028089887640449437,
+      "degree": 15,
+      "in_degree": 1,
+      "out_degree": 14
+    },
+    {
+      "name": "天王补心丹",
+      "degree_centrality": 0.028089887640449437,
+      "degree": 15,
+      "in_degree": 1,
+      "out_degree": 14
+    },
+    {
+      "name": "当归四逆加吴茱萸生姜汤",
+      "degree_centrality": 0.028089887640449437,
+      "degree": 15,
+      "in_degree": 6,
+      "out_degree": 9
+    },
+    {
+      "name": "散聚汤",
+      "degree_centrality": 0.028089887640449437,
+      "degree": 15,
+      "in_degree": 2,
+      "out_degree": 13
+    },
+    {
+      "name": "枳实消痞丸",
+      "degree_centrality": 0.028089887640449437,
+      "degree": 15,
+      "in_degree": 5,
+      "out_degree": 10
+    },
+    {
+      "name": "桂枝二麻黄一汤",
+      "degree_centrality": 0.028089887640449437,
+      "degree": 15,
+      "in_degree": 8,
+      "out_degree": 7
+    },
+    {
+      "name": "桂枝芍药知母汤",
+      "degree_centrality": 0.028089887640449437,
+      "degree": 15,
+      "in_degree": 6,
+      "out_degree": 9
+    },
+    {
+      "name": "桂枝麻黄各半汤",
+      "degree_centrality": 0.028089887640449437,
+      "degree": 15,
+      "in_degree": 8,
+      "out_degree": 7
+    },
+    {
+      "name": "消风散",
+      "degree_centrality": 0.028089887640449437,
+      "degree": 15,
+      "in_degree": 1,
+      "out_degree": 14
+    },
+    {
+      "name": "清脾饮",
+      "degree_centrality": 0.028089887640449437,
+      "degree": 15,
+      "in_degree": 1,
+      "out_degree": 14
+    },
+    {
+      "name": "温经汤",
+      "degree_centrality": 0.028089887640449437,
+      "degree": 15,
+      "in_degree": 3,
+      "out_degree": 12
+    },
+    {
+      "name": "百合固金汤",
+      "degree_centrality": 0.028089887640449437,
+      "degree": 15,
+      "in_degree": 5,
+      "out_degree": 10
+    },
+    {
+      "name": "葛根汤",
+      "degree_centrality": 0.028089887640449437,
+      "degree": 15,
+      "in_degree": 7,
+      "out_degree": 8
+    },
+    {
+      "name": "风引汤",
+      "degree_centrality": 0.028089887640449437,
+      "degree": 15,
+      "in_degree": 4,
+      "out_degree": 11
+    },
+    {
+      "name": "参苏饮",
+      "degree_centrality": 0.026217228464419477,
+      "degree": 14,
+      "in_degree": 3,
+      "out_degree": 11
+    },
+    {
+      "name": "参苓白术散",
+      "degree_centrality": 0.026217228464419477,
+      "degree": 14,
+      "in_degree": 3,
+      "out_degree": 11
+    },
+    {
+      "name": "大羌活汤",
+      "degree_centrality": 0.026217228464419477,
+      "degree": 14,
+      "in_degree": 1,
+      "out_degree": 13
+    },
+    {
+      "name": "桂枝二越婢一汤",
+      "degree_centrality": 0.026217228464419477,
+      "degree": 14,
+      "in_degree": 7,
+      "out_degree": 7
+    },
+    {
+      "name": "桂枝加葛根汤",
+      "degree_centrality": 0.026217228464419477,
+      "degree": 14,
+      "in_degree": 6,
+      "out_degree": 8
+    },
+    {
+      "name": "荆防败毒散",
+      "degree_centrality": 0.026217228464419477,
+      "degree": 14,
+      "in_degree": 2,
+      "out_degree": 12
+    },
+    {
+      "name": "葛花解酒汤",
+      "degree_centrality": 0.026217228464419477,
+      "degree": 14,
+      "in_degree": 1,
+      "out_degree": 13
+    },
+    {
+      "name": "黄芪建中汤",
+      "degree_centrality": 0.026217228464419477,
+      "degree": 14,
+      "in_degree": 7,
+      "out_degree": 7
+    },
+    {
+      "name": "乌梅丸",
+      "degree_centrality": 0.024344569288389514,
+      "degree": 13,
+      "in_degree": 3,
+      "out_degree": 10
+    },
+    {
+      "name": "健脾丸",
+      "degree_centrality": 0.024344569288389514,
+      "degree": 13,
+      "in_degree": 1,
+      "out_degree": 12
+    },
+    {
+      "name": "六和汤",
+      "degree_centrality": 0.024344569288389514,
+      "degree": 13,
+      "in_degree": 2,
+      "out_degree": 11
+    },
+    {
+      "name": "厚朴七物汤",
+      "degree_centrality": 0.024344569288389514,
+      "degree": 13,
+      "in_degree": 6,
+      "out_degree": 7
+    },
+    {
+      "name": "四逆加人参汤",
+      "degree_centrality": 0.024344569288389514,
+      "degree": 13,
+      "in_degree": 5,
+      "out_degree": 8
+    },
+    {
+      "name": "大青龙汤",
+      "degree_centrality": 0.024344569288389514,
+      "degree": 13,
+      "in_degree": 6,
+      "out_degree": 7
+    },
+    {
+      "name": "小建中汤",
+      "degree_centrality": 0.024344569288389514,
+      "degree": 13,
+      "in_degree": 6,
+      "out_degree": 7
+    },
+    {
+      "name": "当归龙荟丸",
+      "degree_centrality": 0.024344569288389514,
+      "degree": 13,
+      "in_degree": 2,
+      "out_degree": 11
+    },
+    {
+      "name": "柴胡桂枝汤",
+      "degree_centrality": 0.024344569288389514,
+      "degree": 13,
+      "in_degree": 4,
+      "out_degree": 9
+    },
+    {
+      "name": "桂枝加厚朴杏子汤",
+      "degree_centrality": 0.024344569288389514,
+      "degree": 13,
+      "in_degree": 6,
+      "out_degree": 7
+    },
+    {
+      "name": "清心莲子饮",
+      "degree_centrality": 0.024344569288389514,
+      "degree": 13,
+      "in_degree": 2,
+      "out_degree": 11
+    },
+    {
+      "name": "续命汤",
+      "degree_centrality": 0.024344569288389514,
+      "degree": 13,
+      "in_degree": 4,
+      "out_degree": 9
+    },
+    {
+      "name": "身痛逐瘀汤",
+      "degree_centrality": 0.024344569288389514,
+      "degree": 13,
+      "in_degree": 1,
+      "out_degree": 12
+    },
+    {
+      "name": "香砂六君子汤",
+      "degree_centrality": 0.024344569288389514,
+      "degree": 13,
+      "in_degree": 4,
+      "out_degree": 9
+    },
+    {
+      "name": "乌头桂枝汤",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 6,
+      "out_degree": 6
+    },
+    {
+      "name": "二陈汤",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 1,
+      "out_degree": 11
+    },
+    {
+      "name": "加味逍遥散",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 2,
+      "out_degree": 10
+    },
+    {
+      "name": "参附汤",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 0,
+      "out_degree": 12
+    },
+    {
+      "name": "归脾汤",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 2,
+      "out_degree": 10
+    },
+    {
+      "name": "栝楼桂枝汤",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 6,
+      "out_degree": 6
+    },
+    {
+      "name": "桂枝加大黄汤",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 6,
+      "out_degree": 6
+    },
+    {
+      "name": "桂枝新加汤",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 6,
+      "out_degree": 6
+    },
+    {
+      "name": "橘核丸",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 1,
+      "out_degree": 11
+    },
+    {
+      "name": "泰山磐石散",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 1,
+      "out_degree": 11
+    },
+    {
+      "name": "泽泻汤",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 0,
+      "out_degree": 12
+    },
+    {
+      "name": "炙甘草汤",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 3,
+      "out_degree": 9
+    },
+    {
+      "name": "生姜泻心汤",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 4,
+      "out_degree": 8
+    },
+    {
+      "name": "芍药汤",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 3,
+      "out_degree": 9
+    },
+    {
+      "name": "茯苓四逆汤",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 6,
+      "out_degree": 6
+    },
+    {
+      "name": "败毒散",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 2,
+      "out_degree": 10
+    },
+    {
+      "name": "金沸草散",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 2,
+      "out_degree": 10
+    },
+    {
+      "name": "麻黄汤",
+      "degree_centrality": 0.02247191011235955,
+      "degree": 12,
+      "in_degree": 3,
+      "out_degree": 9
+    },
+    {
+      "name": "凉膈散",
+      "degree_centrality": 0.02059925093632959,
+      "degree": 11,
+      "in_degree": 2,
+      "out_degree": 9
+    },
+    {
+      "name": "十味温胆汤",
+      "degree_centrality": 0.02059925093632959,
+      "degree": 11,
+      "in_degree": 1,
+      "out_degree": 10
+    },
+    {
+      "name": "千金葳蕤汤",
+      "degree_centrality": 0.02059925093632959,
+      "degree": 11,
+      "in_degree": 2,
+      "out_degree": 9
+    },
+    {
+      "name": "四逆汤",
+      "degree_centrality": 0.02059925093632959,
+      "degree": 11,
+      "in_degree": 2,
+      "out_degree": 9
+    },
+    {
+      "name": "增损当归丸",
+      "degree_centrality": 0.02059925093632959,
+      "degree": 11,
+      "in_degree": 1,
+      "out_degree": 10
+    },
+    {
+      "name": "定喘汤",
+      "degree_centrality": 0.02059925093632959,
+      "degree": 11,
+      "in_degree": 2,
+      "out_degree": 9
+    },
+    {
+      "name": "小蓟饮子",
+      "degree_centrality": 0.02059925093632959,
+      "degree": 11,
+      "in_degree": 2,
+      "out_degree": 9
+    },
+    {
+      "name": "异功散",
+      "degree_centrality": 0.02059925093632959,
+      "degree": 11,
+      "in_degree": 2,
+      "out_degree": 9
+    },
+    {
+      "name": "托里透脓汤",
+      "degree_centrality": 0.02059925093632959,
+      "degree": 11,
+      "in_degree": 1,
+      "out_degree": 10
+    },
+    {
+      "name": "柴葛解肌汤",
+      "degree_centrality": 0.02059925093632959,
+      "degree": 11,
+      "in_degree": 3,
+      "out_degree": 8
+    },
+    {
+      "name": "桂枝去芍药加蜀漆牡蛎龙骨救逆汤",
+      "degree_centrality": 0.02059925093632959,
+      "degree": 11,
+      "in_degree": 4,
+      "out_degree": 7
+    },
+    {
+      "name": "泽漆汤",
+      "degree_centrality": 0.02059925093632959,
+      "degree": 11,
+      "in_degree": 2,
+      "out_degree": 9
+    },
+    {
+      "name": "温脾汤",
+      "degree_centrality": 0.02059925093632959,
+      "degree": 11,
+      "in_degree": 6,
+      "out_degree": 5
+    },
+    {
+      "name": "理中化痰丸",
+      "degree_centrality": 0.02059925093632959,
+      "degree": 11,
+      "in_degree": 4,
+      "out_degree": 7
+    },
+    {
+      "name": "真人养脏汤",
+      "degree_centrality": 0.02059925093632959,
+      "degree": 11,
+      "in_degree": 3,
+      "out_degree": 8
+    },
+    {
+      "name": "羚角钩藤汤",
+      "degree_centrality": 0.02059925093632959,
+      "degree": 11,
+      "in_degree": 1,
+      "out_degree": 10
+    },
+    {
+      "name": "通脉四逆汤",
+      "degree_centrality": 0.02059925093632959,
+      "degree": 11,
+      "in_degree": 2,
+      "out_degree": 9
+    },
+    {
+      "name": "九味羌活汤",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 1,
+      "out_degree": 9
+    },
+    {
+      "name": "八珍汤",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 2,
+      "out_degree": 8
+    },
+    {
+      "name": "六一散",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 1,
+      "out_degree": 9
+    },
+    {
+      "name": "小柴胡汤",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 2,
+      "out_degree": 8
+    },
+    {
+      "name": "小青龙汤",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 2,
+      "out_degree": 8
+    },
+    {
+      "name": "当归补血汤",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 0,
+      "out_degree": 10
+    },
+    {
+      "name": "柴胡桂枝干姜汤",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 3,
+      "out_degree": 7
+    },
+    {
+      "name": "桂枝加附子汤",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 4,
+      "out_degree": 6
+    },
+    {
+      "name": "桂苓甘露散",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 3,
+      "out_degree": 7
+    },
+    {
+      "name": "桑螵蛸散",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 2,
+      "out_degree": 8
+    },
+    {
+      "name": "泽兰散",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 4,
+      "out_degree": 6
+    },
+    {
+      "name": "涤痰汤",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 1,
+      "out_degree": 9
+    },
+    {
+      "name": "清燥救肺汤",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 1,
+      "out_degree": 9
+    },
+    {
+      "name": "理中丸",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 1,
+      "out_degree": 9
+    },
+    {
+      "name": "皂角化痰丸",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 2,
+      "out_degree": 8
+    },
+    {
+      "name": "胶艾汤",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 2,
+      "out_degree": 8
+    },
+    {
+      "name": "苍附导痰丸",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 2,
+      "out_degree": 8
+    },
+    {
+      "name": "苏子降气汤",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 1,
+      "out_degree": 9
+    },
+    {
+      "name": "补中益气汤",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 2,
+      "out_degree": 8
+    },
+    {
+      "name": "越婢汤",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 2,
+      "out_degree": 8
+    },
+    {
+      "name": "逍遥散",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 1,
+      "out_degree": 9
+    },
+    {
+      "name": "麻杏甘石汤",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 2,
+      "out_degree": 8
+    },
+    {
+      "name": "黄芩加半夏生姜汤",
+      "degree_centrality": 0.018726591760299626,
+      "degree": 10,
+      "in_degree": 4,
+      "out_degree": 6
+    },
+    {
+      "name": "人参蛤蚧散",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 1,
+      "out_degree": 8
+    },
+    {
+      "name": "半夏泻心汤",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 1,
+      "out_degree": 8
+    },
+    {
+      "name": "半夏白术天麻汤",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 1,
+      "out_degree": 8
+    },
+    {
+      "name": "华盖散",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 2,
+      "out_degree": 7
+    },
+    {
+      "name": "厚朴温中汤",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 1,
+      "out_degree": 8
+    },
+    {
+      "name": "启宫丸",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 1,
+      "out_degree": 8
+    },
+    {
+      "name": "增味导赤散",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 1,
+      "out_degree": 8
+    },
+    {
+      "name": "增补省风汤",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 1,
+      "out_degree": 8
+    },
+    {
+      "name": "复原活血汤",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 1,
+      "out_degree": 8
+    },
+    {
+      "name": "大柴胡汤",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 1,
+      "out_degree": 8
+    },
+    {
+      "name": "川芎茶调散",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 1,
+      "out_degree": 8
+    },
+    {
+      "name": "当归四逆汤",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 2,
+      "out_degree": 7
+    },
+    {
+      "name": "旋覆代赭汤",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 2,
+      "out_degree": 7
+    },
+    {
+      "name": "柴胡疏肝散",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 2,
+      "out_degree": 7
+    },
+    {
+      "name": "柴胡陷胸汤",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 1,
+      "out_degree": 8
+    },
+    {
+      "name": "清肠饮",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 1,
+      "out_degree": 8
+    },
+    {
+      "name": "清骨散",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 1,
+      "out_degree": 8
+    },
+    {
+      "name": "甘草泻心汤",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 1,
+      "out_degree": 8
+    },
+    {
+      "name": "生肌玉红膏",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 1,
+      "out_degree": 8
+    },
+    {
+      "name": "石膏汤",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 2,
+      "out_degree": 7
+    },
+    {
+      "name": "薏苡仁汤",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 2,
+      "out_degree": 7
+    },
+    {
+      "name": "越婢加半夏汤",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 3,
+      "out_degree": 6
+    },
+    {
+      "name": "达原饮",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 2,
+      "out_degree": 7
+    },
+    {
+      "name": "震灵丹",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 1,
+      "out_degree": 8
+    },
+    {
+      "name": "麻子仁丸",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 3,
+      "out_degree": 6
+    },
+    {
+      "name": "麻黄加术汤",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 4,
+      "out_degree": 5
+    },
+    {
+      "name": "黄连汤",
+      "degree_centrality": 0.016853932584269662,
+      "degree": 9,
+      "in_degree": 2,
+      "out_degree": 7
+    },
+    {
+      "name": "七味白术散",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 1,
+      "out_degree": 7
+    },
+    {
+      "name": "五淋散",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 2,
+      "out_degree": 6
+    },
+    {
+      "name": "增损柴胡汤",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 1,
+      "out_degree": 7
+    },
+    {
+      "name": "当归六黄汤",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 1,
+      "out_degree": 7
+    },
+    {
+      "name": "当归建中汤",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 1,
+      "out_degree": 7
+    },
+    {
+      "name": "枣肉平胃散",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 2,
+      "out_degree": 6
+    },
+    {
+      "name": "桂枝人参汤",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 3,
+      "out_degree": 5
+    },
+    {
+      "name": "桂枝去芍药加附子汤",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 2,
+      "out_degree": 6
+    },
+    {
+      "name": "桂枝甘草龙骨牡蛎汤",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 2,
+      "out_degree": 6
+    },
+    {
+      "name": "桂枝附子汤",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 3,
+      "out_degree": 5
+    },
+    {
+      "name": "桃核承气汤",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 3,
+      "out_degree": 5
+    },
+    {
+      "name": "橘皮竹茹汤",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 2,
+      "out_degree": 6
+    },
+    {
+      "name": "甘草干姜茯苓白术汤",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 1,
+      "out_degree": 7
+    },
+    {
+      "name": "白头翁加甘草阿胶汤",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 2,
+      "out_degree": 6
+    },
+    {
+      "name": "白术附子汤",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 2,
+      "out_degree": 6
+    },
+    {
+      "name": "竹叶石膏汤",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 1,
+      "out_degree": 7
+    },
+    {
+      "name": "羌活胜湿汤",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 1,
+      "out_degree": 7
+    },
+    {
+      "name": "蠲痹汤",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 2,
+      "out_degree": 6
+    },
+    {
+      "name": "调胃承气汤",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 1,
+      "out_degree": 7
+    },
+    {
+      "name": "贞元饮",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 1,
+      "out_degree": 7
+    },
+    {
+      "name": "黄土汤",
+      "degree_centrality": 0.0149812734082397,
+      "degree": 8,
+      "in_degree": 1,
+      "out_degree": 7
+    },
+    {
+      "name": "不换金正气散",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 1,
+      "out_degree": 6
+    },
+    {
+      "name": "乌头汤",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 2,
+      "out_degree": 5
+    },
+    {
+      "name": "五仁丸",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 1,
+      "out_degree": 6
+    },
+    {
+      "name": "十补丸",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 1,
+      "out_degree": 6
+    },
+    {
+      "name": "厚朴大黄汤",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 0,
+      "out_degree": 7
+    },
+    {
+      "name": "四逆散",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 3,
+      "out_degree": 4
+    },
+    {
+      "name": "增损四物汤",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 1,
+      "out_degree": 6
+    },
+    {
+      "name": "大承气汤",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 2,
+      "out_degree": 5
+    },
+    {
+      "name": "导痰汤",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 1,
+      "out_degree": 6
+    },
+    {
+      "name": "小承气汤",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 0,
+      "out_degree": 7
+    },
+    {
+      "name": "当归芍药散",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 1,
+      "out_degree": 6
+    },
+    {
+      "name": "泻心汤",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 0,
+      "out_degree": 7
+    },
+    {
+      "name": "温胆汤",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 1,
+      "out_degree": 6
+    },
+    {
+      "name": "燥肠丸",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 1,
+      "out_degree": 6
+    },
+    {
+      "name": "甘草附子汤",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 2,
+      "out_degree": 5
+    },
+    {
+      "name": "生脉散",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 0,
+      "out_degree": 7
+    },
+    {
+      "name": "白虎加桂枝汤",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 2,
+      "out_degree": 5
+    },
+    {
+      "name": "白通加猪胆汁汤",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 2,
+      "out_degree": 5
+    },
+    {
+      "name": "蟅虫散",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 1,
+      "out_degree": 6
+    },
+    {
+      "name": "补肺阿胶汤",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 1,
+      "out_degree": 6
+    },
+    {
+      "name": "防己茯苓汤",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 2,
+      "out_degree": 5
+    },
+    {
+      "name": "阳和汤",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 1,
+      "out_degree": 6
+    },
+    {
+      "name": "麦门冬汤",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 1,
+      "out_degree": 6
+    },
+    {
+      "name": "黄芩汤",
+      "degree_centrality": 0.013108614232209739,
+      "degree": 7,
+      "in_degree": 2,
+      "out_degree": 5
+    },
+    {
+      "name": "乌头赤石脂丸",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "name": "五仁润肠丸",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 0,
+      "out_degree": 6
+    },
+    {
+      "name": "五苓散",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "name": "保元汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "name": "升麻葛根汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 2,
+      "out_degree": 4
+    },
+    {
+      "name": "厚姜半甘参汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "name": "增液承气汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "name": "抵当汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 0,
+      "out_degree": 6
+    },
+    {
+      "name": "朱砂安神丸",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "name": "栀子豉汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 0,
+      "out_degree": 6
+    },
+    {
+      "name": "泻黄散",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "name": "白虎加人参汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "name": "白虎加苍术汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "name": "白虎汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "name": "百合洗方",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 0,
+      "out_degree": 6
+    },
+    {
+      "name": "神效托里散",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 2,
+      "out_degree": 4
+    },
+    {
+      "name": "芍药甘草附子汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 2,
+      "out_degree": 4
+    },
+    {
+      "name": "苓桂术甘汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 2,
+      "out_degree": 4
+    },
+    {
+      "name": "苓甘五味姜辛汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "name": "茯苓甘草汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 2,
+      "out_degree": 4
+    },
+    {
+      "name": "酸枣仁汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "name": "防己地黄汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 2,
+      "out_degree": 4
+    },
+    {
+      "name": "附子粳米汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "name": "麻黄杏仁薏苡甘草汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 2,
+      "out_degree": 4
+    },
+    {
+      "name": "麻黄附子甘草汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 1,
+      "out_degree": 5
+    },
+    {
+      "name": "黄连解毒汤",
+      "degree_centrality": 0.011235955056179775,
+      "degree": 6,
+      "in_degree": 0,
+      "out_degree": 6
+    },
+    {
+      "name": "圣愈汤",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 1,
+      "out_degree": 4
+    },
+    {
+      "name": "定志丸",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 0,
+      "out_degree": 5
+    },
+    {
+      "name": "导赤散",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 1,
+      "out_degree": 4
+    },
+    {
+      "name": "曲蘗枳术丸",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 1,
+      "out_degree": 4
+    },
+    {
+      "name": "枕中丹",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 0,
+      "out_degree": 5
+    },
+    {
+      "name": "枳实芍药散",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 0,
+      "out_degree": 5
+    },
+    {
+      "name": "枳术丸",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 0,
+      "out_degree": 5
+    },
+    {
+      "name": "栀子大黄汤",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 1,
+      "out_degree": 4
+    },
+    {
+      "name": "栀子甘草豉汤",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 2,
+      "out_degree": 3
+    },
+    {
+      "name": "橘半枳术丸",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 1,
+      "out_degree": 4
+    },
+    {
+      "name": "滑石代赭汤",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 2,
+      "out_degree": 3
+    },
+    {
+      "name": "玉屏风散",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 0,
+      "out_degree": 5
+    },
+    {
+      "name": "瓜蒌薤白半夏汤",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 1,
+      "out_degree": 4
+    },
+    {
+      "name": "痛泻要方",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 0,
+      "out_degree": 5
+    },
+    {
+      "name": "白头翁汤",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 0,
+      "out_degree": 5
+    },
+    {
+      "name": "白通汤",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 1,
+      "out_degree": 4
+    },
+    {
+      "name": "皂荚丸",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 0,
+      "out_degree": 5
+    },
+    {
+      "name": "益元散",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 2,
+      "out_degree": 3
+    },
+    {
+      "name": "碧玉散",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 2,
+      "out_degree": 3
+    },
+    {
+      "name": "自然铜散",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 1,
+      "out_degree": 4
+    },
+    {
+      "name": "葛根黄芩黄连汤",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 1,
+      "out_degree": 4
+    },
+    {
+      "name": "防己黄芪汤",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 1,
+      "out_degree": 4
+    },
+    {
+      "name": "附子泻心汤",
+      "degree_centrality": 0.009363295880149813,
+      "degree": 5,
+      "in_degree": 1,
+      "out_degree": 4
+    },
+    {
+      "name": "增液汤",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 0,
+      "out_degree": 4
+    },
+    {
+      "name": "大乌头煎",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 1,
+      "out_degree": 3
+    },
+    {
+      "name": "大建中汤",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 0,
+      "out_degree": 4
+    },
+    {
+      "name": "封髓丹",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 1,
+      "out_degree": 3
+    },
+    {
+      "name": "小陷胸汤",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 0,
+      "out_degree": 4
+    },
+    {
+      "name": "左金丸",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 0,
+      "out_degree": 4
+    },
+    {
+      "name": "戊己丸",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 1,
+      "out_degree": 3
+    },
+    {
+      "name": "救急稀涎散",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 1,
+      "out_degree": 3
+    },
+    {
+      "name": "栀子柏皮汤",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 1,
+      "out_degree": 3
+    },
+    {
+      "name": "栀子生姜豉汤",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 1,
+      "out_degree": 3
+    },
+    {
+      "name": "桂枝生姜枳实汤",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 0,
+      "out_degree": 4
+    },
+    {
+      "name": "泻白散",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 1,
+      "out_degree": 3
+    },
+    {
+      "name": "瓜蒌薤白白酒汤",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 0,
+      "out_degree": 4
+    },
+    {
+      "name": "甘麦大枣汤",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 1,
+      "out_degree": 3
+    },
+    {
+      "name": "百合滑石散",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 1,
+      "out_degree": 3
+    },
+    {
+      "name": "茵陈四逆汤",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 1,
+      "out_degree": 3
+    },
+    {
+      "name": "金铃子散",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 0,
+      "out_degree": 4
+    },
+    {
+      "name": "香薷散",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 0,
+      "out_degree": 4
+    },
+    {
+      "name": "香连丸",
+      "degree_centrality": 0.00749063670411985,
+      "degree": 4,
+      "in_degree": 1,
+      "out_degree": 3
+    },
+    {
+      "name": "二妙散",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 0,
+      "out_degree": 3
+    },
+    {
+      "name": "栝楼牡蛎散",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 0,
+      "out_degree": 3
+    },
+    {
+      "name": "瓜蒂散",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 1,
+      "out_degree": 2
+    },
+    {
+      "name": "百合知母汤",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 1,
+      "out_degree": 2
+    },
+    {
+      "name": "百合鸡子汤",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 1,
+      "out_degree": 2
+    },
+    {
+      "name": "皂角散",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 1,
+      "out_degree": 2
+    },
+    {
+      "name": "赤石脂禹余粮汤",
+      "degree_centrality": 0.0056179775280898875,
+      "degree": 3,
+      "in_degree": 0,
+      "out_degree": 3
+    },
+    {
+      "name": "一物瓜蒂汤",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 0,
+      "out_degree": 2
+    },
+    {
+      "name": "胵黄散",
+      "degree_centrality": 0.003745318352059925,
+      "degree": 2,
+      "in_degree": 0,
+      "out_degree": 2
+    }
+  ],
+  "formula_modified_freq": [
+    {
+      "name": "甘草汤",
+      "modified_count": 197
+    },
+    {
+      "name": "桂枝甘草汤",
+      "modified_count": 43
+    },
+    {
+      "name": "桂枝去芍药汤",
+      "modified_count": 36
+    },
+    {
+      "name": "芍药甘草汤",
+      "modified_count": 34
+    },
+    {
+      "name": "干姜附子汤",
+      "modified_count": 14
+    },
+    {
+      "name": "桂枝加桂汤",
+      "modified_count": 14
+    },
+    {
+      "name": "桂枝汤",
+      "modified_count": 14
+    },
+    {
+      "name": "桔梗汤",
+      "modified_count": 13
+    },
+    {
+      "name": "三拗汤",
+      "modified_count": 12
+    },
+    {
+      "name": "参附汤",
+      "modified_count": 10
+    },
+    {
+      "name": "四君子汤",
+      "modified_count": 10
+    },
+    {
+      "name": "泽泻汤",
+      "modified_count": 10
+    },
+    {
+      "name": "当归补血汤",
+      "modified_count": 8
+    },
+    {
+      "name": "二陈汤",
+      "modified_count": 7
+    },
+    {
+      "name": "六一散",
+      "modified_count": 7
+    },
+    {
+      "name": "四逆汤",
+      "modified_count": 6
+    },
+    {
+      "name": "通脉四逆汤",
+      "modified_count": 6
+    },
+    {
+      "name": "理中丸",
+      "modified_count": 5
+    },
+    {
+      "name": "百合洗方",
+      "modified_count": 5
+    },
+    {
+      "name": "麻黄汤",
+      "modified_count": 5
+    },
+    {
+      "name": "厚朴大黄汤",
+      "modified_count": 4
+    },
+    {
+      "name": "四逆加人参汤",
+      "modified_count": 4
+    },
+    {
+      "name": "小承气汤",
+      "modified_count": 4
+    },
+    {
+      "name": "异功散",
+      "modified_count": 4
+    },
+    {
+      "name": "栀子豉汤",
+      "modified_count": 4
+    },
+    {
+      "name": "泻心汤",
+      "modified_count": 4
+    },
+    {
+      "name": "生脉散",
+      "modified_count": 4
+    },
+    {
+      "name": "皂荚丸",
+      "modified_count": 4
+    },
+    {
+      "name": "调胃承气汤",
+      "modified_count": 4
+    },
+    {
+      "name": "贞元饮",
+      "modified_count": 4
+    },
+    {
+      "name": "当归建中汤",
+      "modified_count": 3
+    },
+    {
+      "name": "枳实芍药散",
+      "modified_count": 3
+    },
+    {
+      "name": "枳术丸",
+      "modified_count": 3
+    },
+    {
+      "name": "甘草干姜茯苓白术汤",
+      "modified_count": 3
+    },
+    {
+      "name": "越婢汤",
+      "modified_count": 3
+    },
+    {
+      "name": "左金丸",
+      "modified_count": 2
+    },
+    {
+      "name": "抵当汤",
+      "modified_count": 2
+    },
+    {
+      "name": "桂枝加葛根汤",
+      "modified_count": 2
+    },
+    {
+      "name": "桂枝甘草龙骨牡蛎汤",
+      "modified_count": 2
+    },
+    {
+      "name": "玉屏风散",
+      "modified_count": 2
+    },
+    {
+      "name": "金铃子散",
+      "modified_count": 2
+    },
+    {
+      "name": "麻黄附子甘草汤",
+      "modified_count": 2
+    },
+    {
+      "name": "黄连解毒汤",
+      "modified_count": 2
+    },
+    {
+      "name": "一物瓜蒂汤",
+      "modified_count": 1
+    },
+    {
+      "name": "二妙散",
+      "modified_count": 1
+    },
+    {
+      "name": "五仁润肠丸",
+      "modified_count": 1
+    },
+    {
+      "name": "保元汤",
+      "modified_count": 1
+    },
+    {
+      "name": "半夏泻心汤",
+      "modified_count": 1
+    },
+    {
+      "name": "圣愈汤",
+      "modified_count": 1
+    },
+    {
+      "name": "增液汤",
+      "modified_count": 1
+    },
+    {
+      "name": "大建中汤",
+      "modified_count": 1
+    },
+    {
+      "name": "大承气汤",
+      "modified_count": 1
+    },
+    {
+      "name": "定志丸",
+      "modified_count": 1
+    },
+    {
+      "name": "小建中汤",
+      "modified_count": 1
+    },
+    {
+      "name": "小柴胡汤",
+      "modified_count": 1
+    },
+    {
+      "name": "小陷胸汤",
+      "modified_count": 1
+    },
+    {
+      "name": "救急稀涎散",
+      "modified_count": 1
+    },
+    {
+      "name": "枕中丹",
+      "modified_count": 1
+    },
+    {
+      "name": "栝楼牡蛎散",
+      "modified_count": 1
+    },
+    {
+      "name": "桂枝去芍药加附子汤",
+      "modified_count": 1
+    },
+    {
+      "name": "桂枝生姜枳实汤",
+      "modified_count": 1
+    },
+    {
+      "name": "理中化痰丸",
+      "modified_count": 1
+    },
+    {
+      "name": "瓜蒌薤白白酒汤",
+      "modified_count": 1
+    },
+    {
+      "name": "甘草泻心汤",
+      "modified_count": 1
+    },
+    {
+      "name": "甘草附子汤",
+      "modified_count": 1
+    },
+    {
+      "name": "痛泻要方",
+      "modified_count": 1
+    },
+    {
+      "name": "白头翁汤",
+      "modified_count": 1
+    },
+    {
+      "name": "白术附子汤",
+      "modified_count": 1
+    },
+    {
+      "name": "白通汤",
+      "modified_count": 1
+    },
+    {
+      "name": "百合滑石散",
+      "modified_count": 1
+    },
+    {
+      "name": "胵黄散",
+      "modified_count": 1
+    },
+    {
+      "name": "芍药甘草附子汤",
+      "modified_count": 1
+    },
+    {
+      "name": "茯苓四逆汤",
+      "modified_count": 1
+    },
+    {
+      "name": "葛根汤",
+      "modified_count": 1
+    },
+    {
+      "name": "赤石脂禹余粮汤",
+      "modified_count": 1
+    },
+    {
+      "name": "逍遥散",
+      "modified_count": 1
+    },
+    {
+      "name": "香薷散",
+      "modified_count": 1
+    },
+    {
+      "name": "黄芩汤",
+      "modified_count": 1
+    },
+    {
+      "name": "七味白术散",
+      "modified_count": 0
+    },
+    {
+      "name": "不换金正气散",
+      "modified_count": 0
+    },
+    {
+      "name": "乌头桂枝汤",
+      "modified_count": 0
+    },
+    {
+      "name": "乌头汤",
+      "modified_count": 0
+    },
+    {
+      "name": "乌头赤石脂丸",
+      "modified_count": 0
+    },
+    {
+      "name": "乌梅丸",
+      "modified_count": 0
+    },
+    {
+      "name": "九味羌活汤",
+      "modified_count": 0
+    },
+    {
+      "name": "五仁丸",
+      "modified_count": 0
+    },
+    {
+      "name": "五淋散",
+      "modified_count": 0
+    },
+    {
+      "name": "五积散",
+      "modified_count": 0
+    },
+    {
+      "name": "五苓散",
+      "modified_count": 0
+    },
+    {
+      "name": "人参养荣汤",
+      "modified_count": 0
+    },
+    {
+      "name": "人参蛤蚧散",
+      "modified_count": 0
+    },
+    {
+      "name": "仓廪散",
+      "modified_count": 0
+    },
+    {
+      "name": "仙方活命饮",
+      "modified_count": 0
+    },
+    {
+      "name": "健脾丸",
+      "modified_count": 0
+    },
+    {
+      "name": "八珍汤",
+      "modified_count": 0
+    },
+    {
+      "name": "六和汤",
+      "modified_count": 0
+    },
+    {
+      "name": "再造散",
+      "modified_count": 0
+    },
+    {
+      "name": "凉膈散",
+      "modified_count": 0
+    },
+    {
+      "name": "加味逍遥散",
+      "modified_count": 0
+    },
+    {
+      "name": "十全大补汤",
+      "modified_count": 0
+    },
+    {
+      "name": "十味温胆汤",
+      "modified_count": 0
+    },
+    {
+      "name": "十补丸",
+      "modified_count": 0
+    },
+    {
+      "name": "千金葳蕤汤",
+      "modified_count": 0
+    },
+    {
+      "name": "升阳益胃汤",
+      "modified_count": 0
+    },
+    {
+      "name": "升麻葛根汤",
+      "modified_count": 0
+    },
+    {
+      "name": "半夏白术天麻汤",
+      "modified_count": 0
+    },
+    {
+      "name": "华盖散",
+      "modified_count": 0
+    },
+    {
+      "name": "厚姜半甘参汤",
+      "modified_count": 0
+    },
+    {
+      "name": "厚朴七物汤",
+      "modified_count": 0
+    },
+    {
+      "name": "厚朴温中汤",
+      "modified_count": 0
+    },
+    {
+      "name": "参苏饮",
+      "modified_count": 0
+    },
+    {
+      "name": "参苓白术散",
+      "modified_count": 0
+    },
+    {
+      "name": "启宫丸",
+      "modified_count": 0
+    },
+    {
+      "name": "四逆散",
+      "modified_count": 0
+    },
+    {
+      "name": "回阳救急汤",
+      "modified_count": 0
+    },
+    {
+      "name": "增味导赤散",
+      "modified_count": 0
+    },
+    {
+      "name": "增损四物汤",
+      "modified_count": 0
+    },
+    {
+      "name": "增损当归丸",
+      "modified_count": 0
+    },
+    {
+      "name": "增损柴胡汤",
+      "modified_count": 0
+    },
+    {
+      "name": "增损泽兰丸",
+      "modified_count": 0
+    },
+    {
+      "name": "增损肾沥汤",
+      "modified_count": 0
+    },
+    {
+      "name": "增液承气汤",
+      "modified_count": 0
+    },
+    {
+      "name": "增补省风汤",
+      "modified_count": 0
+    },
+    {
+      "name": "复原活血汤",
+      "modified_count": 0
+    },
+    {
+      "name": "大乌头煎",
+      "modified_count": 0
+    },
+    {
+      "name": "大柴胡汤",
+      "modified_count": 0
+    },
+    {
+      "name": "大羌活汤",
+      "modified_count": 0
+    },
+    {
+      "name": "大青龙汤",
+      "modified_count": 0
+    },
+    {
+      "name": "大黄蛰虫丸",
+      "modified_count": 0
+    },
+    {
+      "name": "天王补心丹",
+      "modified_count": 0
+    },
+    {
+      "name": "定喘汤",
+      "modified_count": 0
+    },
+    {
+      "name": "导痰汤",
+      "modified_count": 0
+    },
+    {
+      "name": "导赤散",
+      "modified_count": 0
+    },
+    {
+      "name": "封髓丹",
+      "modified_count": 0
+    },
+    {
+      "name": "小续命汤",
+      "modified_count": 0
+    },
+    {
+      "name": "小蓟饮子",
+      "modified_count": 0
+    },
+    {
+      "name": "小青龙汤",
+      "modified_count": 0
+    },
+    {
+      "name": "川芎茶调散",
+      "modified_count": 0
+    },
+    {
+      "name": "归脾汤",
+      "modified_count": 0
+    },
+    {
+      "name": "当归六黄汤",
+      "modified_count": 0
+    },
+    {
+      "name": "当归四逆加吴茱萸生姜汤",
+      "modified_count": 0
+    },
+    {
+      "name": "当归四逆汤",
+      "modified_count": 0
+    },
+    {
+      "name": "当归芍药散",
+      "modified_count": 0
+    },
+    {
+      "name": "当归龙荟丸",
+      "modified_count": 0
+    },
+    {
+      "name": "戊己丸",
+      "modified_count": 0
+    },
+    {
+      "name": "托里透脓汤",
+      "modified_count": 0
+    },
+    {
+      "name": "拈痛汤",
+      "modified_count": 0
+    },
+    {
+      "name": "拨云退翳丸",
+      "modified_count": 0
+    },
+    {
+      "name": "散聚汤",
+      "modified_count": 0
+    },
+    {
+      "name": "旋覆代赭汤",
+      "modified_count": 0
+    },
+    {
+      "name": "普济消毒饮",
+      "modified_count": 0
+    },
+    {
+      "name": "曲蘗枳术丸",
+      "modified_count": 0
+    },
+    {
+      "name": "朱砂安神丸",
+      "modified_count": 0
+    },
+    {
+      "name": "枣肉平胃散",
+      "modified_count": 0
+    },
+    {
+      "name": "枳实消痞丸",
+      "modified_count": 0
+    },
+    {
+      "name": "柴胡桂枝干姜汤",
+      "modified_count": 0
+    },
+    {
+      "name": "柴胡桂枝汤",
+      "modified_count": 0
+    },
+    {
+      "name": "柴胡疏肝散",
+      "modified_count": 0
+    },
+    {
+      "name": "柴胡陷胸汤",
+      "modified_count": 0
+    },
+    {
+      "name": "柴葛解肌汤",
+      "modified_count": 0
+    },
+    {
+      "name": "栀子大黄汤",
+      "modified_count": 0
+    },
+    {
+      "name": "栀子柏皮汤",
+      "modified_count": 0
+    },
+    {
+      "name": "栀子甘草豉汤",
+      "modified_count": 0
+    },
+    {
+      "name": "栀子生姜豉汤",
+      "modified_count": 0
+    },
+    {
+      "name": "栝楼桂枝汤",
+      "modified_count": 0
+    },
+    {
+      "name": "桂枝二越婢一汤",
+      "modified_count": 0
+    },
+    {
+      "name": "桂枝二麻黄一汤",
+      "modified_count": 0
+    },
+    {
+      "name": "桂枝人参汤",
+      "modified_count": 0
+    },
+    {
+      "name": "桂枝加厚朴杏子汤",
+      "modified_count": 0
+    },
+    {
+      "name": "桂枝加大黄汤",
+      "modified_count": 0
+    },
+    {
+      "name": "桂枝加附子汤",
+      "modified_count": 0
+    },
+    {
+      "name": "桂枝去芍药加蜀漆牡蛎龙骨救逆汤",
+      "modified_count": 0
+    },
+    {
+      "name": "桂枝新加汤",
+      "modified_count": 0
+    },
+    {
+      "name": "桂枝芍药知母汤",
+      "modified_count": 0
+    },
+    {
+      "name": "桂枝附子汤",
+      "modified_count": 0
+    },
+    {
+      "name": "桂枝麻黄各半汤",
+      "modified_count": 0
+    },
+    {
+      "name": "桂苓甘露散",
+      "modified_count": 0
+    },
+    {
+      "name": "桃核承气汤",
+      "modified_count": 0
+    },
+    {
+      "name": "桑螵蛸散",
+      "modified_count": 0
+    },
+    {
+      "name": "橘半枳术丸",
+      "modified_count": 0
+    },
+    {
+      "name": "橘核丸",
+      "modified_count": 0
+    },
+    {
+      "name": "橘皮竹茹汤",
+      "modified_count": 0
+    },
+    {
+      "name": "泰山磐石散",
+      "modified_count": 0
+    },
+    {
+      "name": "泻白散",
+      "modified_count": 0
+    },
+    {
+      "name": "泻黄散",
+      "modified_count": 0
+    },
+    {
+      "name": "泽兰散",
+      "modified_count": 0
+    },
+    {
+      "name": "泽漆汤",
+      "modified_count": 0
+    },
+    {
+      "name": "消风散",
+      "modified_count": 0
+    },
+    {
+      "name": "涤痰汤",
+      "modified_count": 0
+    },
+    {
+      "name": "清心莲子饮",
+      "modified_count": 0
+    },
+    {
+      "name": "清暑益气汤",
+      "modified_count": 0
+    },
+    {
+      "name": "清燥救肺汤",
+      "modified_count": 0
+    },
+    {
+      "name": "清肠饮",
+      "modified_count": 0
+    },
+    {
+      "name": "清脾饮",
+      "modified_count": 0
+    },
+    {
+      "name": "清骨散",
+      "modified_count": 0
+    },
+    {
+      "name": "温经汤",
+      "modified_count": 0
+    },
+    {
+      "name": "温胆汤",
+      "modified_count": 0
+    },
+    {
+      "name": "温脾汤",
+      "modified_count": 0
+    },
+    {
+      "name": "滑石代赭汤",
+      "modified_count": 0
+    },
+    {
+      "name": "炙甘草汤",
+      "modified_count": 0
+    },
+    {
+      "name": "燥肠丸",
+      "modified_count": 0
+    },
+    {
+      "name": "独活寄生汤",
+      "modified_count": 0
+    },
+    {
+      "name": "瓜蒂散",
+      "modified_count": 0
+    },
+    {
+      "name": "瓜蒌薤白半夏汤",
+      "modified_count": 0
+    },
+    {
+      "name": "甘麦大枣汤",
+      "modified_count": 0
+    },
+    {
+      "name": "生姜泻心汤",
+      "modified_count": 0
+    },
+    {
+      "name": "生肌玉红膏",
+      "modified_count": 0
+    },
+    {
+      "name": "白头翁加甘草阿胶汤",
+      "modified_count": 0
+    },
+    {
+      "name": "白虎加人参汤",
+      "modified_count": 0
+    },
+    {
+      "name": "白虎加桂枝汤",
+      "modified_count": 0
+    },
+    {
+      "name": "白虎加苍术汤",
+      "modified_count": 0
+    },
+    {
+      "name": "白虎汤",
+      "modified_count": 0
+    },
+    {
+      "name": "白通加猪胆汁汤",
+      "modified_count": 0
+    },
+    {
+      "name": "百合固金汤",
+      "modified_count": 0
+    },
+    {
+      "name": "百合知母汤",
+      "modified_count": 0
+    },
+    {
+      "name": "百合鸡子汤",
+      "modified_count": 0
+    },
+    {
+      "name": "皂角化痰丸",
+      "modified_count": 0
+    },
+    {
+      "name": "皂角散",
+      "modified_count": 0
+    },
+    {
+      "name": "益元散",
+      "modified_count": 0
+    },
+    {
+      "name": "真人养脏汤",
+      "modified_count": 0
+    },
+    {
+      "name": "石斛夜光丸",
+      "modified_count": 0
+    },
+    {
+      "name": "石膏汤",
+      "modified_count": 0
+    },
+    {
+      "name": "碧玉散",
+      "modified_count": 0
+    },
+    {
+      "name": "神效托里散",
+      "modified_count": 0
+    },
+    {
+      "name": "竹叶石膏汤",
+      "modified_count": 0
+    },
+    {
+      "name": "续命汤",
+      "modified_count": 0
+    },
+    {
+      "name": "羌活胜湿汤",
+      "modified_count": 0
+    },
+    {
+      "name": "羚角钩藤汤",
+      "modified_count": 0
+    },
+    {
+      "name": "胶艾汤",
+      "modified_count": 0
+    },
+    {
+      "name": "自然铜散",
+      "modified_count": 0
+    },
+    {
+      "name": "芍药汤",
+      "modified_count": 0
+    },
+    {
+      "name": "苍附导痰丸",
+      "modified_count": 0
+    },
+    {
+      "name": "苏子降气汤",
+      "modified_count": 0
+    },
+    {
+      "name": "苓桂术甘汤",
+      "modified_count": 0
+    },
+    {
+      "name": "苓甘五味姜辛汤",
+      "modified_count": 0
+    },
+    {
+      "name": "茯苓甘草汤",
+      "modified_count": 0
+    },
+    {
+      "name": "茵陈四逆汤",
+      "modified_count": 0
+    },
+    {
+      "name": "荆防败毒散",
+      "modified_count": 0
+    },
+    {
+      "name": "葛根加半夏汤",
+      "modified_count": 0
+    },
+    {
+      "name": "葛根黄芩黄连汤",
+      "modified_count": 0
+    },
+    {
+      "name": "葛花解酒汤",
+      "modified_count": 0
+    },
+    {
+      "name": "薏苡仁汤",
+      "modified_count": 0
+    },
+    {
+      "name": "藿香正气散",
+      "modified_count": 0
+    },
+    {
+      "name": "蟅虫散",
+      "modified_count": 0
+    },
+    {
+      "name": "蠲痹汤",
+      "modified_count": 0
+    },
+    {
+      "name": "补中益气汤",
+      "modified_count": 0
+    },
+    {
+      "name": "补肺阿胶汤",
+      "modified_count": 0
+    },
+    {
+      "name": "败毒散",
+      "modified_count": 0
+    },
+    {
+      "name": "资生丸",
+      "modified_count": 0
+    },
+    {
+      "name": "越婢加半夏汤",
+      "modified_count": 0
+    },
+    {
+      "name": "身痛逐瘀汤",
+      "modified_count": 0
+    },
+    {
+      "name": "达原饮",
+      "modified_count": 0
+    },
+    {
+      "name": "酸枣仁汤",
+      "modified_count": 0
+    },
+    {
+      "name": "金沸草散",
+      "modified_count": 0
+    },
+    {
+      "name": "防己地黄汤",
+      "modified_count": 0
+    },
+    {
+      "name": "防己茯苓汤",
+      "modified_count": 0
+    },
+    {
+      "name": "防己黄芪汤",
+      "modified_count": 0
+    },
+    {
+      "name": "防风通圣散",
+      "modified_count": 0
+    },
+    {
+      "name": "阳和汤",
+      "modified_count": 0
+    },
+    {
+      "name": "附子泻心汤",
+      "modified_count": 0
+    },
+    {
+      "name": "附子粳米汤",
+      "modified_count": 0
+    },
+    {
+      "name": "除湿胃苓汤",
+      "modified_count": 0
+    },
+    {
+      "name": "震灵丹",
+      "modified_count": 0
+    },
+    {
+      "name": "风引汤",
+      "modified_count": 0
+    },
+    {
+      "name": "香砂六君子汤",
+      "modified_count": 0
+    },
+    {
+      "name": "香连丸",
+      "modified_count": 0
+    },
+    {
+      "name": "麦门冬汤",
+      "modified_count": 0
+    },
+    {
+      "name": "麻子仁丸",
+      "modified_count": 0
+    },
+    {
+      "name": "麻杏甘石汤",
+      "modified_count": 0
+    },
+    {
+      "name": "麻黄加术汤",
+      "modified_count": 0
+    },
+    {
+      "name": "麻黄杏仁薏苡甘草汤",
+      "modified_count": 0
+    },
+    {
+      "name": "黄土汤",
+      "modified_count": 0
+    },
+    {
+      "name": "黄芩加半夏生姜汤",
+      "modified_count": 0
+    },
+    {
+      "name": "黄芪建中汤",
+      "modified_count": 0
+    },
+    {
+      "name": "黄连汤",
+      "modified_count": 0
+    },
+    {
+      "name": "黄龙汤",
+      "modified_count": 0
+    }
+  ],
+  "herb_herb_freq": [
+    {
+      "pair": [
+        "甘草",
+        "生姜"
+      ],
+      "count": 208
+    },
+    {
+      "pair": [
+        "大枣",
+        "甘草"
+      ],
+      "count": 205
+    },
+    {
+      "pair": [
+        "桂枝",
+        "甘草"
+      ],
+      "count": 196
+    },
+    {
+      "pair": [
+        "大枣",
+        "生姜"
+      ],
+      "count": 184
+    },
+    {
+      "pair": [
+        "人参",
+        "甘草"
+      ],
+      "count": 181
+    },
+    {
+      "pair": [
+        "甘草",
+        "芍药"
+      ],
+      "count": 163
+    },
+    {
+      "pair": [
+        "桂枝",
+        "生姜"
+      ],
+      "count": 146
+    },
+    {
+      "pair": [
+        "大枣",
+        "桂枝"
+      ],
+      "count": 140
+    },
+    {
+      "pair": [
+        "甘草",
+        "白术"
+      ],
+      "count": 130
+    },
+    {
+      "pair": [
+        "生姜",
+        "芍药"
+      ],
+      "count": 122
+    },
+    {
+      "pair": [
+        "大枣",
+        "芍药"
+      ],
+      "count": 116
+    },
+    {
+      "pair": [
+        "桂枝",
+        "芍药"
+      ],
+      "count": 115
+    },
+    {
+      "pair": [
+        "甘草",
+        "茯苓"
+      ],
+      "count": 114
+    },
+    {
+      "pair": [
+        "甘草",
+        "麻黄"
+      ],
+      "count": 104
+    },
+    {
+      "pair": [
+        "半夏",
+        "甘草"
+      ],
+      "count": 104
+    },
+    {
+      "pair": [
+        "当归",
+        "甘草"
+      ],
+      "count": 101
+    },
+    {
+      "pair": [
+        "干姜",
+        "甘草"
+      ],
+      "count": 98
+    },
+    {
+      "pair": [
+        "甘草",
+        "附子"
+      ],
+      "count": 94
+    },
+    {
+      "pair": [
+        "人参",
+        "白术"
+      ],
+      "count": 90
+    },
+    {
+      "pair": [
+        "人参",
+        "茯苓"
+      ],
+      "count": 81
+    }
+  ],
+  "graph_summary": {
+    "node_count": 535,
+    "edge_count": 2391,
+    "formula_formula_edge_count": 562,
+    "formula_herb_edge_count": 1829,
+    "all_formula_record_count": 642
+  }
+}

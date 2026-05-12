@@ -1,0 +1,35 @@
+{
+  "description": "每题分数按 score_llm_all/18 归一化后四舍五入保留两位小数，再累加得到每个数据集下每个模型的总分（满分 50）",
+  "datasets": {
+    "dataset1": {
+      "baichuan_m3_plus": 39.52,
+      "claude_sonnet_4_6": 42.81,
+      "deepseek_v3_2": 41.47,
+      "gemini_3_1_pro_preview": 38.38,
+      "gpt_5_4": 43.11,
+      "kimi_k2_5": 41.6,
+      "o3": 40.6,
+      "qwen3_5_plus": 41.92
+    },
+    "dataset2": {
+      "baichuan_m3_plus": 41.15,
+      "claude_sonnet_4_6": 41.62,
+      "deepseek_v3_2": 37.72,
+      "gemini_3_1_pro_preview": 40.93,
+      "gpt_5_4": 44.35,
+      "kimi_k2_5": 41.01,
+      "o3": 39.12,
+      "qwen3_5_plus": 41.06
+    }
+  },
+  "average": {
+    "baichuan_m3_plus": 40.34,
+    "claude_sonnet_4_6": 42.22,
+    "deepseek_v3_2": 39.6,
+    "gemini_3_1_pro_preview": 39.66,
+    "gpt_5_4": 43.73,
+    "kimi_k2_5": 41.31,
+    "o3": 39.86,
+    "qwen3_5_plus": 41.49
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "model": "o3",
+  "datasets": [
+    {
+      "model": "o3",
+      "dataset": "dataset1",
+      "total": 100,
+      "correct": 89,
+      "accuracy": 0.89
+    },
+    {
+      "model": "o3",
+      "dataset": "dataset2",
+      "total": 100,
+      "correct": 89,
+      "accuracy": 0.89
+    },
+    {
+      "model": "o3",
+      "dataset": "dataset3",
+      "total": 100,
+      "correct": 69,
+      "accuracy": 0.69
+    }
+  ],
+  "overall": {
+    "total": 300,
+    "correct": 247,
+    "accuracy": 0.8233333333333334
+  }
+}

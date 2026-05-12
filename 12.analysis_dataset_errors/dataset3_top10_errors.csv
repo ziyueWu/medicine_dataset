@@ -1,0 +1,11 @@
+question_id,type,question,gold_answer,gold_answer_text,error_count,wrong_models
+30,药材别名识别,下列哪一项是中药“豨莶草”的别名？,D,山甘草,8,GPT-5.4:A->猪屎草 | O3:A->猪屎草 | Kimi-K2.5:A->猪屎草 | DeepSeek-V3.2:A->猪屎草 | Gemini-3.1-Pro-Preview:A->猪屎草 | Claude-Sonnet-4.6:A->猪屎草 | Qwen3.5-Plus:A->猪屎草 | 仲景:A->猪屎草
+4,药材别名识别,下列哪一项是中药“益母草”的别名？,C,苦低草,7,GPT-5.4:A->活血草 | O3:A->活血草 | Kimi-K2.5:A->活血草 | Gemini-3.1-Pro-Preview:A->活血草 | Claude-Sonnet-4.6:A->活血草 | Qwen3.5-Plus:A->活血草 | 仲景:A->活血草
+64,药材别名识别,下列哪一项是中药“徐长卿”的别名？,A,药王,7,GPT-5.4:C->因地辛 | O3:C->因地辛 | Kimi-K2.5:C->因地辛 | DeepSeek-V3.2:C->因地辛 | Gemini-3.1-Pro-Preview:C->因地辛 | Claude-Sonnet-4.6:C->因地辛 | 仲景:B->香果
+10,药材别名识别,下列哪一项是中药“水红花子”的别名？,A,水泻花,6,GPT-5.4:C->刚子 | O3:C->刚子 | Kimi-K2.5:B->白葜 | DeepSeek-V3.2:B->白葜 | Gemini-3.1-Pro-Preview:None-> | Qwen3.5-Plus:C->刚子
+63,药材别名识别,下列哪一项是中药“忍冬藤”的别名？,D,大薜荔,6,GPT-5.4:A->九节莲 | O3:None-> | Kimi-K2.5:A->九节莲 | DeepSeek-V3.2:A->九节莲 | Claude-Sonnet-4.6:A->九节莲 | 仲景:A->九节莲
+73,药材别名识别,下列哪一项是中药“白花蛇舌草”的别名？,B,奶沙尔,6,GPT-5.4:A->猫蓟 | O3:None-> | DeepSeek-V3.2:D->燕蕧 | Gemini-3.1-Pro-Preview:C->三眠柳 | Qwen3.5-Plus:D->燕蕧 | 仲景:A->猫蓟
+85,药材别名识别,下列哪一项是中药“朱砂根”的别名？,D,龙山子,6,O3:A->江珠 | Kimi-K2.5:B->马蹄草 | DeepSeek-V3.2:A->江珠 | Claude-Sonnet-4.6:C->千斤力 | Qwen3.5-Plus:C->千斤力 | 仲景:A->江珠
+96,药材别名识别,下列哪一项是中药“射干”的别名？,D,黄知母,6,GPT-5.4:B->母鸡带仔 | O3:B->母鸡带仔 | Kimi-K2.5:None-> | DeepSeek-V3.2:B->母鸡带仔 | Claude-Sonnet-4.6:B->母鸡带仔 | 仲景:A->苦杏仁
+2,药材别名识别,下列哪一项是中药“杠板归”的别名？,B,利酸浆,4,GPT-5.4:C->剪刀草 | O3:A->斑杖 | Qwen3.5-Plus:A->斑杖 | 仲景:A->斑杖
+22,药材别名识别,下列哪一项是中药“茶叶”的别名？,D,郭璞注,4,O3:A->梭椤子 | DeepSeek-V3.2:A->梭椤子 | Qwen3.5-Plus:None-> | 仲景:A->梭椤子

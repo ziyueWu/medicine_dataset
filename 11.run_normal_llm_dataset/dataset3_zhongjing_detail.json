@@ -1,0 +1,1507 @@
+{
+  "accuracy": 0.49,
+  "total": 100,
+  "correct": 49,
+  "details": [
+    {
+      "id": 1,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“蚕沙”的别名？",
+      "options": {
+        "A": "苦草",
+        "B": "人头七",
+        "C": "马鸣肝",
+        "D": "苦杖根"
+      },
+      "ground_truth": "C",
+      "prediction": "B",
+      "model_output": "B",
+      "correct": false
+    },
+    {
+      "id": 2,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“杠板归”的别名？",
+      "options": {
+        "A": "斑杖",
+        "B": "利酸浆",
+        "C": "剪刀草",
+        "D": "瓜蒌"
+      },
+      "ground_truth": "B",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 3,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“川牛膝”的别名？",
+      "options": {
+        "A": "大料",
+        "B": "漏蔻",
+        "C": "熏黄",
+        "D": "都牛膝"
+      },
+      "ground_truth": "D",
+      "prediction": "D",
+      "model_output": "D",
+      "correct": true
+    },
+    {
+      "id": 4,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“益母草”的别名？",
+      "options": {
+        "A": "活血草",
+        "B": "毛姜",
+        "C": "苦低草",
+        "D": "服翼"
+      },
+      "ground_truth": "C",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 5,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“北豆根”的别名？",
+      "options": {
+        "A": "（犭凡）蒿",
+        "B": "黄条香",
+        "C": "支连",
+        "D": "山慈菇"
+      },
+      "ground_truth": "B",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 6,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“珠子参”的别名？",
+      "options": {
+        "A": "附支",
+        "B": "白地瓜",
+        "C": "寒蚓",
+        "D": "川明参"
+      },
+      "ground_truth": "B",
+      "prediction": "D",
+      "model_output": "D",
+      "correct": false
+    },
+    {
+      "id": 7,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“樗鸡”的别名？",
+      "options": {
+        "A": "毛锥子",
+        "B": "兰草",
+        "C": "灰花蛾",
+        "D": "铺地锦"
+      },
+      "ground_truth": "C",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 8,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“络石藤”的别名？",
+      "options": {
+        "A": "炙草",
+        "B": "乌绒",
+        "C": "水蜈蚣",
+        "D": "骑墙虎"
+      },
+      "ground_truth": "D",
+      "prediction": "D",
+      "model_output": "D",
+      "correct": true
+    },
+    {
+      "id": 9,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“百蕊草”的别名？",
+      "options": {
+        "A": "积药草",
+        "B": "丝瓜壳",
+        "C": "马衔",
+        "D": "马加勒"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 10,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“水红花子”的别名？",
+      "options": {
+        "A": "水泻花",
+        "B": "白葜",
+        "C": "刚子",
+        "D": "鹿茸"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 11,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“炉甘石”的别名？",
+      "options": {
+        "A": "石髓铅",
+        "B": "竹子青",
+        "C": "羊肝石",
+        "D": "珍珠母"
+      },
+      "ground_truth": "C",
+      "prediction": "D",
+      "model_output": "D",
+      "correct": false
+    },
+    {
+      "id": 12,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“商陆”的别名？",
+      "options": {
+        "A": "虎酒草",
+        "B": "湿萝卜",
+        "C": "地瓜儿苗",
+        "D": "六月冷"
+      },
+      "ground_truth": "B",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 13,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“半枝莲”的别名？",
+      "options": {
+        "A": "水韩信",
+        "B": "牛子",
+        "C": "剪刀草",
+        "D": "粉草"
+      },
+      "ground_truth": "A",
+      "prediction": "C",
+      "model_output": "C",
+      "correct": false
+    },
+    {
+      "id": 14,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“白鲜皮”的别名？",
+      "options": {
+        "A": "野花椒根皮",
+        "B": "百条根",
+        "C": "顺江龙",
+        "D": "黄硇砂"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 15,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“鱼腥草”的别名？",
+      "options": {
+        "A": "桔参",
+        "B": "疳积草",
+        "C": "蚱蝉",
+        "D": "折耳根"
+      },
+      "ground_truth": "D",
+      "prediction": "D",
+      "model_output": "D",
+      "correct": true
+    },
+    {
+      "id": 16,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“骨碎补”的别名？",
+      "options": {
+        "A": "苦参",
+        "B": "石毛姜",
+        "C": "白藊豆",
+        "D": "皂角制"
+      },
+      "ground_truth": "B",
+      "prediction": "B",
+      "model_output": "B",
+      "correct": true
+    },
+    {
+      "id": 17,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“大血藤”的别名？",
+      "options": {
+        "A": "地椒",
+        "B": "野青豆",
+        "C": "蒲草黄",
+        "D": "过山龙"
+      },
+      "ground_truth": "D",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 18,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“杠板归”的别名？",
+      "options": {
+        "A": "五倍子",
+        "B": "退血草",
+        "C": "双肾子",
+        "D": "苏方"
+      },
+      "ground_truth": "B",
+      "prediction": "B",
+      "model_output": "B",
+      "correct": true
+    },
+    {
+      "id": 19,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“蝉蜕”的别名？",
+      "options": {
+        "A": "蝉壳",
+        "B": "枣子",
+        "C": "陵藁",
+        "D": "龙脑香"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 20,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“伏龙肝”的别名？",
+      "options": {
+        "A": "破石珠",
+        "B": "大接骨",
+        "C": "高良姜",
+        "D": "釜月下土"
+      },
+      "ground_truth": "D",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 21,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“商陆”的别名？",
+      "options": {
+        "A": "水萝卜",
+        "B": "凤凰鸡",
+        "C": "黄骨狼",
+        "D": "章瓦"
+      },
+      "ground_truth": "A",
+      "prediction": "D",
+      "model_output": "D",
+      "correct": false
+    },
+    {
+      "id": 22,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“茶叶”的别名？",
+      "options": {
+        "A": "梭椤子",
+        "B": "干姜",
+        "C": "当归",
+        "D": "郭璞注"
+      },
+      "ground_truth": "D",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 23,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“垂盆草”的别名？",
+      "options": {
+        "A": "佛指甲",
+        "B": "升药",
+        "C": "鸳鸯草",
+        "D": "缠身龙"
+      },
+      "ground_truth": "A",
+      "prediction": "C",
+      "model_output": "C",
+      "correct": false
+    },
+    {
+      "id": 24,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“藏青果”的别名？",
+      "options": {
+        "A": "西青果",
+        "B": "旱莲草",
+        "C": "红苏",
+        "D": "一口血"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 25,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“款冬花”的别名？",
+      "options": {
+        "A": "婪尾春",
+        "B": "海带花",
+        "C": "瓦莲",
+        "D": "艾冬花"
+      },
+      "ground_truth": "D",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 26,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“洋金花”的别名？",
+      "options": {
+        "A": "补骨鸱",
+        "B": "千叶蔓陀罗花",
+        "C": "黑蛇胆",
+        "D": "夜干"
+      },
+      "ground_truth": "B",
+      "prediction": "B",
+      "model_output": "B",
+      "correct": true
+    },
+    {
+      "id": 27,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“天南星”的别名？",
+      "options": {
+        "A": "山棒子",
+        "B": "玉蜀黍蕊",
+        "C": "牛虱子",
+        "D": "蜞"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 28,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“琥珀”的别名？",
+      "options": {
+        "A": "伯芹",
+        "B": "石榴壳",
+        "C": "虎魄",
+        "D": "儿草"
+      },
+      "ground_truth": "C",
+      "prediction": "B",
+      "model_output": "B",
+      "correct": false
+    },
+    {
+      "id": 29,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“青蒿”的别名？",
+      "options": {
+        "A": "岩筋",
+        "B": "光明砂",
+        "C": "弯子",
+        "D": "香蒿"
+      },
+      "ground_truth": "D",
+      "prediction": "D",
+      "model_output": "D",
+      "correct": true
+    },
+    {
+      "id": 30,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“豨莶草”的别名？",
+      "options": {
+        "A": "猪屎草",
+        "B": "管仲",
+        "C": "水球子",
+        "D": "山甘草"
+      },
+      "ground_truth": "D",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 31,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“薏苡仁”的别名？",
+      "options": {
+        "A": "灶突中尘",
+        "B": "杜噜香",
+        "C": "蒲棒花粉",
+        "D": "赣米"
+      },
+      "ground_truth": "D",
+      "prediction": "D",
+      "model_output": "D",
+      "correct": true
+    },
+    {
+      "id": 32,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“一枝黄花”的别名？",
+      "options": {
+        "A": "宛童",
+        "B": "金灯花",
+        "C": "杜芫",
+        "D": "朝鲜一枝蒿"
+      },
+      "ground_truth": "D",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 33,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“白屈菜”的别名？",
+      "options": {
+        "A": "巨句麦",
+        "B": "枸茄茄",
+        "C": "地菅",
+        "D": "雄黄草"
+      },
+      "ground_truth": "D",
+      "prediction": "B",
+      "model_output": "B",
+      "correct": false
+    },
+    {
+      "id": 34,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“桔梗”的别名？",
+      "options": {
+        "A": "千年树",
+        "B": "金狮胆",
+        "C": "符蔰",
+        "D": "苦楝"
+      },
+      "ground_truth": "C",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 35,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“伸筋草”的别名？",
+      "options": {
+        "A": "羊肝石",
+        "B": "白及",
+        "C": "立筋草",
+        "D": "小虫儿卧单"
+      },
+      "ground_truth": "C",
+      "prediction": "C",
+      "model_output": "C",
+      "correct": true
+    },
+    {
+      "id": 36,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“桑寄生”的别名？",
+      "options": {
+        "A": "猪耳朵穗子",
+        "B": "茑",
+        "C": "石流黄",
+        "D": "瓣子艽"
+      },
+      "ground_truth": "B",
+      "prediction": "B",
+      "model_output": "B",
+      "correct": true
+    },
+    {
+      "id": 37,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“茯苓”的别名？",
+      "options": {
+        "A": "鹄壳",
+        "B": "不死面",
+        "C": "土明参",
+        "D": "土马蜂"
+      },
+      "ground_truth": "B",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 38,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“杠板归”的别名？",
+      "options": {
+        "A": "地棠草",
+        "B": "甘根",
+        "C": "荭草实",
+        "D": "烙铁草"
+      },
+      "ground_truth": "D",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 39,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“独一味”的别名？",
+      "options": {
+        "A": "巴拉努努",
+        "B": "紫葳华",
+        "C": "五叶草",
+        "D": "苇子根"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 40,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“洋金花”的别名？",
+      "options": {
+        "A": "广东闹羊花",
+        "B": "有竻火炭藤",
+        "C": "柿丁",
+        "D": "月月有"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 41,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“山慈菇”的别名？",
+      "options": {
+        "A": "水牛角",
+        "B": "泥冰子",
+        "C": "茵陈",
+        "D": "犁头刺藤"
+      },
+      "ground_truth": "B",
+      "prediction": "D",
+      "model_output": "D",
+      "correct": false
+    },
+    {
+      "id": 42,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“徐长卿”的别名？",
+      "options": {
+        "A": "蜈蚣草",
+        "B": "石菊花",
+        "C": "野木瓜",
+        "D": "泽泻"
+      },
+      "ground_truth": "A",
+      "prediction": "C",
+      "model_output": "C",
+      "correct": false
+    },
+    {
+      "id": 43,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“荔枝核”的别名？",
+      "options": {
+        "A": "漆倍子",
+        "B": "荔核",
+        "C": "刀凤豆",
+        "D": "豆板菜"
+      },
+      "ground_truth": "B",
+      "prediction": "B",
+      "model_output": "B",
+      "correct": true
+    },
+    {
+      "id": 44,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“地锦草”的别名？",
+      "options": {
+        "A": "臭枫草",
+        "B": "水剑草",
+        "C": "癞蟆皮",
+        "D": "扑地锦"
+      },
+      "ground_truth": "D",
+      "prediction": "D",
+      "model_output": "D",
+      "correct": true
+    },
+    {
+      "id": 45,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“皂角刺”的别名？",
+      "options": {
+        "A": "扫罗玛尔布",
+        "B": "苦树",
+        "C": "皂刺",
+        "D": "麝香"
+      },
+      "ground_truth": "C",
+      "prediction": "C",
+      "model_output": "C",
+      "correct": true
+    },
+    {
+      "id": 46,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“白扁豆”的别名？",
+      "options": {
+        "A": "马兜零",
+        "B": "火镰扁豆",
+        "C": "桑皮",
+        "D": "玉香丝"
+      },
+      "ground_truth": "B",
+      "prediction": "B",
+      "model_output": "B",
+      "correct": true
+    },
+    {
+      "id": 47,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“莪术”的别名？",
+      "options": {
+        "A": "红枣",
+        "B": "蓬莪茂",
+        "C": "开金锁",
+        "D": "石青子"
+      },
+      "ground_truth": "B",
+      "prediction": "B",
+      "model_output": "B",
+      "correct": true
+    },
+    {
+      "id": 48,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“一枝黄花”的别名？",
+      "options": {
+        "A": "对月草",
+        "B": "黄花仔",
+        "C": "刺五加",
+        "D": "升阳菜薄苛"
+      },
+      "ground_truth": "B",
+      "prediction": "B",
+      "model_output": "B",
+      "correct": true
+    },
+    {
+      "id": 49,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“狗脊”的别名？",
+      "options": {
+        "A": "狗青",
+        "B": "驴耳朵草",
+        "C": "棕皮",
+        "D": "冬豆子"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 50,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“预知子”的别名？",
+      "options": {
+        "A": "木通子",
+        "B": "金钱松皮",
+        "C": "苦楝根",
+        "D": "水萝卜"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 51,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“淡竹叶”的别名？",
+      "options": {
+        "A": "墨菜",
+        "B": "山冬",
+        "C": "鼓锤草",
+        "D": "花旗参"
+      },
+      "ground_truth": "B",
+      "prediction": "C",
+      "model_output": "C",
+      "correct": false
+    },
+    {
+      "id": 52,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“白术”的别名？",
+      "options": {
+        "A": "螳螂子",
+        "B": "拿子",
+        "C": "蜜香",
+        "D": "山姜"
+      },
+      "ground_truth": "D",
+      "prediction": "D",
+      "model_output": "D",
+      "correct": true
+    },
+    {
+      "id": 53,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“黑芝麻”的别名？",
+      "options": {
+        "A": "黑脂麻",
+        "B": "猪胆汁",
+        "C": "栝楼",
+        "D": "地龙骨"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 54,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“大枣”的别名？",
+      "options": {
+        "A": "萝卜七",
+        "B": "良枣",
+        "C": "地黄连",
+        "D": "低密"
+      },
+      "ground_truth": "B",
+      "prediction": "B",
+      "model_output": "B",
+      "correct": true
+    },
+    {
+      "id": 55,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“薏苡仁”的别名？",
+      "options": {
+        "A": "白苕",
+        "B": "益米",
+        "C": "牛角椒",
+        "D": "墨草"
+      },
+      "ground_truth": "B",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 56,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“穿山龙”的别名？",
+      "options": {
+        "A": "顺江龙",
+        "B": "黄姜",
+        "C": "癞蛤蟆",
+        "D": "断肠草"
+      },
+      "ground_truth": "B",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 57,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“巴豆”的别名？",
+      "options": {
+        "A": "百丈光",
+        "B": "八百力",
+        "C": "泥冰子",
+        "D": "光明草"
+      },
+      "ground_truth": "B",
+      "prediction": "C",
+      "model_output": "C",
+      "correct": false
+    },
+    {
+      "id": 58,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“仙鹤草”的别名？",
+      "options": {
+        "A": "麝脐香",
+        "B": "戏铁石",
+        "C": "路边鸡",
+        "D": "银粉"
+      },
+      "ground_truth": "C",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 59,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“伸筋草”的别名？",
+      "options": {
+        "A": "婆婆丁",
+        "B": "蛇粟",
+        "C": "益智",
+        "D": "老虎垫坐"
+      },
+      "ground_truth": "D",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 60,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“草乌”的别名？",
+      "options": {
+        "A": "白花树",
+        "B": "橙皮",
+        "C": "乌喙",
+        "D": "老藤"
+      },
+      "ground_truth": "C",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 61,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“蜂蜜”的别名？",
+      "options": {
+        "A": "风藤",
+        "B": "铃柴胡",
+        "C": "扁柏叶",
+        "D": "食蜜"
+      },
+      "ground_truth": "D",
+      "prediction": "D",
+      "model_output": "D",
+      "correct": true
+    },
+    {
+      "id": 62,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“茜草”的别名？",
+      "options": {
+        "A": "牛尾巴花子",
+        "B": "左壳",
+        "C": "虋冬",
+        "D": "地血"
+      },
+      "ground_truth": "D",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 63,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“忍冬藤”的别名？",
+      "options": {
+        "A": "九节莲",
+        "B": "混元丹",
+        "C": "关海决",
+        "D": "大薜荔"
+      },
+      "ground_truth": "D",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 64,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“徐长卿”的别名？",
+      "options": {
+        "A": "药王",
+        "B": "香果",
+        "C": "因地辛",
+        "D": "香豉"
+      },
+      "ground_truth": "A",
+      "prediction": "B",
+      "model_output": "B",
+      "correct": false
+    },
+    {
+      "id": 65,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“禹余粮”的别名？",
+      "options": {
+        "A": "石脑",
+        "B": "菽蘖",
+        "C": "五苓散",
+        "D": "石剑"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 66,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“山药”的别名？",
+      "options": {
+        "A": "蟋龙草",
+        "B": "悬刀",
+        "C": "野白薯",
+        "D": "扁豆皮"
+      },
+      "ground_truth": "C",
+      "prediction": "C",
+      "model_output": "C",
+      "correct": true
+    },
+    {
+      "id": 67,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“硼砂”的别名？",
+      "options": {
+        "A": "山硬硬",
+        "B": "赤茯苓",
+        "C": "虾蟆衣子",
+        "D": "大朋砂"
+      },
+      "ground_truth": "D",
+      "prediction": "D",
+      "model_output": "D",
+      "correct": true
+    },
+    {
+      "id": 68,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“草血竭”的别名？",
+      "options": {
+        "A": "地蜂子",
+        "B": "没多僧",
+        "C": "花壳虫",
+        "D": "小胡麻"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 69,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“稻芽”的别名？",
+      "options": {
+        "A": "拔子弹草",
+        "B": "矮桐子",
+        "C": "稻蘖",
+        "D": "糖果"
+      },
+      "ground_truth": "C",
+      "prediction": "C",
+      "model_output": "C",
+      "correct": true
+    },
+    {
+      "id": 70,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“甘遂”的别名？",
+      "options": {
+        "A": "大还魂草",
+        "B": "大芸",
+        "C": "白泽",
+        "D": "野杉子"
+      },
+      "ground_truth": "C",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 71,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“白屈菜”的别名？",
+      "options": {
+        "A": "只刺",
+        "B": "黄汤子",
+        "C": "蟾蜍眉酥",
+        "D": "地骨皮"
+      },
+      "ground_truth": "B",
+      "prediction": "D",
+      "model_output": "D",
+      "correct": false
+    },
+    {
+      "id": 72,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“白鹤灵芝”的别名？",
+      "options": {
+        "A": "癣草",
+        "B": "破血丹",
+        "C": "续断",
+        "D": "小红升"
+      },
+      "ground_truth": "A",
+      "prediction": "C",
+      "model_output": "C",
+      "correct": false
+    },
+    {
+      "id": 73,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“白花蛇舌草”的别名？",
+      "options": {
+        "A": "猫蓟",
+        "B": "奶沙尔",
+        "C": "三眠柳",
+        "D": "燕蕧"
+      },
+      "ground_truth": "B",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 74,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“车前草”的别名？",
+      "options": {
+        "A": "脑子",
+        "B": "傅致胶",
+        "C": "牛甜菜",
+        "D": "蜂糖罐"
+      },
+      "ground_truth": "C",
+      "prediction": "C",
+      "model_output": "C",
+      "correct": true
+    },
+    {
+      "id": 75,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“萆薢”的别名？",
+      "options": {
+        "A": "柿钱",
+        "B": "土薯蓣",
+        "C": "汞沙",
+        "D": "降香"
+      },
+      "ground_truth": "B",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 76,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“独活”的别名？",
+      "options": {
+        "A": "山大活",
+        "B": "鼠矢",
+        "C": "野菊花",
+        "D": "发髲"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 77,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“马齿苋”的别名？",
+      "options": {
+        "A": "红火柴头花",
+        "B": "薏仁",
+        "C": "甜七",
+        "D": "地马莱"
+      },
+      "ground_truth": "D",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 78,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“鸡血藤”的别名？",
+      "options": {
+        "A": "互草",
+        "B": "马鹿藤",
+        "C": "白头公",
+        "D": "免耳草"
+      },
+      "ground_truth": "B",
+      "prediction": "B",
+      "model_output": "B",
+      "correct": true
+    },
+    {
+      "id": 79,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“细辛”的别名？",
+      "options": {
+        "A": "油麻",
+        "B": "槐花",
+        "C": "金金甲根",
+        "D": "小辛"
+      },
+      "ground_truth": "D",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 80,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“香附”的别名？",
+      "options": {
+        "A": "蝘",
+        "B": "酸查",
+        "C": "三棱草根",
+        "D": "见水生"
+      },
+      "ground_truth": "C",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 81,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“淫羊藿”的别名？",
+      "options": {
+        "A": "文希",
+        "B": "刚前",
+        "C": "枸杞子",
+        "D": "白毛串"
+      },
+      "ground_truth": "B",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 82,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“白蔹”的别名？",
+      "options": {
+        "A": "野红薯",
+        "B": "破岩珠",
+        "C": "矮樟",
+        "D": "补骨鸱"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 83,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“败酱”的别名？",
+      "options": {
+        "A": "蒨草",
+        "B": "白苦爹",
+        "C": "海蜡",
+        "D": "土贝母"
+      },
+      "ground_truth": "B",
+      "prediction": "B",
+      "model_output": "B",
+      "correct": true
+    },
+    {
+      "id": 84,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“木通”的别名？",
+      "options": {
+        "A": "羊不吃",
+        "B": "附支",
+        "C": "铜钱柴",
+        "D": "酒饼草"
+      },
+      "ground_truth": "B",
+      "prediction": "C",
+      "model_output": "C",
+      "correct": false
+    },
+    {
+      "id": 85,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“朱砂根”的别名？",
+      "options": {
+        "A": "江珠",
+        "B": "马蹄草",
+        "C": "千斤力",
+        "D": "龙山子"
+      },
+      "ground_truth": "D",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 86,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“香薷”的别名？",
+      "options": {
+        "A": "莱菔子",
+        "B": "须丸",
+        "C": "蜜蜂草",
+        "D": "厚朴"
+      },
+      "ground_truth": "C",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 87,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“地骨皮”的别名？",
+      "options": {
+        "A": "山杞子根",
+        "B": "豹狗花",
+        "C": "满天飞",
+        "D": "鲮鲤角"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 88,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“槐角”的别名？",
+      "options": {
+        "A": "槐子",
+        "B": "鼠牙半支",
+        "C": "明七",
+        "D": "羊起石"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 89,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“延胡索”的别名？",
+      "options": {
+        "A": "君求子",
+        "B": "皂针",
+        "C": "盘棕",
+        "D": "元胡"
+      },
+      "ground_truth": "D",
+      "prediction": "D",
+      "model_output": "D",
+      "correct": true
+    },
+    {
+      "id": 90,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“虎杖”的别名？",
+      "options": {
+        "A": "耳坠风",
+        "B": "苦杖",
+        "C": "四季青",
+        "D": "天青红"
+      },
+      "ground_truth": "B",
+      "prediction": "B",
+      "model_output": "B",
+      "correct": true
+    },
+    {
+      "id": 91,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“忍冬藤”的别名？",
+      "options": {
+        "A": "银花秧",
+        "B": "蚳母",
+        "C": "刺角菜",
+        "D": "金巴斗"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 92,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“鱼腥草”的别名？",
+      "options": {
+        "A": "合离草",
+        "B": "臭腥草",
+        "C": "红梗草",
+        "D": "毛脚茵"
+      },
+      "ground_truth": "B",
+      "prediction": "B",
+      "model_output": "B",
+      "correct": true
+    },
+    {
+      "id": 93,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“穿山甲”的别名？",
+      "options": {
+        "A": "川山甲",
+        "B": "盆覆胶",
+        "C": "石蓝",
+        "D": "山茱肉"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 94,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“黑芝麻”的别名？",
+      "options": {
+        "A": "领石",
+        "B": "地虾",
+        "C": "草鞋刺",
+        "D": "巨胜"
+      },
+      "ground_truth": "D",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 95,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“白蔹”的别名？",
+      "options": {
+        "A": "白浆罐",
+        "B": "竹节七",
+        "C": "青果",
+        "D": "三角枫"
+      },
+      "ground_truth": "A",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": true
+    },
+    {
+      "id": 96,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“射干”的别名？",
+      "options": {
+        "A": "苦杏仁",
+        "B": "母鸡带仔",
+        "C": "地栗",
+        "D": "黄知母"
+      },
+      "ground_truth": "D",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 97,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“北豆根”的别名？",
+      "options": {
+        "A": "青香藤",
+        "B": "黄根",
+        "C": "串心草",
+        "D": "鸭蛋子"
+      },
+      "ground_truth": "B",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 98,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“槲寄生”的别名？",
+      "options": {
+        "A": "苦羌头",
+        "B": "烦硫",
+        "C": "北寄生",
+        "D": "朱苓"
+      },
+      "ground_truth": "C",
+      "prediction": "C",
+      "model_output": "C",
+      "correct": true
+    },
+    {
+      "id": 99,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“龙眼肉”的别名？",
+      "options": {
+        "A": "裸龟巴",
+        "B": "骊珠",
+        "C": "水马香果",
+        "D": "龙单衣"
+      },
+      "ground_truth": "B",
+      "prediction": "A",
+      "model_output": "A",
+      "correct": false
+    },
+    {
+      "id": 100,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“天竺黄”的别名？",
+      "options": {
+        "A": "石脑",
+        "B": "漳丹",
+        "C": "野荆芥",
+        "D": "竹黄"
+      },
+      "ground_truth": "D",
+      "prediction": "B",
+      "model_output": "B",
+      "correct": false
+    }
+  ]
+}

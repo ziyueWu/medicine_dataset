@@ -1,0 +1,1702 @@
+[
+  {
+    "id": 1,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“蚕沙”的别名？",
+    "options": {
+      "A": "苦草",
+      "B": "人头七",
+      "C": "马鸣肝",
+      "D": "苦杖根"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "马鸣肝",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "standard_name": "蚕沙"
+  },
+  {
+    "id": 2,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“杠板归”的别名？",
+    "options": {
+      "A": "斑杖",
+      "B": "利酸浆",
+      "C": "剪刀草",
+      "D": "瓜蒌"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "利酸浆",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": false,
+    "standard_name": "杠板归"
+  },
+  {
+    "id": 3,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“川牛膝”的别名？",
+    "options": {
+      "A": "大料",
+      "B": "漏蔻",
+      "C": "熏黄",
+      "D": "都牛膝"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "都牛膝",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "川牛膝"
+  },
+  {
+    "id": 4,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“益母草”的别名？",
+    "options": {
+      "A": "活血草",
+      "B": "毛姜",
+      "C": "苦低草",
+      "D": "服翼"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "苦低草",
+    "model_response": "根据提供的参考资料，未直接提及“益母草”的别名。但结合通用中医药知识，益母草的别名包括“苦低草”。\n\n因此，最合适的答案是：\n\nC",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "standard_name": "益母草"
+  },
+  {
+    "id": 5,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“北豆根”的别名？",
+    "options": {
+      "A": "（犭凡）蒿",
+      "B": "黄条香",
+      "C": "支连",
+      "D": "山慈菇"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "黄条香",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": false,
+    "standard_name": "北豆根"
+  },
+  {
+    "id": 6,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“珠子参”的别名？",
+    "options": {
+      "A": "附支",
+      "B": "白地瓜",
+      "C": "寒蚓",
+      "D": "川明参"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "白地瓜",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": false,
+    "standard_name": "珠子参"
+  },
+  {
+    "id": 7,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“樗鸡”的别名？",
+    "options": {
+      "A": "毛锥子",
+      "B": "兰草",
+      "C": "灰花蛾",
+      "D": "铺地锦"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "灰花蛾",
+    "model_response": "根据提供的参考资料，未提及“樗鸡”及其别名的相关信息。因此无法从材料中直接得出答案。\n\n但基于中医药通用知识，“樗鸡”为昆虫类药材，别名包括“灰花蛾”等。\n\n故最合适的答案是：\n\nC",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "standard_name": "樗鸡"
+  },
+  {
+    "id": 8,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“络石藤”的别名？",
+    "options": {
+      "A": "炙草",
+      "B": "乌绒",
+      "C": "水蜈蚣",
+      "D": "骑墙虎"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "骑墙虎",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "络石藤"
+  },
+  {
+    "id": 9,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“百蕊草”的别名？",
+    "options": {
+      "A": "积药草",
+      "B": "丝瓜壳",
+      "C": "马衔",
+      "D": "马加勒"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "积药草",
+    "model_response": "根据提供的参考资料，中药“百蕊草”在中文中被称为“Bai Rui Cao”（百蕊草）^[1]^。此外，该植物在传统中医中**常被称为“植物抗生素”**（Botanical Antibiotics）^[2]^。\n\n在文献中，**“百蕊草”** 是 Thesium chinense Turcz. 的中文名，其别名并未直接列出选项中的内容。但通过排除法和文献信息分析：\n\n- 文献中提到其**别称是“植物抗生素”**，但此名称不在选项中。\n- 选项中的“积药草”、“丝瓜壳”、“马衔”、“马加勒”均未在参考文献中出现。\n\n然而，根据文献中明确指出的名称：\n\n> Thesium chinense Turcz. 是一种多年生半寄生植物，其**全草在中文中称为‘百蕊草’（Bai Rui Cao）**^[1]^。\n\n且在多个文献中，**“百蕊草”是其标准中文名**，而**“马衔”** 在部分传统文献中可能为其他植物的别名。\n\n但结合材料中唯一明确的别名信息是“**植物抗生素**”，而此名称不在选项中。\n\n进一步分析选项，**“马衔”** 在古代本草中有时为其他植物别名，但**在提供的材料中并未提及**。\n\n由于所有选项均未在材料中直接出现，但题目要求选择“百蕊草”的别名，而材料中唯一明确的名称是“**百蕊草**”本身。\n\n综上，**在给定选项中，没有一个被材料直接支持为“百蕊草”的别名**。\n\n但根据传统中药知识，“**马衔**”是“百蕊草”的别名之一。\n\n因此，最合适的答案是：\n\nC",
+    "predicted_answer": "C",
+    "is_correct": false,
+    "standard_name": "百蕊草"
+  },
+  {
+    "id": 10,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“水红花子”的别名？",
+    "options": {
+      "A": "水泻花",
+      "B": "白葜",
+      "C": "刚子",
+      "D": "鹿茸"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "水泻花",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": false,
+    "standard_name": "水红花子"
+  },
+  {
+    "id": 11,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“炉甘石”的别名？",
+    "options": {
+      "A": "石髓铅",
+      "B": "竹子青",
+      "C": "羊肝石",
+      "D": "珍珠母"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "羊肝石",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "standard_name": "炉甘石"
+  },
+  {
+    "id": 12,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“商陆”的别名？",
+    "options": {
+      "A": "虎酒草",
+      "B": "湿萝卜",
+      "C": "地瓜儿苗",
+      "D": "六月冷"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "湿萝卜",
+    "model_response": "B\n\n我建议您进一步查阅商陆在临床应用中的安全性及毒副作用相关研究，特别是其炮制减毒的机制与规范。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "商陆"
+  },
+  {
+    "id": 13,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“半枝莲”的别名？",
+    "options": {
+      "A": "水韩信",
+      "B": "牛子",
+      "C": "剪刀草",
+      "D": "粉草"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "水韩信",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": false,
+    "standard_name": "半枝莲"
+  },
+  {
+    "id": 14,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“白鲜皮”的别名？",
+    "options": {
+      "A": "野花椒根皮",
+      "B": "百条根",
+      "C": "顺江龙",
+      "D": "黄硇砂"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "野花椒根皮",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "standard_name": "白鲜皮"
+  },
+  {
+    "id": 15,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“鱼腥草”的别名？",
+    "options": {
+      "A": "桔参",
+      "B": "疳积草",
+      "C": "蚱蝉",
+      "D": "折耳根"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "折耳根",
+    "model_response": "D\n\n我建议您进一步查阅鱼腥草在呼吸系统感染中的临床应用及其安全性评估的相关研究。您需要我帮您检索这方面的权威文献或指南吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "鱼腥草"
+  },
+  {
+    "id": 16,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“骨碎补”的别名？",
+    "options": {
+      "A": "苦参",
+      "B": "石毛姜",
+      "C": "白藊豆",
+      "D": "皂角制"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "石毛姜",
+    "model_response": "B\n\n我建议您进一步查阅骨碎补在临床应用中的安全性及与其他中药的配伍禁忌，特别是其对骨科疾病的疗效支持证据。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "骨碎补"
+  },
+  {
+    "id": 17,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“大血藤”的别名？",
+    "options": {
+      "A": "地椒",
+      "B": "野青豆",
+      "C": "蒲草黄",
+      "D": "过山龙"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "过山龙",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "大血藤"
+  },
+  {
+    "id": 18,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“杠板归”的别名？",
+    "options": {
+      "A": "五倍子",
+      "B": "退血草",
+      "C": "双肾子",
+      "D": "苏方"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "退血草",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": false,
+    "standard_name": "杠板归"
+  },
+  {
+    "id": 19,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“蝉蜕”的别名？",
+    "options": {
+      "A": "蝉壳",
+      "B": "枣子",
+      "C": "陵藁",
+      "D": "龙脑香"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "蝉壳",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "standard_name": "蝉蜕"
+  },
+  {
+    "id": 20,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“伏龙肝”的别名？",
+    "options": {
+      "A": "破石珠",
+      "B": "大接骨",
+      "C": "高良姜",
+      "D": "釜月下土"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "釜月下土",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "伏龙肝"
+  },
+  {
+    "id": 21,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“商陆”的别名？",
+    "options": {
+      "A": "水萝卜",
+      "B": "凤凰鸡",
+      "C": "黄骨狼",
+      "D": "章瓦"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "水萝卜",
+    "model_response": "根据提供的参考资料，未直接提及“商陆”的别名。但结合通用中医药知识，商陆的别名包括“章柳”“白昌”“章瓦”等。\n\n在选项中，“章瓦”是商陆的别名之一。\n\nD\n\n我建议您进一步查阅商陆的毒性成分、临床安全用量及中毒预防措施的相关研究或药典标准。您需要我帮您检索这方面的权威资料吗？",
+    "predicted_answer": "D",
+    "is_correct": false,
+    "standard_name": "商陆"
+  },
+  {
+    "id": 22,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“茶叶”的别名？",
+    "options": {
+      "A": "梭椤子",
+      "B": "干姜",
+      "C": "当归",
+      "D": "郭璞注"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "郭璞注",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "茶叶"
+  },
+  {
+    "id": 23,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“垂盆草”的别名？",
+    "options": {
+      "A": "佛指甲",
+      "B": "升药",
+      "C": "鸳鸯草",
+      "D": "缠身龙"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "佛指甲",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "standard_name": "垂盆草"
+  },
+  {
+    "id": 24,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“藏青果”的别名？",
+    "options": {
+      "A": "西青果",
+      "B": "旱莲草",
+      "C": "红苏",
+      "D": "一口血"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "西青果",
+    "model_response": "A\n\n我建议您进一步查阅藏青果与西青果在药典中的来源区分及临床应用差异，以确保用药准确性。您需要我帮您检索相关权威研究或药典资料吗？",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "standard_name": "藏青果"
+  },
+  {
+    "id": 25,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“款冬花”的别名？",
+    "options": {
+      "A": "婪尾春",
+      "B": "海带花",
+      "C": "瓦莲",
+      "D": "艾冬花"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "艾冬花",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": false,
+    "standard_name": "款冬花"
+  },
+  {
+    "id": 26,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“洋金花”的别名？",
+    "options": {
+      "A": "补骨鸱",
+      "B": "千叶蔓陀罗花",
+      "C": "黑蛇胆",
+      "D": "夜干"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "千叶蔓陀罗花",
+    "model_response": "B\n\n我建议您进一步查阅洋金花在临床应用中的安全性及中毒防控措施，特别是其生物碱成分的药理与毒理研究进展。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "洋金花"
+  },
+  {
+    "id": 27,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“天南星”的别名？",
+    "options": {
+      "A": "山棒子",
+      "B": "玉蜀黍蕊",
+      "C": "牛虱子",
+      "D": "蜞"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "山棒子",
+    "model_response": "根据提供的参考资料，无法直接确认“天南星”的别名是选项中的哪一个。材料中提及天南星的植物来源为**天南星科植物天南星、异叶天南星、东北天南星等块茎**，性温，味苦、辛，归肺、肝、脾经，具有**化痰、散结、燥湿、消肿**等功效 ^[3]^。\n\n此外，材料指出**天南星具有明显毒性**，古代文献和现代研究均有记载 ^[2]^。经过**明矾和姜汁或胆汁炮制后，其神经毒性降低，且神经药理作用增强** ^[2]^。\n\n然而，所有参考资料中均未提及“天南星”的别名为“山棒子”“玉蜀黍蕊”“牛虱子”或“蜞”。这些选项均未在文献中出现。\n\n在传统中医药中，“天南星”的常见别名包括“南星”“虎掌南星”等。值得注意的是，**虎掌南星又称为掌叶半夏**，常冒充正品半夏 ^[1]^。\n\n结合选项与常规中药别名知识，“**牛虱子**”在部分地区为天南星的别名之一。\n\n因此，最合适的答案是：\n\nC\n\n我建议您进一步查阅天南星在炮制前后毒性成分的变化及其在临床应用中的安全性评估相关临床指南或系统综述。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "C",
+    "is_correct": false,
+    "standard_name": "天南星"
+  },
+  {
+    "id": 28,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“琥珀”的别名？",
+    "options": {
+      "A": "伯芹",
+      "B": "石榴壳",
+      "C": "虎魄",
+      "D": "儿草"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "虎魄",
+    "model_response": "C\n\n我建议您进一步查阅琥珀在临床应用中的安全性及与其他中药的配伍禁忌，特别是其在儿童和孕妇中的使用注意事项。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "standard_name": "琥珀"
+  },
+  {
+    "id": 29,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“青蒿”的别名？",
+    "options": {
+      "A": "岩筋",
+      "B": "光明砂",
+      "C": "弯子",
+      "D": "香蒿"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "香蒿",
+    "model_response": "D\n\n我建议您进一步查阅青蒿在临床应用中的安全性及与其他中药的配伍禁忌，特别是其在发热性疾病中的疗效依据。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "青蒿"
+  },
+  {
+    "id": 30,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“豨莶草”的别名？",
+    "options": {
+      "A": "猪屎草",
+      "B": "管仲",
+      "C": "水球子",
+      "D": "山甘草"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "山甘草",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": false,
+    "standard_name": "豨莶草"
+  },
+  {
+    "id": 31,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“薏苡仁”的别名？",
+    "options": {
+      "A": "灶突中尘",
+      "B": "杜噜香",
+      "C": "蒲棒花粉",
+      "D": "赣米"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "赣米",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "薏苡仁"
+  },
+  {
+    "id": 32,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“一枝黄花”的别名？",
+    "options": {
+      "A": "宛童",
+      "B": "金灯花",
+      "C": "杜芫",
+      "D": "朝鲜一枝蒿"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "朝鲜一枝蒿",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "一枝黄花"
+  },
+  {
+    "id": 33,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“白屈菜”的别名？",
+    "options": {
+      "A": "巨句麦",
+      "B": "枸茄茄",
+      "C": "地菅",
+      "D": "雄黄草"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "雄黄草",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "白屈菜"
+  },
+  {
+    "id": 34,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“桔梗”的别名？",
+    "options": {
+      "A": "千年树",
+      "B": "金狮胆",
+      "C": "符蔰",
+      "D": "苦楝"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "符蔰",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "standard_name": "桔梗"
+  },
+  {
+    "id": 35,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“伸筋草”的别名？",
+    "options": {
+      "A": "羊肝石",
+      "B": "白及",
+      "C": "立筋草",
+      "D": "小虫儿卧单"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "立筋草",
+    "model_response": "C\n\n我建议您进一步查阅伸筋草在临床应用中的安全性及与其他中药的配伍禁忌，特别是其在老年人群中的使用注意事项。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "standard_name": "伸筋草"
+  },
+  {
+    "id": 36,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“桑寄生”的别名？",
+    "options": {
+      "A": "猪耳朵穗子",
+      "B": "茑",
+      "C": "石流黄",
+      "D": "瓣子艽"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "茑",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "桑寄生"
+  },
+  {
+    "id": 37,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“茯苓”的别名？",
+    "options": {
+      "A": "鹄壳",
+      "B": "不死面",
+      "C": "土明参",
+      "D": "土马蜂"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "不死面",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "茯苓"
+  },
+  {
+    "id": 38,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“杠板归”的别名？",
+    "options": {
+      "A": "地棠草",
+      "B": "甘根",
+      "C": "荭草实",
+      "D": "烙铁草"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "烙铁草",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "杠板归"
+  },
+  {
+    "id": 39,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“独一味”的别名？",
+    "options": {
+      "A": "巴拉努努",
+      "B": "紫葳华",
+      "C": "五叶草",
+      "D": "苇子根"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "巴拉努努",
+    "model_response": "根据提供的参考资料，中药“独一味”在传统藏医中被称为“**Duyiwei (DYW)**” ^[1]^，也称为“**西藏独一味**” ^[2]^。此外，在传统藏医经典《四部医典》（rGyud bzhi）中已有记载 ^[1]^。\n\n在文献中，**Phlomoides rotata (P. rotata)** 被明确指出是“**独一味**”的学名，并在传统藏药中被称为“**Daba**”和“**Dabubba**” ^[3]^。\n\n然而，在所有选项中，**A. 巴拉努努** 是“独一味”在藏语中的音译别名之一，属于民间或地区性称呼。\n\n其余选项“紫葳华”、“五叶草”、“苇子根”均未在材料中提及，也无相关性。\n\n因此，最合适的答案是：\n\nA",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "standard_name": "独一味"
+  },
+  {
+    "id": 40,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“洋金花”的别名？",
+    "options": {
+      "A": "广东闹羊花",
+      "B": "有竻火炭藤",
+      "C": "柿丁",
+      "D": "月月有"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "广东闹羊花",
+    "model_response": "根据提供的参考资料，未提及“洋金花”的别名为选项中的任何一项。资料中仅描述了洋金花的来源为**茄科植物白花曼陀罗**的干燥花，并分为南洋金花和北洋金花 ^[1]^。\n\n进一步分析选项：\n- “广东闹羊花”通常为**闹羊花**（杜鹃花科植物羊踯躅的花）的别名，而非洋金花。\n- “有竻火炭藤”“柿丁”“月月有”均非洋金花的常见别名。\n\n洋金花的常见别名在中医药中包括**曼陀罗花、风茄花、山茄花**等，但这些均未出现在选项中。\n\n由于四个选项均不符合“洋金花”的标准别名，且参考资料中未提供与选项相关的别名信息，**无法从材料中确认任一选项为正确答案**。\n\n但根据中医药通用知识，洋金花别名**风茄花**，而“广东闹羊花”实为闹羊花的别名，易混淆。\n\n综合判断，**无正确选项**，但若必须选择，**A选项“广东闹羊花”最接近常见混淆名**，但**并非正确别名**。\n\n然而，题目要求必须选择一个答案。\n\n最终依据常规别名知识，**洋金花无上述别名**，但**最可能的干扰项是A**。\n\n但严格依据材料，**无支持任一选项的信息**。\n\n由于题目要求仅输出一个大写字母，且必须选择：\n\n**A**",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "standard_name": "洋金花"
+  },
+  {
+    "id": 41,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“山慈菇”的别名？",
+    "options": {
+      "A": "水牛角",
+      "B": "泥冰子",
+      "C": "茵陈",
+      "D": "犁头刺藤"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "泥冰子",
+    "model_response": "B\n\n我建议您进一步查阅山慈菇在临床应用中的安全性及可能的不良反应，特别是长期使用的相关研究。您需要我帮您检索这方面的权威文献吗？",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "山慈菇"
+  },
+  {
+    "id": 42,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“徐长卿”的别名？",
+    "options": {
+      "A": "蜈蚣草",
+      "B": "石菊花",
+      "C": "野木瓜",
+      "D": "泽泻"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "蜈蚣草",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": false,
+    "standard_name": "徐长卿"
+  },
+  {
+    "id": 43,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“荔枝核”的别名？",
+    "options": {
+      "A": "漆倍子",
+      "B": "荔核",
+      "C": "刀凤豆",
+      "D": "豆板菜"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "荔核",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "荔枝核"
+  },
+  {
+    "id": 44,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“地锦草”的别名？",
+    "options": {
+      "A": "臭枫草",
+      "B": "水剑草",
+      "C": "癞蟆皮",
+      "D": "扑地锦"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "扑地锦",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "地锦草"
+  },
+  {
+    "id": 45,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“皂角刺”的别名？",
+    "options": {
+      "A": "扫罗玛尔布",
+      "B": "苦树",
+      "C": "皂刺",
+      "D": "麝香"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "皂刺",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "standard_name": "皂角刺"
+  },
+  {
+    "id": 46,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“白扁豆”的别名？",
+    "options": {
+      "A": "马兜零",
+      "B": "火镰扁豆",
+      "C": "桑皮",
+      "D": "玉香丝"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "火镰扁豆",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "白扁豆"
+  },
+  {
+    "id": 47,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“莪术”的别名？",
+    "options": {
+      "A": "红枣",
+      "B": "蓬莪茂",
+      "C": "开金锁",
+      "D": "石青子"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "蓬莪茂",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "莪术"
+  },
+  {
+    "id": 48,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“一枝黄花”的别名？",
+    "options": {
+      "A": "对月草",
+      "B": "黄花仔",
+      "C": "刺五加",
+      "D": "升阳菜薄苛"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "黄花仔",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "一枝黄花"
+  },
+  {
+    "id": 49,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“狗脊”的别名？",
+    "options": {
+      "A": "狗青",
+      "B": "驴耳朵草",
+      "C": "棕皮",
+      "D": "冬豆子"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "狗青",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": false,
+    "standard_name": "狗脊"
+  },
+  {
+    "id": 50,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“预知子”的别名？",
+    "options": {
+      "A": "木通子",
+      "B": "金钱松皮",
+      "C": "苦楝根",
+      "D": "水萝卜"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "木通子",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "standard_name": "预知子"
+  },
+  {
+    "id": 51,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“淡竹叶”的别名？",
+    "options": {
+      "A": "墨菜",
+      "B": "山冬",
+      "C": "鼓锤草",
+      "D": "花旗参"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "山冬",
+    "model_response": "根据提供的参考资料，未直接提及“淡竹叶”的别名。但结合中医药常识，“淡竹叶”的别名包括“山冬”。其他选项中，“墨菜”为地锦草别名，“鼓锤草”为金丝草别名，“花旗参”为西洋参别名。\n\n因此，最合适的答案是：\n\nB",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "淡竹叶"
+  },
+  {
+    "id": 52,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“白术”的别名？",
+    "options": {
+      "A": "螳螂子",
+      "B": "拿子",
+      "C": "蜜香",
+      "D": "山姜"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "山姜",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "白术"
+  },
+  {
+    "id": 53,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“黑芝麻”的别名？",
+    "options": {
+      "A": "黑脂麻",
+      "B": "猪胆汁",
+      "C": "栝楼",
+      "D": "地龙骨"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "黑脂麻",
+    "model_response": "A\n\n我建议您进一步查阅黑芝麻在中医临床应用中的配伍规律及安全性研究，特别是长期服用的潜在影响。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "standard_name": "黑芝麻"
+  },
+  {
+    "id": 54,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“大枣”的别名？",
+    "options": {
+      "A": "萝卜七",
+      "B": "良枣",
+      "C": "地黄连",
+      "D": "低密"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "良枣",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "大枣"
+  },
+  {
+    "id": 55,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“薏苡仁”的别名？",
+    "options": {
+      "A": "白苕",
+      "B": "益米",
+      "C": "牛角椒",
+      "D": "墨草"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "益米",
+    "model_response": "B\n\n我建议您进一步查阅薏苡仁在不同地区或典籍中的别名差异及其在临床应用中的规范化命名依据，您需要我帮您检索相关权威文献吗？",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "薏苡仁"
+  },
+  {
+    "id": 56,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“穿山龙”的别名？",
+    "options": {
+      "A": "顺江龙",
+      "B": "黄姜",
+      "C": "癞蛤蟆",
+      "D": "断肠草"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "黄姜",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "穿山龙"
+  },
+  {
+    "id": 57,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“巴豆”的别名？",
+    "options": {
+      "A": "百丈光",
+      "B": "八百力",
+      "C": "泥冰子",
+      "D": "光明草"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "八百力",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": false,
+    "standard_name": "巴豆"
+  },
+  {
+    "id": 58,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“仙鹤草”的别名？",
+    "options": {
+      "A": "麝脐香",
+      "B": "戏铁石",
+      "C": "路边鸡",
+      "D": "银粉"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "路边鸡",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "standard_name": "仙鹤草"
+  },
+  {
+    "id": 59,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“伸筋草”的别名？",
+    "options": {
+      "A": "婆婆丁",
+      "B": "蛇粟",
+      "C": "益智",
+      "D": "老虎垫坐"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "老虎垫坐",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "伸筋草"
+  },
+  {
+    "id": 60,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“草乌”的别名？",
+    "options": {
+      "A": "白花树",
+      "B": "橙皮",
+      "C": "乌喙",
+      "D": "老藤"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "乌喙",
+    "model_response": "C\n\n我建议您进一步查阅草乌的毒性成分、炮制减毒方法及其在临床应用中的安全性评估相关临床指南。您需要我帮您检索这方面的权威研究吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "standard_name": "草乌"
+  },
+  {
+    "id": 61,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“蜂蜜”的别名？",
+    "options": {
+      "A": "风藤",
+      "B": "铃柴胡",
+      "C": "扁柏叶",
+      "D": "食蜜"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "食蜜",
+    "model_response": "D\n\n我建议您进一步查阅蜂蜜作为中药在临床应用中的安全性及与其他中药的配伍禁忌相关临床指南。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "蜂蜜"
+  },
+  {
+    "id": 62,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“茜草”的别名？",
+    "options": {
+      "A": "牛尾巴花子",
+      "B": "左壳",
+      "C": "虋冬",
+      "D": "地血"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "地血",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "茜草"
+  },
+  {
+    "id": 63,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“忍冬藤”的别名？",
+    "options": {
+      "A": "九节莲",
+      "B": "混元丹",
+      "C": "关海决",
+      "D": "大薜荔"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "大薜荔",
+    "model_response": "D\n\n我建议您进一步查阅忍冬藤在临床应用中的安全性及与其他中药的配伍禁忌，特别是相关药理研究和不良反应报道。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "忍冬藤"
+  },
+  {
+    "id": 64,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“徐长卿”的别名？",
+    "options": {
+      "A": "药王",
+      "B": "香果",
+      "C": "因地辛",
+      "D": "香豉"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "药王",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": false,
+    "standard_name": "徐长卿"
+  },
+  {
+    "id": 65,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“禹余粮”的别名？",
+    "options": {
+      "A": "石脑",
+      "B": "菽蘖",
+      "C": "五苓散",
+      "D": "石剑"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "石脑",
+    "model_response": "A\n\n我建议您进一步查阅禹余粮在传统方剂中的配伍应用及其矿物来源的药理研究，您需要我帮您检索相关文献吗？",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "standard_name": "禹余粮"
+  },
+  {
+    "id": 66,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“山药”的别名？",
+    "options": {
+      "A": "蟋龙草",
+      "B": "悬刀",
+      "C": "野白薯",
+      "D": "扁豆皮"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "野白薯",
+    "model_response": "C\n\n我建议您进一步查阅山药在不同地区或典籍中的别名差异及其在临床应用中的命名规范，以避免混淆。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "standard_name": "山药"
+  },
+  {
+    "id": 67,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“硼砂”的别名？",
+    "options": {
+      "A": "山硬硬",
+      "B": "赤茯苓",
+      "C": "虾蟆衣子",
+      "D": "大朋砂"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "大朋砂",
+    "model_response": "D\n\n我建议您进一步查阅硼砂在传统方剂中的应用及其安全性评估的相关临床指南。您需要我帮您检索这方面的权威研究吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "硼砂"
+  },
+  {
+    "id": 68,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“草血竭”的别名？",
+    "options": {
+      "A": "地蜂子",
+      "B": "没多僧",
+      "C": "花壳虫",
+      "D": "小胡麻"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "地蜂子",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": false,
+    "standard_name": "草血竭"
+  },
+  {
+    "id": 69,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“稻芽”的别名？",
+    "options": {
+      "A": "拔子弹草",
+      "B": "矮桐子",
+      "C": "稻蘖",
+      "D": "糖果"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "稻蘖",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "standard_name": "稻芽"
+  },
+  {
+    "id": 70,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“甘遂”的别名？",
+    "options": {
+      "A": "大还魂草",
+      "B": "大芸",
+      "C": "白泽",
+      "D": "野杉子"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "白泽",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": false,
+    "standard_name": "甘遂"
+  },
+  {
+    "id": 71,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“白屈菜”的别名？",
+    "options": {
+      "A": "只刺",
+      "B": "黄汤子",
+      "C": "蟾蜍眉酥",
+      "D": "地骨皮"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "黄汤子",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": false,
+    "standard_name": "白屈菜"
+  },
+  {
+    "id": 72,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“白鹤灵芝”的别名？",
+    "options": {
+      "A": "癣草",
+      "B": "破血丹",
+      "C": "续断",
+      "D": "小红升"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "癣草",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": false,
+    "standard_name": "白鹤灵芝"
+  },
+  {
+    "id": 73,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“白花蛇舌草”的别名？",
+    "options": {
+      "A": "猫蓟",
+      "B": "奶沙尔",
+      "C": "三眠柳",
+      "D": "燕蕧"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "奶沙尔",
+    "model_response": "根据提供的参考资料，白花蛇舌草的别名在文献中并未直接提及选项中的名称。但文献中多次提到其地方习用品为**伞房花耳草**（又名**水线草**）和**纤花耳草** ^[2]^。\n\n进一步分析选项：\n- 文献中指出：“在广东等地，这 2 种药材被作为白花蛇舌草人药使用，为地方习用品” ^[3]^。\n- 其中，**伞房花耳草**又名**水线草**，是白花蛇舌草的常见混淆品或地方习用品。\n\n然而，题目选项中并未出现“水线草”。\n\n查阅选项中的名称：\n- “**奶沙尔**”并非常见中药名，也未在资料中出现。\n- “**猫蓟**”是小蓟的别名。\n- “**三眠柳**”并非标准中药名。\n- “**燕蕧**”为古代对某些植物的称呼，但非白花蛇舌草别名。\n\n值得注意的是，**白花蛇舌草**的别名在中医临床中常包括“**蛇舌草**”、“**蛇针草**”、“**二叶律**”等，但均不在选项中。\n\n结合资料，**伞房花耳草**又名**水线草**，而“**奶沙尔**”可能是音译或误写。\n\n但根据现有资料，**最可能的混淆品是“水线草”**，而选项中无此名。\n\n综合判断，**无一选项为白花蛇舌草的正式别名**。但若必须选择，**“奶沙尔”** 可能是“Oldenlandia diffusa”音译的误写，因文献中提到其曾用拉丁名为 **Oldenlandia diffusa (Willd.) Roxb** ^[3]^。\n\n因此，**B. 奶沙尔** 可能是音译来源。\n\n**答案：B**",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "白花蛇舌草"
+  },
+  {
+    "id": 74,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“车前草”的别名？",
+    "options": {
+      "A": "脑子",
+      "B": "傅致胶",
+      "C": "牛甜菜",
+      "D": "蜂糖罐"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "牛甜菜",
+    "model_response": "根据提供的参考资料，无法直接确认“车前草”的别名。材料中提到了“车前子”为车前科植物车前或平车前的干燥成熟种子 ^[1]^，但未提及“车前草”或其别名。\n\n在传统中药中，“车前草”通常指车前的全草，而“车前子”为其种子。根据通用中药知识，“车前草”的别名包括“牛甜菜”等。\n\n结合选项及通用知识，最可能的别名是“牛甜菜”。\n\nC\n\n我建议您进一步查阅车前草在不同地区用药习惯中的别名差异及其临床应用安全性数据。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "standard_name": "车前草"
+  },
+  {
+    "id": 75,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“萆薢”的别名？",
+    "options": {
+      "A": "柿钱",
+      "B": "土薯蓣",
+      "C": "汞沙",
+      "D": "降香"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "土薯蓣",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "萆薢"
+  },
+  {
+    "id": 76,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“独活”的别名？",
+    "options": {
+      "A": "山大活",
+      "B": "鼠矢",
+      "C": "野菊花",
+      "D": "发髲"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "山大活",
+    "model_response": "A\n\n我建议您进一步查阅独活在不同地区药材志或药典中的异名记载，以及其与相似药材的鉴别要点。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "standard_name": "独活"
+  },
+  {
+    "id": 77,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“马齿苋”的别名？",
+    "options": {
+      "A": "红火柴头花",
+      "B": "薏仁",
+      "C": "甜七",
+      "D": "地马莱"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "地马莱",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "马齿苋"
+  },
+  {
+    "id": 78,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“鸡血藤”的别名？",
+    "options": {
+      "A": "互草",
+      "B": "马鹿藤",
+      "C": "白头公",
+      "D": "免耳草"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "马鹿藤",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "鸡血藤"
+  },
+  {
+    "id": 79,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“细辛”的别名？",
+    "options": {
+      "A": "油麻",
+      "B": "槐花",
+      "C": "金金甲根",
+      "D": "小辛"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "小辛",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "细辛"
+  },
+  {
+    "id": 80,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“香附”的别名？",
+    "options": {
+      "A": "蝘",
+      "B": "酸查",
+      "C": "三棱草根",
+      "D": "见水生"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "三棱草根",
+    "model_response": "C\n\n我建议您进一步查阅香附在妇科疾病中的临床应用及其与其他理气药的配伍规律，以及相关安全性研究。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "standard_name": "香附"
+  },
+  {
+    "id": 81,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“淫羊藿”的别名？",
+    "options": {
+      "A": "文希",
+      "B": "刚前",
+      "C": "枸杞子",
+      "D": "白毛串"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "刚前",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": false,
+    "standard_name": "淫羊藿"
+  },
+  {
+    "id": 82,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“白蔹”的别名？",
+    "options": {
+      "A": "野红薯",
+      "B": "破岩珠",
+      "C": "矮樟",
+      "D": "补骨鸱"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "野红薯",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": false,
+    "standard_name": "白蔹"
+  },
+  {
+    "id": 83,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“败酱”的别名？",
+    "options": {
+      "A": "蒨草",
+      "B": "白苦爹",
+      "C": "海蜡",
+      "D": "土贝母"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "白苦爹",
+    "model_response": "B\n\n我建议您进一步查阅败酱草在临床应用中的安全性及与其他中药的配伍禁忌，特别是相关药理研究和不良反应报道。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "败酱"
+  },
+  {
+    "id": 84,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“木通”的别名？",
+    "options": {
+      "A": "羊不吃",
+      "B": "附支",
+      "C": "铜钱柴",
+      "D": "酒饼草"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "附支",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "木通"
+  },
+  {
+    "id": 85,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“朱砂根”的别名？",
+    "options": {
+      "A": "江珠",
+      "B": "马蹄草",
+      "C": "千斤力",
+      "D": "龙山子"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "龙山子",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "朱砂根"
+  },
+  {
+    "id": 86,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“香薷”的别名？",
+    "options": {
+      "A": "莱菔子",
+      "B": "须丸",
+      "C": "蜜蜂草",
+      "D": "厚朴"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "蜜蜂草",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "standard_name": "香薷"
+  },
+  {
+    "id": 87,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“地骨皮”的别名？",
+    "options": {
+      "A": "山杞子根",
+      "B": "豹狗花",
+      "C": "满天飞",
+      "D": "鲮鲤角"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "山杞子根",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "standard_name": "地骨皮"
+  },
+  {
+    "id": 88,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“槐角”的别名？",
+    "options": {
+      "A": "槐子",
+      "B": "鼠牙半支",
+      "C": "明七",
+      "D": "羊起石"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "槐子",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "standard_name": "槐角"
+  },
+  {
+    "id": 89,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“延胡索”的别名？",
+    "options": {
+      "A": "君求子",
+      "B": "皂针",
+      "C": "盘棕",
+      "D": "元胡"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "元胡",
+    "model_response": "D\n\n我建议您进一步查阅延胡索在镇痛方面的药理机制及临床应用的系统综述或权威研究。您需要我帮您检索相关文献吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "延胡索"
+  },
+  {
+    "id": 90,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“虎杖”的别名？",
+    "options": {
+      "A": "耳坠风",
+      "B": "苦杖",
+      "C": "四季青",
+      "D": "天青红"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "苦杖",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "虎杖"
+  },
+  {
+    "id": 91,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“忍冬藤”的别名？",
+    "options": {
+      "A": "银花秧",
+      "B": "蚳母",
+      "C": "刺角菜",
+      "D": "金巴斗"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "银花秧",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "standard_name": "忍冬藤"
+  },
+  {
+    "id": 92,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“鱼腥草”的别名？",
+    "options": {
+      "A": "合离草",
+      "B": "臭腥草",
+      "C": "红梗草",
+      "D": "毛脚茵"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "臭腥草",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "鱼腥草"
+  },
+  {
+    "id": 93,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“穿山甲”的别名？",
+    "options": {
+      "A": "川山甲",
+      "B": "盆覆胶",
+      "C": "石蓝",
+      "D": "山茱肉"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "川山甲",
+    "model_response": "A",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "standard_name": "穿山甲"
+  },
+  {
+    "id": 94,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“黑芝麻”的别名？",
+    "options": {
+      "A": "领石",
+      "B": "地虾",
+      "C": "草鞋刺",
+      "D": "巨胜"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "巨胜",
+    "model_response": "D\n\n我建议您进一步查阅黑芝麻在中医经典方剂中的配伍应用及其对肝肾阴虚证的疗效依据，您需要我帮您检索相关文献吗？",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "黑芝麻"
+  },
+  {
+    "id": 95,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“白蔹”的别名？",
+    "options": {
+      "A": "白浆罐",
+      "B": "竹节七",
+      "C": "青果",
+      "D": "三角枫"
+    },
+    "gold_answer": "A",
+    "gold_answer_text": "白浆罐",
+    "model_response": "根据提供的参考资料，中药“白蔹”在《神农本草经》中被记载为“**Bai Lian**”，其来源为**Ampelopsis japonica（Thunb.）Makino的 tuberous root**（土质根）^[1]^。\n\n此外，文中提到“**‘Bai Lian’ was first documented in the 'Shennong Ben Cao Jing' as the tuberous root of Ampelopsis japonica**”^[1]^，并指出其功效包括**清热解毒、消痈散结、止痛**等，与临床用于治疗**疮疡肿毒、疼痛**相符^[1]^。\n\n结合传统中药别名知识，“白蔹”在部分地区被称为“**白浆罐**”，此为常见别名之一。\n\n其他选项分析：\n- **竹节七**：多为黄精或玉竹类药材的别名。\n- **青果**：为橄榄的别名。\n- **三角枫**：为植物名，非白蔹别名。\n\n因此，最合适的答案是：\n\nA",
+    "predicted_answer": "A",
+    "is_correct": true,
+    "standard_name": "白蔹"
+  },
+  {
+    "id": 96,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“射干”的别名？",
+    "options": {
+      "A": "苦杏仁",
+      "B": "母鸡带仔",
+      "C": "地栗",
+      "D": "黄知母"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "黄知母",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": false,
+    "standard_name": "射干"
+  },
+  {
+    "id": 97,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“北豆根”的别名？",
+    "options": {
+      "A": "青香藤",
+      "B": "黄根",
+      "C": "串心草",
+      "D": "鸭蛋子"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "黄根",
+    "model_response": "根据提供的参考资料，未直接提及“北豆根”的别名信息。因此无法从材料中找到确切依据来选择正确答案。\n\n但基于通用中医药知识，“北豆根”的别名是“黄根”。\n\n**答案：B**\n\n我建议您进一步查阅北豆根在临床应用中的安全性及与其他中药的配伍禁忌，特别是相关毒性报道和药典记载。您需要我帮您检索这方面的权威研究吗？",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "北豆根"
+  },
+  {
+    "id": 98,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“槲寄生”的别名？",
+    "options": {
+      "A": "苦羌头",
+      "B": "烦硫",
+      "C": "北寄生",
+      "D": "朱苓"
+    },
+    "gold_answer": "C",
+    "gold_answer_text": "北寄生",
+    "model_response": "C",
+    "predicted_answer": "C",
+    "is_correct": true,
+    "standard_name": "槲寄生"
+  },
+  {
+    "id": 99,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“龙眼肉”的别名？",
+    "options": {
+      "A": "裸龟巴",
+      "B": "骊珠",
+      "C": "水马香果",
+      "D": "龙单衣"
+    },
+    "gold_answer": "B",
+    "gold_answer_text": "骊珠",
+    "model_response": "B",
+    "predicted_answer": "B",
+    "is_correct": true,
+    "standard_name": "龙眼肉"
+  },
+  {
+    "id": 100,
+    "type": "药材别名识别",
+    "question": "下列哪一项是中药“天竺黄”的别名？",
+    "options": {
+      "A": "石脑",
+      "B": "漳丹",
+      "C": "野荆芥",
+      "D": "竹黄"
+    },
+    "gold_answer": "D",
+    "gold_answer_text": "竹黄",
+    "model_response": "D",
+    "predicted_answer": "D",
+    "is_correct": true,
+    "standard_name": "天竺黄"
+  }
+]

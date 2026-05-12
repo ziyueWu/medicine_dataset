@@ -1,0 +1,31 @@
+{
+  "model": "deepseek-v3.2",
+  "datasets": [
+    {
+      "model": "deepseek-v3.2",
+      "dataset": "dataset1",
+      "total": 100,
+      "correct": 94,
+      "accuracy": 0.94
+    },
+    {
+      "model": "deepseek-v3.2",
+      "dataset": "dataset2",
+      "total": 100,
+      "correct": 93,
+      "accuracy": 0.93
+    },
+    {
+      "model": "deepseek-v3.2",
+      "dataset": "dataset3",
+      "total": 100,
+      "correct": 87,
+      "accuracy": 0.87
+    }
+  ],
+  "overall": {
+    "total": 300,
+    "correct": 274,
+    "accuracy": 0.9133333333333333
+  }
+}

@@ -1,0 +1,1 @@
+{"llm1": null, "llm2": "备选项0、1、2都包含目标json的name \"当归补血汤\" 和 component \"黄芪30克，当归6克\"。但只有备选0和备选1在sentence_context中明确包含目标json的component \"黄芪30克，当归6克\"。其中备选0的rank_score最高，最符合匹配条件，因此选择备选0。\n\n答案是：0"}
