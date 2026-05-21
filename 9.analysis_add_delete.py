@@ -6,13 +6,27 @@ import math
 import os
 from collections import Counter
 from itertools import combinations
+from collections import defaultdict, deque
 
 import matplotlib.pyplot as plt
 import networkx as nx
+import pandas as pd
+import numpy as np
 
 
 path_add_delete_result_m1 = '8.simi_add_delete/medicine_add_delete_1.json'
 path_analysis_output_dir = '9.analysis_add_delete'
+
+INPUT_FILE = "8.simi_add_delete/medicine_add_delete_1.json"
+OUTPUT_DIR = "9.analysis_add_delete"
+FILTERED_FILE = os.path.join(OUTPUT_DIR, "medicine_add_delete_1_filtered.json")
+ADDED_HERB_FILE = os.path.join(OUTPUT_DIR, "added_herb.json")
+
+INPUT_FILE_FILTERED = "9.analysis_add_delete/medicine_add_delete_1_filtered.json"
+OUTPUT_DIR_EVOL = "9.analysis_add_delete/evolution_path"
+
+PATH_JSON_FILE = os.path.join(OUTPUT_DIR_EVOL, "formula_evolution_paths.json")
+EDGE_CSV_FILE = os.path.join(OUTPUT_DIR_EVOL, "formula_evolution_edges.csv")
 
 
 def read_file(path):
@@ -420,10 +434,685 @@ def build_formula_graph():
     }
 
 
+def load_json(file_path):
+    with open(file_path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def save_json(data, file_path):
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def normalize_components(components):
+    """
+    去除空值、空格，并去重。
+    """
+    if not components:
+        return []
+
+    return sorted(set(
+        herb.strip()
+        for herb in components
+        if isinstance(herb, str) and herb.strip()
+    ))
+
+
+def filter_add_delete_data(data):
+    """
+    过滤规则：
+    1. 基础方剂组成成分大于1种药物
+    2. 基础方剂与修改方剂成分数量差不大于3
+    """
+    filtered_data = []
+
+    for item in data:
+        base_formula = item.get("base_formula", {})
+        base_components = normalize_components(base_formula.get("components", []))
+
+        if len(base_components) <= 1:
+            continue
+
+        new_modified_list = []
+
+        for modified_formula in item.get("modified_formula_list", []):
+            modified_components = normalize_components(
+                modified_formula.get("components", [])
+            )
+
+            if not modified_components:
+                continue
+
+            count_diff = abs(len(modified_components) - len(base_components))
+
+            if count_diff <= 3:
+                new_modified_list.append({
+                    "name": modified_formula.get("name", ""),
+                    "components": modified_components
+                })
+
+        if new_modified_list:
+            filtered_data.append({
+                "base_formula": {
+                    "name": base_formula.get("name", ""),
+                    "components": base_components
+                },
+                "modified_formula_list": new_modified_list
+            })
+
+    return filtered_data
+
+
+def summarize_added_herbs(filtered_data):
+    """
+    统计加减过程中最常被增加的：
+    1. 单味药
+    2. 药物对
+    """
+    added_herb_counter = Counter()
+    added_pair_counter = Counter()
+
+    detail_records = []
+
+    for item in filtered_data:
+        base_formula = item.get("base_formula", {})
+        base_name = base_formula.get("name", "")
+        base_components = set(normalize_components(base_formula.get("components", [])))
+
+        for modified_formula in item.get("modified_formula_list", []):
+            modified_name = modified_formula.get("name", "")
+            modified_components = set(
+                normalize_components(modified_formula.get("components", []))
+            )
+
+            added_herbs = sorted(modified_components - base_components)
+
+            if not added_herbs:
+                continue
+
+            # 统计新增单味药
+            for herb in added_herbs:
+                added_herb_counter[herb] += 1
+
+            # 统计新增药物对
+            if len(added_herbs) >= 2:
+                for pair in combinations(added_herbs, 2):
+                    added_pair_counter[pair] += 1
+
+            detail_records.append({
+                "base_formula": base_name,
+                "modified_formula": modified_name,
+                "added_herbs": added_herbs
+            })
+
+    result = {
+        "added_herb_statistics": [
+            {
+                "herb": herb,
+                "frequency": freq
+            }
+            for herb, freq in added_herb_counter.most_common()
+        ],
+        "added_herb_pair_statistics": [
+            {
+                "herb_pair": list(pair),
+                "frequency": freq
+            }
+            for pair, freq in added_pair_counter.most_common()
+        ],
+        "added_detail_records": detail_records
+    }
+
+    return result
+
+
+def handle_added():
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+    data = load_json(INPUT_FILE)
+
+    filtered_data = filter_add_delete_data(data)
+
+    save_json(filtered_data, FILTERED_FILE)
+
+    added_herb_result = summarize_added_herbs(filtered_data)
+
+    save_json(added_herb_result, ADDED_HERB_FILE)
+
+    print("处理完成")
+    print(f"原始基础方剂数量：{len(data)}")
+    print(f"过滤后基础方剂数量：{len(filtered_data)}")
+    print(f"过滤结果保存至：{FILTERED_FILE}")
+    print(f"新增药物统计保存至：{ADDED_HERB_FILE}")
+
+
+# =========================
+# 绘制“加减方剂中最常被增加的药物前20”
+# =========================
+def plot_added_herb_top20(
+    input_file="9.analysis_add_delete/added_herb.json",
+    output_file="9.analysis_add_delete/added_herb_top20.png",
+    top_n=20
+):
+    # 读取 JSON
+    with open(input_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    # 获取新增药物统计
+    herb_stats = data.get("added_herb_statistics", [])
+
+    # 按频次排序并取前20
+    herb_stats = sorted(
+        herb_stats,
+        key=lambda x: x["frequency"],
+        reverse=True
+    )[:top_n]
+
+    herbs = [item["herb"] for item in herb_stats]
+    frequencies = [item["frequency"] for item in herb_stats]
+
+    # 设置中文字体（Mac）
+    plt.rcParams["font.sans-serif"] = ["Arial Unicode MS"]
+
+    # Windows 可改为：
+    # plt.rcParams["font.sans-serif"] = ["SimHei"]
+
+    plt.rcParams["axes.unicode_minus"] = False
+
+    # 绘图
+    plt.figure(figsize=(14, 7))
+
+    bars = plt.bar(
+        herbs,
+        frequencies
+    )
+
+    # 添加数值标签
+    for bar, freq in zip(bars, frequencies):
+        plt.text(
+            bar.get_x() + bar.get_width() / 2,
+            bar.get_height(),
+            str(freq),
+            ha='center',
+            va='bottom',
+            fontsize=10
+        )
+
+    # 标题与坐标轴
+    plt.title("加减方剂中最常被增加的药物前20", fontsize=18)
+    plt.xlabel("中药名称", fontsize=14)
+    plt.ylabel("被加频次", fontsize=14)
+
+    # 旋转横坐标
+    plt.xticks(rotation=45)
+
+    # 自动布局
+    plt.tight_layout()
+
+    # 保存图片
+    plt.savefig(output_file, dpi=300)
+
+    # 显示图片
+    plt.show()
+
+    print(f"图片已保存至：{output_file}")
+
+
+# =========================
+# 绘制“加减方剂中最常被加的药物对前20”热力图
+# =========================
+def plot_added_herb_pair_heatmap(
+    input_file="9.analysis_add_delete/added_herb.json",
+    output_file="9.analysis_add_delete/added_herb_pair_heatmap_top20.png",
+    top_n=20
+):
+    # 读取 JSON
+    with open(input_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    pair_stats = data.get("added_herb_pair_statistics", [])
+
+    # 按频次排序取前20
+    pair_stats = sorted(
+        pair_stats,
+        key=lambda x: x["frequency"],
+        reverse=True
+    )[:top_n]
+
+    # 获取所有涉及药物
+    herb_set = set()
+
+    for item in pair_stats:
+        pair = item["herb_pair"]
+
+        if len(pair) != 2:
+            continue
+
+        herb_set.update(pair)
+
+    herbs = sorted(list(herb_set))
+
+    # 构建矩阵
+    matrix = pd.DataFrame(
+        np.zeros((len(herbs), len(herbs))),
+        index=herbs,
+        columns=herbs
+    )
+
+    # 填充频次
+    for item in pair_stats:
+        pair = item["herb_pair"]
+        freq = item["frequency"]
+
+        if len(pair) != 2:
+            continue
+
+        h1, h2 = pair
+
+        matrix.loc[h1, h2] = freq
+        matrix.loc[h2, h1] = freq
+
+    # 设置中文字体（Mac）
+    plt.rcParams["font.sans-serif"] = ["Arial Unicode MS"]
+
+    # Windows 可改：
+    # plt.rcParams["font.sans-serif"] = ["SimHei"]
+
+    plt.rcParams["axes.unicode_minus"] = False
+
+    # 绘图
+    fig, ax = plt.subplots(figsize=(12, 10))
+
+    im = ax.imshow(matrix.values)
+
+    # 坐标轴标签
+    ax.set_xticks(np.arange(len(herbs)))
+    ax.set_yticks(np.arange(len(herbs)))
+
+    ax.set_xticklabels(herbs, fontsize=10)
+    ax.set_yticklabels(herbs, fontsize=10)
+
+    # 旋转横坐标
+    plt.setp(
+        ax.get_xticklabels(),
+        rotation=45,
+        ha="right",
+        rotation_mode="anchor"
+    )
+
+    # 添加数值
+    for i in range(len(herbs)):
+        for j in range(len(herbs)):
+            value = int(matrix.values[i, j])
+
+            if value > 0:
+                ax.text(
+                    j,
+                    i,
+                    value,
+                    ha="center",
+                    va="center",
+                    fontsize=9
+                )
+
+    # 标题
+    plt.title("加减方剂中最常被加的药物对前20", fontsize=18)
+
+    # 颜色条
+    cbar = plt.colorbar(im)
+    cbar.set_label("共现频次", fontsize=12)
+
+    # 自动布局
+    plt.tight_layout()
+
+    # 保存图片
+    plt.savefig(output_file, dpi=300)
+
+    # 显示
+    plt.show()
+
+    print(f"热力图已保存至：{output_file}")
+
+
+# =========================
+# 方剂演化路径分析
+# =========================
+# =========================
+# 1. 基础工具函数
+# =========================
+
+def get_edit_operation(base_components, modified_components):
+    """
+    计算从基础方剂到修改方剂的编辑操作：
+    - added_herbs: 新增药物
+    - deleted_herbs: 删除药物
+    """
+    base_set = set(normalize_components(base_components))
+    modified_set = set(normalize_components(modified_components))
+
+    added_herbs = sorted(modified_set - base_set)
+    deleted_herbs = sorted(base_set - modified_set)
+
+    return added_herbs, deleted_herbs
+
+
+# =========================
+# 2. 构建方剂演化图
+# =========================
+
+def build_formula_evolution_graph(data):
+    """
+    构建有向演化图：
+    base_formula -> modified_formula
+    """
+    G = nx.DiGraph()
+
+    edge_records = []
+
+    for item in data:
+        base_formula = item.get("base_formula", {})
+        base_name = base_formula.get("name", "")
+        base_components = normalize_components(base_formula.get("components", []))
+
+        if not base_name:
+            continue
+
+        G.add_node(
+            base_name,
+            formula_name=base_name,
+            components=";".join(base_components),
+            component_count=len(base_components)
+        )
+
+        for modified_formula in item.get("modified_formula_list", []):
+            modified_name = modified_formula.get("name", "")
+            modified_components = normalize_components(
+                modified_formula.get("components", [])
+            )
+
+            if not modified_name:
+                continue
+
+            added_herbs, deleted_herbs = get_edit_operation(
+                base_components,
+                modified_components
+            )
+
+            G.add_node(
+                modified_name,
+                formula_name=modified_name,
+                components=";".join(modified_components),
+                component_count=len(modified_components)
+            )
+
+            G.add_edge(
+                base_name,
+                modified_name,
+                added_herbs=";".join(added_herbs),
+                deleted_herbs=";".join(deleted_herbs),
+                added_count=len(added_herbs),
+                deleted_count=len(deleted_herbs),
+                edit_distance=len(added_herbs) + len(deleted_herbs)
+            )
+
+            edge_records.append({
+                "base_formula": base_name,
+                "modified_formula": modified_name,
+                "added_herbs": added_herbs,
+                "deleted_herbs": deleted_herbs,
+                "added_count": len(added_herbs),
+                "deleted_count": len(deleted_herbs),
+                "edit_distance": len(added_herbs) + len(deleted_herbs)
+            })
+
+    return G, edge_records
+
+
+# =========================
+# 3. 统计某个基础方剂的所有演化路径
+# =========================
+
+def find_evolution_paths(G, root_formula, max_depth=5):
+    """
+    从指定根方剂出发，寻找所有演化路径。
+
+    返回示例：
+    桂枝汤 -> 桂枝加葛根汤 -> 葛根汤
+    """
+    if root_formula not in G:
+        print(f"未找到方剂：{root_formula}")
+        return []
+
+    paths = []
+
+    queue = deque()
+    queue.append((root_formula, [root_formula]))
+
+    while queue:
+        current, path = queue.popleft()
+
+        # 到达最大深度，停止继续扩展
+        if len(path) - 1 >= max_depth:
+            paths.append(path)
+            continue
+
+        successors = list(G.successors(current))
+
+        if not successors:
+            paths.append(path)
+            continue
+
+        for nxt in successors:
+            # 防止环
+            if nxt in path:
+                continue
+
+            queue.append((nxt, path + [nxt]))
+
+    return paths
+
+
+def summarize_all_evolution_paths(G, max_depth=5):
+    """
+    对所有可能作为起点的方剂统计演化路径。
+    只统计出度大于0的方剂。
+    """
+    result = {}
+
+    for node in G.nodes():
+        if G.out_degree(node) > 0:
+            paths = find_evolution_paths(G, node, max_depth=max_depth)
+            result[node] = [
+                {
+                    "path": path,
+                    "path_length": len(path) - 1
+                }
+                for path in paths
+            ]
+
+    return result
+
+
+# =========================
+# 4. 导出边信息 CSV
+# =========================
+
+def save_edge_records_csv(edge_records, output_file):
+    import pandas as pd
+
+    df = pd.DataFrame(edge_records)
+
+    # list 转字符串，便于保存
+    df["added_herbs"] = df["added_herbs"].apply(lambda x: ";".join(x))
+    df["deleted_herbs"] = df["deleted_herbs"].apply(lambda x: ";".join(x))
+
+    df.to_csv(output_file, index=False, encoding="utf-8-sig")
+
+
+# =========================
+# 5. 绘制某个方剂的演化图
+# =========================
+
+def draw_formula_evolution_graph(
+    G,
+    root_formula,
+    output_file=None,
+    max_depth=3,
+    figsize=(14, 10)
+):
+    """
+    绘制指定根方剂的局部演化图。
+    边标签展示：
+    +新增药物 / -删除药物
+    """
+
+    if root_formula not in G:
+        print(f"未找到方剂：{root_formula}")
+        return
+
+    # 获取 root_formula 在 max_depth 内可达的节点
+    nodes = {root_formula}
+    current_layer = {root_formula}
+
+    for _ in range(max_depth):
+        next_layer = set()
+
+        for node in current_layer:
+            next_layer.update(G.successors(node))
+
+        nodes.update(next_layer)
+        current_layer = next_layer
+
+    subG = G.subgraph(nodes).copy()
+
+    # 中文字体
+    plt.rcParams["font.sans-serif"] = ["Arial Unicode MS"]
+    plt.rcParams["axes.unicode_minus"] = False
+
+    plt.figure(figsize=figsize)
+
+    # 使用 graphviz 布局，如果没装 pygraphviz，则使用 spring_layout
+    try:
+        pos = nx.nx_agraph.graphviz_layout(subG, prog="dot")
+    except Exception:
+        pos = nx.spring_layout(subG, k=1.2, seed=42)
+
+    # 节点大小根据出度变化
+    node_sizes = [
+        1500 + 300 * subG.out_degree(node)
+        for node in subG.nodes()
+    ]
+
+    nx.draw_networkx_nodes(
+        subG,
+        pos,
+        node_size=node_sizes,
+        alpha=0.9
+    )
+
+    nx.draw_networkx_edges(
+        subG,
+        pos,
+        arrows=True,
+        arrowstyle="-|>",
+        arrowsize=20,
+        width=1.5,
+        alpha=0.7
+    )
+
+    nx.draw_networkx_labels(
+        subG,
+        pos,
+        font_size=11
+    )
+
+    # 构造边标签
+    edge_labels = {}
+
+    for u, v, data in subG.edges(data=True):
+        added = data.get("added_herbs", "")
+        deleted = data.get("deleted_herbs", "")
+
+        label_parts = []
+
+        if added:
+            label_parts.append(f"+{added}")
+
+        if deleted:
+            label_parts.append(f"-{deleted}")
+
+        edge_labels[(u, v)] = "\n".join(label_parts)
+
+    nx.draw_networkx_edge_labels(
+        subG,
+        pos,
+        edge_labels=edge_labels,
+        font_size=9
+    )
+
+    plt.title(f"{root_formula} 方剂演化路径图", fontsize=18)
+    plt.axis("off")
+    plt.tight_layout()
+
+    if output_file:
+        plt.savefig(output_file, dpi=300, bbox_inches="tight")
+        print(f"演化路径图已保存至：{output_file}")
+
+    plt.show()
+
+
+# =========================
+# 6. 主流程
+# =========================
+
+def handle_evol_main():
+    os.makedirs(OUTPUT_DIR_EVOL, exist_ok=True)
+
+    data = load_json(INPUT_FILE_FILTERED)
+
+    # 构建演化图
+    G, edge_records = build_formula_evolution_graph(data)
+
+    print(f"方剂节点数量：{G.number_of_nodes()}")
+    print(f"演化边数量：{G.number_of_edges()}")
+
+    # 保存边信息
+    save_edge_records_csv(edge_records, EDGE_CSV_FILE)
+
+    # 统计所有演化路径
+    evolution_paths = summarize_all_evolution_paths(G, max_depth=5)
+    save_json(evolution_paths, PATH_JSON_FILE)
+
+    # 保存图文件，方便 Gephi 查看
+    nx.write_gexf(
+        G,
+        os.path.join(OUTPUT_DIR, "formula_evolution_graph.gexf")
+    )
+
+    print(f"演化边信息已保存：{EDGE_CSV_FILE}")
+    print(f"演化路径统计已保存：{PATH_JSON_FILE}")
+    print("演化图 GEXF 已保存。")
+
+    # 示例：绘制桂枝汤的演化路径
+    draw_formula_evolution_graph(
+        G,
+        root_formula="桂枝汤",
+        output_file=os.path.join(OUTPUT_DIR, "桂枝汤_方剂演化路径图.png"),
+        max_depth=3
+    )
+
+
+# =========================
+# 运行
+# =========================
 def main():
     # plot_top_modified_formula_bar_chart()
     # plot_target_formula_relationship_graphs()
-    build_formula_graph()
+    # build_formula_graph()
+    # handle_added()
+    # plot_added_herb_top20()
+    # plot_added_herb_pair_heatmap()
+    handle_evol_main()
 
 
 if __name__ == '__main__':

@@ -1,0 +1,2132 @@
+{
+  "added_herb_statistics": [
+    {
+      "herb": "桂枝",
+      "frequency": 19
+    },
+    {
+      "herb": "麻黄",
+      "frequency": 18
+    },
+    {
+      "herb": "芍药",
+      "frequency": 16
+    },
+    {
+      "herb": "人参",
+      "frequency": 15
+    },
+    {
+      "herb": "生姜",
+      "frequency": 14
+    },
+    {
+      "herb": "半夏",
+      "frequency": 13
+    },
+    {
+      "herb": "甘草",
+      "frequency": 12
+    },
+    {
+      "herb": "大黄",
+      "frequency": 11
+    },
+    {
+      "herb": "苦杏仁",
+      "frequency": 11
+    },
+    {
+      "herb": "茯苓",
+      "frequency": 10
+    },
+    {
+      "herb": "大枣",
+      "frequency": 10
+    },
+    {
+      "herb": "白术",
+      "frequency": 9
+    },
+    {
+      "herb": "石膏",
+      "frequency": 9
+    },
+    {
+      "herb": "附子",
+      "frequency": 8
+    },
+    {
+      "herb": "葛根",
+      "frequency": 8
+    },
+    {
+      "herb": "干姜",
+      "frequency": 5
+    },
+    {
+      "herb": "草乌头",
+      "frequency": 5
+    },
+    {
+      "herb": "陈皮",
+      "frequency": 5
+    },
+    {
+      "herb": "黄芪",
+      "frequency": 5
+    },
+    {
+      "herb": "饴糖",
+      "frequency": 5
+    },
+    {
+      "herb": "芒硝",
+      "frequency": 4
+    },
+    {
+      "herb": "防风",
+      "frequency": 3
+    },
+    {
+      "herb": "肉桂",
+      "frequency": 3
+    },
+    {
+      "herb": "厚朴",
+      "frequency": 3
+    },
+    {
+      "herb": "天花粉",
+      "frequency": 3
+    },
+    {
+      "herb": "白芍",
+      "frequency": 2
+    },
+    {
+      "herb": "葱白",
+      "frequency": 2
+    },
+    {
+      "herb": "人尿",
+      "frequency": 2
+    },
+    {
+      "herb": "猪胆汁",
+      "frequency": 2
+    },
+    {
+      "herb": "柴胡",
+      "frequency": 2
+    },
+    {
+      "herb": "枳实",
+      "frequency": 2
+    },
+    {
+      "herb": "防己",
+      "frequency": 2
+    },
+    {
+      "herb": "桃仁",
+      "frequency": 2
+    },
+    {
+      "herb": "黄芩",
+      "frequency": 2
+    },
+    {
+      "herb": "火麻仁",
+      "frequency": 2
+    },
+    {
+      "herb": "泽兰",
+      "frequency": 2
+    },
+    {
+      "herb": "朱砂",
+      "frequency": 1
+    },
+    {
+      "herb": "青黛",
+      "frequency": 1
+    },
+    {
+      "herb": "木香",
+      "frequency": 1
+    },
+    {
+      "herb": "花椒",
+      "frequency": 1
+    },
+    {
+      "herb": "赤石脂",
+      "frequency": 1
+    },
+    {
+      "herb": "川芎",
+      "frequency": 1
+    },
+    {
+      "herb": "忍冬藤",
+      "frequency": 1
+    },
+    {
+      "herb": "神曲",
+      "frequency": 1
+    },
+    {
+      "herb": "麦曲",
+      "frequency": 1
+    },
+    {
+      "herb": "牡蛎",
+      "frequency": 1
+    },
+    {
+      "herb": "龙骨",
+      "frequency": 1
+    },
+    {
+      "herb": "知母",
+      "frequency": 1
+    },
+    {
+      "herb": "粳米",
+      "frequency": 1
+    },
+    {
+      "herb": "猪苓",
+      "frequency": 1
+    },
+    {
+      "herb": "赭石",
+      "frequency": 1
+    },
+    {
+      "herb": "升麻",
+      "frequency": 1
+    },
+    {
+      "herb": "薏苡仁",
+      "frequency": 1
+    },
+    {
+      "herb": "苍术",
+      "frequency": 1
+    },
+    {
+      "herb": "竹茹",
+      "frequency": 1
+    },
+    {
+      "herb": "土鳖虫",
+      "frequency": 1
+    },
+    {
+      "herb": "桂心",
+      "frequency": 1
+    },
+    {
+      "herb": "蜀漆",
+      "frequency": 1
+    },
+    {
+      "herb": "阿胶",
+      "frequency": 1
+    },
+    {
+      "herb": "淡豆豉",
+      "frequency": 1
+    },
+    {
+      "herb": "栀子",
+      "frequency": 1
+    },
+    {
+      "herb": "牡丹皮",
+      "frequency": 1
+    }
+  ],
+  "added_herb_pair_statistics": [
+    {
+      "herb_pair": [
+        "大枣",
+        "生姜"
+      ],
+      "frequency": 9
+    },
+    {
+      "herb_pair": [
+        "桂枝",
+        "芍药"
+      ],
+      "frequency": 9
+    },
+    {
+      "herb_pair": [
+        "苦杏仁",
+        "麻黄"
+      ],
+      "frequency": 6
+    },
+    {
+      "herb_pair": [
+        "石膏",
+        "麻黄"
+      ],
+      "frequency": 5
+    },
+    {
+      "herb_pair": [
+        "大枣",
+        "芍药"
+      ],
+      "frequency": 4
+    },
+    {
+      "herb_pair": [
+        "生姜",
+        "芍药"
+      ],
+      "frequency": 4
+    },
+    {
+      "herb_pair": [
+        "半夏",
+        "麻黄"
+      ],
+      "frequency": 4
+    },
+    {
+      "herb_pair": [
+        "葛根",
+        "麻黄"
+      ],
+      "frequency": 4
+    },
+    {
+      "herb_pair": [
+        "干姜",
+        "甘草"
+      ],
+      "frequency": 3
+    },
+    {
+      "herb_pair": [
+        "人参",
+        "甘草"
+      ],
+      "frequency": 3
+    },
+    {
+      "herb_pair": [
+        "人参",
+        "大黄"
+      ],
+      "frequency": 3
+    },
+    {
+      "herb_pair": [
+        "人参",
+        "茯苓"
+      ],
+      "frequency": 3
+    },
+    {
+      "herb_pair": [
+        "白术",
+        "附子"
+      ],
+      "frequency": 3
+    },
+    {
+      "herb_pair": [
+        "大黄",
+        "甘草"
+      ],
+      "frequency": 2
+    },
+    {
+      "herb_pair": [
+        "甘草",
+        "茯苓"
+      ],
+      "frequency": 2
+    },
+    {
+      "herb_pair": [
+        "人尿",
+        "猪胆汁"
+      ],
+      "frequency": 2
+    },
+    {
+      "herb_pair": [
+        "大黄",
+        "芒硝"
+      ],
+      "frequency": 2
+    },
+    {
+      "herb_pair": [
+        "大枣",
+        "桂枝"
+      ],
+      "frequency": 2
+    },
+    {
+      "herb_pair": [
+        "桂枝",
+        "生姜"
+      ],
+      "frequency": 2
+    },
+    {
+      "herb_pair": [
+        "火麻仁",
+        "芍药"
+      ],
+      "frequency": 2
+    },
+    {
+      "herb_pair": [
+        "火麻仁",
+        "苦杏仁"
+      ],
+      "frequency": 2
+    },
+    {
+      "herb_pair": [
+        "芍药",
+        "苦杏仁"
+      ],
+      "frequency": 2
+    },
+    {
+      "herb_pair": [
+        "泽兰",
+        "石膏"
+      ],
+      "frequency": 2
+    },
+    {
+      "herb_pair": [
+        "泽兰",
+        "防风"
+      ],
+      "frequency": 2
+    },
+    {
+      "herb_pair": [
+        "石膏",
+        "防风"
+      ],
+      "frequency": 2
+    },
+    {
+      "herb_pair": [
+        "肉桂",
+        "附子"
+      ],
+      "frequency": 2
+    },
+    {
+      "herb_pair": [
+        "厚朴",
+        "苦杏仁"
+      ],
+      "frequency": 2
+    },
+    {
+      "herb_pair": [
+        "饴糖",
+        "黄芪"
+      ],
+      "frequency": 2
+    },
+    {
+      "herb_pair": [
+        "半夏",
+        "葛根"
+      ],
+      "frequency": 2
+    },
+    {
+      "herb_pair": [
+        "大黄",
+        "干姜"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "干姜",
+        "茯苓"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "花椒",
+        "草乌头"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "花椒",
+        "赤石脂"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "草乌头",
+        "赤石脂"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "人尿",
+        "葱白"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "猪胆汁",
+        "葱白"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "忍冬藤",
+        "甘草"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "柴胡",
+        "甘草"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "神曲",
+        "麦曲"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "半夏",
+        "陈皮"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "大黄",
+        "枳实"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "牡蛎",
+        "龙骨"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "白术",
+        "茯苓"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "生姜",
+        "茯苓"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "防己",
+        "防风"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "人参",
+        "干姜"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "人参",
+        "白术"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "干姜",
+        "白术"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "大枣",
+        "附子"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "生姜",
+        "附子"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "大黄",
+        "桃仁"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "桃仁",
+        "芒硝"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "知母",
+        "石膏"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "知母",
+        "粳米"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "石膏",
+        "粳米"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "茯苓",
+        "防己"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "茯苓",
+        "黄芪"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "防己",
+        "黄芪"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "白术",
+        "苦杏仁"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "白术",
+        "麻黄"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "桂枝",
+        "猪苓"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "桂枝",
+        "茯苓"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "猪苓",
+        "茯苓"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "升麻",
+        "葛根"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "枳实",
+        "柴胡"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "大枣",
+        "黄芩"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "草乌头",
+        "麻黄"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "草乌头",
+        "黄芪"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "麻黄",
+        "黄芪"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "桂枝",
+        "白术"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "桂枝",
+        "附子"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "桂枝",
+        "草乌头"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "芍药",
+        "草乌头"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "桂枝",
+        "饴糖"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "芍药",
+        "饴糖"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "厚朴",
+        "苍术"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "厚朴",
+        "陈皮"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "苍术",
+        "陈皮"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "天花粉",
+        "桂枝"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "天花粉",
+        "芍药"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "大黄",
+        "桂枝"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "大黄",
+        "芍药"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "桂枝",
+        "葛根"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "芍药",
+        "葛根"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "白术",
+        "肉桂"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "人参",
+        "桂枝"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "人参",
+        "芍药"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "人参",
+        "竹茹"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "人参",
+        "陈皮"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "竹茹",
+        "陈皮"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "半夏",
+        "石膏"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "半夏",
+        "芍药"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "半夏",
+        "黄芩"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "芍药",
+        "黄芩"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "桂枝",
+        "桃仁"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "半夏",
+        "干姜"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "土鳖虫",
+        "桂心"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "大枣",
+        "蜀漆"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "生姜",
+        "蜀漆"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "半夏",
+        "茯苓"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "人参",
+        "半夏"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "甘草",
+        "阿胶"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "大枣",
+        "石膏"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "生姜",
+        "石膏"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "半夏",
+        "生姜"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "淡豆豉",
+        "石膏"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "淡豆豉",
+        "麻黄"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "桂枝",
+        "苦杏仁"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "桂枝",
+        "白芍"
+      ],
+      "frequency": 1
+    },
+    {
+      "herb_pair": [
+        "栀子",
+        "牡丹皮"
+      ],
+      "frequency": 1
+    }
+  ],
+  "added_detail_records": [
+    {
+      "base_formula": "六一散",
+      "modified_formula": "益元散",
+      "added_herbs": [
+        "朱砂"
+      ]
+    },
+    {
+      "base_formula": "六一散",
+      "modified_formula": "碧玉散",
+      "added_herbs": [
+        "青黛"
+      ]
+    },
+    {
+      "base_formula": "参附汤",
+      "modified_formula": "四逆加人参汤",
+      "added_herbs": [
+        "干姜",
+        "甘草"
+      ]
+    },
+    {
+      "base_formula": "参附汤",
+      "modified_formula": "温脾汤",
+      "added_herbs": [
+        "大黄",
+        "干姜",
+        "甘草"
+      ]
+    },
+    {
+      "base_formula": "参附汤",
+      "modified_formula": "茯苓四逆汤",
+      "added_herbs": [
+        "干姜",
+        "甘草",
+        "茯苓"
+      ]
+    },
+    {
+      "base_formula": "左金丸",
+      "modified_formula": "戊己丸",
+      "added_herbs": [
+        "白芍"
+      ]
+    },
+    {
+      "base_formula": "左金丸",
+      "modified_formula": "香连丸",
+      "added_herbs": [
+        "木香"
+      ]
+    },
+    {
+      "base_formula": "干姜附子汤",
+      "modified_formula": "四逆汤",
+      "added_herbs": [
+        "甘草"
+      ]
+    },
+    {
+      "base_formula": "干姜附子汤",
+      "modified_formula": "白通汤",
+      "added_herbs": [
+        "葱白"
+      ]
+    },
+    {
+      "base_formula": "干姜附子汤",
+      "modified_formula": "通脉四逆汤",
+      "added_herbs": [
+        "甘草"
+      ]
+    },
+    {
+      "base_formula": "干姜附子汤",
+      "modified_formula": "四逆加人参汤",
+      "added_herbs": [
+        "人参",
+        "甘草"
+      ]
+    },
+    {
+      "base_formula": "干姜附子汤",
+      "modified_formula": "乌头赤石脂丸",
+      "added_herbs": [
+        "花椒",
+        "草乌头",
+        "赤石脂"
+      ]
+    },
+    {
+      "base_formula": "干姜附子汤",
+      "modified_formula": "温脾汤",
+      "added_herbs": [
+        "人参",
+        "大黄",
+        "甘草"
+      ]
+    },
+    {
+      "base_formula": "干姜附子汤",
+      "modified_formula": "白通加猪胆汁汤",
+      "added_herbs": [
+        "人尿",
+        "猪胆汁",
+        "葱白"
+      ]
+    },
+    {
+      "base_formula": "干姜附子汤",
+      "modified_formula": "茯苓四逆汤",
+      "added_herbs": [
+        "人参",
+        "甘草",
+        "茯苓"
+      ]
+    },
+    {
+      "base_formula": "当归补血汤",
+      "modified_formula": "圣愈汤",
+      "added_herbs": [
+        "川芎"
+      ]
+    },
+    {
+      "base_formula": "当归补血汤",
+      "modified_formula": "神效托里散",
+      "added_herbs": [
+        "忍冬藤",
+        "甘草"
+      ]
+    },
+    {
+      "base_formula": "枳实芍药散",
+      "modified_formula": "四逆散",
+      "added_herbs": [
+        "柴胡",
+        "甘草"
+      ]
+    },
+    {
+      "base_formula": "枳术丸",
+      "modified_formula": "曲蘗枳术丸",
+      "added_herbs": [
+        "神曲",
+        "麦曲"
+      ]
+    },
+    {
+      "base_formula": "枳术丸",
+      "modified_formula": "橘半枳术丸",
+      "added_herbs": [
+        "半夏",
+        "陈皮"
+      ]
+    },
+    {
+      "base_formula": "栀子豉汤",
+      "modified_formula": "栀子甘草豉汤",
+      "added_herbs": [
+        "甘草"
+      ]
+    },
+    {
+      "base_formula": "栀子豉汤",
+      "modified_formula": "栀子生姜豉汤",
+      "added_herbs": [
+        "生姜"
+      ]
+    },
+    {
+      "base_formula": "栀子豉汤",
+      "modified_formula": "栀子大黄汤",
+      "added_herbs": [
+        "大黄",
+        "枳实"
+      ]
+    },
+    {
+      "base_formula": "桂枝甘草汤",
+      "modified_formula": "桂枝甘草龙骨牡蛎汤",
+      "added_herbs": [
+        "牡蛎",
+        "龙骨"
+      ]
+    },
+    {
+      "base_formula": "桂枝甘草汤",
+      "modified_formula": "甘草附子汤",
+      "added_herbs": [
+        "白术",
+        "附子"
+      ]
+    },
+    {
+      "base_formula": "桂枝甘草汤",
+      "modified_formula": "苓桂术甘汤",
+      "added_herbs": [
+        "白术",
+        "茯苓"
+      ]
+    },
+    {
+      "base_formula": "桂枝甘草汤",
+      "modified_formula": "茯苓甘草汤",
+      "added_herbs": [
+        "生姜",
+        "茯苓"
+      ]
+    },
+    {
+      "base_formula": "桂枝甘草汤",
+      "modified_formula": "防己地黄汤",
+      "added_herbs": [
+        "防己",
+        "防风"
+      ]
+    },
+    {
+      "base_formula": "桂枝甘草汤",
+      "modified_formula": "麻黄汤",
+      "added_herbs": [
+        "苦杏仁",
+        "麻黄"
+      ]
+    },
+    {
+      "base_formula": "桂枝甘草汤",
+      "modified_formula": "桂枝人参汤",
+      "added_herbs": [
+        "人参",
+        "干姜",
+        "白术"
+      ]
+    },
+    {
+      "base_formula": "桂枝甘草汤",
+      "modified_formula": "桂枝加桂汤",
+      "added_herbs": [
+        "大枣",
+        "生姜",
+        "芍药"
+      ]
+    },
+    {
+      "base_formula": "桂枝甘草汤",
+      "modified_formula": "桂枝汤",
+      "added_herbs": [
+        "大枣",
+        "生姜",
+        "芍药"
+      ]
+    },
+    {
+      "base_formula": "桂枝甘草汤",
+      "modified_formula": "桂枝附子汤",
+      "added_herbs": [
+        "大枣",
+        "生姜",
+        "附子"
+      ]
+    },
+    {
+      "base_formula": "桂枝甘草汤",
+      "modified_formula": "桃核承气汤",
+      "added_herbs": [
+        "大黄",
+        "桃仁",
+        "芒硝"
+      ]
+    },
+    {
+      "base_formula": "桂枝甘草汤",
+      "modified_formula": "白虎加桂枝汤",
+      "added_herbs": [
+        "知母",
+        "石膏",
+        "粳米"
+      ]
+    },
+    {
+      "base_formula": "桂枝甘草汤",
+      "modified_formula": "防己茯苓汤",
+      "added_herbs": [
+        "茯苓",
+        "防己",
+        "黄芪"
+      ]
+    },
+    {
+      "base_formula": "桂枝甘草汤",
+      "modified_formula": "麻黄加术汤",
+      "added_herbs": [
+        "白术",
+        "苦杏仁",
+        "麻黄"
+      ]
+    },
+    {
+      "base_formula": "泽泻汤",
+      "modified_formula": "五苓散",
+      "added_herbs": [
+        "桂枝",
+        "猪苓",
+        "茯苓"
+      ]
+    },
+    {
+      "base_formula": "百合滑石散",
+      "modified_formula": "滑石代赭汤",
+      "added_herbs": [
+        "赭石"
+      ]
+    },
+    {
+      "base_formula": "芍药甘草汤",
+      "modified_formula": "芍药甘草附子汤",
+      "added_herbs": [
+        "附子"
+      ]
+    },
+    {
+      "base_formula": "芍药甘草汤",
+      "modified_formula": "升麻葛根汤",
+      "added_herbs": [
+        "升麻",
+        "葛根"
+      ]
+    },
+    {
+      "base_formula": "芍药甘草汤",
+      "modified_formula": "四逆散",
+      "added_herbs": [
+        "枳实",
+        "柴胡"
+      ]
+    },
+    {
+      "base_formula": "芍药甘草汤",
+      "modified_formula": "黄芩汤",
+      "added_herbs": [
+        "大枣",
+        "黄芩"
+      ]
+    },
+    {
+      "base_formula": "芍药甘草汤",
+      "modified_formula": "乌头汤",
+      "added_herbs": [
+        "草乌头",
+        "麻黄",
+        "黄芪"
+      ]
+    },
+    {
+      "base_formula": "芍药甘草汤",
+      "modified_formula": "桂枝加桂汤",
+      "added_herbs": [
+        "大枣",
+        "桂枝",
+        "生姜"
+      ]
+    },
+    {
+      "base_formula": "芍药甘草汤",
+      "modified_formula": "桂枝汤",
+      "added_herbs": [
+        "大枣",
+        "桂枝",
+        "生姜"
+      ]
+    },
+    {
+      "base_formula": "三拗汤",
+      "modified_formula": "麻黄杏仁薏苡甘草汤",
+      "added_herbs": [
+        "薏苡仁"
+      ]
+    },
+    {
+      "base_formula": "三拗汤",
+      "modified_formula": "麻黄汤",
+      "added_herbs": [
+        "桂枝"
+      ]
+    },
+    {
+      "base_formula": "三拗汤",
+      "modified_formula": "麻黄加术汤",
+      "added_herbs": [
+        "桂枝",
+        "白术"
+      ]
+    },
+    {
+      "base_formula": "厚朴大黄汤",
+      "modified_formula": "大承气汤",
+      "added_herbs": [
+        "芒硝"
+      ]
+    },
+    {
+      "base_formula": "厚朴大黄汤",
+      "modified_formula": "麻子仁丸",
+      "added_herbs": [
+        "火麻仁",
+        "芍药",
+        "苦杏仁"
+      ]
+    },
+    {
+      "base_formula": "四逆汤",
+      "modified_formula": "四逆加人参汤",
+      "added_herbs": [
+        "人参"
+      ]
+    },
+    {
+      "base_formula": "四逆汤",
+      "modified_formula": "温脾汤",
+      "added_herbs": [
+        "人参",
+        "大黄"
+      ]
+    },
+    {
+      "base_formula": "四逆汤",
+      "modified_formula": "茯苓四逆汤",
+      "added_herbs": [
+        "人参",
+        "茯苓"
+      ]
+    },
+    {
+      "base_formula": "四逆汤",
+      "modified_formula": "泽兰散",
+      "added_herbs": [
+        "泽兰",
+        "石膏",
+        "防风"
+      ]
+    },
+    {
+      "base_formula": "增液汤",
+      "modified_formula": "增液承气汤",
+      "added_herbs": [
+        "大黄",
+        "芒硝"
+      ]
+    },
+    {
+      "base_formula": "小承气汤",
+      "modified_formula": "大承气汤",
+      "added_herbs": [
+        "芒硝"
+      ]
+    },
+    {
+      "base_formula": "小承气汤",
+      "modified_formula": "麻子仁丸",
+      "added_herbs": [
+        "火麻仁",
+        "芍药",
+        "苦杏仁"
+      ]
+    },
+    {
+      "base_formula": "桂枝去芍药汤",
+      "modified_formula": "桂枝加桂汤",
+      "added_herbs": [
+        "桂枝",
+        "芍药"
+      ]
+    },
+    {
+      "base_formula": "桂枝去芍药汤",
+      "modified_formula": "桂枝去芍药加附子汤",
+      "added_herbs": [
+        "肉桂",
+        "附子"
+      ]
+    },
+    {
+      "base_formula": "桂枝去芍药汤",
+      "modified_formula": "桂枝汤",
+      "added_herbs": [
+        "桂枝",
+        "芍药"
+      ]
+    },
+    {
+      "base_formula": "桂枝去芍药汤",
+      "modified_formula": "桂枝附子汤",
+      "added_herbs": [
+        "桂枝",
+        "附子"
+      ]
+    },
+    {
+      "base_formula": "桂枝去芍药汤",
+      "modified_formula": "白术附子汤",
+      "added_herbs": [
+        "白术",
+        "附子"
+      ]
+    },
+    {
+      "base_formula": "桂枝去芍药汤",
+      "modified_formula": "越婢汤",
+      "added_herbs": [
+        "石膏",
+        "麻黄"
+      ]
+    },
+    {
+      "base_formula": "桂枝去芍药汤",
+      "modified_formula": "乌头桂枝汤",
+      "added_herbs": [
+        "桂枝",
+        "芍药",
+        "草乌头"
+      ]
+    },
+    {
+      "base_formula": "桂枝去芍药汤",
+      "modified_formula": "小建中汤",
+      "added_herbs": [
+        "桂枝",
+        "芍药",
+        "饴糖"
+      ]
+    },
+    {
+      "base_formula": "桂枝去芍药汤",
+      "modified_formula": "枣肉平胃散",
+      "added_herbs": [
+        "厚朴",
+        "苍术",
+        "陈皮"
+      ]
+    },
+    {
+      "base_formula": "桂枝去芍药汤",
+      "modified_formula": "栝楼桂枝汤",
+      "added_herbs": [
+        "天花粉",
+        "桂枝",
+        "芍药"
+      ]
+    },
+    {
+      "base_formula": "桂枝去芍药汤",
+      "modified_formula": "桂枝加大黄汤",
+      "added_herbs": [
+        "大黄",
+        "桂枝",
+        "芍药"
+      ]
+    },
+    {
+      "base_formula": "桂枝去芍药汤",
+      "modified_formula": "桂枝加葛根汤",
+      "added_herbs": [
+        "桂枝",
+        "芍药",
+        "葛根"
+      ]
+    },
+    {
+      "base_formula": "桂枝去芍药汤",
+      "modified_formula": "桂枝加附子汤",
+      "added_herbs": [
+        "白术",
+        "肉桂",
+        "附子"
+      ]
+    },
+    {
+      "base_formula": "桂枝去芍药汤",
+      "modified_formula": "桂枝新加汤",
+      "added_herbs": [
+        "人参",
+        "桂枝",
+        "芍药"
+      ]
+    },
+    {
+      "base_formula": "桂枝去芍药汤",
+      "modified_formula": "橘皮竹茹汤",
+      "added_herbs": [
+        "人参",
+        "竹茹",
+        "陈皮"
+      ]
+    },
+    {
+      "base_formula": "桂枝去芍药汤",
+      "modified_formula": "越婢加半夏汤",
+      "added_herbs": [
+        "半夏",
+        "石膏",
+        "麻黄"
+      ]
+    },
+    {
+      "base_formula": "桂枝去芍药汤",
+      "modified_formula": "黄芩加半夏生姜汤",
+      "added_herbs": [
+        "半夏",
+        "芍药",
+        "黄芩"
+      ]
+    },
+    {
+      "base_formula": "泻心汤",
+      "modified_formula": "附子泻心汤",
+      "added_herbs": [
+        "附子"
+      ]
+    },
+    {
+      "base_formula": "瓜蒌薤白白酒汤",
+      "modified_formula": "瓜蒌薤白半夏汤",
+      "added_herbs": [
+        "半夏"
+      ]
+    },
+    {
+      "base_formula": "白通汤",
+      "modified_formula": "白通加猪胆汁汤",
+      "added_herbs": [
+        "人尿",
+        "猪胆汁"
+      ]
+    },
+    {
+      "base_formula": "调胃承气汤",
+      "modified_formula": "桃核承气汤",
+      "added_herbs": [
+        "桂枝",
+        "桃仁"
+      ]
+    },
+    {
+      "base_formula": "通脉四逆汤",
+      "modified_formula": "四逆加人参汤",
+      "added_herbs": [
+        "人参"
+      ]
+    },
+    {
+      "base_formula": "通脉四逆汤",
+      "modified_formula": "温脾汤",
+      "added_herbs": [
+        "人参",
+        "大黄"
+      ]
+    },
+    {
+      "base_formula": "通脉四逆汤",
+      "modified_formula": "茯苓四逆汤",
+      "added_herbs": [
+        "人参",
+        "茯苓"
+      ]
+    },
+    {
+      "base_formula": "通脉四逆汤",
+      "modified_formula": "泽兰散",
+      "added_herbs": [
+        "泽兰",
+        "石膏",
+        "防风"
+      ]
+    },
+    {
+      "base_formula": "四君子汤",
+      "modified_formula": "异功散",
+      "added_herbs": [
+        "陈皮"
+      ]
+    },
+    {
+      "base_formula": "四君子汤",
+      "modified_formula": "理中化痰丸",
+      "added_herbs": [
+        "半夏",
+        "干姜"
+      ]
+    },
+    {
+      "base_formula": "四逆加人参汤",
+      "modified_formula": "温脾汤",
+      "added_herbs": [
+        "大黄"
+      ]
+    },
+    {
+      "base_formula": "四逆加人参汤",
+      "modified_formula": "茯苓四逆汤",
+      "added_herbs": [
+        "茯苓"
+      ]
+    },
+    {
+      "base_formula": "抵当汤",
+      "modified_formula": "蟅虫散",
+      "added_herbs": [
+        "土鳖虫",
+        "桂心"
+      ]
+    },
+    {
+      "base_formula": "桂枝甘草龙骨牡蛎汤",
+      "modified_formula": "桂枝去芍药加蜀漆牡蛎龙骨救逆汤",
+      "added_herbs": [
+        "大枣",
+        "生姜",
+        "蜀漆"
+      ]
+    },
+    {
+      "base_formula": "理中丸",
+      "modified_formula": "桂枝人参汤",
+      "added_herbs": [
+        "桂枝"
+      ]
+    },
+    {
+      "base_formula": "理中丸",
+      "modified_formula": "理中化痰丸",
+      "added_herbs": [
+        "半夏",
+        "茯苓"
+      ]
+    },
+    {
+      "base_formula": "甘草干姜茯苓白术汤",
+      "modified_formula": "理中化痰丸",
+      "added_herbs": [
+        "人参",
+        "半夏"
+      ]
+    },
+    {
+      "base_formula": "白头翁汤",
+      "modified_formula": "白头翁加甘草阿胶汤",
+      "added_herbs": [
+        "甘草",
+        "阿胶"
+      ]
+    },
+    {
+      "base_formula": "麻黄汤",
+      "modified_formula": "麻黄加术汤",
+      "added_herbs": [
+        "白术"
+      ]
+    },
+    {
+      "base_formula": "麻黄汤",
+      "modified_formula": "大青龙汤",
+      "added_herbs": [
+        "大枣",
+        "生姜",
+        "石膏"
+      ]
+    },
+    {
+      "base_formula": "麻黄汤",
+      "modified_formula": "桂枝二麻黄一汤",
+      "added_herbs": [
+        "大枣",
+        "生姜",
+        "芍药"
+      ]
+    },
+    {
+      "base_formula": "麻黄汤",
+      "modified_formula": "桂枝麻黄各半汤",
+      "added_herbs": [
+        "大枣",
+        "生姜",
+        "芍药"
+      ]
+    },
+    {
+      "base_formula": "黄芩汤",
+      "modified_formula": "黄芩加半夏生姜汤",
+      "added_herbs": [
+        "半夏",
+        "生姜"
+      ]
+    },
+    {
+      "base_formula": "黄连解毒汤",
+      "modified_formula": "石膏汤",
+      "added_herbs": [
+        "淡豆豉",
+        "石膏",
+        "麻黄"
+      ]
+    },
+    {
+      "base_formula": "五仁润肠丸",
+      "modified_formula": "五仁丸",
+      "added_herbs": [
+        "陈皮"
+      ]
+    },
+    {
+      "base_formula": "桂枝加桂汤",
+      "modified_formula": "乌头桂枝汤",
+      "added_herbs": [
+        "草乌头"
+      ]
+    },
+    {
+      "base_formula": "桂枝加桂汤",
+      "modified_formula": "小建中汤",
+      "added_herbs": [
+        "饴糖"
+      ]
+    },
+    {
+      "base_formula": "桂枝加桂汤",
+      "modified_formula": "栝楼桂枝汤",
+      "added_herbs": [
+        "天花粉"
+      ]
+    },
+    {
+      "base_formula": "桂枝加桂汤",
+      "modified_formula": "桂枝加大黄汤",
+      "added_herbs": [
+        "大黄"
+      ]
+    },
+    {
+      "base_formula": "桂枝加桂汤",
+      "modified_formula": "桂枝加葛根汤",
+      "added_herbs": [
+        "葛根"
+      ]
+    },
+    {
+      "base_formula": "桂枝加桂汤",
+      "modified_formula": "桂枝新加汤",
+      "added_herbs": [
+        "人参"
+      ]
+    },
+    {
+      "base_formula": "桂枝加桂汤",
+      "modified_formula": "桂枝二越婢一汤",
+      "added_herbs": [
+        "石膏",
+        "麻黄"
+      ]
+    },
+    {
+      "base_formula": "桂枝加桂汤",
+      "modified_formula": "桂枝二麻黄一汤",
+      "added_herbs": [
+        "苦杏仁",
+        "麻黄"
+      ]
+    },
+    {
+      "base_formula": "桂枝加桂汤",
+      "modified_formula": "桂枝加厚朴杏子汤",
+      "added_herbs": [
+        "厚朴",
+        "苦杏仁"
+      ]
+    },
+    {
+      "base_formula": "桂枝加桂汤",
+      "modified_formula": "桂枝麻黄各半汤",
+      "added_herbs": [
+        "苦杏仁",
+        "麻黄"
+      ]
+    },
+    {
+      "base_formula": "桂枝加桂汤",
+      "modified_formula": "葛根汤",
+      "added_herbs": [
+        "葛根",
+        "麻黄"
+      ]
+    },
+    {
+      "base_formula": "桂枝加桂汤",
+      "modified_formula": "黄芪建中汤",
+      "added_herbs": [
+        "饴糖",
+        "黄芪"
+      ]
+    },
+    {
+      "base_formula": "桂枝加桂汤",
+      "modified_formula": "葛根加半夏汤",
+      "added_herbs": [
+        "半夏",
+        "葛根",
+        "麻黄"
+      ]
+    },
+    {
+      "base_formula": "桂枝去芍药加附子汤",
+      "modified_formula": "桂枝加附子汤",
+      "added_herbs": [
+        "白术"
+      ]
+    },
+    {
+      "base_formula": "桂枝汤",
+      "modified_formula": "乌头桂枝汤",
+      "added_herbs": [
+        "草乌头"
+      ]
+    },
+    {
+      "base_formula": "桂枝汤",
+      "modified_formula": "小建中汤",
+      "added_herbs": [
+        "饴糖"
+      ]
+    },
+    {
+      "base_formula": "桂枝汤",
+      "modified_formula": "栝楼桂枝汤",
+      "added_herbs": [
+        "天花粉"
+      ]
+    },
+    {
+      "base_formula": "桂枝汤",
+      "modified_formula": "桂枝加大黄汤",
+      "added_herbs": [
+        "大黄"
+      ]
+    },
+    {
+      "base_formula": "桂枝汤",
+      "modified_formula": "桂枝加葛根汤",
+      "added_herbs": [
+        "葛根"
+      ]
+    },
+    {
+      "base_formula": "桂枝汤",
+      "modified_formula": "桂枝新加汤",
+      "added_herbs": [
+        "人参"
+      ]
+    },
+    {
+      "base_formula": "桂枝汤",
+      "modified_formula": "桂枝二越婢一汤",
+      "added_herbs": [
+        "石膏",
+        "麻黄"
+      ]
+    },
+    {
+      "base_formula": "桂枝汤",
+      "modified_formula": "桂枝二麻黄一汤",
+      "added_herbs": [
+        "苦杏仁",
+        "麻黄"
+      ]
+    },
+    {
+      "base_formula": "桂枝汤",
+      "modified_formula": "桂枝加厚朴杏子汤",
+      "added_herbs": [
+        "厚朴",
+        "苦杏仁"
+      ]
+    },
+    {
+      "base_formula": "桂枝汤",
+      "modified_formula": "桂枝麻黄各半汤",
+      "added_herbs": [
+        "苦杏仁",
+        "麻黄"
+      ]
+    },
+    {
+      "base_formula": "桂枝汤",
+      "modified_formula": "葛根汤",
+      "added_herbs": [
+        "葛根",
+        "麻黄"
+      ]
+    },
+    {
+      "base_formula": "桂枝汤",
+      "modified_formula": "黄芪建中汤",
+      "added_herbs": [
+        "饴糖",
+        "黄芪"
+      ]
+    },
+    {
+      "base_formula": "桂枝汤",
+      "modified_formula": "葛根加半夏汤",
+      "added_herbs": [
+        "半夏",
+        "葛根",
+        "麻黄"
+      ]
+    },
+    {
+      "base_formula": "白术附子汤",
+      "modified_formula": "桂枝加附子汤",
+      "added_herbs": [
+        "肉桂"
+      ]
+    },
+    {
+      "base_formula": "越婢汤",
+      "modified_formula": "越婢加半夏汤",
+      "added_herbs": [
+        "半夏"
+      ]
+    },
+    {
+      "base_formula": "越婢汤",
+      "modified_formula": "大青龙汤",
+      "added_herbs": [
+        "桂枝",
+        "苦杏仁"
+      ]
+    },
+    {
+      "base_formula": "越婢汤",
+      "modified_formula": "桂枝二越婢一汤",
+      "added_herbs": [
+        "桂枝",
+        "芍药"
+      ]
+    },
+    {
+      "base_formula": "小建中汤",
+      "modified_formula": "黄芪建中汤",
+      "added_herbs": [
+        "黄芪"
+      ]
+    },
+    {
+      "base_formula": "桂枝加葛根汤",
+      "modified_formula": "葛根汤",
+      "added_herbs": [
+        "麻黄"
+      ]
+    },
+    {
+      "base_formula": "桂枝加葛根汤",
+      "modified_formula": "葛根加半夏汤",
+      "added_herbs": [
+        "半夏",
+        "麻黄"
+      ]
+    },
+    {
+      "base_formula": "半夏泻心汤",
+      "modified_formula": "生姜泻心汤",
+      "added_herbs": [
+        "生姜"
+      ]
+    },
+    {
+      "base_formula": "小柴胡汤",
+      "modified_formula": "柴胡桂枝汤",
+      "added_herbs": [
+        "桂枝",
+        "白芍"
+      ]
+    },
+    {
+      "base_formula": "甘草泻心汤",
+      "modified_formula": "生姜泻心汤",
+      "added_herbs": [
+        "生姜"
+      ]
+    },
+    {
+      "base_formula": "葛根汤",
+      "modified_formula": "葛根加半夏汤",
+      "added_herbs": [
+        "半夏"
+      ]
+    },
+    {
+      "base_formula": "逍遥散",
+      "modified_formula": "加味逍遥散",
+      "added_herbs": [
+        "栀子",
+        "牡丹皮"
+      ]
+    }
+  ]
+}

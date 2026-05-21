@@ -1,7 +1,7 @@
 {
   "dataset": "dataset3",
   "total_questions": 100,
-  "model_count": 8,
+  "model_count": 9,
   "model_error_counts": {
     "gpt-5.4": 18,
     "o3": 31,
@@ -10,6 +10,7 @@
     "gemini-3.1-pro-preview": 11,
     "claude-sonnet-4-6": 9,
     "qwen3.5-plus": 14,
+    "baichuan-m3-plus": 22,
     "zhongjing": 51
   },
   "top10_error_questions": [
@@ -25,7 +26,7 @@
       },
       "gold_answer": "D",
       "gold_answer_text": "山甘草",
-      "error_count": 8,
+      "error_count": 9,
       "error_models": [
         {
           "model": "gpt-5.4",
@@ -91,6 +92,15 @@
           "model_response": "A"
         },
         {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "A",
+          "predicted_answer_text": "猪屎草",
+          "gold_answer": "D",
+          "gold_answer_text": "山甘草",
+          "model_response": "A"
+        },
+        {
           "model": "zhongjing",
           "model_display_name": "仲景",
           "predicted_answer": "A",
@@ -98,6 +108,94 @@
           "gold_answer": "D",
           "gold_answer_text": "山甘草",
           "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“徐长卿”的别名？",
+      "options": {
+        "A": "药王",
+        "B": "香果",
+        "C": "因地辛",
+        "D": "香豉"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "药王",
+      "error_count": 8,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "C",
+          "predicted_answer_text": "因地辛",
+          "gold_answer": "A",
+          "gold_answer_text": "药王",
+          "model_response": "C"
+        },
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": "C",
+          "predicted_answer_text": "因地辛",
+          "gold_answer": "A",
+          "gold_answer_text": "药王",
+          "model_response": "C"
+        },
+        {
+          "model": "kimi-k2.5",
+          "model_display_name": "Kimi-K2.5",
+          "predicted_answer": "C",
+          "predicted_answer_text": "因地辛",
+          "gold_answer": "A",
+          "gold_answer_text": "药王",
+          "model_response": "C"
+        },
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": "C",
+          "predicted_answer_text": "因地辛",
+          "gold_answer": "A",
+          "gold_answer_text": "药王",
+          "model_response": "C"
+        },
+        {
+          "model": "gemini-3.1-pro-preview",
+          "model_display_name": "Gemini-3.1-Pro-Preview",
+          "predicted_answer": "C",
+          "predicted_answer_text": "因地辛",
+          "gold_answer": "A",
+          "gold_answer_text": "药王",
+          "model_response": "C"
+        },
+        {
+          "model": "claude-sonnet-4-6",
+          "model_display_name": "Claude-Sonnet-4.6",
+          "predicted_answer": "C",
+          "predicted_answer_text": "因地辛",
+          "gold_answer": "A",
+          "gold_answer_text": "药王",
+          "model_response": "C"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "C",
+          "predicted_answer_text": "因地辛",
+          "gold_answer": "A",
+          "gold_answer_text": "药王",
+          "model_response": "C"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "B",
+          "predicted_answer_text": "香果",
+          "gold_answer": "A",
+          "gold_answer_text": "药王",
+          "model_response": "B"
         }
       ]
     },
@@ -181,85 +279,6 @@
       ]
     },
     {
-      "id": 64,
-      "type": "药材别名识别",
-      "question": "下列哪一项是中药“徐长卿”的别名？",
-      "options": {
-        "A": "药王",
-        "B": "香果",
-        "C": "因地辛",
-        "D": "香豉"
-      },
-      "gold_answer": "A",
-      "gold_answer_text": "药王",
-      "error_count": 7,
-      "error_models": [
-        {
-          "model": "gpt-5.4",
-          "model_display_name": "GPT-5.4",
-          "predicted_answer": "C",
-          "predicted_answer_text": "因地辛",
-          "gold_answer": "A",
-          "gold_answer_text": "药王",
-          "model_response": "C"
-        },
-        {
-          "model": "o3",
-          "model_display_name": "O3",
-          "predicted_answer": "C",
-          "predicted_answer_text": "因地辛",
-          "gold_answer": "A",
-          "gold_answer_text": "药王",
-          "model_response": "C"
-        },
-        {
-          "model": "kimi-k2.5",
-          "model_display_name": "Kimi-K2.5",
-          "predicted_answer": "C",
-          "predicted_answer_text": "因地辛",
-          "gold_answer": "A",
-          "gold_answer_text": "药王",
-          "model_response": "C"
-        },
-        {
-          "model": "deepseek-v3.2",
-          "model_display_name": "DeepSeek-V3.2",
-          "predicted_answer": "C",
-          "predicted_answer_text": "因地辛",
-          "gold_answer": "A",
-          "gold_answer_text": "药王",
-          "model_response": "C"
-        },
-        {
-          "model": "gemini-3.1-pro-preview",
-          "model_display_name": "Gemini-3.1-Pro-Preview",
-          "predicted_answer": "C",
-          "predicted_answer_text": "因地辛",
-          "gold_answer": "A",
-          "gold_answer_text": "药王",
-          "model_response": "C"
-        },
-        {
-          "model": "claude-sonnet-4-6",
-          "model_display_name": "Claude-Sonnet-4.6",
-          "predicted_answer": "C",
-          "predicted_answer_text": "因地辛",
-          "gold_answer": "A",
-          "gold_answer_text": "药王",
-          "model_response": "C"
-        },
-        {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
-          "predicted_answer": "B",
-          "predicted_answer_text": "香果",
-          "gold_answer": "A",
-          "gold_answer_text": "药王",
-          "model_response": "B"
-        }
-      ]
-    },
-    {
       "id": 10,
       "type": "药材别名识别",
       "question": "下列哪一项是中药“水红花子”的别名？",
@@ -271,7 +290,7 @@
       },
       "gold_answer": "A",
       "gold_answer_text": "水泻花",
-      "error_count": 6,
+      "error_count": 7,
       "error_models": [
         {
           "model": "gpt-5.4",
@@ -326,6 +345,94 @@
           "gold_answer": "A",
           "gold_answer_text": "水泻花",
           "model_response": "C"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "C",
+          "predicted_answer_text": "刚子",
+          "gold_answer": "A",
+          "gold_answer_text": "水泻花",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“射干”的别名？",
+      "options": {
+        "A": "苦杏仁",
+        "B": "母鸡带仔",
+        "C": "地栗",
+        "D": "黄知母"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "黄知母",
+      "error_count": 7,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "B",
+          "predicted_answer_text": "母鸡带仔",
+          "gold_answer": "D",
+          "gold_answer_text": "黄知母",
+          "model_response": "B"
+        },
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": "B",
+          "predicted_answer_text": "母鸡带仔",
+          "gold_answer": "D",
+          "gold_answer_text": "黄知母",
+          "model_response": "B"
+        },
+        {
+          "model": "kimi-k2.5",
+          "model_display_name": "Kimi-K2.5",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "D",
+          "gold_answer_text": "黄知母",
+          "model_response": ""
+        },
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": "B",
+          "predicted_answer_text": "母鸡带仔",
+          "gold_answer": "D",
+          "gold_answer_text": "黄知母",
+          "model_response": "B"
+        },
+        {
+          "model": "claude-sonnet-4-6",
+          "model_display_name": "Claude-Sonnet-4.6",
+          "predicted_answer": "B",
+          "predicted_answer_text": "母鸡带仔",
+          "gold_answer": "D",
+          "gold_answer_text": "黄知母",
+          "model_response": "B"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "C",
+          "predicted_answer_text": "地栗",
+          "gold_answer": "D",
+          "gold_answer_text": "黄知母",
+          "model_response": "C"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "苦杏仁",
+          "gold_answer": "D",
+          "gold_answer_text": "黄知母",
+          "model_response": "A"
         }
       ]
     },
@@ -540,76 +647,6 @@
       ]
     },
     {
-      "id": 96,
-      "type": "药材别名识别",
-      "question": "下列哪一项是中药“射干”的别名？",
-      "options": {
-        "A": "苦杏仁",
-        "B": "母鸡带仔",
-        "C": "地栗",
-        "D": "黄知母"
-      },
-      "gold_answer": "D",
-      "gold_answer_text": "黄知母",
-      "error_count": 6,
-      "error_models": [
-        {
-          "model": "gpt-5.4",
-          "model_display_name": "GPT-5.4",
-          "predicted_answer": "B",
-          "predicted_answer_text": "母鸡带仔",
-          "gold_answer": "D",
-          "gold_answer_text": "黄知母",
-          "model_response": "B"
-        },
-        {
-          "model": "o3",
-          "model_display_name": "O3",
-          "predicted_answer": "B",
-          "predicted_answer_text": "母鸡带仔",
-          "gold_answer": "D",
-          "gold_answer_text": "黄知母",
-          "model_response": "B"
-        },
-        {
-          "model": "kimi-k2.5",
-          "model_display_name": "Kimi-K2.5",
-          "predicted_answer": null,
-          "predicted_answer_text": "",
-          "gold_answer": "D",
-          "gold_answer_text": "黄知母",
-          "model_response": ""
-        },
-        {
-          "model": "deepseek-v3.2",
-          "model_display_name": "DeepSeek-V3.2",
-          "predicted_answer": "B",
-          "predicted_answer_text": "母鸡带仔",
-          "gold_answer": "D",
-          "gold_answer_text": "黄知母",
-          "model_response": "B"
-        },
-        {
-          "model": "claude-sonnet-4-6",
-          "model_display_name": "Claude-Sonnet-4.6",
-          "predicted_answer": "B",
-          "predicted_answer_text": "母鸡带仔",
-          "gold_answer": "D",
-          "gold_answer_text": "黄知母",
-          "model_response": "B"
-        },
-        {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
-          "predicted_answer": "A",
-          "predicted_answer_text": "苦杏仁",
-          "gold_answer": "D",
-          "gold_answer_text": "黄知母",
-          "model_response": "A"
-        }
-      ]
-    },
-    {
       "id": 2,
       "type": "药材别名识别",
       "question": "下列哪一项是中药“杠板归”的别名？",
@@ -621,7 +658,7 @@
       },
       "gold_answer": "B",
       "gold_answer_text": "利酸浆",
-      "error_count": 4,
+      "error_count": 5,
       "error_models": [
         {
           "model": "gpt-5.4",
@@ -651,6 +688,15 @@
           "model_response": "A"
         },
         {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "A",
+          "predicted_answer_text": "斑杖",
+          "gold_answer": "B",
+          "gold_answer_text": "利酸浆",
+          "model_response": "A"
+        },
+        {
           "model": "zhongjing",
           "model_display_name": "仲景",
           "predicted_answer": "A",
@@ -662,53 +708,53 @@
       ]
     },
     {
-      "id": 22,
+      "id": 5,
       "type": "药材别名识别",
-      "question": "下列哪一项是中药“茶叶”的别名？",
+      "question": "下列哪一项是中药“北豆根”的别名？",
       "options": {
-        "A": "梭椤子",
-        "B": "干姜",
-        "C": "当归",
-        "D": "郭璞注"
+        "A": "（犭凡）蒿",
+        "B": "黄条香",
+        "C": "支连",
+        "D": "山慈菇"
       },
-      "gold_answer": "D",
-      "gold_answer_text": "郭璞注",
+      "gold_answer": "B",
+      "gold_answer_text": "黄条香",
       "error_count": 4,
       "error_models": [
         {
-          "model": "o3",
-          "model_display_name": "O3",
-          "predicted_answer": "A",
-          "predicted_answer_text": "梭椤子",
-          "gold_answer": "D",
-          "gold_answer_text": "郭璞注",
-          "model_response": "A"
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "C",
+          "predicted_answer_text": "支连",
+          "gold_answer": "B",
+          "gold_answer_text": "黄条香",
+          "model_response": "C"
         },
         {
           "model": "deepseek-v3.2",
           "model_display_name": "DeepSeek-V3.2",
           "predicted_answer": "A",
-          "predicted_answer_text": "梭椤子",
-          "gold_answer": "D",
-          "gold_answer_text": "郭璞注",
+          "predicted_answer_text": "（犭凡）蒿",
+          "gold_answer": "B",
+          "gold_answer_text": "黄条香",
           "model_response": "A"
         },
         {
-          "model": "qwen3.5-plus",
-          "model_display_name": "Qwen3.5-Plus",
-          "predicted_answer": null,
-          "predicted_answer_text": "",
-          "gold_answer": "D",
-          "gold_answer_text": "郭璞注",
-          "model_response": null
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "C",
+          "predicted_answer_text": "支连",
+          "gold_answer": "B",
+          "gold_answer_text": "黄条香",
+          "model_response": "C"
         },
         {
           "model": "zhongjing",
           "model_display_name": "仲景",
           "predicted_answer": "A",
-          "predicted_answer_text": "梭椤子",
-          "gold_answer": "D",
-          "gold_answer_text": "郭璞注",
+          "predicted_answer_text": "（犭凡）蒿",
+          "gold_answer": "B",
+          "gold_answer_text": "黄条香",
           "model_response": "A"
         }
       ]
@@ -727,7 +773,7 @@
       },
       "gold_answer": "D",
       "gold_answer_text": "山甘草",
-      "error_count": 8,
+      "error_count": 9,
       "error_models": [
         {
           "model": "gpt-5.4",
@@ -793,6 +839,15 @@
           "model_response": "A"
         },
         {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "A",
+          "predicted_answer_text": "猪屎草",
+          "gold_answer": "D",
+          "gold_answer_text": "山甘草",
+          "model_response": "A"
+        },
+        {
           "model": "zhongjing",
           "model_display_name": "仲景",
           "predicted_answer": "A",
@@ -800,6 +855,94 @@
           "gold_answer": "D",
           "gold_answer_text": "山甘草",
           "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“徐长卿”的别名？",
+      "options": {
+        "A": "药王",
+        "B": "香果",
+        "C": "因地辛",
+        "D": "香豉"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "药王",
+      "error_count": 8,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "C",
+          "predicted_answer_text": "因地辛",
+          "gold_answer": "A",
+          "gold_answer_text": "药王",
+          "model_response": "C"
+        },
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": "C",
+          "predicted_answer_text": "因地辛",
+          "gold_answer": "A",
+          "gold_answer_text": "药王",
+          "model_response": "C"
+        },
+        {
+          "model": "kimi-k2.5",
+          "model_display_name": "Kimi-K2.5",
+          "predicted_answer": "C",
+          "predicted_answer_text": "因地辛",
+          "gold_answer": "A",
+          "gold_answer_text": "药王",
+          "model_response": "C"
+        },
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": "C",
+          "predicted_answer_text": "因地辛",
+          "gold_answer": "A",
+          "gold_answer_text": "药王",
+          "model_response": "C"
+        },
+        {
+          "model": "gemini-3.1-pro-preview",
+          "model_display_name": "Gemini-3.1-Pro-Preview",
+          "predicted_answer": "C",
+          "predicted_answer_text": "因地辛",
+          "gold_answer": "A",
+          "gold_answer_text": "药王",
+          "model_response": "C"
+        },
+        {
+          "model": "claude-sonnet-4-6",
+          "model_display_name": "Claude-Sonnet-4.6",
+          "predicted_answer": "C",
+          "predicted_answer_text": "因地辛",
+          "gold_answer": "A",
+          "gold_answer_text": "药王",
+          "model_response": "C"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "C",
+          "predicted_answer_text": "因地辛",
+          "gold_answer": "A",
+          "gold_answer_text": "药王",
+          "model_response": "C"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "B",
+          "predicted_answer_text": "香果",
+          "gold_answer": "A",
+          "gold_answer_text": "药王",
+          "model_response": "B"
         }
       ]
     },
@@ -883,85 +1026,6 @@
       ]
     },
     {
-      "id": 64,
-      "type": "药材别名识别",
-      "question": "下列哪一项是中药“徐长卿”的别名？",
-      "options": {
-        "A": "药王",
-        "B": "香果",
-        "C": "因地辛",
-        "D": "香豉"
-      },
-      "gold_answer": "A",
-      "gold_answer_text": "药王",
-      "error_count": 7,
-      "error_models": [
-        {
-          "model": "gpt-5.4",
-          "model_display_name": "GPT-5.4",
-          "predicted_answer": "C",
-          "predicted_answer_text": "因地辛",
-          "gold_answer": "A",
-          "gold_answer_text": "药王",
-          "model_response": "C"
-        },
-        {
-          "model": "o3",
-          "model_display_name": "O3",
-          "predicted_answer": "C",
-          "predicted_answer_text": "因地辛",
-          "gold_answer": "A",
-          "gold_answer_text": "药王",
-          "model_response": "C"
-        },
-        {
-          "model": "kimi-k2.5",
-          "model_display_name": "Kimi-K2.5",
-          "predicted_answer": "C",
-          "predicted_answer_text": "因地辛",
-          "gold_answer": "A",
-          "gold_answer_text": "药王",
-          "model_response": "C"
-        },
-        {
-          "model": "deepseek-v3.2",
-          "model_display_name": "DeepSeek-V3.2",
-          "predicted_answer": "C",
-          "predicted_answer_text": "因地辛",
-          "gold_answer": "A",
-          "gold_answer_text": "药王",
-          "model_response": "C"
-        },
-        {
-          "model": "gemini-3.1-pro-preview",
-          "model_display_name": "Gemini-3.1-Pro-Preview",
-          "predicted_answer": "C",
-          "predicted_answer_text": "因地辛",
-          "gold_answer": "A",
-          "gold_answer_text": "药王",
-          "model_response": "C"
-        },
-        {
-          "model": "claude-sonnet-4-6",
-          "model_display_name": "Claude-Sonnet-4.6",
-          "predicted_answer": "C",
-          "predicted_answer_text": "因地辛",
-          "gold_answer": "A",
-          "gold_answer_text": "药王",
-          "model_response": "C"
-        },
-        {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
-          "predicted_answer": "B",
-          "predicted_answer_text": "香果",
-          "gold_answer": "A",
-          "gold_answer_text": "药王",
-          "model_response": "B"
-        }
-      ]
-    },
-    {
       "id": 10,
       "type": "药材别名识别",
       "question": "下列哪一项是中药“水红花子”的别名？",
@@ -973,7 +1037,7 @@
       },
       "gold_answer": "A",
       "gold_answer_text": "水泻花",
-      "error_count": 6,
+      "error_count": 7,
       "error_models": [
         {
           "model": "gpt-5.4",
@@ -1028,6 +1092,94 @@
           "gold_answer": "A",
           "gold_answer_text": "水泻花",
           "model_response": "C"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "C",
+          "predicted_answer_text": "刚子",
+          "gold_answer": "A",
+          "gold_answer_text": "水泻花",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“射干”的别名？",
+      "options": {
+        "A": "苦杏仁",
+        "B": "母鸡带仔",
+        "C": "地栗",
+        "D": "黄知母"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "黄知母",
+      "error_count": 7,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "B",
+          "predicted_answer_text": "母鸡带仔",
+          "gold_answer": "D",
+          "gold_answer_text": "黄知母",
+          "model_response": "B"
+        },
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": "B",
+          "predicted_answer_text": "母鸡带仔",
+          "gold_answer": "D",
+          "gold_answer_text": "黄知母",
+          "model_response": "B"
+        },
+        {
+          "model": "kimi-k2.5",
+          "model_display_name": "Kimi-K2.5",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "D",
+          "gold_answer_text": "黄知母",
+          "model_response": ""
+        },
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": "B",
+          "predicted_answer_text": "母鸡带仔",
+          "gold_answer": "D",
+          "gold_answer_text": "黄知母",
+          "model_response": "B"
+        },
+        {
+          "model": "claude-sonnet-4-6",
+          "model_display_name": "Claude-Sonnet-4.6",
+          "predicted_answer": "B",
+          "predicted_answer_text": "母鸡带仔",
+          "gold_answer": "D",
+          "gold_answer_text": "黄知母",
+          "model_response": "B"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "C",
+          "predicted_answer_text": "地栗",
+          "gold_answer": "D",
+          "gold_answer_text": "黄知母",
+          "model_response": "C"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "苦杏仁",
+          "gold_answer": "D",
+          "gold_answer_text": "黄知母",
+          "model_response": "A"
         }
       ]
     },
@@ -1242,76 +1394,6 @@
       ]
     },
     {
-      "id": 96,
-      "type": "药材别名识别",
-      "question": "下列哪一项是中药“射干”的别名？",
-      "options": {
-        "A": "苦杏仁",
-        "B": "母鸡带仔",
-        "C": "地栗",
-        "D": "黄知母"
-      },
-      "gold_answer": "D",
-      "gold_answer_text": "黄知母",
-      "error_count": 6,
-      "error_models": [
-        {
-          "model": "gpt-5.4",
-          "model_display_name": "GPT-5.4",
-          "predicted_answer": "B",
-          "predicted_answer_text": "母鸡带仔",
-          "gold_answer": "D",
-          "gold_answer_text": "黄知母",
-          "model_response": "B"
-        },
-        {
-          "model": "o3",
-          "model_display_name": "O3",
-          "predicted_answer": "B",
-          "predicted_answer_text": "母鸡带仔",
-          "gold_answer": "D",
-          "gold_answer_text": "黄知母",
-          "model_response": "B"
-        },
-        {
-          "model": "kimi-k2.5",
-          "model_display_name": "Kimi-K2.5",
-          "predicted_answer": null,
-          "predicted_answer_text": "",
-          "gold_answer": "D",
-          "gold_answer_text": "黄知母",
-          "model_response": ""
-        },
-        {
-          "model": "deepseek-v3.2",
-          "model_display_name": "DeepSeek-V3.2",
-          "predicted_answer": "B",
-          "predicted_answer_text": "母鸡带仔",
-          "gold_answer": "D",
-          "gold_answer_text": "黄知母",
-          "model_response": "B"
-        },
-        {
-          "model": "claude-sonnet-4-6",
-          "model_display_name": "Claude-Sonnet-4.6",
-          "predicted_answer": "B",
-          "predicted_answer_text": "母鸡带仔",
-          "gold_answer": "D",
-          "gold_answer_text": "黄知母",
-          "model_response": "B"
-        },
-        {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
-          "predicted_answer": "A",
-          "predicted_answer_text": "苦杏仁",
-          "gold_answer": "D",
-          "gold_answer_text": "黄知母",
-          "model_response": "A"
-        }
-      ]
-    },
-    {
       "id": 2,
       "type": "药材别名识别",
       "question": "下列哪一项是中药“杠板归”的别名？",
@@ -1323,7 +1405,7 @@
       },
       "gold_answer": "B",
       "gold_answer_text": "利酸浆",
-      "error_count": 4,
+      "error_count": 5,
       "error_models": [
         {
           "model": "gpt-5.4",
@@ -1353,6 +1435,15 @@
           "model_response": "A"
         },
         {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "A",
+          "predicted_answer_text": "斑杖",
+          "gold_answer": "B",
+          "gold_answer_text": "利酸浆",
+          "model_response": "A"
+        },
+        {
           "model": "zhongjing",
           "model_display_name": "仲景",
           "predicted_answer": "A",
@@ -1360,6 +1451,162 @@
           "gold_answer": "B",
           "gold_answer_text": "利酸浆",
           "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“北豆根”的别名？",
+      "options": {
+        "A": "（犭凡）蒿",
+        "B": "黄条香",
+        "C": "支连",
+        "D": "山慈菇"
+      },
+      "gold_answer": "B",
+      "gold_answer_text": "黄条香",
+      "error_count": 4,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "C",
+          "predicted_answer_text": "支连",
+          "gold_answer": "B",
+          "gold_answer_text": "黄条香",
+          "model_response": "C"
+        },
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": "A",
+          "predicted_answer_text": "（犭凡）蒿",
+          "gold_answer": "B",
+          "gold_answer_text": "黄条香",
+          "model_response": "A"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "C",
+          "predicted_answer_text": "支连",
+          "gold_answer": "B",
+          "gold_answer_text": "黄条香",
+          "model_response": "C"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "（犭凡）蒿",
+          "gold_answer": "B",
+          "gold_answer_text": "黄条香",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“珠子参”的别名？",
+      "options": {
+        "A": "附支",
+        "B": "白地瓜",
+        "C": "寒蚓",
+        "D": "川明参"
+      },
+      "gold_answer": "B",
+      "gold_answer_text": "白地瓜",
+      "error_count": 4,
+      "error_models": [
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": "D",
+          "predicted_answer_text": "川明参",
+          "gold_answer": "B",
+          "gold_answer_text": "白地瓜",
+          "model_response": "D"
+        },
+        {
+          "model": "gemini-3.1-pro-preview",
+          "model_display_name": "Gemini-3.1-Pro-Preview",
+          "predicted_answer": "A",
+          "predicted_answer_text": "附支",
+          "gold_answer": "B",
+          "gold_answer_text": "白地瓜",
+          "model_response": "A"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "A",
+          "predicted_answer_text": "附支",
+          "gold_answer": "B",
+          "gold_answer_text": "白地瓜",
+          "model_response": "A"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "D",
+          "predicted_answer_text": "川明参",
+          "gold_answer": "B",
+          "gold_answer_text": "白地瓜",
+          "model_response": "D"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“商陆”的别名？",
+      "options": {
+        "A": "水萝卜",
+        "B": "凤凰鸡",
+        "C": "黄骨狼",
+        "D": "章瓦"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "水萝卜",
+      "error_count": 4,
+      "error_models": [
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "A",
+          "gold_answer_text": "水萝卜",
+          "model_response": ""
+        },
+        {
+          "model": "kimi-k2.5",
+          "model_display_name": "Kimi-K2.5",
+          "predicted_answer": "D",
+          "predicted_answer_text": "章瓦",
+          "gold_answer": "A",
+          "gold_answer_text": "水萝卜",
+          "model_response": "D"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "D",
+          "predicted_answer_text": "章瓦",
+          "gold_answer": "A",
+          "gold_answer_text": "水萝卜",
+          "model_response": "根据提供的参考资料，未直接提及“商陆”的别名。但结合通用中医药知识，商陆的别名包括“章柳”“白昌”“章瓦”等。\n\n在选项中，“章瓦”是商陆的别名之一。\n\nD\n\n我建议您进一步查阅商陆的毒性成分、临床安全用量及中毒预防措施的相关研究或药典标准。您需要我帮您检索这方面的权威资料吗？"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "D",
+          "predicted_answer_text": "章瓦",
+          "gold_answer": "A",
+          "gold_answer_text": "水萝卜",
+          "model_response": "D"
         }
       ]
     },
@@ -1676,103 +1923,17 @@
       ]
     },
     {
-      "id": 5,
+      "id": 9,
       "type": "药材别名识别",
-      "question": "下列哪一项是中药“北豆根”的别名？",
+      "question": "下列哪一项是中药“百蕊草”的别名？",
       "options": {
-        "A": "（犭凡）蒿",
-        "B": "黄条香",
-        "C": "支连",
-        "D": "山慈菇"
-      },
-      "gold_answer": "B",
-      "gold_answer_text": "黄条香",
-      "error_count": 3,
-      "error_models": [
-        {
-          "model": "gpt-5.4",
-          "model_display_name": "GPT-5.4",
-          "predicted_answer": "C",
-          "predicted_answer_text": "支连",
-          "gold_answer": "B",
-          "gold_answer_text": "黄条香",
-          "model_response": "C"
-        },
-        {
-          "model": "deepseek-v3.2",
-          "model_display_name": "DeepSeek-V3.2",
-          "predicted_answer": "A",
-          "predicted_answer_text": "（犭凡）蒿",
-          "gold_answer": "B",
-          "gold_answer_text": "黄条香",
-          "model_response": "A"
-        },
-        {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
-          "predicted_answer": "A",
-          "predicted_answer_text": "（犭凡）蒿",
-          "gold_answer": "B",
-          "gold_answer_text": "黄条香",
-          "model_response": "A"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "type": "药材别名识别",
-      "question": "下列哪一项是中药“珠子参”的别名？",
-      "options": {
-        "A": "附支",
-        "B": "白地瓜",
-        "C": "寒蚓",
-        "D": "川明参"
-      },
-      "gold_answer": "B",
-      "gold_answer_text": "白地瓜",
-      "error_count": 3,
-      "error_models": [
-        {
-          "model": "o3",
-          "model_display_name": "O3",
-          "predicted_answer": "D",
-          "predicted_answer_text": "川明参",
-          "gold_answer": "B",
-          "gold_answer_text": "白地瓜",
-          "model_response": "D"
-        },
-        {
-          "model": "gemini-3.1-pro-preview",
-          "model_display_name": "Gemini-3.1-Pro-Preview",
-          "predicted_answer": "A",
-          "predicted_answer_text": "附支",
-          "gold_answer": "B",
-          "gold_answer_text": "白地瓜",
-          "model_response": "A"
-        },
-        {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
-          "predicted_answer": "D",
-          "predicted_answer_text": "川明参",
-          "gold_answer": "B",
-          "gold_answer_text": "白地瓜",
-          "model_response": "D"
-        }
-      ]
-    },
-    {
-      "id": 21,
-      "type": "药材别名识别",
-      "question": "下列哪一项是中药“商陆”的别名？",
-      "options": {
-        "A": "水萝卜",
-        "B": "凤凰鸡",
-        "C": "黄骨狼",
-        "D": "章瓦"
+        "A": "积药草",
+        "B": "丝瓜壳",
+        "C": "马衔",
+        "D": "马加勒"
       },
       "gold_answer": "A",
-      "gold_answer_text": "水萝卜",
+      "gold_answer_text": "积药草",
       "error_count": 3,
       "error_models": [
         {
@@ -1781,26 +1942,155 @@
           "predicted_answer": null,
           "predicted_answer_text": "",
           "gold_answer": "A",
-          "gold_answer_text": "水萝卜",
+          "gold_answer_text": "积药草",
           "model_response": ""
         },
         {
-          "model": "kimi-k2.5",
-          "model_display_name": "Kimi-K2.5",
-          "predicted_answer": "D",
-          "predicted_answer_text": "章瓦",
+          "model": "gemini-3.1-pro-preview",
+          "model_display_name": "Gemini-3.1-Pro-Preview",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
           "gold_answer": "A",
-          "gold_answer_text": "水萝卜",
-          "model_response": "D"
+          "gold_answer_text": "积药草",
+          "model_response": null
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "C",
+          "predicted_answer_text": "马衔",
+          "gold_answer": "A",
+          "gold_answer_text": "积药草",
+          "model_response": "根据提供的参考资料，中药“百蕊草”在中文中被称为“Bai Rui Cao”（百蕊草）^[1]^。此外，该植物在传统中医中**常被称为“植物抗生素”**（Botanical Antibiotics）^[2]^。\n\n在文献中，**“百蕊草”** 是 Thesium chinense Turcz. 的中文名，其别名并未直接列出选项中的内容。但通过排除法和文献信息分析：\n\n- 文献中提到其**别称是“植物抗生素”**，但此名称不在选项中。\n- 选项中的“积药草”、“丝瓜壳”、“马衔”、“马加勒”均未在参考文献中出现。\n\n然而，根据文献中明确指出的名称：\n\n> Thesium chinense Turcz. 是一种多年生半寄生植物，其**全草在中文中称为‘百蕊草’（Bai Rui Cao）**^[1]^。\n\n且在多个文献中，**“百蕊草”是其标准中文名**，而**“马衔”** 在部分传统文献中可能为其他植物的别名。\n\n但结合材料中唯一明确的别名信息是“**植物抗生素**”，而此名称不在选项中。\n\n进一步分析选项，**“马衔”** 在古代本草中有时为其他植物别名，但**在提供的材料中并未提及**。\n\n由于所有选项均未在材料中直接出现，但题目要求选择“百蕊草”的别名，而材料中唯一明确的名称是“**百蕊草**”本身。\n\n综上，**在给定选项中，没有一个被材料直接支持为“百蕊草”的别名**。\n\n但根据传统中药知识，“**马衔**”是“百蕊草”的别名之一。\n\n因此，最合适的答案是：\n\nC"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“半枝莲”的别名？",
+      "options": {
+        "A": "水韩信",
+        "B": "牛子",
+        "C": "剪刀草",
+        "D": "粉草"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "水韩信",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": "C",
+          "predicted_answer_text": "剪刀草",
+          "gold_answer": "A",
+          "gold_answer_text": "水韩信",
+          "model_response": "C"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "C",
+          "predicted_answer_text": "剪刀草",
+          "gold_answer": "A",
+          "gold_answer_text": "水韩信",
+          "model_response": "C"
         },
         {
           "model": "zhongjing",
           "model_display_name": "仲景",
-          "predicted_answer": "D",
-          "predicted_answer_text": "章瓦",
+          "predicted_answer": "C",
+          "predicted_answer_text": "剪刀草",
           "gold_answer": "A",
-          "gold_answer_text": "水萝卜",
-          "model_response": "D"
+          "gold_answer_text": "水韩信",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“款冬花”的别名？",
+      "options": {
+        "A": "婪尾春",
+        "B": "海带花",
+        "C": "瓦莲",
+        "D": "艾冬花"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "艾冬花",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "A",
+          "predicted_answer_text": "婪尾春",
+          "gold_answer": "D",
+          "gold_answer_text": "艾冬花",
+          "model_response": "A"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "A",
+          "predicted_answer_text": "婪尾春",
+          "gold_answer": "D",
+          "gold_answer_text": "艾冬花",
+          "model_response": "A"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "婪尾春",
+          "gold_answer": "D",
+          "gold_answer_text": "艾冬花",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“徐长卿”的别名？",
+      "options": {
+        "A": "蜈蚣草",
+        "B": "石菊花",
+        "C": "野木瓜",
+        "D": "泽泻"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "蜈蚣草",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "C",
+          "predicted_answer_text": "野木瓜",
+          "gold_answer": "A",
+          "gold_answer_text": "蜈蚣草",
+          "model_response": "C"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "C",
+          "predicted_answer_text": "野木瓜",
+          "gold_answer": "A",
+          "gold_answer_text": "蜈蚣草",
+          "model_response": "C"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "野木瓜",
+          "gold_answer": "A",
+          "gold_answer_text": "蜈蚣草",
+          "model_response": "C"
         }
       ]
     },
@@ -1848,6 +2138,221 @@
       ]
     },
     {
+      "id": 57,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“巴豆”的别名？",
+      "options": {
+        "A": "百丈光",
+        "B": "八百力",
+        "C": "泥冰子",
+        "D": "光明草"
+      },
+      "gold_answer": "B",
+      "gold_answer_text": "八百力",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "C",
+          "predicted_answer_text": "泥冰子",
+          "gold_answer": "B",
+          "gold_answer_text": "八百力",
+          "model_response": "C"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "C",
+          "predicted_answer_text": "泥冰子",
+          "gold_answer": "B",
+          "gold_answer_text": "八百力",
+          "model_response": "C"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "泥冰子",
+          "gold_answer": "B",
+          "gold_answer_text": "八百力",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“草血竭”的别名？",
+      "options": {
+        "A": "地蜂子",
+        "B": "没多僧",
+        "C": "花壳虫",
+        "D": "小胡麻"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "地蜂子",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "B",
+          "predicted_answer_text": "没多僧",
+          "gold_answer": "A",
+          "gold_answer_text": "地蜂子",
+          "model_response": "B"
+        },
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": "B",
+          "predicted_answer_text": "没多僧",
+          "gold_answer": "A",
+          "gold_answer_text": "地蜂子",
+          "model_response": "B"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "B",
+          "predicted_answer_text": "没多僧",
+          "gold_answer": "A",
+          "gold_answer_text": "地蜂子",
+          "model_response": "B"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“甘遂”的别名？",
+      "options": {
+        "A": "大还魂草",
+        "B": "大芸",
+        "C": "白泽",
+        "D": "野杉子"
+      },
+      "gold_answer": "C",
+      "gold_answer_text": "白泽",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "C",
+          "gold_answer_text": "白泽",
+          "model_response": ""
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "D",
+          "predicted_answer_text": "野杉子",
+          "gold_answer": "C",
+          "gold_answer_text": "白泽",
+          "model_response": "D"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "大还魂草",
+          "gold_answer": "C",
+          "gold_answer_text": "白泽",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“白鹤灵芝”的别名？",
+      "options": {
+        "A": "癣草",
+        "B": "破血丹",
+        "C": "续断",
+        "D": "小红升"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "癣草",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "qwen3.5-plus",
+          "model_display_name": "Qwen3.5-Plus",
+          "predicted_answer": "C",
+          "predicted_answer_text": "续断",
+          "gold_answer": "A",
+          "gold_answer_text": "癣草",
+          "model_response": "C"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "D",
+          "predicted_answer_text": "小红升",
+          "gold_answer": "A",
+          "gold_answer_text": "癣草",
+          "model_response": "D"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "续断",
+          "gold_answer": "A",
+          "gold_answer_text": "癣草",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“淫羊藿”的别名？",
+      "options": {
+        "A": "文希",
+        "B": "刚前",
+        "C": "枸杞子",
+        "D": "白毛串"
+      },
+      "gold_answer": "B",
+      "gold_answer_text": "刚前",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "D",
+          "predicted_answer_text": "白毛串",
+          "gold_answer": "B",
+          "gold_answer_text": "刚前",
+          "model_response": "D"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "D",
+          "predicted_answer_text": "白毛串",
+          "gold_answer": "B",
+          "gold_answer_text": "刚前",
+          "model_response": "D"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "A",
+          "predicted_answer_text": "文希",
+          "gold_answer": "B",
+          "gold_answer_text": "刚前",
+          "model_response": "A"
+        }
+      ]
+    },
+    {
       "id": 7,
       "type": "药材别名识别",
       "question": "下列哪一项是中药“樗鸡”的别名？",
@@ -1882,40 +2387,6 @@
       ]
     },
     {
-      "id": 9,
-      "type": "药材别名识别",
-      "question": "下列哪一项是中药“百蕊草”的别名？",
-      "options": {
-        "A": "积药草",
-        "B": "丝瓜壳",
-        "C": "马衔",
-        "D": "马加勒"
-      },
-      "gold_answer": "A",
-      "gold_answer_text": "积药草",
-      "error_count": 2,
-      "error_models": [
-        {
-          "model": "o3",
-          "model_display_name": "O3",
-          "predicted_answer": null,
-          "predicted_answer_text": "",
-          "gold_answer": "A",
-          "gold_answer_text": "积药草",
-          "model_response": ""
-        },
-        {
-          "model": "gemini-3.1-pro-preview",
-          "model_display_name": "Gemini-3.1-Pro-Preview",
-          "predicted_answer": null,
-          "predicted_answer_text": "",
-          "gold_answer": "A",
-          "gold_answer_text": "积药草",
-          "model_response": null
-        }
-      ]
-    },
-    {
       "id": 11,
       "type": "药材别名识别",
       "question": "下列哪一项是中药“炉甘石”的别名？",
@@ -1946,40 +2417,6 @@
           "gold_answer": "C",
           "gold_answer_text": "羊肝石",
           "model_response": "D"
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "type": "药材别名识别",
-      "question": "下列哪一项是中药“半枝莲”的别名？",
-      "options": {
-        "A": "水韩信",
-        "B": "牛子",
-        "C": "剪刀草",
-        "D": "粉草"
-      },
-      "gold_answer": "A",
-      "gold_answer_text": "水韩信",
-      "error_count": 2,
-      "error_models": [
-        {
-          "model": "o3",
-          "model_display_name": "O3",
-          "predicted_answer": "C",
-          "predicted_answer_text": "剪刀草",
-          "gold_answer": "A",
-          "gold_answer_text": "水韩信",
-          "model_response": "C"
-        },
-        {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
-          "predicted_answer": "C",
-          "predicted_answer_text": "剪刀草",
-          "gold_answer": "A",
-          "gold_answer_text": "水韩信",
-          "model_response": "C"
         }
       ]
     },
@@ -2052,103 +2489,35 @@
       ]
     },
     {
-      "id": 25,
+      "id": 49,
       "type": "药材别名识别",
-      "question": "下列哪一项是中药“款冬花”的别名？",
+      "question": "下列哪一项是中药“狗脊”的别名？",
       "options": {
-        "A": "婪尾春",
-        "B": "海带花",
-        "C": "瓦莲",
-        "D": "艾冬花"
-      },
-      "gold_answer": "D",
-      "gold_answer_text": "艾冬花",
-      "error_count": 2,
-      "error_models": [
-        {
-          "model": "gpt-5.4",
-          "model_display_name": "GPT-5.4",
-          "predicted_answer": "A",
-          "predicted_answer_text": "婪尾春",
-          "gold_answer": "D",
-          "gold_answer_text": "艾冬花",
-          "model_response": "A"
-        },
-        {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
-          "predicted_answer": "A",
-          "predicted_answer_text": "婪尾春",
-          "gold_answer": "D",
-          "gold_answer_text": "艾冬花",
-          "model_response": "A"
-        }
-      ]
-    },
-    {
-      "id": 42,
-      "type": "药材别名识别",
-      "question": "下列哪一项是中药“徐长卿”的别名？",
-      "options": {
-        "A": "蜈蚣草",
-        "B": "石菊花",
-        "C": "野木瓜",
-        "D": "泽泻"
+        "A": "狗青",
+        "B": "驴耳朵草",
+        "C": "棕皮",
+        "D": "冬豆子"
       },
       "gold_answer": "A",
-      "gold_answer_text": "蜈蚣草",
+      "gold_answer_text": "狗青",
       "error_count": 2,
       "error_models": [
         {
           "model": "gpt-5.4",
           "model_display_name": "GPT-5.4",
           "predicted_answer": "C",
-          "predicted_answer_text": "野木瓜",
+          "predicted_answer_text": "棕皮",
           "gold_answer": "A",
-          "gold_answer_text": "蜈蚣草",
+          "gold_answer_text": "狗青",
           "model_response": "C"
         },
         {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
           "predicted_answer": "C",
-          "predicted_answer_text": "野木瓜",
+          "predicted_answer_text": "棕皮",
           "gold_answer": "A",
-          "gold_answer_text": "蜈蚣草",
-          "model_response": "C"
-        }
-      ]
-    },
-    {
-      "id": 57,
-      "type": "药材别名识别",
-      "question": "下列哪一项是中药“巴豆”的别名？",
-      "options": {
-        "A": "百丈光",
-        "B": "八百力",
-        "C": "泥冰子",
-        "D": "光明草"
-      },
-      "gold_answer": "B",
-      "gold_answer_text": "八百力",
-      "error_count": 2,
-      "error_models": [
-        {
-          "model": "gpt-5.4",
-          "model_display_name": "GPT-5.4",
-          "predicted_answer": "C",
-          "predicted_answer_text": "泥冰子",
-          "gold_answer": "B",
-          "gold_answer_text": "八百力",
-          "model_response": "C"
-        },
-        {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
-          "predicted_answer": "C",
-          "predicted_answer_text": "泥冰子",
-          "gold_answer": "B",
-          "gold_answer_text": "八百力",
+          "gold_answer_text": "狗青",
           "model_response": "C"
         }
       ]
@@ -2222,104 +2591,36 @@
       ]
     },
     {
-      "id": 68,
+      "id": 71,
       "type": "药材别名识别",
-      "question": "下列哪一项是中药“草血竭”的别名？",
+      "question": "下列哪一项是中药“白屈菜”的别名？",
       "options": {
-        "A": "地蜂子",
-        "B": "没多僧",
-        "C": "花壳虫",
-        "D": "小胡麻"
+        "A": "只刺",
+        "B": "黄汤子",
+        "C": "蟾蜍眉酥",
+        "D": "地骨皮"
       },
-      "gold_answer": "A",
-      "gold_answer_text": "地蜂子",
+      "gold_answer": "B",
+      "gold_answer_text": "黄汤子",
       "error_count": 2,
       "error_models": [
         {
-          "model": "gpt-5.4",
-          "model_display_name": "GPT-5.4",
-          "predicted_answer": "B",
-          "predicted_answer_text": "没多僧",
-          "gold_answer": "A",
-          "gold_answer_text": "地蜂子",
-          "model_response": "B"
-        },
-        {
-          "model": "o3",
-          "model_display_name": "O3",
-          "predicted_answer": "B",
-          "predicted_answer_text": "没多僧",
-          "gold_answer": "A",
-          "gold_answer_text": "地蜂子",
-          "model_response": "B"
-        }
-      ]
-    },
-    {
-      "id": 70,
-      "type": "药材别名识别",
-      "question": "下列哪一项是中药“甘遂”的别名？",
-      "options": {
-        "A": "大还魂草",
-        "B": "大芸",
-        "C": "白泽",
-        "D": "野杉子"
-      },
-      "gold_answer": "C",
-      "gold_answer_text": "白泽",
-      "error_count": 2,
-      "error_models": [
-        {
-          "model": "o3",
-          "model_display_name": "O3",
-          "predicted_answer": null,
-          "predicted_answer_text": "",
-          "gold_answer": "C",
-          "gold_answer_text": "白泽",
-          "model_response": ""
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "D",
+          "predicted_answer_text": "地骨皮",
+          "gold_answer": "B",
+          "gold_answer_text": "黄汤子",
+          "model_response": "D"
         },
         {
           "model": "zhongjing",
           "model_display_name": "仲景",
-          "predicted_answer": "A",
-          "predicted_answer_text": "大还魂草",
-          "gold_answer": "C",
-          "gold_answer_text": "白泽",
-          "model_response": "A"
-        }
-      ]
-    },
-    {
-      "id": 72,
-      "type": "药材别名识别",
-      "question": "下列哪一项是中药“白鹤灵芝”的别名？",
-      "options": {
-        "A": "癣草",
-        "B": "破血丹",
-        "C": "续断",
-        "D": "小红升"
-      },
-      "gold_answer": "A",
-      "gold_answer_text": "癣草",
-      "error_count": 2,
-      "error_models": [
-        {
-          "model": "qwen3.5-plus",
-          "model_display_name": "Qwen3.5-Plus",
-          "predicted_answer": "C",
-          "predicted_answer_text": "续断",
-          "gold_answer": "A",
-          "gold_answer_text": "癣草",
-          "model_response": "C"
-        },
-        {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
-          "predicted_answer": "C",
-          "predicted_answer_text": "续断",
-          "gold_answer": "A",
-          "gold_answer_text": "癣草",
-          "model_response": "C"
+          "predicted_answer": "D",
+          "predicted_answer_text": "地骨皮",
+          "gold_answer": "B",
+          "gold_answer_text": "黄汤子",
+          "model_response": "D"
         }
       ]
     },
@@ -2392,36 +2693,36 @@
       ]
     },
     {
-      "id": 81,
+      "id": 82,
       "type": "药材别名识别",
-      "question": "下列哪一项是中药“淫羊藿”的别名？",
+      "question": "下列哪一项是中药“白蔹”的别名？",
       "options": {
-        "A": "文希",
-        "B": "刚前",
-        "C": "枸杞子",
-        "D": "白毛串"
+        "A": "野红薯",
+        "B": "破岩珠",
+        "C": "矮樟",
+        "D": "补骨鸱"
       },
-      "gold_answer": "B",
-      "gold_answer_text": "刚前",
+      "gold_answer": "A",
+      "gold_answer_text": "野红薯",
       "error_count": 2,
       "error_models": [
         {
-          "model": "gpt-5.4",
-          "model_display_name": "GPT-5.4",
-          "predicted_answer": "D",
-          "predicted_answer_text": "白毛串",
-          "gold_answer": "B",
-          "gold_answer_text": "刚前",
-          "model_response": "D"
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": "B",
+          "predicted_answer_text": "破岩珠",
+          "gold_answer": "A",
+          "gold_answer_text": "野红薯",
+          "model_response": "B"
         },
         {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
-          "predicted_answer": "A",
-          "predicted_answer_text": "文希",
-          "gold_answer": "B",
-          "gold_answer_text": "刚前",
-          "model_response": "A"
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "B",
+          "predicted_answer_text": "破岩珠",
+          "gold_answer": "A",
+          "gold_answer_text": "野红薯",
+          "model_response": "B"
         }
       ]
     },
@@ -2569,6 +2870,31 @@
       ]
     },
     {
+      "id": 18,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“杠板归”的别名？",
+      "options": {
+        "A": "五倍子",
+        "B": "退血草",
+        "C": "双肾子",
+        "D": "苏方"
+      },
+      "gold_answer": "B",
+      "gold_answer_text": "退血草",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "C",
+          "predicted_answer_text": "双肾子",
+          "gold_answer": "B",
+          "gold_answer_text": "退血草",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
       "id": 20,
       "type": "药材别名识别",
       "question": "下列哪一项是中药“伏龙肝”的别名？",
@@ -2615,6 +2941,31 @@
           "gold_answer": "B",
           "gold_answer_text": "千叶蔓陀罗花",
           "model_response": null
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "type": "药材别名识别",
+      "question": "下列哪一项是中药“天南星”的别名？",
+      "options": {
+        "A": "山棒子",
+        "B": "玉蜀黍蕊",
+        "C": "牛虱子",
+        "D": "蜞"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "山棒子",
+      "error_count": 1,
+      "error_models": [
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "C",
+          "predicted_answer_text": "牛虱子",
+          "gold_answer": "A",
+          "gold_answer_text": "山棒子",
+          "model_response": "根据提供的参考资料，无法直接确认“天南星”的别名是选项中的哪一个。材料中提及天南星的植物来源为**天南星科植物天南星、异叶天南星、东北天南星等块茎**，性温，味苦、辛，归肺、肝、脾经，具有**化痰、散结、燥湿、消肿**等功效 ^[3]^。\n\n此外，材料指出**天南星具有明显毒性**，古代文献和现代研究均有记载 ^[2]^。经过**明矾和姜汁或胆汁炮制后，其神经毒性降低，且神经药理作用增强** ^[2]^。\n\n然而，所有参考资料中均未提及“天南星”的别名为“山棒子”“玉蜀黍蕊”“牛虱子”或“蜞”。这些选项均未在文献中出现。\n\n在传统中医药中，“天南星”的常见别名包括“南星”“虎掌南星”等。值得注意的是，**虎掌南星又称为掌叶半夏**，常冒充正品半夏 ^[1]^。\n\n结合选项与常规中药别名知识，“**牛虱子**”在部分地区为天南星的别名之一。\n\n因此，最合适的答案是：\n\nC\n\n我建议您进一步查阅天南星在炮制前后毒性成分的变化及其在临床应用中的安全性评估相关临床指南或系统综述。您需要我帮您检索相关文献吗？"
         }
       ]
     },
@@ -2769,31 +3120,6 @@
       ]
     },
     {
-      "id": 49,
-      "type": "药材别名识别",
-      "question": "下列哪一项是中药“狗脊”的别名？",
-      "options": {
-        "A": "狗青",
-        "B": "驴耳朵草",
-        "C": "棕皮",
-        "D": "冬豆子"
-      },
-      "gold_answer": "A",
-      "gold_answer_text": "狗青",
-      "error_count": 1,
-      "error_models": [
-        {
-          "model": "gpt-5.4",
-          "model_display_name": "GPT-5.4",
-          "predicted_answer": "C",
-          "predicted_answer_text": "棕皮",
-          "gold_answer": "A",
-          "gold_answer_text": "狗青",
-          "model_response": "C"
-        }
-      ]
-    },
-    {
       "id": 55,
       "type": "药材别名识别",
       "question": "下列哪一项是中药“薏苡仁”的别名？",
@@ -2894,31 +3220,6 @@
       ]
     },
     {
-      "id": 71,
-      "type": "药材别名识别",
-      "question": "下列哪一项是中药“白屈菜”的别名？",
-      "options": {
-        "A": "只刺",
-        "B": "黄汤子",
-        "C": "蟾蜍眉酥",
-        "D": "地骨皮"
-      },
-      "gold_answer": "B",
-      "gold_answer_text": "黄汤子",
-      "error_count": 1,
-      "error_models": [
-        {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
-          "predicted_answer": "D",
-          "predicted_answer_text": "地骨皮",
-          "gold_answer": "B",
-          "gold_answer_text": "黄汤子",
-          "model_response": "D"
-        }
-      ]
-    },
-    {
       "id": 75,
       "type": "药材别名识别",
       "question": "下列哪一项是中药“萆薢”的别名？",
@@ -2990,31 +3291,6 @@
           "gold_answer": "C",
           "gold_answer_text": "三棱草根",
           "model_response": "A"
-        }
-      ]
-    },
-    {
-      "id": 82,
-      "type": "药材别名识别",
-      "question": "下列哪一项是中药“白蔹”的别名？",
-      "options": {
-        "A": "野红薯",
-        "B": "破岩珠",
-        "C": "矮樟",
-        "D": "补骨鸱"
-      },
-      "gold_answer": "A",
-      "gold_answer_text": "野红薯",
-      "error_count": 1,
-      "error_models": [
-        {
-          "model": "o3",
-          "model_display_name": "O3",
-          "predicted_answer": "B",
-          "predicted_answer_text": "破岩珠",
-          "gold_answer": "A",
-          "gold_answer_text": "野红薯",
-          "model_response": "B"
         }
       ]
     },
@@ -4241,6 +4517,228 @@
         "gold_answer_text": "黄根",
         "predicted_answer": "C",
         "predicted_answer_text": "串心草",
+        "model_response": "C"
+      }
+    ],
+    "baichuan-m3-plus": [
+      {
+        "id": 2,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“杠板归”的别名？",
+        "gold_answer": "B",
+        "gold_answer_text": "利酸浆",
+        "predicted_answer": "A",
+        "predicted_answer_text": "斑杖",
+        "model_response": "A"
+      },
+      {
+        "id": 5,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“北豆根”的别名？",
+        "gold_answer": "B",
+        "gold_answer_text": "黄条香",
+        "predicted_answer": "C",
+        "predicted_answer_text": "支连",
+        "model_response": "C"
+      },
+      {
+        "id": 6,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“珠子参”的别名？",
+        "gold_answer": "B",
+        "gold_answer_text": "白地瓜",
+        "predicted_answer": "A",
+        "predicted_answer_text": "附支",
+        "model_response": "A"
+      },
+      {
+        "id": 9,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“百蕊草”的别名？",
+        "gold_answer": "A",
+        "gold_answer_text": "积药草",
+        "predicted_answer": "C",
+        "predicted_answer_text": "马衔",
+        "model_response": "根据提供的参考资料，中药“百蕊草”在中文中被称为“Bai Rui Cao”（百蕊草）^[1]^。此外，该植物在传统中医中**常被称为“植物抗生素”**（Botanical Antibiotics）^[2]^。\n\n在文献中，**“百蕊草”** 是 Thesium chinense Turcz. 的中文名，其别名并未直接列出选项中的内容。但通过排除法和文献信息分析：\n\n- 文献中提到其**别称是“植物抗生素”**，但此名称不在选项中。\n- 选项中的“积药草”、“丝瓜壳”、“马衔”、“马加勒”均未在参考文献中出现。\n\n然而，根据文献中明确指出的名称：\n\n> Thesium chinense Turcz. 是一种多年生半寄生植物，其**全草在中文中称为‘百蕊草’（Bai Rui Cao）**^[1]^。\n\n且在多个文献中，**“百蕊草”是其标准中文名**，而**“马衔”** 在部分传统文献中可能为其他植物的别名。\n\n但结合材料中唯一明确的别名信息是“**植物抗生素**”，而此名称不在选项中。\n\n进一步分析选项，**“马衔”** 在古代本草中有时为其他植物别名，但**在提供的材料中并未提及**。\n\n由于所有选项均未在材料中直接出现，但题目要求选择“百蕊草”的别名，而材料中唯一明确的名称是“**百蕊草**”本身。\n\n综上，**在给定选项中，没有一个被材料直接支持为“百蕊草”的别名**。\n\n但根据传统中药知识，“**马衔**”是“百蕊草”的别名之一。\n\n因此，最合适的答案是：\n\nC"
+      },
+      {
+        "id": 10,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“水红花子”的别名？",
+        "gold_answer": "A",
+        "gold_answer_text": "水泻花",
+        "predicted_answer": "C",
+        "predicted_answer_text": "刚子",
+        "model_response": "C"
+      },
+      {
+        "id": 13,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“半枝莲”的别名？",
+        "gold_answer": "A",
+        "gold_answer_text": "水韩信",
+        "predicted_answer": "C",
+        "predicted_answer_text": "剪刀草",
+        "model_response": "C"
+      },
+      {
+        "id": 18,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“杠板归”的别名？",
+        "gold_answer": "B",
+        "gold_answer_text": "退血草",
+        "predicted_answer": "C",
+        "predicted_answer_text": "双肾子",
+        "model_response": "C"
+      },
+      {
+        "id": 21,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“商陆”的别名？",
+        "gold_answer": "A",
+        "gold_answer_text": "水萝卜",
+        "predicted_answer": "D",
+        "predicted_answer_text": "章瓦",
+        "model_response": "根据提供的参考资料，未直接提及“商陆”的别名。但结合通用中医药知识，商陆的别名包括“章柳”“白昌”“章瓦”等。\n\n在选项中，“章瓦”是商陆的别名之一。\n\nD\n\n我建议您进一步查阅商陆的毒性成分、临床安全用量及中毒预防措施的相关研究或药典标准。您需要我帮您检索这方面的权威资料吗？"
+      },
+      {
+        "id": 25,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“款冬花”的别名？",
+        "gold_answer": "D",
+        "gold_answer_text": "艾冬花",
+        "predicted_answer": "A",
+        "predicted_answer_text": "婪尾春",
+        "model_response": "A"
+      },
+      {
+        "id": 27,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“天南星”的别名？",
+        "gold_answer": "A",
+        "gold_answer_text": "山棒子",
+        "predicted_answer": "C",
+        "predicted_answer_text": "牛虱子",
+        "model_response": "根据提供的参考资料，无法直接确认“天南星”的别名是选项中的哪一个。材料中提及天南星的植物来源为**天南星科植物天南星、异叶天南星、东北天南星等块茎**，性温，味苦、辛，归肺、肝、脾经，具有**化痰、散结、燥湿、消肿**等功效 ^[3]^。\n\n此外，材料指出**天南星具有明显毒性**，古代文献和现代研究均有记载 ^[2]^。经过**明矾和姜汁或胆汁炮制后，其神经毒性降低，且神经药理作用增强** ^[2]^。\n\n然而，所有参考资料中均未提及“天南星”的别名为“山棒子”“玉蜀黍蕊”“牛虱子”或“蜞”。这些选项均未在文献中出现。\n\n在传统中医药中，“天南星”的常见别名包括“南星”“虎掌南星”等。值得注意的是，**虎掌南星又称为掌叶半夏**，常冒充正品半夏 ^[1]^。\n\n结合选项与常规中药别名知识，“**牛虱子**”在部分地区为天南星的别名之一。\n\n因此，最合适的答案是：\n\nC\n\n我建议您进一步查阅天南星在炮制前后毒性成分的变化及其在临床应用中的安全性评估相关临床指南或系统综述。您需要我帮您检索相关文献吗？"
+      },
+      {
+        "id": 30,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“豨莶草”的别名？",
+        "gold_answer": "D",
+        "gold_answer_text": "山甘草",
+        "predicted_answer": "A",
+        "predicted_answer_text": "猪屎草",
+        "model_response": "A"
+      },
+      {
+        "id": 42,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“徐长卿”的别名？",
+        "gold_answer": "A",
+        "gold_answer_text": "蜈蚣草",
+        "predicted_answer": "C",
+        "predicted_answer_text": "野木瓜",
+        "model_response": "C"
+      },
+      {
+        "id": 49,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“狗脊”的别名？",
+        "gold_answer": "A",
+        "gold_answer_text": "狗青",
+        "predicted_answer": "C",
+        "predicted_answer_text": "棕皮",
+        "model_response": "C"
+      },
+      {
+        "id": 57,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“巴豆”的别名？",
+        "gold_answer": "B",
+        "gold_answer_text": "八百力",
+        "predicted_answer": "C",
+        "predicted_answer_text": "泥冰子",
+        "model_response": "C"
+      },
+      {
+        "id": 64,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“徐长卿”的别名？",
+        "gold_answer": "A",
+        "gold_answer_text": "药王",
+        "predicted_answer": "C",
+        "predicted_answer_text": "因地辛",
+        "model_response": "C"
+      },
+      {
+        "id": 68,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“草血竭”的别名？",
+        "gold_answer": "A",
+        "gold_answer_text": "地蜂子",
+        "predicted_answer": "B",
+        "predicted_answer_text": "没多僧",
+        "model_response": "B"
+      },
+      {
+        "id": 70,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“甘遂”的别名？",
+        "gold_answer": "C",
+        "gold_answer_text": "白泽",
+        "predicted_answer": "D",
+        "predicted_answer_text": "野杉子",
+        "model_response": "D"
+      },
+      {
+        "id": 71,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“白屈菜”的别名？",
+        "gold_answer": "B",
+        "gold_answer_text": "黄汤子",
+        "predicted_answer": "D",
+        "predicted_answer_text": "地骨皮",
+        "model_response": "D"
+      },
+      {
+        "id": 72,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“白鹤灵芝”的别名？",
+        "gold_answer": "A",
+        "gold_answer_text": "癣草",
+        "predicted_answer": "D",
+        "predicted_answer_text": "小红升",
+        "model_response": "D"
+      },
+      {
+        "id": 81,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“淫羊藿”的别名？",
+        "gold_answer": "B",
+        "gold_answer_text": "刚前",
+        "predicted_answer": "D",
+        "predicted_answer_text": "白毛串",
+        "model_response": "D"
+      },
+      {
+        "id": 82,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“白蔹”的别名？",
+        "gold_answer": "A",
+        "gold_answer_text": "野红薯",
+        "predicted_answer": "B",
+        "predicted_answer_text": "破岩珠",
+        "model_response": "B"
+      },
+      {
+        "id": 96,
+        "type": "药材别名识别",
+        "question": "下列哪一项是中药“射干”的别名？",
+        "gold_answer": "D",
+        "gold_answer_text": "黄知母",
+        "predicted_answer": "C",
+        "predicted_answer_text": "地栗",
         "model_response": "C"
       }
     ],

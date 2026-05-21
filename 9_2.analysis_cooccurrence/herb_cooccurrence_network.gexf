@@ -1,0 +1,3232 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-05-18">
+    <creator>NetworkX 2.6.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="frequency" type="long" />
+      <attribute id="1" title="formulas" type="string" />
+    </attributes>
+    <nodes>
+      <node id="桂枝" label="桂枝">
+        <attvalues>
+          <attvalue for="0" value="55" />
+          <attvalue for="1" value="麻黄汤;葛根汤;葛根加半夏汤;麻黄加术汤;桂枝甘草汤;桂枝新加汤;栝楼桂枝汤;桂枝麻黄各半汤;桂枝二麻黄一汤;大青龙汤;桂枝汤;桂枝加葛根汤;桂枝加厚朴杏子汤;桂枝二越婢一汤;桂枝加桂汤;桂枝加芍药汤;桂枝加大黄汤;小青龙汤;柴胡桂枝汤;再造散;续命汤;泽漆汤;厚朴七物汤;黄连汤;白虎加桂枝汤;防己地黄汤;柴胡桂枝干姜汤;桂枝人参汤;黄芪建中汤;小建中汤;当归四逆汤;当归四逆加吴茱萸生姜汤;黄芪桂枝五物汤;乌头桂枝汤;炙甘草汤;肾气丸;柴胡加龙骨牡蛎汤;桂枝甘草龙骨牡蛎汤;桂枝去芍药加蜀漆牡蛎龙骨救逆汤;风引汤;枳实薤白桂枝汤;桂枝生姜枳实汤;桃核承气汤;温经汤;鳖甲煎丸;桂枝茯苓丸;五苓散;防己茯苓汤;茯苓甘草汤;苓桂术甘汤;桂枝芍药知母汤;桂枝附子汤;甘草附子汤;鳖甲煎丸;乌梅丸" />
+        </attvalues>
+      </node>
+      <node id="甘草" label="甘草">
+        <attvalues>
+          <attvalue for="0" value="202" />
+          <attvalue for="1" value="麻黄汤;葛根汤;葛根加半夏汤;麻黄加术汤;桂枝甘草汤;桂枝加附子汤;桂枝新加汤;栝楼桂枝汤;桂枝去芍药汤;桂枝去芍药加附子汤;桂枝麻黄各半汤;桂枝二麻黄一汤;麻黄杏仁薏苡甘草汤;华盖散;三拗汤;大青龙汤;桂枝汤;桂枝加葛根汤;桂枝加厚朴杏子汤;桂枝二越婢一汤;桂枝加桂汤;桂枝加大黄汤;九味羌活汤;大羌活汤;金沸草散;小青龙汤;柴胡桂枝汤;麻杏甘石汤;柴葛解肌汤;升麻葛根汤;败毒散;仓廪散;荆防败毒散;参苏饮;再造散;麻黄附子甘草汤;千金葳蕤汤;小续命汤;续命汤;调胃承气汤;清肠饮;温脾汤;越婢汤;越婢加半夏汤;泽漆汤;黄龙汤;小柴胡汤;厚朴七物汤;达原饮;清脾饮;四逆散;柴胡疏肝散;芍药甘草汤;加味逍遥散;逍遥散;半夏泻心汤;生姜泻心汤;甘草泻心汤;黄连汤;白虎汤;白虎加人参汤;白虎加桂枝汤;白虎加苍术汤;竹叶石膏汤;栀子甘草豉汤;防己地黄汤;凉膈散;普济消毒饮;仙方活命饮;自然铜散;导赤散;增味导赤散;清心莲子饮;桔梗汤;芍药汤;黄芩汤;黄芩加半夏生姜汤;葛根黄芩黄连汤;泻黄散;白头翁加甘草阿胶汤;防风通圣散;泻白散;柴胡桂枝干姜汤;五积散;清骨散;六一散;益元散;碧玉散;桂苓甘露散;理中丸;桂枝人参汤;黄芪建中汤;当归建中汤;小建中汤;理中化痰丸;四逆汤;通脉四逆汤;四逆加人参汤;回阳救急汤;茯苓四逆汤;当归四逆汤;当归四逆加吴茱萸生姜汤;阳和汤;芍药甘草附子汤;乌头汤;附子粳米汤;大乌头煎;乌头桂枝汤;四君子汤;香砂六君子汤;异功散;补中益气汤;参苓白术散;保元汤;七味白术散;升阳益胃汤;人参蛤蚧散;贞元饮;胶艾汤;归脾汤;人参养荣汤;增损泽兰丸;增损四物汤;八珍汤;增损柴胡汤;十全大补汤;炙甘草汤;泰山磐石散;石斛夜光丸;真人养脏汤;封髓丹;朱砂安神丸;桂枝甘草龙骨牡蛎汤;桂枝去芍药加蜀漆牡蛎龙骨救逆汤;风引汤;酸枣仁汤;甘麦大枣汤;厚朴温中汤;定喘汤;枣肉平胃散;苏子降气汤;定喘汤;旋覆代赭汤;橘皮竹茹汤;桃核承气汤;大黄蛰虫丸;泽兰散;身痛逐瘀汤;复原活血汤;温经汤;小蓟饮子;黄土汤;胶艾汤;川芎茶调散;消风散;拨云退翳丸;羚角钩藤汤;清燥救肺汤;麦门冬汤;百合固金汤;补肺阿胶汤;不换金正气散;藿香正气散;六和汤;厚姜半甘参汤;栀子柏皮汤;茵陈四逆汤;五淋散;拈痛汤;除湿胃苓汤;防己黄芪汤;防己茯苓汤;茯苓甘草汤;苓桂术甘汤;甘草干姜茯苓白术汤;羌活胜湿汤;增补省风汤;蠲痹汤;独活寄生汤;桂枝芍药知母汤;桂枝附子汤;白术附子汤;甘草附子汤;二陈汤;导痰汤;涤痰汤;温胆汤;十味温胆汤;苍附导痰丸;启宫丸;散聚汤;苓甘五味姜辛汤;健脾丸;资生丸;枳实消痞丸;仙方活命饮;神效托里散;托里透脓汤;阳和汤;清肠饮;薏苡仁汤;生肌玉红膏" />
+        </attvalues>
+      </node>
+      <node id="苦杏仁" label="苦杏仁">
+        <attvalues>
+          <attvalue for="0" value="30" />
+          <attvalue for="1" value="麻黄汤;麻黄加术汤;桂枝麻黄各半汤;桂枝二麻黄一汤;麻黄杏仁薏苡甘草汤;华盖散;三拗汤;大青龙汤;桂枝加厚朴杏子汤;麻杏甘石汤;千金葳蕤汤;小续命汤;续命汤;大陷胸丸;五仁丸;麻子仁丸;五仁润肠丸;人参蛤蚧散;石斛夜光丸;定喘汤;定喘汤;厚朴麻黄汤;大黄蛰虫丸;蚱蝉散;清燥救肺汤;补肺阿胶汤;六和汤;散聚汤;清气化痰丸;清肺汤" />
+        </attvalues>
+      </node>
+      <node id="麻黄" label="麻黄">
+        <attvalues>
+          <attvalue for="0" value="34" />
+          <attvalue for="1" value="麻黄汤;葛根汤;葛根加半夏汤;麻黄加术汤;桂枝麻黄各半汤;桂枝二麻黄一汤;麻黄杏仁薏苡甘草汤;华盖散;三拗汤;大青龙汤;桂枝二越婢一汤;金沸草散;小青龙汤;射干麻黄汤;麻杏甘石汤;麻黄细辛附子汤;麻黄附子甘草汤;千金葳蕤汤;小续命汤;续命汤;越婢汤;越婢加半夏汤;防风通圣散;五积散;石膏汤;阳和汤;乌头汤;定喘汤;定喘汤;厚朴麻黄汤;桂枝芍药知母汤;铁骨丹;阳和汤;薏苡仁汤" />
+        </attvalues>
+      </node>
+      <node id="大枣" label="大枣">
+        <attvalues>
+          <attvalue for="0" value="59" />
+          <attvalue for="1" value="葛根汤;葛根加半夏汤;桂枝加附子汤;桂枝新加汤;栝楼桂枝汤;桂枝去芍药汤;桂枝去芍药加附子汤;桂枝麻黄各半汤;桂枝二麻黄一汤;大青龙汤;桂枝汤;桂枝加葛根汤;桂枝加厚朴杏子汤;桂枝二越婢一汤;桂枝加桂汤;桂枝加芍药汤;桂枝加大黄汤;金沸草散;射干麻黄汤;柴胡桂枝汤;再造散;十枣汤;越婢汤;越婢加半夏汤;黄龙汤;小柴胡汤;厚朴七物汤;大柴胡汤;半夏泻心汤;生姜泻心汤;甘草泻心汤;黄连汤;黄芩汤;黄芩加半夏生姜汤;葶苈大枣泻肺汤;清暑益气汤;黄芪建中汤;吴茱萸汤;小建中汤;当归四逆汤;当归四逆加吴茱萸生姜汤;黄芪桂枝五物汤;附子粳米汤;乌头桂枝汤;增损肾沥汤;升阳益胃汤;炙甘草汤;地黄饮子;柴胡加龙骨牡蛎汤;桂枝去芍药加蜀漆牡蛎龙骨救逆汤;甘麦大枣汤;枣肉平胃散;旋覆代赭汤;橘皮竹茹汤;地黄饮子;麦门冬汤;藿香正气散;桂枝附子汤;白术附子汤" />
+        </attvalues>
+      </node>
+      <node id="生姜" label="生姜">
+        <attvalues>
+          <attvalue for="0" value="69" />
+          <attvalue for="1" value="葛根汤;葛根加半夏汤;桂枝加附子汤;桂枝新加汤;栝楼桂枝汤;桂枝去芍药汤;桂枝去芍药加附子汤;桂枝麻黄各半汤;桂枝二麻黄一汤;大青龙汤;桂枝汤;桂枝加葛根汤;桂枝加厚朴杏子汤;桂枝二越婢一汤;桂枝加桂汤;桂枝加芍药汤;桂枝加大黄汤;大羌活汤;金沸草散;射干麻黄汤;柴胡桂枝汤;败毒散;葱白七味饮;小续命汤;越婢汤;越婢加半夏汤;泽漆汤;小柴胡汤;厚朴七物汤;大柴胡汤;清脾饮;生姜泻心汤;栀子生姜豉汤;黄芩加半夏生姜汤;黄芪建中汤;吴茱萸汤;小建中汤;当归生姜羊肉汤;当归四逆加吴茱萸生姜汤;黄芪桂枝五物汤;乌头桂枝汤;增损肾沥汤;香砂六君子汤;升阳益胃汤;炙甘草汤;地黄饮子;柴胡加龙骨牡蛎汤;桂枝去芍药加蜀漆牡蛎龙骨救逆汤;半夏厚朴汤;枣肉平胃散;苏子降气汤;旋覆代赭汤;橘皮竹茹汤;丁香柿蒂汤;桂枝生姜枳实汤;温经汤;地黄饮子;藿香正气散;厚姜半甘参汤;五皮散;五皮饮;茯苓甘草汤;真武汤;鸡鸣散;桂枝芍药知母汤;桂枝附子汤;白术附子汤;清气化痰丸;柴胡陷胸汤" />
+        </attvalues>
+      </node>
+      <node id="芍药" label="芍药">
+        <attvalues>
+          <attvalue for="0" value="49" />
+          <attvalue for="1" value="葛根汤;葛根加半夏汤;桂枝新加汤;栝楼桂枝汤;桂枝麻黄各半汤;桂枝二麻黄一汤;桂枝汤;桂枝加葛根汤;桂枝加厚朴杏子汤;桂枝二越婢一汤;桂枝加桂汤;桂枝加芍药汤;桂枝加大黄汤;柴葛解肌汤;升麻葛根汤;麻子仁丸;大柴胡汤;达原饮;四逆散;柴胡疏肝散;枳实芍药散;芍药甘草汤;当归芍药散;芍药汤;黄芩汤;黄芩加半夏生姜汤;五积散;黄芪建中汤;小建中汤;当归四逆加吴茱萸生姜汤;芍药甘草附子汤;乌头汤;乌头桂枝汤;增损肾沥汤;胶艾汤;黄连阿胶汤;固经丸;大黄蛰虫丸;温经汤;鳖甲煎丸;桂枝茯苓丸;胶艾汤;百合固金汤;五淋散;真武汤;桂枝芍药知母汤;鳖甲煎丸;连翘败毒散;薏苡仁汤" />
+        </attvalues>
+      </node>
+      <node id="葛根" label="葛根">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="葛根汤;葛根加半夏汤;桂枝加葛根汤;柴葛解肌汤;升麻葛根汤;葛根黄芩黄连汤;清暑益气汤;拈痛汤" />
+        </attvalues>
+      </node>
+      <node id="半夏" label="半夏">
+        <attvalues>
+          <attvalue for="0" value="60" />
+          <attvalue for="1" value="葛根加半夏汤;金沸草散;小青龙汤;射干麻黄汤;柴胡桂枝汤;参苏饮;越婢加半夏汤;泽漆汤;小柴胡汤;大柴胡汤;清脾饮;半夏泻心汤;生姜泻心汤;甘草泻心汤;黄连汤;竹叶石膏汤;黄芩加半夏生姜汤;五积散;理中化痰丸;回阳救急汤;附子粳米汤;赤丸;香砂六君子汤;升阳益胃汤;增损柴胡汤;柴胡加龙骨牡蛎汤;瓜蒌薤白半夏汤;半夏厚朴汤;定喘汤;苏子降气汤;定喘汤;大半夏汤;干姜人参半夏丸;旋覆代赭汤;厚朴麻黄汤;温经汤;鳖甲煎丸;青州白丸子;麦门冬汤;不换金正气散;六和汤;厚姜半甘参汤;增补省风汤;二陈汤;导痰汤;涤痰汤;温胆汤;十味温胆汤;茯苓丸;苍附导痰丸;皂角化痰丸;散聚汤;三棱煎;苦酒汤;小陷胸汤;柴胡陷胸汤;半夏白术天麻汤;保和丸;鳖甲煎丸;橘半枳术丸" />
+        </attvalues>
+      </node>
+      <node id="白术" label="白术">
+        <attvalues>
+          <attvalue for="0" value="55" />
+          <attvalue for="1" value="麻黄加术汤;桂枝加附子汤;清脾饮;加味逍遥散;逍遥散;当归芍药散;痛泻要方;七白散;泽泻汤;防风通圣散;桂苓甘露散;清暑益气汤;理中丸;桂枝人参汤;理中化痰丸;回阳救急汤;四君子汤;香砂六君子汤;异功散;补中益气汤;参苓白术散;七味白术散;升阳益胃汤;玉屏风散;归脾汤;人参养荣汤;增损泽兰丸;八珍汤;十全大补汤;泰山磐石散;真人养脏汤;苏合香丸;黄土汤;木瓜丸;藿香正气散;拈痛汤;除湿胃苓汤;五苓散;防己黄芪汤;苓桂术甘汤;甘草干姜茯苓白术汤;真武汤;桂枝芍药知母汤;白术附子汤;甘草附子汤;启宫丸;半夏白术天麻汤;健脾丸;枳术丸;资生丸;曲蘗枳术丸;橘半枳术丸;枳实消痞丸;葛花解酒汤;托里透脓汤" />
+        </attvalues>
+      </node>
+      <node id="人参" label="人参">
+        <attvalues>
+          <attvalue for="0" value="82" />
+          <attvalue for="1" value="桂枝新加汤;柴胡桂枝汤;仓廪散;参苏饮;再造散;小续命汤;续命汤;温脾汤;黄龙汤;小柴胡汤;半夏泻心汤;生姜泻心汤;甘草泻心汤;黄连汤;白虎汤;白虎加人参汤;竹叶石膏汤;清心莲子饮;清暑益气汤;理中丸;桂枝人参汤;吴茱萸汤;大建中汤;理中化痰丸;四逆加人参汤;回阳救急汤;参附汤;茯苓四逆汤;四君子汤;增损肾沥汤;香砂六君子汤;异功散;补中益气汤;参苓白术散;保元汤;七味白术散;升阳益胃汤;生脉散;人参胡桃汤;人参蛤蚧散;归脾汤;人参养荣汤;增损泽兰丸;增损四物汤;八珍汤;增损柴胡汤;十全大补汤;炙甘草汤;石斛夜光丸;龟鹿二仙胶;真人养脏汤;桑螵蛸散;柴胡加龙骨牡蛎汤;天王补心丹;定志丸;延胡索汤;四磨汤;大半夏汤;旋覆代赭汤;橘皮竹茹汤;丁香柿蒂汤;温经汤;鳖甲煎丸;蚱蝉散;清燥救肺汤;麦门冬汤;琼玉膏;六和汤;厚姜半甘参汤;拈痛汤;独活寄生汤;涤痰汤;十味温胆汤;皂角化痰丸;半夏白术天麻汤;鳖甲煎丸;健脾丸;资生丸;枳实消痞丸;葛花解酒汤;乌梅丸;托里透脓汤" />
+        </attvalues>
+      </node>
+      <node id="天花粉" label="天花粉">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="栝楼桂枝汤;仙方活命饮;柴胡桂枝干姜汤;复原活血汤;拨云退翳丸;栝楼牡蛎散;仙方活命饮" />
+        </attvalues>
+      </node>
+      <node id="石膏" label="石膏">
+        <attvalues>
+          <attvalue for="0" value="22" />
+          <attvalue for="1" value="大青龙汤;桂枝二越婢一汤;麻杏甘石汤;千金葳蕤汤;续命汤;越婢汤;越婢加半夏汤;白虎汤;白虎加人参汤;白虎加桂枝汤;白虎加苍术汤;竹叶石膏汤;玉女煎;泻黄散;防风通圣散;石膏汤;桂苓甘露散;风引汤;厚朴麻黄汤;泽兰散;消风散;清燥救肺汤" />
+        </attvalues>
+      </node>
+      <node id="厚朴" label="厚朴">
+        <attvalues>
+          <attvalue for="0" value="32" />
+          <attvalue for="1" value="桂枝加厚朴杏子汤;大承气汤;小承气汤;厚朴大黄汤;麻子仁丸;黄龙汤;厚朴七物汤;达原饮;清脾饮;栀子厚朴汤;五积散;香薷散;增损泽兰丸;十补丸;半夏厚朴汤;厚朴温中汤;橘核丸;枣肉平胃散;苏子降气汤;厚朴麻黄汤;枳实薤白桂枝汤;鳖甲煎丸;平胃散;不换金正气散;藿香正气散;六和汤;厚姜半甘参汤;除湿胃苓汤;泽漆丸;散聚汤;鳖甲煎丸;枳实消痞丸" />
+        </attvalues>
+      </node>
+      <node id="大黄" label="大黄">
+        <attvalues>
+          <attvalue for="0" value="42" />
+          <attvalue for="1" value="桂枝加大黄汤;大承气汤;小承气汤;调胃承气汤;大陷胸丸;大陷胸汤;大黄牡丹汤;厚朴大黄汤;大黄附子汤;三物备急丸;温脾汤;麻子仁丸;舟车丸;己椒苈黄丸;增液承气汤;黄龙汤;厚朴七物汤;大柴胡汤;附子泻心汤;泻心汤;凉膈散;泻青丸;当归龙荟丸;芍药汤;防风通圣散;栀子大黄汤;柴胡加龙骨牡蛎汤;风引汤;桃核承气汤;大黄蛰虫丸;蟅虫散;复原活血汤;鳖甲煎丸;抵当汤;十灰散;增液承气汤;茵陈蒿汤;泽漆丸;珍宝三生丹;鳖甲煎丸;木香槟榔丸;大黄牡丹汤" />
+        </attvalues>
+      </node>
+      <node id="干姜" label="干姜">
+        <attvalues>
+          <attvalue for="0" value="43" />
+          <attvalue for="1" value="小青龙汤;续命汤;三物备急丸;温脾汤;半夏泻心汤;生姜泻心汤;甘草泻心汤;黄连汤;柴胡桂枝干姜汤;五积散;理中丸;桂枝人参汤;大建中汤;理中化痰丸;四逆汤;通脉四逆汤;四逆加人参汤;回阳救急汤;白通汤;白通加猪胆汁汤;干姜附子汤;茯苓四逆汤;乌头赤石脂丸;胶艾汤;增损泽兰丸;增损四物汤;虎潜丸;十补丸;燥肠丸;桃花汤;风引汤;厚朴温中汤;干姜人参半夏丸;厚朴麻黄汤;泽兰散;鳖甲煎丸;胶艾汤;甘草干姜茯苓白术汤;苓甘五味姜辛汤;鳖甲煎丸;枳实消痞丸;葛花解酒汤;乌梅丸" />
+        </attvalues>
+      </node>
+      <node id="白芍" label="白芍">
+        <attvalues>
+          <attvalue for="0" value="23" />
+          <attvalue for="1" value="小青龙汤;柴胡桂枝汤;再造散;小续命汤;加味逍遥散;逍遥散;痛泻要方;戊己丸;当归建中汤;当归四逆汤;黄芪桂枝五物汤;升阳益胃汤;四物汤;人参养荣汤;增损四物汤;八珍汤;增损柴胡汤;十全大补汤;泰山磐石散;虎潜丸;真人养脏汤;羚角钩藤汤;独活寄生汤" />
+        </attvalues>
+      </node>
+      <node id="细辛" label="细辛">
+        <attvalues>
+          <attvalue for="0" value="17" />
+          <attvalue for="1" value="九味羌活汤;大羌活汤;小青龙汤;射干麻黄汤;麻黄细辛附子汤;再造散;大黄附子汤;当归四逆汤;当归四逆加吴茱萸生姜汤;赤丸;增损泽兰丸;厚朴麻黄汤;川芎茶调散;独活寄生汤;铁骨丹;苓甘五味姜辛汤;乌梅丸" />
+        </attvalues>
+      </node>
+      <node id="柴胡" label="柴胡">
+        <attvalues>
+          <attvalue for="0" value="24" />
+          <attvalue for="1" value="柴胡桂枝汤;柴葛解肌汤;败毒散;仓廪散;荆防败毒散;小柴胡汤;大柴胡汤;清脾饮;四逆散;柴胡疏肝散;加味逍遥散;逍遥散;普济消毒饮;清心莲子饮;柴胡桂枝干姜汤;补中益气汤;升阳益胃汤;增损柴胡汤;柴胡加龙骨牡蛎汤;复原活血汤;鳖甲煎丸;柴胡陷胸汤;鳖甲煎丸;连翘败毒散" />
+        </attvalues>
+      </node>
+      <node id="黄芩" label="黄芩">
+        <attvalues>
+          <attvalue for="0" value="44" />
+          <attvalue for="1" value="九味羌活汤;柴胡桂枝汤;柴葛解肌汤;小续命汤;清肠饮;泽漆汤;小柴胡汤;大柴胡汤;达原饮;清脾饮;半夏泻心汤;生姜泻心汤;甘草泻心汤;附子泻心汤;黄连解毒汤;泻心汤;凉膈散;普济消毒饮;增味导赤散;清心莲子饮;当归龙荟丸;芍药汤;黄芩汤;黄芩加半夏生姜汤;葛根黄芩黄连汤;防风通圣散;柴胡桂枝干姜汤;石膏汤;当归六黄汤;增损肾沥汤;泰山磐石散;黄连阿胶汤;固经丸;定喘汤;定喘汤;大黄蛰虫丸;鳖甲煎丸;黄土汤;拈痛汤;清气化痰丸;柴胡陷胸汤;鳖甲煎丸;连翘败毒散;清肠饮" />
+        </attvalues>
+      </node>
+      <node id="川芎" label="川芎">
+        <attvalues>
+          <attvalue for="0" value="40" />
+          <attvalue for="1" value="九味羌活汤;大羌活汤;败毒散;仓廪散;荆防败毒散;再造散;千金葳蕤汤;小续命汤;续命汤;柴胡疏肝散;当归芍药散;增味导赤散;泻青丸;防风通圣散;五积散;增损肾沥汤;四物汤;圣愈汤;胶艾汤;增损泽兰丸;增损四物汤;八珍汤;增损柴胡汤;十全大补汤;泰山磐石散;石斛夜光丸;酸枣仁汤;越鞠丸;延胡索汤;身痛逐瘀汤;温经汤;胶艾汤;川芎茶调散;拨云退翳丸;羌活胜湿汤;独活寄生汤;铁骨丹;启宫丸;散聚汤;连翘败毒散" />
+        </attvalues>
+      </node>
+      <node id="防风" label="防风">
+        <attvalues>
+          <attvalue for="0" value="31" />
+          <attvalue for="1" value="九味羌活汤;大羌活汤;荆防败毒散;再造散;小续命汤;痛泻要方;防己地黄汤;仙方活命饮;泻青丸;泻黄散;防风通圣散;升阳益胃汤;玉屏风散;增损当归丸;增损泽兰丸;石斛夜光丸;玉屏风散;泽兰散;川芎茶调散;消风散;玉真散;木瓜丸;拈痛汤;除湿胃苓汤;羌活胜湿汤;增补省风汤;独活寄生汤;桂枝芍药知母汤;铁骨丹;仙方活命饮;连翘败毒散" />
+        </attvalues>
+      </node>
+      <node id="附子" label="附子">
+        <attvalues>
+          <attvalue for="0" value="47" />
+          <attvalue for="1" value="桂枝加附子汤;桂枝去芍药加附子汤;麻黄细辛附子汤;再造散;麻黄附子甘草汤;小续命汤;大黄附子汤;温脾汤;附子泻心汤;清心莲子饮;四逆汤;通脉四逆汤;四逆加人参汤;回阳救急汤;白通汤;白通加猪胆汁汤;参附汤;黑锡丹;干姜附子汤;茯苓四逆汤;乌头赤石脂丸;芍药甘草附子汤;附子粳米汤;增损泽兰丸;二至丸;肾气丸;济生肾气丸;十补丸;地黄饮子;真人养脏汤;燥肠丸;泽兰散;黄土汤;木瓜丸;地黄饮子;茵陈四逆汤;泽漆丸;败酱散;真武汤;桂枝芍药知母汤;桂枝附子汤;白术附子汤;甘草附子汤;散聚汤;乌梅丸;蟾酥丸;薏苡附子败酱散" />
+        </attvalues>
+      </node>
+      <node id="黄芪" label="黄芪">
+        <attvalues>
+          <attvalue for="0" value="24" />
+          <attvalue for="1" value="再造散;清心莲子饮;当归六黄汤;清暑益气汤;黄芪建中汤;黄芪桂枝五物汤;乌头汤;补中益气汤;保元汤;升阳益胃汤;玉屏风散;圣愈汤;当归补血汤;归脾汤;十全大补汤;泰山磐石散;牡蛎散;玉屏风散;防己黄芪汤;防己茯苓汤;蠲痹汤;半夏白术天麻汤;神效托里散;四生散" />
+        </attvalues>
+      </node>
+      <node id="当归" label="当归">
+        <attvalues>
+          <attvalue for="0" value="64" />
+          <attvalue for="1" value="续命汤;清肠饮;黄龙汤;加味逍遥散;逍遥散;当归芍药散;仙方活命饮;驻车丸;赤小豆当归散;泻青丸;当归龙荟丸;芍药汤;清胃散;防风通圣散;五积散;当归六黄汤;清暑益气汤;当归建中汤;当归生姜羊肉汤;当归四逆汤;当归四逆加吴茱萸生姜汤;增损肾沥汤;补中益气汤;四物汤;贞元饮;圣愈汤;胶艾汤;当归补血汤;归脾汤;人参养荣汤;增损泽兰丸;增损四物汤;八珍汤;十全大补汤;虎潜丸;七宝美髯丹;真人养脏汤;桑螵蛸散;朱砂安神丸;天王补心丹;延胡索汤;苏子降气汤;身痛逐瘀汤;复原活血汤;温经汤;胶艾汤;消风散;拨云退翳丸;百合固金汤;五淋散;拈痛汤;蠲痹汤;独活寄生汤;铁骨丹;散聚汤;乌梅丸;仙方活命饮;连翘败毒散;神效托里散;托里透脓汤;清肠饮;薏苡仁汤;牡丹散;生肌玉红膏" />
+        </attvalues>
+      </node>
+      <node id="枳实" label="枳实">
+        <attvalues>
+          <attvalue for="0" value="25" />
+          <attvalue for="1" value="大承气汤;小承气汤;厚朴大黄汤;麻子仁丸;黄龙汤;厚朴七物汤;大柴胡汤;四逆散;枳实芍药散;栀子厚朴汤;栀子大黄汤;橘核丸;枳实薤白桂枝汤;桂枝生姜枳实汤;拨云退翳丸;导痰汤;涤痰汤;温胆汤;十味温胆汤;清气化痰丸;柴胡陷胸汤;枳术丸;曲蘗枳术丸;橘半枳术丸;枳实消痞丸" />
+        </attvalues>
+      </node>
+      <node id="黄连" label="黄连">
+        <attvalues>
+          <attvalue for="0" value="37" />
+          <attvalue for="1" value="大羌活汤;半夏泻心汤;生姜泻心汤;甘草泻心汤;黄连汤;附子泻心汤;黄连解毒汤;泻心汤;普济消毒饮;驻车丸;当归龙荟丸;左金丸;香连丸;戊己丸;芍药汤;葛根黄芩黄连汤;白头翁汤;清胃散;白头翁加甘草阿胶汤;石膏汤;当归六黄汤;升阳益胃汤;石斛夜光丸;黄连阿胶汤;朱砂安神丸;天王补心丹;大黄蛰虫丸;脏连丸;拨云退翳丸;小陷胸汤;柴胡陷胸汤;木香槟榔丸;健脾丸;资生丸;枳实消痞丸;乌梅丸;肥儿丸" />
+        </attvalues>
+      </node>
+      <node id="知母" label="知母">
+        <attvalues>
+          <attvalue for="0" value="19" />
+          <attvalue for="1" value="大羌活汤;达原饮;清脾饮;白虎汤;白虎加人参汤;白虎加桂枝汤;白虎加苍术汤;玉女煎;清骨散;百合知母汤;人参蛤蚧散;知柏地黄丸;大补阴丸;虎潜丸;酸枣仁汤;消风散;斩梦丹;拈痛汤;桂枝芍药知母汤" />
+        </attvalues>
+      </node>
+      <node id="防己" label="防己">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="大羌活汤;小续命汤;己椒苈黄丸;防己地黄汤;防己黄芪汤;防己茯苓汤;清肺汤" />
+        </attvalues>
+      </node>
+      <node id="牡蛎" label="牡蛎">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="柴胡桂枝干姜汤;牡蛎散;金锁固精丸;柴胡加龙骨牡蛎汤;桂枝甘草龙骨牡蛎汤;桂枝去芍药加蜀漆牡蛎龙骨救逆汤;风引汤;栝楼牡蛎散;消瘰丸" />
+        </attvalues>
+      </node>
+      <node id="饴糖" label="饴糖">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="黄芪建中汤;小建中汤" />
+        </attvalues>
+      </node>
+      <node id="通草" label="通草">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="当归四逆汤;当归四逆加吴茱萸生姜汤;小蓟饮子" />
+        </attvalues>
+      </node>
+      <node id="吴茱萸" label="吴茱萸">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="左金丸;香连丸;戊己丸;吴茱萸汤;当归四逆加吴茱萸生姜汤;燥肠丸;导气汤;温经汤;木瓜丸;鸡鸣散;散聚汤" />
+        </attvalues>
+      </node>
+      <node id="生地" label="生地">
+        <attvalues>
+          <attvalue for="0" value="21" />
+          <attvalue for="1" value="九味羌活汤;大羌活汤;葱白七味饮;增液承气汤;导赤散;清胃散;增损肾沥汤;四物汤;胶艾汤;增损泽兰丸;炙甘草汤;肾气丸;翟平薯蓣丸;延胡索汤;大黄蛰虫丸;黄土汤;胶艾汤;消风散;羚角钩藤汤;增液汤;增液承气汤" />
+        </attvalues>
+      </node>
+      <node id="阿胶" label="阿胶">
+        <attvalues>
+          <attvalue for="0" value="14" />
+          <attvalue for="1" value="驻车丸;白头翁加甘草阿胶汤;胶艾汤;炙甘草汤;黄连阿胶汤;温经汤;鳖甲煎丸;黄土汤;胶艾汤;棕灰散;清燥救肺汤;补肺阿胶汤;猪苓汤;鳖甲煎丸" />
+        </attvalues>
+      </node>
+      <node id="麦冬" label="麦冬">
+        <attvalues>
+          <attvalue for="0" value="24" />
+          <attvalue for="1" value="葱白七味饮;清肠饮;增液承气汤;清脾饮;竹叶石膏汤;清心莲子饮;玉女煎;清暑益气汤;增损肾沥汤;生脉散;增损泽兰丸;炙甘草汤;石斛夜光丸;地黄饮子;天王补心丹;温经汤;蚱蝉散;地黄饮子;清燥救肺汤;增液汤;增液承气汤;麦门冬汤;百合固金汤;清肠饮" />
+        </attvalues>
+      </node>
+      <node id="泽泻" label="泽泻">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="疏凿饮子;当归芍药散;泽泻汤;桂苓甘露散;清暑益气汤;增损肾沥汤;升阳益胃汤;六味地黄丸;肾气丸;济生肾气丸;翟平薯蓣丸;拈痛汤;除湿胃苓汤;五苓散;泽漆丸;泽泻散;猪苓汤;半夏白术天麻汤;资生丸;葛花解酒汤" />
+        </attvalues>
+      </node>
+      <node id="牡丹皮" label="牡丹皮">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="麻杏甘石汤;大黄牡丹汤;加味逍遥散;清胃散;六味地黄丸;知柏地黄丸;肾气丸;济生肾气丸;温经汤;鳖甲煎丸;桂枝茯苓丸;十灰散;鳖甲煎丸;大黄牡丹汤;牡丹散" />
+        </attvalues>
+      </node>
+      <node id="茯苓" label="茯苓">
+        <attvalues>
+          <attvalue for="0" value="56" />
+          <attvalue for="1" value="败毒散;仓廪散;荆防败毒散;参苏饮;清脾饮;加味逍遥散;逍遥散;当归芍药散;五积散;桂苓甘露散;理中化痰丸;回阳救急汤;茯苓四逆汤;赤丸;四君子汤;增损肾沥汤;香砂六君子汤;异功散;参苓白术散;升阳益胃汤;人参蛤蚧散;人参养荣汤;八珍汤;十全大补汤;六味地黄丸;知柏地黄丸;石斛夜光丸;肾气丸;济生肾气丸;桑螵蛸散;柴胡加龙骨牡蛎汤;酸枣仁汤;定志丸;半夏厚朴汤;厚朴温中汤;桂枝茯苓丸;羚角钩藤汤;藿香正气散;五苓散;猪苓汤;防己茯苓汤;茯苓甘草汤;苓桂术甘汤;甘草干姜茯苓白术汤;真武汤;独活寄生汤;二陈汤;涤痰汤;茯苓丸;苍附导痰丸;启宫丸;散聚汤;清气化痰丸;苓甘五味姜辛汤;保和丸;枳实消痞丸" />
+        </attvalues>
+      </node>
+      <node id="龙骨" label="龙骨">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="燥肠丸;金锁固精丸;桑螵蛸散;柴胡加龙骨牡蛎汤;桂枝甘草龙骨牡蛎汤;桂枝去芍药加蜀漆牡蛎龙骨救逆汤;风引汤;枕中丹" />
+        </attvalues>
+      </node>
+      <node id="桃仁" label="桃仁">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="大黄牡丹汤;五仁丸;五仁润肠丸;苇茎汤;橘核丸;桃核承气汤;大黄蛰虫丸;蟅虫散;身痛逐瘀汤;复原活血汤;鳖甲煎丸;桂枝茯苓丸;抵当汤;鳖甲煎丸;大黄牡丹汤;苇茎汤" />
+        </attvalues>
+      </node>
+      <node id="凌霄花" label="凌霄花">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="鳖甲煎丸;鳖甲煎丸" />
+        </attvalues>
+      </node>
+      <node id="土鳖虫" label="土鳖虫">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="大黄蛰虫丸;蟅虫散;鳖甲煎丸;鳖甲煎丸" />
+        </attvalues>
+      </node>
+      <node id="射干" label="射干">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="射干麻黄汤;鳖甲煎丸;鳖甲煎丸" />
+        </attvalues>
+      </node>
+      <node id="瞿麦" label="瞿麦">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="鳖甲煎丸;鳖甲煎丸" />
+        </attvalues>
+      </node>
+      <node id="石韦" label="石韦">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="鳖甲煎丸;鳖甲煎丸" />
+        </attvalues>
+      </node>
+      <node id="葶苈子" label="葶苈子">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="大陷胸丸;己椒苈黄丸;葶苈大枣泻肺汤;鳖甲煎丸;鳖甲煎丸" />
+        </attvalues>
+      </node>
+      <node id="蜂房" label="蜂房">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="鳖甲煎丸;鳖甲煎丸" />
+        </attvalues>
+      </node>
+      <node id="蜣螂" label="蜣螂">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="鳖甲煎丸;鳖甲煎丸" />
+        </attvalues>
+      </node>
+      <node id="赤硝" label="赤硝">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="鳖甲煎丸;鳖甲煎丸" />
+        </attvalues>
+      </node>
+      <node id="鳖甲" label="鳖甲">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="清骨散;鳖甲煎丸;鳖甲煎丸" />
+        </attvalues>
+      </node>
+      <node id="鼠妇" label="鼠妇">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="鳖甲煎丸;鳖甲煎丸" />
+        </attvalues>
+      </node>
+      <node id="肉桂" label="肉桂">
+        <attvalues>
+          <attvalue for="0" value="22" />
+          <attvalue for="1" value="桂枝加附子汤;桂枝去芍药加附子汤;小续命汤;芍药汤;五积散;桂苓甘露散;当归建中汤;回阳救急汤;黑锡丹;阳和汤;保元汤;十全大补汤;济生肾气丸;地黄饮子;真人养脏汤;苏子降气汤;地黄饮子;泽漆丸;独活寄生汤;铁骨丹;阳和汤;薏苡仁汤" />
+        </attvalues>
+      </node>
+      <node id="薏苡仁" label="薏苡仁">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="麻黄杏仁薏苡甘草汤;清肠饮;苇茎汤;参苓白术散;败酱散;铁骨丹;清肺汤;资生丸;清肠饮;薏苡附子败酱散;苇茎汤;薏苡仁汤" />
+        </attvalues>
+      </node>
+      <node id="桑白皮" label="桑白皮">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="华盖散;泻白散;人参蛤蚧散;定喘汤;定喘汤;泽泻散;五皮散;五皮饮" />
+        </attvalues>
+      </node>
+      <node id="橘红" label="橘红">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="华盖散;舟车丸;苏子降气汤;鸡鸣散;导痰汤;涤痰汤;启宫丸;资生丸;葛花解酒汤" />
+        </attvalues>
+      </node>
+      <node id="紫苏子" label="紫苏子">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="华盖散;定喘汤;苏子降气汤;定喘汤;三子养亲汤" />
+        </attvalues>
+      </node>
+      <node id="赤茯苓" label="赤茯苓">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="华盖散;金沸草散;清心莲子饮;七宝美髯丹;六和汤;五淋散;除湿胃苓汤;泽泻散;蠲痹汤;导痰汤;皂角化痰丸" />
+        </attvalues>
+      </node>
+      <node id="白芷" label="白芷">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="九味羌活汤;大羌活汤;柴葛解肌汤;七白散;仙方活命饮;五积散;增损泽兰丸;川芎茶调散;玉真散;藿香正气散;仙方活命饮;托里透脓汤;生肌玉红膏" />
+        </attvalues>
+      </node>
+      <node id="羌活" label="羌活">
+        <attvalues>
+          <attvalue for="0" value="19" />
+          <attvalue for="1" value="九味羌活汤;柴葛解肌汤;败毒散;仓廪散;荆防败毒散;再造散;疏凿饮子;泻青丸;升阳益胃汤;身痛逐瘀汤;川芎茶调散;玉真散;拨云退翳丸;拈痛汤;羌活胜湿汤;蠲痹汤;铁骨丹;连翘败毒散;四生散" />
+        </attvalues>
+      </node>
+      <node id="苍术" label="苍术">
+        <attvalues>
+          <attvalue for="0" value="17" />
+          <attvalue for="1" value="九味羌活汤;大羌活汤;白虎加苍术汤;五积散;清暑益气汤;越鞠丸;枣肉平胃散;消风散;平胃散;不换金正气散;拈痛汤;二妙散;除湿胃苓汤;铁骨丹;苍附导痰丸;半夏白术天麻汤;薏苡仁汤" />
+        </attvalues>
+      </node>
+      <node id="独活" label="独活">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="大羌活汤;败毒散;仓廪散;荆防败毒散;千金葳蕤汤;升阳益胃汤;增损当归丸;羌活胜湿汤;珍宝三生丹;独活寄生汤;铁骨丹" />
+        </attvalues>
+      </node>
+      <node id="前胡" label="前胡">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="金沸草散;仓廪散;荆防败毒散;参苏饮;苏子降气汤" />
+        </attvalues>
+      </node>
+      <node id="旋覆花" label="旋覆花">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="金沸草散;旋覆代赭汤" />
+        </attvalues>
+      </node>
+      <node id="荆芥" label="荆芥">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="金沸草散;荆防败毒散;防风通圣散;川芎茶调散;消风散;拨云退翳丸" />
+        </attvalues>
+      </node>
+      <node id="赤芍" label="赤芍">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="金沸草散;仙方活命饮;增味导赤散;防风通圣散;仙方活命饮;牡丹散" />
+        </attvalues>
+      </node>
+      <node id="五味子" label="五味子">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="小青龙汤;射干麻黄汤;清暑益气汤;回阳救急汤;增损肾沥汤;生脉散;人参养荣汤;石斛夜光丸;秃鸡散;地黄饮子;翟平薯蓣丸;天王补心丹;厚朴麻黄汤;地黄饮子;十味温胆汤;苓甘五味姜辛汤" />
+        </attvalues>
+      </node>
+      <node id="蒺藜" label="蒺藜">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="麻杏甘石汤;石斛夜光丸;拨云退翳丸;铁骨丹" />
+        </attvalues>
+      </node>
+      <node id="蝉蜕" label="蝉蜕">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="麻杏甘石汤;消风散;拨云退翳丸;蚱蝉散" />
+        </attvalues>
+      </node>
+      <node id="桔梗" label="桔梗">
+        <attvalues>
+          <attvalue for="0" value="19" />
+          <attvalue for="1" value="柴葛解肌汤;败毒散;仓廪散;荆防败毒散;参苏饮;三物白散;黄龙汤;普济消毒饮;桔梗汤;防风通圣散;五积散;参苓白术散;天王补心丹;百合固金汤;藿香正气散;鸡鸣散;柴胡陷胸汤;资生丸;连翘败毒散" />
+        </attvalues>
+      </node>
+      <node id="升麻" label="升麻">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="升麻葛根汤;普济消毒饮;清胃散;清暑益气汤;补中益气汤;拈痛汤;连翘败毒散;托里透脓汤" />
+        </attvalues>
+      </node>
+      <node id="枳壳" label="枳壳">
+        <attvalues>
+          <attvalue for="0" value="14" />
+          <attvalue for="1" value="败毒散;仓廪散;荆防败毒散;参苏饮;柴胡疏肝散;五积散;石斛夜光丸;香棱丸;泽泻散;珍宝三生丹;茯苓丸;苍附导痰丸;皂角化痰丸;散聚汤" />
+        </attvalues>
+      </node>
+      <node id="薄荷" label="薄荷">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="败毒散;仓廪散;荆防败毒散;加味逍遥散;逍遥散;凉膈散;普济消毒饮;防风通圣散;地黄饮子;川芎茶调散;拨云退翳丸;地黄饮子;连翘败毒散" />
+        </attvalues>
+      </node>
+      <node id="骨碎补" label="骨碎补">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="仓廪散;黄龙汤;驻车丸;清暑益气汤;阳和汤;厚朴温中汤;阳和汤" />
+        </attvalues>
+      </node>
+      <node id="木香" label="木香">
+        <attvalues>
+          <attvalue for="0" value="22" />
+          <attvalue for="1" value="参苏饮;舟车丸;当归龙荟丸;香连丸;芍药汤;黑锡丹;香砂六君子汤;七味白术散;增损当归丸;归脾汤;真人养脏汤;苏合香丸;厚朴温中汤;天台乌药散;橘核丸;导气汤;香棱丸;泽漆丸;增补省风汤;木香槟榔丸;健脾丸;葛花解酒汤" />
+        </attvalues>
+      </node>
+      <node id="粉葛" label="粉葛">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="参苏饮;葱白七味饮;七味白术散" />
+        </attvalues>
+      </node>
+      <node id="紫苏" label="紫苏">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="参苏饮;藿香正气散" />
+        </attvalues>
+      </node>
+      <node id="陈皮" label="陈皮">
+        <attvalues>
+          <attvalue for="0" value="38" />
+          <attvalue for="1" value="参苏饮;五仁丸;柴胡疏肝散;痛泻要方;普济消毒饮;仙方活命饮;五积散;清暑益气汤;回阳救急汤;香砂六君子汤;异功散;补中益气汤;升阳益胃汤;人参养荣汤;增损柴胡汤;虎潜丸;厚朴温中汤;枣肉平胃散;橘皮竹茹汤;平胃散;不换金正气散;藿香正气散;除湿胃苓汤;泽漆丸;五皮散;五皮饮;二陈汤;温胆汤;十味温胆汤;苍附导痰丸;散聚汤;清气化痰丸;半夏白术天麻汤;保和丸;木香槟榔丸;健脾丸;橘半枳术丸;仙方活命饮" />
+        </attvalues>
+      </node>
+      <node id="炮姜" label="炮姜">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="再造散;加味逍遥散;逍遥散" />
+        </attvalues>
+      </node>
+      <node id="芒硝" label="芒硝">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="大承气汤;调胃承气汤;大陷胸丸;大陷胸汤;大黄牡丹汤;增液承气汤;黄龙汤;凉膈散;防风通圣散;桃核承气汤;增液承气汤;茯苓丸;大黄牡丹汤" />
+        </attvalues>
+      </node>
+      <node id="地榆" label="地榆">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="清肠饮;清肠饮" />
+        </attvalues>
+      </node>
+      <node id="玄参" label="玄参">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="清肠饮;增液承气汤;普济消毒饮;天王补心丹;增液汤;增液承气汤;百合固金汤;消瘰丸;连翘败毒散;清肠饮" />
+        </attvalues>
+      </node>
+      <node id="金银花" label="金银花">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="清肠饮;仙方活命饮;五味消毒饮;仙方活命饮;五味消毒饮;清肠饮" />
+        </attvalues>
+      </node>
+      <node id="党参" label="党参">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="泽漆汤;参苓白术散;泰山磐石散;干姜人参半夏丸" />
+        </attvalues>
+      </node>
+      <node id="槟榔" label="槟榔">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="疏凿饮子;达原饮;芍药汤;天台乌药散;四磨汤;泽漆丸;泽泻散;珍宝三生丹;鸡鸣散;散聚汤;木香槟榔丸;肥儿丸;化虫丸" />
+        </attvalues>
+      </node>
+      <node id="草果" label="草果">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="达原饮;清脾饮;手拈散" />
+        </attvalues>
+      </node>
+      <node id="青皮" label="青皮">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="舟车丸;清脾饮;清暑益气汤;天台乌药散;香棱丸;三棱煎;木香槟榔丸;葛花解酒汤;托里透脓汤" />
+        </attvalues>
+      </node>
+      <node id="香附" label="香附">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="柴胡疏肝散;固经丸;苏合香丸;越鞠丸;身痛逐瘀汤;苍附导痰丸;启宫丸;木香槟榔丸" />
+        </attvalues>
+      </node>
+      <node id="栀子" label="栀子">
+        <attvalues>
+          <attvalue for="0" value="23" />
+          <attvalue for="1" value="加味逍遥散;栀子甘草豉汤;栀子豉汤;栀子生姜豉汤;栀子厚朴汤;黄连解毒汤;凉膈散;增味导赤散;泻青丸;当归龙荟丸;泻黄散;防风通圣散;石膏汤;栀子大黄汤;越鞠丸;十灰散;咳血方;小蓟饮子;茵陈蒿汤;栀子柏皮汤;五淋散;除湿胃苓汤;连翘败毒散" />
+        </attvalues>
+      </node>
+      <node id="粳米" label="粳米">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="白虎汤;白虎加人参汤;白虎加桂枝汤;白虎加苍术汤;竹叶石膏汤;附子粳米汤;桃花汤;麦门冬汤" />
+        </attvalues>
+      </node>
+      <node id="淡竹叶" label="淡竹叶">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="竹叶石膏汤;凉膈散;导赤散;小蓟饮子" />
+        </attvalues>
+      </node>
+      <node id="连翘" label="连翘">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="凉膈散;普济消毒饮;防风通圣散;保和丸;连翘败毒散" />
+        </attvalues>
+      </node>
+      <node id="牛蒡子" label="牛蒡子">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="普济消毒饮;消风散;补肺阿胶汤;连翘败毒散" />
+        </attvalues>
+      </node>
+      <node id="乳香" label="乳香">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="仙方活命饮;震灵丹;苏合香丸;七厘散;小活络丹;铁骨丹;仙方活命饮" />
+        </attvalues>
+      </node>
+      <node id="大皂角" label="大皂角">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="皂角散;仙方活命饮;皂角化痰丸;救急稀涎散;仙方活命饮" />
+        </attvalues>
+      </node>
+      <node id="川贝母" label="川贝母">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="三物白散;仙方活命饮;人参蛤蚧散;羚角钩藤汤;百合固金汤;消瘰丸;仙方活命饮" />
+        </attvalues>
+      </node>
+      <node id="没药" label="没药">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="仙方活命饮;震灵丹;身痛逐瘀汤;七厘散;手拈散;小活络丹;铁骨丹;三圣散;仙方活命饮" />
+        </attvalues>
+      </node>
+      <node id="穿山甲" label="穿山甲">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="仙方活命饮;复原活血汤;仙方活命饮;托里透脓汤" />
+        </attvalues>
+      </node>
+      <node id="黄柏" label="黄柏">
+        <attvalues>
+          <attvalue for="0" value="18" />
+          <attvalue for="1" value="黄连解毒汤;自然铜散;当归龙荟丸;白头翁汤;白头翁加甘草阿胶汤;石膏汤;当归六黄汤;清暑益气汤;知柏地黄丸;大补阴丸;虎潜丸;封髓丹;固经丸;栀子柏皮汤;斩梦丹;二妙散;木香槟榔丸;乌梅丸" />
+        </attvalues>
+      </node>
+      <node id="木通" label="木通">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="疏凿饮子;导赤散;增味导赤散;橘核丸;消风散;除湿胃苓汤;泽泻散" />
+        </attvalues>
+      </node>
+      <node id="地黄" label="地黄">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="增味导赤散;当归六黄汤;八珍汤;六味地黄丸;石斛夜光丸;朱砂安神丸;天王补心丹;四生丸;小蓟饮子;琼玉膏;百合固金汤" />
+        </attvalues>
+      </node>
+      <node id="车前子" label="车前子">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="增味导赤散;清心莲子饮;济生肾气丸;珍宝三生丹" />
+        </attvalues>
+      </node>
+      <node id="地骨皮" label="地骨皮">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="清心莲子饮;泻白散;清骨散;拨云退翳丸" />
+        </attvalues>
+      </node>
+      <node id="广藿香" label="广藿香">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="泻黄散;七味白术散;不换金正气散;藿香正气散;六和汤;资生丸" />
+        </attvalues>
+      </node>
+      <node id="滑石" label="滑石">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="防风通圣散;滑石代赭汤;六一散;益元散;碧玉散;桂苓甘露散;风引汤;小蓟饮子;斩梦丹;除湿胃苓汤;猪苓汤;百合滑石散" />
+        </attvalues>
+      </node>
+      <node id="秦艽" label="秦艽">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="清骨散;身痛逐瘀汤;独活寄生汤;铁骨丹" />
+        </attvalues>
+      </node>
+      <node id="朱砂" label="朱砂">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="益元散;震灵丹;朱砂安神丸;磁朱丸;至宝丹;苏合香丸;七厘散" />
+        </attvalues>
+      </node>
+      <node id="熟地" label="熟地">
+        <attvalues>
+          <attvalue for="0" value="18" />
+          <attvalue for="1" value="玉女煎;当归六黄汤;阳和汤;贞元饮;人参养荣汤;十全大补汤;泰山磐石散;知柏地黄丸;大补阴丸;虎潜丸;石斛夜光丸;济生肾气丸;地黄饮子;地黄饮子;百合固金汤;独活寄生汤;十味温胆汤;阳和汤" />
+        </attvalues>
+      </node>
+      <node id="鹿角胶" label="鹿角胶">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="阳和汤;阳和汤" />
+        </attvalues>
+      </node>
+      <node id="草乌头" label="草乌头">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="乌头赤石脂丸;乌头汤;赤丸;大乌头煎;乌头桂枝汤" />
+        </attvalues>
+      </node>
+      <node id="砂仁" label="砂仁">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="香砂六君子汤;参苓白术散;泰山磐石散;封髓丹;丹参饮;六和汤;健脾丸;葛花解酒汤" />
+        </attvalues>
+      </node>
+      <node id="山药" label="山药">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="参苓白术散;六味地黄丸;石斛夜光丸;肾气丸;济生肾气丸;翟平薯蓣丸;缩泉丸;珍宝三生丹;健脾丸;资生丸" />
+        </attvalues>
+      </node>
+      <node id="白扁豆" label="白扁豆">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="香薷散;参苓白术散;六和汤;资生丸" />
+        </attvalues>
+      </node>
+      <node id="莲子" label="莲子">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="参苓白术散;资生丸" />
+        </attvalues>
+      </node>
+      <node id="白茯苓" label="白茯苓">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="七白散;七味白术散;归脾汤;地黄饮子;七宝美髯丹;天王补心丹;地黄饮子;琼玉膏;温胆汤;十味温胆汤;健脾丸;资生丸;葛花解酒汤" />
+        </attvalues>
+      </node>
+      <node id="艾叶" label="艾叶">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="胶艾汤;四生丸;胶艾汤" />
+        </attvalues>
+      </node>
+      <node id="远志" label="远志">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="增损肾沥汤;归脾汤;人参养荣汤;秃鸡散;地黄饮子;桑螵蛸散;天王补心丹;枕中丹;定志丸;地黄饮子;十味温胆汤" />
+        </attvalues>
+      </node>
+      <node id="酸枣仁" label="酸枣仁">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="归脾汤;天王补心丹;酸枣仁汤;十味温胆汤" />
+        </attvalues>
+      </node>
+      <node id="桂心" label="桂心">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="增损肾沥汤;人参养荣汤;增损泽兰丸;十补丸;橘核丸;蟅虫散;除湿胃苓汤;散聚汤;牡丹散" />
+        </attvalues>
+      </node>
+      <node id="泽兰" label="泽兰">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="增损泽兰丸;泽兰散" />
+        </attvalues>
+      </node>
+      <node id="牛膝" label="牛膝">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="玉女煎;增损泽兰丸;虎潜丸;石斛夜光丸;济生肾气丸;翟平薯蓣丸;延胡索汤;身痛逐瘀汤;木瓜丸;珍宝三生丹;独活寄生汤;铁骨丹;牡丹散" />
+        </attvalues>
+      </node>
+      <node id="石斛" label="石斛">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="增损泽兰丸;石斛夜光丸;地黄饮子;地黄饮子" />
+        </attvalues>
+      </node>
+      <node id="藁本" label="藁本">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="增损泽兰丸;羌活胜湿汤" />
+        </attvalues>
+      </node>
+      <node id="糯米" label="糯米">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="泰山磐石散;补肺阿胶汤" />
+        </attvalues>
+      </node>
+      <node id="羚羊角" label="羚羊角">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="石斛夜光丸;羚角钩藤汤" />
+        </attvalues>
+      </node>
+      <node id="菊花" label="菊花">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="石斛夜光丸;拨云退翳丸;羚角钩藤汤" />
+        </attvalues>
+      </node>
+      <node id="款冬花" label="款冬花">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="射干麻黄汤;定喘汤;定喘汤" />
+        </attvalues>
+      </node>
+      <node id="白果" label="白果">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="定喘汤;定喘汤" />
+        </attvalues>
+      </node>
+      <node id="竹茹" label="竹茹">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="橘皮竹茹汤;羚角钩藤汤;涤痰汤;温胆汤" />
+        </attvalues>
+      </node>
+      <node id="红花" label="红花">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="身痛逐瘀汤;七厘散;复原活血汤" />
+        </attvalues>
+      </node>
+      <node id="苦参" label="苦参">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="消风散;拈痛汤" />
+        </attvalues>
+      </node>
+      <node id="慈姑" label="慈姑">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="拨云退翳丸;托里透脓汤" />
+        </attvalues>
+      </node>
+      <node id="蔓荆子" label="蔓荆子">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="拨云退翳丸;羌活胜湿汤" />
+        </attvalues>
+      </node>
+      <node id="桑叶" label="桑叶">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="桑麻丸;羚角钩藤汤;清燥救肺汤" />
+        </attvalues>
+      </node>
+      <node id="半夏曲" label="半夏曲">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="藿香正气散;启宫丸;枳实消痞丸" />
+        </attvalues>
+      </node>
+      <node id="茵陈" label="茵陈">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="茵陈蒿汤;茵陈四逆汤;拈痛汤;茵陈五苓散" />
+        </attvalues>
+      </node>
+      <node id="猪苓" label="猪苓">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="拈痛汤;除湿胃苓汤;五苓散;猪苓汤;葛花解酒汤" />
+        </attvalues>
+      </node>
+      <node id="胆南星" label="胆南星">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="玉真散;增补省风汤;铁骨丹;涤痰汤;苍附导痰丸" />
+        </attvalues>
+      </node>
+      <node id="神曲" label="神曲">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="清暑益气汤;磁朱丸;越鞠丸;启宫丸;保和丸;健脾丸;资生丸;曲蘗枳术丸;葛花解酒汤;肥儿丸" />
+        </attvalues>
+      </node>
+      <node id="麦芽" label="麦芽">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="三棱煎;健脾丸;资生丸;枳实消痞丸;肥儿丸" />
+        </attvalues>
+      </node>
+      <node id="松子仁" label="松子仁">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="五仁丸;五仁润肠丸" />
+        </attvalues>
+      </node>
+      <node id="柏子仁" label="柏子仁">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="五仁丸;五仁润肠丸;增损泽兰丸;天王补心丹" />
+        </attvalues>
+      </node>
+      <node id="郁李仁" label="郁李仁">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="五仁丸;五仁润肠丸;泽漆丸;珍宝三生丹" />
+        </attvalues>
+      </node>
+      <node id="炙甘草" label="炙甘草">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="桂枝加芍药汤;清暑益气汤;平胃散" />
+        </attvalues>
+      </node>
+      <node id="山茱萸" label="山茱萸">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="六味地黄丸;知柏地黄丸;肾气丸;济生肾气丸;地黄饮子;翟平薯蓣丸;地黄饮子;珍宝三生丹" />
+        </attvalues>
+      </node>
+      <node id="巴戟天" label="巴戟天">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="十补丸;地黄饮子;翟平薯蓣丸;地黄饮子;铁骨丹" />
+        </attvalues>
+      </node>
+      <node id="石菖蒲" label="石菖蒲">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="地黄饮子;桑螵蛸散;枕中丹;定志丸;地黄饮子;萆薢分清饮;涤痰汤" />
+        </attvalues>
+      </node>
+      <node id="肉苁蓉" label="肉苁蓉">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="石斛夜光丸;秃鸡散;地黄饮子;翟平薯蓣丸;地黄饮子" />
+        </attvalues>
+      </node>
+      <node id="葱白" label="葱白">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="大羌活汤;葱白七味饮;白通汤;白通加猪胆汁汤" />
+        </attvalues>
+      </node>
+      <node id="紫菀" label="紫菀">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="射干麻黄汤;泽漆汤" />
+        </attvalues>
+      </node>
+      <node id="淡豆豉" label="淡豆豉">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="葱白七味饮;栀子甘草豉汤;栀子豉汤;栀子生姜豉汤;石膏汤;栀子大黄汤" />
+        </attvalues>
+      </node>
+      <node id="紫苏叶" label="紫苏叶">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="半夏厚朴汤;鸡鸣散" />
+        </attvalues>
+      </node>
+      <node id="大腹皮" label="大腹皮">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="疏凿饮子;藿香正气散;五皮散;五皮饮" />
+        </attvalues>
+      </node>
+      <node id="茯苓皮" label="茯苓皮">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="疏凿饮子;消风散;五皮散;五皮饮" />
+        </attvalues>
+      </node>
+      <node id="瓜蒌子" label="瓜蒌子">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="瓜蒌薤白半夏汤;瓜蒌薤白白酒汤;枳实薤白桂枝汤;咳血方;清气化痰丸;小陷胸汤;柴胡陷胸汤" />
+        </attvalues>
+      </node>
+      <node id="天南星" label="天南星">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="小活络丹;青州白丸子;导痰汤;皂角化痰丸" />
+        </attvalues>
+      </node>
+      <node id="川乌" label="川乌">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="针头丸;小活络丹;青州白丸子;增补省风汤;铁骨丹" />
+        </attvalues>
+      </node>
+      <node id="白附子" label="白附子">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="七白散;牵正散;玉真散;青州白丸子;增补省风汤;铁骨丹;皂角化痰丸;四生散" />
+        </attvalues>
+      </node>
+      <node id="麝香" label="麝香">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="当归龙荟丸;回阳救急汤;至宝丹;苏合香丸;七厘散;铁骨丹;蟾酥丸" />
+        </attvalues>
+      </node>
+      <node id="补骨脂" label="补骨脂">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="黑锡丹;二至丸;七宝美髯丹;铁骨丹" />
+        </attvalues>
+      </node>
+      <node id="杜仲" label="杜仲">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="二至丸;翟平薯蓣丸;独活寄生汤;铁骨丹" />
+        </attvalues>
+      </node>
+      <node id="花椒" label="花椒">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="疏凿饮子;己椒苈黄丸;大建中汤;乌头赤石脂丸;拨云退翳丸;乌梅丸" />
+        </attvalues>
+      </node>
+      <node id="大青盐" label="大青盐">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="二至丸;木瓜丸" />
+        </attvalues>
+      </node>
+      <node id="败酱" label="败酱">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="败酱散;薏苡附子败酱散" />
+        </attvalues>
+      </node>
+      <node id="桑螵蛸" label="桑螵蛸">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="增损肾沥汤;桑螵蛸散" />
+        </attvalues>
+      </node>
+      <node id="天冬" label="天冬">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="石斛夜光丸;天王补心丹" />
+        </attvalues>
+      </node>
+      <node id="枸杞子" label="枸杞子">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="石斛夜光丸;龟鹿二仙胶;七宝美髯丹" />
+        </attvalues>
+      </node>
+      <node id="龟甲" label="龟甲">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="大补阴丸;虎潜丸;龟鹿二仙胶;桑螵蛸散;固经丸;枕中丹" />
+        </attvalues>
+      </node>
+      <node id="蜂蜜" label="蜂蜜">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="凉膈散;猪肤汤;桑麻丸;大半夏汤;琼玉膏" />
+        </attvalues>
+      </node>
+      <node id="冬瓜仁" label="冬瓜仁">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="大黄牡丹汤;苇茎汤;清肺汤;大黄牡丹汤;苇茎汤" />
+        </attvalues>
+      </node>
+      <node id="芦根" label="芦根">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="苇茎汤;苇茎汤" />
+        </attvalues>
+      </node>
+      <node id="香薷" label="香薷">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="香薷散;六和汤" />
+        </attvalues>
+      </node>
+      <node id="甘遂" label="甘遂">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="大陷胸汤;控涎丹;十枣汤;舟车丸" />
+        </attvalues>
+      </node>
+      <node id="火麻仁" label="火麻仁">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="麻子仁丸;炙甘草汤;珍宝三生丹" />
+        </attvalues>
+      </node>
+      <node id="牵牛子" label="牵牛子">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="舟车丸;木香槟榔丸" />
+        </attvalues>
+      </node>
+      <node id="龙胆" label="龙胆">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="泻青丸;当归龙荟丸" />
+        </attvalues>
+      </node>
+      <node id="水蛭" label="水蛭">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="大黄蛰虫丸;蟅虫散;抵当汤" />
+        </attvalues>
+      </node>
+      <node id="虻虫" label="虻虫">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="大黄蛰虫丸;蟅虫散;抵当汤" />
+        </attvalues>
+      </node>
+      <node id="续断" label="续断">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="增损当归丸;泰山磐石散;铁骨丹" />
+        </attvalues>
+      </node>
+      <node id="五灵脂" label="五灵脂">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="震灵丹;身痛逐瘀汤;失笑散;手拈散;铁骨丹;皂刺散" />
+        </attvalues>
+      </node>
+      <node id="天麻" label="天麻">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="玉真散;铁骨丹;半夏白术天麻汤" />
+        </attvalues>
+      </node>
+      <node id="全蝎" label="全蝎">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="增损当归丸;牵正散;止痉散;增补省风汤;铁骨丹" />
+        </attvalues>
+      </node>
+      <node id="白头翁" label="白头翁">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="白头翁汤;白头翁加甘草阿胶汤" />
+        </attvalues>
+      </node>
+      <node id="秦皮" label="秦皮">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="白头翁汤;白头翁加甘草阿胶汤" />
+        </attvalues>
+      </node>
+      <node id="肉豆蔻" label="肉豆蔻">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="黑锡丹;健脾丸;肥儿丸" />
+        </attvalues>
+      </node>
+      <node id="菟丝子" label="菟丝子">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="石斛夜光丸;十补丸;秃鸡散;七宝美髯丹;翟平薯蓣丸;珍宝三生丹" />
+        </attvalues>
+      </node>
+      <node id="赤石脂" label="赤石脂">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="乌头赤石脂丸;翟平薯蓣丸;赤石脂禹余粮汤;桃花汤;震灵丹;风引汤" />
+        </attvalues>
+      </node>
+      <node id="蛇蜕" label="蛇蜕">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="拨云退翳丸;蚱蝉散" />
+        </attvalues>
+      </node>
+      <node id="川楝子" label="川楝子">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="黑锡丹;增损当归丸;金铃子散;天台乌药散;橘核丸;导气汤;香棱丸" />
+        </attvalues>
+      </node>
+      <node id="沉香" label="沉香">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="黑锡丹;苏合香丸" />
+        </attvalues>
+      </node>
+      <node id="丁香" label="丁香">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="增损当归丸;苏合香丸;香棱丸;丁香柿蒂汤" />
+        </attvalues>
+      </node>
+      <node id="小茴香" label="小茴香">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="增损当归丸;天台乌药散;导气汤;香棱丸" />
+        </attvalues>
+      </node>
+      <node id="延胡索" label="延胡索">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="增损当归丸;金铃子散;延胡索汤;橘核丸;手拈散;牡丹散" />
+        </attvalues>
+      </node>
+      <node id="巴豆" label="巴豆">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="三物备急丸;三物白散;天台乌药散;香棱丸;蟾酥丸" />
+        </attvalues>
+      </node>
+      <node id="莪术" label="莪术">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="香棱丸;三棱煎;木香槟榔丸;牡丹散" />
+        </attvalues>
+      </node>
+      <node id="虎胫骨" label="虎胫骨">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="虎潜丸;铁骨丹" />
+        </attvalues>
+      </node>
+      <node id="京大戟" label="京大戟">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="控涎丹;十枣汤;舟车丸" />
+        </attvalues>
+      </node>
+      <node id="芫花" label="芫花">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="十枣汤;舟车丸" />
+        </attvalues>
+      </node>
+      <node id="天葵子" label="天葵子">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="五味消毒饮;五味消毒饮" />
+        </attvalues>
+      </node>
+      <node id="紫花地丁" label="紫花地丁">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="五味消毒饮;五味消毒饮" />
+        </attvalues>
+      </node>
+      <node id="蒲公英" label="蒲公英">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="五味消毒饮;五味消毒饮" />
+        </attvalues>
+      </node>
+      <node id="野菊花" label="野菊花">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="五味消毒饮;五味消毒饮" />
+        </attvalues>
+      </node>
+      <node id="三棱" label="三棱">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="香棱丸;三棱煎;牡丹散" />
+        </attvalues>
+      </node>
+      <node id="乌药" label="乌药">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="缩泉丸;天台乌药散;四磨汤;萆薢分清饮" />
+        </attvalues>
+      </node>
+      <node id="使君子" label="使君子">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="肥儿丸;化虫丸" />
+        </attvalues>
+      </node>
+      <node id="青黛" label="青黛">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="当归龙荟丸;碧玉散;咳血方" />
+        </attvalues>
+      </node>
+      <node id="大蓟" label="大蓟">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="十灰散;小蓟饮子" />
+        </attvalues>
+      </node>
+      <node id="小蓟" label="小蓟">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="十灰散;小蓟饮子" />
+        </attvalues>
+      </node>
+      <node id="白僵蚕" label="白僵蚕">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="七白散;针头丸;铁骨丹" />
+        </attvalues>
+      </node>
+      <node id="草乌" label="草乌">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="小活络丹;铁骨丹" />
+        </attvalues>
+      </node>
+      <node id="白矾" label="白矾">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="皂角化痰丸;化虫丸;救急稀涎散" />
+        </attvalues>
+      </node>
+      <node id="冰片" label="冰片">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="至宝丹;苏合香丸;七厘散" />
+        </attvalues>
+      </node>
+      <node id="地龙" label="地龙">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="身痛逐瘀汤;小活络丹" />
+        </attvalues>
+      </node>
+      <node id="安息香" label="安息香">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="至宝丹;苏合香丸" />
+        </attvalues>
+      </node>
+      <node id="犀角" label="犀角">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="石斛夜光丸;至宝丹;苏合香丸" />
+        </attvalues>
+      </node>
+      <node id="木瓜" label="木瓜">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="木瓜丸;六和汤;鸡鸣散" />
+        </attvalues>
+      </node>
+      <node id="百合" label="百合">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="百合知母汤;滑石代赭汤;百合固金汤;百合鸡子汤;百合滑石散" />
+        </attvalues>
+      </node>
+      <node id="山楂" label="山楂">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="保和丸;资生丸" />
+        </attvalues>
+      </node>
+      <node id="禹余粮" label="禹余粮">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="赤石脂禹余粮汤;震灵丹" />
+        </attvalues>
+      </node>
+      <node id="紫石英" label="紫石英">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="震灵丹;风引汤" />
+        </attvalues>
+      </node>
+      <node id="黑芝麻" label="黑芝麻">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="桑麻丸;清燥救肺汤" />
+        </attvalues>
+      </node>
+      <node id="益智仁" label="益智仁">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="缩泉丸;萆薢分清饮" />
+        </attvalues>
+      </node>
+      <node id="薤白" label="薤白">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="瓜蒌薤白半夏汤;瓜蒌薤白白酒汤;枳实薤白桂枝汤" />
+        </attvalues>
+      </node>
+      <node id="酒" label="酒">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="瓜蒌薤白半夏汤;瓜蒌薤白白酒汤" />
+        </attvalues>
+      </node>
+      <node id="侧柏叶" label="侧柏叶">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="四生丸;十灰散" />
+        </attvalues>
+      </node>
+      <node id="荷叶" label="荷叶">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="四生丸;十灰散" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="桂枝" target="甘草" id="0" weight="44.0" />
+      <edge source="桂枝" target="苦杏仁" id="1" weight="7.0" />
+      <edge source="桂枝" target="麻黄" id="2" weight="11.0" />
+      <edge source="桂枝" target="大枣" id="3" weight="28.0" />
+      <edge source="桂枝" target="生姜" id="4" weight="30.0" />
+      <edge source="桂枝" target="芍药" id="5" weight="22.0" />
+      <edge source="桂枝" target="葛根" id="6" weight="3.0" />
+      <edge source="桂枝" target="半夏" id="7" weight="9.0" />
+      <edge source="桂枝" target="白术" id="8" weight="6.0" />
+      <edge source="桂枝" target="人参" id="9" weight="12.0" />
+      <edge source="桂枝" target="天花粉" id="10" weight="2.0" />
+      <edge source="桂枝" target="石膏" id="11" weight="5.0" />
+      <edge source="桂枝" target="厚朴" id="12" weight="5.0" />
+      <edge source="桂枝" target="大黄" id="13" weight="7.0" />
+      <edge source="桂枝" target="干姜" id="14" weight="9.0" />
+      <edge source="桂枝" target="白芍" id="15" weight="5.0" />
+      <edge source="桂枝" target="细辛" id="16" weight="5.0" />
+      <edge source="桂枝" target="柴胡" id="17" weight="5.0" />
+      <edge source="桂枝" target="黄芩" id="18" weight="5.0" />
+      <edge source="桂枝" target="川芎" id="19" weight="3.0" />
+      <edge source="桂枝" target="防风" id="20" weight="3.0" />
+      <edge source="桂枝" target="附子" id="21" weight="6.0" />
+      <edge source="桂枝" target="黄芪" id="22" weight="4.0" />
+      <edge source="桂枝" target="当归" id="23" weight="5.0" />
+      <edge source="桂枝" target="枳实" id="24" weight="3.0" />
+      <edge source="桂枝" target="黄连" id="25" weight="2.0" />
+      <edge source="桂枝" target="知母" id="26" weight="2.0" />
+      <edge source="桂枝" target="防己" id="27" weight="2.0" />
+      <edge source="桂枝" target="牡蛎" id="28" weight="5.0" />
+      <edge source="桂枝" target="饴糖" id="29" weight="2.0" />
+      <edge source="桂枝" target="通草" id="30" weight="2.0" />
+      <edge source="桂枝" target="吴茱萸" id="31" weight="2.0" />
+      <edge source="桂枝" target="生地" id="32" weight="2.0" />
+      <edge source="桂枝" target="阿胶" id="33" weight="4.0" />
+      <edge source="桂枝" target="麦冬" id="34" weight="2.0" />
+      <edge source="桂枝" target="泽泻" id="35" weight="2.0" />
+      <edge source="桂枝" target="牡丹皮" id="36" weight="5.0" />
+      <edge source="桂枝" target="茯苓" id="37" weight="7.0" />
+      <edge source="桂枝" target="龙骨" id="38" weight="4.0" />
+      <edge source="桂枝" target="桃仁" id="39" weight="4.0" />
+      <edge source="桂枝" target="凌霄花" id="40" weight="2.0" />
+      <edge source="桂枝" target="土鳖虫" id="41" weight="2.0" />
+      <edge source="桂枝" target="射干" id="42" weight="2.0" />
+      <edge source="桂枝" target="瞿麦" id="43" weight="2.0" />
+      <edge source="桂枝" target="石韦" id="44" weight="2.0" />
+      <edge source="桂枝" target="葶苈子" id="45" weight="2.0" />
+      <edge source="桂枝" target="蜂房" id="46" weight="2.0" />
+      <edge source="桂枝" target="蜣螂" id="47" weight="2.0" />
+      <edge source="桂枝" target="赤硝" id="48" weight="2.0" />
+      <edge source="桂枝" target="鳖甲" id="49" weight="2.0" />
+      <edge source="桂枝" target="鼠妇" id="50" weight="2.0" />
+      <edge source="甘草" target="苦杏仁" id="51" weight="22.0" />
+      <edge source="甘草" target="麻黄" id="52" weight="29.0" />
+      <edge source="甘草" target="大枣" id="53" weight="47.0" />
+      <edge source="甘草" target="生姜" id="54" weight="48.0" />
+      <edge source="甘草" target="芍药" id="55" weight="36.0" />
+      <edge source="甘草" target="葛根" id="56" weight="7.0" />
+      <edge source="甘草" target="半夏" id="57" weight="39.0" />
+      <edge source="甘草" target="白术" id="58" weight="40.0" />
+      <edge source="甘草" target="肉桂" id="59" weight="16.0" />
+      <edge source="甘草" target="附子" id="60" weight="24.0" />
+      <edge source="甘草" target="人参" id="61" weight="58.0" />
+      <edge source="甘草" target="天花粉" id="62" weight="6.0" />
+      <edge source="甘草" target="薏苡仁" id="63" weight="6.0" />
+      <edge source="甘草" target="桑白皮" id="64" weight="5.0" />
+      <edge source="甘草" target="橘红" id="65" weight="6.0" />
+      <edge source="甘草" target="紫苏子" id="66" weight="4.0" />
+      <edge source="甘草" target="赤茯苓" id="67" weight="8.0" />
+      <edge source="甘草" target="石膏" id="68" weight="19.0" />
+      <edge source="甘草" target="厚朴" id="69" weight="17.0" />
+      <edge source="甘草" target="大黄" id="70" weight="12.0" />
+      <edge source="甘草" target="川芎" id="71" weight="31.0" />
+      <edge source="甘草" target="生地" id="72" weight="11.0" />
+      <edge source="甘草" target="白芷" id="73" weight="11.0" />
+      <edge source="甘草" target="细辛" id="74" weight="10.0" />
+      <edge source="甘草" target="羌活" id="75" weight="13.0" />
+      <edge source="甘草" target="苍术" id="76" weight="11.0" />
+      <edge source="甘草" target="防风" id="77" weight="22.0" />
+      <edge source="甘草" target="黄芩" id="78" weight="29.0" />
+      <edge source="甘草" target="独活" id="79" weight="8.0" />
+      <edge source="甘草" target="知母" id="80" weight="13.0" />
+      <edge source="甘草" target="防己" id="81" weight="5.0" />
+      <edge source="甘草" target="黄连" id="82" weight="17.0" />
+      <edge source="甘草" target="前胡" id="83" weight="5.0" />
+      <edge source="甘草" target="旋覆花" id="84" weight="2.0" />
+      <edge source="甘草" target="荆芥" id="85" weight="6.0" />
+      <edge source="甘草" target="赤芍" id="86" weight="5.0" />
+      <edge source="甘草" target="五味子" id="87" weight="6.0" />
+      <edge source="甘草" target="干姜" id="88" weight="27.0" />
+      <edge source="甘草" target="白芍" id="89" weight="18.0" />
+      <edge source="甘草" target="柴胡" id="90" weight="18.0" />
+      <edge source="甘草" target="牡丹皮" id="91" weight="3.0" />
+      <edge source="甘草" target="蒺藜" id="92" weight="3.0" />
+      <edge source="甘草" target="蝉蜕" id="93" weight="3.0" />
+      <edge source="甘草" target="桔梗" id="94" weight="14.0" />
+      <edge source="甘草" target="升麻" id="95" weight="5.0" />
+      <edge source="甘草" target="枳壳" id="96" weight="9.0" />
+      <edge source="甘草" target="茯苓" id="97" weight="38.0" />
+      <edge source="甘草" target="薄荷" id="98" weight="10.0" />
+      <edge source="甘草" target="骨碎补" id="99" weight="5.0" />
+      <edge source="甘草" target="木香" id="100" weight="9.0" />
+      <edge source="甘草" target="粉葛" id="101" weight="2.0" />
+      <edge source="甘草" target="紫苏" id="102" weight="2.0" />
+      <edge source="甘草" target="陈皮" id="103" weight="25.0" />
+      <edge source="甘草" target="炮姜" id="104" weight="3.0" />
+      <edge source="甘草" target="黄芪" id="105" weight="14.0" />
+      <edge source="甘草" target="当归" id="106" weight="42.0" />
+      <edge source="甘草" target="芒硝" id="107" weight="5.0" />
+      <edge source="甘草" target="地榆" id="108" weight="2.0" />
+      <edge source="甘草" target="玄参" id="109" weight="4.0" />
+      <edge source="甘草" target="金银花" id="110" weight="4.0" />
+      <edge source="甘草" target="麦冬" id="111" weight="12.0" />
+      <edge source="甘草" target="党参" id="112" weight="3.0" />
+      <edge source="甘草" target="枳实" id="113" weight="9.0" />
+      <edge source="甘草" target="槟榔" id="114" weight="3.0" />
+      <edge source="甘草" target="草果" id="115" weight="2.0" />
+      <edge source="甘草" target="青皮" id="116" weight="2.0" />
+      <edge source="甘草" target="香附" id="117" weight="4.0" />
+      <edge source="甘草" target="栀子" id="118" weight="10.0" />
+      <edge source="甘草" target="粳米" id="119" weight="7.0" />
+      <edge source="甘草" target="淡竹叶" id="120" weight="4.0" />
+      <edge source="甘草" target="连翘" id="121" weight="3.0" />
+      <edge source="甘草" target="牛蒡子" id="122" weight="3.0" />
+      <edge source="甘草" target="乳香" id="123" weight="2.0" />
+      <edge source="甘草" target="大皂角" id="124" weight="2.0" />
+      <edge source="甘草" target="川贝母" id="125" weight="5.0" />
+      <edge source="甘草" target="没药" id="126" weight="3.0" />
+      <edge source="甘草" target="穿山甲" id="127" weight="4.0" />
+      <edge source="甘草" target="黄柏" id="128" weight="4.0" />
+      <edge source="甘草" target="木通" id="129" weight="4.0" />
+      <edge source="甘草" target="地黄" id="130" weight="6.0" />
+      <edge source="甘草" target="车前子" id="131" weight="2.0" />
+      <edge source="甘草" target="地骨皮" id="132" weight="4.0" />
+      <edge source="甘草" target="广藿香" id="133" weight="6.0" />
+      <edge source="甘草" target="阿胶" id="134" weight="8.0" />
+      <edge source="甘草" target="滑石" id="135" weight="8.0" />
+      <edge source="甘草" target="牡蛎" id="136" weight="4.0" />
+      <edge source="甘草" target="秦艽" id="137" weight="3.0" />
+      <edge source="甘草" target="朱砂" id="138" weight="2.0" />
+      <edge source="甘草" target="泽泻" id="139" weight="5.0" />
+      <edge source="甘草" target="饴糖" id="140" weight="2.0" />
+      <edge source="甘草" target="通草" id="141" weight="3.0" />
+      <edge source="甘草" target="吴茱萸" id="142" weight="3.0" />
+      <edge source="甘草" target="熟地" id="143" weight="10.0" />
+      <edge source="甘草" target="鹿角胶" id="144" weight="2.0" />
+      <edge source="甘草" target="草乌头" id="145" weight="3.0" />
+      <edge source="甘草" target="砂仁" id="146" weight="6.0" />
+      <edge source="甘草" target="山药" id="147" weight="4.0" />
+      <edge source="甘草" target="白扁豆" id="148" weight="3.0" />
+      <edge source="甘草" target="莲子" id="149" weight="2.0" />
+      <edge source="甘草" target="白茯苓" id="150" weight="6.0" />
+      <edge source="甘草" target="艾叶" id="151" weight="2.0" />
+      <edge source="甘草" target="远志" id="152" weight="3.0" />
+      <edge source="甘草" target="酸枣仁" id="153" weight="3.0" />
+      <edge source="甘草" target="桂心" id="154" weight="4.0" />
+      <edge source="甘草" target="泽兰" id="155" weight="2.0" />
+      <edge source="甘草" target="牛膝" id="156" weight="4.0" />
+      <edge source="甘草" target="石斛" id="157" weight="2.0" />
+      <edge source="甘草" target="藁本" id="158" weight="2.0" />
+      <edge source="甘草" target="糯米" id="159" weight="2.0" />
+      <edge source="甘草" target="羚羊角" id="160" weight="2.0" />
+      <edge source="甘草" target="菊花" id="161" weight="3.0" />
+      <edge source="甘草" target="龙骨" id="162" weight="3.0" />
+      <edge source="甘草" target="款冬花" id="163" weight="2.0" />
+      <edge source="甘草" target="白果" id="164" weight="2.0" />
+      <edge source="甘草" target="竹茹" id="165" weight="4.0" />
+      <edge source="甘草" target="桃仁" id="166" weight="4.0" />
+      <edge source="甘草" target="红花" id="167" weight="2.0" />
+      <edge source="甘草" target="苦参" id="168" weight="2.0" />
+      <edge source="甘草" target="慈姑" id="169" weight="2.0" />
+      <edge source="甘草" target="蔓荆子" id="170" weight="2.0" />
+      <edge source="甘草" target="桑叶" id="171" weight="2.0" />
+      <edge source="甘草" target="半夏曲" id="172" weight="3.0" />
+      <edge source="甘草" target="茵陈" id="173" weight="2.0" />
+      <edge source="甘草" target="猪苓" id="174" weight="2.0" />
+      <edge source="甘草" target="胆南星" id="175" weight="3.0" />
+      <edge source="甘草" target="神曲" id="176" weight="3.0" />
+      <edge source="甘草" target="麦芽" id="177" weight="3.0" />
+      <edge source="苦杏仁" target="麻黄" id="178" weight="15.0" />
+      <edge source="苦杏仁" target="大枣" id="179" weight="4.0" />
+      <edge source="苦杏仁" target="生姜" id="180" weight="6.0" />
+      <edge source="苦杏仁" target="芍药" id="181" weight="5.0" />
+      <edge source="苦杏仁" target="薏苡仁" id="182" weight="2.0" />
+      <edge source="苦杏仁" target="桑白皮" id="183" weight="4.0" />
+      <edge source="苦杏仁" target="紫苏子" id="184" weight="3.0" />
+      <edge source="苦杏仁" target="赤茯苓" id="185" weight="2.0" />
+      <edge source="苦杏仁" target="石膏" id="186" weight="6.0" />
+      <edge source="苦杏仁" target="厚朴" id="187" weight="5.0" />
+      <edge source="苦杏仁" target="蒺藜" id="188" weight="2.0" />
+      <edge source="苦杏仁" target="蝉蜕" id="189" weight="2.0" />
+      <edge source="苦杏仁" target="川芎" id="190" weight="5.0" />
+      <edge source="苦杏仁" target="人参" id="191" weight="7.0" />
+      <edge source="苦杏仁" target="防己" id="192" weight="2.0" />
+      <edge source="苦杏仁" target="防风" id="193" weight="2.0" />
+      <edge source="苦杏仁" target="附子" id="194" weight="2.0" />
+      <edge source="苦杏仁" target="黄芩" id="195" weight="5.0" />
+      <edge source="苦杏仁" target="干姜" id="196" weight="2.0" />
+      <edge source="苦杏仁" target="当归" id="197" weight="2.0" />
+      <edge source="苦杏仁" target="大黄" id="198" weight="3.0" />
+      <edge source="苦杏仁" target="松子仁" id="199" weight="2.0" />
+      <edge source="苦杏仁" target="柏子仁" id="200" weight="2.0" />
+      <edge source="苦杏仁" target="桃仁" id="201" weight="3.0" />
+      <edge source="苦杏仁" target="郁李仁" id="202" weight="2.0" />
+      <edge source="苦杏仁" target="陈皮" id="203" weight="3.0" />
+      <edge source="苦杏仁" target="枳实" id="204" weight="2.0" />
+      <edge source="苦杏仁" target="茯苓" id="205" weight="4.0" />
+      <edge source="苦杏仁" target="五味子" id="206" weight="2.0" />
+      <edge source="苦杏仁" target="枳壳" id="207" weight="2.0" />
+      <edge source="苦杏仁" target="麦冬" id="208" weight="3.0" />
+      <edge source="苦杏仁" target="黄连" id="209" weight="2.0" />
+      <edge source="苦杏仁" target="半夏" id="210" weight="5.0" />
+      <edge source="苦杏仁" target="款冬花" id="211" weight="2.0" />
+      <edge source="苦杏仁" target="白果" id="212" weight="2.0" />
+      <edge source="苦杏仁" target="阿胶" id="213" weight="2.0" />
+      <edge source="麻黄" target="大枣" id="214" weight="10.0" />
+      <edge source="麻黄" target="生姜" id="215" weight="12.0" />
+      <edge source="麻黄" target="芍药" id="216" weight="9.0" />
+      <edge source="麻黄" target="葛根" id="217" weight="2.0" />
+      <edge source="麻黄" target="半夏" id="218" weight="9.0" />
+      <edge source="麻黄" target="白术" id="219" weight="3.0" />
+      <edge source="麻黄" target="薏苡仁" id="220" weight="3.0" />
+      <edge source="麻黄" target="桑白皮" id="221" weight="3.0" />
+      <edge source="麻黄" target="紫苏子" id="222" weight="3.0" />
+      <edge source="麻黄" target="赤茯苓" id="223" weight="2.0" />
+      <edge source="麻黄" target="石膏" id="224" weight="10.0" />
+      <edge source="麻黄" target="荆芥" id="225" weight="2.0" />
+      <edge source="麻黄" target="赤芍" id="226" weight="2.0" />
+      <edge source="麻黄" target="五味子" id="227" weight="3.0" />
+      <edge source="麻黄" target="干姜" id="228" weight="4.0" />
+      <edge source="麻黄" target="白芍" id="229" weight="2.0" />
+      <edge source="麻黄" target="细辛" id="230" weight="5.0" />
+      <edge source="麻黄" target="款冬花" id="231" weight="3.0" />
+      <edge source="麻黄" target="蒺藜" id="232" weight="2.0" />
+      <edge source="麻黄" target="附子" id="233" weight="4.0" />
+      <edge source="麻黄" target="川芎" id="234" weight="6.0" />
+      <edge source="麻黄" target="独活" id="235" weight="2.0" />
+      <edge source="麻黄" target="人参" id="236" weight="2.0" />
+      <edge source="麻黄" target="肉桂" id="237" weight="6.0" />
+      <edge source="麻黄" target="防风" id="238" weight="4.0" />
+      <edge source="麻黄" target="黄芩" id="239" weight="5.0" />
+      <edge source="麻黄" target="当归" id="240" weight="5.0" />
+      <edge source="麻黄" target="栀子" id="241" weight="2.0" />
+      <edge source="麻黄" target="桔梗" id="242" weight="2.0" />
+      <edge source="麻黄" target="厚朴" id="243" weight="2.0" />
+      <edge source="麻黄" target="苍术" id="244" weight="3.0" />
+      <edge source="麻黄" target="熟地" id="245" weight="2.0" />
+      <edge source="麻黄" target="骨碎补" id="246" weight="2.0" />
+      <edge source="麻黄" target="鹿角胶" id="247" weight="2.0" />
+      <edge source="麻黄" target="白果" id="248" weight="2.0" />
+      <edge source="大枣" target="生姜" id="249" weight="46.0" />
+      <edge source="大枣" target="芍药" id="250" weight="21.0" />
+      <edge source="大枣" target="葛根" id="251" weight="4.0" />
+      <edge source="大枣" target="半夏" id="252" weight="17.0" />
+      <edge source="大枣" target="白术" id="253" weight="5.0" />
+      <edge source="大枣" target="肉桂" id="254" weight="4.0" />
+      <edge source="大枣" target="附子" id="255" weight="8.0" />
+      <edge source="大枣" target="人参" id="256" weight="18.0" />
+      <edge source="大枣" target="石膏" id="257" weight="4.0" />
+      <edge source="大枣" target="厚朴" id="258" weight="5.0" />
+      <edge source="大枣" target="炙甘草" id="259" weight="2.0" />
+      <edge source="大枣" target="大黄" id="260" weight="5.0" />
+      <edge source="大枣" target="旋覆花" id="261" weight="2.0" />
+      <edge source="大枣" target="五味子" id="262" weight="5.0" />
+      <edge source="大枣" target="细辛" id="263" weight="4.0" />
+      <edge source="大枣" target="柴胡" id="264" weight="5.0" />
+      <edge source="大枣" target="白芍" id="265" weight="5.0" />
+      <edge source="大枣" target="黄芩" id="266" weight="9.0" />
+      <edge source="大枣" target="川芎" id="267" weight="2.0" />
+      <edge source="大枣" target="羌活" id="268" weight="2.0" />
+      <edge source="大枣" target="防风" id="269" weight="2.0" />
+      <edge source="大枣" target="黄芪" id="270" weight="5.0" />
+      <edge source="大枣" target="当归" id="271" weight="5.0" />
+      <edge source="大枣" target="枳实" id="272" weight="3.0" />
+      <edge source="大枣" target="桔梗" id="273" weight="2.0" />
+      <edge source="大枣" target="骨碎补" id="274" weight="2.0" />
+      <edge source="大枣" target="干姜" id="275" weight="4.0" />
+      <edge source="大枣" target="黄连" id="276" weight="5.0" />
+      <edge source="大枣" target="泽泻" id="277" weight="3.0" />
+      <edge source="大枣" target="苍术" id="278" weight="2.0" />
+      <edge source="大枣" target="陈皮" id="279" weight="5.0" />
+      <edge source="大枣" target="麦冬" id="280" weight="6.0" />
+      <edge source="大枣" target="饴糖" id="281" weight="2.0" />
+      <edge source="大枣" target="吴茱萸" id="282" weight="2.0" />
+      <edge source="大枣" target="通草" id="283" weight="2.0" />
+      <edge source="大枣" target="粳米" id="284" weight="2.0" />
+      <edge source="大枣" target="生地" id="285" weight="2.0" />
+      <edge source="大枣" target="茯苓" id="286" weight="4.0" />
+      <edge source="大枣" target="远志" id="287" weight="3.0" />
+      <edge source="大枣" target="山茱萸" id="288" weight="2.0" />
+      <edge source="大枣" target="巴戟天" id="289" weight="2.0" />
+      <edge source="大枣" target="熟地" id="290" weight="2.0" />
+      <edge source="大枣" target="白茯苓" id="291" weight="2.0" />
+      <edge source="大枣" target="石斛" id="292" weight="2.0" />
+      <edge source="大枣" target="石菖蒲" id="293" weight="2.0" />
+      <edge source="大枣" target="肉苁蓉" id="294" weight="2.0" />
+      <edge source="大枣" target="薄荷" id="295" weight="2.0" />
+      <edge source="大枣" target="牡蛎" id="296" weight="2.0" />
+      <edge source="大枣" target="龙骨" id="297" weight="2.0" />
+      <edge source="生姜" target="芍药" id="298" weight="23.0" />
+      <edge source="生姜" target="葛根" id="299" weight="3.0" />
+      <edge source="生姜" target="半夏" id="300" weight="20.0" />
+      <edge source="生姜" target="白术" id="301" weight="8.0" />
+      <edge source="生姜" target="肉桂" id="302" weight="6.0" />
+      <edge source="生姜" target="附子" id="303" weight="9.0" />
+      <edge source="生姜" target="人参" id="304" weight="16.0" />
+      <edge source="生姜" target="石膏" id="305" weight="4.0" />
+      <edge source="生姜" target="厚朴" id="306" weight="8.0" />
+      <edge source="生姜" target="大黄" id="307" weight="4.0" />
+      <edge source="生姜" target="川芎" id="308" weight="5.0" />
+      <edge source="生姜" target="独活" id="309" weight="3.0" />
+      <edge source="生姜" target="生地" id="310" weight="4.0" />
+      <edge source="生姜" target="白芷" id="311" weight="2.0" />
+      <edge source="生姜" target="知母" id="312" weight="3.0" />
+      <edge source="生姜" target="细辛" id="313" weight="3.0" />
+      <edge source="生姜" target="苍术" id="314" weight="2.0" />
+      <edge source="生姜" target="葱白" id="315" weight="2.0" />
+      <edge source="生姜" target="防己" id="316" weight="2.0" />
+      <edge source="生姜" target="防风" id="317" weight="4.0" />
+      <edge source="生姜" target="黄连" id="318" weight="4.0" />
+      <edge source="生姜" target="前胡" id="319" weight="2.0" />
+      <edge source="生姜" target="旋覆花" id="320" weight="2.0" />
+      <edge source="生姜" target="五味子" id="321" weight="4.0" />
+      <edge source="生姜" target="紫菀" id="322" weight="2.0" />
+      <edge source="生姜" target="柴胡" id="323" weight="8.0" />
+      <edge source="生姜" target="白芍" id="324" weight="4.0" />
+      <edge source="生姜" target="黄芩" id="325" weight="11.0" />
+      <edge source="生姜" target="桔梗" id="326" weight="4.0" />
+      <edge source="生姜" target="羌活" id="327" weight="2.0" />
+      <edge source="生姜" target="茯苓" id="328" weight="11.0" />
+      <edge source="生姜" target="薄荷" id="329" weight="3.0" />
+      <edge source="生姜" target="淡豆豉" id="330" weight="2.0" />
+      <edge source="生姜" target="麦冬" id="331" weight="7.0" />
+      <edge source="生姜" target="枳实" id="332" weight="5.0" />
+      <edge source="生姜" target="饴糖" id="333" weight="2.0" />
+      <edge source="生姜" target="黄芪" id="334" weight="3.0" />
+      <edge source="生姜" target="吴茱萸" id="335" weight="4.0" />
+      <edge source="生姜" target="当归" id="336" weight="5.0" />
+      <edge source="生姜" target="泽泻" id="337" weight="2.0" />
+      <edge source="生姜" target="远志" id="338" weight="3.0" />
+      <edge source="生姜" target="陈皮" id="339" weight="8.0" />
+      <edge source="生姜" target="阿胶" id="340" weight="2.0" />
+      <edge source="生姜" target="山茱萸" id="341" weight="2.0" />
+      <edge source="生姜" target="巴戟天" id="342" weight="2.0" />
+      <edge source="生姜" target="熟地" id="343" weight="2.0" />
+      <edge source="生姜" target="白茯苓" id="344" weight="2.0" />
+      <edge source="生姜" target="石斛" id="345" weight="2.0" />
+      <edge source="生姜" target="石菖蒲" id="346" weight="2.0" />
+      <edge source="生姜" target="肉苁蓉" id="347" weight="2.0" />
+      <edge source="生姜" target="牡蛎" id="348" weight="2.0" />
+      <edge source="生姜" target="龙骨" id="349" weight="2.0" />
+      <edge source="生姜" target="紫苏叶" id="350" weight="2.0" />
+      <edge source="生姜" target="橘红" id="351" weight="2.0" />
+      <edge source="生姜" target="大腹皮" id="352" weight="3.0" />
+      <edge source="生姜" target="桑白皮" id="353" weight="2.0" />
+      <edge source="生姜" target="茯苓皮" id="354" weight="2.0" />
+      <edge source="生姜" target="瓜蒌子" id="355" weight="2.0" />
+      <edge source="芍药" target="葛根" id="356" weight="5.0" />
+      <edge source="芍药" target="半夏" id="357" weight="7.0" />
+      <edge source="芍药" target="人参" id="358" weight="5.0" />
+      <edge source="芍药" target="厚朴" id="359" weight="6.0" />
+      <edge source="芍药" target="大黄" id="360" weight="7.0" />
+      <edge source="芍药" target="柴胡" id="361" weight="7.0" />
+      <edge source="芍药" target="桔梗" id="362" weight="4.0" />
+      <edge source="芍药" target="白芷" id="363" weight="2.0" />
+      <edge source="芍药" target="羌活" id="364" weight="2.0" />
+      <edge source="芍药" target="黄芩" id="365" weight="13.0" />
+      <edge source="芍药" target="升麻" id="366" weight="2.0" />
+      <edge source="芍药" target="枳实" id="367" weight="4.0" />
+      <edge source="芍药" target="槟榔" id="368" weight="2.0" />
+      <edge source="芍药" target="知母" id="369" weight="2.0" />
+      <edge source="芍药" target="川芎" id="370" weight="8.0" />
+      <edge source="芍药" target="枳壳" id="371" weight="2.0" />
+      <edge source="芍药" target="陈皮" id="372" weight="2.0" />
+      <edge source="芍药" target="香附" id="373" weight="2.0" />
+      <edge source="芍药" target="当归" id="374" weight="12.0" />
+      <edge source="芍药" target="泽泻" id="375" weight="2.0" />
+      <edge source="芍药" target="白术" id="376" weight="3.0" />
+      <edge source="芍药" target="茯苓" id="377" weight="5.0" />
+      <edge source="芍药" target="肉桂" id="378" weight="3.0" />
+      <edge source="芍药" target="黄连" id="379" weight="3.0" />
+      <edge source="芍药" target="干姜" id="380" weight="5.0" />
+      <edge source="芍药" target="苍术" id="381" weight="2.0" />
+      <edge source="芍药" target="饴糖" id="382" weight="2.0" />
+      <edge source="芍药" target="黄芪" id="383" weight="2.0" />
+      <edge source="芍药" target="吴茱萸" id="384" weight="2.0" />
+      <edge source="芍药" target="附子" id="385" weight="3.0" />
+      <edge source="芍药" target="草乌头" id="386" weight="2.0" />
+      <edge source="芍药" target="生地" id="387" weight="4.0" />
+      <edge source="芍药" target="麦冬" id="388" weight="3.0" />
+      <edge source="芍药" target="艾叶" id="389" weight="2.0" />
+      <edge source="芍药" target="阿胶" id="390" weight="6.0" />
+      <edge source="芍药" target="土鳖虫" id="391" weight="3.0" />
+      <edge source="芍药" target="桃仁" id="392" weight="4.0" />
+      <edge source="芍药" target="牡丹皮" id="393" weight="4.0" />
+      <edge source="芍药" target="凌霄花" id="394" weight="2.0" />
+      <edge source="芍药" target="射干" id="395" weight="2.0" />
+      <edge source="芍药" target="瞿麦" id="396" weight="2.0" />
+      <edge source="芍药" target="石韦" id="397" weight="2.0" />
+      <edge source="芍药" target="葶苈子" id="398" weight="2.0" />
+      <edge source="芍药" target="蜂房" id="399" weight="2.0" />
+      <edge source="芍药" target="蜣螂" id="400" weight="2.0" />
+      <edge source="芍药" target="赤硝" id="401" weight="2.0" />
+      <edge source="芍药" target="鳖甲" id="402" weight="2.0" />
+      <edge source="芍药" target="鼠妇" id="403" weight="2.0" />
+      <edge source="芍药" target="玄参" id="404" weight="2.0" />
+      <edge source="芍药" target="栀子" id="405" weight="2.0" />
+      <edge source="芍药" target="防风" id="406" weight="2.0" />
+      <edge source="葛根" target="羌活" id="407" weight="2.0" />
+      <edge source="葛根" target="黄芩" id="408" weight="3.0" />
+      <edge source="葛根" target="升麻" id="409" weight="3.0" />
+      <edge source="葛根" target="人参" id="410" weight="2.0" />
+      <edge source="葛根" target="当归" id="411" weight="2.0" />
+      <edge source="葛根" target="泽泻" id="412" weight="2.0" />
+      <edge source="葛根" target="白术" id="413" weight="2.0" />
+      <edge source="葛根" target="苍术" id="414" weight="2.0" />
+      <edge source="半夏" target="前胡" id="415" weight="3.0" />
+      <edge source="半夏" target="旋覆花" id="416" weight="2.0" />
+      <edge source="半夏" target="赤茯苓" id="417" weight="4.0" />
+      <edge source="半夏" target="五味子" id="418" weight="5.0" />
+      <edge source="半夏" target="干姜" id="419" weight="12.0" />
+      <edge source="半夏" target="白芍" id="420" weight="4.0" />
+      <edge source="半夏" target="细辛" id="421" weight="4.0" />
+      <edge source="半夏" target="射干" id="422" weight="3.0" />
+      <edge source="半夏" target="款冬花" id="423" weight="3.0" />
+      <edge source="半夏" target="紫菀" id="424" weight="2.0" />
+      <edge source="半夏" target="人参" id="425" weight="26.0" />
+      <edge source="半夏" target="柴胡" id="426" weight="10.0" />
+      <edge source="半夏" target="黄芩" id="427" weight="14.0" />
+      <edge source="半夏" target="木香" id="428" weight="3.0" />
+      <edge source="半夏" target="枳壳" id="429" weight="6.0" />
+      <edge source="半夏" target="桔梗" id="430" weight="3.0" />
+      <edge source="半夏" target="茯苓" id="431" weight="16.0" />
+      <edge source="半夏" target="陈皮" id="432" weight="15.0" />
+      <edge source="半夏" target="石膏" id="433" weight="3.0" />
+      <edge source="半夏" target="党参" id="434" weight="2.0" />
+      <edge source="半夏" target="大黄" id="435" weight="4.0" />
+      <edge source="半夏" target="枳实" id="436" weight="7.0" />
+      <edge source="半夏" target="厚朴" id="437" weight="11.0" />
+      <edge source="半夏" target="白术" id="438" weight="7.0" />
+      <edge source="半夏" target="青皮" id="439" weight="2.0" />
+      <edge source="半夏" target="麦冬" id="440" weight="4.0" />
+      <edge source="半夏" target="黄连" id="441" weight="7.0" />
+      <edge source="半夏" target="粳米" id="442" weight="3.0" />
+      <edge source="半夏" target="川芎" id="443" weight="4.0" />
+      <edge source="半夏" target="当归" id="444" weight="4.0" />
+      <edge source="半夏" target="肉桂" id="445" weight="3.0" />
+      <edge source="半夏" target="苍术" id="446" weight="4.0" />
+      <edge source="半夏" target="附子" id="447" weight="3.0" />
+      <edge source="半夏" target="砂仁" id="448" weight="2.0" />
+      <edge source="半夏" target="泽泻" id="449" weight="2.0" />
+      <edge source="半夏" target="防风" id="450" weight="2.0" />
+      <edge source="半夏" target="黄芪" id="451" weight="2.0" />
+      <edge source="半夏" target="瓜蒌子" id="452" weight="3.0" />
+      <edge source="半夏" target="桑白皮" id="453" weight="2.0" />
+      <edge source="半夏" target="白果" id="454" weight="2.0" />
+      <edge source="半夏" target="紫苏子" id="455" weight="3.0" />
+      <edge source="半夏" target="橘红" id="456" weight="3.0" />
+      <edge source="半夏" target="吴茱萸" id="457" weight="2.0" />
+      <edge source="半夏" target="牡丹皮" id="458" weight="3.0" />
+      <edge source="半夏" target="阿胶" id="459" weight="3.0" />
+      <edge source="半夏" target="凌霄花" id="460" weight="2.0" />
+      <edge source="半夏" target="土鳖虫" id="461" weight="2.0" />
+      <edge source="半夏" target="桃仁" id="462" weight="2.0" />
+      <edge source="半夏" target="瞿麦" id="463" weight="2.0" />
+      <edge source="半夏" target="石韦" id="464" weight="2.0" />
+      <edge source="半夏" target="葶苈子" id="465" weight="2.0" />
+      <edge source="半夏" target="蜂房" id="466" weight="2.0" />
+      <edge source="半夏" target="蜣螂" id="467" weight="2.0" />
+      <edge source="半夏" target="赤硝" id="468" weight="2.0" />
+      <edge source="半夏" target="鳖甲" id="469" weight="2.0" />
+      <edge source="半夏" target="鼠妇" id="470" weight="2.0" />
+      <edge source="半夏" target="天南星" id="471" weight="3.0" />
+      <edge source="半夏" target="川乌" id="472" weight="2.0" />
+      <edge source="半夏" target="白附子" id="473" weight="3.0" />
+      <edge source="半夏" target="广藿香" id="474" weight="2.0" />
+      <edge source="半夏" target="胆南星" id="475" weight="3.0" />
+      <edge source="半夏" target="竹茹" id="476" weight="2.0" />
+      <edge source="半夏" target="白茯苓" id="477" weight="2.0" />
+      <edge source="白术" target="肉桂" id="478" weight="5.0" />
+      <edge source="白术" target="附子" id="479" weight="10.0" />
+      <edge source="白术" target="厚朴" id="480" weight="5.0" />
+      <edge source="白术" target="柴胡" id="481" weight="5.0" />
+      <edge source="白术" target="知母" id="482" weight="3.0" />
+      <edge source="白术" target="茯苓" id="483" weight="22.0" />
+      <edge source="白术" target="青皮" id="484" weight="4.0" />
+      <edge source="白术" target="麦冬" id="485" weight="3.0" />
+      <edge source="白术" target="黄芩" id="486" weight="5.0" />
+      <edge source="白术" target="当归" id="487" weight="14.0" />
+      <edge source="白术" target="栀子" id="488" weight="3.0" />
+      <edge source="白术" target="炮姜" id="489" weight="2.0" />
+      <edge source="白术" target="白芍" id="490" weight="9.0" />
+      <edge source="白术" target="薄荷" id="491" weight="3.0" />
+      <edge source="白术" target="川芎" id="492" weight="7.0" />
+      <edge source="白术" target="泽泻" id="493" weight="11.0" />
+      <edge source="白术" target="防风" id="494" weight="9.0" />
+      <edge source="白术" target="陈皮" id="495" weight="13.0" />
+      <edge source="白术" target="白芷" id="496" weight="4.0" />
+      <edge source="白术" target="白茯苓" id="497" weight="6.0" />
+      <edge source="白术" target="桔梗" id="498" weight="4.0" />
+      <edge source="白术" target="滑石" id="499" weight="3.0" />
+      <edge source="白术" target="石膏" id="500" weight="2.0" />
+      <edge source="白术" target="五味子" id="501" weight="3.0" />
+      <edge source="白术" target="人参" id="502" weight="25.0" />
+      <edge source="白术" target="升麻" id="503" weight="4.0" />
+      <edge source="白术" target="神曲" id="504" weight="6.0" />
+      <edge source="白术" target="苍术" id="505" weight="4.0" />
+      <edge source="白术" target="黄芪" id="506" weight="9.0" />
+      <edge source="白术" target="干姜" id="507" weight="8.0" />
+      <edge source="白术" target="麝香" id="508" weight="2.0" />
+      <edge source="白术" target="木香" id="509" weight="7.0" />
+      <edge source="白术" target="砂仁" id="510" weight="5.0" />
+      <edge source="白术" target="党参" id="511" weight="2.0" />
+      <edge source="白术" target="山药" id="512" weight="3.0" />
+      <edge source="白术" target="白扁豆" id="513" weight="2.0" />
+      <edge source="白术" target="莲子" id="514" weight="2.0" />
+      <edge source="白术" target="薏苡仁" id="515" weight="2.0" />
+      <edge source="白术" target="广藿香" id="516" weight="3.0" />
+      <edge source="白术" target="羌活" id="517" weight="2.0" />
+      <edge source="白术" target="黄连" id="518" weight="4.0" />
+      <edge source="白术" target="远志" id="519" weight="2.0" />
+      <edge source="白术" target="桂心" id="520" weight="3.0" />
+      <edge source="白术" target="熟地" id="521" weight="3.0" />
+      <edge source="白术" target="牛膝" id="522" weight="2.0" />
+      <edge source="白术" target="生地" id="523" weight="2.0" />
+      <edge source="白术" target="香附" id="524" weight="2.0" />
+      <edge source="白术" target="半夏曲" id="525" weight="3.0" />
+      <edge source="白术" target="猪苓" id="526" weight="4.0" />
+      <edge source="白术" target="橘红" id="527" weight="3.0" />
+      <edge source="白术" target="麦芽" id="528" weight="3.0" />
+      <edge source="白术" target="枳实" id="529" weight="4.0" />
+      <edge source="人参" target="肉桂" id="530" weight="6.0" />
+      <edge source="人参" target="附子" id="531" weight="11.0" />
+      <edge source="人参" target="柴胡" id="532" weight="10.0" />
+      <edge source="人参" target="白芍" id="533" weight="11.0" />
+      <edge source="人参" target="黄芩" id="534" weight="11.0" />
+      <edge source="人参" target="前胡" id="535" weight="2.0" />
+      <edge source="人参" target="川芎" id="536" weight="14.0" />
+      <edge source="人参" target="枳壳" id="537" weight="4.0" />
+      <edge source="人参" target="桔梗" id="538" weight="6.0" />
+      <edge source="人参" target="独活" id="539" weight="3.0" />
+      <edge source="人参" target="羌活" id="540" weight="4.0" />
+      <edge source="人参" target="茯苓" id="541" weight="22.0" />
+      <edge source="人参" target="骨碎补" id="542" weight="3.0" />
+      <edge source="人参" target="木香" id="543" weight="7.0" />
+      <edge source="人参" target="粉葛" id="544" weight="2.0" />
+      <edge source="人参" target="陈皮" id="545" weight="13.0" />
+      <edge source="人参" target="细辛" id="546" weight="4.0" />
+      <edge source="人参" target="防风" id="547" weight="7.0" />
+      <edge source="人参" target="黄芪" id="548" weight="9.0" />
+      <edge source="人参" target="干姜" id="549" weight="20.0" />
+      <edge source="人参" target="当归" id="550" weight="20.0" />
+      <edge source="人参" target="石膏" id="551" weight="5.0" />
+      <edge source="人参" target="大黄" id="552" weight="5.0" />
+      <edge source="人参" target="厚朴" id="553" weight="7.0" />
+      <edge source="人参" target="枳实" id="554" weight="4.0" />
+      <edge source="人参" target="黄连" id="555" weight="11.0" />
+      <edge source="人参" target="知母" id="556" weight="4.0" />
+      <edge source="人参" target="粳米" id="557" weight="4.0" />
+      <edge source="人参" target="麦冬" id="558" weight="13.0" />
+      <edge source="人参" target="赤茯苓" id="559" weight="3.0" />
+      <edge source="人参" target="五味子" id="560" weight="8.0" />
+      <edge source="人参" target="升麻" id="561" weight="4.0" />
+      <edge source="人参" target="泽泻" id="562" weight="7.0" />
+      <edge source="人参" target="神曲" id="563" weight="4.0" />
+      <edge source="人参" target="苍术" id="564" weight="3.0" />
+      <edge source="人参" target="青皮" id="565" weight="3.0" />
+      <edge source="人参" target="黄柏" id="566" weight="2.0" />
+      <edge source="人参" target="吴茱萸" id="567" weight="2.0" />
+      <edge source="人参" target="花椒" id="568" weight="2.0" />
+      <edge source="人参" target="桂心" id="569" weight="3.0" />
+      <edge source="人参" target="桑螵蛸" id="570" weight="2.0" />
+      <edge source="人参" target="生地" id="571" weight="4.0" />
+      <edge source="人参" target="远志" id="572" weight="7.0" />
+      <edge source="人参" target="砂仁" id="573" weight="5.0" />
+      <edge source="人参" target="山药" id="574" weight="4.0" />
+      <edge source="人参" target="白扁豆" id="575" weight="3.0" />
+      <edge source="人参" target="莲子" id="576" weight="2.0" />
+      <edge source="人参" target="薏苡仁" id="577" weight="2.0" />
+      <edge source="人参" target="广藿香" id="578" weight="3.0" />
+      <edge source="人参" target="白茯苓" id="579" weight="8.0" />
+      <edge source="人参" target="酸枣仁" id="580" weight="3.0" />
+      <edge source="人参" target="熟地" id="581" weight="5.0" />
+      <edge source="人参" target="柏子仁" id="582" weight="2.0" />
+      <edge source="人参" target="牛膝" id="583" weight="4.0" />
+      <edge source="人参" target="白芷" id="584" weight="2.0" />
+      <edge source="人参" target="石斛" id="585" weight="2.0" />
+      <edge source="人参" target="地黄" id="586" weight="4.0" />
+      <edge source="人参" target="阿胶" id="587" weight="5.0" />
+      <edge source="人参" target="天冬" id="588" weight="2.0" />
+      <edge source="人参" target="枸杞子" id="589" weight="2.0" />
+      <edge source="人参" target="龟甲" id="590" weight="2.0" />
+      <edge source="人参" target="石菖蒲" id="591" weight="3.0" />
+      <edge source="人参" target="龙骨" id="592" weight="2.0" />
+      <edge source="人参" target="蜂蜜" id="593" weight="2.0" />
+      <edge source="人参" target="竹茹" id="594" weight="2.0" />
+      <edge source="人参" target="牡丹皮" id="595" weight="3.0" />
+      <edge source="人参" target="凌霄花" id="596" weight="2.0" />
+      <edge source="人参" target="土鳖虫" id="597" weight="2.0" />
+      <edge source="人参" target="射干" id="598" weight="2.0" />
+      <edge source="人参" target="桃仁" id="599" weight="2.0" />
+      <edge source="人参" target="瞿麦" id="600" weight="2.0" />
+      <edge source="人参" target="石韦" id="601" weight="2.0" />
+      <edge source="人参" target="葶苈子" id="602" weight="2.0" />
+      <edge source="人参" target="蜂房" id="603" weight="2.0" />
+      <edge source="人参" target="蜣螂" id="604" weight="2.0" />
+      <edge source="人参" target="赤硝" id="605" weight="2.0" />
+      <edge source="人参" target="鳖甲" id="606" weight="2.0" />
+      <edge source="人参" target="鼠妇" id="607" weight="2.0" />
+      <edge source="人参" target="猪苓" id="608" weight="2.0" />
+      <edge source="人参" target="橘红" id="609" weight="3.0" />
+      <edge source="人参" target="麦芽" id="610" weight="3.0" />
+      <edge source="天花粉" target="乳香" id="611" weight="2.0" />
+      <edge source="天花粉" target="大皂角" id="612" weight="2.0" />
+      <edge source="天花粉" target="川贝母" id="613" weight="2.0" />
+      <edge source="天花粉" target="当归" id="614" weight="4.0" />
+      <edge source="天花粉" target="没药" id="615" weight="2.0" />
+      <edge source="天花粉" target="白芷" id="616" weight="2.0" />
+      <edge source="天花粉" target="穿山甲" id="617" weight="3.0" />
+      <edge source="天花粉" target="赤芍" id="618" weight="2.0" />
+      <edge source="天花粉" target="金银花" id="619" weight="2.0" />
+      <edge source="天花粉" target="防风" id="620" weight="2.0" />
+      <edge source="天花粉" target="陈皮" id="621" weight="2.0" />
+      <edge source="天花粉" target="柴胡" id="622" weight="2.0" />
+      <edge source="天花粉" target="牡蛎" id="623" weight="2.0" />
+      <edge source="石膏" target="蝉蜕" id="624" weight="2.0" />
+      <edge source="石膏" target="川芎" id="625" weight="3.0" />
+      <edge source="石膏" target="干姜" id="626" weight="4.0" />
+      <edge source="石膏" target="当归" id="627" weight="3.0" />
+      <edge source="石膏" target="知母" id="628" weight="6.0" />
+      <edge source="石膏" target="粳米" id="629" weight="5.0" />
+      <edge source="石膏" target="苍术" id="630" weight="2.0" />
+      <edge source="石膏" target="麦冬" id="631" weight="3.0" />
+      <edge source="石膏" target="栀子" id="632" weight="3.0" />
+      <edge source="石膏" target="防风" id="633" weight="4.0" />
+      <edge source="石膏" target="大黄" id="634" weight="2.0" />
+      <edge source="石膏" target="滑石" id="635" weight="3.0" />
+      <edge source="石膏" target="荆芥" id="636" weight="2.0" />
+      <edge source="石膏" target="黄芩" id="637" weight="2.0" />
+      <edge source="厚朴" target="肉桂" id="638" weight="3.0" />
+      <edge source="厚朴" target="附子" id="639" weight="4.0" />
+      <edge source="厚朴" target="赤茯苓" id="640" weight="2.0" />
+      <edge source="厚朴" target="大黄" id="641" weight="9.0" />
+      <edge source="厚朴" target="枳实" id="642" weight="10.0" />
+      <edge source="厚朴" target="芒硝" id="643" weight="2.0" />
+      <edge source="厚朴" target="当归" id="644" weight="5.0" />
+      <edge source="厚朴" target="桔梗" id="645" weight="3.0" />
+      <edge source="厚朴" target="骨碎补" id="646" weight="2.0" />
+      <edge source="厚朴" target="槟榔" id="647" weight="3.0" />
+      <edge source="厚朴" target="知母" id="648" weight="2.0" />
+      <edge source="厚朴" target="草果" id="649" weight="2.0" />
+      <edge source="厚朴" target="黄芩" id="650" weight="4.0" />
+      <edge source="厚朴" target="柴胡" id="651" weight="3.0" />
+      <edge source="厚朴" target="茯苓" id="652" weight="7.0" />
+      <edge source="厚朴" target="麦冬" id="653" weight="2.0" />
+      <edge source="厚朴" target="栀子" id="654" weight="2.0" />
+      <edge source="厚朴" target="川芎" id="655" weight="3.0" />
+      <edge source="厚朴" target="干姜" id="656" weight="8.0" />
+      <edge source="厚朴" target="枳壳" id="657" weight="2.0" />
+      <edge source="厚朴" target="白芷" id="658" weight="3.0" />
+      <edge source="厚朴" target="苍术" id="659" weight="5.0" />
+      <edge source="厚朴" target="陈皮" id="660" weight="9.0" />
+      <edge source="厚朴" target="白扁豆" id="661" weight="2.0" />
+      <edge source="厚朴" target="香薷" id="662" weight="2.0" />
+      <edge source="厚朴" target="桂心" id="663" weight="5.0" />
+      <edge source="厚朴" target="细辛" id="664" weight="2.0" />
+      <edge source="厚朴" target="防风" id="665" weight="2.0" />
+      <edge source="厚朴" target="木香" id="666" weight="3.0" />
+      <edge source="厚朴" target="木通" id="667" weight="2.0" />
+      <edge source="厚朴" target="桃仁" id="668" weight="3.0" />
+      <edge source="厚朴" target="凌霄花" id="669" weight="2.0" />
+      <edge source="厚朴" target="土鳖虫" id="670" weight="2.0" />
+      <edge source="厚朴" target="射干" id="671" weight="2.0" />
+      <edge source="厚朴" target="牡丹皮" id="672" weight="2.0" />
+      <edge source="厚朴" target="瞿麦" id="673" weight="2.0" />
+      <edge source="厚朴" target="石韦" id="674" weight="2.0" />
+      <edge source="厚朴" target="葶苈子" id="675" weight="2.0" />
+      <edge source="厚朴" target="蜂房" id="676" weight="2.0" />
+      <edge source="厚朴" target="蜣螂" id="677" weight="2.0" />
+      <edge source="厚朴" target="赤硝" id="678" weight="2.0" />
+      <edge source="厚朴" target="阿胶" id="679" weight="2.0" />
+      <edge source="厚朴" target="鳖甲" id="680" weight="2.0" />
+      <edge source="厚朴" target="鼠妇" id="681" weight="2.0" />
+      <edge source="厚朴" target="广藿香" id="682" weight="3.0" />
+      <edge source="厚朴" target="半夏曲" id="683" weight="2.0" />
+      <edge source="厚朴" target="泽泻" id="684" weight="2.0" />
+      <edge source="大黄" target="肉桂" id="685" weight="2.0" />
+      <edge source="大黄" target="附子" id="686" weight="4.0" />
+      <edge source="大黄" target="枳实" id="687" weight="8.0" />
+      <edge source="大黄" target="芒硝" id="688" weight="12.0" />
+      <edge source="大黄" target="葶苈子" id="689" weight="4.0" />
+      <edge source="大黄" target="甘遂" id="690" weight="2.0" />
+      <edge source="大黄" target="冬瓜仁" id="691" weight="2.0" />
+      <edge source="大黄" target="桃仁" id="692" weight="9.0" />
+      <edge source="大黄" target="牡丹皮" id="693" weight="5.0" />
+      <edge source="大黄" target="干姜" id="694" weight="5.0" />
+      <edge source="大黄" target="火麻仁" id="695" weight="2.0" />
+      <edge source="大黄" target="木香" id="696" weight="5.0" />
+      <edge source="大黄" target="牵牛子" id="697" weight="2.0" />
+      <edge source="大黄" target="青皮" id="698" weight="2.0" />
+      <edge source="大黄" target="玄参" id="699" weight="2.0" />
+      <edge source="大黄" target="生地" id="700" weight="3.0" />
+      <edge source="大黄" target="麦冬" id="701" weight="2.0" />
+      <edge source="大黄" target="当归" id="702" weight="6.0" />
+      <edge source="大黄" target="桔梗" id="703" weight="2.0" />
+      <edge source="大黄" target="柴胡" id="704" weight="5.0" />
+      <edge source="大黄" target="黄芩" id="705" weight="10.0" />
+      <edge source="大黄" target="黄连" id="706" weight="6.0" />
+      <edge source="大黄" target="栀子" id="707" weight="7.0" />
+      <edge source="大黄" target="薄荷" id="708" weight="2.0" />
+      <edge source="大黄" target="连翘" id="709" weight="2.0" />
+      <edge source="大黄" target="川芎" id="710" weight="2.0" />
+      <edge source="大黄" target="防风" id="711" weight="2.0" />
+      <edge source="大黄" target="龙胆" id="712" weight="2.0" />
+      <edge source="大黄" target="黄柏" id="713" weight="2.0" />
+      <edge source="大黄" target="槟榔" id="714" weight="4.0" />
+      <edge source="大黄" target="滑石" id="715" weight="2.0" />
+      <edge source="大黄" target="牡蛎" id="716" weight="2.0" />
+      <edge source="大黄" target="龙骨" id="717" weight="2.0" />
+      <edge source="大黄" target="土鳖虫" id="718" weight="4.0" />
+      <edge source="大黄" target="水蛭" id="719" weight="3.0" />
+      <edge source="大黄" target="虻虫" id="720" weight="3.0" />
+      <edge source="大黄" target="凌霄花" id="721" weight="2.0" />
+      <edge source="大黄" target="射干" id="722" weight="2.0" />
+      <edge source="大黄" target="瞿麦" id="723" weight="2.0" />
+      <edge source="大黄" target="石韦" id="724" weight="2.0" />
+      <edge source="大黄" target="蜂房" id="725" weight="2.0" />
+      <edge source="大黄" target="蜣螂" id="726" weight="2.0" />
+      <edge source="大黄" target="赤硝" id="727" weight="2.0" />
+      <edge source="大黄" target="阿胶" id="728" weight="2.0" />
+      <edge source="大黄" target="鳖甲" id="729" weight="2.0" />
+      <edge source="大黄" target="鼠妇" id="730" weight="2.0" />
+      <edge source="大黄" target="郁李仁" id="731" weight="2.0" />
+      <edge source="大黄" target="陈皮" id="732" weight="2.0" />
+      <edge source="干姜" target="肉桂" id="733" weight="2.0" />
+      <edge source="干姜" target="附子" id="734" weight="15.0" />
+      <edge source="干姜" target="川芎" id="735" weight="6.0" />
+      <edge source="干姜" target="生地" id="736" weight="3.0" />
+      <edge source="干姜" target="白芷" id="737" weight="2.0" />
+      <edge source="干姜" target="细辛" id="738" weight="5.0" />
+      <edge source="干姜" target="防风" id="739" weight="2.0" />
+      <edge source="干姜" target="黄芩" id="740" weight="6.0" />
+      <edge source="干姜" target="葱白" id="741" weight="2.0" />
+      <edge source="干姜" target="黄连" id="742" weight="6.0" />
+      <edge source="干姜" target="五味子" id="743" weight="4.0" />
+      <edge source="干姜" target="白芍" id="744" weight="3.0" />
+      <edge source="干姜" target="当归" id="745" weight="8.0" />
+      <edge source="干姜" target="柴胡" id="746" weight="3.0" />
+      <edge source="干姜" target="牡蛎" id="747" weight="2.0" />
+      <edge source="干姜" target="茯苓" id="748" weight="8.0" />
+      <edge source="干姜" target="陈皮" id="749" weight="4.0" />
+      <edge source="干姜" target="花椒" id="750" weight="3.0" />
+      <edge source="干姜" target="赤石脂" id="751" weight="3.0" />
+      <edge source="干姜" target="艾叶" id="752" weight="2.0" />
+      <edge source="干姜" target="阿胶" id="753" weight="4.0" />
+      <edge source="干姜" target="桂心" id="754" weight="2.0" />
+      <edge source="干姜" target="泽兰" id="755" weight="2.0" />
+      <edge source="干姜" target="牛膝" id="756" weight="2.0" />
+      <edge source="干姜" target="黄柏" id="757" weight="2.0" />
+      <edge source="干姜" target="龙骨" id="758" weight="2.0" />
+      <edge source="干姜" target="木香" id="759" weight="2.0" />
+      <edge source="干姜" target="凌霄花" id="760" weight="2.0" />
+      <edge source="干姜" target="土鳖虫" id="761" weight="2.0" />
+      <edge source="干姜" target="射干" id="762" weight="2.0" />
+      <edge source="干姜" target="桃仁" id="763" weight="2.0" />
+      <edge source="干姜" target="牡丹皮" id="764" weight="2.0" />
+      <edge source="干姜" target="瞿麦" id="765" weight="2.0" />
+      <edge source="干姜" target="石韦" id="766" weight="2.0" />
+      <edge source="干姜" target="葶苈子" id="767" weight="2.0" />
+      <edge source="干姜" target="蜂房" id="768" weight="2.0" />
+      <edge source="干姜" target="蜣螂" id="769" weight="2.0" />
+      <edge source="干姜" target="赤硝" id="770" weight="2.0" />
+      <edge source="干姜" target="鳖甲" id="771" weight="2.0" />
+      <edge source="干姜" target="鼠妇" id="772" weight="2.0" />
+      <edge source="白芍" target="肉桂" id="773" weight="5.0" />
+      <edge source="白芍" target="附子" id="774" weight="3.0" />
+      <edge source="白芍" target="川芎" id="775" weight="9.0" />
+      <edge source="白芍" target="生地" id="776" weight="2.0" />
+      <edge source="白芍" target="细辛" id="777" weight="4.0" />
+      <edge source="白芍" target="羌活" id="778" weight="2.0" />
+      <edge source="白芍" target="防风" id="779" weight="5.0" />
+      <edge source="白芍" target="黄芩" id="780" weight="3.0" />
+      <edge source="白芍" target="独活" id="781" weight="2.0" />
+      <edge source="白芍" target="黄连" id="782" weight="2.0" />
+      <edge source="白芍" target="五味子" id="783" weight="2.0" />
+      <edge source="白芍" target="柴胡" id="784" weight="5.0" />
+      <edge source="白芍" target="炮姜" id="785" weight="3.0" />
+      <edge source="白芍" target="黄芪" id="786" weight="5.0" />
+      <edge source="白芍" target="当归" id="787" weight="12.0" />
+      <edge source="白芍" target="茯苓" id="788" weight="8.0" />
+      <edge source="白芍" target="薄荷" id="789" weight="2.0" />
+      <edge source="白芍" target="陈皮" id="790" weight="5.0" />
+      <edge source="白芍" target="熟地" id="791" weight="5.0" />
+      <edge source="白芍" target="牛膝" id="792" weight="2.0" />
+      <edge source="细辛" target="肉桂" id="793" weight="2.0" />
+      <edge source="细辛" target="附子" id="794" weight="5.0" />
+      <edge source="细辛" target="川芎" id="795" weight="7.0" />
+      <edge source="细辛" target="生地" id="796" weight="3.0" />
+      <edge source="细辛" target="白芷" id="797" weight="4.0" />
+      <edge source="细辛" target="羌活" id="798" weight="4.0" />
+      <edge source="细辛" target="苍术" id="799" weight="3.0" />
+      <edge source="细辛" target="防风" id="800" weight="7.0" />
+      <edge source="细辛" target="独活" id="801" weight="3.0" />
+      <edge source="细辛" target="黄连" id="802" weight="2.0" />
+      <edge source="细辛" target="五味子" id="803" weight="4.0" />
+      <edge source="细辛" target="当归" id="804" weight="6.0" />
+      <edge source="细辛" target="通草" id="805" weight="2.0" />
+      <edge source="细辛" target="茯苓" id="806" weight="3.0" />
+      <edge source="细辛" target="牛膝" id="807" weight="3.0" />
+      <edge source="细辛" target="杜仲" id="808" weight="2.0" />
+      <edge source="细辛" target="秦艽" id="809" weight="2.0" />
+      <edge source="柴胡" target="川芎" id="810" weight="6.0" />
+      <edge source="柴胡" target="羌活" id="811" weight="6.0" />
+      <edge source="柴胡" target="防风" id="812" weight="3.0" />
+      <edge source="柴胡" target="黄芩" id="813" weight="12.0" />
+      <edge source="柴胡" target="独活" id="814" weight="4.0" />
+      <edge source="柴胡" target="黄连" id="815" weight="3.0" />
+      <edge source="柴胡" target="前胡" id="816" weight="2.0" />
+      <edge source="柴胡" target="射干" id="817" weight="2.0" />
+      <edge source="柴胡" target="桔梗" id="818" weight="7.0" />
+      <edge source="柴胡" target="枳壳" id="819" weight="4.0" />
+      <edge source="柴胡" target="茯苓" id="820" weight="8.0" />
+      <edge source="柴胡" target="薄荷" id="821" weight="7.0" />
+      <edge source="柴胡" target="枳实" id="822" weight="3.0" />
+      <edge source="柴胡" target="麦冬" id="823" weight="2.0" />
+      <edge source="柴胡" target="陈皮" id="824" weight="5.0" />
+      <edge source="柴胡" target="当归" id="825" weight="5.0" />
+      <edge source="柴胡" target="栀子" id="826" weight="2.0" />
+      <edge source="柴胡" target="炮姜" id="827" weight="2.0" />
+      <edge source="柴胡" target="牡丹皮" id="828" weight="3.0" />
+      <edge source="柴胡" target="升麻" id="829" weight="3.0" />
+      <edge source="柴胡" target="牛蒡子" id="830" weight="2.0" />
+      <edge source="柴胡" target="玄参" id="831" weight="2.0" />
+      <edge source="柴胡" target="连翘" id="832" weight="2.0" />
+      <edge source="柴胡" target="黄芪" id="833" weight="3.0" />
+      <edge source="柴胡" target="牡蛎" id="834" weight="2.0" />
+      <edge source="柴胡" target="桃仁" id="835" weight="3.0" />
+      <edge source="柴胡" target="凌霄花" id="836" weight="2.0" />
+      <edge source="柴胡" target="土鳖虫" id="837" weight="2.0" />
+      <edge source="柴胡" target="瞿麦" id="838" weight="2.0" />
+      <edge source="柴胡" target="石韦" id="839" weight="2.0" />
+      <edge source="柴胡" target="葶苈子" id="840" weight="2.0" />
+      <edge source="柴胡" target="蜂房" id="841" weight="2.0" />
+      <edge source="柴胡" target="蜣螂" id="842" weight="2.0" />
+      <edge source="柴胡" target="赤硝" id="843" weight="2.0" />
+      <edge source="柴胡" target="阿胶" id="844" weight="2.0" />
+      <edge source="柴胡" target="鳖甲" id="845" weight="2.0" />
+      <edge source="柴胡" target="鼠妇" id="846" weight="2.0" />
+      <edge source="黄芩" target="肉桂" id="847" weight="2.0" />
+      <edge source="黄芩" target="附子" id="848" weight="4.0" />
+      <edge source="黄芩" target="薏苡仁" id="849" weight="2.0" />
+      <edge source="黄芩" target="桑白皮" id="850" weight="2.0" />
+      <edge source="黄芩" target="紫苏子" id="851" weight="2.0" />
+      <edge source="黄芩" target="川芎" id="852" weight="7.0" />
+      <edge source="黄芩" target="生地" id="853" weight="4.0" />
+      <edge source="黄芩" target="白芷" id="854" weight="2.0" />
+      <edge source="黄芩" target="羌活" id="855" weight="4.0" />
+      <edge source="黄芩" target="苍术" id="856" weight="2.0" />
+      <edge source="黄芩" target="防风" id="857" weight="5.0" />
+      <edge source="黄芩" target="桔梗" id="858" weight="5.0" />
+      <edge source="黄芩" target="地榆" id="859" weight="2.0" />
+      <edge source="黄芩" target="当归" id="860" weight="9.0" />
+      <edge source="黄芩" target="玄参" id="861" weight="4.0" />
+      <edge source="黄芩" target="金银花" id="862" weight="2.0" />
+      <edge source="黄芩" target="麦冬" id="863" weight="5.0" />
+      <edge source="黄芩" target="党参" id="864" weight="2.0" />
+      <edge source="黄芩" target="枳实" id="865" weight="3.0" />
+      <edge source="黄芩" target="槟榔" id="866" weight="2.0" />
+      <edge source="黄芩" target="知母" id="867" weight="3.0" />
+      <edge source="黄芩" target="草果" id="868" weight="2.0" />
+      <edge source="黄芩" target="茯苓" id="869" weight="3.0" />
+      <edge source="黄芩" target="黄连" id="870" weight="15.0" />
+      <edge source="黄芩" target="栀子" id="871" weight="7.0" />
+      <edge source="黄芩" target="黄柏" id="872" weight="5.0" />
+      <edge source="黄芩" target="芒硝" id="873" weight="2.0" />
+      <edge source="黄芩" target="薄荷" id="874" weight="4.0" />
+      <edge source="黄芩" target="连翘" id="875" weight="4.0" />
+      <edge source="黄芩" target="升麻" id="876" weight="3.0" />
+      <edge source="黄芩" target="牛蒡子" id="877" weight="2.0" />
+      <edge source="黄芩" target="陈皮" id="878" weight="2.0" />
+      <edge source="黄芩" target="地黄" id="879" weight="2.0" />
+      <edge source="黄芩" target="赤芍" id="880" weight="2.0" />
+      <edge source="黄芩" target="车前子" id="881" weight="2.0" />
+      <edge source="黄芩" target="黄芪" id="882" weight="3.0" />
+      <edge source="黄芩" target="木香" id="883" weight="2.0" />
+      <edge source="黄芩" target="熟地" id="884" weight="2.0" />
+      <edge source="黄芩" target="泽泻" id="885" weight="2.0" />
+      <edge source="黄芩" target="阿胶" id="886" weight="4.0" />
+      <edge source="黄芩" target="款冬花" id="887" weight="2.0" />
+      <edge source="黄芩" target="白果" id="888" weight="2.0" />
+      <edge source="黄芩" target="土鳖虫" id="889" weight="3.0" />
+      <edge source="黄芩" target="桃仁" id="890" weight="3.0" />
+      <edge source="黄芩" target="凌霄花" id="891" weight="2.0" />
+      <edge source="黄芩" target="射干" id="892" weight="2.0" />
+      <edge source="黄芩" target="牡丹皮" id="893" weight="2.0" />
+      <edge source="黄芩" target="瞿麦" id="894" weight="2.0" />
+      <edge source="黄芩" target="石韦" id="895" weight="2.0" />
+      <edge source="黄芩" target="葶苈子" id="896" weight="2.0" />
+      <edge source="黄芩" target="蜂房" id="897" weight="2.0" />
+      <edge source="黄芩" target="蜣螂" id="898" weight="2.0" />
+      <edge source="黄芩" target="赤硝" id="899" weight="2.0" />
+      <edge source="黄芩" target="鳖甲" id="900" weight="2.0" />
+      <edge source="黄芩" target="鼠妇" id="901" weight="2.0" />
+      <edge source="黄芩" target="瓜蒌子" id="902" weight="2.0" />
+      <edge source="川芎" target="肉桂" id="903" weight="5.0" />
+      <edge source="川芎" target="附子" id="904" weight="4.0" />
+      <edge source="川芎" target="生地" id="905" weight="8.0" />
+      <edge source="川芎" target="白芷" id="906" weight="5.0" />
+      <edge source="川芎" target="羌活" id="907" weight="12.0" />
+      <edge source="川芎" target="苍术" id="908" weight="5.0" />
+      <edge source="川芎" target="防风" id="909" weight="14.0" />
+      <edge source="川芎" target="独活" id="910" weight="8.0" />
+      <edge source="川芎" target="知母" id="911" weight="2.0" />
+      <edge source="川芎" target="防己" id="912" weight="2.0" />
+      <edge source="川芎" target="黄连" id="913" weight="3.0" />
+      <edge source="川芎" target="枳壳" id="914" weight="7.0" />
+      <edge source="川芎" target="桔梗" id="915" weight="6.0" />
+      <edge source="川芎" target="茯苓" id="916" weight="13.0" />
+      <edge source="川芎" target="薄荷" id="917" weight="7.0" />
+      <edge source="川芎" target="前胡" id="918" weight="2.0" />
+      <edge source="川芎" target="荆芥" id="919" weight="4.0" />
+      <edge source="川芎" target="黄芪" id="920" weight="4.0" />
+      <edge source="川芎" target="当归" id="921" weight="22.0" />
+      <edge source="川芎" target="陈皮" id="922" weight="4.0" />
+      <edge source="川芎" target="香附" id="923" weight="4.0" />
+      <edge source="川芎" target="泽泻" id="924" weight="2.0" />
+      <edge source="川芎" target="地黄" id="925" weight="3.0" />
+      <edge source="川芎" target="栀子" id="926" weight="5.0" />
+      <edge source="川芎" target="赤芍" id="927" weight="2.0" />
+      <edge source="川芎" target="连翘" id="928" weight="2.0" />
+      <edge source="川芎" target="五味子" id="929" weight="2.0" />
+      <edge source="川芎" target="桂心" id="930" weight="3.0" />
+      <edge source="川芎" target="麦冬" id="931" weight="4.0" />
+      <edge source="川芎" target="艾叶" id="932" weight="2.0" />
+      <edge source="川芎" target="阿胶" id="933" weight="3.0" />
+      <edge source="川芎" target="牛膝" id="934" weight="6.0" />
+      <edge source="川芎" target="石斛" id="935" weight="2.0" />
+      <edge source="川芎" target="藁本" id="936" weight="2.0" />
+      <edge source="川芎" target="熟地" id="937" weight="4.0" />
+      <edge source="川芎" target="续断" id="938" weight="2.0" />
+      <edge source="川芎" target="菊花" id="939" weight="2.0" />
+      <edge source="川芎" target="蒺藜" id="940" weight="3.0" />
+      <edge source="川芎" target="神曲" id="941" weight="2.0" />
+      <edge source="川芎" target="五灵脂" id="942" weight="2.0" />
+      <edge source="川芎" target="没药" id="943" weight="2.0" />
+      <edge source="川芎" target="秦艽" id="944" weight="3.0" />
+      <edge source="川芎" target="吴茱萸" id="945" weight="2.0" />
+      <edge source="川芎" target="蔓荆子" id="946" weight="2.0" />
+      <edge source="川芎" target="杜仲" id="947" weight="2.0" />
+      <edge source="防风" target="肉桂" id="948" weight="3.0" />
+      <edge source="防风" target="附子" id="949" weight="6.0" />
+      <edge source="防风" target="生地" id="950" weight="4.0" />
+      <edge source="防风" target="白芷" id="951" weight="7.0" />
+      <edge source="防风" target="羌活" id="952" weight="11.0" />
+      <edge source="防风" target="苍术" id="953" weight="6.0" />
+      <edge source="防风" target="独活" id="954" weight="7.0" />
+      <edge source="防风" target="知母" id="955" weight="4.0" />
+      <edge source="防风" target="防己" id="956" weight="3.0" />
+      <edge source="防风" target="黄连" id="957" weight="3.0" />
+      <edge source="防风" target="枳壳" id="958" weight="2.0" />
+      <edge source="防风" target="桔梗" id="959" weight="3.0" />
+      <edge source="防风" target="茯苓" id="960" weight="4.0" />
+      <edge source="防风" target="荆芥" id="961" weight="4.0" />
+      <edge source="防风" target="薄荷" id="962" weight="4.0" />
+      <edge source="防风" target="黄芪" id="963" weight="4.0" />
+      <edge source="防风" target="陈皮" id="964" weight="5.0" />
+      <edge source="防风" target="乳香" id="965" weight="3.0" />
+      <edge source="防风" target="大皂角" id="966" weight="2.0" />
+      <edge source="防风" target="川贝母" id="967" weight="2.0" />
+      <edge source="防风" target="当归" id="968" weight="10.0" />
+      <edge source="防风" target="没药" id="969" weight="3.0" />
+      <edge source="防风" target="穿山甲" id="970" weight="2.0" />
+      <edge source="防风" target="赤芍" id="971" weight="3.0" />
+      <edge source="防风" target="金银花" id="972" weight="2.0" />
+      <edge source="防风" target="栀子" id="973" weight="5.0" />
+      <edge source="防风" target="滑石" id="974" weight="2.0" />
+      <edge source="防风" target="连翘" id="975" weight="2.0" />
+      <edge source="防风" target="泽泻" id="976" weight="3.0" />
+      <edge source="防风" target="全蝎" id="977" weight="3.0" />
+      <edge source="防风" target="木香" id="978" weight="2.0" />
+      <edge source="防风" target="续断" id="979" weight="2.0" />
+      <edge source="防风" target="桂心" id="980" weight="2.0" />
+      <edge source="防风" target="泽兰" id="981" weight="2.0" />
+      <edge source="防风" target="牛膝" id="982" weight="5.0" />
+      <edge source="防风" target="石斛" id="983" weight="2.0" />
+      <edge source="防风" target="藁本" id="984" weight="2.0" />
+      <edge source="防风" target="麦冬" id="985" weight="2.0" />
+      <edge source="防风" target="熟地" id="986" weight="2.0" />
+      <edge source="防风" target="蒺藜" id="987" weight="2.0" />
+      <edge source="防风" target="木通" id="988" weight="2.0" />
+      <edge source="防风" target="牛蒡子" id="989" weight="2.0" />
+      <edge source="防风" target="苦参" id="990" weight="2.0" />
+      <edge source="防风" target="天麻" id="991" weight="2.0" />
+      <edge source="防风" target="白附子" id="992" weight="3.0" />
+      <edge source="防风" target="胆南星" id="993" weight="3.0" />
+      <edge source="防风" target="升麻" id="994" weight="2.0" />
+      <edge source="防风" target="猪苓" id="995" weight="2.0" />
+      <edge source="防风" target="川乌" id="996" weight="2.0" />
+      <edge source="防风" target="杜仲" id="997" weight="2.0" />
+      <edge source="防风" target="秦艽" id="998" weight="2.0" />
+      <edge source="附子" target="肉桂" id="999" weight="10.0" />
+      <edge source="附子" target="黄芪" id="1000" weight="2.0" />
+      <edge source="附子" target="黄连" id="1001" weight="2.0" />
+      <edge source="附子" target="车前子" id="1002" weight="2.0" />
+      <edge source="附子" target="麦冬" id="1003" weight="4.0" />
+      <edge source="附子" target="五味子" id="1004" weight="3.0" />
+      <edge source="附子" target="茯苓" id="1005" weight="6.0" />
+      <edge source="附子" target="陈皮" id="1006" weight="3.0" />
+      <edge source="附子" target="麝香" id="1007" weight="2.0" />
+      <edge source="附子" target="葱白" id="1008" weight="2.0" />
+      <edge source="附子" target="木香" id="1009" weight="3.0" />
+      <edge source="附子" target="补骨脂" id="1010" weight="2.0" />
+      <edge source="附子" target="花椒" id="1011" weight="2.0" />
+      <edge source="附子" target="当归" id="1012" weight="4.0" />
+      <edge source="附子" target="桂心" id="1013" weight="3.0" />
+      <edge source="附子" target="泽兰" id="1014" weight="2.0" />
+      <edge source="附子" target="牛膝" id="1015" weight="3.0" />
+      <edge source="附子" target="生地" id="1016" weight="3.0" />
+      <edge source="附子" target="石斛" id="1017" weight="3.0" />
+      <edge source="附子" target="大青盐" id="1018" weight="2.0" />
+      <edge source="附子" target="山茱萸" id="1019" weight="4.0" />
+      <edge source="附子" target="山药" id="1020" weight="2.0" />
+      <edge source="附子" target="泽泻" id="1021" weight="3.0" />
+      <edge source="附子" target="牡丹皮" id="1022" weight="2.0" />
+      <edge source="附子" target="熟地" id="1023" weight="3.0" />
+      <edge source="附子" target="巴戟天" id="1024" weight="3.0" />
+      <edge source="附子" target="白茯苓" id="1025" weight="2.0" />
+      <edge source="附子" target="石菖蒲" id="1026" weight="2.0" />
+      <edge source="附子" target="肉苁蓉" id="1027" weight="2.0" />
+      <edge source="附子" target="薄荷" id="1028" weight="2.0" />
+      <edge source="附子" target="远志" id="1029" weight="2.0" />
+      <edge source="附子" target="吴茱萸" id="1030" weight="3.0" />
+      <edge source="附子" target="槟榔" id="1031" weight="2.0" />
+      <edge source="附子" target="薏苡仁" id="1032" weight="2.0" />
+      <edge source="附子" target="败酱" id="1033" weight="2.0" />
+      <edge source="黄芪" target="肉桂" id="1034" weight="2.0" />
+      <edge source="黄芪" target="赤茯苓" id="1035" weight="2.0" />
+      <edge source="黄芪" target="羌活" id="1036" weight="4.0" />
+      <edge source="黄芪" target="苍术" id="1037" weight="2.0" />
+      <edge source="黄芪" target="防己" id="1038" weight="2.0" />
+      <edge source="黄芪" target="黄连" id="1039" weight="2.0" />
+      <edge source="黄芪" target="升麻" id="1040" weight="2.0" />
+      <edge source="黄芪" target="茯苓" id="1041" weight="3.0" />
+      <edge source="黄芪" target="陈皮" id="1042" weight="4.0" />
+      <edge source="黄芪" target="麦冬" id="1043" weight="2.0" />
+      <edge source="黄芪" target="当归" id="1044" weight="9.0" />
+      <edge source="黄芪" target="熟地" id="1045" weight="3.0" />
+      <edge source="黄芪" target="黄柏" id="1046" weight="2.0" />
+      <edge source="黄芪" target="泽泻" id="1047" weight="3.0" />
+      <edge source="当归" target="肉桂" id="1048" weight="9.0" />
+      <edge source="当归" target="薏苡仁" id="1049" weight="4.0" />
+      <edge source="当归" target="赤茯苓" id="1050" weight="3.0" />
+      <edge source="当归" target="生地" id="1051" weight="8.0" />
+      <edge source="当归" target="白芷" id="1052" weight="6.0" />
+      <edge source="当归" target="羌活" id="1053" weight="7.0" />
+      <edge source="当归" target="苍术" id="1054" weight="6.0" />
+      <edge source="当归" target="独活" id="1055" weight="2.0" />
+      <edge source="当归" target="知母" id="1056" weight="3.0" />
+      <edge source="当归" target="黄连" id="1057" weight="9.0" />
+      <edge source="当归" target="荆芥" id="1058" weight="3.0" />
+      <edge source="当归" target="赤芍" id="1059" weight="4.0" />
+      <edge source="当归" target="五味子" id="1060" weight="4.0" />
+      <edge source="当归" target="牡丹皮" id="1061" weight="4.0" />
+      <edge source="当归" target="蒺藜" id="1062" weight="2.0" />
+      <edge source="当归" target="蝉蜕" id="1063" weight="2.0" />
+      <edge source="当归" target="桔梗" id="1064" weight="6.0" />
+      <edge source="当归" target="升麻" id="1065" weight="6.0" />
+      <edge source="当归" target="枳壳" id="1066" weight="2.0" />
+      <edge source="当归" target="茯苓" id="1067" weight="11.0" />
+      <edge source="当归" target="薄荷" id="1068" weight="5.0" />
+      <edge source="当归" target="骨碎补" id="1069" weight="3.0" />
+      <edge source="当归" target="木香" id="1070" weight="4.0" />
+      <edge source="当归" target="陈皮" id="1071" weight="8.0" />
+      <edge source="当归" target="炮姜" id="1072" weight="2.0" />
+      <edge source="当归" target="麦冬" id="1073" weight="8.0" />
+      <edge source="当归" target="地榆" id="1074" weight="2.0" />
+      <edge source="当归" target="玄参" id="1075" weight="5.0" />
+      <edge source="当归" target="金银花" id="1076" weight="4.0" />
+      <edge source="当归" target="枳实" id="1077" weight="2.0" />
+      <edge source="当归" target="芒硝" id="1078" weight="2.0" />
+      <edge source="当归" target="栀子" id="1079" weight="6.0" />
+      <edge source="当归" target="泽泻" id="1080" weight="4.0" />
+      <edge source="当归" target="乳香" id="1081" weight="3.0" />
+      <edge source="当归" target="大皂角" id="1082" weight="2.0" />
+      <edge source="当归" target="川贝母" id="1083" weight="3.0" />
+      <edge source="当归" target="没药" id="1084" weight="4.0" />
+      <edge source="当归" target="穿山甲" id="1085" weight="4.0" />
+      <edge source="当归" target="阿胶" id="1086" weight="4.0" />
+      <edge source="当归" target="龙胆" id="1087" weight="2.0" />
+      <edge source="当归" target="麝香" id="1088" weight="2.0" />
+      <edge source="当归" target="黄柏" id="1089" weight="5.0" />
+      <edge source="当归" target="槟榔" id="1090" weight="2.0" />
+      <edge source="当归" target="连翘" id="1091" weight="2.0" />
+      <edge source="当归" target="地黄" id="1092" weight="5.0" />
+      <edge source="当归" target="熟地" id="1093" weight="7.0" />
+      <edge source="当归" target="青皮" id="1094" weight="2.0" />
+      <edge source="当归" target="通草" id="1095" weight="2.0" />
+      <edge source="当归" target="吴茱萸" id="1096" weight="3.0" />
+      <edge source="当归" target="桂心" id="1097" weight="5.0" />
+      <edge source="当归" target="桑螵蛸" id="1098" weight="2.0" />
+      <edge source="当归" target="远志" id="1099" weight="5.0" />
+      <edge source="当归" target="艾叶" id="1100" weight="2.0" />
+      <edge source="当归" target="白茯苓" id="1101" weight="3.0" />
+      <edge source="当归" target="酸枣仁" id="1102" weight="2.0" />
+      <edge source="当归" target="柏子仁" id="1103" weight="2.0" />
+      <edge source="当归" target="牛膝" id="1104" weight="7.0" />
+      <edge source="当归" target="虎胫骨" id="1105" weight="2.0" />
+      <edge source="当归" target="龟甲" id="1106" weight="2.0" />
+      <edge source="当归" target="补骨脂" id="1107" weight="2.0" />
+      <edge source="当归" target="延胡索" id="1108" weight="2.0" />
+      <edge source="当归" target="五灵脂" id="1109" weight="2.0" />
+      <edge source="当归" target="桃仁" id="1110" weight="2.0" />
+      <edge source="当归" target="秦艽" id="1111" weight="3.0" />
+      <edge source="当归" target="红花" id="1112" weight="2.0" />
+      <edge source="当归" target="牛蒡子" id="1113" weight="2.0" />
+      <edge source="当归" target="苦参" id="1114" weight="2.0" />
+      <edge source="当归" target="慈姑" id="1115" weight="2.0" />
+      <edge source="当归" target="花椒" id="1116" weight="2.0" />
+      <edge source="当归" target="杜仲" id="1117" weight="2.0" />
+      <edge source="枳实" target="橘红" id="1118" weight="2.0" />
+      <edge source="枳实" target="黄连" id="1119" weight="3.0" />
+      <edge source="枳实" target="桔梗" id="1120" weight="2.0" />
+      <edge source="枳实" target="茯苓" id="1121" weight="3.0" />
+      <edge source="枳实" target="陈皮" id="1122" weight="4.0" />
+      <edge source="枳实" target="芒硝" id="1123" weight="2.0" />
+      <edge source="枳实" target="栀子" id="1124" weight="2.0" />
+      <edge source="枳实" target="瓜蒌子" id="1125" weight="3.0" />
+      <edge source="枳实" target="竹茹" id="1126" weight="2.0" />
+      <edge source="枳实" target="白茯苓" id="1127" weight="2.0" />
+      <edge source="黄连" target="生地" id="1128" weight="3.0" />
+      <edge source="黄连" target="羌活" id="1129" weight="2.0" />
+      <edge source="黄连" target="独活" id="1130" weight="2.0" />
+      <edge source="黄连" target="栀子" id="1131" weight="3.0" />
+      <edge source="黄连" target="黄柏" id="1132" weight="8.0" />
+      <edge source="黄连" target="升麻" id="1133" weight="2.0" />
+      <edge source="黄连" target="桔梗" id="1134" weight="4.0" />
+      <edge source="黄连" target="玄参" id="1135" weight="2.0" />
+      <edge source="黄连" target="薄荷" id="1136" weight="2.0" />
+      <edge source="黄连" target="陈皮" id="1137" weight="4.0" />
+      <edge source="黄连" target="阿胶" id="1138" weight="3.0" />
+      <edge source="黄连" target="木香" id="1139" weight="5.0" />
+      <edge source="黄连" target="吴茱萸" id="1140" weight="3.0" />
+      <edge source="黄连" target="槟榔" id="1141" weight="3.0" />
+      <edge source="黄连" target="白头翁" id="1142" weight="2.0" />
+      <edge source="黄连" target="秦皮" id="1143" weight="2.0" />
+      <edge source="黄连" target="地黄" id="1144" weight="4.0" />
+      <edge source="黄连" target="熟地" id="1145" weight="2.0" />
+      <edge source="黄连" target="泽泻" id="1146" weight="2.0" />
+      <edge source="黄连" target="茯苓" id="1147" weight="3.0" />
+      <edge source="黄连" target="五味子" id="1148" weight="2.0" />
+      <edge source="黄连" target="天冬" id="1149" weight="2.0" />
+      <edge source="黄连" target="山药" id="1150" weight="3.0" />
+      <edge source="黄连" target="菊花" id="1151" weight="2.0" />
+      <edge source="黄连" target="蒺藜" id="1152" weight="2.0" />
+      <edge source="黄连" target="麦冬" id="1153" weight="2.0" />
+      <edge source="黄连" target="白茯苓" id="1154" weight="3.0" />
+      <edge source="黄连" target="花椒" id="1155" weight="2.0" />
+      <edge source="黄连" target="瓜蒌子" id="1156" weight="2.0" />
+      <edge source="黄连" target="神曲" id="1157" weight="3.0" />
+      <edge source="黄连" target="肉豆蔻" id="1158" weight="2.0" />
+      <edge source="黄连" target="麦芽" id="1159" weight="4.0" />
+      <edge source="知母" target="生地" id="1160" weight="2.0" />
+      <edge source="知母" target="苍术" id="1161" weight="4.0" />
+      <edge source="知母" target="草果" id="1162" weight="2.0" />
+      <edge source="知母" target="茯苓" id="1163" weight="4.0" />
+      <edge source="知母" target="麦冬" id="1164" weight="2.0" />
+      <edge source="知母" target="粳米" id="1165" weight="4.0" />
+      <edge source="知母" target="熟地" id="1166" weight="4.0" />
+      <edge source="知母" target="牛膝" id="1167" weight="2.0" />
+      <edge source="知母" target="黄柏" id="1168" weight="4.0" />
+      <edge source="知母" target="龟甲" id="1169" weight="2.0" />
+      <edge source="知母" target="苦参" id="1170" weight="2.0" />
+      <edge source="牡蛎" target="龙骨" id="1171" weight="5.0" />
+      <edge source="吴茱萸" target="木香" id="1172" weight="2.0" />
+      <edge source="吴茱萸" target="槟榔" id="1173" weight="2.0" />
+      <edge source="吴茱萸" target="木瓜" id="1174" weight="2.0" />
+      <edge source="生地" target="白芷" id="1175" weight="3.0" />
+      <edge source="生地" target="苍术" id="1176" weight="3.0" />
+      <edge source="生地" target="葱白" id="1177" weight="2.0" />
+      <edge source="生地" target="麦冬" id="1178" weight="7.0" />
+      <edge source="生地" target="玄参" id="1179" weight="3.0" />
+      <edge source="生地" target="芒硝" id="1180" weight="2.0" />
+      <edge source="生地" target="木通" id="1181" weight="2.0" />
+      <edge source="生地" target="牡丹皮" id="1182" weight="2.0" />
+      <edge source="生地" target="五味子" id="1183" weight="2.0" />
+      <edge source="生地" target="桂心" id="1184" weight="2.0" />
+      <edge source="生地" target="泽泻" id="1185" weight="3.0" />
+      <edge source="生地" target="茯苓" id="1186" weight="3.0" />
+      <edge source="生地" target="艾叶" id="1187" weight="2.0" />
+      <edge source="生地" target="阿胶" id="1188" weight="4.0" />
+      <edge source="生地" target="牛膝" id="1189" weight="3.0" />
+      <edge source="生地" target="山茱萸" id="1190" weight="2.0" />
+      <edge source="生地" target="山药" id="1191" weight="2.0" />
+      <edge source="阿胶" target="射干" id="1192" weight="2.0" />
+      <edge source="阿胶" target="牡丹皮" id="1193" weight="3.0" />
+      <edge source="阿胶" target="麦冬" id="1194" weight="3.0" />
+      <edge source="阿胶" target="葶苈子" id="1195" weight="2.0" />
+      <edge source="阿胶" target="桃仁" id="1196" weight="2.0" />
+      <edge source="阿胶" target="艾叶" id="1197" weight="2.0" />
+      <edge source="阿胶" target="凌霄花" id="1198" weight="2.0" />
+      <edge source="阿胶" target="土鳖虫" id="1199" weight="2.0" />
+      <edge source="阿胶" target="瞿麦" id="1200" weight="2.0" />
+      <edge source="阿胶" target="石韦" id="1201" weight="2.0" />
+      <edge source="阿胶" target="蜂房" id="1202" weight="2.0" />
+      <edge source="阿胶" target="蜣螂" id="1203" weight="2.0" />
+      <edge source="阿胶" target="赤硝" id="1204" weight="2.0" />
+      <edge source="阿胶" target="鳖甲" id="1205" weight="2.0" />
+      <edge source="阿胶" target="鼠妇" id="1206" weight="2.0" />
+      <edge source="麦冬" target="肉桂" id="1207" weight="2.0" />
+      <edge source="麦冬" target="薏苡仁" id="1208" weight="2.0" />
+      <edge source="麦冬" target="五味子" id="1209" weight="7.0" />
+      <edge source="麦冬" target="桔梗" id="1210" weight="2.0" />
+      <edge source="麦冬" target="茯苓" id="1211" weight="3.0" />
+      <edge source="麦冬" target="薄荷" id="1212" weight="2.0" />
+      <edge source="麦冬" target="地榆" id="1213" weight="2.0" />
+      <edge source="麦冬" target="玄参" id="1214" weight="7.0" />
+      <edge source="麦冬" target="金银花" id="1215" weight="2.0" />
+      <edge source="麦冬" target="芒硝" id="1216" weight="2.0" />
+      <edge source="麦冬" target="青皮" id="1217" weight="2.0" />
+      <edge source="麦冬" target="粳米" id="1218" weight="2.0" />
+      <edge source="麦冬" target="熟地" id="1219" weight="5.0" />
+      <edge source="麦冬" target="牛膝" id="1220" weight="3.0" />
+      <edge source="麦冬" target="泽泻" id="1221" weight="2.0" />
+      <edge source="麦冬" target="桂心" id="1222" weight="2.0" />
+      <edge source="麦冬" target="远志" id="1223" weight="4.0" />
+      <edge source="麦冬" target="柏子仁" id="1224" weight="2.0" />
+      <edge source="麦冬" target="石斛" id="1225" weight="4.0" />
+      <edge source="麦冬" target="地黄" id="1226" weight="3.0" />
+      <edge source="麦冬" target="天冬" id="1227" weight="2.0" />
+      <edge source="麦冬" target="肉苁蓉" id="1228" weight="3.0" />
+      <edge source="麦冬" target="山茱萸" id="1229" weight="2.0" />
+      <edge source="麦冬" target="巴戟天" id="1230" weight="2.0" />
+      <edge source="麦冬" target="白茯苓" id="1231" weight="3.0" />
+      <edge source="麦冬" target="石菖蒲" id="1232" weight="2.0" />
+      <edge source="泽泻" target="肉桂" id="1233" weight="3.0" />
+      <edge source="泽泻" target="橘红" id="1234" weight="2.0" />
+      <edge source="泽泻" target="赤茯苓" id="1235" weight="2.0" />
+      <edge source="泽泻" target="羌活" id="1236" weight="3.0" />
+      <edge source="泽泻" target="苍术" id="1237" weight="4.0" />
+      <edge source="泽泻" target="五味子" id="1238" weight="3.0" />
+      <edge source="泽泻" target="牡丹皮" id="1239" weight="3.0" />
+      <edge source="泽泻" target="升麻" id="1240" weight="2.0" />
+      <edge source="泽泻" target="茯苓" id="1241" weight="9.0" />
+      <edge source="泽泻" target="木香" id="1242" weight="2.0" />
+      <edge source="泽泻" target="陈皮" id="1243" weight="5.0" />
+      <edge source="泽泻" target="青皮" id="1244" weight="2.0" />
+      <edge source="泽泻" target="木通" id="1245" weight="3.0" />
+      <edge source="泽泻" target="槟榔" id="1246" weight="3.0" />
+      <edge source="泽泻" target="滑石" id="1247" weight="3.0" />
+      <edge source="泽泻" target="神曲" id="1248" weight="3.0" />
+      <edge source="泽泻" target="桂心" id="1249" weight="2.0" />
+      <edge source="泽泻" target="山茱萸" id="1250" weight="4.0" />
+      <edge source="泽泻" target="山药" id="1251" weight="5.0" />
+      <edge source="泽泻" target="牛膝" id="1252" weight="2.0" />
+      <edge source="泽泻" target="猪苓" id="1253" weight="5.0" />
+      <edge source="泽泻" target="白茯苓" id="1254" weight="2.0" />
+      <edge source="牡丹皮" target="射干" id="1255" weight="2.0" />
+      <edge source="牡丹皮" target="冬瓜仁" id="1256" weight="2.0" />
+      <edge source="牡丹皮" target="桃仁" id="1257" weight="5.0" />
+      <edge source="牡丹皮" target="芒硝" id="1258" weight="2.0" />
+      <edge source="牡丹皮" target="栀子" id="1259" weight="2.0" />
+      <edge source="牡丹皮" target="茯苓" id="1260" weight="6.0" />
+      <edge source="牡丹皮" target="山茱萸" id="1261" weight="4.0" />
+      <edge source="牡丹皮" target="山药" id="1262" weight="3.0" />
+      <edge source="牡丹皮" target="熟地" id="1263" weight="2.0" />
+      <edge source="牡丹皮" target="牛膝" id="1264" weight="2.0" />
+      <edge source="牡丹皮" target="凌霄花" id="1265" weight="2.0" />
+      <edge source="牡丹皮" target="土鳖虫" id="1266" weight="2.0" />
+      <edge source="牡丹皮" target="瞿麦" id="1267" weight="2.0" />
+      <edge source="牡丹皮" target="石韦" id="1268" weight="2.0" />
+      <edge source="牡丹皮" target="葶苈子" id="1269" weight="2.0" />
+      <edge source="牡丹皮" target="蜂房" id="1270" weight="2.0" />
+      <edge source="牡丹皮" target="蜣螂" id="1271" weight="2.0" />
+      <edge source="牡丹皮" target="赤硝" id="1272" weight="2.0" />
+      <edge source="牡丹皮" target="鳖甲" id="1273" weight="2.0" />
+      <edge source="牡丹皮" target="鼠妇" id="1274" weight="2.0" />
+      <edge source="茯苓" target="肉桂" id="1275" weight="6.0" />
+      <edge source="茯苓" target="橘红" id="1276" weight="2.0" />
+      <edge source="茯苓" target="白芷" id="1277" weight="2.0" />
+      <edge source="茯苓" target="羌活" id="1278" weight="4.0" />
+      <edge source="茯苓" target="苍术" id="1279" weight="2.0" />
+      <edge source="茯苓" target="独活" id="1280" weight="5.0" />
+      <edge source="茯苓" target="前胡" id="1281" weight="3.0" />
+      <edge source="茯苓" target="五味子" id="1282" weight="5.0" />
+      <edge source="茯苓" target="桔梗" id="1283" weight="7.0" />
+      <edge source="茯苓" target="枳壳" id="1284" weight="9.0" />
+      <edge source="茯苓" target="薄荷" id="1285" weight="5.0" />
+      <edge source="茯苓" target="骨碎补" id="1286" weight="2.0" />
+      <edge source="茯苓" target="木香" id="1287" weight="3.0" />
+      <edge source="茯苓" target="紫苏" id="1288" weight="2.0" />
+      <edge source="茯苓" target="陈皮" id="1289" weight="14.0" />
+      <edge source="茯苓" target="炮姜" id="1290" weight="2.0" />
+      <edge source="茯苓" target="滑石" id="1291" weight="2.0" />
+      <edge source="茯苓" target="桂心" id="1292" weight="3.0" />
+      <edge source="茯苓" target="桑螵蛸" id="1293" weight="2.0" />
+      <edge source="茯苓" target="远志" id="1294" weight="4.0" />
+      <edge source="茯苓" target="砂仁" id="1295" weight="2.0" />
+      <edge source="茯苓" target="山药" id="1296" weight="5.0" />
+      <edge source="茯苓" target="川贝母" id="1297" weight="2.0" />
+      <edge source="茯苓" target="熟地" id="1298" weight="6.0" />
+      <edge source="茯苓" target="地黄" id="1299" weight="3.0" />
+      <edge source="茯苓" target="山茱萸" id="1300" weight="4.0" />
+      <edge source="茯苓" target="牛膝" id="1301" weight="3.0" />
+      <edge source="茯苓" target="羚羊角" id="1302" weight="2.0" />
+      <edge source="茯苓" target="菊花" id="1303" weight="2.0" />
+      <edge source="茯苓" target="石菖蒲" id="1304" weight="3.0" />
+      <edge source="茯苓" target="龙骨" id="1305" weight="2.0" />
+      <edge source="茯苓" target="竹茹" id="1306" weight="2.0" />
+      <edge source="茯苓" target="半夏曲" id="1307" weight="3.0" />
+      <edge source="茯苓" target="猪苓" id="1308" weight="2.0" />
+      <edge source="茯苓" target="胆南星" id="1309" weight="2.0" />
+      <edge source="茯苓" target="香附" id="1310" weight="2.0" />
+      <edge source="茯苓" target="神曲" id="1311" weight="2.0" />
+      <edge source="龙骨" target="远志" id="1312" weight="2.0" />
+      <edge source="龙骨" target="龟甲" id="1313" weight="2.0" />
+      <edge source="龙骨" target="石菖蒲" id="1314" weight="2.0" />
+      <edge source="桃仁" target="薏苡仁" id="1315" weight="2.0" />
+      <edge source="桃仁" target="射干" id="1316" weight="2.0" />
+      <edge source="桃仁" target="芒硝" id="1317" weight="3.0" />
+      <edge source="桃仁" target="葶苈子" id="1318" weight="2.0" />
+      <edge source="桃仁" target="冬瓜仁" id="1319" weight="4.0" />
+      <edge source="桃仁" target="松子仁" id="1320" weight="2.0" />
+      <edge source="桃仁" target="柏子仁" id="1321" weight="2.0" />
+      <edge source="桃仁" target="郁李仁" id="1322" weight="2.0" />
+      <edge source="桃仁" target="芦根" id="1323" weight="2.0" />
+      <edge source="桃仁" target="桂心" id="1324" weight="2.0" />
+      <edge source="桃仁" target="土鳖虫" id="1325" weight="4.0" />
+      <edge source="桃仁" target="水蛭" id="1326" weight="3.0" />
+      <edge source="桃仁" target="虻虫" id="1327" weight="3.0" />
+      <edge source="桃仁" target="红花" id="1328" weight="2.0" />
+      <edge source="桃仁" target="凌霄花" id="1329" weight="2.0" />
+      <edge source="桃仁" target="瞿麦" id="1330" weight="2.0" />
+      <edge source="桃仁" target="石韦" id="1331" weight="2.0" />
+      <edge source="桃仁" target="蜂房" id="1332" weight="2.0" />
+      <edge source="桃仁" target="蜣螂" id="1333" weight="2.0" />
+      <edge source="桃仁" target="赤硝" id="1334" weight="2.0" />
+      <edge source="桃仁" target="鳖甲" id="1335" weight="2.0" />
+      <edge source="桃仁" target="鼠妇" id="1336" weight="2.0" />
+      <edge source="凌霄花" target="射干" id="1337" weight="2.0" />
+      <edge source="凌霄花" target="葶苈子" id="1338" weight="2.0" />
+      <edge source="凌霄花" target="鳖甲" id="1339" weight="2.0" />
+      <edge source="凌霄花" target="土鳖虫" id="1340" weight="2.0" />
+      <edge source="凌霄花" target="瞿麦" id="1341" weight="2.0" />
+      <edge source="凌霄花" target="石韦" id="1342" weight="2.0" />
+      <edge source="凌霄花" target="蜂房" id="1343" weight="2.0" />
+      <edge source="凌霄花" target="蜣螂" id="1344" weight="2.0" />
+      <edge source="凌霄花" target="赤硝" id="1345" weight="2.0" />
+      <edge source="凌霄花" target="鼠妇" id="1346" weight="2.0" />
+      <edge source="土鳖虫" target="射干" id="1347" weight="2.0" />
+      <edge source="土鳖虫" target="葶苈子" id="1348" weight="2.0" />
+      <edge source="土鳖虫" target="鳖甲" id="1349" weight="2.0" />
+      <edge source="土鳖虫" target="水蛭" id="1350" weight="2.0" />
+      <edge source="土鳖虫" target="虻虫" id="1351" weight="2.0" />
+      <edge source="土鳖虫" target="瞿麦" id="1352" weight="2.0" />
+      <edge source="土鳖虫" target="石韦" id="1353" weight="2.0" />
+      <edge source="土鳖虫" target="蜂房" id="1354" weight="2.0" />
+      <edge source="土鳖虫" target="蜣螂" id="1355" weight="2.0" />
+      <edge source="土鳖虫" target="赤硝" id="1356" weight="2.0" />
+      <edge source="土鳖虫" target="鼠妇" id="1357" weight="2.0" />
+      <edge source="射干" target="瞿麦" id="1358" weight="2.0" />
+      <edge source="射干" target="石韦" id="1359" weight="2.0" />
+      <edge source="射干" target="葶苈子" id="1360" weight="2.0" />
+      <edge source="射干" target="蜂房" id="1361" weight="2.0" />
+      <edge source="射干" target="蜣螂" id="1362" weight="2.0" />
+      <edge source="射干" target="赤硝" id="1363" weight="2.0" />
+      <edge source="射干" target="鳖甲" id="1364" weight="2.0" />
+      <edge source="射干" target="鼠妇" id="1365" weight="2.0" />
+      <edge source="瞿麦" target="葶苈子" id="1366" weight="2.0" />
+      <edge source="瞿麦" target="鳖甲" id="1367" weight="2.0" />
+      <edge source="瞿麦" target="石韦" id="1368" weight="2.0" />
+      <edge source="瞿麦" target="蜂房" id="1369" weight="2.0" />
+      <edge source="瞿麦" target="蜣螂" id="1370" weight="2.0" />
+      <edge source="瞿麦" target="赤硝" id="1371" weight="2.0" />
+      <edge source="瞿麦" target="鼠妇" id="1372" weight="2.0" />
+      <edge source="石韦" target="葶苈子" id="1373" weight="2.0" />
+      <edge source="石韦" target="鳖甲" id="1374" weight="2.0" />
+      <edge source="石韦" target="蜂房" id="1375" weight="2.0" />
+      <edge source="石韦" target="蜣螂" id="1376" weight="2.0" />
+      <edge source="石韦" target="赤硝" id="1377" weight="2.0" />
+      <edge source="石韦" target="鼠妇" id="1378" weight="2.0" />
+      <edge source="葶苈子" target="蜂房" id="1379" weight="2.0" />
+      <edge source="葶苈子" target="蜣螂" id="1380" weight="2.0" />
+      <edge source="葶苈子" target="赤硝" id="1381" weight="2.0" />
+      <edge source="葶苈子" target="鳖甲" id="1382" weight="2.0" />
+      <edge source="葶苈子" target="鼠妇" id="1383" weight="2.0" />
+      <edge source="蜂房" target="鳖甲" id="1384" weight="2.0" />
+      <edge source="蜂房" target="蜣螂" id="1385" weight="2.0" />
+      <edge source="蜂房" target="赤硝" id="1386" weight="2.0" />
+      <edge source="蜂房" target="鼠妇" id="1387" weight="2.0" />
+      <edge source="蜣螂" target="鳖甲" id="1388" weight="2.0" />
+      <edge source="蜣螂" target="赤硝" id="1389" weight="2.0" />
+      <edge source="蜣螂" target="鼠妇" id="1390" weight="2.0" />
+      <edge source="赤硝" target="鳖甲" id="1391" weight="2.0" />
+      <edge source="赤硝" target="鼠妇" id="1392" weight="2.0" />
+      <edge source="鳖甲" target="鼠妇" id="1393" weight="2.0" />
+      <edge source="肉桂" target="木香" id="1394" weight="4.0" />
+      <edge source="肉桂" target="槟榔" id="1395" weight="2.0" />
+      <edge source="肉桂" target="苍术" id="1396" weight="3.0" />
+      <edge source="肉桂" target="陈皮" id="1397" weight="3.0" />
+      <edge source="肉桂" target="五味子" id="1398" weight="3.0" />
+      <edge source="肉桂" target="麝香" id="1399" weight="2.0" />
+      <edge source="肉桂" target="补骨脂" id="1400" weight="2.0" />
+      <edge source="肉桂" target="熟地" id="1401" weight="7.0" />
+      <edge source="肉桂" target="骨碎补" id="1402" weight="2.0" />
+      <edge source="肉桂" target="鹿角胶" id="1403" weight="2.0" />
+      <edge source="肉桂" target="山茱萸" id="1404" weight="3.0" />
+      <edge source="肉桂" target="牛膝" id="1405" weight="3.0" />
+      <edge source="肉桂" target="巴戟天" id="1406" weight="3.0" />
+      <edge source="肉桂" target="白茯苓" id="1407" weight="2.0" />
+      <edge source="肉桂" target="石斛" id="1408" weight="2.0" />
+      <edge source="肉桂" target="石菖蒲" id="1409" weight="2.0" />
+      <edge source="肉桂" target="肉苁蓉" id="1410" weight="2.0" />
+      <edge source="肉桂" target="薄荷" id="1411" weight="2.0" />
+      <edge source="肉桂" target="远志" id="1412" weight="2.0" />
+      <edge source="肉桂" target="杜仲" id="1413" weight="2.0" />
+      <edge source="肉桂" target="独活" id="1414" weight="2.0" />
+      <edge source="肉桂" target="秦艽" id="1415" weight="2.0" />
+      <edge source="肉桂" target="薏苡仁" id="1416" weight="2.0" />
+      <edge source="薏苡仁" target="地榆" id="1417" weight="2.0" />
+      <edge source="薏苡仁" target="玄参" id="1418" weight="2.0" />
+      <edge source="薏苡仁" target="金银花" id="1419" weight="2.0" />
+      <edge source="薏苡仁" target="冬瓜仁" id="1420" weight="3.0" />
+      <edge source="薏苡仁" target="芦根" id="1421" weight="2.0" />
+      <edge source="薏苡仁" target="山药" id="1422" weight="2.0" />
+      <edge source="薏苡仁" target="桔梗" id="1423" weight="2.0" />
+      <edge source="薏苡仁" target="白扁豆" id="1424" weight="2.0" />
+      <edge source="薏苡仁" target="莲子" id="1425" weight="2.0" />
+      <edge source="薏苡仁" target="败酱" id="1426" weight="2.0" />
+      <edge source="薏苡仁" target="苍术" id="1427" weight="2.0" />
+      <edge source="桑白皮" target="紫苏子" id="1428" weight="3.0" />
+      <edge source="桑白皮" target="赤茯苓" id="1429" weight="2.0" />
+      <edge source="桑白皮" target="款冬花" id="1430" weight="2.0" />
+      <edge source="桑白皮" target="白果" id="1431" weight="2.0" />
+      <edge source="桑白皮" target="大腹皮" id="1432" weight="2.0" />
+      <edge source="桑白皮" target="茯苓皮" id="1433" weight="2.0" />
+      <edge source="桑白皮" target="陈皮" id="1434" weight="2.0" />
+      <edge source="橘红" target="紫苏子" id="1435" weight="2.0" />
+      <edge source="橘红" target="赤茯苓" id="1436" weight="2.0" />
+      <edge source="橘红" target="木香" id="1437" weight="2.0" />
+      <edge source="橘红" target="青皮" id="1438" weight="2.0" />
+      <edge source="橘红" target="桔梗" id="1439" weight="2.0" />
+      <edge source="橘红" target="神曲" id="1440" weight="3.0" />
+      <edge source="橘红" target="白茯苓" id="1441" weight="2.0" />
+      <edge source="紫苏子" target="款冬花" id="1442" weight="2.0" />
+      <edge source="紫苏子" target="白果" id="1443" weight="2.0" />
+      <edge source="赤茯苓" target="栀子" id="1444" weight="2.0" />
+      <edge source="赤茯苓" target="木通" id="1445" weight="2.0" />
+      <edge source="赤茯苓" target="枳壳" id="1446" weight="2.0" />
+      <edge source="赤茯苓" target="天南星" id="1447" weight="2.0" />
+      <edge source="白芷" target="羌活" id="1448" weight="4.0" />
+      <edge source="白芷" target="苍术" id="1449" weight="3.0" />
+      <edge source="白芷" target="桔梗" id="1450" weight="3.0" />
+      <edge source="白芷" target="白附子" id="1451" weight="2.0" />
+      <edge source="白芷" target="乳香" id="1452" weight="2.0" />
+      <edge source="白芷" target="大皂角" id="1453" weight="2.0" />
+      <edge source="白芷" target="川贝母" id="1454" weight="2.0" />
+      <edge source="白芷" target="没药" id="1455" weight="2.0" />
+      <edge source="白芷" target="穿山甲" id="1456" weight="3.0" />
+      <edge source="白芷" target="赤芍" id="1457" weight="2.0" />
+      <edge source="白芷" target="金银花" id="1458" weight="2.0" />
+      <edge source="白芷" target="陈皮" id="1459" weight="4.0" />
+      <edge source="羌活" target="苍术" id="1460" weight="3.0" />
+      <edge source="羌活" target="桔梗" id="1461" weight="5.0" />
+      <edge source="羌活" target="枳壳" id="1462" weight="3.0" />
+      <edge source="羌活" target="独活" id="1463" weight="6.0" />
+      <edge source="羌活" target="薄荷" id="1464" weight="6.0" />
+      <edge source="羌活" target="前胡" id="1465" weight="2.0" />
+      <edge source="羌活" target="荆芥" id="1466" weight="3.0" />
+      <edge source="羌活" target="花椒" id="1467" weight="2.0" />
+      <edge source="羌活" target="栀子" id="1468" weight="2.0" />
+      <edge source="羌活" target="五灵脂" id="1469" weight="2.0" />
+      <edge source="羌活" target="没药" id="1470" weight="2.0" />
+      <edge source="羌活" target="牛膝" id="1471" weight="2.0" />
+      <edge source="羌活" target="秦艽" id="1472" weight="2.0" />
+      <edge source="羌活" target="天麻" id="1473" weight="2.0" />
+      <edge source="羌活" target="白附子" id="1474" weight="3.0" />
+      <edge source="羌活" target="胆南星" id="1475" weight="2.0" />
+      <edge source="羌活" target="蒺藜" id="1476" weight="2.0" />
+      <edge source="羌活" target="蔓荆子" id="1477" weight="2.0" />
+      <edge source="羌活" target="升麻" id="1478" weight="2.0" />
+      <edge source="苍术" target="炙甘草" id="1479" weight="2.0" />
+      <edge source="苍术" target="独活" id="1480" weight="2.0" />
+      <edge source="苍术" target="枳壳" id="1481" weight="2.0" />
+      <edge source="苍术" target="陈皮" id="1482" weight="8.0" />
+      <edge source="苍术" target="升麻" id="1483" weight="2.0" />
+      <edge source="苍术" target="神曲" id="1484" weight="2.0" />
+      <edge source="苍术" target="黄柏" id="1485" weight="2.0" />
+      <edge source="苍术" target="栀子" id="1486" weight="2.0" />
+      <edge source="苍术" target="香附" id="1487" weight="2.0" />
+      <edge source="苍术" target="木通" id="1488" weight="2.0" />
+      <edge source="苍术" target="苦参" id="1489" weight="2.0" />
+      <edge source="苍术" target="猪苓" id="1490" weight="2.0" />
+      <edge source="苍术" target="天麻" id="1491" weight="2.0" />
+      <edge source="苍术" target="胆南星" id="1492" weight="2.0" />
+      <edge source="独活" target="枳壳" id="1493" weight="4.0" />
+      <edge source="独活" target="桔梗" id="1494" weight="3.0" />
+      <edge source="独活" target="薄荷" id="1495" weight="3.0" />
+      <edge source="独活" target="前胡" id="1496" weight="2.0" />
+      <edge source="独活" target="全蝎" id="1497" weight="2.0" />
+      <edge source="独活" target="续断" id="1498" weight="2.0" />
+      <edge source="独活" target="牛膝" id="1499" weight="3.0" />
+      <edge source="独活" target="杜仲" id="1500" weight="2.0" />
+      <edge source="独活" target="秦艽" id="1501" weight="2.0" />
+      <edge source="前胡" target="荆芥" id="1502" weight="2.0" />
+      <edge source="前胡" target="枳壳" id="1503" weight="3.0" />
+      <edge source="前胡" target="桔梗" id="1504" weight="3.0" />
+      <edge source="前胡" target="薄荷" id="1505" weight="2.0" />
+      <edge source="荆芥" target="赤芍" id="1506" weight="2.0" />
+      <edge source="荆芥" target="桔梗" id="1507" weight="2.0" />
+      <edge source="荆芥" target="薄荷" id="1508" weight="4.0" />
+      <edge source="荆芥" target="蝉蜕" id="1509" weight="2.0" />
+      <edge source="赤芍" target="乳香" id="1510" weight="2.0" />
+      <edge source="赤芍" target="大皂角" id="1511" weight="2.0" />
+      <edge source="赤芍" target="川贝母" id="1512" weight="2.0" />
+      <edge source="赤芍" target="没药" id="1513" weight="2.0" />
+      <edge source="赤芍" target="穿山甲" id="1514" weight="2.0" />
+      <edge source="赤芍" target="金银花" id="1515" weight="2.0" />
+      <edge source="赤芍" target="陈皮" id="1516" weight="2.0" />
+      <edge source="赤芍" target="栀子" id="1517" weight="2.0" />
+      <edge source="五味子" target="陈皮" id="1518" weight="4.0" />
+      <edge source="五味子" target="桂心" id="1519" weight="2.0" />
+      <edge source="五味子" target="远志" id="1520" weight="7.0" />
+      <edge source="五味子" target="熟地" id="1521" weight="5.0" />
+      <edge source="五味子" target="地黄" id="1522" weight="2.0" />
+      <edge source="五味子" target="天冬" id="1523" weight="2.0" />
+      <edge source="五味子" target="山药" id="1524" weight="2.0" />
+      <edge source="五味子" target="牛膝" id="1525" weight="2.0" />
+      <edge source="五味子" target="石斛" id="1526" weight="3.0" />
+      <edge source="五味子" target="肉苁蓉" id="1527" weight="5.0" />
+      <edge source="五味子" target="菟丝子" id="1528" weight="3.0" />
+      <edge source="五味子" target="山茱萸" id="1529" weight="3.0" />
+      <edge source="五味子" target="巴戟天" id="1530" weight="3.0" />
+      <edge source="五味子" target="白茯苓" id="1531" weight="4.0" />
+      <edge source="五味子" target="石菖蒲" id="1532" weight="2.0" />
+      <edge source="五味子" target="薄荷" id="1533" weight="2.0" />
+      <edge source="五味子" target="酸枣仁" id="1534" weight="2.0" />
+      <edge source="蒺藜" target="蝉蜕" id="1535" weight="2.0" />
+      <edge source="蒺藜" target="牛膝" id="1536" weight="2.0" />
+      <edge source="蒺藜" target="菊花" id="1537" weight="2.0" />
+      <edge source="蝉蜕" target="蛇蜕" id="1538" weight="2.0" />
+      <edge source="桔梗" target="枳壳" id="1539" weight="5.0" />
+      <edge source="桔梗" target="薄荷" id="1540" weight="6.0" />
+      <edge source="桔梗" target="骨碎补" id="1541" weight="2.0" />
+      <edge source="桔梗" target="紫苏" id="1542" weight="2.0" />
+      <edge source="桔梗" target="陈皮" id="1543" weight="4.0" />
+      <edge source="桔梗" target="川贝母" id="1544" weight="2.0" />
+      <edge source="桔梗" target="芒硝" id="1545" weight="2.0" />
+      <edge source="桔梗" target="升麻" id="1546" weight="2.0" />
+      <edge source="桔梗" target="牛蒡子" id="1547" weight="2.0" />
+      <edge source="桔梗" target="玄参" id="1548" weight="4.0" />
+      <edge source="桔梗" target="连翘" id="1549" weight="3.0" />
+      <edge source="桔梗" target="栀子" id="1550" weight="2.0" />
+      <edge source="桔梗" target="山药" id="1551" weight="2.0" />
+      <edge source="桔梗" target="白扁豆" id="1552" weight="2.0" />
+      <edge source="桔梗" target="莲子" id="1553" weight="2.0" />
+      <edge source="桔梗" target="地黄" id="1554" weight="2.0" />
+      <edge source="桔梗" target="白茯苓" id="1555" weight="2.0" />
+      <edge source="桔梗" target="广藿香" id="1556" weight="2.0" />
+      <edge source="升麻" target="牛蒡子" id="1557" weight="2.0" />
+      <edge source="升麻" target="玄参" id="1558" weight="2.0" />
+      <edge source="升麻" target="薄荷" id="1559" weight="2.0" />
+      <edge source="升麻" target="连翘" id="1560" weight="2.0" />
+      <edge source="升麻" target="陈皮" id="1561" weight="3.0" />
+      <edge source="升麻" target="青皮" id="1562" weight="2.0" />
+      <edge source="枳壳" target="薄荷" id="1563" weight="3.0" />
+      <edge source="枳壳" target="木香" id="1564" weight="2.0" />
+      <edge source="枳壳" target="陈皮" id="1565" weight="5.0" />
+      <edge source="枳壳" target="香附" id="1566" weight="2.0" />
+      <edge source="枳壳" target="山药" id="1567" weight="2.0" />
+      <edge source="枳壳" target="牛膝" id="1568" weight="2.0" />
+      <edge source="枳壳" target="菟丝子" id="1569" weight="2.0" />
+      <edge source="枳壳" target="槟榔" id="1570" weight="3.0" />
+      <edge source="薄荷" target="栀子" id="1571" weight="4.0" />
+      <edge source="薄荷" target="炮姜" id="1572" weight="2.0" />
+      <edge source="薄荷" target="芒硝" id="1573" weight="2.0" />
+      <edge source="薄荷" target="连翘" id="1574" weight="4.0" />
+      <edge source="薄荷" target="牛蒡子" id="1575" weight="2.0" />
+      <edge source="薄荷" target="玄参" id="1576" weight="2.0" />
+      <edge source="薄荷" target="山茱萸" id="1577" weight="2.0" />
+      <edge source="薄荷" target="巴戟天" id="1578" weight="2.0" />
+      <edge source="薄荷" target="熟地" id="1579" weight="2.0" />
+      <edge source="薄荷" target="白茯苓" id="1580" weight="2.0" />
+      <edge source="薄荷" target="石斛" id="1581" weight="2.0" />
+      <edge source="薄荷" target="石菖蒲" id="1582" weight="2.0" />
+      <edge source="薄荷" target="肉苁蓉" id="1583" weight="2.0" />
+      <edge source="薄荷" target="远志" id="1584" weight="2.0" />
+      <edge source="骨碎补" target="陈皮" id="1585" weight="2.0" />
+      <edge source="骨碎补" target="熟地" id="1586" weight="2.0" />
+      <edge source="骨碎补" target="鹿角胶" id="1587" weight="2.0" />
+      <edge source="木香" target="粉葛" id="1588" weight="2.0" />
+      <edge source="木香" target="陈皮" id="1589" weight="6.0" />
+      <edge source="木香" target="牵牛子" id="1590" weight="2.0" />
+      <edge source="木香" target="青皮" id="1591" weight="5.0" />
+      <edge source="木香" target="麝香" id="1592" weight="2.0" />
+      <edge source="木香" target="黄柏" id="1593" weight="2.0" />
+      <edge source="木香" target="槟榔" id="1594" weight="4.0" />
+      <edge source="木香" target="川楝子" id="1595" weight="6.0" />
+      <edge source="木香" target="沉香" id="1596" weight="2.0" />
+      <edge source="木香" target="肉豆蔻" id="1597" weight="2.0" />
+      <edge source="木香" target="砂仁" id="1598" weight="3.0" />
+      <edge source="木香" target="白茯苓" id="1599" weight="4.0" />
+      <edge source="木香" target="丁香" id="1600" weight="3.0" />
+      <edge source="木香" target="全蝎" id="1601" weight="2.0" />
+      <edge source="木香" target="小茴香" id="1602" weight="4.0" />
+      <edge source="木香" target="延胡索" id="1603" weight="2.0" />
+      <edge source="木香" target="香附" id="1604" weight="2.0" />
+      <edge source="木香" target="巴豆" id="1605" weight="2.0" />
+      <edge source="木香" target="莪术" id="1606" weight="2.0" />
+      <edge source="木香" target="神曲" id="1607" weight="2.0" />
+      <edge source="紫苏" target="陈皮" id="1608" weight="2.0" />
+      <edge source="陈皮" target="炙甘草" id="1609" weight="2.0" />
+      <edge source="陈皮" target="郁李仁" id="1610" weight="2.0" />
+      <edge source="陈皮" target="香附" id="1611" weight="3.0" />
+      <edge source="陈皮" target="连翘" id="1612" weight="2.0" />
+      <edge source="陈皮" target="乳香" id="1613" weight="2.0" />
+      <edge source="陈皮" target="大皂角" id="1614" weight="2.0" />
+      <edge source="陈皮" target="川贝母" id="1615" weight="2.0" />
+      <edge source="陈皮" target="没药" id="1616" weight="2.0" />
+      <edge source="陈皮" target="穿山甲" id="1617" weight="2.0" />
+      <edge source="陈皮" target="金银花" id="1618" weight="2.0" />
+      <edge source="陈皮" target="神曲" id="1619" weight="3.0" />
+      <edge source="陈皮" target="青皮" id="1620" weight="2.0" />
+      <edge source="陈皮" target="黄柏" id="1621" weight="3.0" />
+      <edge source="陈皮" target="砂仁" id="1622" weight="2.0" />
+      <edge source="陈皮" target="桂心" id="1623" weight="3.0" />
+      <edge source="陈皮" target="熟地" id="1624" weight="3.0" />
+      <edge source="陈皮" target="远志" id="1625" weight="2.0" />
+      <edge source="陈皮" target="竹茹" id="1626" weight="2.0" />
+      <edge source="陈皮" target="广藿香" id="1627" weight="2.0" />
+      <edge source="陈皮" target="大腹皮" id="1628" weight="3.0" />
+      <edge source="陈皮" target="槟榔" id="1629" weight="3.0" />
+      <edge source="陈皮" target="茯苓皮" id="1630" weight="2.0" />
+      <edge source="陈皮" target="白茯苓" id="1631" weight="3.0" />
+      <edge source="芒硝" target="冬瓜仁" id="1632" weight="2.0" />
+      <edge source="芒硝" target="玄参" id="1633" weight="2.0" />
+      <edge source="芒硝" target="栀子" id="1634" weight="2.0" />
+      <edge source="芒硝" target="连翘" id="1635" weight="2.0" />
+      <edge source="地榆" target="玄参" id="1636" weight="2.0" />
+      <edge source="地榆" target="金银花" id="1637" weight="2.0" />
+      <edge source="玄参" target="金银花" id="1638" weight="2.0" />
+      <edge source="玄参" target="牛蒡子" id="1639" weight="2.0" />
+      <edge source="玄参" target="连翘" id="1640" weight="2.0" />
+      <edge source="玄参" target="地黄" id="1641" weight="2.0" />
+      <edge source="玄参" target="川贝母" id="1642" weight="2.0" />
+      <edge source="金银花" target="乳香" id="1643" weight="2.0" />
+      <edge source="金银花" target="大皂角" id="1644" weight="2.0" />
+      <edge source="金银花" target="川贝母" id="1645" weight="2.0" />
+      <edge source="金银花" target="没药" id="1646" weight="2.0" />
+      <edge source="金银花" target="穿山甲" id="1647" weight="2.0" />
+      <edge source="金银花" target="天葵子" id="1648" weight="2.0" />
+      <edge source="金银花" target="紫花地丁" id="1649" weight="2.0" />
+      <edge source="金银花" target="蒲公英" id="1650" weight="2.0" />
+      <edge source="金银花" target="野菊花" id="1651" weight="2.0" />
+      <edge source="党参" target="砂仁" id="1652" weight="2.0" />
+      <edge source="槟榔" target="郁李仁" id="1653" weight="2.0" />
+      <edge source="槟榔" target="青皮" id="1654" weight="2.0" />
+      <edge source="槟榔" target="木通" id="1655" weight="2.0" />
+      <edge source="槟榔" target="乌药" id="1656" weight="2.0" />
+      <edge source="槟榔" target="使君子" id="1657" weight="2.0" />
+      <edge source="青皮" target="巴豆" id="1658" weight="2.0" />
+      <edge source="青皮" target="牵牛子" id="1659" weight="2.0" />
+      <edge source="青皮" target="神曲" id="1660" weight="2.0" />
+      <edge source="青皮" target="黄柏" id="1661" weight="2.0" />
+      <edge source="青皮" target="小茴香" id="1662" weight="2.0" />
+      <edge source="青皮" target="川楝子" id="1663" weight="2.0" />
+      <edge source="青皮" target="三棱" id="1664" weight="2.0" />
+      <edge source="青皮" target="莪术" id="1665" weight="3.0" />
+      <edge source="香附" target="黄柏" id="1666" weight="2.0" />
+      <edge source="香附" target="神曲" id="1667" weight="2.0" />
+      <edge source="栀子" target="淡豆豉" id="1668" weight="5.0" />
+      <edge source="栀子" target="木通" id="1669" weight="2.0" />
+      <edge source="栀子" target="黄柏" id="1670" weight="4.0" />
+      <edge source="栀子" target="淡竹叶" id="1671" weight="2.0" />
+      <edge source="栀子" target="连翘" id="1672" weight="3.0" />
+      <edge source="栀子" target="地黄" id="1673" weight="2.0" />
+      <edge source="栀子" target="龙胆" id="1674" weight="2.0" />
+      <edge source="栀子" target="青黛" id="1675" weight="2.0" />
+      <edge source="栀子" target="滑石" id="1676" weight="3.0" />
+      <edge source="栀子" target="大蓟" id="1677" weight="2.0" />
+      <edge source="栀子" target="小蓟" id="1678" weight="2.0" />
+      <edge source="连翘" target="牛蒡子" id="1679" weight="2.0" />
+      <edge source="乳香" target="川贝母" id="1680" weight="2.0" />
+      <edge source="乳香" target="川乌" id="1681" weight="2.0" />
+      <edge source="乳香" target="大皂角" id="1682" weight="2.0" />
+      <edge source="乳香" target="没药" id="1683" weight="6.0" />
+      <edge source="乳香" target="穿山甲" id="1684" weight="2.0" />
+      <edge source="乳香" target="五灵脂" id="1685" weight="2.0" />
+      <edge source="乳香" target="朱砂" id="1686" weight="3.0" />
+      <edge source="乳香" target="冰片" id="1687" weight="2.0" />
+      <edge source="乳香" target="麝香" id="1688" weight="3.0" />
+      <edge source="乳香" target="草乌" id="1689" weight="2.0" />
+      <edge source="大皂角" target="川贝母" id="1690" weight="2.0" />
+      <edge source="大皂角" target="没药" id="1691" weight="2.0" />
+      <edge source="大皂角" target="穿山甲" id="1692" weight="2.0" />
+      <edge source="大皂角" target="白矾" id="1693" weight="2.0" />
+      <edge source="川贝母" target="没药" id="1694" weight="2.0" />
+      <edge source="川贝母" target="穿山甲" id="1695" weight="2.0" />
+      <edge source="没药" target="川乌" id="1696" weight="2.0" />
+      <edge source="没药" target="穿山甲" id="1697" weight="2.0" />
+      <edge source="没药" target="五灵脂" id="1698" weight="4.0" />
+      <edge source="没药" target="朱砂" id="1699" weight="2.0" />
+      <edge source="没药" target="地龙" id="1700" weight="2.0" />
+      <edge source="没药" target="牛膝" id="1701" weight="2.0" />
+      <edge source="没药" target="秦艽" id="1702" weight="2.0" />
+      <edge source="没药" target="红花" id="1703" weight="2.0" />
+      <edge source="没药" target="麝香" id="1704" weight="2.0" />
+      <edge source="没药" target="草乌" id="1705" weight="2.0" />
+      <edge source="黄柏" target="白头翁" id="1706" weight="2.0" />
+      <edge source="黄柏" target="秦皮" id="1707" weight="2.0" />
+      <edge source="黄柏" target="熟地" id="1708" weight="4.0" />
+      <edge source="黄柏" target="龟甲" id="1709" weight="3.0" />
+      <edge source="木通" target="茯苓皮" id="1710" weight="2.0" />
+      <edge source="木通" target="桂心" id="1711" weight="2.0" />
+      <edge source="地黄" target="白茯苓" id="1712" weight="2.0" />
+      <edge source="地黄" target="熟地" id="1713" weight="3.0" />
+      <edge source="地黄" target="山药" id="1714" weight="2.0" />
+      <edge source="地黄" target="天冬" id="1715" weight="2.0" />
+      <edge source="车前子" target="山茱萸" id="1716" weight="2.0" />
+      <edge source="车前子" target="山药" id="1717" weight="2.0" />
+      <edge source="车前子" target="牛膝" id="1718" weight="2.0" />
+      <edge source="广藿香" target="白茯苓" id="1719" weight="2.0" />
+      <edge source="广藿香" target="白扁豆" id="1720" weight="2.0" />
+      <edge source="滑石" target="百合" id="1721" weight="2.0" />
+      <edge source="滑石" target="猪苓" id="1722" weight="2.0" />
+      <edge source="秦艽" target="牛膝" id="1723" weight="3.0" />
+      <edge source="秦艽" target="五灵脂" id="1724" weight="2.0" />
+      <edge source="秦艽" target="杜仲" id="1725" weight="2.0" />
+      <edge source="朱砂" target="麝香" id="1726" weight="3.0" />
+      <edge source="朱砂" target="冰片" id="1727" weight="3.0" />
+      <edge source="朱砂" target="安息香" id="1728" weight="2.0" />
+      <edge source="朱砂" target="犀角" id="1729" weight="2.0" />
+      <edge source="熟地" target="白茯苓" id="1730" weight="3.0" />
+      <edge source="熟地" target="牛膝" id="1731" weight="5.0" />
+      <edge source="熟地" target="鹿角胶" id="1732" weight="2.0" />
+      <edge source="熟地" target="远志" id="1733" weight="4.0" />
+      <edge source="熟地" target="山茱萸" id="1734" weight="4.0" />
+      <edge source="熟地" target="龟甲" id="1735" weight="2.0" />
+      <edge source="熟地" target="山药" id="1736" weight="2.0" />
+      <edge source="熟地" target="石斛" id="1737" weight="3.0" />
+      <edge source="熟地" target="肉苁蓉" id="1738" weight="3.0" />
+      <edge source="熟地" target="巴戟天" id="1739" weight="2.0" />
+      <edge source="熟地" target="石菖蒲" id="1740" weight="2.0" />
+      <edge source="砂仁" target="白茯苓" id="1741" weight="2.0" />
+      <edge source="砂仁" target="白扁豆" id="1742" weight="2.0" />
+      <edge source="砂仁" target="神曲" id="1743" weight="2.0" />
+      <edge source="砂仁" target="山药" id="1744" weight="2.0" />
+      <edge source="山药" target="白茯苓" id="1745" weight="2.0" />
+      <edge source="山药" target="牛膝" id="1746" weight="4.0" />
+      <edge source="山药" target="白扁豆" id="1747" weight="2.0" />
+      <edge source="山药" target="神曲" id="1748" weight="2.0" />
+      <edge source="山药" target="莲子" id="1749" weight="2.0" />
+      <edge source="山药" target="山茱萸" id="1750" weight="5.0" />
+      <edge source="山药" target="肉苁蓉" id="1751" weight="2.0" />
+      <edge source="山药" target="菟丝子" id="1752" weight="3.0" />
+      <edge source="山药" target="麦芽" id="1753" weight="2.0" />
+      <edge source="白扁豆" target="香薷" id="1754" weight="2.0" />
+      <edge source="白扁豆" target="莲子" id="1755" weight="2.0" />
+      <edge source="白茯苓" target="远志" id="1756" weight="5.0" />
+      <edge source="白茯苓" target="酸枣仁" id="1757" weight="3.0" />
+      <edge source="白茯苓" target="山茱萸" id="1758" weight="2.0" />
+      <edge source="白茯苓" target="巴戟天" id="1759" weight="2.0" />
+      <edge source="白茯苓" target="石斛" id="1760" weight="2.0" />
+      <edge source="白茯苓" target="石菖蒲" id="1761" weight="2.0" />
+      <edge source="白茯苓" target="肉苁蓉" id="1762" weight="2.0" />
+      <edge source="白茯苓" target="神曲" id="1763" weight="3.0" />
+      <edge source="白茯苓" target="麦芽" id="1764" weight="2.0" />
+      <edge source="远志" target="桂心" id="1765" weight="2.0" />
+      <edge source="远志" target="桑螵蛸" id="1766" weight="2.0" />
+      <edge source="远志" target="酸枣仁" id="1767" weight="3.0" />
+      <edge source="远志" target="肉苁蓉" id="1768" weight="3.0" />
+      <edge source="远志" target="山茱萸" id="1769" weight="2.0" />
+      <edge source="远志" target="巴戟天" id="1770" weight="2.0" />
+      <edge source="远志" target="石斛" id="1771" weight="2.0" />
+      <edge source="远志" target="石菖蒲" id="1772" weight="5.0" />
+      <edge source="远志" target="龟甲" id="1773" weight="2.0" />
+      <edge source="桂心" target="牛膝" id="1774" weight="2.0" />
+      <edge source="桂心" target="延胡索" id="1775" weight="2.0" />
+      <edge source="牛膝" target="石斛" id="1776" weight="2.0" />
+      <edge source="牛膝" target="虎胫骨" id="1777" weight="2.0" />
+      <edge source="牛膝" target="肉苁蓉" id="1778" weight="2.0" />
+      <edge source="牛膝" target="菟丝子" id="1779" weight="3.0" />
+      <edge source="牛膝" target="山茱萸" id="1780" weight="3.0" />
+      <edge source="牛膝" target="巴戟天" id="1781" weight="2.0" />
+      <edge source="牛膝" target="杜仲" id="1782" weight="3.0" />
+      <edge source="牛膝" target="延胡索" id="1783" weight="2.0" />
+      <edge source="牛膝" target="五灵脂" id="1784" weight="2.0" />
+      <edge source="石斛" target="肉苁蓉" id="1785" weight="3.0" />
+      <edge source="石斛" target="山茱萸" id="1786" weight="2.0" />
+      <edge source="石斛" target="巴戟天" id="1787" weight="2.0" />
+      <edge source="石斛" target="石菖蒲" id="1788" weight="2.0" />
+      <edge source="羚羊角" target="菊花" id="1789" weight="2.0" />
+      <edge source="款冬花" target="白果" id="1790" weight="2.0" />
+      <edge source="桑叶" target="黑芝麻" id="1791" weight="2.0" />
+      <edge source="胆南星" target="白附子" id="1792" weight="3.0" />
+      <edge source="胆南星" target="川乌" id="1793" weight="2.0" />
+      <edge source="胆南星" target="全蝎" id="1794" weight="2.0" />
+      <edge source="胆南星" target="天麻" id="1795" weight="2.0" />
+      <edge source="神曲" target="山楂" id="1796" weight="2.0" />
+      <edge source="神曲" target="肉豆蔻" id="1797" weight="2.0" />
+      <edge source="神曲" target="麦芽" id="1798" weight="3.0" />
+      <edge source="麦芽" target="肉豆蔻" id="1799" weight="2.0" />
+      <edge source="松子仁" target="柏子仁" id="1800" weight="2.0" />
+      <edge source="松子仁" target="郁李仁" id="1801" weight="2.0" />
+      <edge source="柏子仁" target="郁李仁" id="1802" weight="2.0" />
+      <edge source="山茱萸" target="巴戟天" id="1803" weight="3.0" />
+      <edge source="山茱萸" target="石菖蒲" id="1804" weight="2.0" />
+      <edge source="山茱萸" target="肉苁蓉" id="1805" weight="3.0" />
+      <edge source="山茱萸" target="菟丝子" id="1806" weight="2.0" />
+      <edge source="巴戟天" target="杜仲" id="1807" weight="2.0" />
+      <edge source="巴戟天" target="肉苁蓉" id="1808" weight="3.0" />
+      <edge source="巴戟天" target="菟丝子" id="1809" weight="2.0" />
+      <edge source="巴戟天" target="石菖蒲" id="1810" weight="2.0" />
+      <edge source="石菖蒲" target="龟甲" id="1811" weight="2.0" />
+      <edge source="石菖蒲" target="肉苁蓉" id="1812" weight="2.0" />
+      <edge source="肉苁蓉" target="菟丝子" id="1813" weight="3.0" />
+      <edge source="大腹皮" target="茯苓皮" id="1814" weight="3.0" />
+      <edge source="瓜蒌子" target="薤白" id="1815" weight="3.0" />
+      <edge source="瓜蒌子" target="酒" id="1816" weight="2.0" />
+      <edge source="天南星" target="白附子" id="1817" weight="2.0" />
+      <edge source="天南星" target="川乌" id="1818" weight="2.0" />
+      <edge source="川乌" target="白僵蚕" id="1819" weight="2.0" />
+      <edge source="川乌" target="白附子" id="1820" weight="3.0" />
+      <edge source="川乌" target="草乌" id="1821" weight="2.0" />
+      <edge source="川乌" target="全蝎" id="1822" weight="2.0" />
+      <edge source="白附子" target="白僵蚕" id="1823" weight="2.0" />
+      <edge source="白附子" target="全蝎" id="1824" weight="3.0" />
+      <edge source="白附子" target="天麻" id="1825" weight="2.0" />
+      <edge source="麝香" target="冰片" id="1826" weight="3.0" />
+      <edge source="麝香" target="安息香" id="1827" weight="2.0" />
+      <edge source="麝香" target="犀角" id="1828" weight="2.0" />
+      <edge source="补骨脂" target="杜仲" id="1829" weight="2.0" />
+      <edge source="枸杞子" target="菟丝子" id="1830" weight="2.0" />
+      <edge source="冬瓜仁" target="芦根" id="1831" weight="2.0" />
+      <edge source="甘遂" target="京大戟" id="1832" weight="3.0" />
+      <edge source="甘遂" target="芫花" id="1833" weight="2.0" />
+      <edge source="水蛭" target="虻虫" id="1834" weight="3.0" />
+      <edge source="续断" target="全蝎" id="1835" weight="2.0" />
+      <edge source="白头翁" target="秦皮" id="1836" weight="2.0" />
+      <edge source="赤石脂" target="禹余粮" id="1837" weight="2.0" />
+      <edge source="赤石脂" target="紫石英" id="1838" weight="2.0" />
+      <edge source="川楝子" target="巴豆" id="1839" weight="2.0" />
+      <edge source="川楝子" target="丁香" id="1840" weight="2.0" />
+      <edge source="川楝子" target="小茴香" id="1841" weight="4.0" />
+      <edge source="川楝子" target="延胡索" id="1842" weight="3.0" />
+      <edge source="丁香" target="小茴香" id="1843" weight="2.0" />
+      <edge source="小茴香" target="巴豆" id="1844" weight="2.0" />
+      <edge source="莪术" target="三棱" id="1845" weight="3.0" />
+      <edge source="京大戟" target="芫花" id="1846" weight="2.0" />
+      <edge source="天葵子" target="紫花地丁" id="1847" weight="2.0" />
+      <edge source="天葵子" target="蒲公英" id="1848" weight="2.0" />
+      <edge source="天葵子" target="野菊花" id="1849" weight="2.0" />
+      <edge source="紫花地丁" target="蒲公英" id="1850" weight="2.0" />
+      <edge source="紫花地丁" target="野菊花" id="1851" weight="2.0" />
+      <edge source="蒲公英" target="野菊花" id="1852" weight="2.0" />
+      <edge source="乌药" target="益智仁" id="1853" weight="2.0" />
+      <edge source="大蓟" target="小蓟" id="1854" weight="2.0" />
+      <edge source="冰片" target="犀角" id="1855" weight="2.0" />
+      <edge source="冰片" target="安息香" id="1856" weight="2.0" />
+      <edge source="安息香" target="犀角" id="1857" weight="2.0" />
+      <edge source="薤白" target="酒" id="1858" weight="2.0" />
+      <edge source="侧柏叶" target="荷叶" id="1859" weight="2.0" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,7 +1,7 @@
 {
   "dataset": "dataset1",
   "total_questions": 100,
-  "model_count": 8,
+  "model_count": 9,
   "model_error_counts": {
     "gpt-5.4": 3,
     "o3": 11,
@@ -10,6 +10,7 @@
     "gemini-3.1-pro-preview": 20,
     "claude-sonnet-4-6": 4,
     "qwen3.5-plus": 1,
+    "baichuan-m3-plus": 2,
     "zhongjing": 63
   },
   "top10_error_questions": [
@@ -25,7 +26,7 @@
       },
       "gold_answer": "A",
       "gold_answer_text": "知母、黄柏、滑石",
-      "error_count": 5,
+      "error_count": 6,
       "error_models": [
         {
           "model": "gpt-5.4",
@@ -71,6 +72,15 @@
           "gold_answer": "A",
           "gold_answer_text": "知母、黄柏、滑石",
           "model_response": "B"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "B",
+          "predicted_answer_text": "白芍、人参、白术、陈皮、茯苓、当归、桂心、甘草、熟地、远志、五味子",
+          "gold_answer": "A",
+          "gold_answer_text": "知母、黄柏、滑石",
+          "model_response": "根据提供的参考资料，**没有提及“斩梦丹”及其组成**。因此，无法从材料中确认其正确组成。\n\n在缺乏可靠依据的情况下，不能编造或推测答案。\n\n然而，基于题目要求必须选择一个选项，且材料中未提供任何关于“斩梦丹”的信息，**所有选项均无法验证**。\n\n但进一步分析选项内容：\n\n- 选项B包含“人参、白术、茯苓、当归、熟地、远志、五味子”等，这些是**归脾汤**的常见组成，而归脾汤在材料中有明确记载。\n\n在文档7的表格中明确列出：\n\n> **归脾汤（《正体类要》）**：白术、人参、黄花（多）、当归、多甘草、获苓、远志、酸本仁（炒）、木香、龙眼肉、生姜、大本 ^[7]^\n\n虽然不完全一致，但与选项B高度相似。\n\n其余选项：\n\n- A：知母、黄柏为知柏地黄丸核心，滑石为六一散成分，不匹配。\n- C：生地、丹皮、黄连、当归、升麻，类似清胃散，但不完全一致。\n- D：大黄、芒硝为承气类方，葶苈子、苦杏仁见于星萎承气汤等，但非“斩梦丹”。\n\n综合判断，**“斩梦丹”并非经典方剂**，而选项B最接近归脾汤类补益方，可能为误记或别名。\n\n但根据材料，**无任何文献提及“斩梦丹”**。\n\n因此，**无法确定正确答案**。\n\n但根据题目要求，必须选择一项。\n\n**最可能的情况是题目有误或“斩梦丹”为虚构方剂**。\n\n在无依据情况下，**不选D**，因D与“星萎承气汤”接近，材料中确有此方：\n\n> **星萎承气汤**：全瓜萎、胆南星、生大黄、芒硝 ^[8]^\n\nD选项为“大黄、葶苈子、芒硝、苦杏仁”——其中**葶苈子**不在原方中，应为“胆南星”，且无“苦杏仁”。\n\n因此D错误。\n\n综上，**无正确选项可选**。\n\n但若必须选，**B最接近常见方剂组成**。\n\n最终选择：**B**"
         }
       ]
     },
@@ -329,6 +339,49 @@
           "gold_answer": "C",
           "gold_answer_text": "治妊娠气壅，身体腹胁浮肿，气喘息促，大便难，小便涩。",
           "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "type": "方剂名匹配主治病症",
+      "question": "方剂“针头丸”对应的治疗病症是下列哪一项？",
+      "options": {
+        "A": "俱根据本方减人参，加荆芥、防风治之，名荆防败毒散。",
+        "B": "治目赤，疼痛不可忍者。",
+        "C": "用于阴虚血热，月经先期，经血量多、色紫黑，赤白带下。 【用途用量】 口服，一次6g，一日2次。 【储藏】 密闭，防潮。",
+        "D": "伤寒汗后，胃阳虚弱，水饮内停，心下痞硬，肠鸣下利；妊娠恶阻，噤口痢。现用于胃下垂、胃扩张、慢性胃炎等属胃阳虚弱，水饮内停者。"
+      },
+      "gold_answer": "B",
+      "gold_answer_text": "治目赤，疼痛不可忍者。",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "B",
+          "gold_answer_text": "治目赤，疼痛不可忍者。",
+          "model_response": null
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "D",
+          "predicted_answer_text": "伤寒汗后，胃阳虚弱，水饮内停，心下痞硬，肠鸣下利；妊娠恶阻，噤口痢。现用于胃下垂、胃扩张、慢性胃炎等属胃阳虚弱，水饮内停者。",
+          "gold_answer": "B",
+          "gold_answer_text": "治目赤，疼痛不可忍者。",
+          "model_response": "D"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "D",
+          "predicted_answer_text": "伤寒汗后，胃阳虚弱，水饮内停，心下痞硬，肠鸣下利；妊娠恶阻，噤口痢。现用于胃下垂、胃扩张、慢性胃炎等属胃阳虚弱，水饮内停者。",
+          "gold_answer": "B",
+          "gold_answer_text": "治目赤，疼痛不可忍者。",
+          "model_response": "D"
         }
       ]
     },
@@ -408,40 +461,6 @@
           "model_response": "A"
         }
       ]
-    },
-    {
-      "id": 40,
-      "type": "方剂名匹配组成",
-      "question": "方剂“干姜人参半夏丸”的正确组成是下列哪一项？",
-      "options": {
-        "A": "干姜、党参、半夏",
-        "B": "金银花、当归、地榆、麦冬、玄参、甘草、薏苡仁、黄芩",
-        "C": "半夏、天南星、枳实、赤茯苓、橘红、甘草",
-        "D": "桃仁、苦杏仁、柏子仁、松子仁、郁李仁"
-      },
-      "gold_answer": "A",
-      "gold_answer_text": "干姜、党参、半夏",
-      "error_count": 2,
-      "error_models": [
-        {
-          "model": "gemini-3.1-pro-preview",
-          "model_display_name": "Gemini-3.1-Pro-Preview",
-          "predicted_answer": null,
-          "predicted_answer_text": "",
-          "gold_answer": "A",
-          "gold_answer_text": "干姜、党参、半夏",
-          "model_response": null
-        },
-        {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
-          "predicted_answer": "C",
-          "predicted_answer_text": "半夏、天南星、枳实、赤茯苓、橘红、甘草",
-          "gold_answer": "A",
-          "gold_answer_text": "干姜、党参、半夏",
-          "model_response": "C"
-        }
-      ]
     }
   ],
   "all_ranked_error_questions": [
@@ -457,7 +476,7 @@
       },
       "gold_answer": "A",
       "gold_answer_text": "知母、黄柏、滑石",
-      "error_count": 5,
+      "error_count": 6,
       "error_models": [
         {
           "model": "gpt-5.4",
@@ -503,6 +522,15 @@
           "gold_answer": "A",
           "gold_answer_text": "知母、黄柏、滑石",
           "model_response": "B"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "B",
+          "predicted_answer_text": "白芍、人参、白术、陈皮、茯苓、当归、桂心、甘草、熟地、远志、五味子",
+          "gold_answer": "A",
+          "gold_answer_text": "知母、黄柏、滑石",
+          "model_response": "根据提供的参考资料，**没有提及“斩梦丹”及其组成**。因此，无法从材料中确认其正确组成。\n\n在缺乏可靠依据的情况下，不能编造或推测答案。\n\n然而，基于题目要求必须选择一个选项，且材料中未提供任何关于“斩梦丹”的信息，**所有选项均无法验证**。\n\n但进一步分析选项内容：\n\n- 选项B包含“人参、白术、茯苓、当归、熟地、远志、五味子”等，这些是**归脾汤**的常见组成，而归脾汤在材料中有明确记载。\n\n在文档7的表格中明确列出：\n\n> **归脾汤（《正体类要》）**：白术、人参、黄花（多）、当归、多甘草、获苓、远志、酸本仁（炒）、木香、龙眼肉、生姜、大本 ^[7]^\n\n虽然不完全一致，但与选项B高度相似。\n\n其余选项：\n\n- A：知母、黄柏为知柏地黄丸核心，滑石为六一散成分，不匹配。\n- C：生地、丹皮、黄连、当归、升麻，类似清胃散，但不完全一致。\n- D：大黄、芒硝为承气类方，葶苈子、苦杏仁见于星萎承气汤等，但非“斩梦丹”。\n\n综合判断，**“斩梦丹”并非经典方剂**，而选项B最接近归脾汤类补益方，可能为误记或别名。\n\n但根据材料，**无任何文献提及“斩梦丹”**。\n\n因此，**无法确定正确答案**。\n\n但根据题目要求，必须选择一项。\n\n**最可能的情况是题目有误或“斩梦丹”为虚构方剂**。\n\n在无依据情况下，**不选D**，因D与“星萎承气汤”接近，材料中确有此方：\n\n> **星萎承气汤**：全瓜萎、胆南星、生大黄、芒硝 ^[8]^\n\nD选项为“大黄、葶苈子、芒硝、苦杏仁”——其中**葶苈子**不在原方中，应为“胆南星”，且无“苦杏仁”。\n\n因此D错误。\n\n综上，**无正确选项可选**。\n\n但若必须选，**B最接近常见方剂组成**。\n\n最终选择：**B**"
         }
       ]
     },
@@ -761,6 +789,49 @@
           "gold_answer": "C",
           "gold_answer_text": "治妊娠气壅，身体腹胁浮肿，气喘息促，大便难，小便涩。",
           "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "type": "方剂名匹配主治病症",
+      "question": "方剂“针头丸”对应的治疗病症是下列哪一项？",
+      "options": {
+        "A": "俱根据本方减人参，加荆芥、防风治之，名荆防败毒散。",
+        "B": "治目赤，疼痛不可忍者。",
+        "C": "用于阴虚血热，月经先期，经血量多、色紫黑，赤白带下。 【用途用量】 口服，一次6g，一日2次。 【储藏】 密闭，防潮。",
+        "D": "伤寒汗后，胃阳虚弱，水饮内停，心下痞硬，肠鸣下利；妊娠恶阻，噤口痢。现用于胃下垂、胃扩张、慢性胃炎等属胃阳虚弱，水饮内停者。"
+      },
+      "gold_answer": "B",
+      "gold_answer_text": "治目赤，疼痛不可忍者。",
+      "error_count": 3,
+      "error_models": [
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": null,
+          "predicted_answer_text": "",
+          "gold_answer": "B",
+          "gold_answer_text": "治目赤，疼痛不可忍者。",
+          "model_response": null
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "D",
+          "predicted_answer_text": "伤寒汗后，胃阳虚弱，水饮内停，心下痞硬，肠鸣下利；妊娠恶阻，噤口痢。现用于胃下垂、胃扩张、慢性胃炎等属胃阳虚弱，水饮内停者。",
+          "gold_answer": "B",
+          "gold_answer_text": "治目赤，疼痛不可忍者。",
+          "model_response": "D"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "D",
+          "predicted_answer_text": "伤寒汗后，胃阳虚弱，水饮内停，心下痞硬，肠鸣下利；妊娠恶阻，噤口痢。现用于胃下垂、胃扩张、慢性胃炎等属胃阳虚弱，水饮内停者。",
+          "gold_answer": "B",
+          "gold_answer_text": "治目赤，疼痛不可忍者。",
+          "model_response": "D"
         }
       ]
     },
@@ -1246,40 +1317,6 @@
           "gold_answer": "B",
           "gold_answer_text": "癫痫、风瘫。突然仆卧倒地，筋脉拘急，两目上视，喉中痰鸣，神志不清，舌红苔黄腻，脉滑者。",
           "model_response": "A"
-        }
-      ]
-    },
-    {
-      "id": 90,
-      "type": "方剂名匹配主治病症",
-      "question": "方剂“针头丸”对应的治疗病症是下列哪一项？",
-      "options": {
-        "A": "俱根据本方减人参，加荆芥、防风治之，名荆防败毒散。",
-        "B": "治目赤，疼痛不可忍者。",
-        "C": "用于阴虚血热，月经先期，经血量多、色紫黑，赤白带下。 【用途用量】 口服，一次6g，一日2次。 【储藏】 密闭，防潮。",
-        "D": "伤寒汗后，胃阳虚弱，水饮内停，心下痞硬，肠鸣下利；妊娠恶阻，噤口痢。现用于胃下垂、胃扩张、慢性胃炎等属胃阳虚弱，水饮内停者。"
-      },
-      "gold_answer": "B",
-      "gold_answer_text": "治目赤，疼痛不可忍者。",
-      "error_count": 2,
-      "error_models": [
-        {
-          "model": "deepseek-v3.2",
-          "model_display_name": "DeepSeek-V3.2",
-          "predicted_answer": null,
-          "predicted_answer_text": "",
-          "gold_answer": "B",
-          "gold_answer_text": "治目赤，疼痛不可忍者。",
-          "model_response": null
-        },
-        {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
-          "predicted_answer": "D",
-          "predicted_answer_text": "伤寒汗后，胃阳虚弱，水饮内停，心下痞硬，肠鸣下利；妊娠恶阻，噤口痢。现用于胃下垂、胃扩张、慢性胃炎等属胃阳虚弱，水饮内停者。",
-          "gold_answer": "B",
-          "gold_answer_text": "治目赤，疼痛不可忍者。",
-          "model_response": "D"
         }
       ]
     },
@@ -3064,6 +3101,28 @@
         "predicted_answer": "B",
         "predicted_answer_text": "白芍、人参、白术、陈皮、茯苓、当归、桂心、甘草、熟地、远志、五味子",
         "model_response": "B"
+      }
+    ],
+    "baichuan-m3-plus": [
+      {
+        "id": 5,
+        "type": "方剂名匹配组成",
+        "question": "方剂“斩梦丹”的正确组成是下列哪一项？",
+        "gold_answer": "A",
+        "gold_answer_text": "知母、黄柏、滑石",
+        "predicted_answer": "B",
+        "predicted_answer_text": "白芍、人参、白术、陈皮、茯苓、当归、桂心、甘草、熟地、远志、五味子",
+        "model_response": "根据提供的参考资料，**没有提及“斩梦丹”及其组成**。因此，无法从材料中确认其正确组成。\n\n在缺乏可靠依据的情况下，不能编造或推测答案。\n\n然而，基于题目要求必须选择一个选项，且材料中未提供任何关于“斩梦丹”的信息，**所有选项均无法验证**。\n\n但进一步分析选项内容：\n\n- 选项B包含“人参、白术、茯苓、当归、熟地、远志、五味子”等，这些是**归脾汤**的常见组成，而归脾汤在材料中有明确记载。\n\n在文档7的表格中明确列出：\n\n> **归脾汤（《正体类要》）**：白术、人参、黄花（多）、当归、多甘草、获苓、远志、酸本仁（炒）、木香、龙眼肉、生姜、大本 ^[7]^\n\n虽然不完全一致，但与选项B高度相似。\n\n其余选项：\n\n- A：知母、黄柏为知柏地黄丸核心，滑石为六一散成分，不匹配。\n- C：生地、丹皮、黄连、当归、升麻，类似清胃散，但不完全一致。\n- D：大黄、芒硝为承气类方，葶苈子、苦杏仁见于星萎承气汤等，但非“斩梦丹”。\n\n综合判断，**“斩梦丹”并非经典方剂**，而选项B最接近归脾汤类补益方，可能为误记或别名。\n\n但根据材料，**无任何文献提及“斩梦丹”**。\n\n因此，**无法确定正确答案**。\n\n但根据题目要求，必须选择一项。\n\n**最可能的情况是题目有误或“斩梦丹”为虚构方剂**。\n\n在无依据情况下，**不选D**，因D与“星萎承气汤”接近，材料中确有此方：\n\n> **星萎承气汤**：全瓜萎、胆南星、生大黄、芒硝 ^[8]^\n\nD选项为“大黄、葶苈子、芒硝、苦杏仁”——其中**葶苈子**不在原方中，应为“胆南星”，且无“苦杏仁”。\n\n因此D错误。\n\n综上，**无正确选项可选**。\n\n但若必须选，**B最接近常见方剂组成**。\n\n最终选择：**B**"
+      },
+      {
+        "id": 90,
+        "type": "方剂名匹配主治病症",
+        "question": "方剂“针头丸”对应的治疗病症是下列哪一项？",
+        "gold_answer": "B",
+        "gold_answer_text": "治目赤，疼痛不可忍者。",
+        "predicted_answer": "D",
+        "predicted_answer_text": "伤寒汗后，胃阳虚弱，水饮内停，心下痞硬，肠鸣下利；妊娠恶阻，噤口痢。现用于胃下垂、胃扩张、慢性胃炎等属胃阳虚弱，水饮内停者。",
+        "model_response": "D"
       }
     ],
     "zhongjing": [

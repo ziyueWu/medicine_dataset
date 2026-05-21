@@ -20,6 +20,7 @@ MODEL_NAMES = [
     "gemini-3.1-pro-preview",
     "claude-sonnet-4-6",
     "qwen3.5-plus",
+    "baichuan-m3-plus",
     "zhongjing",
 ]
 
@@ -32,6 +33,7 @@ MODEL_DISPLAY_NAMES = {
     "claude-sonnet-4-6": "Claude-Sonnet-4.6",
     "qwen3.5-plus": "Qwen3.5-Plus",
     "zhongjing": "仲景",
+    "baichuan-m3-plus": "百川"
 }
 
 

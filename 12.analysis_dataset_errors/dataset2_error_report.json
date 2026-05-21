@@ -1,7 +1,7 @@
 {
   "dataset": "dataset2",
   "total_questions": 100,
-  "model_count": 8,
+  "model_count": 9,
   "model_error_counts": {
     "gpt-5.4": 6,
     "o3": 11,
@@ -10,6 +10,7 @@
     "gemini-3.1-pro-preview": 7,
     "claude-sonnet-4-6": 3,
     "qwen3.5-plus": 3,
+    "baichuan-m3-plus": 2,
     "zhongjing": 44
   },
   "top10_error_questions": [
@@ -89,6 +90,110 @@
           "gold_answer": "C",
           "gold_answer_text": "西红花",
           "model_response": "A"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“泽泻散”缺失的药材：泽泻、桑白皮、____、枳壳、赤茯苓、槟榔",
+      "options": {
+        "A": "木通",
+        "B": "陈仓米",
+        "C": "葶苈子",
+        "D": "千年健"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "木通",
+      "error_count": 4,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "C",
+          "predicted_answer_text": "葶苈子",
+          "gold_answer": "A",
+          "gold_answer_text": "木通",
+          "model_response": "C"
+        },
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": "C",
+          "predicted_answer_text": "葶苈子",
+          "gold_answer": "A",
+          "gold_answer_text": "木通",
+          "model_response": "C"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "C",
+          "predicted_answer_text": "葶苈子",
+          "gold_answer": "A",
+          "gold_answer_text": "木通",
+          "model_response": "C\n\n我建议您进一步查阅该方剂在水肿及痰饮病中的临床应用与配伍规律，以及相关安全性研究。您需要我帮您检索这方面的权威文献吗？"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "葶苈子",
+          "gold_answer": "A",
+          "gold_answer_text": "木通",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“三物白散”缺失的药材：桔梗、巴豆、____",
+      "options": {
+        "A": "大蓟",
+        "B": "大皂角",
+        "C": "乳香$没药",
+        "D": "川贝母"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "川贝母",
+      "error_count": 4,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "B",
+          "predicted_answer_text": "大皂角",
+          "gold_answer": "D",
+          "gold_answer_text": "川贝母",
+          "model_response": "B"
+        },
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": "B",
+          "predicted_answer_text": "大皂角",
+          "gold_answer": "D",
+          "gold_answer_text": "川贝母",
+          "model_response": "B"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "B",
+          "predicted_answer_text": "大皂角",
+          "gold_answer": "D",
+          "gold_answer_text": "川贝母",
+          "model_response": "B"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "乳香$没药",
+          "gold_answer": "D",
+          "gold_answer_text": "川贝母",
+          "model_response": "C"
         }
       ]
     },
@@ -175,92 +280,6 @@
           "gold_answer": "C",
           "gold_answer_text": "防己",
           "model_response": "A"
-        }
-      ]
-    },
-    {
-      "id": 64,
-      "type": "方剂组成补全",
-      "question": "请补全方剂“泽泻散”缺失的药材：泽泻、桑白皮、____、枳壳、赤茯苓、槟榔",
-      "options": {
-        "A": "木通",
-        "B": "陈仓米",
-        "C": "葶苈子",
-        "D": "千年健"
-      },
-      "gold_answer": "A",
-      "gold_answer_text": "木通",
-      "error_count": 3,
-      "error_models": [
-        {
-          "model": "gpt-5.4",
-          "model_display_name": "GPT-5.4",
-          "predicted_answer": "C",
-          "predicted_answer_text": "葶苈子",
-          "gold_answer": "A",
-          "gold_answer_text": "木通",
-          "model_response": "C"
-        },
-        {
-          "model": "o3",
-          "model_display_name": "O3",
-          "predicted_answer": "C",
-          "predicted_answer_text": "葶苈子",
-          "gold_answer": "A",
-          "gold_answer_text": "木通",
-          "model_response": "C"
-        },
-        {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
-          "predicted_answer": "C",
-          "predicted_answer_text": "葶苈子",
-          "gold_answer": "A",
-          "gold_answer_text": "木通",
-          "model_response": "C"
-        }
-      ]
-    },
-    {
-      "id": 70,
-      "type": "方剂组成补全",
-      "question": "请补全方剂“三物白散”缺失的药材：桔梗、巴豆、____",
-      "options": {
-        "A": "大蓟",
-        "B": "大皂角",
-        "C": "乳香$没药",
-        "D": "川贝母"
-      },
-      "gold_answer": "D",
-      "gold_answer_text": "川贝母",
-      "error_count": 3,
-      "error_models": [
-        {
-          "model": "gpt-5.4",
-          "model_display_name": "GPT-5.4",
-          "predicted_answer": "B",
-          "predicted_answer_text": "大皂角",
-          "gold_answer": "D",
-          "gold_answer_text": "川贝母",
-          "model_response": "B"
-        },
-        {
-          "model": "deepseek-v3.2",
-          "model_display_name": "DeepSeek-V3.2",
-          "predicted_answer": "B",
-          "predicted_answer_text": "大皂角",
-          "gold_answer": "D",
-          "gold_answer_text": "川贝母",
-          "model_response": "B"
-        },
-        {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
-          "predicted_answer": "C",
-          "predicted_answer_text": "乳香$没药",
-          "gold_answer": "D",
-          "gold_answer_text": "川贝母",
-          "model_response": "C"
         }
       ]
     },
@@ -525,6 +544,110 @@
       ]
     },
     {
+      "id": 64,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“泽泻散”缺失的药材：泽泻、桑白皮、____、枳壳、赤茯苓、槟榔",
+      "options": {
+        "A": "木通",
+        "B": "陈仓米",
+        "C": "葶苈子",
+        "D": "千年健"
+      },
+      "gold_answer": "A",
+      "gold_answer_text": "木通",
+      "error_count": 4,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "C",
+          "predicted_answer_text": "葶苈子",
+          "gold_answer": "A",
+          "gold_answer_text": "木通",
+          "model_response": "C"
+        },
+        {
+          "model": "o3",
+          "model_display_name": "O3",
+          "predicted_answer": "C",
+          "predicted_answer_text": "葶苈子",
+          "gold_answer": "A",
+          "gold_answer_text": "木通",
+          "model_response": "C"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "C",
+          "predicted_answer_text": "葶苈子",
+          "gold_answer": "A",
+          "gold_answer_text": "木通",
+          "model_response": "C\n\n我建议您进一步查阅该方剂在水肿及痰饮病中的临床应用与配伍规律，以及相关安全性研究。您需要我帮您检索这方面的权威文献吗？"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "葶苈子",
+          "gold_answer": "A",
+          "gold_answer_text": "木通",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "type": "方剂组成补全",
+      "question": "请补全方剂“三物白散”缺失的药材：桔梗、巴豆、____",
+      "options": {
+        "A": "大蓟",
+        "B": "大皂角",
+        "C": "乳香$没药",
+        "D": "川贝母"
+      },
+      "gold_answer": "D",
+      "gold_answer_text": "川贝母",
+      "error_count": 4,
+      "error_models": [
+        {
+          "model": "gpt-5.4",
+          "model_display_name": "GPT-5.4",
+          "predicted_answer": "B",
+          "predicted_answer_text": "大皂角",
+          "gold_answer": "D",
+          "gold_answer_text": "川贝母",
+          "model_response": "B"
+        },
+        {
+          "model": "deepseek-v3.2",
+          "model_display_name": "DeepSeek-V3.2",
+          "predicted_answer": "B",
+          "predicted_answer_text": "大皂角",
+          "gold_answer": "D",
+          "gold_answer_text": "川贝母",
+          "model_response": "B"
+        },
+        {
+          "model": "baichuan-m3-plus",
+          "model_display_name": "百川",
+          "predicted_answer": "B",
+          "predicted_answer_text": "大皂角",
+          "gold_answer": "D",
+          "gold_answer_text": "川贝母",
+          "model_response": "B"
+        },
+        {
+          "model": "zhongjing",
+          "model_display_name": "仲景",
+          "predicted_answer": "C",
+          "predicted_answer_text": "乳香$没药",
+          "gold_answer": "D",
+          "gold_answer_text": "川贝母",
+          "model_response": "C"
+        }
+      ]
+    },
+    {
       "id": 9,
       "type": "方剂组成补全",
       "question": "请补全方剂“疏凿饮子”缺失的药材：羌活、____、大腹皮、茯苓皮、花椒、木通、泽泻、商陆、赤小豆",
@@ -607,92 +730,6 @@
           "gold_answer": "C",
           "gold_answer_text": "防己",
           "model_response": "A"
-        }
-      ]
-    },
-    {
-      "id": 64,
-      "type": "方剂组成补全",
-      "question": "请补全方剂“泽泻散”缺失的药材：泽泻、桑白皮、____、枳壳、赤茯苓、槟榔",
-      "options": {
-        "A": "木通",
-        "B": "陈仓米",
-        "C": "葶苈子",
-        "D": "千年健"
-      },
-      "gold_answer": "A",
-      "gold_answer_text": "木通",
-      "error_count": 3,
-      "error_models": [
-        {
-          "model": "gpt-5.4",
-          "model_display_name": "GPT-5.4",
-          "predicted_answer": "C",
-          "predicted_answer_text": "葶苈子",
-          "gold_answer": "A",
-          "gold_answer_text": "木通",
-          "model_response": "C"
-        },
-        {
-          "model": "o3",
-          "model_display_name": "O3",
-          "predicted_answer": "C",
-          "predicted_answer_text": "葶苈子",
-          "gold_answer": "A",
-          "gold_answer_text": "木通",
-          "model_response": "C"
-        },
-        {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
-          "predicted_answer": "C",
-          "predicted_answer_text": "葶苈子",
-          "gold_answer": "A",
-          "gold_answer_text": "木通",
-          "model_response": "C"
-        }
-      ]
-    },
-    {
-      "id": 70,
-      "type": "方剂组成补全",
-      "question": "请补全方剂“三物白散”缺失的药材：桔梗、巴豆、____",
-      "options": {
-        "A": "大蓟",
-        "B": "大皂角",
-        "C": "乳香$没药",
-        "D": "川贝母"
-      },
-      "gold_answer": "D",
-      "gold_answer_text": "川贝母",
-      "error_count": 3,
-      "error_models": [
-        {
-          "model": "gpt-5.4",
-          "model_display_name": "GPT-5.4",
-          "predicted_answer": "B",
-          "predicted_answer_text": "大皂角",
-          "gold_answer": "D",
-          "gold_answer_text": "川贝母",
-          "model_response": "B"
-        },
-        {
-          "model": "deepseek-v3.2",
-          "model_display_name": "DeepSeek-V3.2",
-          "predicted_answer": "B",
-          "predicted_answer_text": "大皂角",
-          "gold_answer": "D",
-          "gold_answer_text": "川贝母",
-          "model_response": "B"
-        },
-        {
-          "model": "zhongjing",
-          "model_display_name": "仲景",
-          "predicted_answer": "C",
-          "predicted_answer_text": "乳香$没药",
-          "gold_answer": "D",
-          "gold_answer_text": "川贝母",
-          "model_response": "C"
         }
       ]
     },
@@ -2476,6 +2513,28 @@
         "predicted_answer": "A",
         "predicted_answer_text": "蜀漆",
         "model_response": "A"
+      }
+    ],
+    "baichuan-m3-plus": [
+      {
+        "id": 64,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“泽泻散”缺失的药材：泽泻、桑白皮、____、枳壳、赤茯苓、槟榔",
+        "gold_answer": "A",
+        "gold_answer_text": "木通",
+        "predicted_answer": "C",
+        "predicted_answer_text": "葶苈子",
+        "model_response": "C\n\n我建议您进一步查阅该方剂在水肿及痰饮病中的临床应用与配伍规律，以及相关安全性研究。您需要我帮您检索这方面的权威文献吗？"
+      },
+      {
+        "id": 70,
+        "type": "方剂组成补全",
+        "question": "请补全方剂“三物白散”缺失的药材：桔梗、巴豆、____",
+        "gold_answer": "D",
+        "gold_answer_text": "川贝母",
+        "predicted_answer": "B",
+        "predicted_answer_text": "大皂角",
+        "model_response": "B"
       }
     ],
     "zhongjing": [

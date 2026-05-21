@@ -10,12 +10,12 @@
         80,
         81,
         82,
+        90,
         91,
-        38,
-        40
+        38
       ],
       "top10_error_counts": [
-        5,
+        6,
         3,
         3,
         3,
@@ -23,7 +23,7 @@
         3,
         3,
         3,
-        2,
+        3,
         2
       ],
       "model_error_counts": {
@@ -34,6 +34,7 @@
         "gemini-3.1-pro-preview": 20,
         "claude-sonnet-4-6": 4,
         "qwen3.5-plus": 1,
+        "baichuan-m3-plus": 2,
         "zhongjing": 63
       }
     },
@@ -41,10 +42,10 @@
       "dataset": "dataset2",
       "top10_question_ids": [
         38,
-        9,
-        33,
         64,
         70,
+        9,
+        33,
         92,
         25,
         32,
@@ -53,8 +54,8 @@
       ],
       "top10_error_counts": [
         7,
-        3,
-        3,
+        4,
+        4,
         3,
         3,
         3,
@@ -71,6 +72,7 @@
         "gemini-3.1-pro-preview": 7,
         "claude-sonnet-4-6": 3,
         "qwen3.5-plus": 3,
+        "baichuan-m3-plus": 2,
         "zhongjing": 44
       }
     },
@@ -78,26 +80,26 @@
       "dataset": "dataset3",
       "top10_question_ids": [
         30,
-        4,
         64,
+        4,
         10,
+        96,
         63,
         73,
         85,
-        96,
         2,
-        22
+        5
       ],
       "top10_error_counts": [
+        9,
         8,
         7,
         7,
+        7,
         6,
         6,
         6,
-        6,
-        6,
-        4,
+        5,
         4
       ],
       "model_error_counts": {
@@ -108,6 +110,7 @@
         "gemini-3.1-pro-preview": 11,
         "claude-sonnet-4-6": 9,
         "qwen3.5-plus": 14,
+        "baichuan-m3-plus": 22,
         "zhongjing": 51
       }
     }
@@ -120,6 +123,7 @@
     "gemini-3.1-pro-preview": 38,
     "claude-sonnet-4-6": 16,
     "qwen3.5-plus": 18,
+    "baichuan-m3-plus": 26,
     "zhongjing": 158
   }
 }

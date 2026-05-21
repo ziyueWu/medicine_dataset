@@ -1,0 +1,2045 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-05-19">
+    <creator>NetworkX 2.6.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="3" title="added_herbs" type="string" />
+      <attribute id="4" title="deleted_herbs" type="string" />
+      <attribute id="5" title="added_count" type="long" />
+      <attribute id="6" title="deleted_count" type="long" />
+      <attribute id="7" title="edit_distance" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="formula_name" type="string" />
+      <attribute id="1" title="components" type="string" />
+      <attribute id="2" title="component_count" type="long" />
+    </attributes>
+    <nodes>
+      <node id="六一散" label="六一散">
+        <attvalues>
+          <attvalue for="0" value="六一散" />
+          <attvalue for="1" value="滑石;甘草" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="益元散" label="益元散">
+        <attvalues>
+          <attvalue for="0" value="益元散" />
+          <attvalue for="1" value="朱砂;滑石;甘草" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="碧玉散" label="碧玉散">
+        <attvalues>
+          <attvalue for="0" value="碧玉散" />
+          <attvalue for="1" value="滑石;甘草;青黛" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="参附汤" label="参附汤">
+        <attvalues>
+          <attvalue for="0" value="参附汤" />
+          <attvalue for="1" value="人参;附子" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="四逆加人参汤" label="四逆加人参汤">
+        <attvalues>
+          <attvalue for="0" value="四逆加人参汤" />
+          <attvalue for="1" value="人参;干姜;甘草;附子" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="温脾汤" label="温脾汤">
+        <attvalues>
+          <attvalue for="0" value="温脾汤" />
+          <attvalue for="1" value="人参;大黄;干姜;甘草;附子" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="茯苓四逆汤" label="茯苓四逆汤">
+        <attvalues>
+          <attvalue for="0" value="茯苓四逆汤" />
+          <attvalue for="1" value="人参;干姜;甘草;茯苓;附子" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="左金丸" label="左金丸">
+        <attvalues>
+          <attvalue for="0" value="左金丸" />
+          <attvalue for="1" value="吴茱萸;黄连" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="戊己丸" label="戊己丸">
+        <attvalues>
+          <attvalue for="0" value="戊己丸" />
+          <attvalue for="1" value="吴茱萸;白芍;黄连" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="香连丸" label="香连丸">
+        <attvalues>
+          <attvalue for="0" value="香连丸" />
+          <attvalue for="1" value="吴茱萸;木香;黄连" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="干姜附子汤" label="干姜附子汤">
+        <attvalues>
+          <attvalue for="0" value="干姜附子汤" />
+          <attvalue for="1" value="干姜;附子" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="四逆汤" label="四逆汤">
+        <attvalues>
+          <attvalue for="0" value="四逆汤" />
+          <attvalue for="1" value="干姜;甘草;附子" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="白通汤" label="白通汤">
+        <attvalues>
+          <attvalue for="0" value="白通汤" />
+          <attvalue for="1" value="干姜;葱白;附子" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="通脉四逆汤" label="通脉四逆汤">
+        <attvalues>
+          <attvalue for="0" value="通脉四逆汤" />
+          <attvalue for="1" value="干姜;甘草;附子" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="乌头赤石脂丸" label="乌头赤石脂丸">
+        <attvalues>
+          <attvalue for="0" value="乌头赤石脂丸" />
+          <attvalue for="1" value="干姜;花椒;草乌头;赤石脂;附子" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="白通加猪胆汁汤" label="白通加猪胆汁汤">
+        <attvalues>
+          <attvalue for="0" value="白通加猪胆汁汤" />
+          <attvalue for="1" value="人尿;干姜;猪胆汁;葱白;附子" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="当归补血汤" label="当归补血汤">
+        <attvalues>
+          <attvalue for="0" value="当归补血汤" />
+          <attvalue for="1" value="当归;黄芪" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="圣愈汤" label="圣愈汤">
+        <attvalues>
+          <attvalue for="0" value="圣愈汤" />
+          <attvalue for="1" value="川芎;当归;黄芪" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="神效托里散" label="神效托里散">
+        <attvalues>
+          <attvalue for="0" value="神效托里散" />
+          <attvalue for="1" value="当归;忍冬藤;甘草;黄芪" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="枳实芍药散" label="枳实芍药散">
+        <attvalues>
+          <attvalue for="0" value="枳实芍药散" />
+          <attvalue for="1" value="枳实;芍药" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="四逆散" label="四逆散">
+        <attvalues>
+          <attvalue for="0" value="四逆散" />
+          <attvalue for="1" value="枳实;柴胡;甘草;芍药" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="枳术丸" label="枳术丸">
+        <attvalues>
+          <attvalue for="0" value="枳术丸" />
+          <attvalue for="1" value="枳实;白术" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="曲蘗枳术丸" label="曲蘗枳术丸">
+        <attvalues>
+          <attvalue for="0" value="曲蘗枳术丸" />
+          <attvalue for="1" value="枳实;白术;神曲;麦曲" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="橘半枳术丸" label="橘半枳术丸">
+        <attvalues>
+          <attvalue for="0" value="橘半枳术丸" />
+          <attvalue for="1" value="半夏;枳实;白术;陈皮" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="栀子豉汤" label="栀子豉汤">
+        <attvalues>
+          <attvalue for="0" value="栀子豉汤" />
+          <attvalue for="1" value="栀子;淡豆豉" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="栀子甘草豉汤" label="栀子甘草豉汤">
+        <attvalues>
+          <attvalue for="0" value="栀子甘草豉汤" />
+          <attvalue for="1" value="栀子;淡豆豉;甘草" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="栀子生姜豉汤" label="栀子生姜豉汤">
+        <attvalues>
+          <attvalue for="0" value="栀子生姜豉汤" />
+          <attvalue for="1" value="栀子;淡豆豉;生姜" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="栀子大黄汤" label="栀子大黄汤">
+        <attvalues>
+          <attvalue for="0" value="栀子大黄汤" />
+          <attvalue for="1" value="大黄;枳实;栀子;淡豆豉" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="桂枝甘草汤" label="桂枝甘草汤">
+        <attvalues>
+          <attvalue for="0" value="桂枝甘草汤" />
+          <attvalue for="1" value="桂枝;甘草" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="桂枝甘草龙骨牡蛎汤" label="桂枝甘草龙骨牡蛎汤">
+        <attvalues>
+          <attvalue for="0" value="桂枝甘草龙骨牡蛎汤" />
+          <attvalue for="1" value="桂枝;牡蛎;甘草;龙骨" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="甘草附子汤" label="甘草附子汤">
+        <attvalues>
+          <attvalue for="0" value="甘草附子汤" />
+          <attvalue for="1" value="桂枝;甘草;白术;附子" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="苓桂术甘汤" label="苓桂术甘汤">
+        <attvalues>
+          <attvalue for="0" value="苓桂术甘汤" />
+          <attvalue for="1" value="桂枝;甘草;白术;茯苓" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="茯苓甘草汤" label="茯苓甘草汤">
+        <attvalues>
+          <attvalue for="0" value="茯苓甘草汤" />
+          <attvalue for="1" value="桂枝;甘草;生姜;茯苓" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="防己地黄汤" label="防己地黄汤">
+        <attvalues>
+          <attvalue for="0" value="防己地黄汤" />
+          <attvalue for="1" value="桂枝;甘草;防己;防风" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="麻黄汤" label="麻黄汤">
+        <attvalues>
+          <attvalue for="0" value="麻黄汤" />
+          <attvalue for="1" value="桂枝;甘草;苦杏仁;麻黄" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="桂枝人参汤" label="桂枝人参汤">
+        <attvalues>
+          <attvalue for="0" value="桂枝人参汤" />
+          <attvalue for="1" value="人参;干姜;桂枝;甘草;白术" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="桂枝加桂汤" label="桂枝加桂汤">
+        <attvalues>
+          <attvalue for="0" value="桂枝加桂汤" />
+          <attvalue for="1" value="大枣;桂枝;甘草;生姜;芍药" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="桂枝汤" label="桂枝汤">
+        <attvalues>
+          <attvalue for="0" value="桂枝汤" />
+          <attvalue for="1" value="大枣;桂枝;甘草;生姜;芍药" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="桂枝附子汤" label="桂枝附子汤">
+        <attvalues>
+          <attvalue for="0" value="桂枝附子汤" />
+          <attvalue for="1" value="大枣;桂枝;甘草;生姜;附子" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="桃核承气汤" label="桃核承气汤">
+        <attvalues>
+          <attvalue for="0" value="桃核承气汤" />
+          <attvalue for="1" value="大黄;桂枝;桃仁;甘草;芒硝" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="白虎加桂枝汤" label="白虎加桂枝汤">
+        <attvalues>
+          <attvalue for="0" value="白虎加桂枝汤" />
+          <attvalue for="1" value="桂枝;甘草;知母;石膏;粳米" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="防己茯苓汤" label="防己茯苓汤">
+        <attvalues>
+          <attvalue for="0" value="防己茯苓汤" />
+          <attvalue for="1" value="桂枝;甘草;茯苓;防己;黄芪" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="麻黄加术汤" label="麻黄加术汤">
+        <attvalues>
+          <attvalue for="0" value="麻黄加术汤" />
+          <attvalue for="1" value="桂枝;甘草;白术;苦杏仁;麻黄" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="泽泻汤" label="泽泻汤">
+        <attvalues>
+          <attvalue for="0" value="泽泻汤" />
+          <attvalue for="1" value="泽泻;白术" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="五苓散" label="五苓散">
+        <attvalues>
+          <attvalue for="0" value="五苓散" />
+          <attvalue for="1" value="桂枝;泽泻;猪苓;白术;茯苓" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="百合滑石散" label="百合滑石散">
+        <attvalues>
+          <attvalue for="0" value="百合滑石散" />
+          <attvalue for="1" value="滑石;百合" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="滑石代赭汤" label="滑石代赭汤">
+        <attvalues>
+          <attvalue for="0" value="滑石代赭汤" />
+          <attvalue for="1" value="滑石;百合;赭石" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="芍药甘草汤" label="芍药甘草汤">
+        <attvalues>
+          <attvalue for="0" value="芍药甘草汤" />
+          <attvalue for="1" value="甘草;芍药" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="芍药甘草附子汤" label="芍药甘草附子汤">
+        <attvalues>
+          <attvalue for="0" value="芍药甘草附子汤" />
+          <attvalue for="1" value="甘草;芍药;附子" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="升麻葛根汤" label="升麻葛根汤">
+        <attvalues>
+          <attvalue for="0" value="升麻葛根汤" />
+          <attvalue for="1" value="升麻;甘草;芍药;葛根" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="黄芩汤" label="黄芩汤">
+        <attvalues>
+          <attvalue for="0" value="黄芩汤" />
+          <attvalue for="1" value="大枣;甘草;芍药;黄芩" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="乌头汤" label="乌头汤">
+        <attvalues>
+          <attvalue for="0" value="乌头汤" />
+          <attvalue for="1" value="甘草;芍药;草乌头;麻黄;黄芪" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="三拗汤" label="三拗汤">
+        <attvalues>
+          <attvalue for="0" value="三拗汤" />
+          <attvalue for="1" value="甘草;苦杏仁;麻黄" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="麻黄杏仁薏苡甘草汤" label="麻黄杏仁薏苡甘草汤">
+        <attvalues>
+          <attvalue for="0" value="麻黄杏仁薏苡甘草汤" />
+          <attvalue for="1" value="甘草;苦杏仁;薏苡仁;麻黄" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="厚朴大黄汤" label="厚朴大黄汤">
+        <attvalues>
+          <attvalue for="0" value="厚朴大黄汤" />
+          <attvalue for="1" value="厚朴;大黄;枳实" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="大承气汤" label="大承气汤">
+        <attvalues>
+          <attvalue for="0" value="大承气汤" />
+          <attvalue for="1" value="厚朴;大黄;枳实;芒硝" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="麻子仁丸" label="麻子仁丸">
+        <attvalues>
+          <attvalue for="0" value="麻子仁丸" />
+          <attvalue for="1" value="厚朴;大黄;枳实;火麻仁;芍药;苦杏仁" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="泽兰散" label="泽兰散">
+        <attvalues>
+          <attvalue for="0" value="泽兰散" />
+          <attvalue for="1" value="干姜;泽兰;甘草;石膏;防风;附子" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="增液汤" label="增液汤">
+        <attvalues>
+          <attvalue for="0" value="增液汤" />
+          <attvalue for="1" value="玄参;生地;麦冬" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="增液承气汤" label="增液承气汤">
+        <attvalues>
+          <attvalue for="0" value="增液承气汤" />
+          <attvalue for="1" value="大黄;玄参;生地;芒硝;麦冬" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="小承气汤" label="小承气汤">
+        <attvalues>
+          <attvalue for="0" value="小承气汤" />
+          <attvalue for="1" value="厚朴;大黄;枳实" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="桂枝去芍药汤" label="桂枝去芍药汤">
+        <attvalues>
+          <attvalue for="0" value="桂枝去芍药汤" />
+          <attvalue for="1" value="大枣;甘草;生姜" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="桂枝去芍药加附子汤" label="桂枝去芍药加附子汤">
+        <attvalues>
+          <attvalue for="0" value="桂枝去芍药加附子汤" />
+          <attvalue for="1" value="大枣;甘草;生姜;肉桂;附子" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="白术附子汤" label="白术附子汤">
+        <attvalues>
+          <attvalue for="0" value="白术附子汤" />
+          <attvalue for="1" value="大枣;甘草;生姜;白术;附子" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="越婢汤" label="越婢汤">
+        <attvalues>
+          <attvalue for="0" value="越婢汤" />
+          <attvalue for="1" value="大枣;甘草;生姜;石膏;麻黄" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="乌头桂枝汤" label="乌头桂枝汤">
+        <attvalues>
+          <attvalue for="0" value="乌头桂枝汤" />
+          <attvalue for="1" value="大枣;桂枝;甘草;生姜;芍药;草乌头" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="小建中汤" label="小建中汤">
+        <attvalues>
+          <attvalue for="0" value="小建中汤" />
+          <attvalue for="1" value="大枣;桂枝;甘草;生姜;芍药;饴糖" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="枣肉平胃散" label="枣肉平胃散">
+        <attvalues>
+          <attvalue for="0" value="枣肉平胃散" />
+          <attvalue for="1" value="厚朴;大枣;甘草;生姜;苍术;陈皮" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="栝楼桂枝汤" label="栝楼桂枝汤">
+        <attvalues>
+          <attvalue for="0" value="栝楼桂枝汤" />
+          <attvalue for="1" value="大枣;天花粉;桂枝;甘草;生姜;芍药" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="桂枝加大黄汤" label="桂枝加大黄汤">
+        <attvalues>
+          <attvalue for="0" value="桂枝加大黄汤" />
+          <attvalue for="1" value="大枣;大黄;桂枝;甘草;生姜;芍药" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="桂枝加葛根汤" label="桂枝加葛根汤">
+        <attvalues>
+          <attvalue for="0" value="桂枝加葛根汤" />
+          <attvalue for="1" value="大枣;桂枝;甘草;生姜;芍药;葛根" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="桂枝加附子汤" label="桂枝加附子汤">
+        <attvalues>
+          <attvalue for="0" value="桂枝加附子汤" />
+          <attvalue for="1" value="大枣;甘草;生姜;白术;肉桂;附子" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="桂枝新加汤" label="桂枝新加汤">
+        <attvalues>
+          <attvalue for="0" value="桂枝新加汤" />
+          <attvalue for="1" value="人参;大枣;桂枝;甘草;生姜;芍药" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="橘皮竹茹汤" label="橘皮竹茹汤">
+        <attvalues>
+          <attvalue for="0" value="橘皮竹茹汤" />
+          <attvalue for="1" value="人参;大枣;甘草;生姜;竹茹;陈皮" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="越婢加半夏汤" label="越婢加半夏汤">
+        <attvalues>
+          <attvalue for="0" value="越婢加半夏汤" />
+          <attvalue for="1" value="半夏;大枣;甘草;生姜;石膏;麻黄" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="黄芩加半夏生姜汤" label="黄芩加半夏生姜汤">
+        <attvalues>
+          <attvalue for="0" value="黄芩加半夏生姜汤" />
+          <attvalue for="1" value="半夏;大枣;甘草;生姜;芍药;黄芩" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="泻心汤" label="泻心汤">
+        <attvalues>
+          <attvalue for="0" value="泻心汤" />
+          <attvalue for="1" value="大黄;黄芩;黄连" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="附子泻心汤" label="附子泻心汤">
+        <attvalues>
+          <attvalue for="0" value="附子泻心汤" />
+          <attvalue for="1" value="大黄;附子;黄芩;黄连" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="瓜蒌薤白白酒汤" label="瓜蒌薤白白酒汤">
+        <attvalues>
+          <attvalue for="0" value="瓜蒌薤白白酒汤" />
+          <attvalue for="1" value="瓜蒌子;薤白;酒" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="瓜蒌薤白半夏汤" label="瓜蒌薤白半夏汤">
+        <attvalues>
+          <attvalue for="0" value="瓜蒌薤白半夏汤" />
+          <attvalue for="1" value="半夏;瓜蒌子;薤白;酒" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="调胃承气汤" label="调胃承气汤">
+        <attvalues>
+          <attvalue for="0" value="调胃承气汤" />
+          <attvalue for="1" value="大黄;甘草;芒硝" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="四君子汤" label="四君子汤">
+        <attvalues>
+          <attvalue for="0" value="四君子汤" />
+          <attvalue for="1" value="人参;甘草;白术;茯苓" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="异功散" label="异功散">
+        <attvalues>
+          <attvalue for="0" value="异功散" />
+          <attvalue for="1" value="人参;甘草;白术;茯苓;陈皮" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="理中化痰丸" label="理中化痰丸">
+        <attvalues>
+          <attvalue for="0" value="理中化痰丸" />
+          <attvalue for="1" value="人参;半夏;干姜;甘草;白术;茯苓" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="抵当汤" label="抵当汤">
+        <attvalues>
+          <attvalue for="0" value="抵当汤" />
+          <attvalue for="1" value="大黄;桃仁;水蛭;虻虫" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="蟅虫散" label="蟅虫散">
+        <attvalues>
+          <attvalue for="0" value="蟅虫散" />
+          <attvalue for="1" value="土鳖虫;大黄;桂心;桃仁;水蛭;虻虫" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="桂枝去芍药加蜀漆牡蛎龙骨救逆汤" label="桂枝去芍药加蜀漆牡蛎龙骨救逆汤">
+        <attvalues>
+          <attvalue for="0" value="桂枝去芍药加蜀漆牡蛎龙骨救逆汤" />
+          <attvalue for="1" value="大枣;桂枝;牡蛎;甘草;生姜;蜀漆;龙骨" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="理中丸" label="理中丸">
+        <attvalues>
+          <attvalue for="0" value="理中丸" />
+          <attvalue for="1" value="人参;干姜;甘草;白术" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="甘草干姜茯苓白术汤" label="甘草干姜茯苓白术汤">
+        <attvalues>
+          <attvalue for="0" value="甘草干姜茯苓白术汤" />
+          <attvalue for="1" value="干姜;甘草;白术;茯苓" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="白头翁汤" label="白头翁汤">
+        <attvalues>
+          <attvalue for="0" value="白头翁汤" />
+          <attvalue for="1" value="白头翁;秦皮;黄柏;黄连" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="白头翁加甘草阿胶汤" label="白头翁加甘草阿胶汤">
+        <attvalues>
+          <attvalue for="0" value="白头翁加甘草阿胶汤" />
+          <attvalue for="1" value="甘草;白头翁;秦皮;阿胶;黄柏;黄连" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="大青龙汤" label="大青龙汤">
+        <attvalues>
+          <attvalue for="0" value="大青龙汤" />
+          <attvalue for="1" value="大枣;桂枝;甘草;生姜;石膏;苦杏仁;麻黄" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="桂枝二麻黄一汤" label="桂枝二麻黄一汤">
+        <attvalues>
+          <attvalue for="0" value="桂枝二麻黄一汤" />
+          <attvalue for="1" value="大枣;桂枝;甘草;生姜;芍药;苦杏仁;麻黄" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="桂枝麻黄各半汤" label="桂枝麻黄各半汤">
+        <attvalues>
+          <attvalue for="0" value="桂枝麻黄各半汤" />
+          <attvalue for="1" value="大枣;桂枝;甘草;生姜;芍药;苦杏仁;麻黄" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="黄连解毒汤" label="黄连解毒汤">
+        <attvalues>
+          <attvalue for="0" value="黄连解毒汤" />
+          <attvalue for="1" value="栀子;黄柏;黄芩;黄连" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </node>
+      <node id="石膏汤" label="石膏汤">
+        <attvalues>
+          <attvalue for="0" value="石膏汤" />
+          <attvalue for="1" value="栀子;淡豆豉;石膏;麻黄;黄柏;黄芩;黄连" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="五仁润肠丸" label="五仁润肠丸">
+        <attvalues>
+          <attvalue for="0" value="五仁润肠丸" />
+          <attvalue for="1" value="松子仁;柏子仁;桃仁;苦杏仁;郁李仁" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </node>
+      <node id="五仁丸" label="五仁丸">
+        <attvalues>
+          <attvalue for="0" value="五仁丸" />
+          <attvalue for="1" value="松子仁;柏子仁;桃仁;苦杏仁;郁李仁;陈皮" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </node>
+      <node id="桂枝二越婢一汤" label="桂枝二越婢一汤">
+        <attvalues>
+          <attvalue for="0" value="桂枝二越婢一汤" />
+          <attvalue for="1" value="大枣;桂枝;甘草;生姜;石膏;芍药;麻黄" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="桂枝加厚朴杏子汤" label="桂枝加厚朴杏子汤">
+        <attvalues>
+          <attvalue for="0" value="桂枝加厚朴杏子汤" />
+          <attvalue for="1" value="厚朴;大枣;桂枝;甘草;生姜;芍药;苦杏仁" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="葛根汤" label="葛根汤">
+        <attvalues>
+          <attvalue for="0" value="葛根汤" />
+          <attvalue for="1" value="大枣;桂枝;甘草;生姜;芍药;葛根;麻黄" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="黄芪建中汤" label="黄芪建中汤">
+        <attvalues>
+          <attvalue for="0" value="黄芪建中汤" />
+          <attvalue for="1" value="大枣;桂枝;甘草;生姜;芍药;饴糖;黄芪" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="葛根加半夏汤" label="葛根加半夏汤">
+        <attvalues>
+          <attvalue for="0" value="葛根加半夏汤" />
+          <attvalue for="1" value="半夏;大枣;桂枝;甘草;生姜;芍药;葛根;麻黄" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </node>
+      <node id="半夏泻心汤" label="半夏泻心汤">
+        <attvalues>
+          <attvalue for="0" value="半夏泻心汤" />
+          <attvalue for="1" value="人参;半夏;大枣;干姜;甘草;黄芩;黄连" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="生姜泻心汤" label="生姜泻心汤">
+        <attvalues>
+          <attvalue for="0" value="生姜泻心汤" />
+          <attvalue for="1" value="人参;半夏;大枣;干姜;甘草;生姜;黄芩;黄连" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </node>
+      <node id="小柴胡汤" label="小柴胡汤">
+        <attvalues>
+          <attvalue for="0" value="小柴胡汤" />
+          <attvalue for="1" value="人参;半夏;大枣;柴胡;甘草;生姜;黄芩" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="柴胡桂枝汤" label="柴胡桂枝汤">
+        <attvalues>
+          <attvalue for="0" value="柴胡桂枝汤" />
+          <attvalue for="1" value="人参;半夏;大枣;柴胡;桂枝;甘草;生姜;白芍;黄芩" />
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </node>
+      <node id="甘草泻心汤" label="甘草泻心汤">
+        <attvalues>
+          <attvalue for="0" value="甘草泻心汤" />
+          <attvalue for="1" value="人参;半夏;大枣;干姜;甘草;黄芩;黄连" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </node>
+      <node id="逍遥散" label="逍遥散">
+        <attvalues>
+          <attvalue for="0" value="逍遥散" />
+          <attvalue for="1" value="当归;柴胡;炮姜;甘草;白术;白芍;茯苓;薄荷" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </node>
+      <node id="加味逍遥散" label="加味逍遥散">
+        <attvalues>
+          <attvalue for="0" value="加味逍遥散" />
+          <attvalue for="1" value="当归;柴胡;栀子;炮姜;牡丹皮;甘草;白术;白芍;茯苓;薄荷" />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="六一散" target="益元散" id="0">
+        <attvalues>
+          <attvalue for="3" value="朱砂" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="六一散" target="碧玉散" id="1">
+        <attvalues>
+          <attvalue for="3" value="青黛" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="参附汤" target="四逆加人参汤" id="2">
+        <attvalues>
+          <attvalue for="3" value="干姜;甘草" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="参附汤" target="温脾汤" id="3">
+        <attvalues>
+          <attvalue for="3" value="大黄;干姜;甘草" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="参附汤" target="茯苓四逆汤" id="4">
+        <attvalues>
+          <attvalue for="3" value="干姜;甘草;茯苓" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="四逆加人参汤" target="温脾汤" id="5">
+        <attvalues>
+          <attvalue for="3" value="大黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="四逆加人参汤" target="茯苓四逆汤" id="6">
+        <attvalues>
+          <attvalue for="3" value="茯苓" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="左金丸" target="戊己丸" id="7">
+        <attvalues>
+          <attvalue for="3" value="白芍" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="左金丸" target="香连丸" id="8">
+        <attvalues>
+          <attvalue for="3" value="木香" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="干姜附子汤" target="四逆汤" id="9">
+        <attvalues>
+          <attvalue for="3" value="甘草" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="干姜附子汤" target="白通汤" id="10">
+        <attvalues>
+          <attvalue for="3" value="葱白" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="干姜附子汤" target="通脉四逆汤" id="11">
+        <attvalues>
+          <attvalue for="3" value="甘草" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="干姜附子汤" target="四逆加人参汤" id="12">
+        <attvalues>
+          <attvalue for="3" value="人参;甘草" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="干姜附子汤" target="乌头赤石脂丸" id="13">
+        <attvalues>
+          <attvalue for="3" value="花椒;草乌头;赤石脂" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="干姜附子汤" target="温脾汤" id="14">
+        <attvalues>
+          <attvalue for="3" value="人参;大黄;甘草" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="干姜附子汤" target="白通加猪胆汁汤" id="15">
+        <attvalues>
+          <attvalue for="3" value="人尿;猪胆汁;葱白" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="干姜附子汤" target="茯苓四逆汤" id="16">
+        <attvalues>
+          <attvalue for="3" value="人参;甘草;茯苓" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="四逆汤" target="四逆加人参汤" id="17">
+        <attvalues>
+          <attvalue for="3" value="人参" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="四逆汤" target="温脾汤" id="18">
+        <attvalues>
+          <attvalue for="3" value="人参;大黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="四逆汤" target="茯苓四逆汤" id="19">
+        <attvalues>
+          <attvalue for="3" value="人参;茯苓" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="四逆汤" target="泽兰散" id="20">
+        <attvalues>
+          <attvalue for="3" value="泽兰;石膏;防风" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="白通汤" target="白通加猪胆汁汤" id="21">
+        <attvalues>
+          <attvalue for="3" value="人尿;猪胆汁" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="通脉四逆汤" target="四逆加人参汤" id="22">
+        <attvalues>
+          <attvalue for="3" value="人参" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="通脉四逆汤" target="温脾汤" id="23">
+        <attvalues>
+          <attvalue for="3" value="人参;大黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="通脉四逆汤" target="茯苓四逆汤" id="24">
+        <attvalues>
+          <attvalue for="3" value="人参;茯苓" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="通脉四逆汤" target="泽兰散" id="25">
+        <attvalues>
+          <attvalue for="3" value="泽兰;石膏;防风" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="当归补血汤" target="圣愈汤" id="26">
+        <attvalues>
+          <attvalue for="3" value="川芎" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="当归补血汤" target="神效托里散" id="27">
+        <attvalues>
+          <attvalue for="3" value="忍冬藤;甘草" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="枳实芍药散" target="四逆散" id="28">
+        <attvalues>
+          <attvalue for="3" value="柴胡;甘草" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="枳术丸" target="曲蘗枳术丸" id="29">
+        <attvalues>
+          <attvalue for="3" value="神曲;麦曲" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="枳术丸" target="橘半枳术丸" id="30">
+        <attvalues>
+          <attvalue for="3" value="半夏;陈皮" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="栀子豉汤" target="栀子甘草豉汤" id="31">
+        <attvalues>
+          <attvalue for="3" value="甘草" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="栀子豉汤" target="栀子生姜豉汤" id="32">
+        <attvalues>
+          <attvalue for="3" value="生姜" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="栀子豉汤" target="栀子大黄汤" id="33">
+        <attvalues>
+          <attvalue for="3" value="大黄;枳实" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝甘草汤" target="桂枝甘草龙骨牡蛎汤" id="34">
+        <attvalues>
+          <attvalue for="3" value="牡蛎;龙骨" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝甘草汤" target="甘草附子汤" id="35">
+        <attvalues>
+          <attvalue for="3" value="白术;附子" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝甘草汤" target="苓桂术甘汤" id="36">
+        <attvalues>
+          <attvalue for="3" value="白术;茯苓" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝甘草汤" target="茯苓甘草汤" id="37">
+        <attvalues>
+          <attvalue for="3" value="生姜;茯苓" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝甘草汤" target="防己地黄汤" id="38">
+        <attvalues>
+          <attvalue for="3" value="防己;防风" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝甘草汤" target="麻黄汤" id="39">
+        <attvalues>
+          <attvalue for="3" value="苦杏仁;麻黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝甘草汤" target="桂枝人参汤" id="40">
+        <attvalues>
+          <attvalue for="3" value="人参;干姜;白术" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝甘草汤" target="桂枝加桂汤" id="41">
+        <attvalues>
+          <attvalue for="3" value="大枣;生姜;芍药" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝甘草汤" target="桂枝汤" id="42">
+        <attvalues>
+          <attvalue for="3" value="大枣;生姜;芍药" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝甘草汤" target="桂枝附子汤" id="43">
+        <attvalues>
+          <attvalue for="3" value="大枣;生姜;附子" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝甘草汤" target="桃核承气汤" id="44">
+        <attvalues>
+          <attvalue for="3" value="大黄;桃仁;芒硝" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝甘草汤" target="白虎加桂枝汤" id="45">
+        <attvalues>
+          <attvalue for="3" value="知母;石膏;粳米" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝甘草汤" target="防己茯苓汤" id="46">
+        <attvalues>
+          <attvalue for="3" value="茯苓;防己;黄芪" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝甘草汤" target="麻黄加术汤" id="47">
+        <attvalues>
+          <attvalue for="3" value="白术;苦杏仁;麻黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝甘草龙骨牡蛎汤" target="桂枝去芍药加蜀漆牡蛎龙骨救逆汤" id="48">
+        <attvalues>
+          <attvalue for="3" value="大枣;生姜;蜀漆" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="麻黄汤" target="麻黄加术汤" id="49">
+        <attvalues>
+          <attvalue for="3" value="白术" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="麻黄汤" target="大青龙汤" id="50">
+        <attvalues>
+          <attvalue for="3" value="大枣;生姜;石膏" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="麻黄汤" target="桂枝二麻黄一汤" id="51">
+        <attvalues>
+          <attvalue for="3" value="大枣;生姜;芍药" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="麻黄汤" target="桂枝麻黄各半汤" id="52">
+        <attvalues>
+          <attvalue for="3" value="大枣;生姜;芍药" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝加桂汤" target="乌头桂枝汤" id="53">
+        <attvalues>
+          <attvalue for="3" value="草乌头" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝加桂汤" target="小建中汤" id="54">
+        <attvalues>
+          <attvalue for="3" value="饴糖" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝加桂汤" target="栝楼桂枝汤" id="55">
+        <attvalues>
+          <attvalue for="3" value="天花粉" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝加桂汤" target="桂枝加大黄汤" id="56">
+        <attvalues>
+          <attvalue for="3" value="大黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝加桂汤" target="桂枝加葛根汤" id="57">
+        <attvalues>
+          <attvalue for="3" value="葛根" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝加桂汤" target="桂枝新加汤" id="58">
+        <attvalues>
+          <attvalue for="3" value="人参" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝加桂汤" target="桂枝二越婢一汤" id="59">
+        <attvalues>
+          <attvalue for="3" value="石膏;麻黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝加桂汤" target="桂枝二麻黄一汤" id="60">
+        <attvalues>
+          <attvalue for="3" value="苦杏仁;麻黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝加桂汤" target="桂枝加厚朴杏子汤" id="61">
+        <attvalues>
+          <attvalue for="3" value="厚朴;苦杏仁" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝加桂汤" target="桂枝麻黄各半汤" id="62">
+        <attvalues>
+          <attvalue for="3" value="苦杏仁;麻黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝加桂汤" target="葛根汤" id="63">
+        <attvalues>
+          <attvalue for="3" value="葛根;麻黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝加桂汤" target="黄芪建中汤" id="64">
+        <attvalues>
+          <attvalue for="3" value="饴糖;黄芪" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝加桂汤" target="葛根加半夏汤" id="65">
+        <attvalues>
+          <attvalue for="3" value="半夏;葛根;麻黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝汤" target="乌头桂枝汤" id="66">
+        <attvalues>
+          <attvalue for="3" value="草乌头" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝汤" target="小建中汤" id="67">
+        <attvalues>
+          <attvalue for="3" value="饴糖" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝汤" target="栝楼桂枝汤" id="68">
+        <attvalues>
+          <attvalue for="3" value="天花粉" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝汤" target="桂枝加大黄汤" id="69">
+        <attvalues>
+          <attvalue for="3" value="大黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝汤" target="桂枝加葛根汤" id="70">
+        <attvalues>
+          <attvalue for="3" value="葛根" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝汤" target="桂枝新加汤" id="71">
+        <attvalues>
+          <attvalue for="3" value="人参" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝汤" target="桂枝二越婢一汤" id="72">
+        <attvalues>
+          <attvalue for="3" value="石膏;麻黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝汤" target="桂枝二麻黄一汤" id="73">
+        <attvalues>
+          <attvalue for="3" value="苦杏仁;麻黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝汤" target="桂枝加厚朴杏子汤" id="74">
+        <attvalues>
+          <attvalue for="3" value="厚朴;苦杏仁" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝汤" target="桂枝麻黄各半汤" id="75">
+        <attvalues>
+          <attvalue for="3" value="苦杏仁;麻黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝汤" target="葛根汤" id="76">
+        <attvalues>
+          <attvalue for="3" value="葛根;麻黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝汤" target="黄芪建中汤" id="77">
+        <attvalues>
+          <attvalue for="3" value="饴糖;黄芪" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝汤" target="葛根加半夏汤" id="78">
+        <attvalues>
+          <attvalue for="3" value="半夏;葛根;麻黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="泽泻汤" target="五苓散" id="79">
+        <attvalues>
+          <attvalue for="3" value="桂枝;猪苓;茯苓" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="百合滑石散" target="滑石代赭汤" id="80">
+        <attvalues>
+          <attvalue for="3" value="赭石" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="芍药甘草汤" target="芍药甘草附子汤" id="81">
+        <attvalues>
+          <attvalue for="3" value="附子" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="芍药甘草汤" target="升麻葛根汤" id="82">
+        <attvalues>
+          <attvalue for="3" value="升麻;葛根" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="芍药甘草汤" target="四逆散" id="83">
+        <attvalues>
+          <attvalue for="3" value="枳实;柴胡" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="芍药甘草汤" target="黄芩汤" id="84">
+        <attvalues>
+          <attvalue for="3" value="大枣;黄芩" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="芍药甘草汤" target="乌头汤" id="85">
+        <attvalues>
+          <attvalue for="3" value="草乌头;麻黄;黄芪" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="芍药甘草汤" target="桂枝加桂汤" id="86">
+        <attvalues>
+          <attvalue for="3" value="大枣;桂枝;生姜" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="芍药甘草汤" target="桂枝汤" id="87">
+        <attvalues>
+          <attvalue for="3" value="大枣;桂枝;生姜" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="黄芩汤" target="黄芩加半夏生姜汤" id="88">
+        <attvalues>
+          <attvalue for="3" value="半夏;生姜" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="三拗汤" target="麻黄杏仁薏苡甘草汤" id="89">
+        <attvalues>
+          <attvalue for="3" value="薏苡仁" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="三拗汤" target="麻黄汤" id="90">
+        <attvalues>
+          <attvalue for="3" value="桂枝" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="三拗汤" target="麻黄加术汤" id="91">
+        <attvalues>
+          <attvalue for="3" value="桂枝;白术" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="厚朴大黄汤" target="大承气汤" id="92">
+        <attvalues>
+          <attvalue for="3" value="芒硝" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="厚朴大黄汤" target="麻子仁丸" id="93">
+        <attvalues>
+          <attvalue for="3" value="火麻仁;芍药;苦杏仁" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="增液汤" target="增液承气汤" id="94">
+        <attvalues>
+          <attvalue for="3" value="大黄;芒硝" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="小承气汤" target="大承气汤" id="95">
+        <attvalues>
+          <attvalue for="3" value="芒硝" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="小承气汤" target="麻子仁丸" id="96">
+        <attvalues>
+          <attvalue for="3" value="火麻仁;芍药;苦杏仁" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝去芍药汤" target="桂枝加桂汤" id="97">
+        <attvalues>
+          <attvalue for="3" value="桂枝;芍药" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝去芍药汤" target="桂枝去芍药加附子汤" id="98">
+        <attvalues>
+          <attvalue for="3" value="肉桂;附子" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝去芍药汤" target="桂枝汤" id="99">
+        <attvalues>
+          <attvalue for="3" value="桂枝;芍药" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝去芍药汤" target="桂枝附子汤" id="100">
+        <attvalues>
+          <attvalue for="3" value="桂枝;附子" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝去芍药汤" target="白术附子汤" id="101">
+        <attvalues>
+          <attvalue for="3" value="白术;附子" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝去芍药汤" target="越婢汤" id="102">
+        <attvalues>
+          <attvalue for="3" value="石膏;麻黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝去芍药汤" target="乌头桂枝汤" id="103">
+        <attvalues>
+          <attvalue for="3" value="桂枝;芍药;草乌头" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝去芍药汤" target="小建中汤" id="104">
+        <attvalues>
+          <attvalue for="3" value="桂枝;芍药;饴糖" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝去芍药汤" target="枣肉平胃散" id="105">
+        <attvalues>
+          <attvalue for="3" value="厚朴;苍术;陈皮" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝去芍药汤" target="栝楼桂枝汤" id="106">
+        <attvalues>
+          <attvalue for="3" value="天花粉;桂枝;芍药" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝去芍药汤" target="桂枝加大黄汤" id="107">
+        <attvalues>
+          <attvalue for="3" value="大黄;桂枝;芍药" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝去芍药汤" target="桂枝加葛根汤" id="108">
+        <attvalues>
+          <attvalue for="3" value="桂枝;芍药;葛根" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝去芍药汤" target="桂枝加附子汤" id="109">
+        <attvalues>
+          <attvalue for="3" value="白术;肉桂;附子" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝去芍药汤" target="桂枝新加汤" id="110">
+        <attvalues>
+          <attvalue for="3" value="人参;桂枝;芍药" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝去芍药汤" target="橘皮竹茹汤" id="111">
+        <attvalues>
+          <attvalue for="3" value="人参;竹茹;陈皮" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝去芍药汤" target="越婢加半夏汤" id="112">
+        <attvalues>
+          <attvalue for="3" value="半夏;石膏;麻黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝去芍药汤" target="黄芩加半夏生姜汤" id="113">
+        <attvalues>
+          <attvalue for="3" value="半夏;芍药;黄芩" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝去芍药加附子汤" target="桂枝加附子汤" id="114">
+        <attvalues>
+          <attvalue for="3" value="白术" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="白术附子汤" target="桂枝加附子汤" id="115">
+        <attvalues>
+          <attvalue for="3" value="肉桂" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="越婢汤" target="越婢加半夏汤" id="116">
+        <attvalues>
+          <attvalue for="3" value="半夏" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="越婢汤" target="大青龙汤" id="117">
+        <attvalues>
+          <attvalue for="3" value="桂枝;苦杏仁" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="越婢汤" target="桂枝二越婢一汤" id="118">
+        <attvalues>
+          <attvalue for="3" value="桂枝;芍药" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="小建中汤" target="黄芪建中汤" id="119">
+        <attvalues>
+          <attvalue for="3" value="黄芪" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝加葛根汤" target="葛根汤" id="120">
+        <attvalues>
+          <attvalue for="3" value="麻黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="桂枝加葛根汤" target="葛根加半夏汤" id="121">
+        <attvalues>
+          <attvalue for="3" value="半夏;麻黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="泻心汤" target="附子泻心汤" id="122">
+        <attvalues>
+          <attvalue for="3" value="附子" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="瓜蒌薤白白酒汤" target="瓜蒌薤白半夏汤" id="123">
+        <attvalues>
+          <attvalue for="3" value="半夏" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="调胃承气汤" target="桃核承气汤" id="124">
+        <attvalues>
+          <attvalue for="3" value="桂枝;桃仁" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="四君子汤" target="异功散" id="125">
+        <attvalues>
+          <attvalue for="3" value="陈皮" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="四君子汤" target="理中化痰丸" id="126">
+        <attvalues>
+          <attvalue for="3" value="半夏;干姜" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="抵当汤" target="蟅虫散" id="127">
+        <attvalues>
+          <attvalue for="3" value="土鳖虫;桂心" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="理中丸" target="桂枝人参汤" id="128">
+        <attvalues>
+          <attvalue for="3" value="桂枝" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="理中丸" target="理中化痰丸" id="129">
+        <attvalues>
+          <attvalue for="3" value="半夏;茯苓" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="甘草干姜茯苓白术汤" target="理中化痰丸" id="130">
+        <attvalues>
+          <attvalue for="3" value="人参;半夏" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="白头翁汤" target="白头翁加甘草阿胶汤" id="131">
+        <attvalues>
+          <attvalue for="3" value="甘草;阿胶" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="黄连解毒汤" target="石膏汤" id="132">
+        <attvalues>
+          <attvalue for="3" value="淡豆豉;石膏;麻黄" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="五仁润肠丸" target="五仁丸" id="133">
+        <attvalues>
+          <attvalue for="3" value="陈皮" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="葛根汤" target="葛根加半夏汤" id="134">
+        <attvalues>
+          <attvalue for="3" value="半夏" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="半夏泻心汤" target="生姜泻心汤" id="135">
+        <attvalues>
+          <attvalue for="3" value="生姜" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="小柴胡汤" target="柴胡桂枝汤" id="136">
+        <attvalues>
+          <attvalue for="3" value="桂枝;白芍" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="甘草泻心汤" target="生姜泻心汤" id="137">
+        <attvalues>
+          <attvalue for="3" value="生姜" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="逍遥散" target="加味逍遥散" id="138">
+        <attvalues>
+          <attvalue for="3" value="栀子;牡丹皮" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
